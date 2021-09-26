@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>斐讯 K2 刷入 Padavan 固件 | 𝓚𝓲𝓵𝓲𝓰's Blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="/css/dark.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-79939823-1','auto');ga('send','pageview');
+</script><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 5.4.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">斐讯 K2 刷入 Padavan 固件</h1><a id="logo" href="/.">𝓚𝓲𝓵𝓲𝓰's Blog</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">斐讯 K2 刷入 Padavan 固件</h1><div class="post-meta">2018-07-23</div><a class="disqus-comment-count" data-disqus-identifier="斐讯-K2-刷入-Padavan-固件/" href="/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/#disqus_thread"></a><div class="post-content"><blockquote>
+<p>WARNING: 本文基于斐讯 K2 PSG1218 路由器，固件版本 22.6.507.43 或 22.6.506.28，刷入固件为 RT-AC54U-GPIO-1-PSG1218-64M_3.4.3.9-099.trx。刷机须谨慎！</p>
+</blockquote>
+<!--- more --->
+
+<p>07.30 更新：</p>
+<p>降级到 V22.6.506.28 后，尝试了下 <a target="_blank" rel="noopener" href="https://huzibbs.ctfile.com/dir/120079-20196952-af15f2">路由器刷breed Web控制台助手v5.3版本修复测试版</a>，直接成功了 😄 。</p>
+<hr>
+<p>早在 16 年底就入手了斐讯 K2 路由器，之前也听说其会收集用户隐私，一直也没太在意，直到前天，因网页图片没加载出来，就把过滤广告的插件关了，然后就蹦出来斐讯的广告，见下图，我第一感觉就是是斐讯的路由器劫持了网页，植入了广告，当时就决定刷机，在此记下刷机过程。后来在微博上也看到有网友也遇到类似的问题，刷机后就没再碰到过。</p>
+<img src="/image/斐讯-K2-刷入-Padavan-固件/ad.PNG" style="zoom:30%" />
+
+<p>下面开始刷机过程。</p>
+<h2 id="0-准备工作"><a href="#0-准备工作" class="headerlink" title="0. 准备工作"></a>0. 准备工作</h2><p>注意：刷机时要断开路由器 WAN 口连接，通过 LAN 口与电脑连接，所以先准备好要用到的固件和工具！</p>
+<ul>
+<li>最新固件 <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1eT3hiz4">K2_V22.6.507.43.bin</a></li>
+<li>固件 <a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1pM2iOFD">K2_V22.6.506.28.bin</a></li>
+<li><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1eS5yQdG">RoutAckProV1B2.rar</a></li>
+<li><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1i4I9G6h">路由器刷breed Web控制台助手v4.8版本</a></li>
+<li>Padavan 固件 <a target="_blank" rel="noopener" href="https://opt.cn2qq.com/padavan/RT-AC54U-GPIO-1-PSG1218-64M_3.4.3.9-099.trx">RT-AC54U-GPIO-1-PSG1218-64M_3.4.3.9-099.trx</a></li>
+</ul>
+<p>（以上的工具都是需要 Windows 环境的，我用的 MacBook，所以又安装了虚拟机 VirtualBox，装了 Win10 系统，又在网上买了根网线转接头。😂）</p>
+<p>接下来就可以通过网线与电脑连接，开始刷机了。</p>
+<h2 id="1-降级至-V22-6-506-28"><a href="#1-降级至-V22-6-506-28" class="headerlink" title="1. 降级至 V22.6.506.28"></a>1. 降级至 V22.6.506.28</h2><p>（之前固件已经升级到最新版本 V22.6.507.43，尝试使用 <a target="_blank" rel="noopener" href="https://huzibbs.ctfile.com/dir/120079-20196952-af15f2">路由器刷breed Web控制台助手v5.3版本修复测试版</a> 来直接刷机，但是其在开启 telnet 后登录路由器失败，可能是不支持当前固件。）</p>
+<p>直接刷 K2_V22.6.506.28.bin 或 K2_V22.6.507.43.bin 都提示非法的固件 😂 ，WTF，然后把路由器恢复出厂设置，然后平刷最新固件 K2_V22.6.507.43.bin，成功了，再刷 K2_V22.6.506.28.bin，又成功了，It just works 🤷‍♂️。</p>
+<p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-1.jpg" alt="Screenshot-1"></p>
+<h2 id="2-开启-Telnet"><a href="#2-开启-Telnet" class="headerlink" title="2. 开启 Telnet"></a>2. 开启 Telnet</h2><p>由于我在尝试用「路由器刷breed Web控制台助手v5.3版本」刷时，此助手已经为路由器开好了 telnet。</p>
+<p>没开的可以用「RoutAckProV1B2」这个工具来开。</p>
+<h2 id="3-刷入-Bread"><a href="#3-刷入-Bread" class="headerlink" title="3. 刷入 Bread"></a>3. 刷入 Bread</h2><p>建议先关闭杀毒软件和防火墙，使用管理员身份运行「路由器刷breed Web控制台助手v4.8版本」，刷机方案选择：「通用方案[需要开启路由器telnet或ssh]」，其他不需改动，点开始刷机，等一两分钟即可完成，完成后弹出「是否自动进入bread Web控制台模式」的弹框，点是或否均可。至此可以说刷机已经成功了，可以根据个人喜好刷入各种固件了。</p>
+<p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-2.png" alt="Screenshot-2"></p>
+<p>在运行助手时，系统提示需要 <code>.NET Framework 3.5</code>，WTF，这个问题在很早前玩 Win8 时候就遇到过了，可以利用 DISM 离线安装 .NET Framework 3.5，首先要加载 ISO 镜像文件，在 Win10 开始菜单按钮上点击鼠标右键，选择其中的「Windows PowerShell（管理员）」，打开 PowerShell，输入以下命令即可（注意盘符）。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Dism /online /enable-feature /featurename:NetFX3 /All /Source:D:\sources\sxs /LimitAccess</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-刷入-Padavan-固件"><a href="#4-刷入-Padavan-固件" class="headerlink" title="4. 刷入 Padavan 固件"></a>4. 刷入 Padavan 固件</h2><p>首先，断开路由器电源，按住 reset 键不松手，插入电源后约 5s 再松手，在浏览器输入 <code>http://192.168.1.1</code>，即可进入 Breed Web 恢复控制台。</p>
+<p>刷机前最好先在 Breed Web 恢复控制台中的固件备份里备份下 EEPROM 和编程器固件，并恢复一下出厂设置，固件类型选「Config区（公版）」。</p>
+<p>接着就可以刷入 Padavan 固件了：固件更新 -&gt; 选中右侧固件 -&gt; 浏览找到固件点击上传即可。</p>
+<p>也可以使用「breed Web懒人工具助手内置版」（上面提到的那个弹框）。</p>
+<p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-3.png" alt="Screenshot-3"></p>
+<h2 id="5-路由器后台设置"><a href="#5-路由器后台设置" class="headerlink" title="5. 路由器后台设置"></a>5. 路由器后台设置</h2><p>先用 <code>ipconfig</code> 命令来查看本机 ip，以确定路由器后台地址。</p>
+<p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-4.png" alt="Screenshot-4"></p>
+<p>然后浏览器打开 <code>http://192.168.123.1</code>，默认管理员账号密码都是 <code>admin</code>。</p>
+<p>在 高级设置 -&gt; 外部网络（WAN）-&gt; 外网设置，外网连接类型选择「PPPoE：拨号」，在用户名称和用户密码输入框中输入宽带账号和密码，然后点击「应用本页设置」按钮，然后就可以上网了。</p>
+<p>其他设置根据自己需要进行设置。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><a target="_blank" rel="noopener" href="http://www.qqgzs.com/archives/k2-22-6-507-43.html">斐讯K2全版本刷机教程</a></li>
+<li><a target="_blank" rel="noopener" href="http://www.qqgzs.com/archives/k2-22-6-503.html">斐讯k2 22.6.503.31刷机教程</a></li>
+<li><a target="_blank" rel="noopener" href="https://weibo.com/ttarticle/p/show?id=2309404256031382347540&is_hot=1#_0">路由器刷breed Web控制台助手v5.0版本</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.ithome.com/html/win10/107493.htm">利用DISM离线安装.NET Framework 3.5</a></li>
+</ul>
+</div><div class="tags"><a href="/tags/K2/"><i class="fa fa-tag"></i>K2</a><a href="/tags/Padavan/"><i class="fa fa-tag"></i>Padavan</a></div><div class="post-nav"><a class="pre" href="/%E5%8D%A0%E4%BD%8D%E7%BA%A6%E6%9D%9F/">占位约束</a><a class="next" href="/Xcode-10-beta-%E7%BC%BA%E5%B0%91-libstdc-%E5%BA%93%E7%9A%84%E5%A4%84%E7%90%86/">Xcode 10 beta 缺少 libstdc++ 库的处理</a></div><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqusjs.css?v=1.0.0"><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqus.js?v=1.0.0"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://kiligwyu.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝓚𝓲𝓵𝓲𝓰\'s Blog',
+    identifier: '斐讯-K2-刷入-Padavan-固件/',
+    url: 'http://kiligwyu.com/斐讯-K2-刷入-Padavan-固件/',
+    title: '斐讯 K2 刷入 Padavan 固件',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/FlowerPassword/" style="font-size: 15px;">FlowerPassword</a> <a href="/tags/IB/" style="font-size: 15px;">IB</a> <a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/DateFormatter/" style="font-size: 15px;">DateFormatter</a> <a href="/tags/alfred/" style="font-size: 15px;">alfred</a> <a href="/tags/UI/" style="font-size: 15px;">UI</a> <a href="/tags/UITableView/" style="font-size: 15px;">UITableView</a> <a href="/tags/Auto-Layout/" style="font-size: 15px;">Auto Layout</a> <a href="/tags/Xcode-beta/" style="font-size: 15px;">Xcode-beta</a> <a href="/tags/libstdc/" style="font-size: 15px;">libstdc++</a> <a href="/tags/Sourcetree/" style="font-size: 15px;">Sourcetree</a> <a href="/tags/iOS/" style="font-size: 15px;">iOS</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/NSPasteboard/" style="font-size: 15px;">NSPasteboard</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/%E4%B9%A0%E9%A2%98/" style="font-size: 15px;">习题</a> <a href="/tags/archive/" style="font-size: 15px;">archive</a> <a href="/tags/export-ipa/" style="font-size: 15px;">export ipa</a> <a href="/tags/ios/" style="font-size: 15px;">ios</a> <a href="/tags/Terminal/" style="font-size: 15px;">Terminal</a> <a href="/tags/Aria2/" style="font-size: 15px;">Aria2</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/subtitles/" style="font-size: 15px;">subtitles</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Theme/" style="font-size: 15px;">Theme</a> <a href="/tags/iCollect/" style="font-size: 15px;">iCollect</a> <a href="/tags/iColor/" style="font-size: 15px;">iColor</a> <a href="/tags/blur/" style="font-size: 15px;">blur</a> <a href="/tags/swift/" style="font-size: 15px;">swift</a> <a href="/tags/extension/" style="font-size: 15px;">extension</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/FTP/" style="font-size: 15px;">FTP</a> <a href="/tags/%E8%BF%98%E5%8E%9F/" style="font-size: 15px;">还原</a> <a href="/tags/UIStackView/" style="font-size: 15px;">UIStackView</a> <a href="/tags/Today-Extension/" style="font-size: 15px;">Today Extension</a> <a href="/tags/Runtime/" style="font-size: 15px;">Runtime</a> <a href="/tags/UIAlertController/" style="font-size: 15px;">UIAlertController</a> <a href="/tags/InHouse/" style="font-size: 15px;">InHouse</a> <a href="/tags/AutoLayout/" style="font-size: 15px;">AutoLayout</a> <a href="/tags/Messages/" style="font-size: 15px;">Messages</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/K2/" style="font-size: 15px;">K2</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/NotificationCenter/" style="font-size: 15px;">NotificationCenter</a> <a href="/tags/issues/" style="font-size: 15px;">issues</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/%E5%89%91%E6%8C%87-Offer/" style="font-size: 15px;">剑指 Offer</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/run-xcode-11-on-big-sur/">在 macOS Big Sur 上运行 Xcode 11</a></li><li class="post-list-item"><a class="post-list-link" href="/macos-rsync/">macOS 文件同步</a></li><li class="post-list-item"><a class="post-list-link" href="/LayoutConstraints-unable-to-simultaneously-satisfy-constraints/">LayoutConstraints Unable to simultaneously satisfy constraints</a></li><li class="post-list-item"><a class="post-list-link" href="/scroll-to-row-for-UITableView-after-reloadData/">Scroll to row for UITableView after reloadData</a></li><li class="post-list-item"><a class="post-list-link" href="/removeArrangedSubview/">UIStackView 的 removeArrangedSubview 方法</a></li><li class="post-list-item"><a class="post-list-link" href="/Alfred-do-shell-script-with-administrator-privileges/">Alfred 以管理员身份执行脚本</a></li><li class="post-list-item"><a class="post-list-link" href="/fix-Xcode-source-editor-extension-not-visible-in-System-Preferences-Extensions/">Fix Xcode source editor extension not visible in System Preferences - Extensions</a></li><li class="post-list-item"><a class="post-list-link" href="/%E4%BC%98%E5%8C%96MicrosoftAutoUpdate%E4%B8%8B%E8%BD%BD%E6%85%A2%E7%9A%84%E9%97%AE%E9%A2%98/">优化 Microsoft AutoUpdate 下载慢的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/%E5%89%91%E6%8C%87Offer%E7%BC%96%E7%A8%8B%E9%A2%98inSwift/">剑指 Offer 编程题 in Swift</a></li><li class="post-list-item"><a class="post-list-link" href="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95inSwift/">数据结构和排序算法 in Swift</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2021 <a href="/." rel="nofollow">𝓚𝓲𝓵𝓲𝓰's Blog.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
