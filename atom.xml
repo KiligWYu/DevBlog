@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2022-03-07T05:43:29.868Z</updated>
+  <updated>2022-03-14T05:57:08.457Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #4</title>
+    <link href="http://kiligwyu.com/newsletter/4/"/>
+    <id>http://kiligwyu.com/newsletter/4/</id>
+    <published>2022-03-07T05:45:14.000Z</published>
+    <updated>2022-03-14T05:57:08.457Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi, 感谢订阅 Kilig 的碎周报，这里是碎周报第 4 期。</p><h2 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h2><p>我开发的每日自动更新必应壁纸的 macOS 小工具 <a href="https://apps.apple.com/us/app/id1573715683">Tapet</a> version 1.6.0 发布了。本次更新优化了状态栏图标的隐藏显示逻辑，增加了桌面图片更新的通知。欢迎下载使用。</p><!--- more ---><h2 id="播客"><a href="#播客" class="headerlink" title="播客"></a>播客</h2><ul><li>⭐️ <a href="https://podcasts.apple.com/us/podcast/whats-next-%E7%A7%91%E6%8A%80%E6%97%A9%E7%9F%A5%E9%81%93/id1494812579?i=1000553410716">S6E02｜对话 Parent Lab 创始人 Jill Li：职业女性不必恐婚恐育</a></li></ul><h2 id="App"><a href="#App" class="headerlink" title="App"></a>App</h2><ul><li>⭐️ <a href="https://www.youtube.com/watch?v=DxoGJBb1mWQ">YouTube - Randy Music - 我是如何使用 Logseq 的 | How do I use Logseq</a>，来源：<a href="https://twitter.com/randyloop/status/1501588790988918784">Twitter - @randyloop</a>。<br>之前也听过关于 Logseq 的一期播客，<a href="https://podcasts.apple.com/us/podcast/bytetalk/id1592076190?l=zh&i=1000546084004">跟 Logseq 的创造者天生聊聊 Logseq 的故事</a>，也很值得一听。<br>类似 Logseq 的笔记软件还有 <a href="https://obsidian.md/">Obsidian</a>，很早就听说了双链笔记、Obsidian、Logseq，上周想尝试下 Obsidian，装完玩了一下下就搁置了，看完这个视频，再次拿起 Obsidian，认真研究了一番，看看官方文档，探索下使用用法，配置一番，果然强大好用，之后记笔记就用 Obsidian 了。</li></ul><h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><ul><li><p><a href="https://github.com/TomWright/dasel">GitHub - Dasel</a></p><blockquote><p>Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.<br>Comparable to jq &#x2F; yq, but supports JSON, YAML, TOML, XML and CSV with zero runtime dependencies.</p></blockquote></li><li><p><a href="https://github.com/ryanoasis/nerd-fonts">Github - Nerd Font</a></p><blockquote><p>Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular ‘iconic fonts’ such as Font Awesome, Devicons, Octicons, and others.</p></blockquote></li><li><p><a href="https://www.yuque.com/greatghoul/remote">语雀 - greatghoul - 远程工作者</a><br>收录中国国内的远程工作资源或者对国内受众友好的国外远程资源。</p></li><li><p>🍉 <a href="https://github.com/Lakr233/Rayon/issues/30">Rayon Issue - 关于已有软件 ServerCat 的相关说明 #30</a><br>上一期的 newsletter 了也包含了 Rayon 的内容，在我看到 Rayon 时第一时间想到的也是 ServerCat，后来就看到两位开发者在推上吵架了，再后来就有了这个 issue。ServerCat 一早就买了，买了之后也是处于吃灰状态。两位开发者我都不认识，只是关注八爷时间要久一点。<br>这个 issue 也给我敲响了警钟，关于抄袭，要创新，关于使用开源库，要避免违反开源协议。我自己的几个 app 几乎未使用开源库，除了花密，下次更新时加上许可条款。</p></li></ul><h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><ul><li>⭐️ <a href="https://www.ftium4.com/ux-weekly-85.html">Newsletter - 体验碎周报第 85 期 (2022.3.7)</a></li><li>⭐️ <a href="http://m.nishuang.net/">Newsletter - 倪爽的“熊猫小学”邮件杂志</a></li><li>Figma 封禁所有被美国制裁的中国企业帐号，来源：<a href="https://twitter.com/ftium4/status/1502503627327344640">Twitter - @ftium4</a>。</li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul><li><p>⭐️ <a href="https://weibo.com/tv/show/1034:4741862867795995?from=old_pc_videoshow">微博视频 - 西方对中国的认知作战早在十年前就成功过一次了（鱼翅无删减版）</a>，来源：<a href="https://m.weibo.cn/status/4742266244045127">微博 - @Easy</a>。</p></li><li><p>💬 <a href="https://zhuanlan.zhihu.com/p/476663368">知乎 - 雷鸟电视揭底，无广告还是纯营销？</a><br>很多国产电视是很便宜性价比高，如果你忍受的了无穷无尽的广告的话。我年前也买了电视，毫不犹豫地选择了 SONY，大家电还是得老牌大厂。</p></li><li><p>💬 <a href="https://www.v2ex.com/t/838599">v2ex - 大家都是怎么开始逐渐放弃自己的兴趣爱好的</a>，<a href="http://blog.beartalking.com/more-movies-and-books-when-young/">Bear Blog - 年轻时应该多看片多看书</a>。<br>有同感的人似乎大有人在，单身时自由，时间充裕，婚后有了娃后，个人时间被大大挤压或占用，真的是连不被打扰的看一部电影的时间都没有 😂。最近媳妇儿在看<a href="https://movie.douban.com/subject/35423605/">《我们的婚姻》</a>，我也陪着看了两眼，也是讲事业和家庭 balance，工作和生活 balance，自己和自己(不同角色，纯粹自我、父亲、丈夫等) balance，都需要自己去慢慢找到平衡点。</p></li><li><p>⭐️  <a href="https://www.apple.com.cn/apple-events/march-2022/">Apple 特别活动</a><br>这次没有熬夜看，而是第二天上午看了回放。『M1 Ultra 那么强，解压 Xcode 要多久？能玩游戏吗？预览 SwiftUI 能不卡吗？』😄</p></li><li><p>⭐️ <a href="http://m.kuancaipu.com/">美食作家王刚的宽菜谱网站</a>，来源：<a href="https://twitter.com/ftium4/status/1501452005616676864">Twitter - @ftium4</a>。<br>之前还看到一个 <a href="https://github.com/Anduin2017/HowToCook">程序员在家做饭方法指南</a> 的开源项目，也不错。</p></li><li><p><a href="https://www.youtube.com/watch?v=_sIcqxghUPU">YouTube - 沈晟 | Tomasen - 我的困扰、思考和解决方案</a>，来源：<a href="https://twitter.com/ShooterPlayer/status/1501920983770304512">Twitter - @ShooterPlayer</a>。</p><blockquote><p>我们的教育系统，我们社会的信息流结构，是实用主义的，是服从和消费导向的。激励学校和老师的，是升学率和论文引用指数。激励信息内容生产的，是消费。在这样的世界里，我突然有很多话要和孩子说。</p></blockquote></li></ul><h2 id="本周还做了什么"><a href="#本周还做了什么" class="headerlink" title="本周还做了什么"></a>本周还做了什么</h2><ul><li><p>✅ <a href="https://objccn.io/products/thinking-in-swiftui">《SwiftUI 编程思想》</a><br>课后练习还没做完，下周做完放 GitHub 上。</p></li><li><p>✅ <a href="https://movie.douban.com/subject/35284253">青春变形记 Turning Red (2022)</a></p></li><li><p>✅ <a href="https://movie.douban.com/subject/2133323">白日梦想家 The Secret Life of Walter Mitty (2013)</a></p></li></ul><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi, 感谢订阅 Kilig 的碎周报，这里是碎周报第 4 期。&lt;/p&gt;
+&lt;h2 id=&quot;产品动态&quot;&gt;&lt;a href=&quot;#产品动态&quot; class=&quot;headerlink&quot; title=&quot;产品动态&quot;&gt;&lt;/a&gt;产品动态&lt;/h2&gt;&lt;p&gt;我开发的每日自动更新必应壁纸的 macOS </summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #3</title>
@@ -460,30 +485,6 @@
     
     
     <category term="Swift" scheme="http://kiligwyu.com/tags/Swift/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>斐讯 K2 刷入 Padavan 固件</title>
-    <link href="http://kiligwyu.com/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/"/>
-    <id>http://kiligwyu.com/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/</id>
-    <published>2018-07-23T10:19:51.000Z</published>
-    <updated>2021-10-15T09:16:40.073Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>WARNING: 本文基于斐讯 K2 PSG1218 路由器，固件版本 22.6.507.43 或 22.6.506.28，刷入固件为 RT-AC54U-GPIO-1-PSG1218-64M_3.4.3.9-099.trx。刷机须谨慎！</p></blockquote><!--- more ---><p>07.30 更新：</p><p>降级到 V22.6.506.28 后，尝试了下 <a href="https://huzibbs.ctfile.com/dir/120079-20196952-af15f2">路由器刷breed Web控制台助手v5.3版本修复测试版</a>，直接成功了 😄 。</p><hr><p>早在 16 年底就入手了斐讯 K2 路由器，之前也听说其会收集用户隐私，一直也没太在意，直到前天，因网页图片没加载出来，就把过滤广告的插件关了，然后就蹦出来斐讯的广告，见下图，我第一感觉就是是斐讯的路由器劫持了网页，植入了广告，当时就决定刷机，在此记下刷机过程。后来在微博上也看到有网友也遇到类似的问题，刷机后就没再碰到过。</p><img src="/image/斐讯-K2-刷入-Padavan-固件/ad.PNG" style="zoom:30%" /><p>下面开始刷机过程。</p><h2 id="0-准备工作"><a href="#0-准备工作" class="headerlink" title="0. 准备工作"></a>0. 准备工作</h2><p>注意：刷机时要断开路由器 WAN 口连接，通过 LAN 口与电脑连接，所以先准备好要用到的固件和工具！</p><ul><li>最新固件 <a href="https://pan.baidu.com/s/1eT3hiz4">K2_V22.6.507.43.bin</a></li><li>固件 <a href="https://pan.baidu.com/s/1pM2iOFD">K2_V22.6.506.28.bin</a></li><li><a href="https://pan.baidu.com/s/1eS5yQdG">RoutAckProV1B2.rar</a></li><li><a href="https://pan.baidu.com/s/1i4I9G6h">路由器刷breed Web控制台助手v4.8版本</a></li><li>Padavan 固件 <a href="https://opt.cn2qq.com/padavan/RT-AC54U-GPIO-1-PSG1218-64M_3.4.3.9-099.trx">RT-AC54U-GPIO-1-PSG1218-64M_3.4.3.9-099.trx</a></li></ul><p>（以上的工具都是需要 Windows 环境的，我用的 MacBook，所以又安装了虚拟机 VirtualBox，装了 Win10 系统，又在网上买了根网线转接头。😂）</p><p>接下来就可以通过网线与电脑连接，开始刷机了。</p><h2 id="1-降级至-V22-6-506-28"><a href="#1-降级至-V22-6-506-28" class="headerlink" title="1. 降级至 V22.6.506.28"></a>1. 降级至 V22.6.506.28</h2><p>（之前固件已经升级到最新版本 V22.6.507.43，尝试使用 <a href="https://huzibbs.ctfile.com/dir/120079-20196952-af15f2">路由器刷breed Web控制台助手v5.3版本修复测试版</a> 来直接刷机，但是其在开启 telnet 后登录路由器失败，可能是不支持当前固件。）</p><p>直接刷 K2_V22.6.506.28.bin 或 K2_V22.6.507.43.bin 都提示非法的固件 😂 ，WTF，然后把路由器恢复出厂设置，然后平刷最新固件 K2_V22.6.507.43.bin，成功了，再刷 K2_V22.6.506.28.bin，又成功了，It just works 🤷‍♂️。</p><p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-1.jpg" alt="Screenshot-1"></p><h2 id="2-开启-Telnet"><a href="#2-开启-Telnet" class="headerlink" title="2. 开启 Telnet"></a>2. 开启 Telnet</h2><p>由于我在尝试用「路由器刷breed Web控制台助手v5.3版本」刷时，此助手已经为路由器开好了 telnet。</p><p>没开的可以用「RoutAckProV1B2」这个工具来开。</p><h2 id="3-刷入-Bread"><a href="#3-刷入-Bread" class="headerlink" title="3. 刷入 Bread"></a>3. 刷入 Bread</h2><p>建议先关闭杀毒软件和防火墙，使用管理员身份运行「路由器刷breed Web控制台助手v4.8版本」，刷机方案选择：「通用方案[需要开启路由器telnet或ssh]」，其他不需改动，点开始刷机，等一两分钟即可完成，完成后弹出「是否自动进入bread Web控制台模式」的弹框，点是或否均可。至此可以说刷机已经成功了，可以根据个人喜好刷入各种固件了。</p><p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-2.png" alt="Screenshot-2"></p><p>在运行助手时，系统提示需要 <code>.NET Framework 3.5</code>，WTF，这个问题在很早前玩 Win8 时候就遇到过了，可以利用 DISM 离线安装 .NET Framework 3.5，首先要加载 ISO 镜像文件，在 Win10 开始菜单按钮上点击鼠标右键，选择其中的「Windows PowerShell（管理员）」，打开 PowerShell，输入以下命令即可（注意盘符）。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Dism /online /enable-feature /featurename:NetFX3 /All /Source:D:\sources\sxs /LimitAccess</span><br></pre></td></tr></table></figure><h2 id="4-刷入-Padavan-固件"><a href="#4-刷入-Padavan-固件" class="headerlink" title="4. 刷入 Padavan 固件"></a>4. 刷入 Padavan 固件</h2><p>首先，断开路由器电源，按住 reset 键不松手，插入电源后约 5s 再松手，在浏览器输入 <code>http://192.168.1.1</code>，即可进入 Breed Web 恢复控制台。</p><p>刷机前最好先在 Breed Web 恢复控制台中的固件备份里备份下 EEPROM 和编程器固件，并恢复一下出厂设置，固件类型选「Config区（公版）」。</p><p>接着就可以刷入 Padavan 固件了：固件更新 -&gt; 选中右侧固件 -&gt; 浏览找到固件点击上传即可。</p><p>也可以使用「breed Web懒人工具助手内置版」（上面提到的那个弹框）。</p><p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-3.png" alt="Screenshot-3"></p><h2 id="5-路由器后台设置"><a href="#5-路由器后台设置" class="headerlink" title="5. 路由器后台设置"></a>5. 路由器后台设置</h2><p>先用 <code>ipconfig</code> 命令来查看本机 ip，以确定路由器后台地址。</p><p><img src="/image/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/Screenshot-4.png" alt="Screenshot-4"></p><p>然后浏览器打开 <code>http://192.168.123.1</code>，默认管理员账号密码都是 <code>admin</code>。</p><p>在 高级设置 -&gt; 外部网络（WAN）-&gt; 外网设置，外网连接类型选择「PPPoE：拨号」，在用户名称和用户密码输入框中输入宽带账号和密码，然后点击「应用本页设置」按钮，然后就可以上网了。</p><p>其他设置根据自己需要进行设置。</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="http://www.qqgzs.com/archives/k2-22-6-507-43.html">斐讯K2全版本刷机教程</a></li><li><a href="http://www.qqgzs.com/archives/k2-22-6-503.html">斐讯k2 22.6.503.31刷机教程</a></li><li><a href="https://weibo.com/ttarticle/p/show?id=2309404256031382347540&is_hot=1#_0">路由器刷breed Web控制台助手v5.0版本</a></li><li><a href="https://www.ithome.com/html/win10/107493.htm">利用DISM离线安装.NET Framework 3.5</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;WARNING: 本文基于斐讯 K2 PSG1218 路由器，固件版本 22.6.507.43 或 22.6.506.28，刷入固件为 RT-AC54U-GPIO-1-PSG1218-64M_3.4.3.9-099.trx。刷机须谨慎！&lt;/p&gt;
-&lt;</summary>
-      
-    
-    
-    
-    
-    <category term="Padavan" scheme="http://kiligwyu.com/tags/Padavan/"/>
     
   </entry>
   
