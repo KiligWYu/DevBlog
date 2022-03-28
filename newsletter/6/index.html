@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #6 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="/css/dark.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-79939823-1','auto');ga('send','pageview');
+</script><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #6</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #6</h1><div class="post-meta">2022-03-21<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/6/" href="/newsletter/6/#disqus_thread"></a><div class="post-content"><p>Hi, 感谢订阅 Kilig 的碎周报，这里是碎周报第 6 期。</p>
+<p>本周以来，开封封城，本市户口居民禁止出市，外来人员禁止入市，什么沙雕防疫政策 🙄，防疫过度用力过猛了，政策一天一个样也没个官方发布，高速口、高铁站、郑开大道物流通道政策还不一样，封了又没完全封，跨区上班太难了，郑开拼车群里怨声载道。本周只好住在 brother-in-law 家里 😑。</p>
+<p>防疫不力要被问责，那就过度防疫，宁可封城 🙄。 正如土摩托老师所说的：<code>如果一旦防疫不力就得被关禁闭甚至被撤职，那么这种防疫策略就是最人性的体现。</code></p>
+<ul>
+<li><a href="#%E8%AF%AD%E5%BD%95">语录</a></li>
+<li><a href="#YouTube">YouTube</a></li>
+<li><a href="#%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7">开发工具</a></li>
+<li><a href="#%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE">开源项目</a></li>
+<li><a href="#TIL">TIL</a></li>
+<li><a href="#%F0%9F%94%9E-NSFW">🔞 NSFW</a></li>
+</ul>
+<h2 id="语录"><a href="#语录" class="headerlink" title="语录"></a>语录</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://twitter.com/shrugged_hi/status/1415007808626434048">@shrugged_hi</a>:</p>
+<blockquote>
+<p>读历史和非虚构，常给我一种感觉，看起再牢不可破的社会认可、生活方式、人生期许，都是变化和脆弱的。革命、战争、灾难、基因的诅咒、掉落的花瓶，我们在意外和巧合中前进、退后、消失。<br>生活没有范式，没有标准，恐怕也没有意义，你可以选择任何生活方式，只要有付出代价的觉悟。</p>
+</blockquote>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://twitter.com/ayuan1000/status/1507158672266330127">@ayuan1000</a>:</p>
+<blockquote>
+<p>有人骂这是毫无人性的防疫策略，错了，这才是最能体现人性的事件。如果每个人都相信新冠病毒沾了就死，如果一旦防疫不力就得被关禁闭甚至被撤职，那么这种防疫策略就是最人性的体现。所以，人性是靠不住的，只有科学才能拯救人类。</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h2><ul>
+<li>⭐️ <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=GyNXwq52qSw">【什么值得捡 008】6 块钱的菲律宾 Globe 手机卡，订阅 Spotify 会员每月只要 4 元？最划算的 Spotify 声破天订阅教程</a></li>
+</ul>
+<h2 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h2><ul>
+<li><p>⭐️ <a target="_blank" rel="noopener" href="https://www.shell.how/">shell.how</a>，shell 命令及参数详解，来源：Twitter - <a target="_blank" rel="noopener" href="https://twitter.com/vikingmute/status/1507286542183632903">@vikingmute</a>。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/wez/wezterm">WezTerm</a>，来源：Twitter - <a target="_blank" rel="noopener" href="https://twitter.com/yihong0618/status/1506800869802901505">@yihong0618</a>。</p>
+<blockquote>
+<p>A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust</p>
+</blockquote>
+<p>就是配置起来有些麻烦，没有 GUI 设置页面，终端工具用下来，个人感觉还是 iTerm 最顺手，喜欢 iTerm 的 Hotkey Window，个人需求也不多，iTerm 的卡顿问题我也没遇到。</p>
+</li>
+</ul>
+<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><ul>
+<li>⭐️ SwiftUI - <a target="_blank" rel="noopener" href="https://github.com/lacklock/SwiftUI-Guide">lacklock&#x2F;SwiftUI-Guide</a>，来源：微博 - <a target="_blank" rel="noopener" href="https://m.weibo.cn/1926303682/4749408447760589">@没故事的卓同学</a>。<br>SwiftUI 学习资料以及 WWDC 上有关的所有视频。</li>
+<li>⭐️ Quick Look - <a target="_blank" rel="noopener" href="https://github.com/sbarex/SourceCodeSyntaxHighlight">sbarex&#x2F;SourceCodeSyntaxHighlight</a><br>macOS 上最强的 Quick Look 软件。</li>
+<li>⭐️ 字体 - <a target="_blank" rel="noopener" href="https://github.com/welai/glow-sans">welai&#x2F;glow-sans</a><br>好看的字体：未來熒黑，<a target="_blank" rel="noopener" href="https://welai.github.io/glow-sans">字体预览</a>。</li>
+</ul>
+<h2 id="TIL"><a href="#TIL" class="headerlink" title="TIL"></a>TIL</h2><p>Lighting 线缆也是支持反向传输电力的。见 <a target="_blank" rel="noopener" href="https://www.cnbeta.com/articles/tech/1251343.htm">中国厂商开发出 Lightning 输出口充电器，果粉也能一根线走天下</a>，来源：Twitter - <a target="_blank" rel="noopener" href="https://twitter.com/kimihuang/status/1507554646780362752">@kimihuang</a>。</p>
+<h2 id="🔞-NSFW"><a href="#🔞-NSFW" class="headerlink" title="🔞 NSFW"></a>🔞 NSFW</h2><p><a target="_blank" rel="noopener" href="https://twitter.com/tianlan/status/1507665130263224326">@tianlan</a>:</p>
+<blockquote>
+<p>应推友要求，建了个我推荐的 av 女优 list. 列表中多数是现役女优（很多引退后会删除社交媒体）。仅代表个人喜好。持续更新。<a target="_blank" rel="noopener" href="https://twitter.com/i/lists/1507662539362308096">https://twitter.com/i/lists/1507662539362308096</a></p>
+</blockquote>
+<hr>
+<p>【完】以上就是本期周报的全部内容了，再次感谢您的订阅和阅读。Have an A-1 week.</p>
+</div><div class="tags"><a href="/tags/newsletter/"><i class="fa fa-tag"></i>newsletter</a></div><div class="post-nav"><a class="next" href="/newsletter/5/">Kilig 的碎周报 - #5</a></div><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqusjs.css?v=1.0.0"><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqus.js?v=1.0.0"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://kiligwyu.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/6/',
+    url: 'http://kiligwyu.com/newsletter/6/',
+    title: 'Kilig 的碎周报 - #6',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a><span class="category-list-count">6</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/Issues/" style="font-size: 15px;">Issues</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/newsletter/" style="font-size: 15px;">newsletter</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/newsletter/6/">Kilig 的碎周报 - #6</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/5/">Kilig 的碎周报 - #5</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/4/">Kilig 的碎周报 - #4</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/3/">Kilig 的碎周报 - #3</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/2/">Kilig 的碎周报 - #2</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/1/">Kilig 的碎周报 - #1</a></li><li class="post-list-item"><a class="post-list-link" href="/run-xcode-11-on-big-sur/">在 macOS Big Sur 上运行 Xcode 11</a></li><li class="post-list-item"><a class="post-list-link" href="/macos-rsync/">macOS 文件同步</a></li><li class="post-list-item"><a class="post-list-link" href="/LayoutConstraints-unable-to-simultaneously-satisfy-constraints/">LayoutConstraints Unable to simultaneously satisfy constraints</a></li><li class="post-list-item"><a class="post-list-link" href="/scroll-to-row-for-UITableView-after-reloadData/">Scroll to row for UITableView after reloadData</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2022 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
