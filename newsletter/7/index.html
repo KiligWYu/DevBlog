@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #7 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="/css/dark.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-79939823-1','auto');ga('send','pageview');
+</script><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #7</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #7</h1><div class="post-meta">2022-03-28<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/7/" href="/newsletter/7/#disqus_thread"></a><div class="post-content"><p>Hi there! 感谢订阅 Kilig 的碎周报，这里是碎周报第 7 期。另外，也可以 <a target="_blank" rel="noopener" href="https://www.getrevue.co/profile/Kilig">通过邮件订阅本周报</a>。</p>
+<hr>
+<ul>
+<li><a href="#%E4%BA%A7%E5%93%81%E5%8A%A8%E6%80%81">产品动态</a></li>
+<li><a href="#%E8%AF%AD%E5%BD%95">语录</a></li>
+<li><a href="#%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE">开源项目</a></li>
+<li><a href="#App">App</a></li>
+<li><a href="#%E6%96%B0%E5%86%A0%E7%96%AB%E6%83%85">新冠疫情</a></li>
+<li><a href="#%E5%A3%81%E7%BA%B8">壁纸</a></li>
+<li><a href="#%E8%BE%93%E5%85%A5%E6%B3%95">输入法</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96">其他</a></li>
+</ul>
+<p>这几天想起来很早之前听 <a target="_blank" rel="noopener" href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615">UX Coffee 设计咖</a> 的一期播客，<a target="_blank" rel="noopener" href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615?i=1000461867693">#74：100 天，你可以完成什么？</a>，翻出来又听了一遍，之所以想起来这个，是因为我也一直想做些阶段性的针对某一块儿内容的学习或训练。</p>
+<p>又快要到 WWDC 了（咋还没官宣今年 WWDC 时间呢 😄），那么就从 WWDC 开始吧，目标 30 天，每天看些历年 WWDC 视频，并做好笔记和练习，另外也在 <a href="https://kiligwyu.com/30DaysofWWDC/">这里</a> 做个记录。WWDC 其实是最好的第一手的学习资料，之前 WWDC 看的太少了 🤣。</p>
+<h2 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h2><p>之前做了一款阅读类的应用，<a target="_blank" rel="noopener" href="http://meiriyiwen.com/">每日一文</a> 非官方客户端 ── 三余，试着上架 App Store，结果收到了 4.1 CopyCats 大礼包，然后也没心情继续开发了，就简单整理一下 <a target="_blank" rel="noopener" href="https://github.com/KiligWYu/ThreeSpare-iOS">开源了吧</a>，因为毕竟此应用的设计也确实都是抄袭来的，图标设计抄袭 <a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1592613682">读库</a> app，分析抄袭 <a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1507361706">HiCoffee</a> app，希望自己以后上架的 app 可以多些创新。</p>
+<p>三余还有很多不完善的地方，以及很多本来要做的功能，比如横屏适配、iPadOS 适配、iCloud 同步等等，当前版本也存在很多问题，比如错误处理等等，以后有时间再做吧。咕咕咕~</p>
+<p><img src="https://github.com/KiligWYu/ThreeSpare-iOS/raw/main/ScreenShot.JPG" alt="ScreenShot"></p>
+<h2 id="语录"><a href="#语录" class="headerlink" title="语录"></a>语录</h2><p>作家崔成浩：动物其实比人类聪明，它们不会让族群里最愚蠢的那一个当首领。</p>
+<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><ul>
+<li><p>⭐️ <a target="_blank" rel="noopener" href="https://github.com/Hackl0us/GeoIP2-CN">GeoIP2-CN</a><br>小巧精悍、准确、实用 GeoIP2 数据库。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://github.com/peazip/PeaZip">PeaZip</a><br>开源跨平台的文件压缩软件，有空也试用一下 😄。</p>
+</li>
+</ul>
+<h2 id="App"><a href="#App" class="headerlink" title="App"></a>App</h2><ul>
+<li><p><a target="_blank" rel="noopener" href="https://starorder.app/">Star Order</a> ── Github Star 管理工具</p>
+<p><a target="_blank" rel="noopener" href="https://twitter.com/ftium4/status/1510616818112630789">Twitter - @ftium4</a>: Star Order 是一个用于管理 GitHub Star 的使用 SwiftUI 开发的纯原生专业工具。通过方便灵活的标签，全面准确的排序检索，让您面对成百上千的 Star 仓库时，能够快速的挑选出最需要的那一个。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1234625785">XcLauncher</a><br>菜单栏 Xcode 项目快起工具。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/id1501532023">ServerCat for macOS</a><br><a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1319191852">熊猫吃短信</a> 作者八爷的 ServerCat for macOS 终于发布了 😄，可惜我不是其目标用户。</p>
+</li>
+</ul>
+<h2 id="新冠疫情"><a href="#新冠疫情" class="headerlink" title="新冠疫情"></a>新冠疫情</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=JhkIclg7OOI">上海市民和疾控中心对话录音</a></li>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/fRIIgKe2OrDT6gTaOjdSnQ">汪诘不吐不快：面对疫情，上海人真正怕的是什么？（附上海疾控专家采访录音）</a></li>
+</ul>
+<h2 id="壁纸"><a href="#壁纸" class="headerlink" title="壁纸"></a>壁纸</h2><ul>
+<li>⭐️ <a target="_blank" rel="noopener" href="https://1drv.ms/u/s!AuQ7aUGVDnCMgrsADJceZ7bIpHwsLA">必应 3 月壁纸</a><br>月更壁纸包更新了 😄。</li>
+</ul>
+<h2 id="输入法"><a href="#输入法" class="headerlink" title="输入法"></a>输入法</h2><ul>
+<li>⭐️ <a target="_blank" rel="noopener" href="https://bugeshan.com/getting-started-with-squirrel-20210824">从零开始的鼠须管</a><br><a target="_blank" rel="noopener" href="https://rime.im/">鼠鬚管</a> 是 Mac 上优秀输入法，<a target="_blank" rel="noopener" href="https://github.com/rime/squirrel">开源</a>、<a target="_blank" rel="noopener" href="https://github.com/rime/home/wiki/CustomizationGuide">高度自定义</a>，替换原生输入法的不二之选，不过想要顺手，还需要配置一番，还得搞词库，这边文章对鼠须管进行了介绍并推荐了一些配置。我也使用鼠须管很长时间了，非常的好用。</li>
+</ul>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li><p>⭐️ YouTube - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=SnWyCRj6nEI">qián麻疹还是xún麻疹？凭什么把“对”的读音改成“错”的？【柴司ChaiCo】</a><br>对于一些字词的读音、拼写的更改修订，一开始我也是不能接受的，看了视频，思考了一番，觉得有道理，于是，就接受了。一个时代有一个时代的特点，语言也在不断的发展进化当中，我们也没必要守旧，看现在的简体字，跟古文字简直是翻天覆地的变化。</p>
+</li>
+<li><p>⭐️ 油猴脚本 - <a target="_blank" rel="noopener" href="https://greasyfork.org/zh-CN/scripts/442187-open-the-link-directly">open the link directly</a><br>外链直接打开工具，作者在这里 <a target="_blank" rel="noopener" href="https://twitter.com/varNediiii/status/1507981501371383814">@varNediiii</a>。</p>
+</li>
+</ul>
+<hr>
+<p>【完】以上就是本期周报的全部内容了，再次感谢订阅和阅读。Have an A-1 week.</p>
+</div><div class="tags"><a href="/tags/newsletter/"><i class="fa fa-tag"></i>newsletter</a></div><div class="post-nav"><a class="pre" href="/30DaysofWWDC/">30 Days of WWDC</a><a class="next" href="/newsletter/6/">Kilig 的碎周报 - #6</a></div><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqusjs.css?v=1.0.0"><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqus.js?v=1.0.0"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://kiligwyu.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/7/',
+    url: 'http://kiligwyu.com/newsletter/7/',
+    title: 'Kilig 的碎周报 - #7',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a><span class="category-list-count">7</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/WWDC/" style="font-size: 15px;">WWDC</a> <a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/Issues/" style="font-size: 15px;">Issues</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/newsletter/" style="font-size: 15px;">newsletter</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/30DaysofWWDC/">30 Days of WWDC</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/7/">Kilig 的碎周报 - #7</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/6/">Kilig 的碎周报 - #6</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/5/">Kilig 的碎周报 - #5</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/4/">Kilig 的碎周报 - #4</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/3/">Kilig 的碎周报 - #3</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/2/">Kilig 的碎周报 - #2</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/1/">Kilig 的碎周报 - #1</a></li><li class="post-list-item"><a class="post-list-link" href="/run-xcode-11-on-big-sur/">在 macOS Big Sur 上运行 Xcode 11</a></li><li class="post-list-item"><a class="post-list-link" href="/macos-rsync/">macOS 文件同步</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2022 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>

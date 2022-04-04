@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2022-03-28T05:45:46.612Z</updated>
+  <updated>2022-04-04T14:41:26.320Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>30 Days of WWDC</title>
+    <link href="http://kiligwyu.com/30DaysofWWDC/"/>
+    <id>http://kiligwyu.com/30DaysofWWDC/</id>
+    <published>2022-04-04T05:48:08.338Z</published>
+    <updated>2022-04-04T14:41:26.320Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>这几天想起来很早之前听 <a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615">UX Coffee 设计咖</a> 的一期播客，<a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615?i=1000461867693">#74：100 天，你可以完成什么？</a>，翻出来又听了一遍，之所以想起来这个，是因为我也一直想做些阶段性的针对某一块儿内容的学习或训练。</p><p>又快要到 WWDC 了（咋还没官宣今年 WWDC 时间呢 😄），那么专项学习就从 WWDC 开始吧，目标 30 天，每天看些历年 WWDC 视频，并做好笔记和练习，就在这里做个记录吧。WWDC 其实是最好的第一手的学习资料，之前 WWDC 看的太少了 🤣。</p><p>不断更新中…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h2&gt;&lt;p&gt;这几天想起来很早之前听 &lt;a href=&quot;https://podcasts.apple.com/us/podcast/ux-coffee-%</summary>
+      
+    
+    
+    
+    
+    <category term="WWDC" scheme="http://kiligwyu.com/tags/WWDC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #7</title>
+    <link href="http://kiligwyu.com/newsletter/7/"/>
+    <id>http://kiligwyu.com/newsletter/7/</id>
+    <published>2022-03-28T05:53:44.000Z</published>
+    <updated>2022-04-04T14:47:38.323Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi there! 感谢订阅 Kilig 的碎周报，这里是碎周报第 7 期。另外，也可以 <a href="https://www.getrevue.co/profile/Kilig">通过邮件订阅本周报</a>。</p><hr><ul><li><a href="#%E4%BA%A7%E5%93%81%E5%8A%A8%E6%80%81">产品动态</a></li><li><a href="#%E8%AF%AD%E5%BD%95">语录</a></li><li><a href="#%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE">开源项目</a></li><li><a href="#App">App</a></li><li><a href="#%E6%96%B0%E5%86%A0%E7%96%AB%E6%83%85">新冠疫情</a></li><li><a href="#%E5%A3%81%E7%BA%B8">壁纸</a></li><li><a href="#%E8%BE%93%E5%85%A5%E6%B3%95">输入法</a></li><li><a href="#%E5%85%B6%E4%BB%96">其他</a></li></ul><p>这几天想起来很早之前听 <a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615">UX Coffee 设计咖</a> 的一期播客，<a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615?i=1000461867693">#74：100 天，你可以完成什么？</a>，翻出来又听了一遍，之所以想起来这个，是因为我也一直想做些阶段性的针对某一块儿内容的学习或训练。</p><p>又快要到 WWDC 了（咋还没官宣今年 WWDC 时间呢 😄），那么就从 WWDC 开始吧，目标 30 天，每天看些历年 WWDC 视频，并做好笔记和练习，另外也在 <a href="https://kiligwyu.com/30DaysofWWDC/">这里</a> 做个记录。WWDC 其实是最好的第一手的学习资料，之前 WWDC 看的太少了 🤣。</p><h2 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h2><p>之前做了一款阅读类的应用，<a href="http://meiriyiwen.com/">每日一文</a> 非官方客户端 ── 三余，试着上架 App Store，结果收到了 4.1 CopyCats 大礼包，然后也没心情继续开发了，就简单整理一下 <a href="https://github.com/KiligWYu/ThreeSpare-iOS">开源了吧</a>，因为毕竟此应用的设计也确实都是抄袭来的，图标设计抄袭 <a href="https://apps.apple.com/us/app/id1592613682">读库</a> app，分析抄袭 <a href="https://apps.apple.com/us/app/id1507361706">HiCoffee</a> app，希望自己以后上架的 app 可以多些创新。</p><p>三余还有很多不完善的地方，以及很多本来要做的功能，比如横屏适配、iPadOS 适配、iCloud 同步等等，当前版本也存在很多问题，比如错误处理等等，以后有时间再做吧。咕咕咕~</p><p><img src="https://github.com/KiligWYu/ThreeSpare-iOS/raw/main/ScreenShot.JPG" alt="ScreenShot"></p><h2 id="语录"><a href="#语录" class="headerlink" title="语录"></a>语录</h2><p>作家崔成浩：动物其实比人类聪明，它们不会让族群里最愚蠢的那一个当首领。</p><h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><ul><li><p>⭐️ <a href="https://github.com/Hackl0us/GeoIP2-CN">GeoIP2-CN</a><br>小巧精悍、准确、实用 GeoIP2 数据库。</p></li><li><p><a href="https://github.com/peazip/PeaZip">PeaZip</a><br>开源跨平台的文件压缩软件，有空也试用一下 😄。</p></li></ul><h2 id="App"><a href="#App" class="headerlink" title="App"></a>App</h2><ul><li><p><a href="https://starorder.app/">Star Order</a> ── Github Star 管理工具</p><p><a href="https://twitter.com/ftium4/status/1510616818112630789">Twitter - @ftium4</a>: Star Order 是一个用于管理 GitHub Star 的使用 SwiftUI 开发的纯原生专业工具。通过方便灵活的标签，全面准确的排序检索，让您面对成百上千的 Star 仓库时，能够快速的挑选出最需要的那一个。</p></li><li><p><a href="https://apps.apple.com/us/app/id1234625785">XcLauncher</a><br>菜单栏 Xcode 项目快起工具。</p></li><li><p><a href="https://apps.apple.com/cn/app/id1501532023">ServerCat for macOS</a><br><a href="https://apps.apple.com/us/app/id1319191852">熊猫吃短信</a> 作者八爷的 ServerCat for macOS 终于发布了 😄，可惜我不是其目标用户。</p></li></ul><h2 id="新冠疫情"><a href="#新冠疫情" class="headerlink" title="新冠疫情"></a>新冠疫情</h2><ul><li><a href="https://www.youtube.com/watch?v=JhkIclg7OOI">上海市民和疾控中心对话录音</a></li><li><a href="https://mp.weixin.qq.com/s/fRIIgKe2OrDT6gTaOjdSnQ">汪诘不吐不快：面对疫情，上海人真正怕的是什么？（附上海疾控专家采访录音）</a></li></ul><h2 id="壁纸"><a href="#壁纸" class="headerlink" title="壁纸"></a>壁纸</h2><ul><li>⭐️ <a href="https://1drv.ms/u/s!AuQ7aUGVDnCMgrsADJceZ7bIpHwsLA">必应 3 月壁纸</a><br>月更壁纸包更新了 😄。</li></ul><h2 id="输入法"><a href="#输入法" class="headerlink" title="输入法"></a>输入法</h2><ul><li>⭐️ <a href="https://bugeshan.com/getting-started-with-squirrel-20210824">从零开始的鼠须管</a><br><a href="https://rime.im/">鼠鬚管</a> 是 Mac 上优秀输入法，<a href="https://github.com/rime/squirrel">开源</a>、<a href="https://github.com/rime/home/wiki/CustomizationGuide">高度自定义</a>，替换原生输入法的不二之选，不过想要顺手，还需要配置一番，还得搞词库，这边文章对鼠须管进行了介绍并推荐了一些配置。我也使用鼠须管很长时间了，非常的好用。</li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul><li><p>⭐️ YouTube - <a href="https://www.youtube.com/watch?v=SnWyCRj6nEI">qián麻疹还是xún麻疹？凭什么把“对”的读音改成“错”的？【柴司ChaiCo】</a><br>对于一些字词的读音、拼写的更改修订，一开始我也是不能接受的，看了视频，思考了一番，觉得有道理，于是，就接受了。一个时代有一个时代的特点，语言也在不断的发展进化当中，我们也没必要守旧，看现在的简体字，跟古文字简直是翻天覆地的变化。</p></li><li><p>⭐️ 油猴脚本 - <a href="https://greasyfork.org/zh-CN/scripts/442187-open-the-link-directly">open the link directly</a><br>外链直接打开工具，作者在这里 <a href="https://twitter.com/varNediiii/status/1507981501371383814">@varNediiii</a>。</p></li></ul><hr><p>【完】以上就是本期周报的全部内容了，再次感谢订阅和阅读。Have an A-1 week.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi there! 感谢订阅 Kilig 的碎周报，这里是碎周报第 7 期。另外，也可以 &lt;a href=&quot;https://www.getrevue.co/profile/Kilig&quot;&gt;通过邮件订阅本周报&lt;/a&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #6</title>
@@ -448,52 +497,6 @@
     
     
     <category term="Ubuntu" scheme="http://kiligwyu.com/tags/Ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>标记剪贴板内容为 Concealed</title>
-    <link href="http://kiligwyu.com/biao-ji-jian-tie-ban-nei-rong-wei-concealed/"/>
-    <id>http://kiligwyu.com/biao-ji-jian-tie-ban-nei-rong-wei-concealed/</id>
-    <published>2019-04-14T08:47:38.000Z</published>
-    <updated>2021-10-15T09:18:42.131Z</updated>
-    
-    <content type="html"><![CDATA[<p>当要把敏感数据复制到剪贴板时，应将其标记为 <code>org.nspasteboard.Concealed</code>，如密码等。</p><p>此标识符为通用标识符，一些密码管理软件会将复制的密码标记为 Concealed，而一些剪贴板管理软件会自动忽略被标记为 Concealed 的内容。</p><!--- more ---><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> pasteboard <span class="operator">=</span> <span class="type">NSPasteboard</span>.general</span><br><span class="line">pasteboard.clearContents()</span><br><span class="line"><span class="comment">// 直接 setString(forType:NSPasteboard.PasteboardType(&quot;org.nspasteboard.ConcealedType&quot;)) 是不行的</span></span><br><span class="line">pasteboard.setString(<span class="string">&quot;concealed content like pwd&quot;</span>, forType: .string)</span><br><span class="line">pasteboard.setString(<span class="string">&quot;&quot;</span>, forType: .<span class="keyword">init</span>(<span class="string">&quot;org.nspasteboard.ConcealedType&quot;</span>))</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>另外通用标识符还有 <code>org.nspasteboard.TransientType</code>、<code>org.nspasteboard.AutoGeneratedType</code>、<code>org.nspasteboard.source</code>，这些标识符的含义及使用场景详见 <a href="http://nspasteboard.org/">http://nspasteboard.org/</a>。</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="http://nspasteboard.org/">http://nspasteboard.org/</a></li><li><a href="https://github.com/alyssais/secure-pbcopy/blob/master/main.m">https://github.com/alyssais/secure-pbcopy/blob/master/main.m</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;当要把敏感数据复制到剪贴板时，应将其标记为 &lt;code&gt;org.nspasteboard.Concealed&lt;/code&gt;，如密码等。&lt;/p&gt;
-&lt;p&gt;此标识符为通用标识符，一些密码管理软件会将复制的密码标记为 Concealed，而一些剪贴板管理软件会自动忽略被标记为 Co</summary>
-      
-    
-    
-    
-    
-    <category term="macOS" scheme="http://kiligwyu.com/tags/macOS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>App scanbox not enabled</title>
-    <link href="http://kiligwyu.com/App-scanbox-not-enabled/"/>
-    <id>http://kiligwyu.com/App-scanbox-not-enabled/</id>
-    <published>2019-02-19T05:43:52.000Z</published>
-    <updated>2019-02-19T06:32:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>在 <a href="https://itunes.apple.com/cn/app/id1375291184">花密</a> 的开发过程中，在上传到 App Store Connect 时遇到了 “App scanbox not enabled” 的错误。</p><!--- more ---><center><img src="/image/App-scanbox-not-enabled/CleanShot_1.png" style="zoom: 50%"/></center><p>要上架 App Store，App Scanbox 是一定要开的，在 TARGETS -&gt; Capabilities -&gt; App Scanbox，打开即可。而遇到上面错误时项目的 App Scanbox 确认是已打开的，entitlements 文件也是对的，<del>一脸懵逼</del>，关掉重开也报错，Google 一圈也没解决，有说是代码签名问题，最后的最后，发现 TARGETS -&gt; Build Settings -&gt; Signing -&gt; Code Signing Identity 是空的，选中 <code>Mac Developer</code> 后，再试就上传成功了。</p><center><img src="/image/App-scanbox-not-enabled/CleanShot_2.png" style="zoom:50%"/></center><p>还是 macOS App 审核快。</p><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul><li><a href="https://www.jianshu.com/p/53774fb4ab02">解决 ERROR ITMS-90296</a></li><li><strong><a href="https://itunes.apple.com/cn/app/id1375291184">花密</a></strong></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;在 &lt;a href=&quot;https://itunes.apple.com/cn/app/id1375291184&quot;&gt;花密&lt;/a&gt; 的开发过程中，在上传到 App Store Connect 时遇到了 “App scanbox not enabled” 的错误。&lt;/p&gt;
-&lt;!-</summary>
-      
-    
-    
-    
-    
-    <category term="macOS" scheme="http://kiligwyu.com/tags/macOS/"/>
     
   </entry>
   
