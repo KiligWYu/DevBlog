@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2022-04-07T14:02:03.489Z</updated>
+  <updated>2022-04-08T07:32:48.594Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -17,18 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>30 Days of WWDC</title>
-    <link href="http://kiligwyu.com/30DaysofWWDC/"/>
-    <id>http://kiligwyu.com/30DaysofWWDC/</id>
+    <title>三余 ── 每日一文非官方开源客户端</title>
+    <link href="http://kiligwyu.com/ThreeSpare/"/>
+    <id>http://kiligwyu.com/ThreeSpare/</id>
+    <published>2022-04-08T06:16:28.168Z</published>
+    <updated>2022-04-08T07:32:48.594Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><a href="#%E5%85%B3%E4%BA%8E%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87">关于每日一文</a></li><li><a href="#%E7%BC%98%E8%B5%B7">缘起</a></li><li><a href="#%E5%85%B3%E4%BA%8E%E4%B8%89%E4%BD%99">关于三余</a></li></ul><h2 id="关于每日一文"><a href="#关于每日一文" class="headerlink" title="关于每日一文"></a>关于每日一文</h2><p>官方网站：<a href="https://meiriyiwen.com/">每日一文</a>。</p><blockquote><p>每天花 10 分钟阅读一篇文章，一个月可以有大约 50000 字的阅读量，一年有近 60 万字的阅读量，专注、执着，每天阅读。</p><p>只为简单的纯净的阅读而生。</p><p>简单生活，每日一文。</p></blockquote><h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>很多年前，当我还在上大学时候，偶然发现了每日一文网站，非常喜欢每日一文的理念，每日一篇短文，没有推荐、简单纯净，每日一文也成为我关注的最喜欢的文艺网站之一（喜欢的网站现在好多都已经关停了，一声叹息）。</p><p>我并不是一个爱读书的人，但我知道阅读的重要性，所以也时常强迫自己多读些书，而我那点可怜的阅读量里，每日一文就贡献了不少。🤣</p><p>每日一文官方也出过客户端，就叫『每日一文』，再后来 app 升级改名『观止』，再后来就下架了 🤣。而我做为一名 iOS 开发者，也想为每日一文做个客户端。于是我在我偏自用的工具 app『iCollect』里集成了每日一文，后来我也把这个 app 下架了，因为它功能太过杂乱。</p><p>直到年前，我想再为每日一文做个客户端，于是有了『三余』，并没有很强的动力去做，拖了很久才完成。年后试着上架 App Store，果不其然被拒，收到了 <code>4.1 CopyCats</code> 大礼包，就更没心情去做了，因为 app 的设计就是从别的 app 抄来拼凑成的，图标抄袭『<a href="https://apps.apple.com/us/app/id1592613682">读库</a>』，分析抄袭『<a href="https://apps.apple.com/us/app/id1507361706">HiCoffee</a>』，我也意识到了自己存在抄袭问题，并反省了，以后再做产品，希望可以多些创新。</p><p>既然不上架了，那就开源了吧，于是又拖了很长时间，整理一下代码(使用 Combine 简单重构下，并去掉了一些错误处理)然后开源，开源地址：<a href="https://github.com/KiligWYu/ThreeSpare-iOS">KiligWYu&#x2F;ThreeSpare-iOS</a>。本来计划的很多功能也没做，比如横屏适配、iPadOS 适配、iCloud 同步等，以后有时间再做吧。咕咕咕……</p><h2 id="关于三余"><a href="#关于三余" class="headerlink" title="关于三余"></a>关于三余</h2><p>『三余』是每日一文非官方客户端。</p><p><code>冬者岁之余，夜者日之余，阴雨者时之余也。</code> 是谓三余。</p><p><img src="https://github.com/KiligWYu/ThreeSpare-iOS/raw/main/ScreenShot.JPG" alt="ScreenShot"></p><p>『三余』主要功能分为两块，一是阅读，一是分析。阅读部分，有丰富的设置（有我最喜欢的修改字体功能）；分析部分，简单按周和月来统计阅读量。使用到的技术的话，页面主要使用 SwiftUI 和 Combine 框架，数据存储使用 CoreData，阅读文字排版使用 CoreText。</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E5%85%B3%E4%BA%8E%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87&quot;&gt;关于每日一文&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#%E7%BC%98%E8%B5%B7&quot;&gt;缘起&lt;/a&gt;&lt;/li&gt;
+&lt;li</summary>
+      
+    
+    
+    
+    
+    <category term="每日一文" scheme="http://kiligwyu.com/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>30 Days of XXX</title>
+    <link href="http://kiligwyu.com/30DaysofXXX/"/>
+    <id>http://kiligwyu.com/30DaysofXXX/</id>
     <published>2022-04-04T05:48:08.338Z</published>
-    <updated>2022-04-07T14:02:03.489Z</updated>
+    <updated>2022-04-08T14:47:40.336Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>这几天想起来很早之前听 <a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615">UX Coffee 设计咖</a> 的一期播客，<a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615?i=1000461867693">#74：100 天，你可以完成什么？</a>，翻出来又听了一遍，之所以想起来这个，是因为我也一直想做些阶段性的针对某一块儿内容的学习或训练。</p><p>又快要到 WWDC 了（咋还没官宣今年 WWDC 时间呢 😄），那么专项学习就从 WWDC 开始吧，目标 30 天，每天看些历年 WWDC 视频，并做好笔记和练习，就在这里做个记录吧。WWDC 其实是最好的第一手的学习资料，之前 WWDC 看的太少了 🤣。</p><p>不断更新中…</p><h2 id="Day-1-2022-04-07"><a href="#Day-1-2022-04-07" class="headerlink" title="Day 1 - 2022-04-07"></a>Day 1 - 2022-04-07</h2><ul><li><input checked="" disabled="" type="checkbox"> Symbolication: Beyond the basics</li></ul>]]></content>
+    <content type="html"><![CDATA[<ul><li><a href="#%E8%B5%B7%E5%9B%A0">起因</a></li><li><a href="#30-Days-of-WWDC">30 Days of WWDC</a><ul><li><a href="#Day-1-2022-04-07">Day 1 - 2022.04.07</a></li><li><a href="#Day-2-2022-04-08">Day 2 - 2022.04.08</a></li></ul></li><li><a href="#30-Days-of-Read">30 Days of Read</a></li></ul><h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>这几天想起来很早之前听 <a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615">UX Coffee 设计咖</a> 的一期播客，<a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615?i=1000461867693">#74：100 天，你可以完成什么？</a>，翻出来又听了一遍，之所以想起来这个，是因为我也一直想做些阶段性的针对某一块儿内容的学习或训练。</p><p>又快要到 WWDC 了<del>（咋还没官宣今年 WWDC 时间呢 😄）</del>，那么专项学习就从 WWDC 开始吧，目标 30 天，每天看些历年 WWDC 视频，并做好笔记和练习，就在这里做个记录吧。WWDC 其实是最好的第一手的学习资料，之前 WWDC 看的太少了 🤣。</p><p>不断更新中…</p><p>另外再开个 30 天阅读挑战吧，每日阅读一小时左右，一本书能拖好久才能读完，拯救一下我那可怜的阅读量 🤣。</p><h2 id="30-Days-of-WWDC"><a href="#30-Days-of-WWDC" class="headerlink" title="30 Days of WWDC"></a>30 Days of WWDC</h2><h3 id="Day-1-2022-04-07"><a href="#Day-1-2022-04-07" class="headerlink" title="Day 1 - 2022.04.07"></a>Day 1 - 2022.04.07</h3><ul><li><input checked="" disabled="" type="checkbox"> Symbolication: Beyond the basics</li></ul><h3 id="Day-2-2022-04-08"><a href="#Day-2-2022-04-08" class="headerlink" title="Day 2 - 2022.04.08"></a>Day 2 - 2022.04.08</h3><ul><li><input checked="" disabled="" type="checkbox"> LLDB: Beyond “po”</li></ul><h2 id="30-Days-of-Read"><a href="#30-Days-of-Read" class="headerlink" title="30 Days of Read"></a>30 Days of Read</h2><ul><li>Day 1 - 2022.04.08: <a href="https://book.douban.com/subject/26264163/">跳舞女郎</a></li></ul><img src="https://img9.doubanio.com/view/subject/s/public/s28425864.jpg" referrerpolicy="no-referrer">]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h2&gt;&lt;p&gt;这几天想起来很早之前听 &lt;a href=&quot;https://podcasts.apple.com/us/podcast/ux-coffee-%</summary>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E8%B5%B7%E5%9B%A0&quot;&gt;起因&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#30-Days-of-WWDC&quot;&gt;30 Days of WWDC&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#Day-1-2022-04-07&quot;&gt;Da</summary>
       
     
     
@@ -471,32 +499,6 @@
     
     
     <category term="Swift" scheme="http://kiligwyu.com/tags/Swift/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>基于 Ubuntu 搭建 FTP 文件服务</title>
-    <link href="http://kiligwyu.com/ji-yu-Ubuntu-da-jian-FTP-wen-jian-fu-wu/"/>
-    <id>http://kiligwyu.com/ji-yu-Ubuntu-da-jian-FTP-wen-jian-fu-wu/</id>
-    <published>2019-05-12T12:59:09.000Z</published>
-    <updated>2021-10-15T09:14:10.216Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>2020.08.31：必应壁纸脚本更新，获取 UHD 分辨率图片</li></ul><hr><p>1、使用 <code>apt-get</code> 安装 <a href="https://security.appspot.com/vsftpd.html">vsftpd</a>：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install vsftpd -y</span><br></pre></td></tr></table></figure><p>1.1、删除掉 pam.d 中 vsftpd，因为该配置文件会导致使用用户名登录 FTP 失败</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">rm</span> /etc/pam.d/vsftpd</span><br></pre></td></tr></table></figure><p>2、新建用户主目录 <code>/home/uftp</code>，通过 FTP 登录后看到的根目录，并设置权限（只读）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> /home/uftp &amp;&amp; sudo <span class="built_in">chmod</span> a-w /home/uftp</span><br></pre></td></tr></table></figure><p>2.1、新建公共目录，并设置权限（读写）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> /home/uftp/public &amp;&amp; sudo <span class="built_in">chmod</span> 777 -R /home/uftp/public</span><br></pre></td></tr></table></figure><p>3、创建一个用户 <code>uftp</code>，并设置该用户目录为 <code>/home/uftp</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo useradd -d /home/uftp -s /bin/bash uftp</span><br></pre></td></tr></table></figure><p>3.1、为用户 <code>uftp</code> 设置密码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo passwd uftp</span><br></pre></td></tr></table></figure><p>3.2、限制用户 <code>uftp</code> 只能通过 FTP 访问服务器，而不能直接登录服务器：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -s /sbin/nologin uftp</span><br></pre></td></tr></table></figure><p>4、新建文件 <code>/etc/vsftpd.user_list</code>，用于存放允许访问 FTP 的用户</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">touch</span> /etc/vsftpd.user_list &amp;&amp; sudo <span class="built_in">chmod</span> a+w /etc/vsftpd.user_list</span><br></pre></td></tr></table></figure><p>4.1、修改 <code>/etc/vsftpd.user_list</code> ，加入刚刚创建的用户</p><p>5、修改 vsftpd 配置</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">chmod</span> a+w /etc/vsftpd.conf</span><br></pre></td></tr></table></figure><p>修改 <code>/etc/vsftpd.conf</code> 文件中的配置，直接将如下配置添加到配置文件最下方：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># 限制用户对主目录以外目录访问</span><br><span class="line">chroot_local_user=YES</span><br><span class="line"></span><br><span class="line"># 指定一个 userlist 存放允许访问 ftp 的用户列表</span><br><span class="line">userlist_deny=NO</span><br><span class="line">userlist_enable=YES</span><br><span class="line"></span><br><span class="line"># 记录允许访问 ftp 用户列表</span><br><span class="line">userlist_file=/etc/vsftpd.user_list</span><br><span class="line"></span><br><span class="line"># 不配置可能导致莫名的530问题</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line"># 允许文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line"># 使用utf8编码</span><br><span class="line">utf8_filesystem=YES</span><br></pre></td></tr></table></figure><p>6、重启 vsftpd 服务</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure><p>通过 netstat 命令可以看到系统已经监听了 21 端口，FTP 协议默认使用 21 端口作为服务端口</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo netstat -nltp | grep 21</span><br></pre></td></tr></table></figure><p>7、连接到 FTP 服务器</p><p>7.1、使用 FTP 客户端连接，如 Yummy FTP</p><p>7.2、macOS 下在 Finder 中直接按 ⌘+K，输入以下地址</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ftp://用户名:密码@ip</span><br></pre></td></tr></table></figure><h2 id="One-More-Thing"><a href="#One-More-Thing" class="headerlink" title="One More Thing"></a>One More Thing</h2><p>1、每日必应图片的脚本 <code>DailyBingWallpaper.sh</code>：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line">SAVEPATH=<span class="string">&quot;/home/uftp/public/Pictures/Bing/&quot;</span>`<span class="built_in">date</span> <span class="string">&quot;+%Y/&quot;</span>``<span class="built_in">date</span> <span class="string">&quot;+%m&quot;</span>`</span><br><span class="line">NAME=$(<span class="built_in">date</span> <span class="string">&quot;+%d&quot;</span>)</span><br><span class="line">URL=<span class="string">&quot;https://bing.com/HPImageArchive.aspx?format=js&amp;n=1&amp;mkt=zh-CN&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">mkdir</span> -p <span class="variable">$SAVEPATH</span></span><br><span class="line"></span><br><span class="line">JSON=`curl -s <span class="variable">$URL</span>`</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$JSON</span> &gt; <span class="variable">$SAVEPATH</span>/<span class="variable">$NAME</span>.json</span><br><span class="line">imgUrl=<span class="string">&quot;https://www.bing.com&quot;</span>`<span class="built_in">echo</span> <span class="variable">$JSON</span> | jq <span class="string">&quot;.images&quot;</span> | jq -r <span class="string">&quot;.[0].urlbase&quot;</span>`<span class="string">&quot;_UHD.jpg&quot;</span></span><br><span class="line">curl -s -o <span class="variable">$SAVEPATH</span>/<span class="variable">$NAME</span>.jpg <span class="string">&quot;<span class="variable">$imgUrl</span>&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>2、使用 <code>apt-get</code> 安装 <a href="https://stedolan.github.io/jq/">jq</a> （ json 解析工具）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install jq -y</span><br></pre></td></tr></table></figure><p>3、将 <code>DailyBingWallpaper.sh</code> 添加到定时任务中</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br></pre></td></tr></table></figure><p>第一次使用 <code>crontab</code> 命令时会提示你选择编辑器，这里选 vim 当编辑器，要修改编辑器时可以用 <code>select-editor</code></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select-editor</span><br></pre></td></tr></table></figure><p>进入编辑模式，添加一行（每天零点一分执行脚本）：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1 0 * * * /home/ubuntu/sh/DailyBingWallpaper.sh</span><br></pre></td></tr></table></figure><h2 id="And-One-More-Thing"><a href="#And-One-More-Thing" class="headerlink" title="And One More Thing"></a>And One More Thing</h2><p>点击 <a href="https://1drv.ms/f/s!AuQ7aUGVDnCMkRYMlx5ntsikfCws">这里</a> 获取我分享的必应壁纸！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;2020.08.31：必应壁纸脚本更新，获取 UHD 分辨率图片&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;1、使用 &lt;code&gt;apt-get&lt;/code&gt; 安装 &lt;a href=&quot;https://security.appspot.com/vsftpd.html&quot;</summary>
-      
-    
-    
-    
-    
-    <category term="Ubuntu" scheme="http://kiligwyu.com/tags/Ubuntu/"/>
     
   </entry>
   
