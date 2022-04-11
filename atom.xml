@@ -42,6 +42,31 @@
   </entry>
   
   <entry>
+    <title>Kilig 的碎周报 - #8</title>
+    <link href="http://kiligwyu.com/newsletter/8/"/>
+    <id>http://kiligwyu.com/newsletter/8/</id>
+    <published>2022-04-07T13:15:40.000Z</published>
+    <updated>2022-04-11T05:49:13.764Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi, 感谢订阅 Kilig 的碎周报，这里是碎周报第 8 期。另外，你也可以 <a href="https://www.getrevue.co/profile/Kilig">通过邮件订阅本周报</a>。</p><p>看网上上海的新闻，看到的也只是冰山一角罢了，非常致郁，以前觉得小地方管理不行，现在上海也真让人大开眼界，唉……</p><p>上周说要开启 30 Days of WWDC 的学习，实际开始时间已经是七号了 🤣，另外，八号起又开了 30 Days of Read 的读书活动，两个活动同时进行，记录在博客 <a href="https://kiligwyu.com/30DaysofXXX">30 Days of XXX</a> 上，这俩活动做下来，真的没有更多空余时间了 🤣。</p><p>在博客上也写了篇关于我的 <a href="https://github.com/KiligWYu/ThreeSpare-iOS">开源 app『三余』</a> 的 <a href="https://kiligwyu.com/ThreeSpare">文章</a>，感兴趣的可以看看。</p><h2 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h2><p>⭐️ 每日必应壁纸工具 <a href="https://apps.apple.com/us/app/id1573715683">Tapet</a> 1.7.0 发布了，这个版本优化了下图片下载，我发现用 cn.bing.com 这个域名来下载图片特别特别慢，之前也有中文用户反馈说图片下不下来，这个版本改用 bing.com 来下载图片；还用 Combine 稍微重构了下页面。</p><h2 id="Newsletter-推荐"><a href="#Newsletter-推荐" class="headerlink" title="Newsletter 推荐"></a>Newsletter 推荐</h2><ul><li><p>⭐️ <a href="https://anobody.im/newsletter/">阿乐的堆肥箱</a> - 阿乐，最新一期<a href="https://anobody.im/newsletter/2214/">《我为什么选择出国？｜堆肥箱 Weekly》</a>。</p></li><li><p>⭐️ <a href="https://techly.zhubai.love/">棒棒彬・技术参考周刊</a> ── 分享个人技术见闻，棒棒彬的第二大脑增量突触 ── 王兴彬</p></li></ul><h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><ul><li><p>⭐️ Twitter - <a href="https://twitter.com/deekaymotion/status/1510643190814019589">@deekaymotion</a>: We are born. We live life. We face death at the end of the road, but memories of us remain and live on.<br>推主设计的 “<a href="https://twitter.com/deekaymotion/status/1510619880902569986">Life and Death</a>” 30 秒的动画，<a href="https://twitter.com/CozomoMedici/status/1512235251585626112">卖了 100 万美元</a>。</p></li><li><p>⭐️ Bilibili - @oooooohmygosh: <a href="https://www.bilibili.com/video/BV1GY411E7Jr">一件吵了 100 多年的小事……</a><br>UP 主研究了弯引号以及直角引号的起源和发展。引号我也喜欢用直角引号，单纯因为在中文中使用直角引号排版看起来比较好看。UP 主的设计类视频都很棒。</p></li><li><p>⭐️ Twitter - Hashtag: <a href="https://twitter.com/hashtag/%E7%8A%80%E5%88%A9%E8%80%8C%E6%97%A0%E7%94%A8%E7%9A%84%E7%9F%A5%E8%AF%86">#犀利而无用的知识</a><br>倪爽老师经常分享些“犀利而无用的知识”，学到不少。</p></li><li><p><a href="https://gnelson.gumroad.com/l/obsidian-3">Obsidian icon</a>，设计师：Twitter - <a href="https://twitter.com/Gavmn/status/1511720431497060352">@Gavmn</a><br>很好看的图标。各种 editor 图标都是本子上面放支笔，比如 TextEdit、Script Editor 以及 CotEditor。😄</p></li><li><p>字体：字体管家仿宋，来源：Twitter - <a href="https://twitter.com/huangjinbo/status/1511690137289490432">@huangjinbo</a>。也很好看的字体，我搜了一会也没找到官方的下载地址 🤣。</p></li><li><p>壁纸 - <a href="https://drive.google.com/drive/folders/1bMD16qFf5w5Nm9ndJ_dDHcUJ7AXv6l-R">WWDC 2022</a>，来源：Twitter - <a href="https://twitter.com/BasicAppleGuy/status/1511386861708533761">@BasicAppleGuy</a>。</p></li></ul><h2 id="YouTuber"><a href="#YouTuber" class="headerlink" title="YouTuber"></a>YouTuber</h2><ul><li>⭐️ <a href="https://www.youtube.com/channel/UCAUGvqd9Zaski4MWoYi1etg">Athos Outdoor Prospector</a><br>这种独自在丛林中盖房子生活的记录视频，特别解压，类似的 YouTuber 还有不少，还有失联两年然后突然回归的 <a href="https://www.youtube.com/channel/UCAL3JXZSzSm8AlZyD3nQdBA">Primitive Technology</a> 也很推荐。</li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>学到一个新方法论：<code>Learn in Public</code>，<a href="https://www.swyx.io/learn-in-public/">英文原文在此</a>，<a href="https://juejin.cn/post/6855456536056037389">中文译文在此</a>。那我开的 30 Days of WWDC 也算是 learn in public 了 😄，以后可以多实践下此理论，但是要暴露自己是菜鸟了 🤣。</p><hr><p>【完】以上就是本期周报的全部内容了，再次感谢订阅和阅读。Have an A-1 week.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi, 感谢订阅 Kilig 的碎周报，这里是碎周报第 8 期。另外，你也可以 &lt;a href=&quot;https://www.getrevue.co/profile/Kilig&quot;&gt;通过邮件订阅本周报&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;看网上上海的新闻，看到的也只是冰山一角罢了，非常致郁，</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
+  
+  <entry>
     <title>30 Days of XXX</title>
     <link href="http://kiligwyu.com/30DaysofXXX/"/>
     <id>http://kiligwyu.com/30DaysofXXX/</id>
@@ -476,29 +501,6 @@
     
     
     <category term="算法" scheme="http://kiligwyu.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通知中心要不要移除观察者</title>
-    <link href="http://kiligwyu.com/tong-zhi-zhong-xin-yao-bu-yao-yi-chu-guan-cha-zhe/"/>
-    <id>http://kiligwyu.com/tong-zhi-zhong-xin-yao-bu-yao-yi-chu-guan-cha-zhe/</id>
-    <published>2019-05-31T03:12:18.000Z</published>
-    <updated>2021-10-15T09:17:58.702Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>If your app targets iOS 9.0 and later or macOS 10.11 and later, you don’t need to unregister an observer in its dealloc method. Otherwise, you should call removeObserver(_:name:object:) before observer or any object passed to this method is deallocated.</p></blockquote><p>iOS 9.0 和 macOS 10.11 以后不需要手动移除观察者。</p><p>但在用 Block 形式添加观察者时，即 <code>addObserver(forName:object:queue:using:)</code>，却遇到了崩溃的问题，因为观察者并没有被移除，查了下文档，在 <code>addObserver(forName:object:queue:using:)</code> 的文档中看到：</p><blockquote><p>To unregister observations, you pass the object returned by this method to removeObserver(<em>:). You must invoke removeObserver(</em>:) or removeObserver(_:name:object:) before any object specified by addObserver(forName:object:queue:using:) is deallocated.</p></blockquote><p>也就是说 Block 形式的观察者必须要手动移除。</p><p><code>addObserver(forName:object:queue:using:)</code> 是有返回值的，是 <code>NSObjectProtocol</code> 类型。</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> objectProtocol: <span class="type">NSObjectProtocol</span>!</span><br><span class="line"></span><br><span class="line"><span class="comment">// ...</span></span><br><span class="line"></span><br><span class="line">objectProtocol <span class="operator">=</span> <span class="type">NotificationCenter</span>.default</span><br><span class="line">    .addObserver(forName: <span class="type">UIApplication</span>.keyboardWillShowNotification,</span><br><span class="line">                 object: <span class="literal">nil</span>,</span><br><span class="line">                 queue: <span class="type">OperationQueue</span>.main) </span><br><span class="line">    &#123; (notification) <span class="keyword">in</span></span><br><span class="line">        <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// ...</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">deinit</span> &#123;</span><br><span class="line">    <span class="type">NotificationCenter</span>.default.removeObserver(objectProtocol<span class="operator">!</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://developer.apple.com/documentation/foundation/notificationcenter/1411723-addobserver">https://developer.apple.com/documentation/foundation/notificationcenter/1411723-addobserver</a></li><li><a href="https://developer.apple.com/documentation/foundation/notificationcenter/1415360-addobserver">https://developer.apple.com/documentation/foundation/notificationcenter/1415360-addobserver</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;If your app targets iOS 9.0 and later or macOS 10.11 and later, you don’t need to unregister an observer in its dealloc meth</summary>
-      
-    
-    
-    
-    
-    <category term="Swift" scheme="http://kiligwyu.com/tags/Swift/"/>
     
   </entry>
   
