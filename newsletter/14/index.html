@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #14 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="/css/dark.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create','UA-79939823-1','auto');ga('send','pageview');
+</script><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #14</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #14</h1><div class="post-meta">2022-05-23<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/14/" href="/newsletter/14/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报，这里是碎周报第 14 期。另外，你也可以 <a target="_blank" rel="noopener" href="https://www.getrevue.co/profile/Kilig">通过邮件订阅本周报</a>。</p>
+<ul>
+<li><a href="#%E4%BA%A7%E5%93%81%E5%8A%A8%E6%80%81">产品动态</a><ul>
+<li><a href="#Tapet-%E9%AB%98%E6%B8%85%E5%A3%81%E7%BA%B8%E5%B7%A5%E5%85%B7">Tapet - 高清壁纸工具</a></li>
+<li><a href="#%E8%8A%B1%E5%AF%86-%E4%B8%8D%E4%B8%80%E6%A0%B7%E7%9A%84%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7">花密 - 不一样的密码管理工具</a></li>
+</ul>
+</li>
+<li><a href="#%E6%B8%B8%E6%88%8F%E6%8E%A8%E8%8D%90">游戏推荐</a></li>
+<li><a href="#%E5%BC%80%E5%8F%91%E7%9B%B8%E5%85%B3">开发相关</a></li>
+<li><a href="#%E5%85%B6%E4%BB%96">其他</a></li>
+</ul>
+<h2 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h2><h3 id="Tapet-高清壁纸工具"><a href="#Tapet-高清壁纸工具" class="headerlink" title="Tapet - 高清壁纸工具"></a>Tapet - 高清壁纸工具</h3><p>★ <a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1573715683">Tapet</a> version 1.8.0 发布了，本次更新：</p>
+<ul>
+<li>增加了随机壁纸功能（本地缓存）</li>
+<li>修复了打开设置窗口状态图标可能会被隐藏的问题</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202205210930398.jpeg" alt="Tapet"></p>
+<h3 id="花密-不一样的密码管理工具"><a href="#花密-不一样的密码管理工具" class="headerlink" title="花密 - 不一样的密码管理工具"></a>花密 - 不一样的密码管理工具</h3><p><a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1375291184">花密</a> version 2.8.0 发布了，本次更新：</p>
+<ul>
+<li>优化了密码输入框，默认固定显示 16 位</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202205210930262.jpeg" alt="Flower Password"></p>
+<h2 id="游戏推荐"><a href="#游戏推荐" class="headerlink" title="游戏推荐"></a>游戏推荐</h2><p>1.《20 Minutes Till Dawn》的免费版本 <a target="_blank" rel="noopener" href="https://store.steampowered.com/app/1888430/10_Minutes_Till_Dawn/">《10 Minutes Till Dawn》</a>。<br>完整版还没发行，roguelike 式的生存游戏，杀戮的快感很上头。☞ <a target="_blank" rel="noopener" href="https://bilibili.com/video/BV15v4y1A72W">B 站 up 主的直播视频</a>。</p>
+<p><img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1888430/extras/levelup.gif" alt="10 Minutes Till Dawn"></p>
+<ol start="2">
+<li><p>看到《10 Minutes Till Dawn》这个游戏，让我想起了很久很久以前玩的一款 Flash 游戏《Robokill 2: Leviathan Five》，中文名称：杀戮机器。<br>2009 年发行的游戏，还曾经上架过 App Store。画面细腻，操作流畅，射击爽快，也很上头。感兴趣的朋友可以玩一下，不过可能需要安装已死的 Flash。<br><a target="_blank" rel="noopener" href="https://github.com/KiligWYu/PlayForFun/blob/main/swf/Robokill_2.swf">我收藏的 Robokill 2 的 swf 文件</a><br><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/Robokill%202">百度百科链接</a><br><a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=Robokill+2&sp=CAM%253D">油管视频链接</a></p>
+</li>
+<li><p>Apple Arcade 游戏<a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1538650027">《Alto’s Odyssey — Remastered》</a>，新的地图场景“失落之城”，新的失落目标。还有一代的<a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1576663233">《Alto’s Adventure — Remastered》</a>，新的人物“Pitu”和新的失落目标。这段时间都在玩这俩了。</p>
+<p> <img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202205211037180.PNG" alt="Alto&#39;s Odyssey - The Lost City"><br> <img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202205211043268.webp" alt="Alto&#39;s Adventure - Pitu"></p>
+</li>
+</ol>
+<h2 id="开发相关"><a href="#开发相关" class="headerlink" title="开发相关"></a>开发相关</h2><ol>
+<li>★ <a target="_blank" rel="noopener" href="https://juniper-diamond-d81.notion.site/App-Store-a092b605fc6748038b2446c2fe68be71">App Store 用户评论花式回复模版</a>，<a target="_blank" rel="noopener" href="https://twitter.com/gaodengming/status/1526756370636148736">@gaodengming</a></li>
+<li>★ <a target="_blank" rel="noopener" href="https://sideproject.guide/zh">Side Project 指南</a>，<a target="_blank" rel="noopener" href="https://twitter.com/Tim_Qian/status/1526793570107109377">@Tim_Qian</a></li>
+<li>★ <a target="_blank" rel="noopener" href="https://twitter.com/randyloop/status/1527532236790067200">开发故事</a>：<a target="_blank" rel="noopener" href="https://twitter.com/randyloop/status/1527532236790067200">@randyloop</a>:<br><code>工作中我觉得最有意思的是和非技术团队聊天，比如设计、测试团队。向他们了解他们的工作流程，很多时候很惊讶地发现他们有一些人工完成的苦力活，都是可以通过程序完成的，一个下午的活，用程序一分钟就完成了。做一些程序解决他们的问题，是能让彼此都很开心的事。这个 thread 聊聊我经历过的一些例子。</code></li>
+<li>App Store 用户评论通过 RSS 订阅，<a target="_blank" rel="noopener" href="https://greedlab.com/blog/apple/rss-app-reviews.html">RSS 链接见这里</a>。</li>
+<li>★ <a target="_blank" rel="noopener" href="https://ohshitgit.com/zh">Oh Shit, Git!?!</a><br><code>用好 Git 很难：很容易就犯错了，然后想自己弥补犯下的错，简直太难了。查阅 Git 文档简直就像是个 “鸡生蛋 蛋生鸡” 的问题，你得知道你要的是啥 ，但如果我知道的话，我还他妈查个毛文档啊！</code>。</li>
+</ol>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
+<li><p><code>#为好设计买单</code> 闪极 35w 氮化镓麦金塔复古充电器，太好看了这小充电器，预售中 ￥149.00，<a target="_blank" rel="noopener" href="https://item.jd.com/10051730193587.html">京东链接</a>。<br><img src="https://img10.360buyimg.com/imgzone/jfs/t1/153911/27/23666/534619/62866762E164a41b9/f569b2b2a7fa8cc9.png" alt="闪极 35w 氮化镓麦金塔复古充电器"></p>
+</li>
+<li><p>★ <a target="_blank" rel="noopener" href="https://movie.douban.com/subject/35436582/">爱，死亡和机器人 第三季 Love, Death &amp; Robots Season 3 (2022)</a>，5 月 20 日首播，当日看完 😄，信息量有些大，后面再看些解读。</p>
+</li>
+<li><p>新 app 『<a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1613046504">神奇画中画</a>』：在画中画窗口中显示各种媒体的工具，图片、视频、PDF、TXT、剪贴板中的文本。@Jinyu Meng，也是 <a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1505296579">PomoNow 2</a> 的开发者。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://someonegao.com/fall-in-love-with-coffee">【咖啡患者 - Fall in Love with Coffee】</a>，@某高老师。写的太好了，“功能型咖啡患者”是我了 🤣。</p>
+<blockquote>
+<p>其实咖啡这东西主要有两拨消费人群，一种就像每天带着耳机出街的肥宅，听音乐的目的主要是隔绝环境噪音，沉浸在一个只有自己的环境里。在我年轻的时候，我们都会用磁带录下收音机里一首传唱的歌，灌满整盘磁带反复播放。而另一种，就好像音响发烧友，他们从音源到功放，从线材到环境，都要求完美，甚至还有对水电和火电的变态要求，只为还原现场感 —— 也许不是，天知道他们为了什么。</p>
+<p>咖啡也一样，一大波人是功能型咖啡患者，他们喝咖啡的主要作用是提神，因此对咖啡的主要要求是方便、口味不要太差，三顿半等类型的速溶是他们的首选品类。而还有一拨人是爱好型咖啡患者，言必称瑰夏蓝山危地马拉，不知道的人还以为他们在讨论回字的四种写法。</p>
+</blockquote>
+</li>
+<li><p>★<a target="_blank" rel="noopener" href="https://card.weibo.com/article/m/show/id/2309404771511289643038">【一个叫方鸿渐的无用男人的故事】</a>，来源：<a target="_blank" rel="noopener" href="https://m.weibo.cn/status/4771511287943504">@人物</a>。<br><code>为什么总能在方鸿渐身上看到自己的影子？</code>😹。 <a target="_blank" rel="noopener" href="https://movie.douban.com/subject/1478168/all_photos">更多围城的剧照</a>。<br><img src="https://wx1.sinaimg.cn/large/3e2fe402ly4h2fsulp81vj20u00jqmyp.jpg" alt="婚后的方鸿渐、孙柔嘉"></p>
+</li>
+<li><p>★ 读完了<a target="_blank" rel="noopener" href="https://book.douban.com/subject/35170896/">《平面国》</a>(★★★★☆)。脑洞大开的二维世界。<br><code>首次解释 &quot;维度&quot; 概念的科普读物、脑洞大开的科幻小说、煞有介事的数学童话、剑走偏锋的精神启蒙、辛辣讽喻英国维多利亚时代的社会寓言。</code><br><img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202205231027377.webp" alt="平面国"></p>
+</li>
+</ol>
+<hr>
+<p>【完】以上就是本期周报的全部内容了，再次感谢订阅和阅读。Have an A-1 week.</p>
+</div><div class="tags"><a href="/tags/newsletter/"><i class="fa fa-tag"></i>newsletter</a></div><div class="post-nav"><a class="next" href="/newsletter/13/">Kilig 的碎周报 - #13</a></div><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqusjs.css?v=1.0.0"><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqus.js?v=1.0.0"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+     var xhr = new XMLHttpRequest();
+     xhr.open('GET', '//disqus.com/next/config.json', true);
+     xhr.timeout = 2500;
+     xhr.onreadystatechange = function () {
+       if (xhr.readyState === 4 && xhr.status === 200) {
+         $('.post-meta .post-comments-count').show();
+         var s = document.createElement('script');
+         s.id = 'dsq-count-scr';
+         s.src = 'https://kiligwyu.disqus.com/count.js';
+         s.async = true;
+         (document.head || document.body).appendChild(s);
+       }
+     };
+     xhr.ontimeout = function () { xhr.abort(); };
+     xhr.send(null);
+   });</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/14/',
+    url: 'http://kiligwyu.com/newsletter/14/',
+    title: 'Kilig 的碎周报 - #14',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Learn-in-Public/">Learn in Public</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a><span class="category-list-count">14</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/Issues/" style="font-size: 15px;">Issues</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/" style="font-size: 15px;">每日一文</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/WWDC/" style="font-size: 15px;">WWDC</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/lip/" style="font-size: 15px;">lip</a> <a href="/tags/newsletter/" style="font-size: 15px;">newsletter</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/newsletter/14/">Kilig 的碎周报 - #14</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/13/">Kilig 的碎周报 - #13</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/12/">Kilig 的碎周报 - #12</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/11/">Kilig 的碎周报 - #11</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/10/">Kilig 的碎周报 - #10</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/9/">Kilig 的碎周报 - #9</a></li><li class="post-list-item"><a class="post-list-link" href="/ThreeSpare/">三余 ── 每日一文非官方开源客户端</a></li><li class="post-list-item"><a class="post-list-link" href="/learninpublic/read/">阅读记录</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/8/">Kilig 的碎周报 - #8</a></li><li class="post-list-item"><a class="post-list-link" href="/learninpublic/30DaysofXXX/">30 Days of WWDC</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2022 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
