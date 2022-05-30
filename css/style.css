@@ -1583,3 +1583,53 @@ html[data-dark='true'] {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+/* Twitter CSS */
+.tweet {
+  width: 500px;
+  padding: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 1rem; }
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.tweet-author {
+  display: flex;
+  align-items: center; }
+
+.tweet-author-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%; }
+
+.tweet-author-info {
+  margin-left: 1rem; }
+  .tweet-author-info p {
+    margin: 0 !important; }
+
+.tweet-author-name {
+  line-height: 1rem;
+  font-weight: 500; }
+
+.tweet-author-handler {
+  line-height: 1.8rem;
+  color: #1f9bf0; }
+
+.tweet-logo {
+  color: #1f9bf0; }
+
+.tweet-content {
+  margin-top: 0rem; }
+
+.tweet-content a {
+  color: #1f9bf0; }
+
+.tweet-content .emoji {
+  display: inline-block;
+  height: 1.2em;
+  width: 1.2em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em; }
