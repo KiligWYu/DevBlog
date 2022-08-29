@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #19（2022.06.27） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="/css/dark.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #28（2022.08.29） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="/css/dark.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
@@ -12,134 +12,94 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #19（2022.06.27）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #19（2022.06.27）</h1><div class="post-meta">2022-06-27<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/19/" href="/newsletter/19/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报，这里是碎周报第 19 期。</p>
-<h2 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h2><ol>
-<li>本周本想给 Tapet 增加两个实验性功能，一个是设置 Space 桌面图片，一个是自动更新 Safari 背景图片。涉及到直接修改系统文件，研究一番后作罢。<br>修改 Space 桌面图片需要直接修改 <code>~/Library/Application Support/Dock/desktoppicture.db</code> 文件，在 GitHub 上找到个命令行工具 <a target="_blank" rel="noopener" href="https://github.com/georgesofianosgr/wally">georgesofianosgr&#x2F;wally</a>。<br>Safari 背景图片地址是 <code>~/Library/Containers/com.apple.Safari/Data/Library/Safari/StartPage/defaultBackground</code>，<code>defaultBackground</code> 文件就是图片去了拓展名，修改后需要重启下 Safari。</li>
-<li>做了个给图片增加类似 Mac 窗口截图时的阴影的小工具，等我完善下，下周上架下 Mac App Store 吧。本期周报的截图就是用此工具处理过的。</li>
-</ol>
+});</script><meta name="generator" content="Hexo 6.0.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #28（2022.08.29）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #28（2022.08.29）</h1><div class="post-meta">2022-08-29<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/28/" href="/newsletter/28/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报，这里是碎周报第 29 期。</p>
 <h2 id="本周碎片"><a href="#本周碎片" class="headerlink" title="本周碎片"></a>本周碎片</h2><ol>
-<li>看了电影 ★ <a target="_blank" rel="noopener" href="https://movie.douban.com/subject/11525673/">布达佩斯大饭店 The Grand Budapest Hotel (2014)</a> 和 ★ <a target="_blank" rel="noopener" href="https://movie.douban.com/subject/1915180/">老千 타짜 (2006)</a>。<br><img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202206262108239.png" alt="布达佩斯大饭店 The Grand Budapest Hotel (2014)"><br><img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202206262108979.png" alt="老千 타짜 (2006)"></li>
-<li>小而美的聊天 App Telegram 推出 Premium 包月会员了，冲了一个月会员试试，全屏表情包挺好看 😄。</li>
+<li>本周开始看赫尔辛基大学的 ★ <a target="_blank" rel="noopener" href="https://fullstackopen.com/zh/">《全栈公开课 2022》</a>，这个公开课躺在我书签里两年了，终于开始学了 🤣，目前学到 Part 2&#x2F;13。自己技术栈太单一了，所以学点前后端的东西，学完就可以做更多 side project 了。<blockquote>
+<p>一站式学习 React, Redux, Node.js, MongoDB, GraphQL 以及 TypeScript！这门课程会向你介绍基于 JavaScript 的现代 Web 开发技术。重点是利用 ReactJS 搭建单页面应用程序（SPA：Single Page Application），并使用 Node.js 构建 REST API。</p>
+</blockquote>
+</li>
+<li>一点感受：对于那些需要定期清理、清理起来麻烦还清理不干净的非必需产品，买之前得慎重考虑。</li>
+<li>我市又有新冠病例了，又天天做核酸、封城、静默管理，本月第二次了。我倒要看清零政策能坚持到什么时候。</li>
+<li>驾照快要到期了，周一（22）下午去了车管所换了新驾照。照相、体检、填表，本来接下来就是制证，可以很快搞定的，但因为我的驾照是外地的，得去大厅窗口办理，排队一小时后，几分钟办理完毕。我也是老司机了，六年驾龄，不过里程倒是很短 😄。</li>
+<li><em>#产品动态</em> 这段时间 side projects 就不发新版了，也发不了，电脑都升级成测试版系统了，都正式版系统发布，第一时间发新版。</li>
 </ol>
 <h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><ol>
-<li><a target="_blank" rel="noopener" href="https://github.com/sudoaugustin/vslook">sudoaugustin&#x2F;vslook</a>: 自定义 VSCode。</li>
-<li><a target="_blank" rel="noopener" href="https://github.com/georgesofianosgr/wally">georgesofianosgr&#x2F;wally</a>: MacOS utility to change background of all Desktops.</li>
-</ol>
-<h2 id="开发故事"><a href="#开发故事" class="headerlink" title="开发故事"></a>开发故事</h2><ol>
-<li>★ <a target="_blank" rel="noopener" href="https://antfu.me/posts/why-reproductions-are-required-zh">「请提供最小重现」</a>。</li>
-<li><a target="_blank" rel="noopener" href="https://sspai.com/post/73855">exping：一个地图创作工具是怎么诞生的？</a></li>
-</ol>
-<h2 id="值得关注的-App"><a href="#值得关注的-App" class="headerlink" title="值得关注的 App"></a>值得关注的 App</h2><ol>
-<li>上期周报提到的脑洞大开、妙用 MacBook Notch 的 App 已经上架 Mac App Store 了，<a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1630456052">TopDrop</a>，售价 $6.99。<br><img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202206262111531.png" alt="TopDrop"></li>
-<li><a target="_blank" rel="noopener" href="https://apps.apple.com/us/app/id1629352527">Scrcpy Remote</a> 通过 iPhone 远程控制 Android 设备。<br><img src="https://raw.githubusercontent.com/KiligWYu/Pics/master/202206262141994.png" alt="Scrcpy Remote"> <div class="tweet " data-style="">
- <div class="tweet-header">
-   <div class="tweet-author">
-       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/662796671/jrtb_005_normal.png">
-         <div class="tweet-author-info">
-           <div class="tweet-author-title" <p="">Ethan Wang<p></p>
-             <svg class="tweet-author-verified" viewBox="0 0 24 24"><g><path fill="currentColor" d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg>
-           </div>
-           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/wsvn53">@wsvn53
-           </a>
-         </div>
-   </div>
-   <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
- </div>
- <div class="tweet-content">
-   个人第一个 App 终于上架了，几年前立的 Flag 终于实现了，Scrcpy Mobile 是将 scrcpy v1.24 移植到 iOS 的版本，可以实现通过 iPhone 远程控制 Android 设备，仅需开启 WiFi ADB，你可以通过加入 TestFlight 安装 <a class="tweet-content-link" href="https://t.co/TfmuaavF6Y" target="_blank">testflight.apple.com/join/9ZE6xhRt</a>，或者直接从 AppStore 购买安装 <a class="tweet-content-link" href="https://t.co/bU5if1ioOw" target="_blank">apps.apple.com/us/app/scrcpy-…</a>
-     <a href="https://t.co/TfmuaavF6Y" target="_blank">
-       <div class="tweet-media tweet-summary-large-image">
-         <img src="https://pbs.twimg.com/card_img/1538558697642741760/5svSqGG5?format=jpg&amp;name=800x320_1">
-         <div class="tweet-summary-card-text">
-           <span>testflight.apple.com</span>
-           <h2>Join the Scrcpy Remote beta</h2>
-           <p>Available on iOS</p>
-         </div>
-       </div>
-     </a>
- </div>
- <div class="tweet-info">
- <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
- <span>277</span>
- <div class="tweet-info-date">12:14 AM · Jun 21, 2022</div>
- </div>
-  </div>
-  <br></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/subframe7536/Maple-font">subframe7536&#x2F;Maple-font</a>：开源圆角的等宽和控制台字体。<br><img src="https://github.com/subframe7536/Maple-font/raw/v5/img/head.svg" alt="Maple-font"></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/svenstaro/genact">svenstaro&#x2F;genact</a>: 🌀 A nonsense activity generator。<br>假装电脑很忙，适合摸鱼 😄。<br><img src="https://github.com/svenstaro/genact/raw/master/gifs/cargo.gif" alt="Screenshot"></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/Lakr233/Evil.Objective-C">Lakr233&#x2F;Evil.Objective-C</a>，太 evil 了，破坏计算机系统罪警告。<blockquote>
+<p>什么？你的同事们居然还在使用 Objective-C ?<br><br>想在离开前给你们的项目留点小 <strong>礼物</strong> ？<br><br>偷偷地把本项目引入你们的项目吧，你们的项目会有但不仅限于如下的神奇效果：<br></p>
+<ul>
+<li>当数组长度可以被 7 整除时，<code>[NSArray containsObject:]</code> 永远返回 NO。</li>
+<li>当周日时，<code>[NSArray lastObject]</code> 方法的结果总是会丢失。</li>
+<li><code>[NSUserDefaults stringForKey:]</code> 有 5% 几率返回空字符串。</li>
+<li><code>[NSDate timeIntervalSince1970]</code> 的结果总是会早一个小时。</li>
+<li><code>[NSString stringByAppendingString:]</code> 在高性能机器上可能会返回反转的字符串。</li>
+<li>当页面上的按钮包含 <code>举报</code> <code>反馈</code> <code>建议</code> 时，点按任意按钮会结束运行。</li>
+<li>…</li>
+</ul>
+</blockquote>
+</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/TexteaInc/json-viewer">TexteaInc&#x2F;json-viewer</a>: JSON viewer for react.</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/tailwindlabs/heroicons">tailwindlabs&#x2F;heroicons</a>: A set of free MIT-licensed high-quality SVG icons for UI development.<br>最近刚发布了 v2.0 版本。</li>
 </ol>
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
-<li><a target="_blank" rel="noopener" href="https://miaoyan.app/">开源 Markdown 笔记 App 妙言</a> 的作者分享自己在用的 Mac 软件：<a target="_blank" rel="noopener" href="https://tw93.fun/2022-06-25/mac.html">2022 年我的 Mac 软件折腾之旅</a>。</li>
-<li><a target="_blank" rel="noopener" href="https://twitter.com/linfavourite">@linfavourite</a> <code>曾經翻譯過有男性為了讓女性「屬於」自己故意讓女性懷孕的故事</code>,<a target="_blank" rel="noopener" href="https://twitter.com/linfavourite/status/1540728983977078785">见推串</a>。</li>
-<li><a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/markdown-nice/blndbjkicjhcbpldeamfbdoeekcbampi">Markdown Nice 浏览器插件</a>  <div class="tweet " data-style="">
+<li>电丸科技 AK <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=CB7m8-VMKzw">频道被盗进行诈骗直播 我三小时抢回来了 黑客是如何突破 Google 账号的安全防卫的？</a>。<br>很早之前关注过一段时间 AK，个人不喜欢他，不过这期视频可以看一下。关乎个人隐私，提高安全意识，力所能及地保护个人隐私。</li>
+<li>★ 李辉 - <a target="_blank" rel="noopener" href="https://greyli.com/job-hunting/">待业五年后的找工作经历</a><br>博主很厉害了，定位清晰、目标明确、有的放矢，详细介绍了他的外企面试经历。摘录文中的一段：<blockquote>
+<p>我对目标职位的三个需求是：<br><br>1. 不加班<br>2. 面试不考算法题<br>3. 现场（on-site）工作<br><br>「不加班」是基本要求，我需要一份正常工时的工作，一来是为身心健康着想，二来是因为我需要有业余时间来写书和做开源项目。<br><br>「面试不考算法题」是因为不想浪费时间去刷无聊的算法题。算法题对我来说没有任何乐趣（换句话说，太难了），相比之下，我更喜欢开发 Web 程序和设计 API。<br><br>想要一个「现场（on-site）工作」是因为很想去体验办公室生活，顺便体验在不同的城市生活。在家呆了五年后，我也有些厌倦在家工作。太容易过度娱乐和过度工作，模糊生活工作的边界。我想要有一个办公空间来把工作和生活在时间和空间上分隔起来。<br><br>国内公司普遍加班，互联网公司普遍考算法题，因此能够满足这三点的只有「非互联网 + 外企」职位。结合我擅长且感兴趣的技术栈（Python Web）和想要去的城市（上海），最终的求职方向是「上海 | 外企 | Python 后端工程师」。</p>
+</blockquote>
+<p> 我目前待业在家，下次要找工作，需求是：双休、不加班、面试不考算法题、按时发工资。郑州的就业环境真的是 😑，自己又菜，按这要求找就很难了。</p>
+</li>
+<li>😄 Instagram 上就能搜到这位韩国妈妈。<div class="tweet " data-style="">
  <div class="tweet-header">
    <div class="tweet-author">
-       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1477903349278453762/0OBeufkj_normal.jpg">
+       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/573708483322773504/C38RzJoL_normal.jpeg">
          <div class="tweet-author-info">
-           <div class="tweet-author-title" <p="">龙爪槐守望者 <p></p>
+           <div class="tweet-author-title" <p="">To be, or not to be<p></p>
              <svg class="tweet-author-verified" viewBox="0 0 24 24"><g><path fill="currentColor" d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg>
            </div>
-           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/ftium4">@ftium4
+           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/not_2b_or_2b">@not_2b_or_2b
            </a>
          </div>
    </div>
    <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
  </div>
  <div class="tweet-content">
-   我一般用 markdown 写东西，然后通过 markdown nice 渲染成 html 富文本再到各个平台粘贴，现在 markdown nice 浏览器插件可以直接一键分发到部分平台，方便多了 
-   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FWE8fKmUsAAADss.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FWE88dFUsAA3WWv.jpg"></div>
+   当妈的偶尔也需要发泄一下：韩国妈妈 Lee Mi-do（电视剧演员）2019 年发的一组照片。她的孩子现在已经能跑会跳了。 
+   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FbHBY8fVEAEaYSC.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FbHBZtXUYAAdx-F.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FbHBafmUsAEkkMR.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FbHBa7uUEAQUqVY.jpg"></div>
  </div>
  <div class="tweet-info">
  <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
- <span>88</span>
- <div class="tweet-info-date">6:16 AM · Jun 25, 2022</div>
+ <span>8</span>
+ <div class="tweet-info-date">7:13 PM · Aug 26, 2022</div>
  </div>
   </div>
   <br></li>
-<li>彻底删除 Mac 上的文件  <div class="tweet " data-style="">
+<li>我也经常遇到这样的情况，有些人为什么就不能提前扫码支付呢，非到出口处扫码，磨叽。<div class="tweet " data-style="">
  <div class="tweet-header">
    <div class="tweet-author">
-       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/702414925289889793/FOsI3qAe_normal.jpg">
+       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1731824343/Smile_normal.JPG">
          <div class="tweet-author-info">
-           <div class="tweet-author-title" <p="">Megabits<p></p>
+           <div class="tweet-author-title" <p="">Oasis Feng<p></p>
              <svg class="tweet-author-verified" viewBox="0 0 24 24"><g><path fill="currentColor" d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg>
            </div>
-           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/Megabits_mzq">@Megabits_mzq
+           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/oasisfeng">@oasisfeng
            </a>
          </div>
    </div>
    <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
  </div>
  <div class="tweet-content">
-   很多 App 都有擦除文件的功能。贵的像 CMM，不要钱的 OnyX 就可以。  
-   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FV_wOYIVUAAQjdx.jpg"></div>
-   <div class="tweet-quoted">
-  <div class="tweet mt-4 " data-style="">
- <div class="tweet-header">
-   <div class="tweet-author">
-       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1479326910417018881/-yRZxChE_normal.jpg">
-         <div class="tweet-author-info">
-           <div class="tweet-author-title" <p="">Anthony🇺🇦<p></p>
-             <svg class="tweet-author-verified" viewBox="0 0 24 24"><g><path fill="currentColor" d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg>
-           </div>
-           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/Anthony20211117">@Anthony20211117
-           </a>
-         </div>
-   </div>
-   <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
- </div>
- <div class="tweet-content">
-   请教一个问题，如何彻底删除 mac 上的文件，再也找不回来。
- </div>
-  </div>
- </div> 
+   都 2022 年了，多数停车场在驶离的时候，还要排着长队一个个掏出手机来扫码支付停车费。互联网 + 怎么就没能解决这么一个平常的效率问题呢？<br><br>老婆以前也开通过地方平台搞的「停车场无感缴费」，但没多久就主动停用了，因为乱扣费太多，原本消费可免的停车费都被无视，「无感支付」沦落成「默默扣钱」。 
+   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FbEe8qZVUAIx3-a.png"></div>
  </div>
  <div class="tweet-info">
  <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
- <span>9</span>
- <div class="tweet-info-date">6:02 AM · Jun 24, 2022</div>
+ <span>45</span>
+ <div class="tweet-info-date">7:23 AM · Aug 26, 2022</div>
  </div>
   </div>
   <br></li>
-<li><a target="_blank" rel="noopener" href="https://lagplorer.tms.sx/">lagplorer.tms.sx</a>，Safari 上没在 Chrome 上效果好。  <div class="tweet " data-style="">
+<li>★ 好听又好看 <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=gQlMMD8auMs">BLACKPINK - ‘Pink Venom’ M&#x2F;V</a><div class="tweet " data-style="">
  <div class="tweet-header">
    <div class="tweet-author">
        <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1531286887356194816/Z_NT7V5U_normal.jpg">
@@ -154,70 +114,98 @@ html.dataset.dark = localStorage.dark;
    <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
  </div>
  <div class="tweet-content">
-   <a class="tweet-content-link" href="https://t.co/ZaUe0OqpLS" target="_blank">lagplorer.tms.sx</a><br>微软关闭 Internet Explorer 之后，如果哪天怀念了，可以在这个网站再次体验一下 IE 浏览器最好的设计🤣太魔性了。 
-   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FVvUdLaVUAEteoi.png"></div>
+   BLACKPINK - 新曲‘Pink Venom ’MV 上周上线了，妥妥的快 2 亿播放了，截了几张 MV 里的图，我又来学习场景风格配色灯光了！很强。<br><a class="tweet-content-link" href="https://t.co/jKNTBoMz1C" target="_blank">youtube.com/watch?v=gQlMMD…</a> 
+   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/Fa7s57CUIAAvOqp.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/Fa7s7v3VEAIk3ay.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/Fa7s-muUIAIBgo_.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/Fa7tHhkVsAYMj7B.jpg"></div>
  </div>
  <div class="tweet-info">
  <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
- <span>23</span>
- <div class="tweet-info-date">4:01 AM · Jun 21, 2022</div>
+ <span>14</span>
+ <div class="tweet-info-date">2:32 PM · Aug 24, 2022</div>
  </div>
   </div>
   <br></li>
-<li><code>每天受着信息大潮的冲击，三观末定又备受曲折</code>  <div class="tweet " data-style="">
+<li>★ <a target="_blank" rel="noopener" href="https://roboatino.itch.io/shogunshowdown">Shogun Showdown</a>，具有 rogue-like 和 deck-building 元素的像素风小游戏，可以在线玩。<div class="tweet " data-style="">
  <div class="tweet-header">
    <div class="tweet-author">
-       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1500654675947044864/YTodi3Ei_normal.jpg">
+       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/579924232685010944/obcxKbEE_normal.png">
          <div class="tweet-author-info">
-           <div class="tweet-author-title" <p="">console<p></p>
+           <div class="tweet-author-title" <p="">Reorx<p></p>
              <svg class="tweet-author-verified" viewBox="0 0 24 24"><g><path fill="currentColor" d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg>
            </div>
-           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/console_xxx">@console_xxx
+           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/novoreorx">@novoreorx
            </a>
          </div>
    </div>
    <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
  </div>
  <div class="tweet-content">
-   看到一条这个，每天受着信息大潮的冲击，三观末定又备<br>受曲折。 
-   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FVqQG0dVEAEfF2J.jpg"></div>
+   又找到一个特别好玩的小游戏 Shogun Showdown，同样具有 Roguelite 和爬塔元素，玩家扮演一名武士，只身对抗左右不断涌现的敌人。游戏将武士的动作和武器融入到卡牌构筑中，策略非常多样，鼓励进攻，玩起来真的有种狭路相逢勇者胜的刺激感。适合摸鱼或编译的时候来两把。<br><br><a class="tweet-content-link" href="https://t.co/PXusFm2hws" target="_blank">roboatino.itch.io/shogunshowdown</a> 
+   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FaxlqaoaAAALQfT.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/Faxlq_UacAIC2oc.jpg"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/Faxlr7JaAAEfd-F.jpg"></div>
  </div>
  <div class="tweet-info">
  <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
- <span>17</span>
- <div class="tweet-info-date">1:50 AM · Jun 20, 2022</div>
+ <span>12</span>
+ <div class="tweet-info-date">3:27 PM · Aug 22, 2022</div>
  </div>
   </div>
   <br></li>
-<li>iOS 16 最佳壁纸，壁纸来源：Get <a target="_blank" rel="noopener" href="https://apps.apple.com/app/id1061097668">this app</a> and search for: Moon fishing.  <div class="tweet " data-style="">
+<li>RIP<div class="tweet " data-style="">
  <div class="tweet-header">
    <div class="tweet-author">
-       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1337985424506167296/UdzGYuzS_normal.jpg">
+       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1526473303996907521/Kzb-2CE__normal.jpg">
          <div class="tweet-author-info">
-           <div class="tweet-author-title" <p="">iReviews<p></p>
+           <div class="tweet-author-title" <p="">Soulogic<p></p>
              <svg class="tweet-author-verified" viewBox="0 0 24 24"><g><path fill="currentColor" d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg>
            </div>
-           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/_ireviews_">@_ireviews_
+           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/Soulogic">@Soulogic
            </a>
          </div>
    </div>
    <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
  </div>
  <div class="tweet-content">
-   I’m pretty sure I got the best iOS 16 Lock Screen wallpaper <a class="tweet-content-link" href="https://twitter.com/hashtag/iOS16" target="_blank">#iOS16</a> 
-   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FVp2vEMXsAAAvHx.jpg"></div>
+   RIP<br><br>等我死的时候如果 steam 有个自己的游戏可以免费，也算这辈子不虚此行了<br><br>如果能多半好评那就更好了<br><br><a class="tweet-content-link" href="https://t.co/Asv8onVOig" target="_blank">store.steampowered.com/app/107600/Wav…</a><br><a class="tweet-content-link" href="https://t.co/1jBXlExkGY" target="_blank">store.steampowered.com/app/217120/Wav…</a> 
+   <div class="tweet-media"><img style="width: 100%" class="tweet-image" src="https://pbs.twimg.com/media/FawYf1jVsAExiTl.jpg"></div>
  </div>
  <div class="tweet-info">
  <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
- <span>4818</span>
- <div class="tweet-info-date">11:59 PM · Jun 19, 2022</div>
+ <span>104</span>
+ <div class="tweet-info-date">9:45 AM · Aug 22, 2022</div>
  </div>
   </div>
   <br></li>
+<li>数字生活 [打脸]，碰到这种情况就，生活有太多的 edge cases。<div class="tweet " data-style="">
+ <div class="tweet-header">
+   <div class="tweet-author">
+       <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/866518410972192768/66vemQ1D_normal.jpg">
+         <div class="tweet-author-info">
+           <div class="tweet-author-title" <p="">wuzhe<p></p>
+             <svg class="tweet-author-verified" viewBox="0 0 24 24"><g><path fill="currentColor" d="M22.5 12.5c0-1.58-.875-2.95-2.148-3.6.154-.435.238-.905.238-1.4 0-2.21-1.71-3.998-3.818-3.998-.47 0-.92.084-1.336.25C14.818 2.415 13.51 1.5 12 1.5s-2.816.917-3.437 2.25c-.415-.165-.866-.25-1.336-.25-2.11 0-3.818 1.79-3.818 4 0 .494.083.964.237 1.4-1.272.65-2.147 2.018-2.147 3.6 0 1.495.782 2.798 1.942 3.486-.02.17-.032.34-.032.514 0 2.21 1.708 4 3.818 4 .47 0 .92-.086 1.335-.25.62 1.334 1.926 2.25 3.437 2.25 1.512 0 2.818-.916 3.437-2.25.415.163.865.248 1.336.248 2.11 0 3.818-1.79 3.818-4 0-.174-.012-.344-.033-.513 1.158-.687 1.943-1.99 1.943-3.484zm-6.616-3.334l-4.334 6.5c-.145.217-.382.334-.625.334-.143 0-.288-.04-.416-.126l-.115-.094-2.415-2.415c-.293-.293-.293-.768 0-1.06s.768-.294 1.06 0l1.77 1.767 3.825-5.74c.23-.345.696-.436 1.04-.207.346.23.44.696.21 1.04z"></path></g></svg>
+           </div>
+           <a class="tweet-author-handler" target="_blank" href="https://twitter.com/realwuzhe">@realwuzhe
+           </a>
+         </div>
+   </div>
+   <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
+ </div>
+ <div class="tweet-content">
+   加州一个几岁的小孩 jj 出了毛病，父亲用安卓手机拍照，方便远程问诊。后来小孩的 jj 毛病治好了，但是父亲的 Google 帐号被封了，积累上十年的联系人、email、照片全无。人还被警察带走调查。最后，拿警局的无罪证明向 Google 申诉，一直找不到人或者被告知无能为力。被封 2 个月后，数据被自动永久删除。
+ </div>
+ <div class="tweet-info">
+ <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
+ <span>628</span>
+ <div class="tweet-info-date">7:48 PM · Aug 21, 2022</div>
+ </div>
+  </div></li>
+<li>★ 推荐 newsletter：<a target="_blank" rel="noopener" href="https://artisanal-knitter-2544.ck.page/d3591dd1e7">肘子的每周汇总</a>。<blockquote>
+<p>除了第一时间推送肘子博客的最新文章外，也会对每周肘子发布在 Twitter 上的 Tips 进行汇总。</p>
+</blockquote>
+</li>
+<li>★ <a target="_blank" rel="noopener" href="https://amazt.netlify.app/">AMA zing Talk</a>，和有经验的人一对一咨询。现场解答你对技术和职业发展的困惑，提供一些可能对你有针对性帮助的经验之谈。👍🏻</li>
 </ol>
 <hr>
-<p><em>【完】以上就是本期周报的全部内容了，再次感谢订阅和阅读。Have an A-1 week.</em></p>
-</div><div class="tags"><a href="/tags/newsletter/"><i class="fa fa-tag"></i>newsletter</a></div><div class="post-nav"><a class="pre" href="/newsletter/20/">Kilig 的碎周报 - #20（2022.07.04）</a><a class="next" href="/newsletter/18/">Kilig 的碎周报 - #18（2022.06.20）</a></div><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqusjs.css?v=1.0.0"><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqus.js?v=1.0.0"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+<p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>
+</div><div class="tags"><a href="/tags/newsletter/"><i class="fa fa-tag"></i>newsletter</a></div><div class="post-nav"><a class="next" href="/newsletter/27/">Kilig 的碎周报 - #27（2022.08.22）</a></div><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqusjs.css?v=1.0.0"><script type="text/javascript" src="https://cdn.jsdelivr.net/gh/sukkaw/disqusjs/dist/disqus.js?v=1.0.0"></script><script type="text/javascript" id="disqus-count-script">$(function() {
      var xhr = new XMLHttpRequest();
      xhr.open('GET', '//disqus.com/next/config.json', true);
      xhr.timeout = 2500;
@@ -238,9 +226,9 @@ function loadComments() {
   window.dsqjs = new DisqusJS({
     shortname: 'kiligwyu',
     siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
-    identifier: 'newsletter/19/',
-    url: 'http://kiligwyu.com/newsletter/19/',
-    title: 'Kilig 的碎周报 - #19（2022.06.27）',
+    identifier: 'newsletter/28/',
+    url: 'http://kiligwyu.com/newsletter/28/',
+    title: 'Kilig 的碎周报 - #28（2022.08.29）',
     api: '',
     apikey: '',
     admin: 'kiligwyu',
