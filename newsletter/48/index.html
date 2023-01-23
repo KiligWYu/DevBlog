@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Scroll to row for UITableView after reloadData | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #48（2023.01.23） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-YLMXL0J5N0');
@@ -11,19 +11,22 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Scroll to row for UITableView after reloadData</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Scroll to row for UITableView after reloadData</h1><div class="post-meta">2021-03-25</div><a class="disqus-comment-count" data-disqus-identifier="scroll-to-row-for-UITableView-after-reloadData/" href="/scroll-to-row-for-UITableView-after-reloadData/#disqus_thread"></a><div class="post-content"><p>在 tableView <code>reloadData</code> 后滑动到指定位置，比如下拉加载更多聊天记录，并保持列表的当前位置。</p>
-<!--- more --->
-
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tableView.scrollToRow(at: indexPath, at: .top, animated: <span class="literal">false</span>)</span><br></pre></td></tr></table></figure>
-
-<p>但是列表有跳动，滑动的位置并不对。解决方法也很简单，在 reloadData 后调用下 <code>tableView.layoutIfNeeded()</code>。</p>
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tableView.reloadData()</span><br><span class="line">tableView.layoutIfNeeded()</span><br><span class="line">tableView.scrollToRow(at: indexPath, at: .top, animated: <span class="literal">false</span>)</span><br></pre></td></tr></table></figure>
-
+});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #48（2023.01.23）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #48（2023.01.23）</h1><div class="post-meta">2023-01-21<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/48/" href="/newsletter/48/#disqus_thread"></a><div class="post-content"><p><strong>Happy New Year! 🎆🎇🧨🥳 祝各位朋友新年快乐，幸福安康！</strong></p>
+<p>Hi There! 感谢阅读 Kilig 的碎周报第 48 期。本篇是对过去一周（2023.01.16 - 2023.01.22）的记录、思考与分享。</p>
 <hr>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/16071503/how-to-tell-when-uitableview-has-completed-reloaddata">How to tell when UITableView has completed ReloadData?</a></li>
-</ul>
-</div><div class="tags"><a href="/tags/Swift"><i class="fa fa-tag">Swift</i></a></div><div class="post-nav"><a class="pre" href="/LayoutConstraints-unable-to-simultaneously-satisfy-constraints/">LayoutConstraints Unable to simultaneously satisfy constraints</a><a class="next" href="/removeArrangedSubview/">UIStackView 的 removeArrangedSubview 方法</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+<ol>
+<li>《<a target="_blank" rel="noopener" href="https://movie.douban.com/subject/4811774/">阿凡达：水之道 Avatar: The Way of Water (2022)</a>》，刚上映时想着等阳康了再去电影院看，上月底阳了，康了后反而没了观看的欲望，之前还是打算去电影院看一下的，但是发现需要自己购买 3D 眼镜，那还是算了，本来也没啥观看的欲望。3D 眼镜还是要买的，以后可以看其他大片，但不紧急也不重要，以后再买吧。</li>
+<li>有意思的东西如果在本碎周报里分享或推荐过一次，一般就不会再分享了，所以每期的周报可能就少了些有意思的东西。</li>
+<li>就个人的使用情况而言，最大的垃圾短信制造者，就是运营商，频繁发些“公益短信”，让我了解到了政府部门的繁杂冗余，各种局、办、厅、委、部等等，我使用的垃圾短信过滤工具 <a target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/id1642682818">熊猫吃短信</a> 的自定义规则关键字绝大部分都是这些政府部门，而且还在继续增加中。</li>
+<li>看了电影《<a target="_blank" rel="noopener" href="https://movie.douban.com/subject/35073886/">分手的决心 헤어질 결심 (2022)</a>》，挺喜欢汤唯的 😄。<br><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301221634074.webp" alt="分手的决心 헤어질 결심 (2022)"></li>
+<li>本周几乎没刷推，也没发推欲望，之前发的推文几乎都是记录生活性质的，我是个不喜欢回忆的人，一切时候都向前看，<del>从不回头，</del>记录的意义不大，但话说回来，本碎周报也算是另一种记录，哼嗯~ 打脸来的贼快 🤣。但发碎周报跟发推不一样，推更偏向社交，而我不喜欢社交 😹（有点点社恐），就是要刻意离开社交网络，虽然社交网络能认识些有意思的朋友，但互动很少，再有意思那也是人家的生活，不刷社交应用会让人更快乐。另外 Twitter 也学微博把第三方客户端都弄死了，就更不想上推了。</li>
+<li>苹果毫无预兆地发布了新款 MacBook Pro、Mac mini、HomePod，我所使用的搭载 M1 芯片的 13 寸 MacBook Pro，购买于 2020 年 11 月，这两年多使用下来，还是很满意的，性能够用、安静、续航时间长，新款搭载 M2 Pro&#x2F;Max 芯片的 MBP，对我吸引力还是很大的，毕竟比 M1 强太多了，M1 MBP 还用的是老模具，唯一让我觉得 M1 MBP 不爽的点是只支持一台外接显示器，但我还是会继续用手上这台 13 寸 MBP 的，再用个三五年，发挥它最大的价值。<br>新款的 HomePod 配置有增有减，等评测解禁了看下评测，看下跟初代的对比，我觉得我早晚是要买的，但不是现在。</li>
+<li>月嫂年前走了，刚走小妮就给我们来个下马威，拉肚子了，哭闹的很，尿不湿一天要换好多个，可把爸妈累坏了，喂了些药，到现在还没好，趁她睡着，才有一点点时间 😹。</li>
+<li>今年不看春晚，挺没意思的。年也过了，个人觉得过年实在没啥意思，年味越来越淡了。<br>希望 2023 年可以过得更加充实，年底过个好年，</li>
+</ol>
+<hr>
+<p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/47/">Kilig 的碎周报 - #47（2023.01.16）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '//disqus.com/next/config.json', true);
   xhr.timeout = 2500;
@@ -44,9 +47,9 @@ function loadComments() {
   window.dsqjs = new DisqusJS({
     shortname: 'kiligwyu',
     siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
-    identifier: 'scroll-to-row-for-UITableView-after-reloadData/',
-    url: 'http://kiligwyu.com/scroll-to-row-for-UITableView-after-reloadData/',
-    title: 'Scroll to row for UITableView after reloadData',
+    identifier: 'newsletter/48/',
+    url: 'http://kiligwyu.com/newsletter/48/',
+    title: 'Kilig 的碎周报 - #48（2023.01.23）',
     api: '',
     apikey: '',
     admin: 'kiligwyu',
