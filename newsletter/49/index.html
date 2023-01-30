@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>占位约束 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #49（2023.01.30） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-YLMXL0J5N0');
@@ -11,12 +11,22 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">占位约束</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">占位约束</h1><div class="post-meta">2018-07-30</div><a class="disqus-comment-count" data-disqus-identifier="占位约束/" href="/%E5%8D%A0%E4%BD%8D%E7%BA%A6%E6%9D%9F/#disqus_thread"></a><div class="post-content"><p>当使用 Interface Builder 开发时，有些控件的约束是需要在代码中控制的，这样就需要在 Interface Builder 中添加约束，再在代码中去掉相应的约束，然后再添加新的约束。</p>
-<p>Interface Builder 为我们提供了一种占位约束，占位约束可以在编译时自动去掉，就不需要我们手动去掉了。只需要选中某个约束，在右侧 Size inspector 中选中 <code>Remove at build time</code> 即可。</p>
-<img src="/image/占位约束/Screenshot.jpg" style="zoom:60%"/>
-
-<!--- more --->
-</div><div class="tags"><a href="/tags/Swift"><i class="fa fa-tag">Swift</i></a></div><div class="post-nav"><a class="pre" href="/guide-to-add-extension/">引导用户添加拓展</a><a class="next" href="/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/">斐讯 K2 刷入 Padavan 固件</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #49（2023.01.30）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #49（2023.01.30）</h1><div class="post-meta">2023-01-30<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/49/" href="/newsletter/49/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 49 期。本篇是对过去一周（2023.01.23 - 2023.01.29）的记录、思考与分享。</p>
+<hr>
+<ol>
+<li>本周当然还是带娃儿了，白天晚上基本都在看孩儿，宝宝拉肚子都一周多了，试了各种治疗方式，益生菌、蒙脱石散、脐贴、乳糖酶，有所好转但还没好，手机相册里都成宝宝便便照片了，一天能换十片尿不湿，再不好就试试水解奶粉。还好我现在还没上班，在家还能跟媳妇儿分担一些。宝宝肚子不舒服，有时候哭闹的很，就飞机抱啊萝卜蹲啊哄宝宝睡觉，蹲的我腿都疼了（还是缺乏锻炼 😹）。</li>
+<li>看完了 ★《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/35494160/">挽救计划</a>》，期待今年本小说改编的电影（<a target="_blank" rel="noopener" href="https://movie.douban.com/subject/35010610/">挽救计划 Project Hail Mary (2023)</a>）上映，又是一部太空大片。<br><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301301354749.webp" alt="挽救计划"></li>
+</ol>
+<h2 id="TIL-名词解释"><a href="#TIL-名词解释" class="headerlink" title="#TIL 名词解释"></a>#TIL 名词解释</h2><h3 id="直升機父母"><a href="#直升機父母" class="headerlink" title="直升機父母"></a>直升機父母</h3><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.wikiwand.com/zh/%E7%9B%B4%E5%8D%87%E6%A9%9F%E7%88%B6%E6%AF%8D">直升機父母</a>（helicopter parent）是指過份介入兒女生活，保護或是干預其生活的父母，因為類似直升機一樣的盤旋在兒女身邊，故稱為直升機父母。</p>
+</blockquote>
+<h3 id="诡异指数准则"><a href="#诡异指数准则" class="headerlink" title="诡异指数准则"></a>诡异指数准则</h3><blockquote>
+<p>“Dating pools”，诡异指数准则：不要和比你年龄的一半大7岁以下岁数的人谈恋爱。</p>
+</blockquote>
+<h3 id="社会化抚养"><a href="#社会化抚养" class="headerlink" title="社会化抚养"></a>社会化抚养</h3><p>★ <a target="_blank" rel="noopener" href="https://space.bilibili.com/316568752">马督工</a> - ★<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ED4y1n7MD/">【睡前消息 541】社会化抚养概论</a></p>
+<hr>
+<p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/48/">Kilig 的碎周报 - #48（2023.01.23）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '//disqus.com/next/config.json', true);
   xhr.timeout = 2500;
@@ -37,9 +47,9 @@ function loadComments() {
   window.dsqjs = new DisqusJS({
     shortname: 'kiligwyu',
     siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
-    identifier: '占位约束/',
-    url: 'http://kiligwyu.com/占位约束/',
-    title: '占位约束',
+    identifier: 'newsletter/49/',
+    url: 'http://kiligwyu.com/newsletter/49/',
+    title: 'Kilig 的碎周报 - #49（2023.01.30）',
     api: '',
     apikey: '',
     admin: 'kiligwyu',
