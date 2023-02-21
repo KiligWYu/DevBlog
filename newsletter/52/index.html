@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>macOS 文件同步 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #52（2023.02.20） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-YLMXL0J5N0');
@@ -11,32 +11,38 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">macOS 文件同步</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">macOS 文件同步</h1><div class="post-meta">2021-04-16</div><a class="disqus-comment-count" data-disqus-identifier="macos-rsync/" href="/macos-rsync/#disqus_thread"></a><div class="post-content"><p>为了数据安全，我们经常需要备份文件，需要保持源文件夹与备份文件夹同步，在 macOS 下我们可以使用系统自带的 CLI 工具 <code>rsync</code> 进行文件同步。</p>
-<h2 id="rsync"><a href="#rsync" class="headerlink" title="rsync"></a>rsync</h2><blockquote>
-<p>rsync 是 Unix 下的一款 应用软件，它能同步更新两处计算机的档案与目录，並適当利用差分编码以减少数据传输量。rsync 中的一项同类软件不常见的重要特性是每个目標的镜像只需传送一次。rsync 可以拷贝／显示目录內容，以及拷贝档案，並可选压缩以及递归拷贝。—— 维基百科</p>
-</blockquote>
-<!--- more --->
-
-<p>macOS 系统自带的 <code>rsync</code> 版本较老，version 2.6.9，2006 年发布的版本了，十几年未更新了，我们可以使用 <a target="_blank" rel="noopener" href="https://brew.sh/">Homebrew</a> 更新到最新版本，version 3.2.3。</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install rsync</span><br></pre></td></tr></table></figure>
-
-<p>下面是我一个简单的备份博客的脚本。</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line">SOURCE_FOLDER=<span class="string">&quot;<span class="variable">$HOME</span>/Develop/Kilig/KiligWYu.com/&quot;</span></span><br><span class="line">DESTINATION_FOLDER=<span class="string">&quot;<span class="variable">$HOME</span>/OneDrive/Backups/Kilig/KiligWYu.com&quot;</span></span><br><span class="line">EXCLUDE_FOLDER_1=<span class="string">&quot;node_modules&quot;</span></span><br><span class="line">EXCLUDE_FOLDER_2=<span class="string">&quot;.deploy_git&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">mkdir</span> -p <span class="string">&quot;<span class="variable">$DESTINATION_FOLDER</span>&quot;</span></span><br><span class="line">rsync -avu --delete --exclude=<span class="string">&quot;<span class="variable">$EXCLUDE_FOLDER_1</span>&quot;</span> --exclude=<span class="string">&quot;<span class="variable">$EXCLUDE_FOLDER_2</span>&quot;</span> <span class="string">&quot;<span class="variable">$SOURCE_FOLDER</span>&quot;</span> <span class="string">&quot;<span class="variable">$DESTINATION_FOLDER</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
+});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #52（2023.02.20）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #52（2023.02.20）</h1><div class="post-meta">2023-02-20<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/52/" href="/newsletter/52/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 52 期。本篇是对过去一周（2023.02.13 - 2023.02.19）的记录、思考与分享。</p>
+<p>不知不觉已经第 52 期了 🎊🎉🎈。</p>
+<hr>
 <ul>
-<li><code>-a</code> 等价于 <code>-rlptgoD</code>，保留所有文件系统属性</li>
-<li><code>-v</code> 显示详细信息，显示同步的每一个文件，默认静默运行</li>
-<li><code>-u</code> 仅复制修改时间较新的文件（如果时间相等，则复制大小不同的文件）</li>
-<li><code>--delete</code> 删除目标文件夹中源文件中不存在的文件</li>
-<li><code>--exclude=PATTERN</code> 忽略文件(夹)</li>
-<li>另外需要注意的是源文件夹末尾的 <code>/</code>，带 <code>/</code> 表示拷贝源文件夹下的内容，不带 <code>/</code> 表示拷贝源文件夹</li>
+<li><em>#带娃日常</em> 我妈回老家了，媳妇儿跟我在家带孩，俩人带一个，但还是每天忙的不可开交，时间太碎片化了，但还是得充分利用，看看书，也看看技术书。</li>
+<li><em>#阅读</em> 看完了 ★《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/35332778/">我们为什么要睡觉？</a>》，总结就是睡觉非常重要，非常重要，非常重要，快点滚去睡。书中最后给出的 12 条健康睡眠小贴士简单摘录附在后面。<br><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302202149691.webp" alt="我们为什么要睡觉？"></li>
+<li>陪媳妇儿看 <a target="_blank" rel="noopener" href="https://movie.douban.com/subject/35465232/">狂飙</a>，这部电视剧挺火，我自己几乎不看电视剧的，这部扫黑除恶的电视剧看着也还挺上瘾，想找小说原作看下，看了下豆瓣评分，有点低啊，算了不看了。</li>
+<li><em>#YouTube</em> 时隔两年，★ <a target="_blank" rel="noopener" href="https://www.youtube.com/@PabloCimadevila/">Pablo Cimadevila 的频道</a> 终于更新了，<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=rNv1IR7xmME">第 1000 枚结婚戒指</a>，纯手工打造，非常舒适解压。</li>
+<li><em>#TIL</em> <em>#名词解释</em> <a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-cn/%E5%B8%95%E9%87%91%E6%A3%AE%E7%91%A3%E7%A2%8E%E5%AE%9A%E7%90%86">帕金森琐碎定理</a><blockquote>
+<p>帕金森琐碎定律（英语： Parkinson’s Law of Triviality），又译为帕金森氏凡俗法则，或称鸡毛蒜皮定律、芝麻绿豆定律，由英国历史学者与政治学者西里尔・诺斯古德・帕金森（Cyril Northcote Parkinson）于 1957 年所提出，用来说明大型组织会花费大量时间在讨论无关紧要的琐事，但是真正重大的决议反而可以轻松过关这种现象。这是由于人对大议题较难有全面性的理解，故怕贸然提出异议，可能会失言；相反地，对于一些简单琐碎的小事，有相当的认识，因此意见特别多，造成组织在各事项上讨论所花费之时间，通常与事项本身的重要程度呈现反比。</p>
+</blockquote>
+</li>
 </ul>
-<p><code>rsync</code> 功能强大，可选参数非常多，<code>man rsync</code> 可查看其详细说明。</p>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://rsync.samba.org/">https://rsync.samba.org</a></li>
-<li><a target="_blank" rel="noopener" href="https://wydtl.com/2020/01/18/347/">rsync, 是时候思考一下文件路径末尾的 “&#x2F;” 了</a></li>
-</ul>
-</div><div class="tags"><a href="/tags/macOS"><i class="fa fa-tag">macOS</i></a></div><div class="post-nav"><a class="pre" href="/run-xcode-11-on-big-sur/">在 macOS Big Sur 上运行 Xcode 11</a><a class="next" href="/LayoutConstraints-unable-to-simultaneously-satisfy-constraints/">LayoutConstraints Unable to simultaneously satisfy constraints</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+<h2 id="12-条健康睡眠小贴士"><a href="#12-条健康睡眠小贴士" class="headerlink" title="12 条健康睡眠小贴士"></a>12 条健康睡眠小贴士</h2><blockquote>
+<ol>
+<li><strong>坚持固定的睡眠时间。</strong>每天在同一时间上床睡觉，在同一时间醒来。作为习惯性的生物，人类很难适应睡眠模式的变化。等到周末再补觉，并不能完全弥补一周内睡眠不足的情况，并且会导致周一早上很难醒来。可以为就寝时间设置闹钟。我们通常只会为起床时间设置闹钟，却不会为睡觉时间这么做。如果你只能从这12条建议中记住一条，那么记住这一条吧。</li>
+<li>锻炼很有益，但不要在一天中太晚的时间进行。</li>
+<li>避免咖啡因和尼古丁的摄入。</li>
+<li>睡前避免喝酒精饮料。</li>
+<li>深夜避免大量进食和喝饮料。简单的零食可以，但大量进食会导致消化不良，干扰睡眠。晚上喝太多液体会导致频繁醒来上厕所。</li>
+<li>尽量避免使用会延迟或破坏睡眠的药物。</li>
+<li>下午3点以后不要午睡。</li>
+<li>睡前放松。</li>
+<li>睡前洗个热水澡。</li>
+<li>保持卧室幽暗凉爽，并且不要放置任何电子产品。</li>
+<li>适当晒晒太阳。</li>
+<li>醒着时不要躺在床上。</li>
+</ol>
+</blockquote>
+<hr>
+<p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/51/">Kilig 的碎周报 - #51（2023.02.13）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '//disqus.com/next/config.json', true);
   xhr.timeout = 2500;
@@ -57,9 +63,9 @@ function loadComments() {
   window.dsqjs = new DisqusJS({
     shortname: 'kiligwyu',
     siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
-    identifier: 'macos-rsync/',
-    url: 'http://kiligwyu.com/macos-rsync/',
-    title: 'macOS 文件同步',
+    identifier: 'newsletter/52/',
+    url: 'http://kiligwyu.com/newsletter/52/',
+    title: 'Kilig 的碎周报 - #52（2023.02.20）',
     api: '',
     apikey: '',
     admin: 'kiligwyu',
