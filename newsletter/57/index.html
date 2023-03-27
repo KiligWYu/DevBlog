@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Markdown 中的锚点语法 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #57（2023.03.27） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-YLMXL0J5N0');
@@ -11,28 +11,21 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Markdown 中的锚点语法</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Markdown 中的锚点语法</h1><div class="post-meta">2018-03-27</div><a class="disqus-comment-count" data-disqus-identifier="anchor-point/" href="/anchor-point/#disqus_thread"></a><div class="post-content"><!--- more --->
-
-<p>Markdown 中的锚点语法：<code>[标题](#标题)</code> ，比如</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[第一级标题](#第一级标题)</span><br><span class="line">[第二级标题](#第二级标题)</span><br><span class="line">[第六级标题](#第六级标题)</span><br><span class="line"></span><br><span class="line"># 第一级标题</span><br><span class="line"></span><br><span class="line">## 第二级标题</span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line">###### 第六级标题</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p>标题中的空格要替换成连字符 <code>-</code>，如</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[Hello World](#Hello-World)</span><br><span class="line"></span><br><span class="line">## Hello World</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>标题如果含有 <code>.</code>，不同的编辑器或网站语法不太一样，有的要把点替换成连字符（如本站），有的则要去掉（如 GitHub）</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// GitHub 语法</span><br><span class="line">[2018.03](#201803)</span><br><span class="line"></span><br><span class="line">## 2018.03</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>标题中的其他字符，如括号引号等，跟点的处理方式差不多，替换成连字符或删掉或不变</p>
-<p>另外，有的编辑器支持用 <code>[TOC]</code> 来直接添加目录，如 <a target="_blank" rel="noopener" href="https://zh.mweb.im/index.html">MWeb</a>。</p>
-</li>
+});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #57（2023.03.27）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #57（2023.03.27）</h1><div class="post-meta">2023-03-27<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/57/" href="/newsletter/57/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 57 期。本篇是对过去一周（03.20 - 03.26）的记录、思考与分享。</p>
+<hr>
+<h3 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h3><p>跟上周一样，还在小妮姥姥家。小妮现在白天睡的少了，晚上睡前会闹一小会，晚上睡的挺好，就是睡的晚，上午起的也晚。</p>
+<p>之前订阅了很多的 Newsletter，退订了些偏鸡汤类的、不感兴趣的，剩下的大部分都是技术类的。</p>
+<p>日常读 Newsletter 或 RSS，看到需要精读或记笔记的文章就加到 Safari Reading List 里，现在 Reading List 已经累积了好多篇了，之后再一一处理。</p>
+<h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p>读完了《<a target="_blank" rel="noopener" href="https://book.douban.com/subject/30203737/">鞑靼人沙漠</a>》，虽然是豆瓣高分，但个人不是很喜欢，耐着性子读完了。<br><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303271501946.webp" alt="鞑靼人沙漠"></p>
+<h3 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h3><p>本周为花密 iOS 端和 macOS 端增加了新功能，为区分代号增加后缀，该功能也是用户反馈的。该功能已经开发完成了，顺便更新一下其他部分的代码，之前看的《App 架构》，对 MVC 和 MVVM 有了新的见解，正好实践一下，下周再更新版本。</p>
+<h3 id="其他有趣的"><a href="#其他有趣的" class="headerlink" title="其他有趣的"></a>其他有趣的</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Rv4y157aW/">真的吐了，VR 眼镜最强劝退指南！【柴知道】</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.wanqu.co/">湾区日报</a> 复活了<div class="twitter-wrapper"><blockquote class="twitter-tweet"><a target="_blank" rel="noopener" href="https://twitter.com/wanquribao/status/1638786579413213186"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/yihong0618/twint">yihong0618&#x2F;twint</a>: An advanced Twitter scraping &amp; OSINT tool written in Python that doesn’t use Twitter’s API, allowing you to scrape a user’s followers, following, Tweets and more while evading most API limitations.<br>twint 已经不维护了，可以使用 yihong 维护的版本。</li>
 </ul>
-<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://my.oschina.net/antsky/blog/1475173">Github 中 Markdown 锚点链接如何写</a></li>
-<li><a target="_blank" rel="noopener" href="https://zh.mweb.im/markdown-syntax-guide-suggest-version-zh.html">Markdown 语法和 MWeb 写作使用说明</a></li>
-<li><a target="_blank" rel="noopener" href="https://zh.mweb.im/markdown-syntax-guide-full-version-zh.html">Markdown 语法官方说明繁体中文版</a></li>
-</ul>
-</div><div class="tags"><a href="/tags/Markdown"><i class="fa fa-tag">Markdown</i></a></div><div class="post-nav"><a class="pre" href="/exercism/objective-c/5/">Objective-C 习题（五）</a><a class="next" href="/exercism/objective-c/4/">Objective-C 习题（四）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+<hr>
+<p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/56/">Kilig 的碎周报 - #56（2023.03.20）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '//disqus.com/next/config.json', true);
   xhr.timeout = 2500;
@@ -53,9 +46,9 @@ function loadComments() {
   window.dsqjs = new DisqusJS({
     shortname: 'kiligwyu',
     siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
-    identifier: 'anchor-point/',
-    url: 'http://kiligwyu.com/anchor-point/',
-    title: 'Markdown 中的锚点语法',
+    identifier: 'newsletter/57/',
+    url: 'http://kiligwyu.com/newsletter/57/',
+    title: 'Kilig 的碎周报 - #57（2023.03.27）',
     api: '',
     apikey: '',
     admin: 'kiligwyu',
