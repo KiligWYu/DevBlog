@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-04-04T09:28:06.673Z</updated>
+  <updated>2023-04-10T12:45:42.280Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #59（2023.04.10）</title>
+    <link href="http://kiligwyu.com/newsletter/59/"/>
+    <id>http://kiligwyu.com/newsletter/59/</id>
+    <published>2023-04-10T06:09:47.000Z</published>
+    <updated>2023-04-10T12:45:42.280Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 59 期。本篇是对过去一周（04.04 - 04.09）的记录、思考与分享。</p><hr><h3 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h3><p>周五（04.07）从小妮儿姥姥家回来了，还是在自己家里舒服自在。<br>这些天天气挺好，带小妮在小区里转转，小区里绿化的很好，之前几乎不出门的。<br>在家带孩儿，一天下来 Apple Watch 运动圆环也能合上 🤣。</p><h3 id="产品动态"><a href="#产品动态" class="headerlink" title="产品动态"></a>产品动态</h3><p><a href="https://apps.apple.com/app/id1573715683">Tapet</a> 更新了 1.10.0 版本。主要更新内容如下。</p><ul><li>开机启动使用 macOS 13 的新方法</li><li>添加对网络变化的监听</li></ul><p>另外，不是每天的必应壁纸源分辨率都是 UHD 的，有时候是 HD，虽然是 HD，但 Tapet 获取到的图片更加无损。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304101703134.webp" alt="Tapet - 04.10 壁纸 - 安博塞利国家公园的大象，肯尼亚"></p><h3 id="其他有趣的"><a href="#其他有趣的" class="headerlink" title="其他有趣的"></a>其他有趣的</h3><ul><li><a href="https://github.com/iDvel/rime-ice">雾凇拼音</a>，强大的鼠须管配置，功能齐全，词库体验良好，长期更新修订。我的鼠须管的配置也改用这个了，并对其进行了微调，使用小鹤双拼。<ul><li><a href="https://github.com/lewangdev/scel2txt">lewangdev&#x2F;scel2txt</a>：搜狗细胞词库转鼠须管（Rime）词库。</li><li><a href="https://gist.github.com/lewangdev/f8ebbba24f464e915fb7d36857fcbbe5">lewangdev&#x2F;default.custom.yaml</a>：MacOS-like &amp; Wechat-like Dark&#x2F;Light Color Scheme For Rime.</li></ul></li><li><a href="https://www.bilibili.com/video/BV1kV4y1S7n5/">做试管婴儿的爸妈有多煎熬？可以定制男女、多胞胎吗？【柴知道】</a></li><li><a href="https://mp.weixin.qq.com/s/EmxfaSOtqNAuC7XmzlHa4w">一个开源人的心酸哭诉</a>，<a href="https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md">英文原文</a>，<a href="https://github.com/zloirock/core-js">core-js</a> 作者 <a href="https://twitter.com/zloirock">@zloirock</a>，维护了一个非常核心的库，但自己的生活却不能保证，用爱发电的开源人。</li></ul><hr><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 59 期。本篇是对过去一周（04.04 - 04.09）的记录、思考与分享。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;生活&quot;&gt;&lt;a href=&quot;#生活&quot; class=&quot;headerlink&quot; title=&quot;生活&quot;&gt;&lt;/a&gt;生活</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #58（2023.04.04）</title>
@@ -515,31 +541,6 @@
     
     
     <category term="WWDC" scheme="http://kiligwyu.com/tags/WWDC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三余 ── 每日一文非官方开源客户端</title>
-    <link href="http://kiligwyu.com/ThreeSpare/"/>
-    <id>http://kiligwyu.com/ThreeSpare/</id>
-    <published>2022-12-18T10:58:47.453Z</published>
-    <updated>2022-12-18T10:58:47.453Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><a href="#%E5%85%B3%E4%BA%8E%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87">关于每日一文</a></li><li><a href="#%E7%BC%98%E8%B5%B7">缘起</a></li><li><a href="#%E5%85%B3%E4%BA%8E%E4%B8%89%E4%BD%99">关于三余</a></li></ul><h2 id="关于每日一文"><a href="#关于每日一文" class="headerlink" title="关于每日一文"></a>关于每日一文</h2><p>官方网站：<a href="https://meiriyiwen.com/">每日一文</a>。</p><blockquote><p>每天花 10 分钟阅读一篇文章，一个月可以有大约 50000 字的阅读量，一年有近 60 万字的阅读量，专注、执着，每天阅读。</p><p>只为简单的纯净的阅读而生。</p><p>简单生活，每日一文。</p></blockquote><h2 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h2><p>很多年前，当我还在上大学时候，偶然发现了每日一文网站，非常喜欢每日一文的理念，每日一篇短文，没有推荐、简单纯净，每日一文也成为我关注的最喜欢的文艺网站之一（喜欢的网站现在好多都已经关停了，一声叹息）。</p><p>我并不是一个爱读书的人，但我知道阅读的重要性，所以也时常强迫自己多读些书，而我那点可怜的阅读量里，每日一文就贡献了不少。🤣</p><p>每日一文官方也出过客户端，就叫『每日一文』，再后来 app 升级改名『观止』，再后来就下架了 🤣。而我做为一名 iOS 开发者，也想为每日一文做个客户端。于是我在我偏自用的工具 app『iCollect』里集成了每日一文，后来我也把这个 app 下架了，因为它功能太过杂乱。</p><p>直到年前，我想再为每日一文做个客户端，于是有了『三余』，并没有很强的动力去做，拖了很久才完成。年后试着上架 App Store，果不其然被拒，收到了 <code>4.1 CopyCats</code> 大礼包，就更没心情去做了，因为 app 的设计就是从别的 app 抄来拼凑成的，图标抄袭『<a href="https://apps.apple.com/us/app/id1592613682">读库</a>』，分析抄袭『<a href="https://apps.apple.com/us/app/id1507361706">HiCoffee</a>』，我也意识到了自己存在抄袭问题，并反省了，以后再做产品，希望可以多些创新。</p><p>既然不上架了，那就开源了吧，于是又拖了很长时间，整理一下代码(使用 Combine 简单重构下，并去掉了一些错误处理)然后开源，开源地址：<a href="https://github.com/KiligWYu/ThreeSpare-iOS">KiligWYu&#x2F;ThreeSpare-iOS</a>。本来计划的很多功能也没做，比如横屏适配、iPadOS 适配、iCloud 同步等，以后有时间再做吧。咕咕咕……</p><h2 id="关于三余"><a href="#关于三余" class="headerlink" title="关于三余"></a>关于三余</h2><p>『三余』是每日一文非官方客户端。</p><p><code>冬者岁之余，夜者日之余，阴雨者时之余也。</code> 是谓三余。</p><p><img src="https://github.com/KiligWYu/ThreeSpare-iOS/raw/main/ScreenShot.JPG" alt="ScreenShot"></p><p>『三余』主要功能分为两块，一是阅读，一是分析。阅读部分，有丰富的设置（有我最喜欢的修改字体功能）；分析部分，简单按周和月来统计阅读量。使用到的技术的话，页面主要使用 SwiftUI 和 Combine 框架，数据存储使用 CoreData，阅读文字排版使用 CoreText。</p><hr>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%85%B3%E4%BA%8E%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87&quot;&gt;关于每日一文&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%BC%98%E8%B5%B7&quot;&gt;缘起&lt;/a&gt;&lt;/li&gt;
-&lt;li</summary>
-      
-    
-    
-    
-    
-    <category term="每日一文" scheme="http://kiligwyu.com/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/"/>
     
   </entry>
   
