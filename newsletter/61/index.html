@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><title>Kilig 的碎周报 - #61（2023.04.24） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YLMXL0J5N0');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #61（2023.04.24）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #61（2023.04.24）</h1><div class="post-meta">2023-04-24<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/61/" href="/newsletter/61/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 61 期。本篇是对过去一周（04.17 - 04.23）的记录、思考与分享。</p>
+<hr>
+<p>日常跟之前一样，娃儿占据了大部分时间，剩下的用来阅读、学习和娱乐。</p>
+<p>目前在使用的邮件服务主要是 Outlook 和 Gmail，分别使用 Outlook 和 <a target="_blank" rel="noopener" href="https://mimestream.com/">Mimesteam</a> 客户端，之前一直在用系统自带的 Mail 客户端，但经常出现账户离线连不上的问题，遂弃用。</p>
+<p>大部分应用也使用 <a target="_blank" rel="noopener" href="https://brew.sh/">Homebrew</a> 覆盖安装了，借助 <a target="_blank" rel="noopener" href="https://github.com/Homebrew/homebrew-bundle">Homebrew Bundle</a> 可以轻松备份已安装的软件（<code>brew bundle dump --describe</code> ）。</p>
+<p>之前是用 CocoaPods 创建的自用 SDK，现在切到了 Swift Package Manager，整理了下笔记里的代码片段，加到了 SDK 里。</p>
+<h3 id="音乐分享"><a href="#音乐分享" class="headerlink" title="音乐分享"></a>音乐分享</h3><h4 id="To-Be-A-Man-Dax"><a href="#To-Be-A-Man-Dax" class="headerlink" title="To Be A Man - Dax"></a>To Be A Man - Dax</h4><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tHxip2x-PLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/to-be-a-man-single/1680280613"></iframe>
+
+<h4 id="The-Joker-And-The-Queen-feat-Taylor-Swift-Ed-Sheeran"><a href="#The-Joker-And-The-Queen-feat-Taylor-Swift-Ed-Sheeran" class="headerlink" title="The Joker And The Queen (feat. Taylor Swift) - Ed Sheeran"></a>The Joker And The Queen (feat. Taylor Swift) - Ed Sheeran</h4><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-joker-and-the-queen-feat-taylor-swift-single/1608894948"></iframe>
+
+<h3 id="其他有趣的"><a href="#其他有趣的" class="headerlink" title="其他有趣的"></a>其他有趣的</h3><h4 id="文章-x2F-书籍"><a href="#文章-x2F-书籍" class="headerlink" title="文章 &#x2F; 书籍"></a>文章 &#x2F; 书籍</h4><ul>
+<li><a target="_blank" rel="noopener" href="https://stevejobsarchive.com/book">Make Something Wonderful</a> - Steve Jobs in his own words<br>  史蒂夫乔布斯演讲、采访和通信的精选集，该电子书排版精美、免费、支持下载 epub 格式，也可以在线阅读。</li>
+<li><a target="_blank" rel="noopener" href="https://catcoding.me/p/redis-antriez/">不想当作家的程序员写不出 Redis</a></li>
+<li><a target="_blank" rel="noopener" href="https://ourai.ws/posts/what-i-have-done-in-2023-q1/">失业三个月，我都干了啥？</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jitao.tech/posts/my-guiding-principles-after-20-years-of-programming/">我编程 20 年的指导原则</a><ul>
+<li>另外也推荐 Antoine v.d. SwiftLee  的 <a target="_blank" rel="noopener" href="https://twitter.com/twannl/status/1648250020171247616">这个推串</a>，<code>I&#39;m building iOS apps since 2009, worked on 10+ different large apps, and developed several personal apps. Here are 11 lessons I learned the hard way (so you don&#39;t have to)</code></li>
+</ul>
+</li>
+<li>揭秘 PDD 内部严苛的员工管理手段<br>  公众号原文已经被举报删除，不过在 <a target="_blank" rel="noopener" href="https://archive.is/AaVV2">网页存档</a> 上还能找到。另外也可以看下 <a target="_blank" rel="noopener" href="https://github.com/davincifans101/pinduoduo_backdoor_detailed_report">拼多多恶意行为分析报告</a>。</li>
+<li><a target="_blank" rel="noopener" href="https://blog.jim-nielsen.com/2023/offline-is-online-with-extreme-latency/">Offline Is Just Online With Extreme Latency</a></li>
+<li><a target="_blank" rel="noopener" href="https://jason-memo.dev/posts/my-mac-setting/">我的提升生產力 Mac 設定與軟體</a></li>
+<li><a target="_blank" rel="noopener" href="https://weibo.com/ttarticle/p/show?id=2309404892909697892388">DOTA2 大展宏图 7.33 更新推出：地覆天翻，乾坤变换 —— 地图扩大 40%</a></li>
+<li><a target="_blank" rel="noopener" href="https://dzone.com/articles/why-you-should-write-blog-post">Why You Should Write a Blog Post Today</a></li>
+</ul>
+<h4 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h4><ul>
+<li><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=A5UuRWWnKeU">38 号车评中心 - 如何把车开得又快又稳《驾驶讲堂》</a><br>  up 主结合物理知识进行讲解，实际驾龄不长的我也是这么开的 😄。</li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18o4y1h7eh/">沙尘暴背后的国度：蒙古到底怎么了？【柴司】</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1DT411H7ph/">格斗之王！AI写出来的AI竟然这么强！</a>，<a target="_blank" rel="noopener" href="https://github.com/linyiLYi/street-fighter-ai">项目链接</a></li>
+</ul>
+<h4 id="App-x2F-TestFlight"><a href="#App-x2F-TestFlight" class="headerlink" title="App &#x2F; TestFlight"></a>App &#x2F; TestFlight</h4><ul>
+<li>老牌 Todoist 工具 <a target="_blank" rel="noopener" href="https://twitter.com/UseClear/status/1648385588243087360">Clear 复活了</a>，新版测试地址 → <a target="_blank" rel="noopener" href="https://testflight.apple.com/join/PwwDvqYN">TestFlight</a></li>
+<li>四川高新减灾研究所推出的 <a target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6/id713947342">地震预警</a> App<ul>
+<li><a target="_blank" rel="noopener" href="https://sspai.com/post/73727">App+1 | 如果你的手机没有内置地震预警，这款 App 不妨常备</a><br>  <a target="_blank" rel="noopener" href="https://t.me/AppleNuts/1667">@Hackl0us 锤了成都高新减灾研究所</a>，两年了，该 App 终于支持 iOS 重要警告功能了。</li>
+</ul>
+</li>
+<li>F1 赛事 app <a target="_blank" rel="noopener" href="https://testflight.apple.com/join/5AovgC1b">Race Control</a><br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231746289.webp" alt="Race Control"></li>
+<li><a target="_blank" rel="noopener" href="https://testflight.apple.com/join/yb9dEEma">Midnight Alarm</a><br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231804792.GIF" alt="Midnight Alarm"></li>
+</ul>
+<h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><ul>
+<li><a target="_blank" rel="noopener" href="https://ooooooooooooooooooooooo.ooo/">Looooooooooooooooooooooonger</a><br>  一个把网址变长且全部都是 o 的工具，原理就是利用长得像 o 的 Unicode 编码。<br>  比如 <a target="_blank" rel="noopener" href="https://kilig.blog/">https://kilig.blog/</a> → <a target="_blank" rel="noopener" href="https://ooooooooooooooooooooooo.ooo/">https://ooooooooooooooooooooooo.ooo</a>。</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li><a target="_blank" rel="noopener" href="https://www.hackingwithswift.com/awards">Swift Community Awards 2022</a><br>  投票结果出炉（<a target="_blank" rel="noopener" href="https://www.sketch.com/">Sketch</a> 要涨价了啊，月费 $9 📈 $12，年费 $99 📈 $120，那我就先不续费了，旧版就够用了）：<ul>
+<li>BEST CONFERENCE<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://2022.nsspain.com/">NSSpain</a></li>
+<li>Highly commended: <a target="_blank" rel="noopener" href="https://www.swiftable.co/">Swiftable</a></li>
+</ul>
+</li>
+<li>BEST DESIGN TOOL<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://www.figma.com/">Figma</a></li>
+<li>Highly commended: <a target="_blank" rel="noopener" href="https://www.sketch.com/">Sketch</a></li>
+</ul>
+</li>
+<li>BEST THIRD-PARTY SERVICE<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://www.revenuecat.com/">RevenueCat</a></li>
+<li>Highly commended: <a target="_blank" rel="noopener" href="https://codemagic.io/start">Codemagic</a></li>
+</ul>
+</li>
+<li>BEST DEVELOPER TOOL<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://proxyman.io/">Proxyman</a></li>
+<li>Highly commended: <a target="_blank" rel="noopener" href="https://www.git-tower.com/mac">Tower</a></li>
+</ul>
+</li>
+<li>BEST OPEN-SOURCE PROJECT<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://github.com/Dimillian/IceCubesApp">Ice Cubes</a></li>
+<li>Highly commended: <a target="_blank" rel="noopener" href="https://github.com/kean/Nuke">Nuke</a></li>
+</ul>
+</li>
+<li>MOST INSPIRING INDIE APP<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://tapbots.com/ivory/">Ivory</a></li>
+<li>Highly commended: <a href="/Dimillian/IceCubesApp">Ice Cubes</a></li>
+</ul>
+</li>
+<li>MOST INSPIRING PRESENTATION<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://youtu.be/zfMmHiYi53Q">Anna Beltrami: Spark your Creativity – the Power of iPad Playgrounds</a></li>
+<li>Highly commended: <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kZCXrjxXMAI">Krzysztof Zabłocki: Improving developer experience through tools and techniques</a></li>
+</ul>
+</li>
+<li>RISING STAR<ul>
+<li>Winner: <a target="_blank" rel="noopener" href="https://twitter.com/dvrzan">Danijela Vrzan</a></li>
+<li>Highly commended: <a target="_blank" rel="noopener" href="https://twitter.com/acbdev">Anna Beltrami</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://basicappleguy.com/basicappleblog/macos-van-gogh">macOS meets Van Gogh</a><br>  非常好看的 iPhone、iPad、Mac 壁纸。<br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231759294.webp" alt="macOS meets Van Gogh"></li>
+<li>欢度世界地球日免费领 Made on iPad 绿色出行卡面，好看<br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231907720.webp" alt="地球日公交卡面"></li>
+<li><a target="_blank" rel="noopener" href="https://law-cn-ai.vercel.app/">中国法律 AI 助手</a>，<a target="_blank" rel="noopener" href="https://github.com/lvwzhen/law-cn-ai">项目地址</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/hax/heshijun_v_360">贺师俊与 360 的劳动争议诉讼</a></li>
+</ul>
+<blockquote>
+<p>when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow &amp; exclude people. so create.</p>
+<p>—— <a target="_blank" rel="noopener" href="https://www.joeydevilla.com/2008/08/08/why-the-lucky-stiff-on-why-you-should-create/">why the lucky stiff</a></p>
+<p>当你停止创造，你的才能就不再重要，你所拥有的只剩下你的品位。而品位会裹挟你，让你排斥他人，变得狭隘。所以，要创造。</p>
+</blockquote>
+<hr>
+<p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/60/">Kilig 的碎周报 - #60（2023.04.17）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json', true);
+  xhr.timeout = 2500;
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      $('.post-meta .post-comments-count').show();
+      var s = document.createElement('script');
+      s.id = 'dsq-count-scr';
+      s.src = 'https://kiligwyu.disqus.com/count.js';
+      s.async = true;
+      (document.head || document.body).appendChild(s);
+    }
+  };
+  xhr.ontimeout = function () { xhr.abort(); };
+  xhr.send(null);
+});</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/61/',
+    url: 'http://kiligwyu.com/newsletter/61/',
+    title: 'Kilig 的碎周报 - #61（2023.04.24）',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Learn-in-Public/">Learn in Public</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a><span class="category-list-count">61</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/" style="font-size: 15px;">每日一文</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/Issues/" style="font-size: 15px;">Issues</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/lip/" style="font-size: 15px;">lip</a> <a href="/tags/WWDC/" style="font-size: 15px;">WWDC</a> <a href="/tags/newsletter/" style="font-size: 15px;">newsletter</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/newsletter/61/">Kilig 的碎周报 - #61（2023.04.24）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/60/">Kilig 的碎周报 - #60（2023.04.17）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/59/">Kilig 的碎周报 - #59（2023.04.10）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/58/">Kilig 的碎周报 - #58（2023.04.04）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/57/">Kilig 的碎周报 - #57（2023.03.27）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/56/">Kilig 的碎周报 - #56（2023.03.20）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/55/">Kilig 的碎周报 - #55（2023.03.13）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/54/">Kilig 的碎周报 - #54（2023.03.06）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/53/">Kilig 的碎周报 - #53（2023.02.27）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/52/">Kilig 的碎周报 - #52（2023.02.20）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2023 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>

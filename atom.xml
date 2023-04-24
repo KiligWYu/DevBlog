@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-04-17T07:23:05.161Z</updated>
+  <updated>2023-04-24T04:51:21.912Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #61（2023.04.24）</title>
+    <link href="http://kiligwyu.com/newsletter/61/"/>
+    <id>http://kiligwyu.com/newsletter/61/</id>
+    <published>2023-04-24T04:03:07.000Z</published>
+    <updated>2023-04-24T04:51:21.912Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 61 期。本篇是对过去一周（04.17 - 04.23）的记录、思考与分享。</p><hr><p>日常跟之前一样，娃儿占据了大部分时间，剩下的用来阅读、学习和娱乐。</p><p>目前在使用的邮件服务主要是 Outlook 和 Gmail，分别使用 Outlook 和 <a href="https://mimestream.com/">Mimesteam</a> 客户端，之前一直在用系统自带的 Mail 客户端，但经常出现账户离线连不上的问题，遂弃用。</p><p>大部分应用也使用 <a href="https://brew.sh/">Homebrew</a> 覆盖安装了，借助 <a href="https://github.com/Homebrew/homebrew-bundle">Homebrew Bundle</a> 可以轻松备份已安装的软件（<code>brew bundle dump --describe</code> ）。</p><p>之前是用 CocoaPods 创建的自用 SDK，现在切到了 Swift Package Manager，整理了下笔记里的代码片段，加到了 SDK 里。</p><h3 id="音乐分享"><a href="#音乐分享" class="headerlink" title="音乐分享"></a>音乐分享</h3><h4 id="To-Be-A-Man-Dax"><a href="#To-Be-A-Man-Dax" class="headerlink" title="To Be A Man - Dax"></a>To Be A Man - Dax</h4><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tHxip2x-PLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/to-be-a-man-single/1680280613"></iframe><h4 id="The-Joker-And-The-Queen-feat-Taylor-Swift-Ed-Sheeran"><a href="#The-Joker-And-The-Queen-feat-Taylor-Swift-Ed-Sheeran" class="headerlink" title="The Joker And The Queen (feat. Taylor Swift) - Ed Sheeran"></a>The Joker And The Queen (feat. Taylor Swift) - Ed Sheeran</h4><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-joker-and-the-queen-feat-taylor-swift-single/1608894948"></iframe><h3 id="其他有趣的"><a href="#其他有趣的" class="headerlink" title="其他有趣的"></a>其他有趣的</h3><h4 id="文章-x2F-书籍"><a href="#文章-x2F-书籍" class="headerlink" title="文章 &#x2F; 书籍"></a>文章 &#x2F; 书籍</h4><ul><li><a href="https://stevejobsarchive.com/book">Make Something Wonderful</a> - Steve Jobs in his own words<br>  史蒂夫乔布斯演讲、采访和通信的精选集，该电子书排版精美、免费、支持下载 epub 格式，也可以在线阅读。</li><li><a href="https://catcoding.me/p/redis-antriez/">不想当作家的程序员写不出 Redis</a></li><li><a href="https://ourai.ws/posts/what-i-have-done-in-2023-q1/">失业三个月，我都干了啥？</a></li><li><a href="https://www.jitao.tech/posts/my-guiding-principles-after-20-years-of-programming/">我编程 20 年的指导原则</a><ul><li>另外也推荐 Antoine v.d. SwiftLee  的 <a href="https://twitter.com/twannl/status/1648250020171247616">这个推串</a>，<code>I&#39;m building iOS apps since 2009, worked on 10+ different large apps, and developed several personal apps. Here are 11 lessons I learned the hard way (so you don&#39;t have to)</code></li></ul></li><li>揭秘 PDD 内部严苛的员工管理手段<br>  公众号原文已经被举报删除，不过在 <a href="https://archive.is/AaVV2">网页存档</a> 上还能找到。另外也可以看下 <a href="https://github.com/davincifans101/pinduoduo_backdoor_detailed_report">拼多多恶意行为分析报告</a>。</li><li><a href="https://blog.jim-nielsen.com/2023/offline-is-online-with-extreme-latency/">Offline Is Just Online With Extreme Latency</a></li><li><a href="https://jason-memo.dev/posts/my-mac-setting/">我的提升生產力 Mac 設定與軟體</a></li><li><a href="https://weibo.com/ttarticle/p/show?id=2309404892909697892388">DOTA2 大展宏图 7.33 更新推出：地覆天翻，乾坤变换 —— 地图扩大 40%</a></li><li><a href="https://dzone.com/articles/why-you-should-write-blog-post">Why You Should Write a Blog Post Today</a></li></ul><h4 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h4><ul><li><a href="https://www.youtube.com/watch?v=A5UuRWWnKeU">38 号车评中心 - 如何把车开得又快又稳《驾驶讲堂》</a><br>  up 主结合物理知识进行讲解，实际驾龄不长的我也是这么开的 😄。</li><li><a href="https://www.bilibili.com/video/BV18o4y1h7eh/">沙尘暴背后的国度：蒙古到底怎么了？【柴司】</a></li><li><a href="https://www.bilibili.com/video/BV1DT411H7ph/">格斗之王！AI写出来的AI竟然这么强！</a>，<a href="https://github.com/linyiLYi/street-fighter-ai">项目链接</a></li></ul><h4 id="App-x2F-TestFlight"><a href="#App-x2F-TestFlight" class="headerlink" title="App &#x2F; TestFlight"></a>App &#x2F; TestFlight</h4><ul><li>老牌 Todoist 工具 <a href="https://twitter.com/UseClear/status/1648385588243087360">Clear 复活了</a>，新版测试地址 → <a href="https://testflight.apple.com/join/PwwDvqYN">TestFlight</a></li><li>四川高新减灾研究所推出的 <a href="https://apps.apple.com/cn/app/%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6/id713947342">地震预警</a> App<ul><li><a href="https://sspai.com/post/73727">App+1 | 如果你的手机没有内置地震预警，这款 App 不妨常备</a><br>  <a href="https://t.me/AppleNuts/1667">@Hackl0us 锤了成都高新减灾研究所</a>，两年了，该 App 终于支持 iOS 重要警告功能了。</li></ul></li><li>F1 赛事 app <a href="https://testflight.apple.com/join/5AovgC1b">Race Control</a><br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231746289.webp" alt="Race Control"></li><li><a href="https://testflight.apple.com/join/yb9dEEma">Midnight Alarm</a><br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231804792.GIF" alt="Midnight Alarm"></li></ul><h4 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h4><ul><li><a href="https://ooooooooooooooooooooooo.ooo/">Looooooooooooooooooooooonger</a><br>  一个把网址变长且全部都是 o 的工具，原理就是利用长得像 o 的 Unicode 编码。<br>  比如 <a href="https://kilig.blog/">https://kilig.blog/</a> → <a href="https://ooooooooooooooooooooooo.ooo/">https://ooooooooooooooooooooooo.ooo</a>。</li></ul><h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul><li><a href="https://www.hackingwithswift.com/awards">Swift Community Awards 2022</a><br>  投票结果出炉（<a href="https://www.sketch.com/">Sketch</a> 要涨价了啊，月费 $9 📈 $12，年费 $99 📈 $120，那我就先不续费了，旧版就够用了）：<ul><li>BEST CONFERENCE<ul><li>Winner: <a href="https://2022.nsspain.com/">NSSpain</a></li><li>Highly commended: <a href="https://www.swiftable.co/">Swiftable</a></li></ul></li><li>BEST DESIGN TOOL<ul><li>Winner: <a href="https://www.figma.com/">Figma</a></li><li>Highly commended: <a href="https://www.sketch.com/">Sketch</a></li></ul></li><li>BEST THIRD-PARTY SERVICE<ul><li>Winner: <a href="https://www.revenuecat.com/">RevenueCat</a></li><li>Highly commended: <a href="https://codemagic.io/start">Codemagic</a></li></ul></li><li>BEST DEVELOPER TOOL<ul><li>Winner: <a href="https://proxyman.io/">Proxyman</a></li><li>Highly commended: <a href="https://www.git-tower.com/mac">Tower</a></li></ul></li><li>BEST OPEN-SOURCE PROJECT<ul><li>Winner: <a href="https://github.com/Dimillian/IceCubesApp">Ice Cubes</a></li><li>Highly commended: <a href="https://github.com/kean/Nuke">Nuke</a></li></ul></li><li>MOST INSPIRING INDIE APP<ul><li>Winner: <a href="https://tapbots.com/ivory/">Ivory</a></li><li>Highly commended: <a href="/Dimillian/IceCubesApp">Ice Cubes</a></li></ul></li><li>MOST INSPIRING PRESENTATION<ul><li>Winner: <a href="https://youtu.be/zfMmHiYi53Q">Anna Beltrami: Spark your Creativity – the Power of iPad Playgrounds</a></li><li>Highly commended: <a href="https://www.youtube.com/watch?v=kZCXrjxXMAI">Krzysztof Zabłocki: Improving developer experience through tools and techniques</a></li></ul></li><li>RISING STAR<ul><li>Winner: <a href="https://twitter.com/dvrzan">Danijela Vrzan</a></li><li>Highly commended: <a href="https://twitter.com/acbdev">Anna Beltrami</a></li></ul></li></ul></li><li><a href="https://basicappleguy.com/basicappleblog/macos-van-gogh">macOS meets Van Gogh</a><br>  非常好看的 iPhone、iPad、Mac 壁纸。<br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231759294.webp" alt="macOS meets Van Gogh"></li><li>欢度世界地球日免费领 Made on iPad 绿色出行卡面，好看<br>  <img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231907720.webp" alt="地球日公交卡面"></li><li><a href="https://law-cn-ai.vercel.app/">中国法律 AI 助手</a>，<a href="https://github.com/lvwzhen/law-cn-ai">项目地址</a></li><li><a href="https://github.com/hax/heshijun_v_360">贺师俊与 360 的劳动争议诉讼</a></li></ul><blockquote><p>when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow &amp; exclude people. so create.</p><p>—— <a href="https://www.joeydevilla.com/2008/08/08/why-the-lucky-stiff-on-why-you-should-create/">why the lucky stiff</a></p><p>当你停止创造，你的才能就不再重要，你所拥有的只剩下你的品位。而品位会裹挟你，让你排斥他人，变得狭隘。所以，要创造。</p></blockquote><hr><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 61 期。本篇是对过去一周（04.17 - 04.23）的记录、思考与分享。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;日常跟之前一样，娃儿占据了大部分时间，剩下的用来阅读、学习和娱乐。&lt;/p&gt;
+&lt;p&gt;目前在使用的邮件服务主要是 Outl</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #60（2023.04.17）</title>
@@ -516,33 +543,6 @@
     
     
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WWDC22</title>
-    <link href="http://kiligwyu.com/learninpublic/WWDC22/"/>
-    <id>http://kiligwyu.com/learninpublic/WWDC22/</id>
-    <published>2022-12-18T10:58:47.469Z</published>
-    <updated>2022-12-18T10:58:47.469Z</updated>
-    
-    <content type="html"><![CDATA[<p>最后更新于 2022.07.12。</p><p>虽然一些新的技术，实际用到工作项目中也得几年后了，但是，可以用在个人项目中啊，自己的项目就是任性，只支持较新的系统 😄，所以 WWDC 22 的系列视频还是要看的。</p><ul><li><input checked="" disabled="" type="checkbox"> Session 101 · <a href="https://developer.apple.com/wwdc22/101">Keynote</a></li><li><input checked="" disabled="" type="checkbox"> Session 102 · <a href="https://developer.apple.com/wwdc22/102">Platforms State of the Union</a></li></ul><h2 id="UIKit"><a href="#UIKit" class="headerlink" title="UIKit"></a>UIKit</h2><ul><li><input checked="" disabled="" type="checkbox"> Session 10068 · <a href="https://developer.apple.com/wwdc22/10068">What’s new in UIKit</a></li></ul><h2 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h2><ul><li><input checked="" disabled="" type="checkbox"> Session 110354 · <a href="https://developer.apple.com/wwdc22/110354">What’s new in Swift</a></li></ul><h2 id="Xcode"><a href="#Xcode" class="headerlink" title="Xcode"></a>Xcode</h2><ul><li><input checked="" disabled="" type="checkbox"> Session 110427 · <a href="https://developer.apple.com/wwdc22/110427">What’s new in Xcode</a></li><li><input checked="" disabled="" type="checkbox"> Session 110371 · <a href="https://developer.apple.com/wwdc22/110371">Use Xcode to develop a multiplatform app</a></li></ul><h2 id="Localization"><a href="#Localization" class="headerlink" title="Localization"></a>Localization</h2><ul><li><input checked="" disabled="" type="checkbox"> Session 10110 · <a href="https://developer.apple.com/wwdc22/10110">Build global apps: Localization by example</a></li></ul><h2 id="SF-Symbols"><a href="#SF-Symbols" class="headerlink" title="SF Symbols"></a>SF Symbols</h2><ul><li><input checked="" disabled="" type="checkbox"> Session 10157 · <a href="https://developer.apple.com/wwdc22/10157">What’s new in SF Symbols 4</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;最后更新于 2022.07.12。&lt;/p&gt;
-&lt;p&gt;虽然一些新的技术，实际用到工作项目中也得几年后了，但是，可以用在个人项目中啊，自己的项目就是任性，只支持较新的系统 😄，所以 WWDC 22 的系列视频还是要看的。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=</summary>
-      
-    
-    
-    
-    <category term="Learn in Public" scheme="http://kiligwyu.com/categories/Learn-in-Public/"/>
-    
-    
-    <category term="WWDC" scheme="http://kiligwyu.com/tags/WWDC/"/>
     
   </entry>
   
