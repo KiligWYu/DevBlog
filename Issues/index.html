@@ -13,8 +13,7 @@ localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
 });</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Issues</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Issues</h1><div class="post-meta">2017-06-22</div><a class="disqus-comment-count" data-disqus-identifier="Issues/" href="/Issues/#disqus_thread"></a><div class="post-content"><p>在开发中遇到的问题都将记录在本篇中，持续更新。</p>
 <span id="more"></span>
-
-<hr>
+<hr />
 <ul>
 <li><a href="#%E7%BC%A9%E7%9F%AD-App-Store-%E4%B8%AD%E5%BA%94%E7%94%A8%E9%93%BE%E6%8E%A5">缩短 App Store 中应用链接</a></li>
 <li><a href="#unable-to-load-standard-library-for-target-%E2%80%98arm64-apple-ios10-0-simulator%E2%80%99">unable to load standard library for target ‘arm64-apple-ios10.0-simulator’</a></li>
@@ -42,24 +41,33 @@ html.dataset.dark = localStorage.dark;
 <li><a href="#%E5%AF%BC%E8%88%AA%E6%A0%8F%E9%9A%8F%E9%A1%B5%E9%9D%A2-push-%E6%88%96-pop">导航栏随页面 push 或 pop</a></li>
 <li><a href="#CocoaPods-%E6%90%9C%E7%B4%A2%E4%B8%8D%E5%88%B0%E6%9C%80%E6%96%B0%E7%9A%84%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93">CocoaPods 搜索不到最新的第三方库</a></li>
 </ul>
-<hr>
-<h2 id="缩短-App-Store-中应用链接"><a href="#缩短-App-Store-中应用链接" class="headerlink" title="# 缩短 App Store 中应用链接"></a># 缩短 App Store 中应用链接</h2><p>App Store 中应用链接如<br><a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/icollect/id1333958571?mt=8">https://itunes.apple.com/us/app/icollect/id1333958571?mt=8</a>、<br><a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/icolor-%E4%B8%AD%E6%97%A5%E4%BC%A0%E7%BB%9F%E9%A2%9C%E8%89%B2%E5%8F%8A%E6%B8%90%E5%8F%98%E8%89%B2/id1329896441?mt=8">https://itunes.apple.com/us/app/icolor-%E4%B8%AD%E6%97%A5%E4%BC%A0%E7%BB%9F%E9%A2%9C%E8%89%B2%E5%8F%8A%E6%B8%90%E5%8F%98%E8%89%B2/id1329896441?mt=8</a><br>等，非常的冗长，但是其中 App 名称（App Store 中显示的名称）、地区、参数都是不必须的，完全可以去掉，去掉后如<br><a target="_blank" rel="noopener" href="https://itunes.apple.com/app/id1333958571">https://itunes.apple.com/app/id1333958571</a>、<br><a target="_blank" rel="noopener" href="https://itunes.apple.com/app/id1329896441">https://itunes.apple.com/app/id1329896441</a>。<br>嗯~ 短了许多呢，分享出去也更优雅呢。</p>
+<hr />
+<h2 id="缩短-app-store-中应用链接"><a class="markdownIt-Anchor" href="#缩短-app-store-中应用链接"></a> # 缩短 App Store 中应用链接</h2>
+<p>App Store 中应用链接如<br />
+<a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/icollect/id1333958571?mt=8">https://itunes.apple.com/us/app/icollect/id1333958571?mt=8</a>、<br />
+<a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/icolor-%E4%B8%AD%E6%97%A5%E4%BC%A0%E7%BB%9F%E9%A2%9C%E8%89%B2%E5%8F%8A%E6%B8%90%E5%8F%98%E8%89%B2/id1329896441?mt=8">https://itunes.apple.com/us/app/icolor-%E4%B8%AD%E6%97%A5%E4%BC%A0%E7%BB%9F%E9%A2%9C%E8%89%B2%E5%8F%8A%E6%B8%90%E5%8F%98%E8%89%B2/id1329896441?mt=8</a><br />
+等，非常的冗长，但是其中 App 名称（App Store 中显示的名称）、地区、参数都是不必须的，完全可以去掉，去掉后如<br />
+<a target="_blank" rel="noopener" href="https://itunes.apple.com/app/id1333958571">https://itunes.apple.com/app/id1333958571</a>、<br />
+<a target="_blank" rel="noopener" href="https://itunes.apple.com/app/id1329896441">https://itunes.apple.com/app/id1329896441</a>。<br />
+嗯~ 短了许多呢，分享出去也更优雅呢。</p>
 <ul>
 <li>ps: 推荐个脚本 <a target="_blank" rel="noopener" href="https://dmscode.github.io/Link-cleaner/">Link-cleaner</a>，链接地址洗白白，把链接地址缩减至最短可用状态 👍</li>
 </ul>
-<hr>
-<h2 id="unable-to-load-standard-library-for-target-‘arm64-apple-ios10-0-simulator’"><a href="#unable-to-load-standard-library-for-target-‘arm64-apple-ios10-0-simulator’" class="headerlink" title="# unable to load standard library for target ‘arm64-apple-ios10.0-simulator’"></a># unable to load standard library for target ‘arm64-apple-ios10.0-simulator’</h2><p>使用 <a target="_blank" rel="noopener" href="https://gist.github.com/cromandini/1a9c4aeab27ca84f5d79">脚本</a> 合并模拟器和真机 framework 时报了这个错，查了半天发现编译前只要把模拟器选中 <strong><code>Generic iOS Device</code></strong> 即可。😂</p>
+<hr />
+<h2 id="unable-to-load-standard-library-for-target-arm64-apple-ios100-simulator"><a class="markdownIt-Anchor" href="#unable-to-load-standard-library-for-target-arm64-apple-ios100-simulator"></a> # unable to load standard library for target ‘arm64-apple-ios10.0-simulator’</h2>
+<p>使用 <a target="_blank" rel="noopener" href="https://gist.github.com/cromandini/1a9c4aeab27ca84f5d79">脚本</a> 合并模拟器和真机 framework 时报了这个错，查了半天发现编译前只要把模拟器选中 <strong><code>Generic iOS Device</code></strong> 即可。😂</p>
 <p>相关链接：</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://juejin.im/post/5a5269a3f265da3e347b15de">手把手教你高效快捷的创建 Swift Framework</a></li>
 <li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/51558933/error-unable-to-load-standard-library-for-target-arm64-apple-ios10-0-simulator">error: unable to load standard library for target ‘arm64-apple-ios10.0-simulator’?</a></li>
 </ul>
-<hr>
-<h2 id="Xcode-10-beta-–-Build-Error-“Multiple-commands-produce”-Workaround"><a href="#Xcode-10-beta-–-Build-Error-“Multiple-commands-produce”-Workaround" class="headerlink" title="# Xcode 10 beta – Build Error: “Multiple commands produce” Workaround"></a># Xcode 10 beta – Build Error: “Multiple commands produce” Workaround</h2><p>使用 Xcode 10 beta 时遇到了下面的错误：</p>
+<hr />
+<h2 id="xcode-10-beta-build-error-multiple-commands-produce-workaround"><a class="markdownIt-Anchor" href="#xcode-10-beta-build-error-multiple-commands-produce-workaround"></a> # Xcode 10 beta – Build Error: “Multiple commands produce” Workaround</h2>
+<p>使用 Xcode 10 beta 时遇到了下面的错误：</p>
 <blockquote>
-<p>error: Multiple commands produce ‘&#x2F;Users&#x2F;xiaoyuan&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;Test-gnxeuntgkenwgdgycqnvabqubafh&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;Test.app’:</p>
+<p>error: Multiple commands produce ‘/Users/xiaoyuan/Library/Developer/Xcode/DerivedData/Test-gnxeuntgkenwgdgycqnvabqubafh/Build/Products/Debug-iphoneos/Test.app’:</p>
 <ol>
-<li>Target ‘Test’ has create directory command with output ‘&#x2F;Users&#x2F;xiaoyuan&#x2F;Library&#x2F;Developer&#x2F;Xcode&#x2F;DerivedData&#x2F;Test-gnxeuntgkenwgdgycqnvabqubafh&#x2F;Build&#x2F;Products&#x2F;Debug-iphoneos&#x2F;Test.app’</li>
+<li>Target ‘Test’ has create directory command with output ‘/Users/xiaoyuan/Library/Developer/Xcode/DerivedData/Test-gnxeuntgkenwgdgycqnvabqubafh/Build/Products/Debug-iphoneos/Test.app’</li>
 <li>That command depends on command in Target ‘Test’: script phase “[CP] Copy Pods Resources”</li>
 </ol>
 </blockquote>
@@ -69,97 +77,116 @@ html.dataset.dark = localStorage.dark;
 <li>选中项目 target -&gt; Build Phase -&gt; [CP] Copy Pods Resources -&gt; Output Files -&gt; 移除 <code>$&#123;TARGET_BUILD_DIR&#125;/$&#123;UNLOCALIZED_RESOURCES_FOLDER_PATH&#125;</code></li>
 <li>修改 Workspace 设置：File -&gt; Workspace Settings -&gt; Build System 改为 <code>Legacy Build System</code> -&gt; Done</li>
 </ol>
-<p>👉 <a target="_blank" rel="noopener" href="https://www.yhub.net/article/2018/7/9/66.html">Xcode 10 beta3 Error: Multiple commands produce</a><br>👉 <a target="_blank" rel="noopener" href="https://iosdevelopertips.com/xcode/xcode-10-beta-3-build-error.html">Xcode 10 beta 3 – Build Error Workaround</a></p>
-<hr>
-<h2 id="lt-CALayer-0x283cc4f60-gt-display-Ignoring-bogus-layer-size"><a href="#lt-CALayer-0x283cc4f60-gt-display-Ignoring-bogus-layer-size" class="headerlink" title="# -[&lt;CALayer: 0x283cc4f60&gt; display]: Ignoring bogus layer size"></a># -[&lt;CALayer: 0x283cc4f60&gt; display]: Ignoring bogus layer size</h2><p>在使用 CoreText 排版长文时，CALayer size 太大，页面显示空白，把 CALayer 换成 <code>CATiledLayer</code> 即可。</p>
+<p>👉 <a target="_blank" rel="noopener" href="https://www.yhub.net/article/2018/7/9/66.html">Xcode 10 beta3 Error: Multiple commands produce</a><br />
+👉 <a target="_blank" rel="noopener" href="https://iosdevelopertips.com/xcode/xcode-10-beta-3-build-error.html">Xcode 10 beta 3 – Build Error Workaround</a></p>
+<hr />
+<h2 id="-calayer-0x283cc4f60-display-ignoring-bogus-layer-size"><a class="markdownIt-Anchor" href="#-calayer-0x283cc4f60-display-ignoring-bogus-layer-size"></a> # -[&lt;CALayer: 0x283cc4f60&gt; display]: Ignoring bogus layer size</h2>
+<p>在使用 CoreText 排版长文时，CALayer size 太大，页面显示空白，把 CALayer 换成 <code>CATiledLayer</code> 即可。</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="keyword">class</span> <span class="title class_">var</span> <span class="title class_">layerClass</span>: <span class="title class_">AnyClass</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="type">CATiledLayer</span>.<span class="keyword">self</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <p>👉 <a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/2757334/calayer-0x5584190-display-ignoring-bogus-layer-size">https://stackoverflow.com/questions/2757334/calayer-0x5584190-display-ignoring-bogus-layer-size</a></p>
-<hr>
-<h2 id="presentViewController-时卡顿"><a href="#presentViewController-时卡顿" class="headerlink" title="# presentViewController 时卡顿"></a># presentViewController 时卡顿</h2><p>只是 present 一个简单的 ViewController，并没有任何复杂操作，在第一次 present 时居然卡顿 3s 左右，WTF。搜索网络后发现是前一个页面的 tableView 设置了 <code>UITableViewCellSelectedStyleNone</code> 造成的，去掉后明显快了许多。</p>
+<hr />
+<h2 id="presentviewcontroller-时卡顿"><a class="markdownIt-Anchor" href="#presentviewcontroller-时卡顿"></a> # presentViewController 时卡顿</h2>
+<p>只是 present 一个简单的 ViewController，并没有任何复杂操作，在第一次 present 时居然卡顿 3s 左右，WTF。搜索网络后发现是前一个页面的 tableView 设置了 <code>UITableViewCellSelectedStyleNone</code> 造成的，去掉后明显快了许多。</p>
 <p>或者异步 present:</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">DispatchQueue</span>.main.async &#123;</span><br><span class="line">    <span class="keyword">let</span> vc <span class="operator">=</span> <span class="type">UIViewController</span>()</span><br><span class="line">    <span class="keyword">let</span> nc <span class="operator">=</span> <span class="type">UINavigationController</span>(rootViewController: vc)</span><br><span class="line">    <span class="keyword">self</span>.present(nc, animated: <span class="literal">true</span>, completion: <span class="literal">nil</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="SmartSVN-File-has-inconsistent-newlines"><a href="#SmartSVN-File-has-inconsistent-newlines" class="headerlink" title="# SmartSVN: File has inconsistent newlines"></a># SmartSVN: File has inconsistent newlines</h2><p>这个问题是由文件的编码不一致造成的，如混合了 Windows 和 Unix 符号。解决办法有两个：</p>
+<hr />
+<h2 id="smartsvn-file-has-inconsistent-newlines"><a class="markdownIt-Anchor" href="#smartsvn-file-has-inconsistent-newlines"></a> # SmartSVN: File has inconsistent newlines</h2>
+<p>这个问题是由文件的编码不一致造成的，如混合了 Windows 和 Unix 符号。解决办法有两个：</p>
 <ol>
 <li>统一编码：如使用编辑器打开文件，统一编码后保存；</li>
 <li>修改 SmartSVN 提交前的检查设置：Project –&gt; Setting –&gt; Working copy –&gt; EOL-style –&gt; Default EOL-style，设置为 As is(no conversion)。</li>
 </ol>
-<hr>
-<h2 id="The-request-was-denied-by-service-delegate-SBMainWorkspace-for-reason-Unspecified"><a href="#The-request-was-denied-by-service-delegate-SBMainWorkspace-for-reason-Unspecified" class="headerlink" title="# The request was denied by service delegate (SBMainWorkspace) for reason: Unspecified."></a># The request was denied by service delegate (SBMainWorkspace) for reason: Unspecified.</h2><p>Xcode Version 9.3. 在模拟器上遇到这个问题。</p>
+<hr />
+<h2 id="the-request-was-denied-by-service-delegate-sbmainworkspace-for-reason-unspecified"><a class="markdownIt-Anchor" href="#the-request-was-denied-by-service-delegate-sbmainworkspace-for-reason-unspecified"></a> # The request was denied by service delegate (SBMainWorkspace) for reason: Unspecified.</h2>
+<p>Xcode Version 9.3. 在模拟器上遇到这个问题。</p>
 <p>重启下模拟器就 OK 了。。。</p>
-<hr>
-<h2 id="Cannot-link-python3-in-macOS-High-Sierra"><a href="#Cannot-link-python3-in-macOS-High-Sierra" class="headerlink" title="# Cannot link python3 in macOS High Sierra"></a># Cannot link python3 in macOS High Sierra</h2><p>homebrew 安装 Python3 最后一步链接错误：</p>
+<hr />
+<h2 id="cannot-link-python3-in-macos-high-sierra"><a class="markdownIt-Anchor" href="#cannot-link-python3-in-macos-high-sierra"></a> # Cannot link python3 in macOS High Sierra</h2>
+<p>homebrew 安装 Python3 最后一步链接错误：</p>
 <blockquote>
-<p>Permission denied @ dir_s_mkdir - &#x2F;usr&#x2F;local&#x2F;Frameworks</p>
+<p>Permission denied @ dir_s_mkdir - /usr/local/Frameworks</p>
 </blockquote>
 <p>解决办法：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ sudo <span class="built_in">mkdir</span> -p /usr/local/Frameworks</span><br><span class="line">// $(<span class="built_in">whoami</span>) 是你的用户名</span><br><span class="line">$ sudo <span class="built_in">chown</span> -R $(<span class="built_in">whoami</span>) /usr/local/*</span><br><span class="line">$ brew <span class="built_in">link</span> python3</span><br></pre></td></tr></table></figure>
-
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><blockquote>
+<h3 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h3>
+<blockquote>
 <p><a target="_blank" rel="noopener" href="https://github.com/Homebrew/homebrew-core/issues/20985">https://github.com/Homebrew/homebrew-core/issues/20985</a></p>
 </blockquote>
-<hr>
-<h2 id="set-system-viewController’s-tintColor"><a href="#set-system-viewController’s-tintColor" class="headerlink" title="# set system viewController’s tintColor"></a># set system viewController’s tintColor</h2><h3 id="SFSafariViewController"><a href="#SFSafariViewController" class="headerlink" title="SFSafariViewController"></a>SFSafariViewController</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="keyword">#available</span>(<span class="keyword">iOS</span> <span class="number">10</span>, <span class="operator">*</span>) &#123;</span><br><span class="line">    safariViewController.preferredBarTintColor <span class="operator">=</span> .white</span><br><span class="line">    safariViewController.preferredControlTintColor <span class="operator">=</span> .red</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    safariViewController.view.tintColor <span class="operator">=</span> .red</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// eg: MFMailComposeViewController, UIImagePickerController...</span></span><br><span class="line">viewController.view.tintColor <span class="operator">=</span> .red</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="零点更新"><a href="#零点更新" class="headerlink" title="# 零点更新"></a># 零点更新</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="operator">...</span></span><br><span class="line"><span class="type">NotificationCenter</span>.default.addObserver(<span class="keyword">self</span>, selector: <span class="keyword">#selector</span>(test), name: <span class="type">Notification</span>.<span class="type">Name</span>.<span class="type">UIApplicationSignificantTimeChange</span>, object: <span class="literal">nil</span>)</span><br><span class="line"><span class="operator">...</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">@objc</span> <span class="keyword">func</span> <span class="title function_">test</span>() &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;00:00&quot;</span>)</span><br><span class="line">    <span class="comment">// do something, update your app</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+<hr />
+<h2 id="set-system-viewcontrollers-tintcolor"><a class="markdownIt-Anchor" href="#set-system-viewcontrollers-tintcolor"></a> # set system viewController’s tintColor</h2>
+<h3 id="sfsafariviewcontroller"><a class="markdownIt-Anchor" href="#sfsafariviewcontroller"></a> SFSafariViewController</h3>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="keyword">#available</span>(<span class="keyword">iOS</span> <span class="number">10</span>, <span class="operator">*</span>) &#123;</span><br><span class="line">    safariViewController.preferredBarTintColor <span class="operator">=</span> .white</span><br><span class="line">    safariViewController.preferredControlTintColor <span class="operator">=</span> .red</span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    safariViewController.view.tintColor <span class="operator">=</span> .red</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="others"><a class="markdownIt-Anchor" href="#others"></a> Others</h3>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// eg: MFMailComposeViewController, UIImagePickerController...</span></span><br><span class="line">viewController.view.tintColor <span class="operator">=</span> .red</span><br></pre></td></tr></table></figure>
+<hr />
+<h2 id="零点更新"><a class="markdownIt-Anchor" href="#零点更新"></a> # 零点更新</h2>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="operator">...</span></span><br><span class="line"><span class="type">NotificationCenter</span>.default.addObserver(<span class="keyword">self</span>, selector: <span class="keyword">#selector</span>(test), name: <span class="type">Notification</span>.<span class="type">Name</span>.<span class="type">UIApplicationSignificantTimeChange</span>, object: <span class="literal">nil</span>)</span><br><span class="line"><span class="operator">...</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">@objc</span> <span class="keyword">func</span> <span class="title function_">test</span>() &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;00:00&quot;</span>)</span><br><span class="line">    <span class="comment">// do something, update your app</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><code>UIApplicationSignificantTimeChange</code> 在文档中解释为：</p>
 <blockquote>
 <p>Posted when there is a significant change in time, for example, change to a new day (midnight), carrier time update, and change to or from daylight savings time.</p>
 </blockquote>
 <p>当时间发生重大变化时发此通知，例如更改为新的一天（午夜），更新运营商时间以及更改为夏令时或从夏令时更改。</p>
-<hr>
-<h2 id="跳转-App-Store-并打开评论页面"><a href="#跳转-App-Store-并打开评论页面" class="headerlink" title="# 跳转 App Store 并打开评论页面"></a># 跳转 App Store 并打开评论页面</h2><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> appID <span class="operator">=</span> <span class="string">&quot;1329896441&quot;</span></span><br><span class="line"><span class="keyword">let</span> urlInAppStore <span class="operator">=</span> <span class="type">URL</span>(string: <span class="string">&quot;itms-apps://itunes.apple.com/cn/app/id<span class="subst">\(appID)</span>?mt=8&amp;action=write-review&quot;</span>)<span class="operator">!</span></span><br><span class="line"><span class="type">UIApplication</span>.shared.open(urlInAppStore, options: [:], completionHandler: <span class="literal">nil</span>)</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="判断-targets"><a href="#判断-targets" class="headerlink" title="# 判断 targets"></a># 判断 targets</h2><h3 id="Swift"><a href="#Swift" class="headerlink" title="Swift"></a>Swift</h3><p>TARGETS -&gt; Build Settings -&gt; Other Swift Flags，添加一个变量如 <code>-DTODAY_EXTENSION</code>，注意 <code>-D</code> 开头，代码中就可以判断当前 target 是否是 today extension：</p>
+<hr />
+<h2 id="跳转-app-store-并打开评论页面"><a class="markdownIt-Anchor" href="#跳转-app-store-并打开评论页面"></a> # 跳转 App Store 并打开评论页面</h2>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> appID <span class="operator">=</span> <span class="string">&quot;1329896441&quot;</span></span><br><span class="line"><span class="keyword">let</span> urlInAppStore <span class="operator">=</span> <span class="type">URL</span>(string: <span class="string">&quot;itms-apps://itunes.apple.com/cn/app/id<span class="subst">\(appID)</span>?mt=8&amp;action=write-review&quot;</span>)<span class="operator">!</span></span><br><span class="line"><span class="type">UIApplication</span>.shared.open(urlInAppStore, options: [:], completionHandler: <span class="literal">nil</span>)</span><br></pre></td></tr></table></figure>
+<hr />
+<h2 id="判断-targets"><a class="markdownIt-Anchor" href="#判断-targets"></a> # 判断 targets</h2>
+<h3 id="swift"><a class="markdownIt-Anchor" href="#swift"></a> Swift</h3>
+<p>TARGETS -&gt; Build Settings -&gt; Other Swift Flags，添加一个变量如 <code>-DTODAY_EXTENSION</code>，注意 <code>-D</code> 开头，代码中就可以判断当前 target 是否是 today extension：</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">#if</span> <span class="type">TODAY_EXTENSION</span></span><br><span class="line">    <span class="comment">// today extension target, do something</span></span><br><span class="line"><span class="keyword">#else</span></span><br><span class="line">    <span class="comment">// do something</span></span><br><span class="line"><span class="keyword">#endif</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Objective-C"><a href="#Objective-C" class="headerlink" title="Objective-C"></a>Objective-C</h3><p>TARGETS -&gt; Build Settings -&gt; Preprocessor Macros，添加一个变量如 <code>TODAY_EXTENSION=1</code>，</p>
+<h3 id="objective-c"><a class="markdownIt-Anchor" href="#objective-c"></a> Objective-C</h3>
+<p>TARGETS -&gt; Build Settings -&gt; Preprocessor Macros，添加一个变量如 <code>TODAY_EXTENSION=1</code>，</p>
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">if</span> TODAY_EXTENSION</span></span><br><span class="line">    <span class="comment">// today extension target, do something</span></span><br><span class="line"><span class="meta">#<span class="keyword">else</span></span></span><br><span class="line">    <span class="comment">// do something</span></span><br><span class="line"><span class="meta">#<span class="keyword">endif</span></span></span><br></pre></td></tr></table></figure>
-
-<h3 id="参考-1"><a href="#参考-1" class="headerlink" title="参考"></a>参考</h3><ul>
+<h3 id="参考-2"><a class="markdownIt-Anchor" href="#参考-2"></a> 参考</h3>
+<ul>
 <li><a target="_blank" rel="noopener" href="https://swift.gg/2016/04/22/using-xcode-targets/">使用 Xcode 的 Target 区分开发和生产环境</a></li>
 </ul>
-<hr>
-<h2 id="Sourcetree-Error-Permission-denied-publickey"><a href="#Sourcetree-Error-Permission-denied-publickey" class="headerlink" title="# Sourcetree Error: Permission denied (publickey)"></a># Sourcetree Error: Permission denied (publickey)</h2><p>使用 Sourcetree 生成的 SSH Key 连接 GitHub，公钥已添加，遇到如下错误：</p>
+<hr />
+<h2 id="sourcetree-error-permission-denied-publickey"><a class="markdownIt-Anchor" href="#sourcetree-error-permission-denied-publickey"></a> # Sourcetree Error: Permission denied (publickey)</h2>
+<p>使用 Sourcetree 生成的 SSH Key 连接 GitHub，公钥已添加，遇到如下错误：</p>
 <blockquote>
-<p>Please make sure you have the correct access rights<br>and the repository exists.<br><a href="mailto:&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#99;&#x6f;&#x6d;</a>: Permission denied (publickey).<br>fatal: Could not read from remote repository.</p>
+<p>Please make sure you have the correct access rights<br />
+and the repository exists.<br />
+<a href="mailto:git@github.com">git@github.com</a>: Permission denied (publickey).<br />
+fatal: Could not read from remote repository.</p>
 </blockquote>
 <p>最后发现是因为生成的 SSH Key 没有添加到 ssh-agent 中，将密钥添加后即可正常连接。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># KiligWYu-GitHub 为私钥名字，请替换</span></span><br><span class="line">$ ssh-add -K ~/.ssh/KiligWYu-GitHub</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="在-XML-中输入-lt-gt-字符"><a href="#在-XML-中输入-lt-gt-字符" class="headerlink" title="# 在 XML 中输入 &lt; &gt; 字符"></a># 在 XML 中输入 <code>&lt;</code> <code>&gt;</code> 字符</h2><p><code>&lt;</code> → <code>&amp;lt;</code>，<code>&gt;</code> → <code>&amp;gt;</code></p>
+<hr />
+<h2 id="在-xml-中输入-字符"><a class="markdownIt-Anchor" href="#在-xml-中输入-字符"></a> # 在 XML 中输入 <code>&lt;</code> <code>&gt;</code> 字符</h2>
+<p><code>&lt;</code> → <code>&amp;lt;</code>，<code>&gt;</code> → <code>&amp;gt;</code></p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--- &lt;string&gt;(｡&gt;﹏&lt;)哈啾&lt;/string&gt; ---&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">string</span>&gt;</span>(｡<span class="symbol">&amp;gt;</span>﹏<span class="symbol">&amp;lt;</span>)哈啾<span class="tag">&lt;/<span class="name">string</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="ChildViewController-view-frame-in-UIView-present-different-value"><a href="#ChildViewController-view-frame-in-UIView-present-different-value" class="headerlink" title="# ChildViewController.view.frame in UIView present different value"></a># ChildViewController.view.frame in UIView present different value</h2><blockquote>
+<hr />
+<h2 id="childviewcontrollerviewframe-in-uiview-present-different-value"><a class="markdownIt-Anchor" href="#childviewcontrollerviewframe-in-uiview-present-different-value"></a> # ChildViewController.view.frame in UIView present different value</h2>
+<blockquote>
 <p>This is due to the autoresizingMask of the childVC.view. By default this is set to have flexible width and height. So if you set the frame of the container and then the frame of the childVC.view then you get the actual value you set but if you reverse it and set the frame of the childVC.view and then the container the frame of the childVC.view is automatically updated to have the same relative width and height.</p>
 <p>For example if the frame size for the container was 100 x 100 and then you change it to 200 x 200 the frame size for childVC.view will be doubled.</p>
-<p>To remove this set the childVC.view.autoresizingMask &#x3D; [] so it remains as you set it.</p>
+<p>To remove this set the childVC.view.autoresizingMask = [] so it remains as you set it.</p>
 </blockquote>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/44428074/childviewcontroller-view-frame-in-uiview-present-different-value">stackoverflow</a></li>
 </ul>
-<hr>
-<h2 id="Automatically-manage-signing"><a href="#Automatically-manage-signing" class="headerlink" title="# Automatically manage signing"></a># Automatically manage signing</h2><ol>
-<li><p>TARGET -&gt; General -&gt; Signing，勾选 Automatically manage signing，会有 Automatically manage signing will reset build settings 的提示，点 Enable automatic；</p>
-<p> <img src="/image/issues/issues_1.png" alt="img_1"><br> <font size="0.3" color="#aaa">图 1: Automatically manage signing will reset build settings</font></p>
+<hr />
+<h2 id="automatically-manage-signing"><a class="markdownIt-Anchor" href="#automatically-manage-signing"></a> # Automatically manage signing</h2>
+<ol>
+<li>
+<p>TARGET -&gt; General -&gt; Signing，勾选 Automatically manage signing，会有 Automatically manage signing will reset build settings 的提示，点 Enable automatic；</p>
+<p><img src="/image/issues/issues_1.png" alt="img_1" /><br />
+<font size="0.3" color="#aaa">图 1: Automatically manage signing will reset build settings</font></p>
 </li>
-<li><p>选择一个 Team，可能需要 Revoke 一个证书；</p>
-<p> <img src="/image/issues/issues_2.jpeg" alt="img_2"><br> <font size="0.3" color="#aaa">图 2: Choose a certificate to revoke</font></p>
+<li>
+<p>选择一个 Team，可能需要 Revoke 一个证书；</p>
+<p><img src="/image/issues/issues_2.jpeg" alt="img_2" /><br />
+<font size="0.3" color="#aaa">图 2: Choose a certificate to revoke</font></p>
 </li>
-<li><p>点 Choose Certificate，</p>
-<p> <img src="/image/issues/issues_3.png" alt="img_3"><br> <font size="0.3" color="#aaa">图 3: Choose Certificate</font></p>
-<p> 选中一个，然后 Revoke。</p>
+<li>
+<p>点 Choose Certificate，</p>
+<p><img src="/image/issues/issues_3.png" alt="img_3" /><br />
+<font size="0.3" color="#aaa">图 3: Choose Certificate</font></p>
+<p>选中一个，然后 Revoke。</p>
 </li>
-<li><p>Done。</p>
+<li>
+<p>Done。</p>
 </li>
 </ol>
 <p>其实我想说的是下面这些：</p>
@@ -168,50 +195,60 @@ html.dataset.dark = localStorage.dark;
 <li>第 2 步如需 revoke 证书，可先手动创建一个再 revoke 掉，<strong>不要 revoke 别人的证书</strong>；</li>
 <li>使用 Automatic manage signing 最多只可以创建 10 个证书，超过了就不能 automatic… 了 [摊手]</li>
 </ul>
-<hr>
-<h2 id="超出父视图的子视图的事件响应"><a href="#超出父视图的子视图的事件响应" class="headerlink" title="# 超出父视图的子视图的事件响应"></a># 超出父视图的子视图的事件响应</h2><p>子视图超出父视图后，如果 <code>clipsToBounds</code> 不为 YES，会显示出完整的子视图，但是超出部分不响应事件。如要响应事件可以重写父视图的 <code>hitTest:withEvent:</code> 方法：</p>
+<hr />
+<h2 id="超出父视图的子视图的事件响应"><a class="markdownIt-Anchor" href="#超出父视图的子视图的事件响应"></a> # 超出父视图的子视图的事件响应</h2>
+<p>子视图超出父视图后，如果 <code>clipsToBounds</code> 不为 YES，会显示出完整的子视图，但是超出部分不响应事件。如要响应事件可以重写父视图的 <code>hitTest:withEvent:</code> 方法：</p>
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="built_in">UIView</span> )hitTest:(<span class="built_in">CGPoint</span>)point withEvent:(<span class="built_in">UIEvent</span> )event &#123;</span><br><span class="line">    <span class="built_in">UIView</span> view = [<span class="variable language_">super</span> hitTest:point withEvent:event];</span><br><span class="line">    <span class="keyword">if</span> (!view) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">UIView</span> subView <span class="keyword">in</span> <span class="keyword">self</span>.subviews) &#123;</span><br><span class="line">            <span class="built_in">CGPoint</span> tp = [subView convertPoint:point fromView:<span class="keyword">self</span>];</span><br><span class="line">            <span class="keyword">if</span> (<span class="built_in">CGRectContainsPoint</span>(subView.bounds, tp)) &#123;</span><br><span class="line">                <span class="keyword">if</span> ([subView isKindOfClass:[<span class="built_in">UIButton</span> <span class="keyword">class</span>]]</span><br><span class="line">                    || subView.gestureRecognizers != <span class="literal">nil</span>) &#123;</span><br><span class="line">                    view = subView;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> view;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="解决-UITextField-输入中文时内容下移"><a href="#解决-UITextField-输入中文时内容下移" class="headerlink" title="# 解决 UITextField 输入中文时内容下移"></a># 解决 UITextField 输入中文时内容下移</h2><p>UITextField 在输入中文时内容会向下偏移，简单的解决办法是设置 UITextField 的 <code>clearButtonMode</code>，还有办法就是继承 UITextField 重写 <code>textRectForBounds:</code> 和 <code>editingRectForBounds:</code>。</p>
-<h3 id="参考-2"><a href="#参考-2" class="headerlink" title="参考"></a>参考</h3><ul>
+<hr />
+<h2 id="解决-uitextfield-输入中文时内容下移"><a class="markdownIt-Anchor" href="#解决-uitextfield-输入中文时内容下移"></a> # 解决 UITextField 输入中文时内容下移</h2>
+<p>UITextField 在输入中文时内容会向下偏移，简单的解决办法是设置 UITextField 的 <code>clearButtonMode</code>，还有办法就是继承 UITextField 重写 <code>textRectForBounds:</code> 和 <code>editingRectForBounds:</code>。</p>
+<h3 id="参考-3"><a class="markdownIt-Anchor" href="#参考-3"></a> 参考</h3>
+<ul>
 <li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/39556087/uitextfield-chinese-character-moves-down-when-editing-in-ios-10">UITextField Chinese character moves down when editing in iOS 10</a></li>
 </ul>
-<hr>
-<h2 id="在-Today-Extension-中输入文字"><a href="#在-Today-Extension-中输入文字" class="headerlink" title="# 在 Today Extension 中输入文字"></a># 在 Today Extension 中输入文字</h2><p>在做<a target="_blank" rel="noopener" href="https://github.com/devwy/FlowerPassword-iOS">花密</a>的 widget 时，需要在通知中心输入密码和代号。通知中心是无法直接输入文字的，不会弹出键盘，但是 present 出来的 viewController 可以弹出键盘输入文字，需要 iOS 10 以上。</p>
-<h3 id="详见"><a href="#详见" class="headerlink" title="详见"></a>详见</h3><ul>
+<hr />
+<h2 id="在-today-extension-中输入文字"><a class="markdownIt-Anchor" href="#在-today-extension-中输入文字"></a> # 在 Today Extension 中输入文字</h2>
+<p>在做<a target="_blank" rel="noopener" href="https://github.com/devwy/FlowerPassword-iOS">花密</a>的 widget 时，需要在通知中心输入密码和代号。通知中心是无法直接输入文字的，不会弹出键盘，但是 present 出来的 viewController 可以弹出键盘输入文字，需要 iOS 10 以上。</p>
+<h3 id="详见"><a class="markdownIt-Anchor" href="#详见"></a> 详见</h3>
+<ul>
 <li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/24447089">诡计，在通知中心输入文字</a></li>
 </ul>
-<hr>
-<h2 id="终端里的-bogon-及解决方法"><a href="#终端里的-bogon-及解决方法" class="headerlink" title="# 终端里的 bogon 及解决方法"></a># 终端里的 bogon 及解决方法</h2><blockquote>
+<hr />
+<h2 id="终端里的-bogon-及解决方法"><a class="markdownIt-Anchor" href="#终端里的-bogon-及解决方法"></a> # 终端里的 bogon 及解决方法</h2>
+<blockquote>
 <p><em>Mac 下的终端经常有时候前面的计算机名会错误的显示成 bogon. 这是因为终端会先向 DNS 请求查询当前 IP 的反向域名解析的结果，如果查询不到再显示我们设置的计算机名。而由于我们的 DNS 错误地将保留地址反向的 NS 查询结果返回了 bogon. 其中 bogon 本应该用来指虚假的 IP 地址，而非保留 IP 地址。因此就出现了会时不时地打印 bogon 这种奇怪名字作为计算机名的现象了。</em></p>
 </blockquote>
 <p>解决方法：</p>
 <blockquote>
-<p>$ sudo hostname <strong><em>YOUR-DESIRED-HOST-MAME</em></strong><br>$ sudo scutil –set LocalHostName <strong><em>HOSTNAME</em></strong><br>$ sudo scutil –set HostName <strong><em>HOSTNAME</em></strong></p>
+<p>$ sudo hostname <strong><em>YOUR-DESIRED-HOST-MAME</em></strong><br />
+$ sudo scutil –set LocalHostName <strong><em>HOSTNAME</em></strong><br />
+$ sudo scutil –set HostName <strong><em>HOSTNAME</em></strong></p>
 </blockquote>
-<h3 id="参考-3"><a href="#参考-3" class="headerlink" title="参考"></a>参考</h3><ul>
+<h3 id="参考-4"><a class="markdownIt-Anchor" href="#参考-4"></a> 参考</h3>
+<ul>
 <li><a target="_blank" rel="noopener" href="https://air20.com/archives/486.html">Mac 终端里神秘的 bogon 及解决方法</a></li>
 </ul>
-<hr>
-<h2 id="iOS-8-下-UITableViewCell-不能左滑"><a href="#iOS-8-下-UITableViewCell-不能左滑" class="headerlink" title="# iOS 8 下 UITableViewCell 不能左滑"></a># iOS 8 下 UITableViewCell 不能左滑</h2><p>需要加上以下的空方法：</p>
+<hr />
+<h2 id="ios-8-下-uitableviewcell-不能左滑"><a class="markdownIt-Anchor" href="#ios-8-下-uitableviewcell-不能左滑"></a> # iOS 8 下 UITableViewCell 不能左滑</h2>
+<p>需要加上以下的空方法：</p>
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="type">void</span>)tableView:(<span class="built_in">UITableView</span> )tableView commitEditingStyle:(<span class="built_in">UITableViewCellEditingStyle</span>)editingStyle forRowAtIndexPath:(<span class="built_in">NSIndexPath</span> )indexPath &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="参考-4"><a href="#参考-4" class="headerlink" title="参考"></a>参考</h3><p><a target="_blank" rel="noopener" href="https://gist.github.com/scheinem/e36835db07486e9f7e64">https://gist.github.com/scheinem/e36835db07486e9f7e64</a></p>
-<hr>
-<h2 id="禁止-UIAlertView-消失"><a href="#禁止-UIAlertView-消失" class="headerlink" title="# 禁止 UIAlertView 消失"></a># 禁止 UIAlertView 消失</h2><p>新建类 <code>AlertView</code> 继承 UIAlertView，添加属性 <code>shouldDismiss</code>，重写 <code>dismissWithClickedButtonIndex:animated:</code> 方法：</p>
+<h3 id="参考-5"><a class="markdownIt-Anchor" href="#参考-5"></a> 参考</h3>
+<p><a target="_blank" rel="noopener" href="https://gist.github.com/scheinem/e36835db07486e9f7e64">https://gist.github.com/scheinem/e36835db07486e9f7e64</a></p>
+<hr />
+<h2 id="禁止-uialertview-消失"><a class="markdownIt-Anchor" href="#禁止-uialertview-消失"></a> # 禁止 UIAlertView 消失</h2>
+<p>新建类 <code>AlertView</code> 继承 UIAlertView，添加属性 <code>shouldDismiss</code>，重写 <code>dismissWithClickedButtonIndex:animated:</code> 方法：</p>
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// AlertView.h</span></span><br><span class="line"><span class="meta">#import <span class="string">&lt;UIKit/UIKit.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">@interface</span> <span class="title">AlertView</span> : <span class="title">UIAlertView</span></span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">assign</span>) <span class="type">BOOL</span> shouldDismiss;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@end</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// AlertView.m</span></span><br><span class="line"><span class="meta">#import “AlertView.h”</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">@implementation</span> <span class="title">AlertView</span></span></span><br><span class="line"></span><br><span class="line">- (<span class="type">void</span>)dismissWithClickedButtonIndex:(<span class="built_in">NSInteger</span>)buttonIndex animated:(<span class="type">BOOL</span>)animated &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">self</span>.shouldDismiss == <span class="literal">YES</span>) &#123;</span><br><span class="line">        [<span class="variable language_">super</span> dismissWithClickedButtonIndex:buttonIndex animated:animated];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@end</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="错误捕获"><a href="#错误捕获" class="headerlink" title="# 错误捕获"></a># 错误捕获</h2><p>捕获错误，在下次启动时弹出错误详情：</p>
+<hr />
+<h2 id="错误捕获"><a class="markdownIt-Anchor" href="#错误捕获"></a> # 错误捕获</h2>
+<p>捕获错误，在下次启动时弹出错误详情：</p>
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">- (<span class="type">BOOL</span>)application:(<span class="built_in">UIApplication</span> )application didFinishLaunchingWithOptions:(<span class="built_in">NSDictionary</span> )launchOptions &#123;</span><br><span class="line">    <span class="built_in">NSSetUncaughtExceptionHandler</span>(&amp;UncaughtExceptionHandler);</span><br><span class="line">    <span class="built_in">NSString</span> error = [[<span class="built_in">NSUserDefaults</span> standardUserDefaults] objectForKey:@”error”];</span><br><span class="line">    <span class="keyword">if</span> (error.length &gt; <span class="number">0</span>) &#123;</span><br><span class="line">        [[[<span class="built_in">UIAlertView</span> alloc] initWithTitle:error message:<span class="literal">nil</span> delegate:<span class="literal">nil</span> cancelButtonTitle:@”OK” otherButtonTitles:<span class="literal">nil</span>, <span class="literal">nil</span>] show];</span><br><span class="line">        [[<span class="built_in">NSUserDefaults</span> standardUserDefaults] setObject:@”” forKey:@”error”];</span><br><span class="line">        [[<span class="built_in">NSUserDefaults</span> standardUserDefaults] synchronize];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">// do something</span></span><br><span class="line">    <span class="keyword">return</span> <span class="literal">YES</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/** 错误捕获并保存 /</span></span><br><span class="line"><span class="comment">void UncaughtExceptionHandler(NSException exception)&#123;</span></span><br><span class="line"><span class="comment">    NSArray symbols = [exception callStackSymbols];</span></span><br><span class="line"><span class="comment">    NSString reason = [exception reason];</span></span><br><span class="line"><span class="comment">    NSString name = [exception name];</span></span><br><span class="line"><span class="comment">    [[NSUserDefaults standardUserDefaults] setObject:[NSString stringWithFormat:@”%@, %@, %@”, symbols, reason, name] forKey:@”error”];</span></span><br><span class="line"><span class="comment">    [[NSUserDefaults standardUserDefaults] synchronize];</span></span><br><span class="line"><span class="comment">&#125;</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="导航栏随页面-push-或-pop"><a href="#导航栏随页面-push-或-pop" class="headerlink" title="# 导航栏随页面 push 或 pop"></a># 导航栏随页面 push 或 pop</h2><p>在 <code>viewWillAppear</code> 或 <code>viewWillDisappear</code> 中用 <code>setNavigationBarHidden:animated:</code> 方法设置 NavigationBar。</p>
+<hr />
+<h2 id="导航栏随页面-push-或-pop"><a class="markdownIt-Anchor" href="#导航栏随页面-push-或-pop"></a> # 导航栏随页面 push 或 pop</h2>
+<p>在 <code>viewWillAppear</code> 或 <code>viewWillDisappear</code> 中用 <code>setNavigationBarHidden:animated:</code> 方法设置 NavigationBar。</p>
 <figure class="highlight objectivec"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[<span class="keyword">self</span>.navigationController setNavigationBarHidden:<span class="literal">YES</span> animated:<span class="literal">YES</span>];</span><br><span class="line"></span><br><span class="line">[<span class="keyword">self</span>.navigationController setNavigationBarHidden:<span class="literal">NO</span> animated:<span class="literal">YES</span>];</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="CocoaPods-搜索不到最新的第三方库"><a href="#CocoaPods-搜索不到最新的第三方库" class="headerlink" title="# CocoaPods 搜索不到最新的第三方库"></a># CocoaPods 搜索不到最新的第三方库</h2><p>由于 CocoaPods 搜索是搜索的本地库，如果搜不到最新的第三方库，更新下本地库即可：</p>
+<hr />
+<h2 id="cocoapods-搜索不到最新的第三方库"><a class="markdownIt-Anchor" href="#cocoapods-搜索不到最新的第三方库"></a> # CocoaPods 搜索不到最新的第三方库</h2>
+<p>由于 CocoaPods 搜索是搜索的本地库，如果搜不到最新的第三方库，更新下本地库即可：</p>
 <blockquote>
 <p>$ pod setup</p>
 </blockquote>
@@ -275,4 +312,4 @@ window.addEventListener('load', function () {
     }
   }, 100);
 }, false);
-</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Learn-in-Public/">Learn in Public</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a><span class="category-list-count">61</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/" style="font-size: 15px;">每日一文</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/Issues/" style="font-size: 15px;">Issues</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/lip/" style="font-size: 15px;">lip</a> <a href="/tags/WWDC/" style="font-size: 15px;">WWDC</a> <a href="/tags/newsletter/" style="font-size: 15px;">newsletter</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/newsletter/61/">Kilig 的碎周报 - #61（2023.04.24）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/60/">Kilig 的碎周报 - #60（2023.04.17）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/59/">Kilig 的碎周报 - #59（2023.04.10）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/58/">Kilig 的碎周报 - #58（2023.04.04）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/57/">Kilig 的碎周报 - #57（2023.03.27）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/56/">Kilig 的碎周报 - #56（2023.03.20）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/55/">Kilig 的碎周报 - #55（2023.03.13）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/54/">Kilig 的碎周报 - #54（2023.03.06）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/53/">Kilig 的碎周报 - #53（2023.02.27）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/52/">Kilig 的碎周报 - #52（2023.02.20）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2023 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Learn-in-Public/">Learn in Public</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a><span class="category-list-count">61</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/newsletter/" style="font-size: 15px;">newsletter</a> <a href="/tags/Issues/" style="font-size: 15px;">Issues</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/" style="font-size: 15px;">每日一文</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/WWDC/" style="font-size: 15px;">WWDC</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/lip/" style="font-size: 15px;">lip</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/newsletter/61/">Kilig 的碎周报 - #61（2023.04.24）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/60/">Kilig 的碎周报 - #60（2023.04.17）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/59/">Kilig 的碎周报 - #59（2023.04.10）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/58/">Kilig 的碎周报 - #58（2023.04.04）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/57/">Kilig 的碎周报 - #57（2023.03.27）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/56/">Kilig 的碎周报 - #56（2023.03.20）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/55/">Kilig 的碎周报 - #55（2023.03.13）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/54/">Kilig 的碎周报 - #54（2023.03.06）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/53/">Kilig 的碎周报 - #53（2023.02.27）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/52/">Kilig 的碎周报 - #52（2023.02.20）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2023 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
