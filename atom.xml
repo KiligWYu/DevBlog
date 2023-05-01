@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-04-24T04:51:21.912Z</updated>
+  <updated>2023-05-01T12:03:50.045Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #62（2023.05.01）</title>
+    <link href="http://kiligwyu.com/newsletter/62/"/>
+    <id>http://kiligwyu.com/newsletter/62/</id>
+    <published>2023-05-01T11:35:12.000Z</published>
+    <updated>2023-05-01T12:03:50.045Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 62 期。本篇是对过去一周（04.24 - 05.01）的记录、思考与分享。<br />五一假期快乐！</p><hr /><p>周二（04.25）我妈回老家了，周五（04.28）我们也回老家了。我妹五一结婚，周六（04.29）在镇上饭店简单办酒待客，现在农村基本都不在自己家里办酒了，包给饭店省事了。</p><p>由于新冠疫情，我也好几年没回老家了，县城、老家变化都挺大。<br />老家丘陵地貌，种地收成靠天，前些年的“退耕还林”政策，大部分耕地都栽树了，核桃树栽的多，现在空气非常好，不过现在也就剩这一个优点了，村里常住人口已经非常非常少了，年轻人在外上班，父母过去带孩儿，就我家周围就有好多“荒废”的小院。</p><p>五一（05.01）我妹结婚了，她跟妹夫认识都十多年了，终于走到了一起。我家离妹夫家四十多公里，路上还算顺利，方向刚好跟去后山玩的车群相反，几乎没有堵车。婚礼办的不错，祝妹妹幸福。下午婚宴结束，就回家了，有一点怅然若失的感觉。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304302235056.webp" alt="小院里的小片菜地" /></p><p>老家院里的小菜地，常年来疏于打理，杂草丛生，葡萄藤架也塌了，猜猜那些小白花是什么花 。<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><p><a href="">必应 4 月超高清壁纸</a></p></li><li><p><a href="https://github.com/QiuChenly/QQFlacMusicDownloader">QiuChenly/QQFlacMusicDownloader</a>：[秋城落叶] QQ 音乐源无损歌曲下载</p><blockquote><p>鲁迅曾经说过:舍小我成大我,我不入地狱谁入地狱?<br />所以白嫖的事情我来，付钱你来。<br />—— QiuChenly</p></blockquote></li><li><p>怎么应对自己的小孩的创新被扼杀</p><blockquote><p>不上补习班，学好英语和数学，远离“茧中”互联网，使用最先进的软件技术和App，开阔眼界，鼓励挑战权威，自己设定自己的目标，自己对自己负责……<br />—— <a href="https://twitter.com/haoel/status/1652172468591935494">@haoel</a></p></blockquote></li><li><p><a href="https://x.geekbb.ml/RIME">从 macOS 到 iPhone 全面拥抱 RIME 输入法</a></p></li><li><p>How to get your favorite iTerm2 theme into Warp</p><blockquote><ol><li>Copy link to theme</li><li>Go to ‪<a href="https://warp-themes.com">warp-themes.com‬</a></li><li>Settings &gt; load iTerm colors &gt; paste link</li><li>Press Download (top right button)</li><li>Paste outputted command into Warp</li><li>Restart Warp and select new theme!<br />—— <a href="https://twitter.com/warpdotdev/status/1651979592935129089">@warpdotdev</a></li></ol></blockquote></li><li><p><a href="https://m.huxiu.com/article/1299511.html">成都失去性价比？</a></p><blockquote><p>在路过而不进城的人眼里，城市是一种模样；在困守于城里而不出来的人眼里，她又是另一种模样。<br />当你遥望成都时，它可以是一个清梦；但当你走进成都时，它却可能意味着骗局。<br />当不想卷的人都把这里作为退路，成都就成为了新的 “卷都”。<br />资源少，薪资低，岗位种类单一，就业福利差劲…<br />“成都适合生活，但不适合生存”，但我们都知道， 后者是前者的基础，吃饱是比吃好更迫近的现实。<br />但除了缺乏足够的工作机会和发展空间之外，更重要的失衡或许在于，它从心理上还没有准备好与其野心相匹配的跃迁，去理解新的变化，并且真诚地提供新的连接。<br />但这种新潮与现代化的质感无法掩盖成都孱弱的产业实力以及核心竞争力 —— 其就业问题的根本弊病。成都的工业处于薄弱的 “偏科” 状态。<br />北上广不相信眼泪，成都不相信劳动法（甚至刑法）。<br />……<br />成都不是一个更便宜的上海，也不是一个慢节奏的深圳，它不是任何一种替代版的生活方案，成都就只是成都。<br />成都能有今天的发展，很大程度上并不是靠三环内有房、不愁吃喝的成都土著们贡献，正视多数人的苦难和承认这座城市目前的不足，才是变得更好的开始。<br />没有一座城市的形象是单面和静止的，也没有一座城市可以让所有人满意。</p></blockquote><p>一直以来，我最喜欢的城市就是成都，可惜当年没能在成都安家。</p></li><li><p><a href="https://www.twreporter.org/a/china-dredging-business-supply-chain">遊走兩岸海域的暴利生意：盜走台灣海砂，中國業者現形</a><br />這篇新聞的表現形式太厲害了，「捲動式影片」非常有意思，比文字直觀多了。</p></li><li><p><a href="https://www.zhihu.com/question/551017004">如何评价赵雷新专辑中的歌曲《我记得》？</a><br />循环听了几十遍了的赵雷的《署前街少年》专辑，原来其中《我记得》的歌词是这个意思。</p><blockquote><p>我带着比身体重的行李（胎盘）<br />游入尼罗河底（羊水）<br />经过几道闪电（手术刀划过肚皮）<br />看到一堆光圈（手术灯）<br />不确定是不是这里<br />我看到几个人站在一起（医生）<br />他们拿着剪刀摘走我的行李（剪掉脐带拿走胎盘）<br />擦拭我的脑袋（护士用毛巾擦拭脑袋）<br />没有机会返回去（来到了这个世界，等待下一个轮回）<br />直到我听见一个声音（听见了妈妈的声音）<br />我确定是你（你就是我的妈妈，我就是你的孩子）<br />可你怎记得我（缘分奇妙，你知道你生下的我也是你前世的亲人吗。）<br />我带来了另界的消息 可我怎么告知你（我还记得我们前世的经历，但我很着急，因为我不会说话，没法告诉你。）<br />注定失忆着相遇（这一世又是丢弃前缘，重新开始。）<br />……</p></blockquote></li><li><p><a href="https://apps.apple.com/app/id1522046585">LightMeter35</a><br />一个好看的没啥用的（对我来说）拟物设计测光 App。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305011917570.webp" alt="LightMeter35" /></p></li><li><p><a href="https://quail.ink/lyric/p/quail-an-opensource-newsletter-service">Quail ink</a>：一个注重隐私和开源的 Newsletter 服务。<br />看起来不错，还没有发布，可以先加 waitlist。</p></li><li><p><a href="https://github.com/opencv/opencv_contrib/pull/3480">fix(wechat_qrcode): Init nBytes after the count value is determined #3480</a><br />微信偷扫用户二维码实锤了。</p></li><li><p><a href="http://www.wtfpl.net">WTFPL – Do What the Fuck You Want to Public License</a><br /><em>#TIL</em> 还有这种开源协议。</p></li></ul><hr class="footnotes-sep" /><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>芫荽。 <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 62 期。本篇是对过去一周（04.24 - 05.01）的记录、思考与分享。&lt;br /&gt;
+五一假期快乐！&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;周二（04.25）我妈回老家了，周五（04.28）我们也回老家了。我妹五一结婚，周六（</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #61（2023.04.24）</title>
@@ -515,31 +542,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 44 期。本篇是对过去一周(2022.12.12 - 2022.12.18)的记录、分享与思考。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Revue 宣布到明年 1 月 18 日关闭，所有数据到期将被删除。还好我的所有周报都同步发到我</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #1</title>
-    <link href="http://kiligwyu.com/newsletter/1/"/>
-    <id>http://kiligwyu.com/newsletter/1/</id>
-    <published>2022-12-18T10:58:47.525Z</published>
-    <updated>2022-12-18T10:58:47.525Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="为什么写周报"><a class="markdownIt-Anchor" href="#为什么写周报"></a> 为什么写周报</h2><p>我很长时间以来都是用邮件来处理稍后读内容，看到好的内容随手就转发到自己邮箱里，也订阅了很多 newsletter。最近 newsletter 又火了？，之前在 <a href="https://www.notion.so/kfang/Newsletter-68ee46c0a4574f659fb8a873ead438c6">中文 Newsletter 导航</a> 中订阅了不少创作者的 newsletter。上周在通勤路上，听完 <a href="https://etw.fm/">声东击西</a> 的 <a href="https://etw.fm/198">#198 反抗平台，与老派传播形式的复兴</a> 后，也决定创建一个自己的 newsletter，以记录与分享自己的所见所闻所想。</p><p>我的 newsletter 的订阅地址：<a href="https://www.getrevue.co/profile/Kilig">Kilig 的碎周报</a>，另外周报也将同时发布在 <a href="https://kiligwyu.com">我的博客</a> 上，也可以通过 <a href="https://kiligwyu.com/atom.xml">RSS</a> 订阅。</p><p>以下是第 1 期周报的内容。</p><!--- more ---><h2 id="听了什么"><a class="markdownIt-Anchor" href="#听了什么"></a> 听了什么</h2><p>每天的通勤时间较长，自己开车要花费两个小时以上，路上就听听播客，以下播客链接均为 Apple Podcast 地址。</p><p>本周听的多，之前假期攒下来的 🤣。</p><h3 id="声东击西"><a class="markdownIt-Anchor" href="#声东击西"></a> <a href="https://podcasts.apple.com/us/podcast/%E5%A3%B0%E4%B8%9C%E5%87%BB%E8%A5%BF/id1183662640">声东击西</a></h3><p><a href="https://podcasts.apple.com/us/podcast/%E5%A3%B0%E4%B8%9C%E5%87%BB%E8%A5%BF/id1183662640?i=1000551364382">#201 生育问题复杂，但还有更大隐忧</a></p><p><a href="https://podcasts.apple.com/us/podcast/%E5%A3%B0%E4%B8%9C%E5%87%BB%E8%A5%BF/id1183662640?i=1000550655516">#200 群众基础，和那条通往夺冠之路</a></p><p><a href="https://podcasts.apple.com/us/podcast/%E5%A3%B0%E4%B8%9C%E5%87%BB%E8%A5%BF/id1183662640?i=1000547760827">#198 反抗平台，与老派传播形式的复兴</a><br />也就是听了这期节目，才最后决定创建自己的 newsletter。</p><h3 id="故事-fm"><a class="markdownIt-Anchor" href="#故事-fm"></a> <a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960">故事 FM</a></h3><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000551510242">E606. 我们在元宇宙里谈恋爱</a><br />挺有趣的两个人。</p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000551263711">E605. 寻找小花梅，另一种存证</a><br />官方通告信他个鬼。</p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000551017296">E604. 出轨成瘾妻子的自白：我犯了男人都会犯的错</a><br />出轨只有零次和无数次</p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000550780355">E603. 整理师自述：我收拾的不是房间，是破碎的爱</a><br />第一次知道还有整理师这个职业，整理不是东西，是家庭。</p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000550533924">E602. 北京冬奥会的「起点」，一家消失的滑雪场</a></p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000550290745">E601. 韩寒、郭敬明之外，从新概念作文大赛走出的年轻人</a><br />我上学那会儿好像新概念作文挺火的，韩寒、郭敬明的作品看的很少。</p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000548799177">E598. 腐女和 0 的爱情：错把路灯当月光</a></p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000548571467">E597. 几位鹤岗的「失意者」决定拍电影</a></p><p><a href="https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8B-fm/id1256399960?i=1000548330896">E596. 中国 UFO 往事</a><br />虽然有很多未解之谜，但目前也没确凿证据啊。</p><h3 id="三五环"><a class="markdownIt-Anchor" href="#三五环"></a> <a href="https://podcasts.apple.com/us/podcast/%E4%B8%89%E4%BA%94%E7%8E%AF/id1475113228">三五环</a></h3><p><a href="https://podcasts.apple.com/us/podcast/no-63-%E8%B7%9F%E5%B0%91%E6%A5%A0%E8%81%8A%E8%81%8A%E6%88%91%E4%BB%AC%E4%BB%8E%E6%B8%B8%E6%88%8F%E4%B8%AD%E5%BE%97%E5%88%B0%E7%9A%84%E4%BA%A7%E5%93%81%E5%90%AF%E5%8F%91/id1475113228?i=1000551265138">No.63 跟少楠聊聊我们从游戏中得到的产品启发</a></p><p><a href="https://podcasts.apple.com/us/podcast/no-61-%E8%B7%9F-61-%E8%81%8A%E8%81%8A%E4%BB%96%E6%9B%B2%E6%8A%98%E5%8F%88%E5%9D%A6%E7%84%B6%E7%9A%84%E5%88%9B%E4%B8%9A%E6%95%85%E4%BA%8B/id1475113228?i=1000548957645">No.61 跟 61 聊聊他曲折又坦然的创业故事</a><br />关注刘老板很久了，非常喜欢刘老板对生活对产品的态度。</p><p><a href="https://podcasts.apple.com/us/podcast/no-57-%E8%B7%9F%E5%86%AF%E5%A4%A7%E8%BE%89%E8%81%8A%E8%81%8A%E5%81%9A%E4%BA%92%E8%81%94%E7%BD%91%E5%8C%BB%E7%96%97%E4%BC%81%E4%B8%9A%E7%9A%84%E4%BD%93%E9%AA%8C/id1475113228?i=1000546231350">No.57 跟冯大辉聊聊做互联网医疗企业的体验</a></p><h3 id="枫言枫语"><a class="markdownIt-Anchor" href="#枫言枫语"></a> <a href="https://podcasts.apple.com/us/podcast/%E6%9E%AB%E8%A8%80%E6%9E%AB%E8%AF%AD/id1069600190">枫言枫语</a></h3><p><a href="https://podcasts.apple.com/us/podcast/vol-62-%E5%9C%A8%E5%A4%A7%E8%BF%9E%E5%B7%A5%E4%BD%9C%E7%94%9F%E6%B4%BB%E6%98%AF%E4%BB%80%E4%B9%88%E4%BD%93%E9%AA%8C/id1069600190?i=1000550983283">Vol. 62 在大连工作生活是什么体验</a><br />对简阅的作者有了进一步的了解，终于知道了他去年在三亚呆那么久的原因了 🤣（同期我也去三亚玩了一星期）。<br />佩服伊洪兄。</p><h3 id="卖鱼桥分桥"><a class="markdownIt-Anchor" href="#卖鱼桥分桥"></a> <a href="https://podcasts.apple.com/us/podcast/%E5%8D%96%E9%B1%BC%E6%A1%A5%E5%88%86%E6%A1%A5/id1564630230">卖鱼桥分桥</a></h3><p><a href="https://podcasts.apple.com/us/podcast/42-%E5%9B%9E%E4%B9%A1%E7%9A%84%E8%B7%AF%E4%B8%8A-%E6%88%91%E8%BE%93%E7%BB%99%E4%BA%86%E4%B8%80%E5%BA%A7%E6%A1%A5/id1564630230?i=1000550249724">42. 回乡的路上，我输给了一座桥</a><br />现在还有这么世外桃源的地方？。</p><h3 id="世界莫名其妙物语"><a class="markdownIt-Anchor" href="#世界莫名其妙物语"></a> <a href="https://podcasts.apple.com/us/podcast/%E4%B8%96%E7%95%8C%E8%8E%AB%E5%90%8D%E5%85%B6%E5%A6%99%E7%89%A9%E8%AF%AD/id1513821443">世界莫名其妙物语</a></h3><p>这女子相声节目相当欢乐啊 😄。</p><p><a href="https://podcasts.apple.com/us/podcast/ep77-%E6%83%85%E4%BA%BA%E8%8A%82%E7%89%B9%E5%88%AB%E8%8A%82%E7%9B%AE-%E4%B8%96%E7%95%8C%E4%BA%BA%E6%B0%91%E5%90%83%E7%B1%B3%E9%A5%AD/id1513821443?i=1000550970708">EP77 情人节特别节目：世界人民吃米饭！</a></p><p><a href="https://podcasts.apple.com/us/podcast/ep76-%E7%88%B1%E6%83%85%E6%98%AF%E4%BB%80%E4%B9%88%E9%A2%9C%E8%89%B2%E7%9A%84/id1513821443?i=1000550243586">EP76 爱情是什么颜色的</a></p><p><a href="https://podcasts.apple.com/us/podcast/ep75-%E9%9B%B6%E5%9F%BA%E7%A1%80-%E7%A5%9E%E6%9B%B2-%E5%85%A5%E9%97%A8/id1513821443?i=1000548754941">EP75 零基础《神曲》入门</a></p><h3 id="ux-coffee-设计咖"><a class="markdownIt-Anchor" href="#ux-coffee-设计咖"></a> <a href="https://podcasts.apple.com/us/podcast/ux-coffee-%E8%AE%BE%E8%AE%A1%E5%92%96/id1099551615">UX Coffee 设计咖</a></h3><p><a href="https://podcasts.apple.com/us/podcast/93-%E6%B0%B8%E4%B8%8D%E5%81%9C%E6%AD%A2%E7%9A%84%E5%88%97%E8%BD%A6-hoka-%E7%9A%84-burnout-%E5%A3%B0%E9%9F%B3%E6%97%A5%E5%BF%97/id1099551615?i=1000550528491">#93：永不停止的列车（Hoka 的 burnout 声音日志）</a></p><h2 id="看了什么"><a class="markdownIt-Anchor" href="#看了什么"></a> 看了什么</h2><p><a href="https://www.bilibili.com/video/BV1R44y1H77u/">bilibili - 经验分享：非计算机专业的人如何转行程序员（宿琛）</a><br />还有价值的分享，把里面推荐的部分课程加到了 TODO 里了。</p><p><a href="https://www.aliyundrive.com/s/o94vsjtnn19">pdf - 高盛 2022 年全球经济展望（中文版）</a><br />该文件已被封杀了，难道是因为下面的两句话？阿里云盘还能下得到。</p><blockquote><p>世界第二大经济体中国的股票不仅大大低于美国股票的表现，而且也是所有主要股票市场中表现最差的，按人民币计算，总回报率为-21.2%。</p></blockquote><blockquote><p>同样，中国的高收益公司债 不仅明显低于美国的表现，而且是表现最差的市场之一，回报率为-26.3%。</p></blockquote><p><a href="https://www.v2ex.com/t/833951#reply40">v2ex - 8 万变 80 万</a><br /><a href="https://twitter.com/xiqingongzi">白宦成</a> 老师对这位独立开发老哥的 <a href="https://twitter.com/xiqingongzi/status/1493456735180587008">错误总结</a> 非常到位，值得所有创业者和独立开发者深思。</p><h2 id="读了什么"><a class="markdownIt-Anchor" href="#读了什么"></a> 读了什么</h2><p>正在读《<a href="https://book.douban.com/subject/26264163/">跳舞女郎</a>》 - [加拿大] 玛格丽特・阿特伍德，很不错的短篇小说集。</p><hr /><p>【完】</p><p>Thank you for subscribing. Have a great week.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;为什么写周报&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#为什么写周报&quot;&gt;&lt;/a&gt; 为什么写周报&lt;/h2&gt;
-&lt;p&gt;我很长时间以来都是用邮件来处理稍后读内容，看到好的内容随手就转发到自己邮箱里，也订阅了很多 newsletter。最近 </summary>
       
     
     
