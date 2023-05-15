@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-05-08T06:50:56.200Z</updated>
+  <updated>2023-05-15T07:18:30.886Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #64（2023.05.15）</title>
+    <link href="http://kiligwyu.com/newsletter/64/"/>
+    <id>http://kiligwyu.com/newsletter/64/</id>
+    <published>2023-05-15T06:39:27.000Z</published>
+    <updated>2023-05-15T07:18:30.886Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 64 期。本篇是对过去一周（05.08 - 05.14）的记录、思考与分享。</p><hr /><ul><li>周一（05.08）发完周报，又更新了下博客主题，主要修改了下字体，Chrome 加载网页时可以使用电脑上已安装的字体，Safari 就不行。不久前把博客字体改成了 <a href="https://github.com/lxgw/LxgwWenKai-Screen">LXGW Wenkai Screen</a>，只是简单改了下 CSS 的 <code>font-family</code>，这次使用了 <a href="https://github.com/chawyehsu/lxgw-wenkai-webfont">lxgw-wenkai-screen-webfont</a> 方案，这下在 Safari 以及移动端都能显示落霞孤鹜字体了。</li><li>最后两张星巴克优惠券快到期了，用了，以后就尽量不买星巴克的咖啡了（<s>除非忍不住，</s> 除非有很喜欢的星礼包），星巴克的咖啡贵但品质一般。等我囤的三顿半喝完了，就试试 illy 的咖啡粉，自己冲。</li><li>Raycast 推出了 Pro，而我又用回了 Alfred，并整理了下 Alfred 的 Workflows，把之前的 Workflows 除了自己写的都删了，从官方的 <a href="https://alfred.app">Alfred Gallery</a> 里安装了些。</li><li>再给自己加一条：无非必要出门不开车。</li><li>这几天刷推，感觉所有人都在玩 塞尔达传说：王国之泪，除了我 🤣。我现在最期待的游戏是 <a href="https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/">丝之歌(鸽)</a>。</li></ul><h3 id="买买买"><a class="markdownIt-Anchor" href="#买买买"></a> 买买买</h3><ul><li>在 <a href="/newsletter/36/">第 36 期的碎周报</a> 里分享过 <a href="https://wouter01.gumroad.com/l/mediamate">MediaMate</a>，一款漂亮的替换系统声音、亮度 HUD 的 App，现在终于还是买了。€4.99 合 $5.45。<br /><img src="https://public-files.gumroad.com/uk77nu57os9q6g21oooy0jdw6g5n" alt="MediaMate" /></li><li>买了 <a href="https://store.steampowered.com/app/588650/Dead_Cells/">死亡细胞</a> 的新 DLC <a href="https://store.steampowered.com/app/2101430/Dead_Cells_Return_to_Castlevania/">重返恶魔城</a>，DLC 刚出的时候就想买来着，忙忘了，虽然手残加没空玩，但先收了。<br /><img src="https://cdn.akamai.steamstatic.com/steam/apps/2101430/header.jpg" alt="Dead Cells: Return to Castlevania" /></li><li>买了新域名 <code>deardiary.best</code>，新产品影儿都没有，域名先行 😂️；看域名就能猜出来新产品是关于日记的，对；虽然日记产品也非常卷，但我这款跟其他的又有些不同，更多信息等我弄出来再说吧，希望不鸽（咕咕咕……）。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://practicaltypography.com/ligatures-in-programming-fonts-hell-no.html">LIGATURES IN PROGRAMMING FONTS: HELL NO</a><br />现在我喜欢的等宽字体是 <a href="https://fsd.it/shop/fonts/pragmatapro/">PragmataPro Mono Liga</a>。</li><li><a href="https://www.solidot.org/story?sid=74907">邓宁 - 克鲁格效应可能只是一种统计偏差</a><blockquote><p>能力欠缺的人事实上擅长估计自己的能力，只有少数人过高估计自己的能力。还有少部分人会过低估计自己的能力。</p></blockquote></li><li><a href="https://blog.chensoul.com/posts/2023/05/11/git-flow-model-and-usage/">Git Flow分支模型和使用</a></li></ul><h4 id="音乐"><a class="markdownIt-Anchor" href="#音乐"></a> 音乐</h4><ul><li><a href="https://www.youtube.com/watch?v=J8P_1fVRYQI">STUDY WITH MIKU - part2 -</a></li><li><a href="https://www.youtube.com/watch?v=gdssxLx7ofs">STUDY WITH MIKU - part1 -</a></li></ul><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/study-with-miku-part1/1677473726"></iframe><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=kgmdIFNu0Qk">我如何做笔记</a></li><li><a href="https://www.youtube.com/watch?v=QePKvqLIsP0">How to Create Good UI/UX - Cali Castle</a></li><li><a href="https://www.youtube.com/watch?v=ZXKPHVuP3NM">这些所谓的顶级旗舰真的太烂了！我憋在心理很久了！</a></li><li><a href="https://space.bilibili.com/3493292341725978/video">从零配置 neovim 成为你的个人开发环境 (100% lua)</a></li><li><a href="https://www.youtube.com/watch?v=3hIqEis4d9I">“五一” 挤死也要旅游，图个啥？用马斯洛需求层次理论分析一下</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305141543367.png" alt="马斯洛需求层次模型" /></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://testflight.apple.com/join/B5D8pm9C">QReate</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305141552968.webp" alt="QReate" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://kylebing.cn/tools/highway/">盘点高速公路上的 2B 司机们</a></li><li>全飞秒近视手术全过程记录  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/HiTw93/status/1657367360830083073"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 64 期。本篇是对过去一周（05.08 - 05.14）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;周一（05.08）发完周报，又更新了下博客主题，主要修改了下字体，Chrome 加载网页时可以使用电脑</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #63（2023.05.08）</title>
@@ -524,33 +551,6 @@
     
     
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>阅读记录（2023）</title>
-    <link href="http://kiligwyu.com/learninpublic/2023/read/"/>
-    <id>http://kiligwyu.com/learninpublic/2023/read/</id>
-    <published>2023-01-01T05:15:36.000Z</published>
-    <updated>2023-05-08T06:09:28.508Z</updated>
-    
-    <content type="html"><![CDATA[<p>2023 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><ol><li>01.01: <a href="https://movie.douban.com/subject/35118954/">子弹列车 Bullet Train (2022)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301021947878.webp" alt="子弹列车 Bullet Train (2022)" /></li><li>01.01: ★ <a href="https://movie.douban.com/subject/1929463/">少年派的奇幻漂流 Life of Pi (2012)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301021947726.webp" alt="少年派的奇幻漂流 Life of Pi (2012)" /></li><li>01.03: <a href="https://movie.douban.com/subject/35307624/">渔港的肉子酱 漁港の肉子ちゃん (2021)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301032053441.webp" alt="渔港的肉子酱 漁港の肉子ちゃん (2021)" /></li><li>01.06: ★ <a href="https://movie.douban.com/subject/25868125/">穿靴子的猫 2 Puss in Boots: The Last Wish (2022)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301071435361.webp" alt="穿靴子的猫 2 Puss in Boots: The Last Wish (2022)" /></li><li>01.13: <a href="https://movie.douban.com/subject/35592787/">老方法 The Old Way (2023)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301152133055.webp" alt="老方法 The Old Way (2023)" /></li><li>01.15: ★ <a href="https://movie.douban.com/subject/4202302/">借东西的小人阿莉埃蒂 借りぐらしのアリエッティ (2010)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301152134340.webp" alt="借东西的小人阿莉埃蒂 借りぐらしのアリエッティ (2010)" /></li><li>01.18: <a href="https://movie.douban.com/subject/35073886/">分手的决心 헤어질 결심 (2022)</a>》<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301221634074.webp" alt="分手的决心 헤어질 결심 (2022)" /></li><li>03.14: ★ <a href="https://movie.douban.com/subject/36171814/">男孩、鼹鼠、狐狸和马</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303201500201.webp" alt="男孩、鼹鼠、狐狸和马" /></li></ol><h2 id="剧集"><a class="markdownIt-Anchor" href="#剧集"></a> 剧集</h2><p>05.07: ★ <a href="https://movie.douban.com/subject/35588177/">漫长的季节 (2023)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305081026862.webp" alt="漫长的季节 (2023)" /></p><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><ol><li>01.13: <a href="https://book.douban.com/subject/35545272/">贪婪的多巴胺</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301152135371.webp" alt="贪婪的多巴胺" /></li><li>01.26: ★ <a href="https://book.douban.com/subject/35494160/">挽救计划</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301301354749.webp" alt="挽救计划" /></li><li>01.31: ★ <a href="https://book.douban.com/subject/26826089/">那些古怪又让人忧心的问题</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302062112122.webp" alt="那些古怪又让人忧心的问题" /></li><li>02.03: ★ <a href="https://book.douban.com/subject/35102294/">不拘一格</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302062112208.webp" alt="不拘一格" /></li><li>02.08: <a href="https://book.douban.com/subject/35005045/">夜晚的潜水艇</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302132019334.webp" alt="夜晚的潜水艇" /></li><li>02.15: ★ <a href="https://book.douban.com/subject/35332778/">我们为什么要睡觉？</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302202149691.webp" alt="我们为什么要睡觉？" /></li><li>02.23: <a href="https://book.douban.com/subject/26757680/">面纱</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302271106372.webp" alt="面纱" /></li><li>02.28: ★ <a href="https://book.douban.com/subject/27602569/">性盲症患者的爱情</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303061505710.webp" alt="性盲症患者的爱情" /></li><li>03.12: ★ <a href="https://book.douban.com/subject/3608208/">牧羊少年奇幻之旅</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303122233063.webp" alt="牧羊少年奇幻之旅" /></li><li>03.13: ★ <a href="https://book.douban.com/subject/35292432/">男孩、鼹鼠、狐狸和马</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303201500931.webp" alt="男孩、鼹鼠、狐狸和马" /></li><li>03.25: <a href="https://book.douban.com/subject/30203737/">鞑靼人沙漠</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303271501946.webp" alt="鞑靼人沙漠" /></li></ol><hr /><h2 id="技术类"><a class="markdownIt-Anchor" href="#技术类"></a> 技术类</h2><ol><li>01.13: ★ Crash Course Computer Science / 计算机科学速成课，<a href="https://www.youtube.com/watch?v=tpIctyqH29Q&amp;list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo">YouTube</a>、<a href="https://www.bilibili.com/video/BV1EW411u7th">B 站中文版</a></li><li>03.10: ★ <a href="https://objccn.io/products/app-architecture">App 架构</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303122235361.png" alt="App 架构" /></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;2023 年书影音记录，日期为完成日期，★ 为（个人）推荐。&lt;/p&gt;
-&lt;h2 id=&quot;电影&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#电影&quot;&gt;&lt;/a&gt; 电影&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;01.01: &lt;a href=&quot;https://movi</summary>
-      
-    
-    
-    
-    <category term="Learn in Public" scheme="http://kiligwyu.com/categories/Learn-in-Public/"/>
-    
-    
-    <category term="lip" scheme="http://kiligwyu.com/tags/lip/"/>
     
   </entry>
   
