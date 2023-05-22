@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-05-15T07:18:30.886Z</updated>
+  <updated>2023-05-22T08:54:14.147Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #65（2023.05.22）</title>
+    <link href="http://kiligwyu.com/newsletter/65/"/>
+    <id>http://kiligwyu.com/newsletter/65/</id>
+    <published>2023-05-22T06:20:01.000Z</published>
+    <updated>2023-05-22T08:54:14.147Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 65 期。本篇是对过去一周（05.15 - 05.21）的记录、思考与分享。</p><hr /><ul><li>周一（05.15）我妈回老家了，照顾我外爷半月。周二去逛了奥特莱斯，我买了身夏装，给外甥买买衣服和鞋子，工作日逛真爽，人少。周三回娃儿姥姥家了。</li><li>周四周五有点头疼、嗜睡，我怀疑是咖啡的戒断反应，周六还有点头疼，外卖买杯咖啡，喝完就不头疼了 😂。<blockquote><p>研究表明，每天至少摄入 100 毫克咖啡因（约是一杯咖啡的量）就可能产生生理依赖，一旦停服咖啡因就会引发戒断症状，包括头痛、肌肉疼痛和僵硬、乏力嗜眠、恶心、呕吐、情绪低落和明显的易怒。 —— <a href="https://zh.wikipedia.org/zh-cn/%E5%92%96%E5%95%A1%E5%9B%A0%E4%BE%9D%E8%B3%B4">咖啡因依赖</a></p></blockquote></li><li><em>#TIL</em> 刷到这条推，我也才知道 Cc 和 Bcc 的区别，虽然一直在使用邮件服务，但几乎没使用过 Bcc 功能。  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/ezzz_log/status/1659388141902663680"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/DashHuang/status/1659500436867665922"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><blockquote><p>密件副本（BCC）是大多数邮箱客户端支持的一个选项。发信人可将电子邮件发给密件副本收件人（除主要收件人以外）同时隐藏密件副本收件人的身份。包括密件副本收件人的所有收件人都无法获取完整的密件副本收件人列表。</p><p><strong>收件人（To）</strong>：主要收件人<br /><strong>副本（CC）</strong>：抄送到次要收件人（与邮件有关但无需做出应答的个人或组织）<br /><strong>密件副本（BCC）</strong>：密件副本到其他收件人。主要与次要收件人不应该获得密件副本收件人的身份。取决于邮箱客户端，密件副本收件人可能只看到自己为密件副本收件人，或整个收件人列表。</p><p>—— <a href="https://zh.wikipedia.org/zh-cn/%E5%AF%86%E9%80%81">密送</a></p></blockquote></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://www.zfrontier.com/app/flow/emGKJWpMgzlD">随手开箱 —— 键盘中的马鞍 HHKB Pro2 Type-S</a><blockquote><p>在牛仔的旅途中，马一旦死掉，他们会把马留下。尽管他们深陷沙漠，他们也会带上马鞍。对于他们而言，马是消耗品，而马鞍则是自己熟悉的伙伴。从这个角度看，电脑不过是消耗品，键盘才最重要。</p></blockquote></li><li><a href="https://www.apple.com.cn/newsroom/2023/05/apple-previews-live-speech-personal-voice-and-more-new-accessibility-features/">Apple 推出认知辅助新功能，以及 Live Speech、Personal Voice 与放大器 app 中的 Point and Speak 功能</a></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6448311069">ChatGPT 官方 iOS 应用</a> 上架了，支持购买 ChatGPT Plus，终于不用为付费苦恼了，不过只上架了美区 App Store，需要美区 Apple ID。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305221556324.webp" alt="ChatGPT" /></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li><a href="https://github.com/megaease/Remembering-Haoel">megaease/Remembering-Haoel</a>：记录您对左耳朵耗子（陈皓）的点滴回忆</li><li><a href="https://github.com/yihong0618/twint/blob/master/haoel.csv">yihong0618/twint/haoel.csv</a>：皓哥的全部推文。</li><li><a href="https://github.com/zijie0/HumanSystemOptimization">zijie0/HumanSystemOptimization</a>：健康学习到150岁 - 人体系统调优不完全指南</li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>苹果发布了 <a href="https://www.apple.com/legal/more-resources/docs/2022-App-Store-Transparency-Report.pdf">2022 App Store Transparency Report</a><ul><li>App Store 共有 178_3232 个应用</li><li>下架 18_6195 个应用，前三类为游戏、工具和商务</li><li>根据政府要求下架 1474 个应用，其中中国大陆 1435 个，其中游戏 1276 个</li><li>共有 3697_4015 个开发者账号</li><li>被封禁用户 2_8203_6628 个</li><li>周平均访客 6_5673_9889 次</li><li>周平均下载应用 7_4787_3877 个</li><li>……</li></ul></li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/songma/status/1659882012122157056"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/novoreorx/status/1659128778042245121"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 65 期。本篇是对过去一周（05.15 - 05.21）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;周一（05.15）我妈回老家了，照顾我外爷半月。周二去逛了奥特莱斯，我买了身夏装，给外甥买买衣服和鞋子</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #64（2023.05.15）</title>
@@ -516,33 +543,6 @@
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li&gt;本周一多半的时间都比较蔫，床上躺着 🤣。周五测了一下抗原，还弱 🐑 🤣。&lt;/</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #45（2023.01.02）</title>
-    <link href="http://kiligwyu.com/newsletter/45/"/>
-    <id>http://kiligwyu.com/newsletter/45/</id>
-    <published>2023-01-02T05:16:47.000Z</published>
-    <updated>2023-01-02T14:14:07.178Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 45 期。本篇是对过去两周（2022.12.19 - 2023.01.02）的记录、思考和分享。</p><ol><li>首先祝各位朋友新年快乐，新的一年身体健康、万事如意。</li><li>本期周报之所以隔了两周，是因为上周一还在陪媳妇儿住院，22 日喜得千金，剖腹产，媳妇儿血检有项指标偏低，所以多住了几天院，辛苦媳妇儿了。我一直都想要个女儿，现在如愿以偿，女儿继承了我俩的优点，小名暂定“依依”，『昔我往矣，杨柳依依。』我老家倒是没有起小名的习惯，但媳妇儿家这边有，那就起个小名吧。</li><li>之前运气好薅了四杯星巴克自带杯免费中杯燕麦拿铁，12 月底到期，从 28 号到 31 号一天去兑换一杯 😸。</li><li>12 月下旬，左耳外耳道发炎了几天，吃东西都感觉到痛，很可能是 AirPods Pro 造成的炎症，加上掏耳朵比较频繁，等彻底好了把 AirPods 的耳塞换成空气海绵试试。</li><li>出院后没两天媳妇儿就 🐑 了，把我也搞 🐑 了。还好有月嫂（阳康）在，女儿交给专业人士，我和媳妇儿跟女儿隔离开。现在媳妇儿基本阴了，我还烧着，浑身没劲儿，肌肉有点疼，今天又睡了一天，本期周报差点又鸽 😹。</li><li>看了电影《<a href="https://movie.douban.com/subject/1853768/">蝙蝠</a>》、《<a href="https://movie.douban.com/subject/35118954/">子弹列车</a>》、★《<a href="https://movie.douban.com/subject/1929463/">少年派的奇幻漂流</a>》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301021947530.webp" alt="蝙蝠 박쥐 (2009)" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301021947878.webp" alt="子弹列车 Bullet Train (2022)" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301021947726.webp" alt="少年派的奇幻漂流 Life of Pi (2012)" /></li><li>2023 的书影音记录将放在 <a href="/learninpublic/2023/read">这里</a>。</li><li><a href="https://techcrunch.com/2022/12/22/lastpass-customer-password-vaults-stolen/amp/">LastPass says hackers stole customers’ password vaults</a>. LastPass 沦陷了。<br />我的密码管理方案是 iCloud + <a href="https://flowerpassword.com/">FlowerPassword</a>，FlowerPassword 是根据 记忆密码 + 区分代号 生成的强密码，虽然要记 记忆密码和区分代号，但区分代号可以有规律可循，也还算好用，密码全部掌握在自己手里。另外 FlowerPassword 还有 <a href="https://apps.apple.com/us/app/id1546535232">iOS</a> 和 <a href="https://apps.apple.com/us/app/id1375291184">macOS</a> 客户端。</li></ol><h2 id="2022-的简单总结"><a class="markdownIt-Anchor" href="#2022-的简单总结"></a> 2022 的简单总结</h2><h3 id="工作"><a class="markdownIt-Anchor" href="#工作"></a> 工作</h3><p>我炒掉了全职工作的老板，老板太过分了，拖欠工资拖的厉害，我市 IT 行业真拉垮，还二线城市，末流的二线城市。<br />后半年没上班，在家照顾媳妇儿，我们要个小孩儿费了老大劲儿了。</p><h3 id="生活"><a class="markdownIt-Anchor" href="#生活"></a> 生活</h3><p>开始写周报，这是第 45 期。<br />待业在家，还是挺焦虑的。</p><h3 id="学习"><a class="markdownIt-Anchor" href="#学习"></a> 学习</h3><p>学了 <a href="https://fullstackopen.com/zh/">全栈公开课 2022</a>，懂了些 React, Redux, Node.js, MongoDB, GraphQL 以及 TypeScript！还有很多东西要学习和实践。<br />阅读方面，见 <a href="/learninpublic/read">这里</a>。</p><h3 id="个人项目"><a class="markdownIt-Anchor" href="#个人项目"></a> 个人项目</h3><p>今年就发了一个 macOS 小工具 <a href="https://apps.apple.com/us/app/id1633245174">MSS</a>，给图片添加类似 macOS 截图时的阴影效果。<br />以及维护必应壁纸工具 <a href="https://apps.apple.com/us/app/id1573715683">Tapet</a>。</p><h3 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h3><p>自己对 2022 的表现一个词概括就是“不给劲”。</p><h2 id="壁纸分享"><a class="markdownIt-Anchor" href="#壁纸分享"></a> 壁纸分享</h2><ol><li><em>#必应壁纸</em> 12 月壁纸更新 👉 <a href="https://1drv.ms/u/s!AuQ7aUGVDnCMguVuDJceZ7bIpHwsLA">OneDrive</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301021702260.webp" alt="壁纸预览" /></li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/Megabits_mzq/status/1608350410477285376"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ol><h2 id="游戏分享"><a class="markdownIt-Anchor" href="#游戏分享"></a> 游戏分享</h2><p>《<a href="https://torfi.itch.io/the-professional">The Professional</a>》，这什么沙雕游戏 🤣🤣🤣。</p><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/torfias/status/1609246746420338688"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><h2 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h2><p><a href="https://github.com/amiantos/multiclock">amiantos/multiclock</a> 这个 macOS 屏保有点意思。<br /><img src="https://github.com/amiantos/multiclock/raw/main/.github/low-framerate-preview.gif?raw=true" alt="Preview" /></p><h2 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h2><ol><li><em>#TIL</em> 《<a href="https://book.douban.com/subject/1041482/">万历十五年</a>》，加入待读清单。</li></ol> <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/sofish/status/1609554082947268610"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><ol start="2"><li>★ <a href="https://twitter.com/bearbig/status/1609481052623458308">Thread</a></li></ol><blockquote><p>如何让自己的朋友圈具备高社交价值<br />1 - 不要截屏对话发公开<br />2 - 不要截人家朋友圈发到自己的社交网络<br />3 - 真诚地评论，碰到与自己价值观念相冲突的情况，think and think again.<br />4 - 自己的朋友圈保持节制，当然如果你碎片想法较多，多发一些也很好，但自己判断，发这个内容会消弱我的价值吗？<br />5 - 发小朋友的生活点滴挺好，把屎尿拍照发图那是low价值）<br />6 - 分享内容时注意营养，你不需要每条朋友圈都是长篇大论观点犀利，也可以晒晒娃晒晒食，但天天晒生活，也很无聊滴。</p></blockquote> <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/bearbig/status/1609481052623458308"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><ol start="3"><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/novoreorx/status/1609446275593932800"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li>网易新闻 2022 年度盘点。404 了。</li></ol> <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/ShooterPlayer/status/1608656837456584705"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><ol start="5"><li>V2EX: <a href="https://www.v2ex.com/t/904940">昨天我老婆被京东金融注销金条征信这种套路骗了 10w</a><br />年底了，骗子也多，大家注意防骗。</li><li>YouTube 频道推荐：<a href="https://www.youtube.com/@user-wj3ov6bm7m">医痴的木头屋</a>。</li></ol><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 45 期。本篇是对过去两周（2022.12.19 - 2023.01.02）的记录、思考和分享。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;首先祝各位朋友新年快乐，新的一年身体健康、万事如意。&lt;/li&gt;
-&lt;li&gt;本期周报之所以隔了两周，</summary>
       
     
     
