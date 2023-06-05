@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-05-29T07:30:53.962Z</updated>
+  <updated>2023-06-05T13:14:54.381Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #67（2023.06.05）</title>
+    <link href="http://kiligwyu.com/newsletter/67/"/>
+    <id>http://kiligwyu.com/newsletter/67/</id>
+    <published>2023-06-05T06:36:50.000Z</published>
+    <updated>2023-06-05T13:14:54.381Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 67 期。本篇是对过去一周（05.29 - 06.04）的记录、思考与分享。</p><hr /><ul><li>看了 <a href="https://movie.douban.com/subject/33455421/">疾速追杀 4 John Wick: Chapter 4 (2023)</a>，期待续作。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306041447743.webp" alt="疾速追杀 4 John Wick: Chapter 4 (2023)" /></li><li>RARBG 宣布关站了，又少了一个资源站。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306041504685.webp" alt="Bye rarbg" /></li></ul><h3 id="壁纸分享"><a class="markdownIt-Anchor" href="#壁纸分享"></a> 壁纸分享</h3><ul><li><mark>#必应壁纸</mark> <a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg55PDJceZ7bIpHwsLA">必应 5 月壁纸</a>，31 张 83.2MB，UHD、无水印。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=_sftvrqIfIU">RUN！Don’t Walk！顯卡教父黃仁勳台大畢典致詞【致詞全程】</a></li><li><a href="https://www.apple.com.cn/105/media/cn/iphone/2023/ad003bb5-d86a-4dfe-9b49-95c505054463/films/privacy/iphone-privacy-tpl-cn-2023_16x9.m3u8">甄子丹出演的苹果隐私保护广告片</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>肘子哥 - <a href="https://www.fatbobman.com/posts/5th-Anniversary-of-Kidney-Transplant/">移植五周年</a><br />作为 iOSer，一直关注着肘子哥的博客，学到了很多。肘子哥多保重，祝好！</li><li>Hzao’s Blog - <a href="https://blog.hzao.top/2023/05/27/bupt-heyteaevent/">我在北邮被偷喜茶后的 161 个小时（更新中）</a><br />又让我想起了老罗小区暖气的故事。<code>生活中很多看起来平常的权益，都是那些较真的人帮我们争取来的。</code></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li><p><a href="https://github.com/aheze/VariableBlurView">aheze/VariableBlurView</a>: A one-file, App Store-safe version of Janum Trivedi’s variable blur effect.</p>  <iframe src="https://github.com/aheze/VariableBlurView/assets/49819455/4400f76d-7d85-4e3f-9757-19bc99297524" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height=400 width=700></iframe></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://kylebing.cn/tools/iphone/">iPhone 参数大全</a></li><li>LXGW - <a href="https://lxgw.github.io/2021/01/15/Lxgw-Opensource-Chinese-Fonts/">自制开源免费字体一览（截至 2023.05.03）</a></li><li><mark>#快捷指令</mark>  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/diegojimenez/status/1664312209650991105"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li>V2EX - <a href="https://www.v2ex.com/t/940584">作为程序员，有什么提升生活 / 工作体验的 App、硬件、服务？</a></li><li>Reddit - <a href="https://www.reddit.com/r/apolloapp/comments/13ws4w3/had_a_call_with_reddit_to_discuss_pricing_bad/">📣 Had a call with Reddit to discuss pricing. Bad news for third-party apps, their announced pricing is close to Twitter’s pricing, and Apollo would have to pay Reddit $20 million per year to keep running as-is.</a><br />Apollo 是最好用的 Reddit 第三方客户端，Reddit 也开始学 Twitter 了，收取巨额 API 使用费，<code>50 million requests costs $12,000</code>，微博搞死了几乎所有第三方客户端，Twitter 也搞死了几乎所有第三方客户端，现在轮到 Reddit 了。<br />使用对方 API 的第三方客户端，风险太大了，独立开发者太难了。</li><li>Newsletter - <a href="https://mp.weixin.qq.com/s/_ioCVv6_hf0f-iRsDxL72A">XR世界导览 NEWSLETTER #001</a><blockquote><p>由 XR 基地与少数派共同创作的栏日，在这个 NENSLETTER 中，我们会搜集 XR 行业的最新动态，并对行业信息进行深入分折，提供深度的行业信息汇总及解读。</p></blockquote></li><li><mark>#<a href="https://baike.baidu.com/item/%E5%AD%95%E5%A6%87%E6%95%88%E5%BA%94/896606"><strong>孕妇效应</strong></a></mark><blockquote><p>孕妇效应意即偶然因素随着自己的关注而让你觉得是个普遍现象，就是当人怀孕了就更容易发现孕妇，你开了奔驰就更容易看到奔驰，你拎了一个 LV 就容易发现满大街都是 LV。用来形容人们容易把自己的关注点投射在外界，以寻找更多案例来证实内心想法的情况。</p></blockquote></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 67 期。本篇是对过去一周（05.29 - 06.04）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;看了 &lt;a href=&quot;https://movie.douban.com/subject/334554</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #66（2023.05.29）</title>
@@ -517,32 +544,6 @@
       
     <summary type="html">&lt;p&gt;&lt;strong&gt;Happy New Year! 🎆🎇🧨🥳 祝各位朋友新年快乐，幸福安康！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 48 期。本篇是对过去一周（2023.01.16 - 2023.01.22）的记录、思考与</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #47（2023.01.16）</title>
-    <link href="http://kiligwyu.com/newsletter/47/"/>
-    <id>http://kiligwyu.com/newsletter/47/</id>
-    <published>2023-01-16T06:15:29.000Z</published>
-    <updated>2023-01-16T06:15:05.315Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 47 期。本篇是对过去一周（2023.01.09 - 2023.01.15）的记录、思考与分享。</p><ol><li>Revue 将于 18 日关闭，所以这期碎周报也是同步到 Revue 上的最后一期，之后的碎周报只在博客上更新了。</li><li>本周大幅减少了刷推的时间，以后也将尽可能减少刷推，减少无效社交。虽然能从推上获取到很多有价值的信息，但是太浪费时间了，我现在是一点发推的欲望都没有，之前几乎是一条不漏地刷推，碎周报也分享了很多推文，本期及之后的碎周报估计就较少分享推文了。</li><li>静下心来，把积攒的 Newsletter 全部处理完了，大部分都是技术（iOS）相关的，该精读的精读，并记录笔记。</li><li>看完了《<a href="https://book.douban.com/subject/35545272/">贪婪的多巴胺</a>》，多巴胺与我们的生活息息相关，对多巴胺有了更多更深的理解。本书（甚至这类书）都太太琐碎了，每一个论点都举例说明，快速浏览一遍即可。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301152135371.webp" alt="贪婪的多巴胺" /></li><li>看完了 ★ Crash Course Computer Science / 计算机科学速成课，<a href="https://www.youtube.com/watch?v=tpIctyqH29Q&amp;list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo">YouTube</a>、<a href="https://www.bilibili.com/video/BV1EW411u7th">B 站中文版</a>。接下来看 ★ <a href="https://www.bilibili.com/video/BV1uW411f72n/">清华 操作系统原理</a> 课程。</li><li>看了电影《<a href="https://movie.douban.com/subject/35592787/">老方法 The Old Way (2023)</a>》和 ★《<a href="https://movie.douban.com/subject/4202302/">借东西的小人阿莉埃蒂 借りぐらしのアリエッティ (2010)</a>》。<br />喜欢看西部牛仔、赏金猎人类的影片，《老方法》的豆瓣评分已经出来了，又是一部烂片，5.9 分，我还以为能上到 7 分呢 🤣。<br />现在才看《借东西的小人阿莉埃蒂》，它的主题曲 ★《<a href="https://music.apple.com/us/album/arriettys-song/885298594?i=885298622">Arrietty’s Song</a>》躺在我喜欢的音乐列表里好多年了都。越来越觉得『人之初，性本恶』，就像电影里的阿春一样。善良都是后天形成的，每个人的心里（底）都住着一个恶魔，有的恶魔被封印，有的人被恶魔侵蚀。生活中有太多太多的不如意，以至于有的恶魔冲破封印，横行作恶。说到恶魔，想到了 ★《<a href="https://www.youtube.com/watch?v=3O1_3zBUKM8">Naughty Boy - La la la</a>》这个 MV 和其 <a href="https://www.mplus.com.tw/article/1213">背后的故事</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301152133055.webp" alt="老方法 The Old Way (2023)" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301152134340.webp" alt="借东西的小人阿莉埃蒂 借りぐらしのアリエッティ (2010)" /></li></ol><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/arriettys-song/885298594?i=885298622"></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/3O1_3zBUKM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h2 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h2><ol><li><a href="https://github.com/1c7/Translate-Subtitle-File">1c7/Translate-Subtitle-File</a>: 机翻字幕文件，『生肉』秒变『熟肉』。<br />我就是用这个开源软件翻译了《老方法》的英文字幕。<br /><img src="https://github.com/1c7/Translate-Subtitle-File/raw/master/image/subtitle_1.png" alt="Tern-Subtitle File Translator Screenshot" /></li></ol><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 47 期。本篇是对过去一周（2023.01.09 - 2023.01.15）的记录、思考与分享。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Revue 将于 18 日关闭，所以这期碎周报也是同步到 Revue 上的最后一期，之后的碎周报</summary>
       
     
     
