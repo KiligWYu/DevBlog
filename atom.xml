@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-06-05T13:14:54.381Z</updated>
+  <updated>2023-06-12T03:09:25.094Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #68（2023.06.12）</title>
+    <link href="http://kiligwyu.com/newsletter/68/"/>
+    <id>http://kiligwyu.com/newsletter/68/</id>
+    <published>2023-06-12T03:09:47.000Z</published>
+    <updated>2023-06-12T03:09:25.094Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 68 期。本篇是对过去一周（06.05 - 06.11）的记录、思考与分享。</p><hr /><ul><li>本周重要的事情当然是 WWDC23 了，熬夜看了 Keynote，iOS 17 就这？iPadOS 17 就这？macOS Sonoma 就这？这次有 One More Thing，Vision Pro 是真的惊艳，后面也看了各媒体的体验感受视频，跟宣传片里的差不多，那可太厉害了。<ul><li>把手里的设备都升级到了开发者测试版，iOS、watchOS、macOS，但手里的 9.7 寸 iPad Pro 无缘 iPadOS 17 了。</li><li>测试版的系统也基本没有遇到什么问题，今年的更新内容虽然不多，但有很多小功能还是很喜欢的，比如 iOS 的 Screen Distance、StandBy（可惜我手机不支持）等，watchOS 新表盘、新的 App Grid View、小组件等，macOS 的桌面小组件等。</li></ul></li><li>罗技 G Hub 是真的难用的，很早之前买了 G903 鼠标，遇到左键单击变双击的问题，固件更新一直没成功，我还试了在 Win 11 系统的虚拟机上更新，结果 G Hub 都安装不上。那就继续吃灰去吧。</li><li>周六晚上去吃了海底捞火锅，点菜点失败了，一看就是平常不操心点菜的人，点多了，部分菜品也不是其他人想吃的，虽然我们已经一起吃过多次火锅了…<ul><li>不喜欢跟一些人一起吃饭，这不吃那不吃…我自己也有很多菜是不吃的，那么那些比较会吃的人大概也不喜欢跟我一起吃饭吧…</li></ul></li><li>再给自己加几条规矩<ul><li>自己一个人时候不喝酒，一点啤酒也不</li><li>晚上十点前上床</li></ul></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Kevin Blog - <a href="https://blog.kevinzhow.com/posts/why-swift-on-server/zh">Swift on Server Tour 0: 为什么这可能是你的好选择</a></li><li>鸡汤 - <a href="https://zhuanlan.zhihu.com/p/616106770">“空船效应”，解决人生90％的难题</a><ul><li><a href="https://zh.wikipedia.org/zh-hans/%E5%BF%83%E9%9D%88%E6%8A%95%E5%B0%84%E8%AC%AC%E8%AA%A4"><mark>心灵投射谬误</mark></a>（英语：mind projection fallacy）又称投射作用、投射效应，是一种非形式谬误，系指<strong>某人认为他看世界的观点反映了世界的真相。也就是，某人将他的个人感觉投射到真实世界。</strong><br />例如有人不喜欢吃高丽菜而主张 “高丽菜很难吃！”，并且认为 “难吃” 是高丽菜的客观性质，每个人都会觉得高丽菜难吃；此时他就犯了心灵投射谬误，事实是，高丽菜是否好吃取决于吃的人的味蕾和过去经验，因而每个人吃起来感觉都不相同。另一个例子是，我们假定有智能的外星人会有和我们相似的价值观，然而他们的心灵可能不是这样运作的。<br />第二种形式的心灵投射谬误是，<strong>某人认为自己不了解一个现象，意味著这现象无法被理解或不是真的。</strong></li></ul></li><li><a href="https://mp.weixin.qq.com/s/i4WR5ULH1ZZYl8Watf3EPw">AI 生成可扫码图像 — 新 ControlNet 模型展示</a><br />泰酷辣，用 AI 生成艺术品一般的二维码，真的可以扫。</li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://developer.apple.com/design/awards/">Apple Design Awards 2023</a></li><li>壁纸 - <a href="https://basicappleguy.com/haberdashery/ios-7-nebula-wallpaper">iOS 7 Nebula Wallpaper</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306120900186.webp" alt="iOS 7 Nebula Wallpaper" /></li><li>壁纸 - <a href="https://wallpapers.microsoft.design">微软设计的各种有趣壁纸</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306121031705.webp" alt="Microsoft Design Wallpapers" /></li><li>在第 36 期的碎周报里就推荐过 <a href="https://blankwonder.notion.site/blankwonder/Yachen-03d59139b57942f1bb4c090a68f28e88">Yachen 的购物推荐</a>，这不 618 要到了嘛，作者也更新了些好物。</li><li><a href="https://twitter.com/waylybaye/status/1666322140545826817">钟文泽为什么那么火</a>  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/waylybaye/status/1666322140545826817"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 68 期。本篇是对过去一周（06.05 - 06.11）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;本周重要的事情当然是 WWDC23 了，熬夜看了 Keynote，iOS 17 就这？iPadOS 1</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #67（2023.06.05）</title>
@@ -519,31 +546,6 @@
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li&gt;本周当然还是带娃儿了，白天晚上基本都在看孩儿，宝宝拉肚子都一周多了，试了各种治疗方</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #48（2023.01.23）</title>
-    <link href="http://kiligwyu.com/newsletter/48/"/>
-    <id>http://kiligwyu.com/newsletter/48/</id>
-    <published>2023-01-23T07:12:23.000Z</published>
-    <updated>2023-01-23T07:40:29.027Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>Happy New Year! 🎆🎇🧨🥳 祝各位朋友新年快乐，幸福安康！</strong></p><p>Hi There! 感谢阅读 Kilig 的碎周报第 48 期。本篇是对过去一周（2023.01.16 - 2023.01.22）的记录、思考与分享。</p><hr /><ol><li>《<a href="https://movie.douban.com/subject/4811774/">阿凡达：水之道 Avatar: The Way of Water (2022)</a>》，刚上映时想着等阳康了再去电影院看，上月底阳了，康了后反而没了观看的欲望，之前还是打算去电影院看一下的，但是发现需要自己购买 3D 眼镜，那还是算了，本来也没啥观看的欲望。3D 眼镜还是要买的，以后可以看其他大片，但不紧急也不重要，以后再买吧。</li><li>有意思的东西如果在本碎周报里分享或推荐过一次，一般就不会再分享了，所以每期的周报可能就少了些有意思的东西。</li><li>就个人的使用情况而言，最大的垃圾短信制造者，就是运营商，频繁发些“公益短信”，让我了解到了政府部门的繁杂冗余，各种局、办、厅、委、部等等，我使用的垃圾短信过滤工具 <a href="https://apps.apple.com/cn/app/id1642682818">熊猫吃短信</a> 的自定义规则关键字绝大部分都是这些政府部门，而且还在继续增加中。</li><li>看了电影《<a href="https://movie.douban.com/subject/35073886/">分手的决心 헤어질 결심 (2022)</a>》，挺喜欢汤唯的 😄。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202301221634074.webp" alt="分手的决心 헤어질 결심 (2022)" /></li><li>本周几乎没刷推，也没发推欲望，之前发的推文几乎都是记录生活性质的，我是个不喜欢回忆的人，一切时候都向前看，<sub>从不回头，</sub>记录的意义不大，但话说回来，本碎周报也算是另一种记录，哼嗯~ 打脸来的贼快 🤣。但发碎周报跟发推不一样，推更偏向社交，而我不喜欢社交 😹（有点点社恐），就是要刻意离开社交网络，虽然社交网络能认识些有意思的朋友，但互动很少，再有意思那也是人家的生活，不刷社交应用会让人更快乐。另外 Twitter 也学微博把第三方客户端都弄死了，就更不想上推了。</li><li>苹果毫无预兆地发布了新款 MacBook Pro、Mac mini、HomePod，我所使用的搭载 M1 芯片的 13 寸 MacBook Pro，购买于 2020 年 11 月，这两年多使用下来，还是很满意的，性能够用、安静、续航时间长，新款搭载 M2 Pro/Max 芯片的 MBP，对我吸引力还是很大的，毕竟比 M1 强太多了，M1 MBP 还用的是老模具，唯一让我觉得 M1 MBP 不爽的点是只支持一台外接显示器，但我还是会继续用手上这台 13 寸 MBP 的，再用个三五年，发挥它最大的价值。<br />新款的 HomePod 配置有增有减，等评测解禁了看下评测，看下跟初代的对比，我觉得我早晚是要买的，但不是现在。</li><li>月嫂年前走了，刚走小妮就给我们来个下马威，拉肚子了，哭闹的很，尿不湿一天要换好多个，可把爸妈累坏了，喂了些药，到现在还没好，趁她睡着，才有一点点时间 😹。</li><li>今年不看春晚，挺没意思的。年也过了，个人觉得过年实在没啥意思，年味越来越淡了。<br />希望 2023 年可以过得更加充实，年底过个好年，</li></ol><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;strong&gt;Happy New Year! 🎆🎇🧨🥳 祝各位朋友新年快乐，幸福安康！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 48 期。本篇是对过去一周（2023.01.16 - 2023.01.22）的记录、思考与</summary>
       
     
     
