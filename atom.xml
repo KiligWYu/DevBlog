@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-06-19T06:06:58.394Z</updated>
+  <updated>2023-06-26T07:55:18.925Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #70（2023.06.26）</title>
+    <link href="http://kiligwyu.com/newsletter/70/"/>
+    <id>http://kiligwyu.com/newsletter/70/</id>
+    <published>2023-06-26T06:41:09.000Z</published>
+    <updated>2023-06-26T07:55:18.925Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 70 期。本篇是对过去一周（06.19 - 06.25）的记录、思考与分享。</p><hr /><ul><li>端午节前，大可爱忙活两天，又包了很多粽子，红豆、绿豆、大枣、蜜枣、葡萄干等，都是甜粽，我们这里没有吃咸粽的习惯。接下来很长一段时间内，都要吃粽子了 🤣。<br />端午节回小可爱姥姥家，带回去了些。</li><li>家里的冰箱的温度控制似乎有些不太寻常，就用了下 海尔智家 app，让冰箱连网在 app 端看看冰箱温度。我的感受是这 app 做的什么玩意儿，太难用了。<br />实际上对于这些智能(障)家电，我的态度是禁止联网的，首先，它们比较智障，其次，在隐私保护方面，我不信任它们。</li><li>618 购物节也过完了，大家可以时常看看京东的价保，买贵了还可以返还点差价。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>主观世界 - <a href="https://subnooc.com/posts/a-group-quiting-journey">记一次带着立场的退群</a><br />我也加了不少的“交流群”，我基本上都处于隐身状态，不参与交流，也不看他们交流，一方面是没有时间，一方面是随时间推移“交流群”都成灌水群了，聊天内容毫无意义。</li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6450280202">Day Progress</a> - Time remaining today in your menu bar<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306261540108.webp" alt="Day Progress" /></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li><a href="https://github.com/CollegesChat/university-information">university-information</a> - 收集全国各高校招生时不会写明，却会实实在在影响大学生活质量的要求与细节<br />现在也到了填报志愿的时候了，有需要的朋友可以看看，毕竟现在的很多大学很不大学。</li></ul><h4 id="海因里希三角"><a class="markdownIt-Anchor" href="#海因里希三角"></a> 海因里希三角</h4><blockquote><p>事故三角，又称海因里希三角或伯德三角，是一种工业事故的预防理论。它显示了严重事故 (上)、轻微事故 (中) 和未遂事故 (下) 之间的关系。该想法指出：如果减少轻微事故的数量，那么严重事故的数量也会相应下降。—— <a href="https://zh.wikipedia.org/wiki/%E4%BA%8B%E6%95%85%E4%B8%89%E8%A7%92">事故三角</a></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306261520930.png" alt="海因里希定律原始比率 - 维基百科" /></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 70 期。本篇是对过去一周（06.19 - 06.25）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;端午节前，大可爱忙活两天，又包了很多粽子，红豆、绿豆、大枣、蜜枣、葡萄干等，都是甜粽，我们这里没有吃咸</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #69（2023.06.19）</title>
@@ -519,33 +546,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 51 期。本篇是对过去一周（2023.02.06 - 2023.02.12）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&quot;带娃日常&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #50（2023.02.06）</title>
-    <link href="http://kiligwyu.com/newsletter/50/"/>
-    <id>http://kiligwyu.com/newsletter/50/</id>
-    <published>2023-02-06T11:46:45.000Z</published>
-    <updated>2023-02-06T14:13:49.808Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 50 期。本篇是对过去一周（2023.01.30 - 2023.02.05）的记录、思考与分享。</p><hr /><ul><li>现在生活的重心就是带娃儿了。周末回娃儿姥姥家了。有了娃儿之后，时间碎片化就更严重了。现在娃儿还太小，比较难带，等再大点就好带了，也更好玩了。</li><li>看完了 ★《<a href="https://book.douban.com/subject/26826089/">那些古怪又让人忧心的问题</a>》和 ★《<a href="https://book.douban.com/subject/35102294/">不拘一格</a>》<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302062112122.webp" alt="那些古怪又让人忧心的问题" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302062112208.webp" alt="不拘一格" /></li><li>我都是在手机上看电子书，之前用的是 Apple Books，上周换到了 <a href="https://apps.apple.com/app/id1348198785">KyBook 3</a>。Apple Books 缺乏个性化设置，页边距太宽，不过点页边翻页的功能很喜欢；KyBook 支持个性化设置，功能强大，但是已经快四年没更新了，也存在很多问题，比如没有自动主题切换（Dark Mode）、不太好操作（文本选择、有的书中的注释太难点，相比还是 Apple Books 做的好）、自定义字体经常失效等。不过 KyBook 依旧（可能）是最好用的本地电子书阅读工具了。另外，虽然像微信读书等这些阅读类的应用虽然也有丰富的设置且支持导入本地书籍，但是不喜欢这些应用。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302062154224.webp" alt="KyBook 3" /></li></ul><h2 id="壁纸分享"><a class="markdownIt-Anchor" href="#壁纸分享"></a> 壁纸分享</h2><ul><li>★ <a href="https://1drv.ms/u/s!AuQ7aUGVDnCMguV4DJceZ7bIpHwsLA">一月份的必应壁纸</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302062118675.webp" alt="必应壁纸 - 2023.01" /></li></ul><h2 id="游戏推荐"><a class="markdownIt-Anchor" href="#游戏推荐"></a> 游戏推荐</h2><p>偶尔会在 App Store 中看下喜欢的游戏有没有续作或者开发商有没有推出啥新游戏，就发现 <a href="https://apps.apple.com/app/id1070462618">Hero Emblems II</a> 更新了，都推出半年多了，毫不犹豫地购买了，之前的一代也是我很喜欢的游戏。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302062209468.webp" alt="Hero Emblems II" /></p><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 50 期。本篇是对过去一周（2023.01.30 - 2023.02.05）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;现在生活的重心就是带娃儿了。周末回娃儿姥姥家了。有了娃儿之后，时间碎片化就更严重了</summary>
       
     
     
