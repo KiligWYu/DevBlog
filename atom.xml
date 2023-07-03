@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-06-26T07:55:18.925Z</updated>
+  <updated>2023-07-03T11:13:33.219Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #71（2023.07.03）</title>
+    <link href="http://kiligwyu.com/newsletter/71/"/>
+    <id>http://kiligwyu.com/newsletter/71/</id>
+    <published>2023-07-03T06:38:36.000Z</published>
+    <updated>2023-07-03T11:13:33.219Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 71 期。本篇是对过去一周（06.26 - 07.02）的记录、思考与分享。</p><hr /><ul><li>亚马逊于 6 月 30 日起在中国停止 Kindle 电子书店的运营，用户将无法再购买新的电子书。对于已经购买的电子书，可以在 2024 年 6 月 30 日之前下载。<br />另外，对于已购的电子书，推荐使用 yihong 的 <a href="https://github.com/yihong0618/Kindle_download_helper">开源工具</a> 来下载。</li><li>从 07.01 开始，大可爱要上班了，我则继续在家照顾小可爱，还有小可爱的奶奶，小可爱在家也可乖了呢。<br />本来白天下午我是想去图书馆或者星巴克办公的，只是小可爱奶奶一个人在家带不住她，睡醒了还得加辅食，所以我就先不出去了。</li></ul><h3 id="壁纸"><a class="markdownIt-Anchor" href="#壁纸"></a> 壁纸</h3><p><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg6BaDJceZ7bIpHwsLA">必应 2023.06 无水印壁纸，共计 30 张 88.5 MB</a>。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://markmark.app">MarkMark - Public Beta</a><br />图拉鼎 - <a href="https://imtx.me/blog/markmark-public-beta/">全新的稍后阅读工具——MarkMark 正式开放公测了</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307021515001.jpeg" alt="MarkMark" /></li><li><a href="https://webstay.app">WebStay</a> - Mini-tool for pin Web page on Windows.<br />Join <a href="https://t.me/webstayapp">Telegram usergroup</a> to get beta app and feedback it!<br />macOS 上有 <a href="https://apps.apple.com/app/id1575588022">MenubarX</a>，这下 Windows 上也有类似的工具了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307021539170.jpeg" alt="WebStay" /></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Manjusaka - <a href="https://www.manjusaka.blog/posts/2023/06/25/love-and-hope-is-all-we-need/">聊聊公益和助学</a><blockquote><p>To love, to lose, to give without expectation</p></blockquote></li><li>史靼旺 - <a href="https://telegra.ph/%E5%9B%9E%E5%BD%A2%E9%92%88%E8%A7%A3%E6%95%A3%E4%B8%A4%E5%B9%B4%E4%BA%86%E4%BB%96%E4%BB%AC%E6%80%8E%E4%B9%88%E6%A0%B7%E4%BA%86-06-30-2">回形针解散两年了，他们怎么样了？</a><br />唉……</li><li>少数派 - <a href="https://sspai.com/post/74196">咖啡美酒冷泡茶，这些消暑饮品在家就能动手做</a><br />这大热天的，在家喝一杯冰镇饮料，爽~。</li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>异次元软件世界 - <a href="https://www.iplaysoft.com/rarbg.html">全球知名 BT 网站 RARBG 全站磁力链接资源备份打包下载 - 永久收藏！ (电影游戏电视剧)</a></li><li><a href="https://12ft.io">12ft.io</a> - Bypass any paywall<br />一个绕过新闻网站付费墙的工具，原理该网站也说了，实际上很简单，就是这些新闻网站对谷歌爬虫放行，这样就可以被搜索到，该工具就是获取谷歌对其网页的缓存。我试了一下端传媒，果然可以。<blockquote><p>News sites want Google to index their content so it shows up in search results. So they don’t show a paywall to the Google crawler.<br />Google crawler will cache a copy of the site every time it crawls it.<br />All we do is show you that cached, unpaywalled version of the page.</p></blockquote></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 71 期。本篇是对过去一周（06.26 - 07.02）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;亚马逊于 6 月 30 日起在中国停止 Kindle 电子书店的运营，用户将无法再购买新的电子书。对于</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #70（2023.06.26）</title>
@@ -520,32 +547,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;#带娃日常&lt;/e</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #51（2023.02.13）</title>
-    <link href="http://kiligwyu.com/newsletter/51/"/>
-    <id>http://kiligwyu.com/newsletter/51/</id>
-    <published>2023-02-13T12:55:17.000Z</published>
-    <updated>2023-02-13T13:14:07.549Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 51 期。本篇是对过去一周（2023.02.06 - 2023.02.12）的记录、思考与分享。</p><hr /><h2 id="带娃日常"><a class="markdownIt-Anchor" href="#带娃日常"></a> 带娃日常</h2><p>现在我带孩儿越来越得心应手，哄睡、换尿布等。白天都让她在客厅小车里睡会儿，开着电视，当白噪音。</p><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><p>看完了《<a href="https://book.douban.com/subject/35005045/">夜晚的潜水艇</a>》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302132019334.webp" alt="夜晚的潜水艇" /></p><h2 id="pt"><a class="markdownIt-Anchor" href="#pt"></a> PT</h2><p>上周某 PT 站开放注册，就注册了一个，但新手任务太难了，下载量达标但上传量有点难，挂机做种，没人下载就没上传，导致分享率为 0，虽然可以通过捐赠方式直接跳过新手任务，但是，浏览了下资源，没啥吸引力对我，另外我也没有 NAS 或者更多硬盘空间来挂机做种，所以干脆坐等帐号被封好了。</p><h2 id="理发"><a class="markdownIt-Anchor" href="#理发"></a> 理发</h2><p>周末去剪了头发，附近小区外面路边的小店，¥30，剪的还行、服务一般，感觉有点贵，15、20 还差不多。这些年物价上涨的厉害，理发的价格也是一路飙升，连锁店、商场里的店我更是不会去的。</p><p>上次是去该小区外面的另一家店，¥50，剪的还行、服务一般，贵在其他不重要的地方了，按摩椅当洗头躺椅，棉柔巾当毛巾，那家店我也是再也不会去的。</p><p>再之前是在该小区里面的一家小店，100 块剪 8 次，客人大多都是小区里的，老头老太比较多，每次去人都挺多。</p><p>令我印象最深刻的，当属高中时候校外的一家店，同学去过一次之后回来推荐去的，夫妻店，老板是外地的，服务很好堪比海底捞，还平价，当时作为学生的我大受震撼，高中时期都在那家店剪头了。后来上大学寒暑假回来，也还是去那家店，老板有了孩子，店面也装修升级了，还雇的有学徒，服务依旧。工作之后就很少回老家了，不过那家店应该还在。</p><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 51 期。本篇是对过去一周（2023.02.06 - 2023.02.12）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id=&quot;带娃日常&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#</summary>
       
     
     
