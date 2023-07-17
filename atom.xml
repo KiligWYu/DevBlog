@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-07-10T08:43:26.481Z</updated>
+  <updated>2023-07-17T03:07:02.671Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #73（2023.07.17）</title>
+    <link href="http://kiligwyu.com/newsletter/73/"/>
+    <id>http://kiligwyu.com/newsletter/73/</id>
+    <published>2023-07-17T02:24:25.000Z</published>
+    <updated>2023-07-17T03:07:02.671Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 73 期。本篇是对过去一周（07.10 - 07.16）的记录、思考与分享。</p><hr /><ul><li><s>大可爱是 🐡。</s></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="音乐"><a class="markdownIt-Anchor" href="#音乐"></a> 音乐</h4><blockquote><p><a href="https://zh.wikipedia.org/zh-cn/%E6%89%98%E8%8A%99%E8%98%BF"><strong>托芙・罗</strong></a>（ Tove Lo）是一名瑞典歌手及词曲作家。托芙・罗以坦率、不经修饰以及深受油渍摇滚启发见称，被滚石杂志形容为 “瑞典最黑暗的国际流行歌手”。她的歌词自传风格强烈、诚实、百感交集，亦令她获得 “最伤心的瑞典女孩” 之称。</p></blockquote><p>Tove Lo on <a href="https://music.apple.com/us/artist/tove-lo/570136838">Apple Music</a>，on <a href="https://www.youtube.com/@tovelomusic">YouTube</a>。</p><iframe width="560" height="315" src="https://www.youtube.com/embed/r38y6JjeYCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/habits-stay-high/1443336749?i=1443337632"></iframe><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=jxuihjs6CIQ">潜水员戴夫原型故事，南非布须曼洞穴事件 | X 调查</a><br />最近发售的游戏《<a href="https://store.steampowered.com/app/1868140/_DAVE_THE_DIVER/">潜水员戴夫 DAVE THE DIVER</a>》也很火，¥80。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307170838128.webp" alt="潜水员戴夫" /></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Cali - <a href="https://cali.so/blog/guide-for-cloning-my-site">如何复刻本网站，零氪快速建博客</a></li><li>Hawstein’s Blog - <a href="https://hawstein.com/2023/07/12/five-years-of-an-indie-hacker/">一个独立创造者的五年</a></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li><a href="https://github.com/vasanthk/how-web-works">vasanthk/how-web-works</a>: What happens behind the scenes when we type <a href="http://google.com">google.com</a> in a browser?<br />经典面试题，浏览器输入 <a href="http://google.com">google.com</a> 时发生了什么。</li><li><a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way">ryanhanwu/How-To-Ask-Questions-The-Smart-Way</a>: 教你如何正確的提出技術問題並獲得你滿意的答案。</li><li><a href="https://github.com/djyde/cusdis">djyde/cusdis</a>: lightweight, privacy-friendly alternative to Disqus.<br /><img src="https://github.com/djyde/cusdis/raw/master/public/images/landing.png" alt="Cusdis - Screenshot" /></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id1609525692">侘寂清单 - 你的桌面清单便签</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307162042554.webp" alt="侘寂清单" /></li><li>Markdown 笔记软件 <a href="https://apps.apple.com/app/id1016366447">Bear</a> 发布了 2.0 大更新，新增 20 多项新功能，具体更新内容见其更新日志。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307171049151.webp" alt="Bear" /></li></ul><h4 id="为好设计买单"><a class="markdownIt-Anchor" href="#为好设计买单"></a> 为好设计买单</h4><ul><li>CANDYSIGN 发布了可以“取代插线板”的新品『小电拼』，设计的很好看，120W、4C1A 也很实用，就是前期的宣传太夸张，券后 ¥398，如果你恰好财力雄厚，可以在其微信新程序或淘宝店铺购买。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307162003848.jpg" alt="小电拼" /></li><li>Jony Ive 从苹果离职后的第一款设计作品 <a href="https://www.linn.co.uk/us/turntables/lp12-50">Sondek LP12-50</a>，也是 Linn 50 周年特别款，限量 250 台，很有质感，也很贵，US$60,000，如果你恰好财力雄厚，可以下单了。<br /><a href="https://www.linn.co.uk/us/blog/the-story-behind-linn-and-lovefroms-collaboration-on-the-sondek-lp12-50">The story behind Linn and LoveFrom’s collaboration on the Sondek LP12-50</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307161814706.jpg" alt="Sondek LP12-50" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>Apple Store 官方在线商店现已登陆微信小程序。<a href="https://mp.weixin.qq.com/s/Y5SbTYQbZSmxYGPZnoNc4g">Apple Store 官方在线商店，开了</a></li><li>那个日夜切换的 Switch 梗图已经有人做出来了 👍，👉 <a href="https://codepen.io/jh3y/pen/LYgjpYZ">代码见这里</a>。<br />（这条应该出现在第 62 期的碎周报里的，忘了）  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/hellojoie/status/1651941767447494661"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li>推串：自由职业者在家办公如何保持效率。  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/shengxj1/status/1679849677389443072"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 73 期。本篇是对过去一周（07.10 - 07.16）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;大可爱是 🐡。&lt;/s&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;其他有趣的&quot;&gt;&lt;a class=</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #72（2023.07.10）</title>
@@ -519,33 +548,6 @@
 &lt;li&gt;&lt;em&gt;#日常&lt;/em&gt;
 &lt;ul&gt;
 &lt;li&gt;在娃儿姥姥家住了一周了，娃儿还是一如既往，晚上睡</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #53（2023.02.27）</title>
-    <link href="http://kiligwyu.com/newsletter/53/"/>
-    <id>http://kiligwyu.com/newsletter/53/</id>
-    <published>2023-02-27T02:59:44.000Z</published>
-    <updated>2023-02-27T14:36:23.573Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 53 期。本篇是对过去一周（2023.02.20 - 02.26）的记录、思考与分享。</p><hr /><ul><li><em>#带娃日常</em> 闺女这几天有点闹觉了，狠哭一阵才睡，真是个小闹人精。周日去她姥姥家住段时间 😀。</li><li><em>#阅读</em> 本周读完了《<a href="https://book.douban.com/subject/26757680/">面纱</a>》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202302271106372.webp" alt="面纱" /></li><li><em>#App</em> Twitter 第三方客户端 Spring 的最新 Beta（TestFlight）版已经可以正常添加帐号使用了。我现在推已经很少刷了，只不定期看下 Developer 列表。</li><li>春天到了，<sub>又到了……，</sub> 住市区里很少能看到春花了，我们小区的绿化还是很不错的，已经有许多花开了，好长时间没在小区里转转了。</li><li><em>#开源项目</em> <a href="https://github.com/usememos/memos">usememos/memos</a>: An open-source, self-hosted memo hub with knowledge management and social networking.<br /><img src="https://github.com/usememos/memos/raw/main/resources/demo-dark.webp#gh-dark-mode-only" alt="memos" /></li><li><em>#开源项目</em> <a href="https://github.com/Lakr233/Kimis">Lakr233/Kimis</a>: Kimis is a client for Misskey built with pure UIKit for quality.<br /><img src="https://github.com/Lakr233/Kimis/raw/main/Resource/Assets/Screenshot.png" alt="Kimis" /></li></ul><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 53 期。本篇是对过去一周（2023.02.20 - 02.26）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;#带娃日常&lt;/em&gt; 闺女这几天有点闹觉了，狠哭一阵才睡，真是个小闹人精。周日去她姥</summary>
       
     
     
