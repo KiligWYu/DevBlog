@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-07-17T03:07:02.671Z</updated>
+  <updated>2023-07-24T07:47:49.177Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #74（2023.07.24）</title>
+    <link href="http://kiligwyu.com/newsletter/74/"/>
+    <id>http://kiligwyu.com/newsletter/74/</id>
+    <published>2023-07-24T01:02:29.000Z</published>
+    <updated>2023-07-24T07:47:49.177Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 74 期。本篇是对过去一周（07.17 - 07.23）的记录、思考与分享。</p><hr /><ul><li>下午我能出去一会儿了，去星巴克喝瑞幸，带着电脑工作一会。</li><li>周末回小可爱姥姥家了。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><blockquote><p>如果你读到别人的作品（博客文章、视频、软件等等）对你很有用，发一封感谢信给作者不一定是最好的选择，而是自己也写一篇公开的感谢信，在你自己的博客或者其它地方，告诉更多的人你的收获是什么。</p></blockquote>  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/randyloop/status/1683021682947289088"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li><a href="https://xiaolincoding.com">小林 x 图解计算机基础</a></li><li>播客 - <a href="https://fm.cali.so">TechniCality</a><br />同时，代码也是开源的，<a href="https://github.com/CaliCastle/cali-fm">CaliCastle/cali-fm</a>，可以 Host 自己的播客、生成 RSS feed、生成可播放的播客网站。</li><li><a href="https://arstechnica.com/gadgets/2023/07/with-macos-sonoma-intel-macs-are-still-getting-fewer-updates-than-they-used-to/">How long will the last Intel Macs be supported</a></li><li><a href="https://www.theverge.com/2023/7/13/23793428/microsoft-aptos-new-default-font-office-365">Meet Microsoft Office’s new default font: Aptos</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 74 期。本篇是对过去一周（07.17 - 07.23）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;下午我能出去一会儿了，去星巴克喝瑞幸，带着电脑工作一会。&lt;/li&gt;
+&lt;li&gt;周末回小可爱姥姥家了。&lt;/</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #73（2023.07.17）</title>
@@ -519,35 +547,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;#日常&lt;/em&gt; 又在娃儿姥姥家住了一周，还是老样子，娃儿占据了绝大部分时间。&lt;/l</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #54（2023.03.06）</title>
-    <link href="http://kiligwyu.com/newsletter/54/"/>
-    <id>http://kiligwyu.com/newsletter/54/</id>
-    <published>2023-03-06T06:47:28.000Z</published>
-    <updated>2023-03-06T08:50:14.961Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 54 期。本篇是对过去一周（2023.02.27 - 03.05）的记录、思考与分享。</p><hr /><ul><li><em>#日常</em><ul><li>在娃儿姥姥家住了一周了，娃儿还是一如既往，晚上睡前闹会儿，还是没在自己家方便自在。</li><li>本周天气很好，气温都升到二十多度了，昼夜温差大，室内还很凉。天气虽好，但我很少出门，本周就出去在附近公园遛了两回。</li><li>我感冒了，症状较轻。娃儿也感冒了，稍有点鼻塞。这一波流感攻势挺强，身边好多人都感冒了，有的症状甚至比新冠还重。幼儿园小朋友如果感冒了，返园时得要流感病毒阴性证明 😹。</li><li>上周在淘宝上买了五年的 Microsoft 365 订阅，价格跟 <a href="https://store.lizhi.io/site/search_list?order_by=2&amp;word=&amp;coupon_uuid=0&amp;category_id=64">数码荔枝 3 月软件优惠</a> 中的差不多。主要是想要 OneDrive 的 1T 云端存储空间，Office 平时很少用。</li></ul></li><li><em>#TIL</em><ul><li><a href="https://zh.wikipedia.org/wiki/%E9%84%A7%E5%AF%A7-%E5%85%8B%E9%AD%AF%E6%A0%BC%E6%95%88%E6%87%89"><strong>达克效应</strong></a><blockquote><p>鄧寧 - 克魯格效應（英語： Dunning-Kruger effect），簡稱 鄧克效应或达克效应（DK effect），亦有人稱井蛙現象，是一种认知偏差，能力欠缺的人有一种虚幻的自我优越感，错误地认为自己比真实情况更加优秀。</p></blockquote></li><li>县城里没几家像样的咖啡店，娃儿姥姥家附近有家幸运咖，出门时去他家买了美式和加浓美式，一般般。我在市区也经常看到幸运咖，搜了一下发现：<blockquote><p>“幸运咖” 创立于 2017 年，是一家以现磨咖啡为主的连锁品牌，由蜜雪冰城股份有限公司全资运营，和蜜雪冰城总部一样位于河南郑州。</p></blockquote></li></ul></li><li><em>#阅读</em> 本周读完了 ★《<a href="https://book.douban.com/subject/27602569/">性盲症患者的爱情</a>》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303061505710.webp" alt="性盲症患者的爱情" /></li><li><em>#壁纸</em><ul><li><em>#必应壁纸</em> <a href="https://1drv.ms/u/s!AuQ7aUGVDnCMguV-DJceZ7bIpHwsLA">二月份的必应壁纸</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303061600800.webp" alt="二月份的必应壁纸" /></li><li><a href="https://www.iplaysoft.com/p/windows11-moment2-wallpapers">Windows 11 Moment 2 内置壁纸</a></li></ul></li><li><em>#其他</em><ul><li>少数派 - <a href="https://sspai.com/post/78555">2022 年度征文获奖结果公布：这些是大家都爱看的高分好文章</a></li><li><a href="https://blog.google/products/chrome/our-favorite-chrome-extensions-of-2022/">Our favorite Chrome extensions of 2022</a></li></ul></li></ul><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 54 期。本篇是对过去一周（2023.02.27 - 03.05）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;#日常&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;在娃儿姥姥家住了一周了，娃儿还是一如既往，晚上睡</summary>
       
     
     
