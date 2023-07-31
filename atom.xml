@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-07-24T07:47:49.177Z</updated>
+  <updated>2023-07-31T13:35:26.794Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #75（2023.07.31）</title>
+    <link href="http://kiligwyu.com/newsletter/75/"/>
+    <id>http://kiligwyu.com/newsletter/75/</id>
+    <published>2023-07-31T08:21:09.000Z</published>
+    <updated>2023-07-31T13:35:26.794Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 75 期。本篇是对过去一周（07.24 - 07.30）的记录、思考与分享。</p><hr /><ul><li>本周在写一个小工具 app，只支持 iOS 17 可太爽了，纯 SwiftUI（开发一时爽，后期升级维护肯定可多破事，<a href="https://twitter.com/tualatrix/status/1684917785007423488">看叉友对 SwiftUI 的吐槽</a>），不考虑旧系统，准备到 iOS 17 正式发布后，上架 App Store。</li><li>还有两个小 app 在规划开发中，也准备 all in SwiftUI，只支持 iOS 17。Idea 一早就有，为什么没实现呢，跟这位叉友一样，因为洁癖。还有就是太小众、伪需求，注定不会有太多销量。  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/DTD_STUDIOS/status/1681317150987001857"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="壁纸"><a class="markdownIt-Anchor" href="#壁纸"></a> 壁纸</h4><p><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg6FnDJceZ7bIpHwsLA">必应 7 月超高清无水印壁纸，31 张 100.3 MB。</a></p><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.bilibili.com/video/BV1vV4y1b76v/">对抗孤独需要肤浅朋友，不要什么精神之交</a></li><li><a href="https://www.youtube.com/watch?v=dQ2bjo07aNs">【硬核】苹果海外千亿税款如何避税 | 欧美政府税收反击战</a></li><li><a href="https://www.youtube.com/watch?v=x_6CDnaqiVs">全球最不宜居的国家！人人都是亿万富翁，却痛苦不堪！津巴布韦究竟发生了什么？人类货币史上的奇观，奇葩政策是如何毁掉一个国家的？[She’s Xiaowu @ndwtb]</a></li><li><a href="https://www.bilibili.com/video/BV1jg4y1P78T/">UP 主转行，山顶开了家咖啡店，赚翻了！</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://lutaonan.com/blog/my-extension-sold-1k-yuan/">开发一个浏览器插件在第三天卖出 1000 元</a><blockquote><p>我现在觉得「用户掏钱买你的产品」是验证你的产品价值最有用的方法，无论是便宜还是贵，即使是 1 块钱，就和免费完全有不同的意义。就像打德州扑克，用你真实的钱打和用游戏币打完全是两回事。<br />新产品上线，最重要的是解决客户的问题，而不是怎么解决得比较优雅。很多工程师很容易陷入一种「自动化」的诱惑，想把一切都做得最自动化，然后忽略了真正在解决的是什么问题。</p></blockquote></li><li><a href="https://www.v2ex.com/t/959041">家人的 Apple ID 开了双重认证，仍然被钓鱼，求大佬解惑，也顺便给大家提个醒</a><br />一种新的钓鱼手法，原理见下面叉串。  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/realQPomelo/status/1683777680406360065"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li><a href="https://juejin.cn/post/7259210748801663031">独立开发前 100 天真正重要的事</a></li><li><a href="https://blog.imjp.uk/indie">独立开发如何成功</a></li><li><a href="https://www.sqlsec.com/2023/07/ventura.html">国光的 macOS Ventura 13 优化配置（基于 ARM 平台）</a></li><li><a href="https://diygod.me/say-no-to-newsletter">对 Newsletter 说不</a><br />文章评论中有人分享了一个开源项目，<a href="https://github.com/leafac/kill-the-newsletter">leafac/kill-the-newsletter</a>，看起来不错。</li><li>再见，字节跳动！<br />微信公众号原文“此内容被投诉且经审核涉嫌侵权，无法查看。”🖕，<a href="https://cj.sina.com.cn/articles/view/3181745997/bda5974d019018kje">网上找了篇</a>。</li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ?cp=e30">Viola the Bird</a><br />性感大鸟在线拉中提琴（原来还有 <a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%8F%90%E7%90%B4">中提琴</a>，孤陋寡闻了），泰裤辣。</li><li>😱 还能这样  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/lz__233/status/1683392435421057025"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 75 期。本篇是对过去一周（07.24 - 07.30）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;本周在写一个小工具 app，只支持 iOS 17 可太爽了，纯 SwiftUI（开发一时爽，后期升级维</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #74（2023.07.24）</title>
@@ -520,33 +547,6 @@
 &lt;li&gt;&lt;em&gt;#日常&lt;/em&gt;
 &lt;ul&gt;
 &lt;li&gt;在娃儿姥姥家的一周，宅了一周。预计还得再住半个月 🥲。&lt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #55（2023.03.13）</title>
-    <link href="http://kiligwyu.com/newsletter/55/"/>
-    <id>http://kiligwyu.com/newsletter/55/</id>
-    <published>2023-03-13T06:25:17.000Z</published>
-    <updated>2023-03-14T02:29:00.798Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 55 期。本篇是对过去一周（2023.03.06 - 03.12）的记录、思考与分享。</p><hr /><ul><li><em>#日常</em> 又在娃儿姥姥家住了一周，还是老样子，娃儿占据了绝大部分时间。</li><li><em>#阅读</em><ul><li>读完了 ★《<a href="https://book.douban.com/subject/3608208/">牧羊少年奇幻之旅</a>》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303122233063.webp" alt="牧羊少年奇幻之旅" /></li><li>★ 《<a href="https://objccn.io/products/app-architecture">App 架构</a>》，这本剩下最后两章没读，之后结合代码得再精读一遍。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303122235361.png" alt="App 架构" /></li></ul></li><li><em>#其他</em><ul><li>★ <a href="https://zhuanlan.zhihu.com/p/24211888">科普 | 如何让长期伴侣一直对你保持激情和欲望</a>，一篇 6 年前的知乎专栏文章，文中提到的书籍、影视等都很推荐看看。</li><li><em>#VPN</em> 2014 年自创始我就开始使用的『多态 ZPN』，现在升级成 ★『<a href="https://lbvapp.com">鹊桥 VPN</a>』，多国节点、不限流量、稳定高速、全平台支持、简单易用，周套餐 $3、月套餐 $6、年套餐 $47，便宜好用，很值得推荐，欢迎使用我的 <a href="https://lbvapp.com/qr-code-invite/KGQ1nqwYjcEDHvVdGTiu">推荐链接</a>（<a href="https://help.lovebridgevpn.com/zh-CN/articles/6129920">备用链接</a>）去注册。<ul><li>要说缺点也有，不能配置代理规则，不过对于非进阶专业用户来说，这种无需配置简单易用反而算优点了。</li></ul></li></ul></li></ul><h2 id="牧羊少年奇幻之旅-摘录"><a class="markdownIt-Anchor" href="#牧羊少年奇幻之旅-摘录"></a> 牧羊少年奇幻之旅 - 摘录</h2><blockquote><ul><li>恰恰是实现梦想的可能性，才使生活变得有趣。</li><li>当总是面对同样的面孔，像在神学院里那样，就会渐渐让那些人成为生活的一部分。而由于他们是你生活的一部分，当然就想改变你的生活。如果你不像他们所期望的那样，他们就会不高兴。因为，对于该怎样生活，所有人都有固定的观念。但是他们对于自己该怎样生活却一头雾水，就像那个给人解梦、却不会把梦变成现实的老妇人。</li><li>‘幸福的秘密就在于，既要看到世上的奇珍异宝，又要永远不忘记勺里的那两滴油。’</li><li>我和别人没什么两样：总是以理想的眼光看待世界，以为事情会按理想的方式发展，而不会用现实的眼光看待世界，看不到事情真相。</li><li>今天死还是明天死全都一样。每一天的开始，都是为了让人活着或者辞世。</li><li>“入口的东西并不邪恶，”炼金术士说，“邪恶的是从口里出来的东西。”</li><li>所有发生过一次的事，可能永远不会再发生；但所有发生过两次的事，肯定还会发生第三次。</li></ul></blockquote><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 55 期。本篇是对过去一周（2023.03.06 - 03.12）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;#日常&lt;/em&gt; 又在娃儿姥姥家住了一周，还是老样子，娃儿占据了绝大部分时间。&lt;/l</summary>
       
     
     
