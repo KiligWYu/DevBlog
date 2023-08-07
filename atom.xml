@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-07-31T13:35:26.794Z</updated>
+  <updated>2023-08-07T07:22:17.219Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #76（2023.08.07）</title>
+    <link href="http://kiligwyu.com/newsletter/76/"/>
+    <id>http://kiligwyu.com/newsletter/76/</id>
+    <published>2023-08-07T06:19:44.000Z</published>
+    <updated>2023-08-07T07:22:17.219Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 76 期。本篇是对过去一周（07.31 - 08.06）的记录、思考与分享。</p><hr /><ul><li>工作日下午在万达星巴克喝瑞幸办公。还想着去图书馆呢，新区的图书馆还没去过，八月份又又关门了。</li><li>写完了自己小项目的 Widgets，踩了些坑，学到许多。开新的坑了。</li><li>周末进城（郑）了，逛吃，带着小可爱。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="音乐"><a class="markdownIt-Anchor" href="#音乐"></a> 音乐</h4><ul><li><a href="https://zhuanlan.zhihu.com/p/108705797">「推荐」以色列独立流行乐队 Lola Marsh</a></li></ul><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/echoes/1490848017?i=1490848020"></iframe><ul><li>刀郎 - 山歌寥哉</li></ul><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/%E5%B1%B1%E6%AD%8C%E5%AF%A5%E5%93%89/1695661683"></iframe><p>刀郎的新专，主打歌《罗刹海市》，有点上头 🤣，b 站对其的解读很多，<code>除去歌词，仅说音乐部分，刀郎可以去竞争中国内地流行音乐“五绝”的身份</code>（by <a href="https://www.bilibili.com/video/BV1Y841127j6/">叨叨冯聊音乐</a>）。</p><blockquote><p>《罗刹海市》是一篇清代小说家蒲松龄创作的文言短篇小说。<br />这部作品主要讲述了在古代罗刹国的海市蜃楼之间，马骥和龙女小乔担纲主演了一出才子佳人的故事。在故事中，马骥厌倦了浮华的旧时中国，来到罗刹国，在这里找到了他一直向往的生活。龙女小乔则一直生活在海市蜃楼中，对马骥的才情十分钦佩。在蒲松龄的笔下，这个故事充满了奇幻色彩，描绘了一个异域风情的海市蜃楼和一个才子佳人的故事。此篇乃愤世嫉俗之文章，作者巧借醉乡以指桑骂槐，旁敲侧击。<br />作品反映了蒲松龄所处的时代和社会背景。清朝时期，社会动荡不安，蒲松龄通过这部作品表达了对自由、独立和平静生活的向往，同时也揭示了当时社会的矛盾和问题。<br />—— <a href="https://baike.baidu.com/item/%E7%BD%97%E5%88%B9%E6%B5%B7%E5%B8%82/69501">罗刹海市</a></p></blockquote><ul><li>叨叨冯聊音乐 - <a href="https://www.bilibili.com/video/BV1Y841127j6/">刀郎《罗刹海市》/《山歌寥哉》是好音乐吗？中国音乐到底应该如何发展？</a></li><li>端傳媒 - <a href="https://theinitium.com/article/20230802-culture-daolang-mainland-tide-in-music/">刀郎又紅了而且更紅！《羅剎海市》講了當下中國的鬼故事？</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>酱紫表 - <a href="https://www.youtube.com/watch?v=1WzhoxdwpeQ">离谱！Apple TV 也能当软路由？！</a></li><li>小鹿 Lawrence - <a href="https://www.bilibili.com/video/BV1814y1B77t/">致敬新海诚｜打开往门，奔赴三年之约【关西旅拍】</a></li><li><a href="https://space.bilibili.com/57214324">小芃路子野</a></li><li><a href="https://www.youtube.com/watch?v=KRBhyjOwaqU">[吐糟] 为 996 辩解应是斯德哥尔摩综合征反应？| 工作和生活必须分离 | 八小时工作制的目标</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://anotherdayu.com/2023/5233/">为什么我愿意给 Twitter 试错的机会？</a></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6445854828">[untitled]</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202308071514614.webp" alt="[untitled]" /></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 76 期。本篇是对过去一周（07.31 - 08.06）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;工作日下午在万达星巴克喝瑞幸办公。还想着去图书馆呢，新区的图书馆还没去过，八月份又又关门了。&lt;/li&gt;</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #75（2023.07.31）</title>
@@ -518,35 +545,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 57 期。本篇是对过去一周（03.20 - 03.26）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&quot;生活&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生活&quot;&gt;&lt;/a&gt; 生活&lt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #56（2023.03.20）</title>
-    <link href="http://kiligwyu.com/newsletter/56/"/>
-    <id>http://kiligwyu.com/newsletter/56/</id>
-    <published>2023-03-20T05:48:53.000Z</published>
-    <updated>2023-03-20T08:01:11.833Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 56 期。本篇是对过去一周（03.13 - 03.19）的记录、思考与分享。</p><hr /><ul><li><em>#日常</em><ul><li>在娃儿姥姥家的一周，宅了一周。预计还得再住半个月 🥲。</li><li>乍暖还寒，本周下大雪了，一波降温，气温如过山车。</li><li>我目前的几个小项目，几乎处于散养状态，偶尔还能收到用户的邮件反馈和好评，我还是非常开心的。</li><li>这段时间积累了不少 idea，有关于现有项目的，也有关于开发新 app 的，接下来先把现有的项目的更新一下，然后开新坑。</li><li>我最近也开始找工作了，在郑州这样的二线城市，互联网行业本来就不很行，再加上现在大环境下行，iOS 开发的岗位太少了，想找个钱多事少离家近的工作可太难了（反思一下，这几年的工作经历，是我把自己的路走窄了，🤡 是我自己），我现在也放宽要求了，工作慢慢找，一边找工作一边做自己的项目，其实我蛮喜欢做个独立开发者的，但我也知道独立开发这条路并不好走，「明知山有虎，偏向虎山行。」</li><li>这段时间 AI 圈发生了不少事，Midjourney v5、文心一言、GPT-4，一堆 AI 相关的 App、拓展、工具、服务等，我也在持续关注，在之后的开发当中也会借助于 AI。</li></ul></li><li><em>#阅读</em><ul><li>读完了 ★《<a href="https://book.douban.com/subject/35292432/">男孩、鼹鼠、狐狸和马</a>》。一本十分钟就能读完的书，但要花十倍百倍的时间去思考，值得反复阅读，每次阅读都有新的收获。也看了其 ★ <a href="https://movie.douban.com/subject/36171814/">同名绘本改编的手绘动画</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303201500931.webp" alt="男孩、鼹鼠、狐狸和马" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202303201500201.webp" alt="男孩、鼹鼠、狐狸和马" /></li><li>过了一遍《<a href="https://beeth0ven.github.io/RxSwift-Chinese-Documentation/">RxSwift 中文文档</a>》。</li></ul></li><li><em>#其他</em><ul><li>极简时钟、极简日记的作者、独立开发者 <a href="https://apps.apple.com/cn/developer/shudao-wang/id1065436362">Wang Shudao</a> 的 ★ <a href="https://mp.weixin.qq.com/s/SQ--meCI_Gz47Xx7CtMQKA">独立开发周报</a>。</li></ul></li></ul><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 56 期。本篇是对过去一周（03.13 - 03.19）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;#日常&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;在娃儿姥姥家的一周，宅了一周。预计还得再住半个月 🥲。&lt;</summary>
       
     
     
