@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-08-14T07:07:14.386Z</updated>
+  <updated>2023-08-21T07:50:05.578Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #78（2023.08.21）</title>
+    <link href="http://kiligwyu.com/newsletter/78/"/>
+    <id>http://kiligwyu.com/newsletter/78/</id>
+    <published>2023-08-21T06:55:07.000Z</published>
+    <updated>2023-08-21T07:50:05.578Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 78 期。本篇是对过去一周（07.14 - 07.20）的记录、思考与分享。</p><hr /><ul><li>最近 𝕏 上总能看到关于独立开发教人做独立开发的 𝕏 文，我觉得吧，这就跟成功学的书籍一样，“成功的人千篇一律，失败的人却各有千秋”，这些看（不）看就（也）行，独立开发产品，没有什么是不能做的，follow your heart，just do it，反正最后都是失败（大雾，不是）。</li><li>给本博客加了备案号“豫 ICP 备 404 号 - 1”，当然是没有备案啦。备 tmd 案。</li><li>看完了 <a href="https://www.refactoringui.com">Refactoring UI</a> 一书。学到许多，发现在第 64 期的碎周报里分享的 <a href="https://www.youtube.com/watch?v=QePKvqLIsP0">How to Create Good UI/UX - Cali Castle</a> 的视频里的很多案例，都是出自本书。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202308211530725.webp" alt="Refactoring UI" /></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=lM3Kx1VymgA">SOLO Camping in the RAIN || RELAX, SLEEP and Eat in the JUNGLE || Rain ASMR</a></li><li>李永乐老师 - <a href="https://www.bilibili.com/video/BV1FP411s7Ew/">葫芦娃救爷爷为啥一个一个上？童年最大疑惑被李永乐老师解开了！</a></li><li>溢自成花 - <a href="https://www.bilibili.com/video/BV1FF411d7h5/">从普通动画师到收入百万的数字艺术家</a></li><li>-LKs- - <a href="https://www.bilibili.com/video/BV1gF41117fN/">300 天 4 万公里传遍中国，漂流相机终于回来了！</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://nano.ac/posts/b56e5c40/">随机公交之旅</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7255.html">字节跳动推出公共 DNS 服务</a><blockquote><p>字节跳动旗下云计算服务火山引擎于前日推出了 “TrafficRoute DNS 套件” 服务，据悉，该 “TrafficRoute DNS 套件” 实际就是一套 “公共 DNS” 服务，能够在为国内用户提供更快的地址解析速度的同时，配合 “流量清洗” 和 “IP 黑名单” 等服务，抵御外界 DDoS 攻击。<br />目前 DNS 服务只支持 IPv4 协议，主 DNS IP 为 <code>180.184.1.1</code>（北京），备用为 <code>180.184.2.2</code>（北京），仅提供基本的 DNS 解析功能。<br />官网：<a href="https://www.volcengine.com/product/trafficroute">https://www.volcengine.com/product/trafficroute</a></p></blockquote></li><li><a href="https://mp.weixin.qq.com/s/d9xVuvJ0Dos9T8cBbSOfog">《黑神话：悟空》上手前瞻｜IGN 中国</a></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://dockx.app">DockX</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202308211536352.webp" alt="DockX" /></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 78 期。本篇是对过去一周（07.14 - 07.20）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;最近 𝕏 上总能看到关于独立开发教人做独立开发的 𝕏 文，我觉得吧，这就跟成功学的书籍一样，“成功</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #77（2023.08.14）</title>
@@ -519,33 +546,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 59 期。本篇是对过去一周（04.04 - 04.09）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h3 id=&quot;生活&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生活&quot;&gt;&lt;/a&gt; 生活&lt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #58（2023.04.04）</title>
-    <link href="http://kiligwyu.com/newsletter/58/"/>
-    <id>http://kiligwyu.com/newsletter/58/</id>
-    <published>2023-04-04T06:30:50.000Z</published>
-    <updated>2023-04-04T09:28:06.673Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 58 期。本篇是对过去一周（03.27 - 04.03）的记录、思考与分享。<br />本期碎周报晚了一天更新。</p><hr /><h3 id="生活"><a class="markdownIt-Anchor" href="#生活"></a> 生活</h3><p>跟上周一样，在小妮姥姥家。<br />周末吃了巴奴火锅，打包带回家吃的，好久没吃火锅了。巴奴的打包也太慢了，锅底最难打包了，用塑料袋装，太容易洒了。相比海底捞打包更方便些。<br />3 号姥姥家给小妮办了百岁宴。上个月底在老家也给办了，不过我们没回去 😅。满月时因为疫情及天冷没有办。</p><h3 id="产品动态"><a class="markdownIt-Anchor" href="#产品动态"></a> 产品动态</h3><p>更新了花密的 <a href="https://apps.apple.com/app/id1546535232">iOS v1.6.0</a> 和 <a href="https://apps.apple.com/app/id1375291184">macOS v2.10.0</a>，更新内容见下方。</p><p>花密是第三方客户端，<a href="https://flowerpassword.com/">官网在这里</a>，官方很早之前是有 iOS 和 macOS 客户端的，但后来很久不更新也下架了，原作者把花密的算法开源了，因为花密也是我要经常要使用的工具，所以干脆我来做个花密客户端。<br />我是花密的老用户了，在使用 macOS 之前，花密就是我的主力密码管理工具，花密非常轻量，尽管还是要记一些区分代号；工作以后使用 macOS 了，也使用过像 1Password 这样的密码管理工具，但每次输保险库密码，也很麻烦并不方便，就又使用回了花密；再后来使用 iCloud 密码 + 花密辅助。<br />密码管理工具有很多，适合自己的才是最好的。</p><h4 id="花密-for-ios"><a class="markdownIt-Anchor" href="#花密-for-ios"></a> 花密 for iOS</h4><ul><li>新增：设置区分代号后缀</li><li>新增：AccentColor</li><li>优化：支持滑动时隐藏键盘了，需要 iOS 16</li><li>优化：其他代码上的小修改和优化</li></ul><h4 id="花密-for-macos"><a class="markdownIt-Anchor" href="#花密-for-macos"></a> 花密 for macOS</h4><ul><li>新增：设置区分代号后缀</li><li>新增：AccentColor</li><li>优化：开机启动，使用 macOS 13 提供的新方法</li><li>优化：快捷键设置</li><li>优化：保存密码到钥匙串</li><li>优化：设置页面 UI</li><li>优化：其他代码上的小修改和优化</li></ul><h3 id="三月必应壁纸"><a class="markdownIt-Anchor" href="#三月必应壁纸"></a> 三月必应壁纸</h3><p><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMguYIDJceZ7bIpHwsLA">三月必应壁纸</a>。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>WWDC23 时间定在了北京时间 06.06 - 06.10，我比较期待下一代操作系统及对 SwiftUI 的改进和完善，对可能发布的硬件不很感兴趣。</li><li>苹果发布了 <a href="https://apps.apple.com/app/id1598433714">Apple Music Classical</a>。</li><li><a href="https://apps.apple.com/app/id1669785846">Arc for iOS</a> 也发布了。</li><li><a href="https://apps.apple.com/app/id1268667713">Aurora Reader</a> 从 3.6.1 版本开始完全免费了。</li><li>稚晖君 - <a href="https://www.bilibili.com/video/BV1Uh41137Th/">【自制】我做了一种很新的 机 器 人！【硬核】</a>，太硬核了，一个人搞定软硬件。</li><li>八爷的 <a href="https://apps.apple.com/app/id6445999201">OpenCat</a> 要 <a href="https://twitter.com/waylybaye/status/1642857010038448128">涨价</a>了，很棒的 ChatGPT 客户端，<a href="https://www.appinn.com/opencat-for-team/">OpenCat 团队版：为团队成员提供 OpenAI API 服务</a>。</li><li><a href="https://www.hackingwithswift.com/awards">Swift Community Awards 2022 Shortlist</a>，投票截止时间 04.17。</li><li><a href="https://www.intel.cn/content/www/cn/zh/support/articles/000059729/processors.html">如何为计算机、笔记本电脑或英特尔 ® 盒装处理器订购替换英特尔处理器标签</a>，<a href="https://twitter.com/realQPomelo/status/1639484224666476545">有人用 MacBook Pro 的购买订单申请了一张 Intel inside 贴纸</a> 🤣。</li><li>TestFlight - <a href="https://testflight.apple.com/join/xPcARvEA">Talky: Engaging AI Chats</a>，这个 GPT 客户端的 <a href="https://twitter.com/gong_cn/status/1638509863994261506">开发过程</a> 非常有趣。</li></ul><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 58 期。本篇是对过去一周（03.27 - 04.03）的记录、思考与分享。&lt;br /&gt;
-本期碎周报晚了一天更新。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3 id=&quot;生活&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; </summary>
       
     
     
