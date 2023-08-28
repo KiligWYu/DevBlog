@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>标记剪贴板内容为 Concealed | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Kilig 的碎周报 - #79（2023.08.28） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-YLMXL0J5N0');
@@ -11,17 +11,47 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">标记剪贴板内容为 Concealed</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">标记剪贴板内容为 Concealed</h1><div class="post-meta">2019-04-14</div><a class="disqus-comment-count" data-disqus-identifier="biao-ji-jian-tie-ban-nei-rong-wei-concealed/" href="/biao-ji-jian-tie-ban-nei-rong-wei-concealed/#disqus_thread"></a><div class="post-content"><p>当要把敏感数据复制到剪贴板时，应将其标记为 <code>org.nspasteboard.Concealed</code>，如密码等。</p>
-<p>此标识符为通用标识符，一些密码管理软件会将复制的密码标记为 Concealed，而一些剪贴板管理软件会自动忽略被标记为 Concealed 的内容。</p>
-<!--- more --->
-<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> pasteboard <span class="operator">=</span> <span class="type">NSPasteboard</span>.general</span><br><span class="line">pasteboard.clearContents()</span><br><span class="line"><span class="comment">// 直接 setString(forType:NSPasteboard.PasteboardType(&quot;org.nspasteboard.ConcealedType&quot;)) 是不行的</span></span><br><span class="line">pasteboard.setString(<span class="string">&quot;concealed content like pwd&quot;</span>, forType: .string)</span><br><span class="line">pasteboard.setString(<span class="string">&quot;&quot;</span>, forType: .<span class="keyword">init</span>(<span class="string">&quot;org.nspasteboard.ConcealedType&quot;</span>))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>另外通用标识符还有 <code>org.nspasteboard.TransientType</code>、<code>org.nspasteboard.AutoGeneratedType</code>、<code>org.nspasteboard.source</code>，这些标识符的含义及使用场景详见 <a target="_blank" rel="noopener" href="https://nspasteboard.org/">https://nspasteboard.org/</a>。</p>
-<h2 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h2>
+});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #79（2023.08.28）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description"></p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #79（2023.08.28）</h1><div class="post-meta">2023-08-28<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/79/" href="/newsletter/79/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 79 期。本篇是对过去一周（08.21 - 08.27）的记录、思考与分享。</p>
+<hr />
 <ul>
-<li><a target="_blank" rel="noopener" href="https://nspasteboard.org/">https://nspasteboard.org/</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/alyssais/secure-pbcopy/blob/master/main.m">https://github.com/alyssais/secure-pbcopy/blob/master/main.m</a></li>
+<li>日常咖啡馆办公，星巴克喝瑞幸。</li>
+<li>周末回小可爱姥姥家吃烧烤 👍。</li>
+<li>本周早上去旁边公园骑行了两次，现在可太适合锻炼了，早晚比较凉快，下周继续早上骑行。<br />
+看天气预报，之后都没 30°C 以上的天气了，真是一场秋雨一场凉。</li>
+<li>设置了下 iCloud 的自定义域名邮箱，闲置域名又有用了。</li>
 </ul>
-</div><div class="tags"><a href="/tags/macOS"><i class="fa fa-tag">macOS</i></a></div><div class="post-nav"><a class="pre" href="/ji-yu-Ubuntu-da-jian-FTP-wen-jian-fu-wu/">基于 Ubuntu 搭建 FTP 文件服务</a><a class="next" href="/App-scanbox-not-enabled/">App scanbox not enabled</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+<h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3>
+<h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4>
+<ul>
+<li>一席 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=8tBs1wobWC8">【一席】杜素娟：理想是人生的彈簧</a>
+<blockquote>
+<p>去承担人间的祸福<br />
+去跟暴风雨搏斗<br />
+在沉舟的碎裂声中也丝毫不沮丧！</p>
+</blockquote>
+</li>
+<li>影视飓风 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV17u411E7UK/">【2023】一个百大 UP 主的创业故事（2）</a>
+<blockquote>
+<ol>
+<li>盲目换人从来不解决本质问题</li>
+<li>有效量化，降低信息差，是企业运作的核心</li>
+<li>人性是经不起挑战的，商业，是切蛋糕的艺术</li>
+</ol>
+</blockquote>
+</li>
+<li>李永乐老师 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=B2GmPengFns">日本核污水排海有哪些严重后果？李永乐老师讲放射性元素衰变</a><br />
+只是讲解一下放射性元素的基本知识，并没有谈日本污水排海有哪些严重后果。毕竟在国内做内容要政治正确。</li>
+<li>超粒方 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=KEvkuZXbvDU">明年看不到任何電影了! 編劇、演員都直接不幹 好萊塢徹底崩潰 | 超粒方 | 完整認識好萊塢罷工</a></li>
+</ul>
+<h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/yN1rlXcuwqRkxWQV__9lzA">缅北电诈真相，比《孤注一掷》更黑暗</a></li>
+</ul>
+<h4 id="其他有趣的-2"><a class="markdownIt-Anchor" href="#其他有趣的-2"></a> 其他有趣的</h4>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/microsoft/vscode/issues/191229">Vscode, have you collaborated with China? #191229</a></li>
+</ul>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/78/">Kilig 的碎周报 - #78（2023.08.21）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '//disqus.com/next/config.json', true);
   xhr.timeout = 2500;
@@ -42,9 +72,9 @@ function loadComments() {
   window.dsqjs = new DisqusJS({
     shortname: 'kiligwyu',
     siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
-    identifier: 'biao-ji-jian-tie-ban-nei-rong-wei-concealed/',
-    url: 'http://kiligwyu.com/biao-ji-jian-tie-ban-nei-rong-wei-concealed/',
-    title: '标记剪贴板内容为 Concealed',
+    identifier: 'newsletter/79/',
+    url: 'http://kiligwyu.com/newsletter/79/',
+    title: 'Kilig 的碎周报 - #79（2023.08.28）',
     api: '',
     apikey: '',
     admin: 'kiligwyu',
