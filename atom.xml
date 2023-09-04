@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-08-28T07:59:48.773Z</updated>
+  <updated>2023-09-04T09:15:16.608Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #80（2023.09.04）</title>
+    <link href="http://kiligwyu.com/newsletter/80/"/>
+    <id>http://kiligwyu.com/newsletter/80/</id>
+    <published>2023-09-04T08:06:58.000Z</published>
+    <updated>2023-09-04T09:15:16.608Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 80 期。本篇是对过去一周（08.28 - 09.03）的记录、思考与分享。</p><hr /><ul><li>#骑行 本周只骑行了两次，早上或下午边上公园里，绕湖一圈，11KM+。<br />因为各种原因，早上起不来了、下午写代码写嗨了、与 bug 激烈搏斗中等原因，本周只骑了两次 🤣。</li><li>本周给大可爱刷河南专技在线视频。跟学习强国一样，净浪费资源，整些毫无意义的。</li><li>距离苹果秋季发布会就剩一周多了，发布会结束 iOS 17、macOS Sonoma 就该发 RC 了，留给开发者的时间不多了。<br />这些天继续肝新 app，all in SwiftUI 和 iOS 17。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>Pablo Cimadevila - <a href="https://www.youtube.com/watch?v=iw1QJWBJh8c">我将乐高 C-3PO 变成 18K C-3PGOLD</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1o34y1K7n3/">对话诺兰！导演亲自揭开《奥本海默》的 6 个秘密</a></li><li>日食记 - <a href="https://www.bilibili.com/video/BV1zj41127jP/">中式流水席天花板，几百斤龙虾螃蟹这谁顶得住？</a></li><li>毕导 THU - <a href="https://www.bilibili.com/video/BV19u4y1D7GT/">【毕导】这个视频里说的都是真的，但你却永远无法证明</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>不相及研究所 - <a href="https://mp.weixin.qq.com/s/uU9uBkRDVgkEPnMno2UmBQ">为什么有的手术室里会有电磁炉</a></li><li>卡瓦邦噶！- <a href="https://www.kawabangga.com/posts/5330">有关 TLS/SSL 证书的一切</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://immersivetranslate.com/docs/sites/">探索互联网上高质量的内容</a></li><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg6JGDJceZ7bIpHwsLA">必应 2023.08 无水印超高清壁纸，共计 31 张 97.5 MB。</a></li><li><a href="https://www.apple.com/apps/">Apps by Apple</a></li><li><a href="https://github.com/cskefu/cskefu/issues/931">[SPAM] 请不要向 GitHub 用户发送垃圾邮件 谢谢 #931</a><br />V2EX：<a href="https://www.v2ex.com/t/969939">各位在 GitHub 公开邮箱就代表你们愿意接受各种无关项目的推广信息么？</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 80 期。本篇是对过去一周（08.28 - 09.03）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;#骑行 本周只骑行了两次，早上或下午边上公园里，绕湖一圈，11KM+。&lt;br /&gt;
+因为各种原因，早上</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #79（2023.08.28）</title>
@@ -523,32 +551,6 @@
 &lt;hr /&gt;
 &lt;p&gt;日常跟之前一样，娃儿占据了大部分时间，剩下的用来阅读、学习和娱乐。&lt;/p&gt;
 &lt;p&gt;目前在使用的邮件服务主要是 Ou</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #60（2023.04.17）</title>
-    <link href="http://kiligwyu.com/newsletter/60/"/>
-    <id>http://kiligwyu.com/newsletter/60/</id>
-    <published>2023-04-17T07:13:05.000Z</published>
-    <updated>2023-04-17T07:23:05.161Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 60 期。本篇是对过去一周（04.10 - 04.16）的记录、思考与分享。</p><hr /><h3 id="生活"><a class="markdownIt-Anchor" href="#生活"></a> 生活</h3><p>三月底我爸收到张法院的传票，说 2015 年欠别人石料款 5w+，被人起诉了，而实际上那时候我爸妈在外地打工，没欠过谁钱，估计就是我爸身份证被人冒用了。4 月 10 日开庭，庭前调解，双方互不认识，原告弄错人了，于是签了调解协议，很快就结束了。当天我妈从老家来了，帮忙做饭看小孩儿，媳妇儿和我就轻松多了。</p><p>周三（04.12）把吃灰好几年了的自行车清理清理，天气好就经常出去骑行了。这辆自行车还是以前我还在上海工作期间买的，上下班骑过一段时间。回老家之后就一直吃灰了。</p><p>今年的杨絮柳絮，几乎没有了，治理的挺好，去年还漫天飞舞。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304152200051.webp" alt="吃灰几年了的自行车" /></p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304152200500.webp" alt="汴西湖骑行 - 引水渠绿道" style="width: 60%; height: 60%"><h3 id="产品动态"><a class="markdownIt-Anchor" href="#产品动态"></a> 产品动态</h3><p><a href="https://apps.apple.com/app/id1633245174">MSS</a> - macOS Screenshot Style，一个给图片添加类似 macOS 窗口截图时的阴影效果的小工具，发布了 v1.2 版本和 v1.2.1 版本，增加了访达快速操作，现在可以直接在访达中给图片添加阴影效果，不用打开 App 了；另外，默认的文件名后缀改成了“-mss@2x”，之前是“-mss”。<br />macOS Ventura 可以在 System Settings -&gt; Privacy &amp; Security -&gt; Extensions -&gt; Finder 中勾选 MSS。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304152200649.webp" alt="Finder Quick Actions - MSS" /></p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>去 BenQ 官网找 PD2700U 显示器的用户手册，才发现有 <a href="https://www.benq.com.cn/zh-cn/support/downloads-faq/products/monitor/pd2700u/software-driver.html">Display Pilot</a> 这么个应用，可以非常方便的在应用内控制显示器。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304152200883.webp" alt="BenQ Display Pilot" /></li><li><a href="https://aliengu.com/archives/35454">应对大厂裁员的 12 个小妙招</a></li><li><a href="https://imtx.me/blog/pastenow-two-years-old/">PasteNow 两周年随感</a></li><li>Rime 输入法<ul><li>皮肤制作网站<ul><li><a href="https://pdog18.github.io/rime-soak/#/theme">pdog18.github.io/rime-soak/#/theme</a></li><li><a href="https://bennyyip.github.io/Rime-See-Me/">bennyyip.github.io/Rime-See-Me</a></li></ul></li><li>iOS 端：<a href="https://apps.apple.com/app/id6446617683">仓输入法</a>，同时也是 <a href="https://github.com/imfuxiao/Hamster">开源</a> 的，不过现在还不很完善，坐等更新</li></ul></li><li><a href="https://zhuanlan.zhihu.com/p/390034942">斯坦福历史学家撰文：70多年前，这位精通IBM中文打字机的神秘女子是谁？</a></li><li>@HiTw93 分享的一个 <a href="https://static.tw93.fun/img/hhhhhh.mp4">超搞笑的视频</a></li><li><a href="https://bento.me/en/home">Bento</a>: A Link in Bio. But Rich and Beautiful.</li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/noobnooc/status/1646715725372076032"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li><a href="https://gnelson.gumroad.com/l/obsidian-again">Obsidian Icon</a> - 一个非常漂亮的 Obsidian 图标</li><li><a href="https://www.fatbobman.com/posts/AI-Services-I-am-currently-using/">我目前正在使用的 AI 服务</a></li><li><a href="https://bento.me/op7418">歸藏的壁纸</a> - 由 Midjourney 生成的超高清壁纸</li></ul><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 60 期。本篇是对过去一周（04.10 - 04.16）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3 id=&quot;生活&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#生活&quot;&gt;&lt;/a&gt; 生活&lt;</summary>
       
     
     
