@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-09-04T09:15:16.608Z</updated>
+  <updated>2023-09-11T09:34:14.721Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #81（2023.09.11）</title>
+    <link href="http://kiligwyu.com/newsletter/81/"/>
+    <id>http://kiligwyu.com/newsletter/81/</id>
+    <published>2023-09-11T07:35:46.000Z</published>
+    <updated>2023-09-11T09:34:14.721Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 81 期。本篇是对过去一周（09.04 - 09.10）的记录、思考与分享。</p><hr /><ul><li>本周继续打磨新 app，不断完善优化细节，已经具备发布条件，就等新系统发布了。新 app 功能上跟新系统毫无关系，但用到了新的技术限定新系统，到时第一时间提审。</li><li>最近这段时间，没有去星巴克喝瑞幸，基本都在家写代码了，下午小可爱睡觉了，我就在边上看着她、写代码。<br />因为我带小可爱睡觉，她睡的更好些，跟她奶奶带她睡觉相比。</li><li>周末逛街并给外甥过生日。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.bilibili.com/video/BV1934y1T74u/">耿同学讲故事 - 教育部给我回信了！我反思：给人提意见，不如帮人做业绩。</a></li><li>中国国家地理 &amp; 无穷小亮的科普日常 - <a href="https://www.bilibili.com/video/BV1ej41117VW/">【生命奇观】墨脱森林——世界第一大峡谷里的绝美生灵</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://zhangferry.com/2023/08/31/17_interview_anyu_kaogong">一线大厂程序员的考公上岸心得</a></li><li>Lakr233 - <a href="https://www.qaq.wiki/lemons/1288">成为什么样的人</a></li><li>少数派 - <a href="https://sspai.com/post/82584">一次省心的装修体验：我选择了宜家全屋设计服务</a></li><li>STRRL - <a href="https://strrl.dev/post/2023/gap-year-wrapped-timeline/">Gap Year Wrapped - Timeline</a></li><li>纵横日本 - <a href="https://note.com/zonghengjp/n/n37e0efa8913c">错误百出的李永乐，不配科普福岛问题</a></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li>开源字体 - <a href="https://github.com/TrionesType/zhuque">朱雀仿宋</a><br /><img src="https://github.com/TrionesType/zhuque/raw/main/docs/preview.png" alt="朱雀仿宋" /></li><li><a href="https://github.com/yihong0618/epubhv">yihong0618/epubhv</a> - Make your epub books vertical or horizontal.</li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6464096304">chess vs robots</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309111634875.webp" alt="chess vs robots" /></li><li><a href="https://apps.apple.com/app/id1567748223">SwiftyMenu</a><br />限免了，可以收了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309111637334.webp" alt="SwiftyMenu" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><p>疯投圈 - <a href="https://crazy.capital/80">80. 咖啡战争2023</a></p></li><li><p><a href="https://twitter.com/haozes/status/1700405213000310787">https://twitter.com/haozes/status/1700405213000310787</a></p></li><li><p><a href="https://twitter.com/kylesean6/status/1699813380960428356">https://twitter.com/kylesean6/status/1699813380960428356</a></p><p>P.S. 嵌入 𝕏 文的插件坏了，那么只好放链接了</p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 81 期。本篇是对过去一周（09.04 - 09.10）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;本周继续打磨新 app，不断完善优化细节，已经具备发布条件，就等新系统发布了。新 app 功能上跟新系</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #80（2023.09.04）</title>
@@ -524,33 +551,6 @@
 五一假期快乐！&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;周二（04.25）我妈回老家了，周五（04.28）我们也回老家了。我妹五一结婚，周六（</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #61（2023.04.24）</title>
-    <link href="http://kiligwyu.com/newsletter/61/"/>
-    <id>http://kiligwyu.com/newsletter/61/</id>
-    <published>2023-04-24T04:03:07.000Z</published>
-    <updated>2023-04-24T04:51:21.912Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 61 期。本篇是对过去一周（04.17 - 04.23）的记录、思考与分享。</p><hr /><p>日常跟之前一样，娃儿占据了大部分时间，剩下的用来阅读、学习和娱乐。</p><p>目前在使用的邮件服务主要是 Outlook 和 Gmail，分别使用 Outlook 和 <a href="https://mimestream.com/">Mimesteam</a> 客户端，之前一直在用系统自带的 Mail 客户端，但经常出现账户离线连不上的问题，遂弃用。</p><p>大部分应用也使用 <a href="https://brew.sh/">Homebrew</a> 覆盖安装了，借助 <a href="https://github.com/Homebrew/homebrew-bundle">Homebrew Bundle</a> 可以轻松备份已安装的软件（<code>brew bundle dump --describe</code> ）。</p><p>之前是用 CocoaPods 创建的自用 SDK，现在切到了 Swift Package Manager，整理了下笔记里的代码片段，加到了 SDK 里。</p><h3 id="音乐分享"><a class="markdownIt-Anchor" href="#音乐分享"></a> 音乐分享</h3><h4 id="to-be-a-man-dax"><a class="markdownIt-Anchor" href="#to-be-a-man-dax"></a> To Be A Man - Dax</h4><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tHxip2x-PLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/to-be-a-man-single/1680280613"></iframe><h4 id="the-joker-and-the-queen-feat-taylor-swift-ed-sheeran"><a class="markdownIt-Anchor" href="#the-joker-and-the-queen-feat-taylor-swift-ed-sheeran"></a> The Joker And The Queen (feat. Taylor Swift) - Ed Sheeran</h4><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-joker-and-the-queen-feat-taylor-swift-single/1608894948"></iframe><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章-书籍"><a class="markdownIt-Anchor" href="#文章-书籍"></a> 文章 / 书籍</h4><ul><li><a href="https://stevejobsarchive.com/book">Make Something Wonderful</a> - Steve Jobs in his own words<br />史蒂夫乔布斯演讲、采访和通信的精选集，该电子书排版精美、免费、支持下载 epub 格式，也可以在线阅读。</li><li><a href="https://catcoding.me/p/redis-antriez/">不想当作家的程序员写不出 Redis</a></li><li><a href="https://ourai.ws/posts/what-i-have-done-in-2023-q1/">失业三个月，我都干了啥？</a></li><li><a href="https://www.jitao.tech/posts/my-guiding-principles-after-20-years-of-programming/">我编程 20 年的指导原则</a><ul><li>另外也推荐 Antoine v.d. SwiftLee  的 <a href="https://twitter.com/twannl/status/1648250020171247616">这个推串</a>，<code>I'm building iOS apps since 2009, worked on 10+ different large apps, and developed several personal apps. Here are 11 lessons I learned the hard way (so you don't have to)</code></li></ul></li><li>揭秘 PDD 内部严苛的员工管理手段<br />公众号原文已经被举报删除，不过在 <a href="https://archive.is/AaVV2">网页存档</a> 上还能找到。另外也可以看下 <a href="https://github.com/davincifans101/pinduoduo_backdoor_detailed_report">拼多多恶意行为分析报告</a>。</li><li><a href="https://blog.jim-nielsen.com/2023/offline-is-online-with-extreme-latency/">Offline Is Just Online With Extreme Latency</a></li><li><a href="https://jason-memo.dev/posts/my-mac-setting/">我的提升生產力 Mac 設定與軟體</a></li><li><a href="https://weibo.com/ttarticle/p/show?id=2309404892909697892388">DOTA2 大展宏图 7.33 更新推出：地覆天翻，乾坤变换 —— 地图扩大 40%</a></li><li><a href="https://dzone.com/articles/why-you-should-write-blog-post">Why You Should Write a Blog Post Today</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=A5UuRWWnKeU">38 号车评中心 - 如何把车开得又快又稳《驾驶讲堂》</a><br />up 主结合物理知识进行讲解，实际驾龄不长的我也是这么开的 😄。</li><li><a href="https://www.bilibili.com/video/BV18o4y1h7eh/">沙尘暴背后的国度：蒙古到底怎么了？【柴司】</a></li><li><a href="https://www.bilibili.com/video/BV1DT411H7ph/">格斗之王！AI写出来的AI竟然这么强！</a>，<a href="https://github.com/linyiLYi/street-fighter-ai">项目链接</a></li></ul><h4 id="app-testflight"><a class="markdownIt-Anchor" href="#app-testflight"></a> App / TestFlight</h4><ul><li>老牌 Todoist 工具 <a href="https://twitter.com/UseClear/status/1648385588243087360">Clear 复活了</a>，新版测试地址 → <a href="https://testflight.apple.com/join/PwwDvqYN">TestFlight</a></li><li>四川高新减灾研究所推出的 <a href="https://apps.apple.com/cn/app/%E5%9C%B0%E9%9C%87%E9%A2%84%E8%AD%A6/id713947342">地震预警</a> App<ul><li><a href="https://sspai.com/post/73727">App+1 | 如果你的手机没有内置地震预警，这款 App 不妨常备</a><br /><a href="https://t.me/AppleNuts/1667">@Hackl0us 锤了成都高新减灾研究所</a>，两年了，该 App 终于支持 iOS 重要警告功能了。</li></ul></li><li>F1 赛事 app <a href="https://testflight.apple.com/join/5AovgC1b">Race Control</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231746289.webp" alt="Race Control" /></li><li><a href="https://testflight.apple.com/join/yb9dEEma">Midnight Alarm</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231804792.GIF" alt="Midnight Alarm" /></li></ul><h4 id="工具"><a class="markdownIt-Anchor" href="#工具"></a> 工具</h4><ul><li><a href="https://ooooooooooooooooooooooo.ooo">Looooooooooooooooooooooonger</a><br />一个把网址变长且全部都是 o 的工具，原理就是利用长得像 o 的 Unicode 编码。<br />比如 <a href="https://kilig.blog/">https://kilig.blog/</a> → <a href="https://ooooooooooooooooooooooo.ooo">https://ooooooooooooooooooooooo.ooo</a>。</li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://www.hackingwithswift.com/awards">Swift Community Awards 2022</a><br />投票结果出炉（<a href="https://www.sketch.com/">Sketch</a> 要涨价了啊，月费 $9 📈 $12，年费 $99 📈 $120，那我就先不续费了，旧版就够用了）：<ul><li>BEST CONFERENCE<ul><li>Winner: <a href="https://2022.nsspain.com/">NSSpain</a></li><li>Highly commended: <a href="https://www.swiftable.co/">Swiftable</a></li></ul></li><li>BEST DESIGN TOOL<ul><li>Winner: <a href="https://www.figma.com/">Figma</a></li><li>Highly commended: <a href="https://www.sketch.com/">Sketch</a></li></ul></li><li>BEST THIRD-PARTY SERVICE<ul><li>Winner: <a href="https://www.revenuecat.com/">RevenueCat</a></li><li>Highly commended: <a href="https://codemagic.io/start">Codemagic</a></li></ul></li><li>BEST DEVELOPER TOOL<ul><li>Winner: <a href="https://proxyman.io/">Proxyman</a></li><li>Highly commended: <a href="https://www.git-tower.com/mac">Tower</a></li></ul></li><li>BEST OPEN-SOURCE PROJECT<ul><li>Winner: <a href="https://github.com/Dimillian/IceCubesApp">Ice Cubes</a></li><li>Highly commended: <a href="https://github.com/kean/Nuke">Nuke</a></li></ul></li><li>MOST INSPIRING INDIE APP<ul><li>Winner: <a href="https://tapbots.com/ivory/">Ivory</a></li><li>Highly commended: <a href="/Dimillian/IceCubesApp">Ice Cubes</a></li></ul></li><li>MOST INSPIRING PRESENTATION<ul><li>Winner: <a href="https://youtu.be/zfMmHiYi53Q">Anna Beltrami: Spark your Creativity – the Power of iPad Playgrounds</a></li><li>Highly commended: <a href="https://www.youtube.com/watch?v=kZCXrjxXMAI">Krzysztof Zabłocki: Improving developer experience through tools and techniques</a></li></ul></li><li>RISING STAR<ul><li>Winner: <a href="https://twitter.com/dvrzan">Danijela Vrzan</a></li><li>Highly commended: <a href="https://twitter.com/acbdev">Anna Beltrami</a></li></ul></li></ul></li><li><a href="https://basicappleguy.com/basicappleblog/macos-van-gogh">macOS meets Van Gogh</a><br />非常好看的 iPhone、iPad、Mac 壁纸。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231759294.webp" alt="macOS meets Van Gogh" /></li><li>欢度世界地球日免费领 Made on iPad 绿色出行卡面，好看<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202304231907720.webp" alt="地球日公交卡面" /></li><li><a href="https://law-cn-ai.vercel.app">中国法律 AI 助手</a>，<a href="https://github.com/lvwzhen/law-cn-ai">项目地址</a></li><li><a href="https://github.com/hax/heshijun_v_360">贺师俊与 360 的劳动争议诉讼</a></li></ul><blockquote><p>when you don’t create things, you become defined by your tastes rather than ability. your tastes only narrow &amp; exclude people. so create.</p><p>—— <a href="https://www.joeydevilla.com/2008/08/08/why-the-lucky-stiff-on-why-you-should-create/">why the lucky stiff</a></p><p>当你停止创造，你的才能就不再重要，你所拥有的只剩下你的品位。而品位会裹挟你，让你排斥他人，变得狭隘。所以，要创造。</p></blockquote><hr /><p><em>【完】以上就是本期周报的全部内容了。Have an A-1 week.</em></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 61 期。本篇是对过去一周（04.17 - 04.23）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;日常跟之前一样，娃儿占据了大部分时间，剩下的用来阅读、学习和娱乐。&lt;/p&gt;
-&lt;p&gt;目前在使用的邮件服务主要是 Ou</summary>
       
     
     
