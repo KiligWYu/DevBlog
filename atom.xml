@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-09-18T08:19:31.334Z</updated>
+  <updated>2023-09-19T07:52:34.264Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FQRC 和 Kroma</title>
+    <link href="http://kiligwyu.com/app/FQRC-and-Kroma/"/>
+    <id>http://kiligwyu.com/app/FQRC-and-Kroma/</id>
+    <published>2023-09-19T03:18:30.000Z</published>
+    <updated>2023-09-19T07:52:34.264Z</updated>
+    
+    <content type="html"><![CDATA[<p>随着 iOS 17 正式版的发布，我的两款新 App 也发布了，分别是 <a href="https://apps.apple.com/app/id6453156811">FQRC</a> 和 <a href="https://apps.apple.com/app/id6463897064">Kroma</a>。</p><p>这两款应用都是 iOS 17+ only，全 SwiftUI 开发，并使用了 SwiftData。</p><h2 id="fqrc"><a class="markdownIt-Anchor" href="#fqrc"></a> FQRC</h2><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191449574.webp" alt="FQRC" /></p><p>FQRC 是一个简洁的创建或识别二维码的小工具。在日常生活中，我猜大多数人扫二维码都是拿微信扫，即使从 iOS 11 开始，系统相机就已经支持扫码了。不管是扫码打开一个链接或是跳转小程序，无脑拿微信扫，无疑是效率最高的。</p><p>但很多时候，我想看下二维码的内容，并不想自动跳转，那么系统相机或微信就没用了，系统的相机只显示链接的 host。还有如果要创建一个二维码，似乎就只能通过在线工具了。那么这时 FQRC 这个二维码工具就派上用场了。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191449767.webp" alt="左：系统相机识别二维码，右：FQRC 识别二维码" /></p><p>FQRC 也支持识别图片中的二维码，支持 iCloud 同步，支持桌面小组件（在桌面显示已收藏的二维码）和锁屏小组件（扫码或创建二维码的快速动作）。FQRC 创建的二维码也是最朴实无华的，未来也不会加创建花里胡哨二维码的功能。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191450919.webp" alt="锁屏小组件和桌面小组件" /></p><p>现已可 <a href="https://apps.apple.com/app/id6453156811">从 App Store 下载</a>，持续迭代中，目前免费，但未来会以极低的价格销售。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191458466.png" alt="扫码下载 FQRC" /></p><p><a href="https://apps.apple.com/app/id6453156811"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191350659.svg" alt="Download on the App Store" /></a></p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191456146.webp" alt="FQRC on the App Store" /></p><p>P.S. FQRC means Fuck QR Code.</p><h2 id="kroma"><a class="markdownIt-Anchor" href="#kroma"></a> Kroma</h2><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191519013.webp" alt="Kroma Screenshot 1" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191519217.webp" alt="Kroma Screenshot 2" /></p><p>Kroma 收集了大量颜色，包含中日传统颜色、配色、渐变色等，你可以进行浏览，收藏喜欢的色彩，获取设计灵感。</p><p>Kroma 支持 iCloud 同步，支持十六进制和 rgb 转换。现已可 <a href="https://apps.apple.com/app/id6463897064">从 App Store 下载</a>，持续迭代中，目前免费，但未来会以极低的价格销售。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191525967.png" alt="扫码下载 Kroma" /></p><p><a href="https://apps.apple.com/app/id6463897064"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191350659.svg" alt="Download on the App Store" /></a></p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309191527603.webp" alt="Kroma on the App Store" /></p><hr /><p>P.S. Image as a link 在本博客的 Markdown 的解析组件中是坏的，只能点 image alternative text 跳转了 🤣。<br />P.P.S. 关于后续 FQRC 和 Kroma 可能需要付费下载，这里引用 Randy Lu 的博文 <a href="https://lutaonan.com/blog/my-extension-sold-1k-yuan/">开发一个浏览器插件在第三天卖出 1000 元</a> 中的一段话：</p><blockquote><p>为什么要赚钱？其实我大可以免费发布，我也完全不能靠这个产品吃饭。但和多年前的我不一样，<strong>我现在觉得「用户掏钱买你的产品」是验证你的产品价值最有用的方法，无论是便宜还是贵，即使是 1 块钱，就和免费完全有不同的意义。就像打德州扑克，用你真实的钱打和用游戏币打完全是两回事。</strong></p></blockquote>]]></content>
+    
+    
+    <summary type="html">随着 iOS 17 正式版的发布，我的两款新 App 也发布了，分别是 FQRC 和 Kroma。</summary>
+    
+    
+    
+    <category term="App" scheme="http://kiligwyu.com/categories/App/"/>
+    
+    
+    <category term="App" scheme="http://kiligwyu.com/tags/App/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #82（2023.09.18）</title>
@@ -525,33 +546,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;周一（05.08）发完周报，又更新了下博客主题，主要修改了下字体，Chrome 加载网页时可以使用电脑</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #63（2023.05.08）</title>
-    <link href="http://kiligwyu.com/newsletter/63/"/>
-    <id>http://kiligwyu.com/newsletter/63/</id>
-    <published>2023-05-08T06:12:21.000Z</published>
-    <updated>2023-05-08T06:50:56.200Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 63 期。本篇是对过去一周（05.02 - 05.07）的记录、思考与分享。</p><hr /><p>为避开五一假期返程高峰及下雨天气，我们 2 号就从老家回来了。路上车还蛮多的，不过没有堵车。</p><p>看完了最近特别火评分很高的《<a href="https://movie.douban.com/subject/35588177/">漫长的季节 (2023)</a>》，挺好看的，一共 12 集，不拖沓。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305081026862.webp" alt="漫长的季节 (2023)" /></p><p>买了点樟脑丸，没味儿那种，这样很久不穿的衣服也不会有霉味了，之前咋没想起来买点放衣柜鞋柜书柜里呢。</p><p>冲了 <a href="https://apps.apple.com/app/id698570469">不背单词</a> 的终身大会员（同时也自动成为 <a href="https://apps.apple.com/app/id1411918373">轻听英语</a> 的终身 VIP），再抢救一下我那不咋的的英语。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://mp.weixin.qq.com/s/SICfHDKkpeTS8X5s4AUh5Q">深色模式能带来更好的用户体验吗？</a><br /><code>深色模式（负极性显示）</code><blockquote><p>本研究关注了不同照明环境下计算机显示器的模式对不同年龄段人群工作表现的影响，并从认知负荷、脑力劳动、任务难度和情感偏好角度衡量显示效果。<br />使用中心视力（需要专注的情况）时，正极性更有利，如阅读。然而，对于使用周边视觉（需要持续、分散注意力的情况）时，负极性则更有利，如驾驶车辆。</p></blockquote></li><li><a href="https://www.avanderlee.com/optimization/side-projects-10-tips-for-being-successful/">Side Projects: 10 Tips for being successful</a></li><li><a href="https://a-wing.top/linux/2023/05/01/start-openwrt.html">从零开始的 OpenWrt</a><br />太硬核了。</li><li><a href="https://blog.google/technology/safety-security/the-beginning-of-the-end-of-the-password/">The beginning of the end of the password</a><br />谷歌也终于支持 PassKeys 了，无须密码确实爽，可以在 <a href="http://g.co/passkeys">这里</a> 设置启用 PassKeys。但目前仍处于测试阶段，会和 2FA 和密码共存一段时间。</li><li><a href="https://mp.weixin.qq.com/s/5mq2Ge4kCGeWCwAbYTnoWw">人物 | 从职业“搬砖人”到澳大利亚Vogue时尚摄影师，他想用镜头记录每一个落日</a></li><li><a href="https://www.macstories.net/reviews/mona-a-unique-mix-of-customization-options-and-features-you-wont-find-in-any-other-mastodon-app/">Mona: A Unique Mix of Customization Options and Features You Won’t Find in Any Other</a></li><li><a href="https://www.iplaysoft.com/tiny11.html">Tiny11 - 极限精简的 Windows 11 系统镜像！支持苹果 M 芯片 Mac 安装 (ARM 精简版)</a><br />虚拟机、低配电脑的救星<blockquote><p>Tiny11 是一个在国外口碑不错的精简版 Windows 11 系统镜像，它由 NTDEV 团队着手修改，此精简系统安装后只需占用大约 9 GB 的空间 (原版超 20+GB)，可节省大量的硬盘空间。<br />而轻量化的 Tiny 11 系统删除了很多普通用户无用或累赘的应用和服务，只保留必备常用的组件和软件工具，如微软应用商店、画图、计算器、记事本等，其余不必要且不影响系统运作的组件全部删除，因此更省资源，运行起来速度也更快，让你拥有更流畅的 Win11 使用体验……</p></blockquote></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=vMnQDhnGiqM">如何克服虚无主义？丧 B 自救心法</a></li><li><a href="https://www.youtube.com/watch?v=mGvO1HhppEc">冒死拍摄加拿大移民最恐怖街区！不是真实拍到，我绝不相信这是加拿大！</a></li><li><a href="https://www.youtube.com/watch?v=-5wpm-gesOY">The Problem with Time &amp; Timezones - Computerphile</a><br />一个老视频了，时间戳太难了。</li><li><a href="https://www.youtube.com/watch?v=n3debH6gUSA">佐玩入职介绍 Zolplay Onboarding v2023.04</a><br />Cali 给新加入的佐玩成员的整体公司介绍，公司文化以及工具使用。</li><li>最近发现的喜欢的一个美食区 up 主 <a href="https://space.bilibili.com/572164928">鞑厨高寒</a>。</li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id1602404960">Albums: Music Shortcuts</a><br />可以从 Spotify 或 Apple Music 截取专辑封面，再通过 Widget 将其添加到桌面。宣传影片在 <a href="https://www.youtube.com/watch?v=GqFXXFRnTPU">这里</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305081039534.webp" alt="Albums: Music Shortcuts" /></li><li><a href="https://apps.apple.com/app/id1620314166">BACK 4U - Story on the Back</a> - Every photograph is a mark of time<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305081414822.webp" alt="BACK 4U - Story on the Back" /></li><li><a href="https://apps.apple.com/app/id6444032878">A Slight Chance of Sawblades</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305081414248.webp" alt="A Slight Chance of Sawblades" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://github.com/pkuliyi2015/multidiffusion-img-demo/blob/master/ancient_city.jpeg">用 MultiDiffusion 把整个清明上河图转成了真实照片质感的全景图</a><br />厉害了</li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/sindresorhus/status/1654580777349451777"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/narrowd/status/1654506220538019840"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/EconomyApp/status/1654460936625987584"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/op7418/status/1654131824942280704"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 63 期。本篇是对过去一周（05.02 - 05.07）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;为避开五一假期返程高峰及下雨天气，我们 2 号就从老家回来了。路上车还蛮多的，不过没有堵车。&lt;/p&gt;
-&lt;p&gt;看完了</summary>
       
     
     
