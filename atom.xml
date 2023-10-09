@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-10-02T13:25:59.482Z</updated>
+  <updated>2023-10-09T03:14:07.956Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #85（2023.10.09）</title>
+    <link href="http://kiligwyu.com/newsletter/85/"/>
+    <id>http://kiligwyu.com/newsletter/85/</id>
+    <published>2023-10-09T01:58:36.000Z</published>
+    <updated>2023-10-09T03:14:07.956Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 85 期。本篇是对过去一周（10.02 - 10.08）的记录、思考与分享。</p><hr /><p>朋友们 <s>周三</s> 周一好啊。八天很短，七天巨长 🤣。调休制度啥时候改啊。</p><p>本周没写多少代码，一天天的破事巨多，也比较抗拒打开 Xcode，一个是空闲时间不多，一个是代码带来的正向激励太少。但一旦进入心流状态，我还是会沉迷代码的。<a href="https://apps.apple.com/app/id6463897064">Kroma</a> 的新功能国庆前就开发好了，一直没有提交审核，接下来继续不断更新迭代。</p><p>在读 <a href="https://book.douban.com/subject/36518892/">埃隆・马斯克传</a>。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>睡前消息 - <a href="https://www.youtube.com/watch?v=cPzs1h0P0s4">【睡前消息652】只靠民间热情，“山河大学”建不起来</a></li><li>好奇心会社 - <a href="https://www.bilibili.com/video/BV1B841117re/">踩到地雷之后该怎么做才能生还？</a></li><li>橙红 Iris - <a href="https://www.bilibili.com/video/BV19h4y1B71c/">「收藏向」相机入门第一步！认识相机、明确需求、打破幻想！</a></li><li>阿乐杂货铺 - <a href="https://www.youtube.com/watch?v=1SFDehR5vxQ">推薦 6 个英文 Youtube，學英文、練聽力</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=ejIixcznawg">专访多邻国创始人：从技术天才到全球第一语言APP，他真的很不一样～</a></li><li><a href="https://www.youtube.com/watch?v=R7NLOg1R8xE">小lin说下架 | 备份 | 侵删 | 中国的房地产怎么了？|碧桂园|恒大|中植|中融|信托|城投债</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV12m4y1u7nJ/">高科技互联网❌广告公司✅平台是怎么靠广告赚钱的？【柴知道】</a></li><li>十万个品牌故事 - <a href="https://www.bilibili.com/video/BV11m4y1u79f/">曾经的豆奶大王，是如何被人们遗忘的？（维维豆奶）</a></li><li>咖啡园子 - <a href="https://www.bilibili.com/video/BV1rw411y7Gt/">雀巢的故事 I THE STORY OF NESTLÉ</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>少数派 - <a href="https://sspai.com/post/83017">不躺不卷，用热爱疗愈副业焦虑</a></li><li>奇客 - <a href="https://www.solidot.org/story?sid=76168">早晨 7 点到 9 点锻炼可能最有利于减肥</a></li><li>理想生活实验室 - [ 获得今年诺贝尔文学奖的约恩·福瑟，被认为是在世的最重要的剧作家之一] (<a href="http://www.toodaylab.com/82282">http://www.toodaylab.com/82282</a>)</li><li>知乎 - <a href="http://www.zhihu.com/question/621663380/answer/3220314891">从科学角度来讲，睡眠朝向会影响睡眠质量吗？</a><blockquote><p>睡眠朝向本身并不影响睡眠质量，床与门窗及空调的相对位置对睡眠质量的影响更重要。</p></blockquote></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://github.com/Cirn09/calibre-do-not-translate-my-path">Cirn09/calibre-do-not-translate-my-path</a>: Switch my calibre library from ascii path to plain Unicode path. 将我的书库从拼音目录切换至非纯英文（中文）命名</li><li><a href="https://tools.pdf24.org/zh/">PDF24 Tools</a>：免费且易于使用的在线PDF工具</li><li><a href="https://getbezel.app">Bezel</a>: Show your iPhone on your Mac.<br />比 QuickTime Player 好用太多了。<br>  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZrCaFws2Xvc?si=aDwUOgOy9ZFZTbxd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li><li>iPhone 15 Pro 系列可以看到电池的循环次数了，在 Settings -&gt; General -&gt; About 下面。<a href="https://twitter.com/ezzz_au/status/1711176661935480962">@ezzz_au</a></li><li>用 <code>filter:follows</code> 这个语法可以在 Twitter 上搜索你关注的人发的内容。完整链接是 <code>https://twitter.com/search?q=filter%3Afollows%20%22 &#123;query&#125;%22&amp;src=typed_query&amp;f=top</code>，可以用 Raycast 创建一个 Quick Link 或者用 Alfred 添加一个 Custom Web Search，很方便。<a href="https://twitter.com/randyloop/status/1710602832616022188">@randyloop</a><br />另外，还可以用 <code>&#123;query&#125; from:&#123;username&#125;</code> 来搜索指定用户发的内容。<a href="https://twitter.com/yihong0618/status/1564797776772616192">@yihong0618</a></li><li>“为了出海这段时间分别注册好了英国公司、Wise 银行账号，Stripe 和苹果开发者，全程在国内完成，成本不高、流程也不复杂，总共花费不到两千人民币，用时两三周。”攻略，<a href="https://twitter.com/junpingyi/status/1710416657431011629">@junpingyi</a></li><li>两张好看的 Live Photo，做壁纸也好看。<a href="https://twitter.com/kevinzhow/status/1709576580996223339">@kevinzhow</a>，<a href="https://onedrive.live.com/redir?resid=F63412283F0B65B7!219848&amp;authkey=!AAZrLqt6K30u1RM&amp;ithint=folder&amp;e=twEK3m">下载地址</a>。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 85 期。本篇是对过去一周（10.02 - 10.08）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;朋友们 &lt;s&gt;周三&lt;/s&gt; 周一好啊。八天很短，七天巨长 🤣。调休制度啥时候改啊。&lt;/p&gt;
+&lt;p&gt;本周没写多少代</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #84（2023.10.02）</title>
@@ -521,33 +548,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;看了 &lt;a href=&quot;https://movie.douban.com/subject/334554</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #66（2023.05.29）</title>
-    <link href="http://kiligwyu.com/newsletter/66/"/>
-    <id>http://kiligwyu.com/newsletter/66/</id>
-    <published>2023-05-29T06:21:16.000Z</published>
-    <updated>2023-05-29T07:30:53.962Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 66 期。本篇是对过去一周（05.22 - 05.28）的记录、思考与分享。</p><hr /><ul><li>周日（05.28）中午吃完烤串从娃儿姥姥家回来了。在姥姥家待了快半月，吃了两次烤串一次火锅，都是在家吃的，好吃还省钱。</li><li>我在第 61 期碎周报中提到的使用的邮件客户端 <a href="https://mimestream.com">Mimestream</a>，终于等来了 1.0 正式版，$49.99 每年，Beta 版用户首年半价。为了省钱我就不用了暂时，用回系统自带的邮件客户端了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305291435057.webp" alt="Mimestream 1.0" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305291435777.webp" alt="Mimestream Pricing" /></li></ul><h3 id="买买买"><a class="markdownIt-Anchor" href="#买买买"></a> 买买买</h3><p>淘宝 618 预售已经开始了，好多好物好价，本周买了下面这些东西。</p><ol><li>买了 <a href="https://www.8bitdo.cn/pro2/">八位堂 Pro2 蓝牙手柄</a> 经典白，早就想买的，跟游戏一样，买了等于玩了 🤣。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305291450976.jpg" alt="八位堂 Pro 2" /></li><li>买了 Seesaw 的冷萃咖啡液，回购好几次了，个人觉得在一堆冻干粉、咖啡液里 Seesaw 是最好喝的。还买了他家的手冲壶。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305291454882.webp" alt="Seesaw 冷萃咖啡液" /></li><li>山姆超市的挂耳咖啡，之前看到有人推荐山姆家的挂耳就加购物车了，买来喝喝看。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305291503693.webp" alt="山姆超市挂耳咖啡" /></li></ol><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://mp.weixin.qq.com/s/JYb3O9wgETGUgxMe7K9_Lw">急救医生提醒：猝死前，身体的 3 个求救信号别忽视！</a> —— 丁香医生</li><li><a href="http://www.makemusic.sg/new-blog/wodeai">我的 AI</a> —— 孙燕姿</li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=aN53Va60sY8">为什么《星际穿越》的配乐，你一听就想哭？【银屏系】丨机核</a></li><li>陷入流沙后如何自救  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/bbyk666/status/1657572062117117952"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id1669959741">Code Piper</a> - <a href="https://v2ex.com/t/941888">Mac 小工具，自动复制短信验证码到剪切板</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202305291521277.webp" alt="Code Piper" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://developer.apple.com/design/awards/">Apple Design Awards 2023 提名应用</a></li><li><a href="https://arc.net/">Arc</a> 浏览器发布了 <a href="https://arc.net/boosts">Boosts</a> 2.0<blockquote><p>Boosts are a new way to edit and remix your internet, and share it with friends. Boosts are created inside Arc, our new web browser!</p></blockquote></li><li>Chrome 拓展 - <a href="https://chrome.google.com/webstore/detail/github-toc-sidebar/cdiiikhamhampcninkmmpgejjbgdgdnn">GitHub TOC Sidebar</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 66 期。本篇是对过去一周（05.22 - 05.28）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;周日（05.28）中午吃完烤串从娃儿姥姥家回来了。在姥姥家待了快半月，吃了两次烤串一次火锅，都是在家吃</summary>
       
     
     
