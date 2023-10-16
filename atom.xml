@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-10-09T03:14:07.956Z</updated>
+  <updated>2023-10-16T07:11:09.234Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #86（2023.10.16）</title>
+    <link href="http://kiligwyu.com/newsletter/86/"/>
+    <id>http://kiligwyu.com/newsletter/86/</id>
+    <published>2023-10-16T02:06:31.000Z</published>
+    <updated>2023-10-16T07:11:09.234Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 86 期。本篇是对过去一周（10.09 - 10.15）的记录、思考与分享。</p><hr /><p>最近好多感冒发烧的小朋友，严重的还有肺炎。小可爱也生病了，发烧、咳嗽，一周了还没好，药也没少吃，医院检查了没啥大碍，希望早点好。<br />我也有点感冒了，发烧了一个晚上，轻微咳嗽。</p><p>Dota 2 的 <a href="https://www.dota2.com/esports/ti12/schedule">TI12 国际邀请赛</a> 也已经开始了，看看比赛。</p><p>这周的天气挺好，下午时候去汴西湖边骑车、坐坐，晒晒太阳，喝喝咖啡奶茶，非常惬意。湖边的红叶还没完全红，再过段时间，等红叶红了，就非常好看了。<br />开封第 41 界菊花展快开始了，市民广场上好多菊花，有的开了，还有很多含苞待放。周日去看了眼，好多人，没咋拍照。<br />我还想着练习练习拍照，人物、风景等。下周我去多拍点照片（汴西湖、菊花），放在下期的碎周报里。<br />另外，等菊花节过去了再买张开封旅游年票（菊展前 15 日开始年票就暂停使用了），把开封所有景点都去玩一遍，再多拍些照片，到时也会发在碎周报里。</p><p>十一假期一杯咖啡咖啡也没喝，现在又忍不住了，买了 illy 的咖啡粉和挂耳袋，自己冲，咖啡粉很细，适合做意式浓缩，，管他什么水温、水粉比、冲泡手法，拿大烧水壶夏季八冲。到双十一再囤一些咖啡和装备。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161259065.webp" alt="夏季八冲 illy 挂耳" /></p><p>Safari 的 Tampermonkey 拓展，最近经常是无响应呢，所以换 Edge 浏览器试试，结果 <a href="https://twitter.com/waylybaye/status/1713175874391175432">Chromium 内核的浏览器都有“连接中断”的问题</a>，可能是 macOS Sonoma 系统的问题，但 Safari 就没有这样的问题，另外我还是喜欢 Safari，就又用回了 Safari，但部分脚本会不正常，先用着必要时候再切到 Chrome 或 Edge。</p><p><a href="https://apps.apple.com/app/id6463897064">Kroma</a> 发了两个版本，色彩库增加了搜索功能，还增加了一个彩蛋（摇一摇）。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="mv"><a class="markdownIt-Anchor" href="#mv"></a> MV</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/_ws0QtAiiXQ?si=tH-uUcFmLGXo7Qag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h4 id="apps"><a class="markdownIt-Anchor" href="#apps"></a> Apps</h4><ul><li><a href="https://www.appinn.com/tomatobar-for-mac/">TomatoBar – 优雅的 macOS 菜单栏番茄钟，带音效</a>，<a href="https://github.com/ivoronin/TomatoBar">ivoronin/TomatoBar</a><br /><img src="https://github.com/ivoronin/TomatoBar/raw/main/screenshot.png?raw=true" alt="TomatoBar" /></li><li><a href="https://www.appinn.com/singlefile-v1-22/">著名网页离线保存工具 SingleFile v1.22 新增通用自解压 ZIP 功能，可节省 4 倍硬盘空间</a></li><li><a href="https://apps.apple.com/app/id1589044499">Randa - Generate random numbers</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161449206.webp" alt="Randa" /></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>flypig 的小号 - <a href="https://www.bilibili.com/video/BV1ew411r7UD/">语出惊人！与 Apple 高级副总裁 Joz 的假期对谈</a></li><li><a href="https://www.youtube.com/watch?v=oIqFELl3n7Q">荷兰工作｜从普通人到模特，Yi 如何踏出第一步？｜小人物 A Nobody Podcast</a></li><li>Ele 实验室 - <a href="https://www.bilibili.com/video/BV1Zu4y1W7dm/">一些反直觉概率的计算机模拟</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=WoPwVT9Nrdw">【精彩】微软收购动视暴雪 | 世纪收购战争</a></li><li>Phoenix Hou - <a href="https://www.youtube.com/watch?v=xBrl8EQotK8">如何从零开始掌握一门语言</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://pipuwong.com/giffgaff">买了 1 张 0 月租的英国手机卡：GiffGaff 卡</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://fatbobman.substack.com/">Fatbobman’s Swift Weekly</a></li><li>觅 2 - <a href="https://www.bilibili.com/video/BV1FC4y1G7rj/">做了一个 B 兜小游戏</a>，有微信版和 <a href="https://gamemaker.weixin.qq.com/#/game?game_id=lbZDQ5NWM2ODAtYTZmZS00N2Y4LWIwN2QtNDZjZGEzZTQ2NTg2">网页版</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161438178.avif" alt="B 兜游戏微信小程序版" /></li><li>作为一个工程师，用到的一些小众但是非常实用的 Chrome 插件：<a href="https://twitter.com/vikingmute/status/1713018751824900157">@vikingmute</a></li><li>未联网 app 备案方案：针对 “不联网不需要备案，但不备案不能上应用商店” 的困境，我的做法是建个网站，里面放上产品的介绍和下载链接，然后用这个网站来备案。App 不用改，可以继续单机。<a href="https://twitter.com/waylybaye/status/1712999631951642647">@waylybaye</a></li><li>挑战全程坐公交 🚌 安徽到上海，<a href="https://twitter.com/pengchujin/status/1712127881965629859">@pengchujin</a></li><li>小格说 - <a href="https://www.youtube.com/watch?v=kAq0tO6TeTw">拖更一年的以色列游记第一弹 —— 以色列和美国很像？！</a></li><li><a href="https://twitter.com/theapplehub/status/1711601586739527939">iPhone 15 Plus vs iPhone 15 Pro Max by @theapplehub</a>，<a href="https://twitter.com/theapplehub/status/1711381734422647207">iPhone 15 vs iPhone 15 Pro</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161501894.webp" alt="iPhone 15 Plus vs iPhone 15 Pro Max" /></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 86 期。本篇是对过去一周（10.09 - 10.15）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;最近好多感冒发烧的小朋友，严重的还有肺炎。小可爱也生病了，发烧、咳嗽，一周了还没好，药也没少吃，医院检查了没啥大碍</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #85（2023.10.09）</title>
@@ -521,33 +547,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;本周重要的事情当然是 WWDC23 了，熬夜看了 Keynote，iOS 17 就这？iPadOS 1</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #67（2023.06.05）</title>
-    <link href="http://kiligwyu.com/newsletter/67/"/>
-    <id>http://kiligwyu.com/newsletter/67/</id>
-    <published>2023-06-05T06:36:50.000Z</published>
-    <updated>2023-06-05T13:14:54.381Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 67 期。本篇是对过去一周（05.29 - 06.04）的记录、思考与分享。</p><hr /><ul><li>看了 <a href="https://movie.douban.com/subject/33455421/">疾速追杀 4 John Wick: Chapter 4 (2023)</a>，期待续作。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306041447743.webp" alt="疾速追杀 4 John Wick: Chapter 4 (2023)" /></li><li>RARBG 宣布关站了，又少了一个资源站。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306041504685.webp" alt="Bye rarbg" /></li></ul><h3 id="壁纸分享"><a class="markdownIt-Anchor" href="#壁纸分享"></a> 壁纸分享</h3><ul><li><mark>#必应壁纸</mark> <a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg55PDJceZ7bIpHwsLA">必应 5 月壁纸</a>，31 张 83.2MB，UHD、无水印。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=_sftvrqIfIU">RUN！Don’t Walk！顯卡教父黃仁勳台大畢典致詞【致詞全程】</a></li><li><a href="https://www.apple.com.cn/105/media/cn/iphone/2023/ad003bb5-d86a-4dfe-9b49-95c505054463/films/privacy/iphone-privacy-tpl-cn-2023_16x9.m3u8">甄子丹出演的苹果隐私保护广告片</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>肘子哥 - <a href="https://www.fatbobman.com/posts/5th-Anniversary-of-Kidney-Transplant/">移植五周年</a><br />作为 iOSer，一直关注着肘子哥的博客，学到了很多。肘子哥多保重，祝好！</li><li>Hzao’s Blog - <a href="https://blog.hzao.top/2023/05/27/bupt-heyteaevent/">我在北邮被偷喜茶后的 161 个小时（更新中）</a><br />又让我想起了老罗小区暖气的故事。<code>生活中很多看起来平常的权益，都是那些较真的人帮我们争取来的。</code></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li><p><a href="https://github.com/aheze/VariableBlurView">aheze/VariableBlurView</a>: A one-file, App Store-safe version of Janum Trivedi’s variable blur effect.</p>  <iframe src="https://github.com/aheze/VariableBlurView/assets/49819455/4400f76d-7d85-4e3f-9757-19bc99297524" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height=400 width=700></iframe></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://kylebing.cn/tools/iphone/">iPhone 参数大全</a></li><li>LXGW - <a href="https://lxgw.github.io/2021/01/15/Lxgw-Opensource-Chinese-Fonts/">自制开源免费字体一览（截至 2023.05.03）</a></li><li><mark>#快捷指令</mark>  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/diegojimenez/status/1664312209650991105"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li><li>V2EX - <a href="https://www.v2ex.com/t/940584">作为程序员，有什么提升生活 / 工作体验的 App、硬件、服务？</a></li><li>Reddit - <a href="https://www.reddit.com/r/apolloapp/comments/13ws4w3/had_a_call_with_reddit_to_discuss_pricing_bad/">📣 Had a call with Reddit to discuss pricing. Bad news for third-party apps, their announced pricing is close to Twitter’s pricing, and Apollo would have to pay Reddit $20 million per year to keep running as-is.</a><br />Apollo 是最好用的 Reddit 第三方客户端，Reddit 也开始学 Twitter 了，收取巨额 API 使用费，<code>50 million requests costs $12,000</code>，微博搞死了几乎所有第三方客户端，Twitter 也搞死了几乎所有第三方客户端，现在轮到 Reddit 了。<br />使用对方 API 的第三方客户端，风险太大了，独立开发者太难了。</li><li>Newsletter - <a href="https://mp.weixin.qq.com/s/_ioCVv6_hf0f-iRsDxL72A">XR世界导览 NEWSLETTER #001</a><blockquote><p>由 XR 基地与少数派共同创作的栏日，在这个 NENSLETTER 中，我们会搜集 XR 行业的最新动态，并对行业信息进行深入分折，提供深度的行业信息汇总及解读。</p></blockquote></li><li><mark>#<a href="https://baike.baidu.com/item/%E5%AD%95%E5%A6%87%E6%95%88%E5%BA%94/896606"><strong>孕妇效应</strong></a></mark><blockquote><p>孕妇效应意即偶然因素随着自己的关注而让你觉得是个普遍现象，就是当人怀孕了就更容易发现孕妇，你开了奔驰就更容易看到奔驰，你拎了一个 LV 就容易发现满大街都是 LV。用来形容人们容易把自己的关注点投射在外界，以寻找更多案例来证实内心想法的情况。</p></blockquote></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 67 期。本篇是对过去一周（05.29 - 06.04）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;看了 &lt;a href=&quot;https://movie.douban.com/subject/334554</summary>
       
     
     
