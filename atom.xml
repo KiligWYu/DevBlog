@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-10-23T03:08:52.694Z</updated>
+  <updated>2023-10-30T07:03:55.974Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #88（2023.10.30）</title>
+    <link href="http://kiligwyu.com/newsletter/88/"/>
+    <id>http://kiligwyu.com/newsletter/88/</id>
+    <published>2023-10-30T05:46:28.000Z</published>
+    <updated>2023-10-30T07:03:55.974Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 88 期。本篇是对过去一周（10.23 - 10.29）的记录、思考与分享。</p><hr /><p>看完了《<a href="https://book.douban.com/subject/1162566/">终极实验</a>》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301352285.webp" alt="终极实验" /></p><p>周末去给小可爱姥姥搬家，还没有正式入住，先把部分家具搬过去，沙发、茶几、电视柜、床、冰箱等大件，忙活一天，胳膊疼手疼，平时不咋运动猛一干活肌肉疼 🤣。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>Apple 发布会上画的饼 - <a href="https://apps.apple.com/app/id6447391597">手记</a> app 终于上架了，但是只支持 iOS 17.2，但是 17.2 正式版还没发呢。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301433417.webp" alt="Journal" /></li><li><a href="https://twitter.com/BasicAppleGuy">@BasicAppleGuy</a> 设计的新壁纸 <a href="https://basicappleguy.com/basicappleblog/macos-ten-peaks">MACOS TEN PEAKS</a> 和 <a href="https://basicappleguy.com/haberdashery/scaryfast">SCARY FAST.</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301450931.webp" alt="MACOS TEN PEAKS" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301448740.webp" alt="SCARY FAST APPLE EVENT LOGO &amp; SCARY FAST FINDER" /></li><li>YouTube 去广告插件 uBlock origin 和 <a href="https://greasyfork.org/zh-CN/scripts/459541-youtube%E5%8E%BB%E5%B9%BF%E5%91%8A-youtube-ad-blocker">脚本</a>，<a href="https://twitter.com/Megabits_mzq/status/1717552913818722721">@Megabits_mzq</a>。</li><li>Setapp - <a href="https://cdn.setapp.com/blog/images/Mac_Apps_Report_2023.pdf">Mac apps Report 2023</a></li><li>Ikigai 图，<a href="https://twitter.com/vista8/status/1716829901188485420">@vista8</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301501377.webp" alt="Ikigai 图" /><blockquote><p>Ikigai 是一个源于日本的概念，意为 “生活的意义” 或 “存在的意义”。它由四个核心元素组成：你热爱的事物、你擅长的事物、世界需要的事物，以及你可以从中获得报酬的事物。这四个元素两两相交，形成了 6 种不同的组合，每种组合都有其独特的含义和影响。</p></blockquote></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 88 期。本篇是对过去一周（10.23 - 10.29）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;看完了《&lt;a href=&quot;https://book.douban.com/subject/1162566/&quot;&gt;终极</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #87（2023.10.23）</title>
@@ -519,33 +545,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;端午节前，大可爱忙活两天，又包了很多粽子，红豆、绿豆、大枣、蜜枣、葡萄干等，都是甜粽，我们这里没有吃咸</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #69（2023.06.19）</title>
-    <link href="http://kiligwyu.com/newsletter/69/"/>
-    <id>http://kiligwyu.com/newsletter/69/</id>
-    <published>2023-06-19T06:01:38.000Z</published>
-    <updated>2023-06-19T06:06:58.394Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 69 期。本篇是对过去一周（06.12 - 06.18）的记录、思考与分享。</p><hr /><ul><li>给床加了围挡，小可爱现在翻身翻的厉害。实际安装花费时间比想象的多，拧螺丝拧的手都疼了，一定要买套电动螺丝刀，虽然用的次数少，但用到时候就很爽了，<s>再手拧螺丝我是狗</s>。</li><li>端午节快到了，大可爱决定自己包粽子，买了粽叶，第一次包，包了两锅，大枣、蜜枣、红豆、葡萄干，很成功，好吃。</li><li>我爸的手动挡车停地库好久了，最近换了电瓶，我就经常开一开，老放着也不行。多年不开手动挡了，第一次开时候熄火好多次 🤣，不过很快就上手熟练了。</li><li>618 的活动还没结束，又囤了些 SeeSaw 的冷萃咖啡液，史低价。618 期间我没买很多东西，都是大可爱在买，家里用的、小可爱用的，大大小小买了不少东西。</li><li>再给自己加一条规矩：不在电脑上刷推。<br />在电脑前的时间尽量用来专注，学习或工作，碎片化的时间刷手机时可以刷推。</li><li>计划跟不上变化。周日父亲节，本来打算回大可爱家，但大可爱妈发烧了，很有可能是 🐑 了，就打算不回了，但最后还是回了，中午又吃了烤串。</li></ul><h3 id="音乐分享"><a class="markdownIt-Anchor" href="#音乐分享"></a> 音乐分享</h3><h4 id="shanghai-restoration-project-srp-上海复兴方案"><a class="markdownIt-Anchor" href="#shanghai-restoration-project-srp-上海复兴方案"></a> Shanghai Restoration Project (SRP) 上海复兴方案</h4><blockquote><p><a href="https://zh.wikipedia.org/zh-sg/%E4%B8%8A%E6%B5%B7%E5%A4%8D%E5%85%B4%E6%96%B9%E6%A1%88">Shanghai Restoration Project (SRP) 上海复兴方案</a> 是一支来自纽约的当代电子音乐二人乐队，由美籍华裔艺术家 Dave Liang 和孙云帆组成。</p></blockquote><p>这名字起的，谁能想到是一支乐队。知道他们是从我关注的很喜欢的一名 up 主 <a href="https://space.bilibili.com/303098642">Bopular</a> 的视频里的配乐，bo 叔的《为好设计买单》、《在上海开店的人》系列视频我都很喜欢，也推荐 bo 叔给大家。</p><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/dark-horse-feat-hooshere/295891835?i=295891982"></iframe><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/artist/the-shanghai-restoration-project/74456298"></iframe><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>人物 - <a href="https://mp.weixin.qq.com/s/SaionF27xB41MwG9d3Xk4A">断网，当代人的生活解药</a></li><li>Tw93 - <a href="https://tw93.fun/2023-02-06/alacritty.html">改良了下传说中最快的终端</a><br />看了这篇文章我也试用了下 <a href="https://github.com/alacritty/alacritty">Alacritty</a>，确实快，用 Tw93 的配置稍微改改。之前很喜欢 iTerm 的 Hotkey Window，双击 <code>⌃</code> 打开一个窗口，这次用 Alfred 的 Workflow，实现双击 <code>⌃</code> 打开或隐藏 Alacritty。图标可以用 <a href="https://github.com/lewangdev/Alacritty.icns">lewangdev/Alacritty.icns</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306191206664.webp" alt="Alacritty" /><br /><img src="https://github.com/lewangdev/Alacritty.icns/raw/main/preview.png?raw=true" alt="Alacritty Icon" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>壁纸 - <a href="https://1drv.ms/f/s!AuQ7aUGVDnCMg58UC_wgBsGSxWeM_w?e=BTmOfw">OneDrive - macOS Sonoma dynamic wallpapers</a><br />macOS Sonoma 的动态壁纸在访达中的路径为：<code>/Library/Application Support/com.apple.idleassetsd/Customer/4KSDR240FPS</code>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306151649973.png" alt="macOS Sonoma Dynamic Wallpapers Path" /></li><li>Intel 推出的等宽字体 - <a href="https://github.com/intel/intel-one-mono">Intel One Mono</a><br /><img src="https://user-images.githubusercontent.com/130394986/239321698-6c921cf4-f614-41bd-a909-363bb19f9a30.png" alt="Intel One Mono" /></li><li>麦当劳发布了 GBC 游戏《<a href="https://grimacesbirthday.com">Grimace’s Birthday</a>》<blockquote><p>快餐连锁店麦当劳发布了一款像素风格的复古游戏《Grimace’s Birthday》，可以通过模拟器在手机或 PC 的浏览器上玩，也可以在任天堂的掌机 Game Boy Color 上玩。GBC 是 1998 年上市的掌机，C 代表彩色，它相对于 Game Boy 掌机的区别是使用了彩色屏幕，它在 2003 年停产。《Grimace’s Birthday》的主角是紫色奶酪球 Grimace，玩家的任务是通过一个个关卡及时找到朋友吹灭蜡烛并沿途收集生日祝福。它由新泽西的独立工作室 Krool Toys 开发。游戏组合了 2D 平台和滑板，它只有四个关卡和一个奖励关卡，有得分攻击和自由滑板模式，它是作为麦当劳的促销活动推出的。—— <a href="https://www.solidot.org/story?sid=75249">Solidot</a></p></blockquote></li><li><a href="https://survey.stackoverflow.co/2023/">StackOverflow 2023 Developer Survey</a></li><li>Dogs being Human, midjourney AI 🤣  <div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/_akhaliq/status/1669744293806845958"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 69 期。本篇是对过去一周（06.12 - 06.18）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;给床加了围挡，小可爱现在翻身翻的厉害。实际安装花费时间比想象的多，拧螺丝拧的手都疼了，一定要买套电动螺</summary>
       
     
     
