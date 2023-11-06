@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-10-30T07:03:55.974Z</updated>
+  <updated>2023-11-06T03:52:15.963Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #89（2023.11.06）</title>
+    <link href="http://kiligwyu.com/newsletter/89/"/>
+    <id>http://kiligwyu.com/newsletter/89/</id>
+    <published>2023-11-06T02:15:07.000Z</published>
+    <updated>2023-11-06T03:52:15.963Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 89 期。本篇是对过去一周（10.30 - 11.05）的记录、思考与分享。</p><hr /><p>周日去河南财经政法大学参加了软考，中级软件设计师，考的比我预期的要好一些（谜之自信），不过我一早就做好了不过的准备，考试之前低估了软考的难度，没有尽早开始备考，刷了几套真题后，干脆完全不看了。<br />提前交卷，走在校园中，看着路上的同学们、情侣们，忽然感慨年轻真好啊、上学真好啊 🤣（非常纯真，还没有挨社会毒打）。<br />工作这些年，周围的认识的朋友同事们，几乎没有考软考的，也没听起过软考，软考的用处似乎不很大，但也许将来什么时候就用上了，“connecting the dots”。</p><p>本周买了京东京造的手冲壶，还囤了些咖啡粉。</p><p>看了纪录片 <a href="https://movie.douban.com/subject/34784801/">朝鲜世界 2019 (2020)</a>，<a href="https://www.bilibili.com/video/BV1tp4y1r766/">b 站链接</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311061107792.webp" alt="朝鲜世界 2019 (2020)" /></p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6462364606">Zipic</a> - 又一款图片压缩工具<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311061100178.webp" alt="Zipic" /></li></ul><h4 id="壁纸"><a class="markdownIt-Anchor" href="#壁纸"></a> 壁纸</h4><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg6ZbDJceZ7bIpHwsLA">必应 2023.10 超高清无水印壁纸，共计 31 张 105.4 MB。</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1Uu4y1h7bd/">商标被抢注？影视飓风认识多少个 UP 主？700 万粉丝 Q&amp;A！</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=YY2Q4XDmZDE">一口气了解以色列经济</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://www.eaimty.com/2023/opensource-project-based-on-hormone/">基于荷尔蒙开发的开源项目</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>果然大家都喜欢折腾编程字体，<a href="https://twitter.com/vikingmute/status/1720618752612433978">@vikingmute</a><br />我也经常换字体，喜欢的字体除了 Fira Code、JetBrains Mono，还有 <a href="https://fsd.it/shop/fonts/pragmatapro/">PragmataPro Mono</a>、<a href="https://www.monolisa.dev">MonoLisa</a>、Operator Mono、<a href="https://berkeleygraphics.com/typefaces/berkeley-mono/">Berkeley Mono</a>。</li><li>#TIL iTerm2 可以从 ssh 直接上传下载文件。只需从菜单在目标服务器安装 “iTerm2-&gt;Install Shell Integration”。之后使用 it2dl 等命令即可，更多功能可以查看帮助。<a href="https://twitter.com/Megabits_mzq/status/1721065824222617629">@Megabits_mzq</a></li><li>记录上架 AppStore 以 4.3 为由被拒的故事，<a href="https://twitter.com/i/web/status/1720328225820401918">@fatbobman</a><br />居然是因为 Support URL，那被拒理由还给个 4.3，苹果审核可真有你的…</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 89 期。本篇是对过去一周（10.30 - 11.05）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;周日去河南财经政法大学参加了软考，中级软件设计师，考的比我预期的要好一些（谜之自信），不过我一早就做好了不过的准备</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #88（2023.10.30）</title>
@@ -518,33 +544,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;亚马逊于 6 月 30 日起在中国停止 Kindle 电子书店的运营，用户将无法再购买新的电子书。对于</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #70（2023.06.26）</title>
-    <link href="http://kiligwyu.com/newsletter/70/"/>
-    <id>http://kiligwyu.com/newsletter/70/</id>
-    <published>2023-06-26T06:41:09.000Z</published>
-    <updated>2023-06-26T07:55:18.925Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 70 期。本篇是对过去一周（06.19 - 06.25）的记录、思考与分享。</p><hr /><ul><li>端午节前，大可爱忙活两天，又包了很多粽子，红豆、绿豆、大枣、蜜枣、葡萄干等，都是甜粽，我们这里没有吃咸粽的习惯。接下来很长一段时间内，都要吃粽子了 🤣。<br />端午节回小可爱姥姥家，带回去了些。</li><li>家里的冰箱的温度控制似乎有些不太寻常，就用了下 海尔智家 app，让冰箱连网在 app 端看看冰箱温度。我的感受是这 app 做的什么玩意儿，太难用了。<br />实际上对于这些智能(障)家电，我的态度是禁止联网的，首先，它们比较智障，其次，在隐私保护方面，我不信任它们。</li><li>618 购物节也过完了，大家可以时常看看京东的价保，买贵了还可以返还点差价。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>主观世界 - <a href="https://subnooc.com/posts/a-group-quiting-journey">记一次带着立场的退群</a><br />我也加了不少的“交流群”，我基本上都处于隐身状态，不参与交流，也不看他们交流，一方面是没有时间，一方面是随时间推移“交流群”都成灌水群了，聊天内容毫无意义。</li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6450280202">Day Progress</a> - Time remaining today in your menu bar<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306261540108.webp" alt="Day Progress" /></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li><a href="https://github.com/CollegesChat/university-information">university-information</a> - 收集全国各高校招生时不会写明，却会实实在在影响大学生活质量的要求与细节<br />现在也到了填报志愿的时候了，有需要的朋友可以看看，毕竟现在的很多大学很不大学。</li></ul><h4 id="海因里希三角"><a class="markdownIt-Anchor" href="#海因里希三角"></a> 海因里希三角</h4><blockquote><p>事故三角，又称海因里希三角或伯德三角，是一种工业事故的预防理论。它显示了严重事故 (上)、轻微事故 (中) 和未遂事故 (下) 之间的关系。该想法指出：如果减少轻微事故的数量，那么严重事故的数量也会相应下降。—— <a href="https://zh.wikipedia.org/wiki/%E4%BA%8B%E6%95%85%E4%B8%89%E8%A7%92">事故三角</a></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202306261520930.png" alt="海因里希定律原始比率 - 维基百科" /></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 70 期。本篇是对过去一周（06.19 - 06.25）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;端午节前，大可爱忙活两天，又包了很多粽子，红豆、绿豆、大枣、蜜枣、葡萄干等，都是甜粽，我们这里没有吃咸</summary>
       
     
     
