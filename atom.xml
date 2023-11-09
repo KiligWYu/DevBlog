@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-11-06T03:52:15.963Z</updated>
+  <updated>2023-11-09T08:30:16.509Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MSS 1.3 版本发布：更多使用方式</title>
+    <link href="http://kiligwyu.com/mss-1-3/"/>
+    <id>http://kiligwyu.com/mss-1-3/</id>
+    <published>2023-11-09T07:23:19.000Z</published>
+    <updated>2023-11-09T08:30:16.509Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://apps.apple.com/app/id1633245174">MSS（图影）</a> 1.3 版本已经上架 Mac App Store，距离上个版本已经过了半年了，本次更新增加了服务和打开方式，后面有介绍，还修复了快速操作的本地化问题，还新做了张 App Store 里的预览图片。</p><h2 id="mss"><a class="markdownIt-Anchor" href="#mss"></a> MSS</h2><p>MSS，是『Mac Style Screenshot』的缩写，中文名『图影』，是一个给图片添加阴影效果的小工具，模拟系统窗口截图时的阴影效果。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091540125.webp" alt="MSS Preview" /></p><h2 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h2><p>除了常规的打开 MSS 拖拽图片进去的使用方法外，MSS 还支持快速操作、服务、右键打开等方式使用。</p><h3 id="快速操作"><a class="markdownIt-Anchor" href="#快速操作"></a> 快速操作</h3><p>在访达中选中图片后，在右侧的预览下方可以自定义快速操作，把 MSS 加进去，然后就可以快速地给图片添加阴影，app 都不用打开。<br />在图片上右键 -&gt; 快速操作 -&gt; MSS 也一样。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091556316.webp" alt="访达图片预览中使用 MSS" /></p><p>在 系统设置 -&gt; 隐私与安全性 -&gt; 拓展 -&gt; 访达 -&gt; 选中 MSS，启用 MSS 快速操作。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091557224.webp" alt="选择在访达中显示的快速操作" /></p><h3 id="服务"><a class="markdownIt-Anchor" href="#服务"></a> 服务</h3><p>MSS 也支持作为服务启动，在 系统设置 -&gt; 键盘 -&gt; 键盘快捷键 -&gt; 服务 -&gt; 图片 -&gt; 选中 MSS，启用 MSS 服务。另外，服务是支持自定义快捷键的，但使用时会打开主程序。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091604153.webp" alt="在系统设置中启用 MSS 服务" /></p><p>在图片上右键 -&gt; 服务 -&gt; MSS，使用 MSS 服务。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091606868.webp" alt="使用 MSS 服务" /></p><h3 id="使用-mss-打开图片"><a class="markdownIt-Anchor" href="#使用-mss-打开图片"></a> 使用 MSS 打开图片</h3><p>在图片上右键 -&gt; 打开方式 -&gt; MSS。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091608291.webp" alt="使用 MSS 打开图片" /></p><h2 id="最后"><a class="markdownIt-Anchor" href="#最后"></a> 最后</h2><p>MSS 还有许多不足之处，阴影也没有系统窗口阴影细腻，但是我自己很喜欢的一个小工具，后续会不断更新维护的，也会一直免费提供。如果你恰好也喜欢 MSS，还请 <a href="macappstore://apps.apple.com/app/id1633245174?action=write-review">在 Mac App Store 给个好评</a>，非常感谢！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/app/id1633245174&quot;&gt;MSS（图影）&lt;/a&gt; 1.3 版本已经上架 Mac App Store，距离上个版本已经过了半年了，本次更新增加了服务和打开方式，后面有介绍，还修复了快速操作的本地化问题，</summary>
+      
+    
+    
+    
+    <category term="App" scheme="http://kiligwyu.com/categories/App/"/>
+    
+    
+    <category term="App" scheme="http://kiligwyu.com/tags/App/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #89（2023.11.06）</title>
@@ -517,33 +541,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;在家呆久了，有些烦躁，想去骑行但天太热，想去星巴克办公，但又离不开小可爱，奶奶一个人带不住她……&lt;/l</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #71（2023.07.03）</title>
-    <link href="http://kiligwyu.com/newsletter/71/"/>
-    <id>http://kiligwyu.com/newsletter/71/</id>
-    <published>2023-07-03T06:38:36.000Z</published>
-    <updated>2023-07-08T14:18:22.624Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 71 期。本篇是对过去一周（06.26 - 07.02）的记录、思考与分享。</p><hr /><ul><li>亚马逊于 6 月 30 日起在中国停止 Kindle 电子书店的运营，用户将无法再购买新的电子书。对于已经购买的电子书，可以在 2024 年 6 月 30 日之前下载。<br />另外，对于已购的电子书，推荐使用 yihong 的 <a href="https://github.com/yihong0618/Kindle_download_helper">开源工具</a> 来下载。</li><li>从 07.01 开始，大可爱要上班了，我则继续在家照顾小可爱，还有小可爱的奶奶，小可爱在家也可乖了呢。<br />本来白天下午我是想去图书馆或者星巴克办公的，只是小可爱奶奶一个人在家带不住她，睡醒了还得加辅食，所以我就先不出去了。</li></ul><h3 id="壁纸"><a class="markdownIt-Anchor" href="#壁纸"></a> 壁纸</h3><p><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg6BaDJceZ7bIpHwsLA">必应 2023.06 无水印壁纸，共计 30 张 88.5 MB</a>。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://markmark.app">MarkMark - Public Beta</a><br />图拉鼎 - <a href="https://imtx.me/blog/markmark-public-beta/">全新的稍后阅读工具——MarkMark 正式开放公测了</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307021515001.jpeg" alt="MarkMark" /></li><li><a href="https://webstay.app">WebStay</a> - Mini-tool for pin Web page on Windows.<br />Join <a href="https://t.me/webstayapp">Telegram usergroup</a> to get beta app and feedback it!<br />macOS 上有 <a href="https://apps.apple.com/app/id1575588022">MenubarX</a>，这下 Windows 上也有类似的工具了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307021539170.jpeg" alt="WebStay" /></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Manjusaka - <a href="https://www.manjusaka.blog/posts/2023/06/25/love-and-hope-is-all-we-need/">聊聊公益和助学</a><blockquote><p>To love, to lose, to give without expectation</p></blockquote></li><li>史靼旺 - <a href="https://telegra.ph/%E5%9B%9E%E5%BD%A2%E9%92%88%E8%A7%A3%E6%95%A3%E4%B8%A4%E5%B9%B4%E4%BA%86%E4%BB%96%E4%BB%AC%E6%80%8E%E4%B9%88%E6%A0%B7%E4%BA%86-06-30-2">回形针解散两年了，他们怎么样了？</a><br />唉……</li><li>少数派 - <a href="https://sspai.com/post/74196">咖啡美酒冷泡茶，这些消暑饮品在家就能动手做</a><br />这大热天的，在家喝一杯冰镇饮料，爽~。</li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>异次元软件世界 - <a href="https://www.iplaysoft.com/rarbg.html">全球知名 BT 网站 RARBG 全站磁力链接资源备份打包下载 - 永久收藏！ (电影游戏电视剧)</a></li><li><a href="https://12ft.io">12ft.io</a> - Bypass any paywall<br />一个绕过新闻网站付费墙的工具，原理该网站也说了，实际上很简单，就是这些新闻网站对谷歌爬虫放行，这样就可以被搜索到，该工具就是获取谷歌对其网页的缓存。我试了一下端传媒，果然可以。<blockquote><p>News sites want Google to index their content so it shows up in search results. So they don’t show a paywall to the Google crawler.<br />Google crawler will cache a copy of the site every time it crawls it.<br />All we do is show you that cached, unpaywalled version of the page.</p></blockquote></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 71 期。本篇是对过去一周（06.26 - 07.02）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;亚马逊于 6 月 30 日起在中国停止 Kindle 电子书店的运营，用户将无法再购买新的电子书。对于</summary>
       
     
     
