@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-11-09T08:30:16.509Z</updated>
+  <updated>2023-11-13T03:24:39.600Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #90（2023.11.13）</title>
+    <link href="http://kiligwyu.com/newsletter/90/"/>
+    <id>http://kiligwyu.com/newsletter/90/</id>
+    <published>2023-11-13T02:20:03.000Z</published>
+    <updated>2023-11-13T03:24:39.600Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 90 期。本篇是对过去一周（11.06 - 11.12）的记录、思考与分享。</p><hr /><p>看了电影 <a href="https://movie.douban.com/subject/1291838/">红猪 紅の豚 (1992)</a>，92 年的电影，国内现在才要上映了，我就去找资源看看，推荐。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311131030380.webp" alt="红猪 紅の豚 (1992)" /></p><p>我的给图片添加类似 macOS 窗口截图阴影的 app <a href="https://apps.apple.com/app/id1633245174">MSS</a> 发了 1.3 版本，增加了服务和打开方式，详请可见 <a href="/mss-1-3/">MSS 1.3 版本发布：更多使用方式</a> 这篇。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091540125.webp" alt="MSS Preview" /></p><p>买了开封旅游年票，准备挨个打卡拍照，到时照片也发在播客里。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311131026389.webp" alt="开封旅游年票" /></p><p>双 11 也结束了，我除了买了些咖啡及相关的用具（手冲壶）外，没买别的，也没什么想买的。</p><p>在读《金阁寺》，计划这周读完的，但没有，下周读完。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>林亦 LYi - <a href="https://www.youtube.com/watch?v=1hc1pyzT6aw">8G 内存？苹果高管怎么看 M3 MacBook Pro？</a></li><li><a href="https://space.bilibili.com/29768810">惜车工场 CSW</a></li><li>Apple Explained - <a href="https://www.youtube.com/watch?v=pV0ud2B8WfQ">History of the iPhone</a>，<a href="https://www.youtube.com/watch?v=CcbgqLtl_Oo">Apple’s RAM Scam</a></li><li>Hugh Jeffreys - <a href="https://www.youtube.com/watch?v=e3e-b-7jCYk">Astonishing Anti Repair Practices By Apple In the Last 15 Years</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://anotherdayu.com/2023/5452/">My App Defaults 2023</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>又有新字体了，GitHub 推出的 <a href="https://monaspace.githubnext.com">Monospace</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311131049089.webp" alt="Monospace" /></li><li>22 tips for iOS development, <a href="https://twitter.com/ios_dev_alb/status/1722970743967789145">@ios_dev_alb</a></li><li>时空幻境 周年纪念版 (Braid, Anniversary Edition)，预计 2024-04-30 上市，也是我喜欢的游戏之一，开发者分享了更多信息，<a href="https://twitter.com/Jonathan_Blow/status/1722709573071433996">@Jonathan_Blow</a>。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 90 期。本篇是对过去一周（11.06 - 11.12）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;看了电影 &lt;a href=&quot;https://movie.douban.com/subject/1291838/&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>MSS 1.3 版本发布：更多使用方式</title>
@@ -514,33 +540,6 @@
 &lt;li&gt;&lt;s&gt;大可爱是 🐡。&lt;/s&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;其他有趣的&quot;&gt;&lt;a class=</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #72（2023.07.10）</title>
-    <link href="http://kiligwyu.com/newsletter/72/"/>
-    <id>http://kiligwyu.com/newsletter/72/</id>
-    <published>2023-07-10T08:20:18.000Z</published>
-    <updated>2023-07-10T08:43:26.481Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 72 期。本篇是对过去一周（07.03 - 07.09）的记录、思考与分享。</p><hr /><ul><li>在家呆久了，有些烦躁，想去骑行但天太热，想去星巴克办公，但又离不开小可爱，奶奶一个人带不住她……</li><li>部署了 <a href="https://docs.rsshub.app">RSSHub</a> 到我的丐版 <a href="http://lightsail.aws.amazon.com/">Lightsail</a>，部署完 VPS 就跪了，排除网络问题，后来才发现是撞 CPU 容量墙了，才发现还有 CPU 基准利用率、突增容量这么个玩意儿，之前都没留意过。但也不值得为此更换更贵的 VPS，后来把 RSSHub 部署到了 <a href="http://vercel.com/">Vercel</a> 了，<a href="https://docs.rsshub.app/install/#bu-shu-dao-vercel-zeit-now-yi-jian-bu-shu-wu-zi-dong-geng-xin">部署非常简单方便</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307082252882.webp" alt="Lightsail Baseline CPU Performance" /></li><li>开发完了 <a href="https://apps.apple.com/app/id1573715683">Tapet</a>（macOS 上获取 UHD 且无水印且能自动更换桌面壁纸的必应壁纸小工具）的官网 <a href="https://www.tapet.best/">tapet.best</a>，利用 React.js + Tailwind CSS，拖延了许久了，域名也是一早就买了的，之前一度想放弃 🤣，主要是想拿来学习 React。一个简陋的页面，也部署到 Vercel，并绑定了域名。在移动端上访问还有些问题，并未适配，以后再说吧。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307082255013.webp" alt="tapet.best" /></li><li>#TIL macOS Preview.app 导出图片时，按住 ⌥ 点击格式，可以选择更多图片格式。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307101434135.webp" alt="选 Format 时按住 ⌥ 可以选择更多图片格式" /></li><li>买了 <a href="http://objccn.io">objccn.io</a> 的新书 <a href="https://objccn.io/products/thinking-in-swiftui-2023">《SwiftUI 编程思想 (2023)》</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307101507765.webp" alt="《SwiftUI 编程思想 2023》重写预告" /></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Cali - <a href="https://cali.so/blog/react-or-vue-my-take-on-web-dev">React 还是 Vue？我对 Web 前端现状的看法</a><br />我选了 React，因为 React 有一个很好的 <a href="https://fullstackopen.com/zh/">全栈公开课</a> - 赫尔辛基大学（The University of Helsinki）🤣。</li><li>少数派 - <a href="https://sspai.com/post/80856">阿斯巴甜「致癌」了，但你其实（暂时）没必要担心</a><br />有糖的才快乐。</li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.bilibili.com/video/BV1KX4y1e7cP/">【罗翔】村民修桥收费被判处寻衅滋事，这件事应该如何看？</a></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li><a href="https://github.com/CatsJuice/ipad-cursor">CatsJuice/ipad-cursor</a> - ● Mouse effect of iPad in browser that can be used in any framework<br /><img src="https://github.com/CatsJuice/ipad-cursor/raw/main/playground/public/screenshot.gif" alt="Screenshot.gif" /></li><li><a href="https://github.com/zolplay-cn/website">zolplay-cn/website</a> - Zolplay website repo // 佐玩官网</li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="">GameBoy Advance SP - Wallpaper Collection</a>，<a href="https://isapinheiro.gumroad.com/l/gameboyadvancesp-wallpapercollection">下载地址</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202307101453826.webp" alt="GameBoy Advance SP - Wallpaper Collection" /></li><li><div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/0xUnicorn/status/1676208016482529280"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 72 期。本篇是对过去一周（07.03 - 07.09）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;在家呆久了，有些烦躁，想去骑行但天太热，想去星巴克办公，但又离不开小可爱，奶奶一个人带不住她……&lt;/l</summary>
       
     
     
