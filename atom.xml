@@ -2,19 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>𝕶𝖎𝖑𝖎𝖌&#39;𝖘 𝕭𝖑𝖔𝖌</title>
   
-  
+  <subtitle>代码之外</subtitle>
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-11-27T02:52:43.929Z</updated>
+  <updated>2023-12-04T03:38:22.077Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
-    <name>𝓚𝓲𝓵𝓲𝓰</name>
+    <name>𝕶𝖎𝖑𝖎𝖌</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #93（2023.12.04）</title>
+    <link href="http://kiligwyu.com/newsletter/93/"/>
+    <id>http://kiligwyu.com/newsletter/93/</id>
+    <published>2023-12-04T01:51:02.000Z</published>
+    <updated>2023-12-04T03:38:22.077Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 93 期。本篇是对过去一周（11.27 - 12.03）的记录、思考与分享。</p><hr /><p>把博客的副标题改成了『代码之外』，博客上发的都是些非技术上的文章，我已经跟自己和解了，承认自己写不出什么高深的技术文章，所以就叫代码之外好了。<br />另外，也推荐一下 <a href="https://bento.me/beyondcode">代码之外 Beyond Code</a> 的播客。</p><blockquote><p>代码之外 Beyond Code 是一档由 GeekPlux 和 Randy 共同主持的程序员闲聊播客节目。</p></blockquote><p>读完了《<a href="https://book.douban.com/subject/36124352/">读库 2205</a>》，这本书在我桌子上躺了一年了都，才看完，接下来把《读库 2206》也看了。22 年订了一年的读库会员，23 年没有再续订，一是为了开源节流，另外我也不缺其他读物。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312040953453.webp" alt="读库 2205" /></p><p>在 Sketch 里重新设计了简历，之前是用 <a href="https://cv.ftqq.com">冷熊简历</a> 等制作的 Markdown 格式的简单简历，重新设计简历后，把原来两页的松散简历压缩到一页，信息量不减反增，并且设计的还很好看。<br />在设计上参考了 <a href="https://easycv.cn">简单简历</a>，简单简历是个很棒的在线制作简历的工具，有很多模板，可以轻松制作出好看的简历。</p><p>本周入门了 TCA 架构，接下来的 SwiftUI 项目也尝试使用 TCA 架构，再推荐下 ethanhuang13 的 <a href="https://www.youtube.com/playlist?list=PL_ISTqHGWkNyN2qbc5wVDRyE6baEQ-BqU">iOS 開發配飯吃・SwiftUI + TCA 系列</a>。</p><p>本周下午基本都在万达星巴克阅读或工作，图书馆还没装修好，从 8 月开始就闭馆了。下周继续在星巴克办公，也继续我的 <a href="/categories/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/">开封旅游</a>。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>柴知道 - <a href="https://www.bilibili.com/video/BV1TN4y127us/">8年246起“刹车失灵”，全是司机的锅？为什么电车总是刹车失灵？【柴知道】</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1Ec411z7j2/">我们买了一颗国产卫星。</a></li><li>YouTube Channel - <a href="https://www.youtube.com/@MalteMarten">Malte Marten</a>，好听的 <a href="https://zh.wikipedia.org/zh-cn/%E6%89%8B%E7%A2%9F">手碟</a> 音乐。</li><li>许云 - <a href="https://www.youtube.com/watch?v=-fw4Ztd3e_Y">骑行内蒙离开呼和浩特，最近被有组织的网暴了三个月，准备诉诸法律保护自己</a><br />YouTube 上一堆骑行、旅游的 up 主，我更喜欢许云。我关注许云也不久，之前他身上发生了什么（via <a href="https://twitter.com/dayu06252827994/status/1731299889492193681">@dayu06252827994</a>），真相只有他自己知道，反正我只知道网暴别人是不对的。</li><li>炸号警告，啊~ 已经炸了 via <a href="https://twitter.com/caijingshujuku/status/1729916091831611632">@caijingshujuku</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>游研社 - <a href="https://www.yystv.cn/p/3617">色情页游孵化出了拼多多</a></li><li>61 - <a href="https://t.me/Journey61/268">Telegram 频道临时起意的一次更新</a>，<a href="https://61.life/2023/1202">61.life</a></li><li>Viking - <a href="https://vikingz.me/best-font/">哪个是程序员最爱的编程字体？2 百万阅读的帖子选出最帅的七种字体</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><p><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg6pvDJceZ7bIpHwsLA">十一月份的超高清无水印必应壁纸</a>。</p></li><li><p>#TIL 一行命令搞定 Mac 版微信双开，via <a href="https://immmmm.com/weekly-2023-11-26/">@木木木木木</a>。<br />另外，Mac 上 QQ 的多开就简单许多，快捷键 <code>⌘ + N</code> 即可。</p>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open -n /Applications/WeChat.app/Contents/MacOS/WeChat</span><br></pre></td></tr></table></figure></li><li><p>#TIL 由于文化差异，对百分比的计算的理解不同，看似违反数学常识的计算，在国外反而很普遍：<code>500 - 20% = 400</code>。<a href="https://twitter.com/hzlzh/status/1729906088269746257">via @hzlzh</a></p></li><li><p>V2EX - <a href="https://www.v2ex.com/t/995953">在微信内编辑图片会上传并审查原图</a></p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 93 期。本篇是对过去一周（11.27 - 12.03）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;把博客的副标题改成了『代码之外』，博客上发的都是些非技术上的文章，我已经跟自己和解了，承认自己写不出什么高深的技术</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #92（2023.11.27）</title>
@@ -490,33 +516,6 @@
 &lt;li&gt;日常咖啡馆办公，星巴克喝瑞幸。&lt;/li&gt;
 &lt;li&gt;周末回小可爱姥姥家吃烧烤 👍。&lt;/li&gt;
 &lt;li&gt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #78（2023.08.21）</title>
-    <link href="http://kiligwyu.com/newsletter/78/"/>
-    <id>http://kiligwyu.com/newsletter/78/</id>
-    <published>2023-08-21T06:55:07.000Z</published>
-    <updated>2023-08-21T07:50:05.578Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 78 期。本篇是对过去一周（07.14 - 07.20）的记录、思考与分享。</p><hr /><ul><li>最近 𝕏 上总能看到关于独立开发教人做独立开发的 𝕏 文，我觉得吧，这就跟成功学的书籍一样，“成功的人千篇一律，失败的人却各有千秋”，这些看（不）看就（也）行，独立开发产品，没有什么是不能做的，follow your heart，just do it，反正最后都是失败（大雾，不是）。</li><li>给本博客加了备案号“豫 ICP 备 404 号 - 1”，当然是没有备案啦。备 tmd 案。</li><li>看完了 <a href="https://www.refactoringui.com">Refactoring UI</a> 一书。学到许多，发现在第 64 期的碎周报里分享的 <a href="https://www.youtube.com/watch?v=QePKvqLIsP0">How to Create Good UI/UX - Cali Castle</a> 的视频里的很多案例，都是出自本书。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202308211530725.webp" alt="Refactoring UI" /></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=lM3Kx1VymgA">SOLO Camping in the RAIN || RELAX, SLEEP and Eat in the JUNGLE || Rain ASMR</a></li><li>李永乐老师 - <a href="https://www.bilibili.com/video/BV1FP411s7Ew/">葫芦娃救爷爷为啥一个一个上？童年最大疑惑被李永乐老师解开了！</a></li><li>溢自成花 - <a href="https://www.bilibili.com/video/BV1FF411d7h5/">从普通动画师到收入百万的数字艺术家</a></li><li>-LKs- - <a href="https://www.bilibili.com/video/BV1gF41117fN/">300 天 4 万公里传遍中国，漂流相机终于回来了！</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://nano.ac/posts/b56e5c40/">随机公交之旅</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7255.html">字节跳动推出公共 DNS 服务</a><blockquote><p>字节跳动旗下云计算服务火山引擎于前日推出了 “TrafficRoute DNS 套件” 服务，据悉，该 “TrafficRoute DNS 套件” 实际就是一套 “公共 DNS” 服务，能够在为国内用户提供更快的地址解析速度的同时，配合 “流量清洗” 和 “IP 黑名单” 等服务，抵御外界 DDoS 攻击。<br />目前 DNS 服务只支持 IPv4 协议，主 DNS IP 为 <code>180.184.1.1</code>（北京），备用为 <code>180.184.2.2</code>（北京），仅提供基本的 DNS 解析功能。<br />官网：<a href="https://www.volcengine.com/product/trafficroute">https://www.volcengine.com/product/trafficroute</a></p></blockquote></li><li><a href="https://mp.weixin.qq.com/s/d9xVuvJ0Dos9T8cBbSOfog">《黑神话：悟空》上手前瞻｜IGN 中国</a></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://dockx.app">DockX</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202308211536352.webp" alt="DockX" /></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 78 期。本篇是对过去一周（07.14 - 07.20）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;最近 𝕏 上总能看到关于独立开发教人做独立开发的 𝕏 文，我觉得吧，这就跟成功学的书籍一样，“成功</summary>
       
     
     
