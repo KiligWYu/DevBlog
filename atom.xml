@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-12-09T13:08:01.926Z</updated>
+  <updated>2023-12-11T08:13:01.613Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #94（2023.12.11）</title>
+    <link href="http://kiligwyu.com/newsletter/94/"/>
+    <id>http://kiligwyu.com/newsletter/94/</id>
+    <published>2023-12-11T06:23:43.000Z</published>
+    <updated>2023-12-11T08:13:01.613Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 94 期。本篇是对过去一周（12.04 - 12.10）的记录、思考与分享。</p><hr /><p>macOS Sonoma 更新了 14.2 Release Candidate，修复了中文输入法偶尔卡死系统的问题（via <a href="https://twitter.com/tualatrix/status/1732253465077006442">@tualatrix</a>），值得更新，正式版到下周了。</p><p>周四周五分别去了朱仙镇启封故园和大相国寺，天气是真好。都是 4A 级景区，启封故园冬天景色不是特别好，大相国寺殿内禁止拍照，部分照片分别发在 <a href="/KaifengTravel/QifengHometown/">开封旅游之朱仙镇启封故园</a> 和 <a href="/KaifengTravel/DaxiangguoTemple/">开封旅游之大相国寺</a>。</p><p>2023 年下半年的软考可以查成绩了，我报考的中级软件设计师，果不其然，挂了。考试时就已经做好了挂的准备，当时掉以轻心，备考时间不足，复习的不够。算了。</p><p>我的 Setapp 订阅到期了，其实组个家庭，每人每月 $5，还是很划算的。但我不准备续订了，常用的软件单独购买，部分软件我以前也买的有，实在贵的找替代品，大多数软件还是可以买断的，小部分一年内可以更新，一年后也还可以保留使用，除非遇到兼容问题再升级，升级也还有优惠，所以总体算下来还是比订阅划算些。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>Max Tech - <a href="https://www.youtube.com/watch?v=u1dxOI_kYG8">8GB M3 Mac vs 16GB Windows PC - Did Apple LIE to You?!</a></li><li><a href="https://www.youtube.com/watch?v=L6WDq0V5oBg">Exclusive 2024 Tesla Cybertruck Full Review &amp; Drag Race w R1T &amp; Hummer — Jason Cammisa on the ICONS</a></li><li><a href="https://www.bilibili.com/video/BV1SQ4y1V7do/">《黑神话：悟空》发售日预告 | 2024.8.20，直面天命</a></li><li>Drew Builds Stuff - <a href="https://www.youtube.com/watch?v=bv88wM6AN6Y">Building a WINDOW with 3 Huge TVs</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1m94y177Eo/">ZEALER 前员工从传播学角度聊聊王自如</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1GN4y1a7HM/">11月网络热门话题鉴定 | 其实没人在意五月天唱功的</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1Ku4y1G7Ne/">卡波特利用真实灭门案写出的畅销书，背后谁更冷血</a></li><li>耿同学讲故事 - <a href="https://www.bilibili.com/video/BV1ZN411L7Ap/">好学生是什么样的？中国大学生网树立了错误的榜样！</a></li><li>flypig 的小号 -  <a href="https://www.bilibili.com/video/BV1QN411L7yZ/">我们拷问了金凡，「雷军金凡」那个金凡</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1Vw411b7tA/">【Vlog】去了一趟韩国。</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>十里 - <a href="https://5km.studio/blog/appletv-start-new-life-experience">AppleTV 开启新的生活体验</a></li><li><a href="https://xargin.com/ghost-story/">一些鬼故事</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>B 站的视频分享到 𝕏 上时，链接域名后面加上 “bb”，𝕏 就会解析视频链接，而不只显示个链接，比如将链接里的 <code>bilibili.com</code> 改成 <code>bilibilibb.com</code>，<code>b23.tv</code> 的短链改成 <code>b23bb.tv</code>。via <a href="https://twitter.com/HzaoHzao/status/1733337729436618997">@HzaoHzao</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312111539331.webp" alt="@HzaoHzao Screenshot" /></li><li>皓叔的遗作 <a href="https://shop18793264.m.youzan.com/wscgoods/detail/3no167zbyfy6wg4">《左耳听风》实体书</a> 出版了。via <a href="https://twitter.com/songma/status/1733064864569127400">@songma</a></li><li>Github 开源一哥 Sindre 的公开财务数据：<a href="https://opencollective.com/sindresorhus">opencollective.com/sindresorhus</a>。via <a href="https://twitter.com/hzlzh/status/1732755777318957449">@hzlzh</a>，另外关于 Sindre Sorhus，还有一篇介绍文章：<a href="https://mp.weixin.qq.com/s/y2AYcC83KCv2Pi060n_MZg">GitHub 的榜一大佬晒出存款后，大家却想给他捐钱。</a>。</li><li>一个把任意数据混合到图片像素中的在线工具：<a href="https://mixim.cyandev.app">Mixim</a>。via <a href="https://twitter.com/unixzii/status/1732019384632418382">@unixzii</a></li><li><s>快来偷学咒语，</s> <a href="https://github.com/linexjlin/GPTs">linexjlin/GPTs</a>: leaked prompts of GPTs. via <a href="https://twitter.com/HiTw93/status/1732187345234075972">@HiTw93</a></li><li>把 iPhone Wi-Fi 里自定义的 DNS 前面加上 <code>tls://</code>，收取微信再也不转转转了。🤣 via <a href="https://twitter.com/shajiabiji/status/1731865962184401069">@shajiabiji</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 94 期。本篇是对过去一周（12.04 - 12.10）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;macOS Sonoma 更新了 14.2 Release Candidate，修复了中文输入法偶尔卡死系统的问题</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>开封旅游之大相国寺</title>
@@ -474,33 +500,6 @@
 &lt;ul&gt;
 &lt;li&gt;又是精神内耗的一周，日常焦虑 😐。&lt;br /&gt;
 从周一失败的面试开始，没做太多准备，回答的很不理想，</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #81（2023.09.11）</title>
-    <link href="http://kiligwyu.com/newsletter/81/"/>
-    <id>http://kiligwyu.com/newsletter/81/</id>
-    <published>2023-09-11T07:35:46.000Z</published>
-    <updated>2023-09-11T09:34:14.721Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 81 期。本篇是对过去一周（09.04 - 09.10）的记录、思考与分享。</p><hr /><ul><li>本周继续打磨新 app，不断完善优化细节，已经具备发布条件，就等新系统发布了。新 app 功能上跟新系统毫无关系，但用到了新的技术限定新系统，到时第一时间提审。</li><li>最近这段时间，没有去星巴克喝瑞幸，基本都在家写代码了，下午小可爱睡觉了，我就在边上看着她、写代码。<br />因为我带小可爱睡觉，她睡的更好些，跟她奶奶带她睡觉相比。</li><li>周末逛街并给外甥过生日。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.bilibili.com/video/BV1934y1T74u/">耿同学讲故事 - 教育部给我回信了！我反思：给人提意见，不如帮人做业绩。</a></li><li>中国国家地理 &amp; 无穷小亮的科普日常 - <a href="https://www.bilibili.com/video/BV1ej41117VW/">【生命奇观】墨脱森林——世界第一大峡谷里的绝美生灵</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://zhangferry.com/2023/08/31/17_interview_anyu_kaogong">一线大厂程序员的考公上岸心得</a></li><li>Lakr233 - <a href="https://www.qaq.wiki/lemons/1288">成为什么样的人</a></li><li>少数派 - <a href="https://sspai.com/post/82584">一次省心的装修体验：我选择了宜家全屋设计服务</a></li><li>STRRL - <a href="https://strrl.dev/post/2023/gap-year-wrapped-timeline/">Gap Year Wrapped - Timeline</a></li><li>纵横日本 - <a href="https://note.com/zonghengjp/n/n37e0efa8913c">错误百出的李永乐，不配科普福岛问题</a></li></ul><h4 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h4><ul><li>开源字体 - <a href="https://github.com/TrionesType/zhuque">朱雀仿宋</a><br /><img src="https://github.com/TrionesType/zhuque/raw/main/docs/preview.png" alt="朱雀仿宋" /></li><li><a href="https://github.com/yihong0618/epubhv">yihong0618/epubhv</a> - Make your epub books vertical or horizontal.</li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6464096304">chess vs robots</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309111634875.webp" alt="chess vs robots" /></li><li><a href="https://apps.apple.com/app/id1567748223">SwiftyMenu</a><br />限免了，可以收了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309111637334.webp" alt="SwiftyMenu" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><p>疯投圈 - <a href="https://crazy.capital/80">80. 咖啡战争2023</a></p></li><li><p><a href="https://twitter.com/haozes/status/1700405213000310787">https://twitter.com/haozes/status/1700405213000310787</a></p></li><li><p><a href="https://twitter.com/kylesean6/status/1699813380960428356">https://twitter.com/kylesean6/status/1699813380960428356</a></p><p>P.S. 嵌入 𝕏 文的插件坏了，那么只好放链接了</p></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 81 期。本篇是对过去一周（09.04 - 09.10）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;本周继续打磨新 app，不断完善优化细节，已经具备发布条件，就等新系统发布了。新 app 功能上跟新系</summary>
       
     
     
