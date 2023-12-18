@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-12-11T08:13:01.613Z</updated>
+  <updated>2023-12-18T06:19:16.592Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #95（2023.12.18）</title>
+    <link href="http://kiligwyu.com/newsletter/95/"/>
+    <id>http://kiligwyu.com/newsletter/95/</id>
+    <published>2023-12-18T04:43:14.000Z</published>
+    <updated>2023-12-18T06:19:16.592Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 95 期。本篇是对过去一周（12.11 - 12.17）的记录、思考与分享。</p><hr /><p>喜鹊造字发布了新字 <a href="https://mp.weixin.qq.com/s/xAf8ibKrti-fhZlLwWeJ3g">喜鹊宋体</a>，本字体爱好者火速购买了，字体是挺好看的，但个人觉得不太适合做电子书的字体。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181306019.webp" alt="自用的字体安装 app - 喜鹊宋体预览" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181306063.webp" alt="电子书喜鹊宋体预览" /></p><p>读完了 <a href="https://book.douban.com/subject/36182329/">读库 2206</a>，开篇就是长达 158 页的颇无聊的《窑洞渐远》。不过我没有按顺序读，最后才读《窑洞渐远》，读了几十页就放弃了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181250227.webp" alt="读库 2206" /></p><p>本周气温骤降，下了场大雪，小区里的雪景很漂亮。景区也是，不过太冷了加上路上不太好走，本周没去景区，分享几张小区里拍的照片。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351034.webp" alt="小区里的雪景_1" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351035.webp" alt="小区里的雪景_2" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351036.webp" alt="小区里的雪景_3" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351037.webp" alt="小区里的雪景_4" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351038.webp" alt="小区里的雪景_5" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351039.webp" alt="小区里的雪景_6" /></p><p>周末在家给小可爱过了生日，提前过了 😄。Happy Birthday! 🎂</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=6ue2pwOPdyk">什么是墨脱？| What is Mêdog?</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=NE5Wye5ON0s">什么是云南？| What is Yunnan?</a></li><li>小饭团儿 Midy - <a href="https://www.bilibili.com/video/BV1yg4y1Z7eA/">故事感写真怎么拍？拍照引导过程分享！</a></li><li><a href="https://www.youtube.com/watch?v=Dm480OcyJDY">【睡前消息 682】支持张雪峰批文科，没有独立性哪有尊严</a></li><li><a href="https://www.bilibili.com/video/BV1na4y1R7zA/">包了个机场！看看谁是地表最快电车！001FR VS 特斯拉 SP VS 路特斯 R+</a></li><li>林亦 LYi - <a href="https://www.bilibili.com/video/BV1e64y1V7mo/">年终总结：人工智能与人类终局</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><p><a href="https://www.solidot.org/story?sid=76842">x.com 是 Twitter，但其它 [a-z].com 呢？</a></p><blockquote><p><a href="http://x.com">x.com</a> 被重定向到 Twitter，或者现在的 Twitter 就是 X，但其它的单字母 .com 网站呢？除了 <a href="http://x.com">x.com</a>、<a href="http://q.com">q.com</a> 和 <a href="http://z.com">z.com</a>，其它如 <a href="http://a.com">a.com</a>、<a href="http://b.com">b.com</a> 等都是空白页。为什么这些单字母域名会不存在？管理全球域名的非盈利机构 IANA（Internet Assigned Numbers Authority）在推出 .com 后不久就撤回了购买单字母域名的可能性，已有的单字母域名如 <a href="http://x.com">x.com</a> 允许保留。此举可能是出于安全方面的考虑。举例来说，<a href="http://e.com">e.com</a> 的子域名 <a href="http://googl.e.com">googl.e.com</a> 可能会被一位粗心的用户当成是 <a href="http://google.com">google.com</a>。相比下，单字母的 .org 域名很多都能访问。</p></blockquote></li><li><p><a href="https://basicappleguy.com/basicappleblog/ugly-christmas-sweater-wallpapers">UGLY CHRISTMAS SWEATER WALLPAPERS</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181355707.webp" alt="HAPPY MACINTOSH" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181355708.webp" alt="CLARUS THE DOGCOW" /></p></li><li><p><a href="https://twitter.com/HiTw93/status/1735618802162008432">Tw93 分享的日本游记</a>，从人、生活、交通、工作等多方面分享自己的感受。via <a href="https://twitter.com/HiTw93/status/1735618802162008432">@HiTw93</a></p></li><li><p><a href="https://apps.apple.com/app/id6472669260">CrossCraft: Custom Crosswords</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181404976.webp" alt="CrossCraft: Custom Crosswords" /></p></li><li><p><a href="https://chromewebstore.google.com/detail/ikibhhoiahknmbgdnbfkooeienfmnakl">EpubKit</a>：一个用来保存网页然后把这些网页合并成一本 EPUB 电子书的插件。via <a href="https://twitter.com/randyloop/status/1735269008541364656">@randyloop</a></p></li><li><p>🤯 via <a href="https://twitter.com/AFutureD/status/1734590387027878061">@AFutureD</a>，<a href="https://github.com/Simon-He95/awesome-collections/blob/main/zshrc/.zshrc">Simon-He95/awesome-collections/blob/main/zshrc/.zshrc</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181408165.webp" alt="切输入法很烦的" /></p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 95 期。本篇是对过去一周（12.11 - 12.17）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;喜鹊造字发布了新字 &lt;a href=&quot;https://mp.weixin.qq.com/s/xAf8ibKrti-</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #94（2023.12.11）</title>
@@ -480,34 +506,6 @@
     
     
     <category term="App" scheme="http://kiligwyu.com/tags/App/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #82（2023.09.18）</title>
-    <link href="http://kiligwyu.com/newsletter/82/"/>
-    <id>http://kiligwyu.com/newsletter/82/</id>
-    <published>2023-09-18T02:55:15.000Z</published>
-    <updated>2023-09-18T08:19:31.334Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 82 期。本篇是对过去一周（09.11 - 09.17）的记录、思考与分享。</p><hr /><ul><li>又是精神内耗的一周，日常焦虑 😐。<br />从周一失败的面试开始，没做太多准备，回答的很不理想，本来会的也没答上来。<br />跟我一个朋友一样，明明是有能力的，可面试时就是给人一种很菜的感觉。<br />（P.S. 我这个朋友还是我内推力保进了我前司，后来的工作也做的确实很好。）</li><li>周三凌晨看了苹果秋季发布会，苹果年年挤牙膏，我个人在用 Apple Watch Series 6，还能再战几年，iPhone 15 Pro (Max) 我觉得是可以买的，因为我还在用 iPhone 11 Pro Max，但我实际上并不打算更新，原因见 <a href="https://blog.hzao.top/2023/09/15/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%B3%E5%AE%9A%E4%B8%8D%E4%B9%B0-iphone-15-%E7%B3%BB%E5%88%97/">我为什么决定不买 iPhone 15 系列</a>。</li><li>开发的两款 iOS 17 only 的没意义的 App 已经通过审核，就等 iOS 17 正式发布了，下周发了之后在写篇文章简单介绍下。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309181521698.webp" alt="两个 iOS 17 only 的 App" /></li><li>超高清无水印必应壁纸工具 <a href="https://apps.apple.com/app/id1573715683">Tapet</a> 更新了 1.11.0 版本，适配了 macOS Sonoma。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309181524106.webp" alt="Tapet" /></li><li>在家看了电影 <a href="https://movie.douban.com/subject/2147854/">好好先生 Yes Man (2008)</a>，周末在电影院看了 <a href="https://movie.douban.com/subject/35593344/">奥本海默 Oppenheimer (2023)</a>。<br />好长时间没去电影院看电影了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309181537582.webp" alt="好好先生 Yes Man (2008)" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309181537682.webp" alt="奥本海默 Oppenheimer (2023)" /></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>爱范儿 - <a href="https://www.bilibili.com/video/BV18P41187qv/">盘点苹果的十大奇葩产品，认出三个你就是真「果粉」</a><br />我是假果粉 [doge]。</li><li><a href="https://www.youtube.com/watch?v=5BIX5bH9jnE">国庆群众大会2023 李显龙总理华语演讲</a></li><li>橙红Iris - <a href="https://www.bilibili.com/video/BV1RN411p7b1/">硬核解读：iPhone 15 换 C 口背后的故事</a><br />iPhone 15 换 C 口，反而喜欢华为的用户高潮了，“苹果换华为口了”，华为遥遥领先赢麻了都。所以你问我为什么不喜欢华为…</li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>和菜头 · 槽边往事 - <a href="https://mp.weixin.qq.com/s/3aaQzWHy_JH11fWgLRyAAw">那些我喜欢写的事情</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://www.kickstarter.com/projects/flarup/the-macos-app-icon-book">The macOS App Icon Book</a><br />数字版 €29，精装版 €69。很多应用的图标都很精致漂亮，如果你恰好财力雄厚，又喜欢漂亮图标，可以买来收藏了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202309181550040.gif" alt="The macOS App Icon Book" /></li><li>USB-C 线缆总结以及购买建议：<a href="https://twitter.com/Blankwonder/status/1703046503286378930">@Blankwonder</a></li><li><a href="https://github.com/Helixform/FluidRecyclerView">Helixform/FluidRecyclerView</a>: Brings the iOS scrolling experience to Android.</li><li>关于 App 备案，对于个人开发者似乎影响不大： <a href="https://twitter.com/fatbobman/status/1702513679466426472">@fatbobman</a></li><li><a href="https://apps.apple.com/app/id1551277937">谜底空白</a> 新的 visionOS 设计风格的小组件 iBoard 真好看。<a href="https://twitter.com/liuyi0922/status/1702130379585654811">@liuyi0922</a></li><li><a href="https://hengshu.org">横竖</a> - 中文电子书横排、竖排转换工具</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 82 期。本篇是对过去一周（09.11 - 09.17）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;又是精神内耗的一周，日常焦虑 😐。&lt;br /&gt;
-从周一失败的面试开始，没做太多准备，回答的很不理想，</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   
