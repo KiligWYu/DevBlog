@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2023-12-25T07:42:10.074Z</updated>
+  <updated>2024-01-01T15:02:21.352Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #97（2024.01.01）</title>
+    <link href="http://kiligwyu.com/newsletter/97/"/>
+    <id>http://kiligwyu.com/newsletter/97/</id>
+    <published>2024-01-01T12:57:52.000Z</published>
+    <updated>2024-01-01T15:02:21.352Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 97 期。本篇是对过去一周（23.12.25 - 12.31）的记录、思考与分享。</p><hr /><p>新年快乐啊朋友们！</p><p>最近在 Safari 上遇到部分网站的 Cloudflare 验证会卡住的问题，经过尝试，最后发现是 Safari 的一个拓展造成的，把它所有网站的访问权限（或者只把该网站的访问权限）关掉就好了。</p><p>上期周报里我说，不出意外的话元旦过后我就该上班了，可意外偏偏来的飞快，周二下午收到 offer，周三下午公司就变卦了，周一跟人事沟通时候对方还强调了“契约精神”。算了，我另外再找就是了，塞翁失马，焉知非福。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.bilibili.com/video/BV1Yb4y137BN/">B 站百大 up 主怎么做评测？算法代替天赋【先看 × 问题不大】（1）</a></li><li>bopular - <a href="https://www.bilibili.com/video/BV14e411z7XA/">我的 2023</a></li><li>Apple - <a href="https://www.youtube.com/watch?v=07cKD8GK__c">iPhone 15 Plus | Miss You | Apple</a></li><li><a href="https://www.bilibili.com/video/BV1Lj411n7M3/">支个招！百 大 UP 第 一 步，___</a></li><li>柴知道 &amp; 铁打的郎中 - <a href="https://www.bilibili.com/video/BV1aa4y1B7FL/">50 跟 1000 元的眼镜片怎么选？国产镜片真的比进口的差？【柴知道】</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1gK411b79Q/">2023 年狗刨片头混剪来啦 [tv_doge]！</a></li><li><a href="https://www.youtube.com/@user-dt4hx7ml3i/">豪哥喝一杯</a></li><li>爪 - <a href="https://www.youtube.com/watch?v=zEpuMHZqcfk">2023 年的最后一天，第一次 vlog 尝试</a></li><li><a href="https://www.youtube.com/@MegabitsStudio">Megabits Studio</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Fatbobman - <a href="https://fatbobman.com/zh/posts/blog-update-chronicle-2024/">博客更新记：用新博客迎接 2024</a></li><li>Hank’s Blog - <a href="https://zhaohongxuan.github.io/2023/12/27/2023-review/">再见，我的 2023</a></li><li><a href="https://trycombine.com/posts/marin-side-projects-2023/">Marin’s Side Projects 2023</a></li><li>61 - <a href="https://61.life/2023/1230">📖2023 阅读记录</a></li><li>象牙山刘能 / 黄大龙 - <a href="https://disksing.com/life-recording/">都 2024 了，你还没随身带录音笔吗？</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg7pPDJceZ7bIpHwsLA">2023 年 12 月必应超高清无水印壁纸</a></li><li><a href="https://apps.apple.com/app/id1515035333">小鱼短信</a>：基于机器学习的垃圾短信链接应用，类似 <a href="https://apps.apple.com/app/id1642682818">熊猫吃短信</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401012217996.webp" alt="小鱼短信" /></li><li><a href="https://apps.apple.com/app/id6473619527">Strip Light</a>：屏幕跑马灯<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401012235381.webp" alt="Strip Light" /></li><li><a href="https://apps.apple.com/app/id1631654360">Dtd Playlist-StandBy Music App</a> 开发者分享的关于 Dtd 和 HpppyPlan 的由来。via <a href="https://twitter.com/DTD_STUDIOS/status/1740680551764562410">@DTD_STUDIOS</a><blockquote><p>Dtd 是 DAY TO DAY HAPPY DAY 的缩写。<br />HappyPlan 就是字面意思，开心计划。</p></blockquote></li><li>2023 圣诞音乐会节目【幸福在哪里？】via <a href="https://twitter.com/maoshen04/status/1740576939352760489">@maoshen04</a></li><li><a href="https://24hbook.com">24h 搜书网</a> via <a href="https://twitter.com/deepsixnone/status/1739976131267465482">@deepsixnone</a></li><li>房东不退押金该咋办？这个高赞回答应很实用。via <a href="https://twitter.com/Pandazhq/status/1738971034320015722">@Pandazhq</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 97 期。本篇是对过去一周（23.12.25 - 12.31）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;新年快乐啊朋友们！&lt;/p&gt;
+&lt;p&gt;最近在 Safari 上遇到部分网站的 Cloudflare 验证会卡住的</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #96（2023.12.25）</title>
@@ -468,34 +495,6 @@
 &lt;hr /&gt;
 &lt;p&gt;朋友们 &lt;s&gt;周三&lt;/s&gt; 周一好啊。八天很短，七天巨长 🤣。调休制度啥时候改啊。&lt;/p&gt;
 &lt;p&gt;本周没写多少代</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #84（2023.10.02）</title>
-    <link href="http://kiligwyu.com/newsletter/84/"/>
-    <id>http://kiligwyu.com/newsletter/84/</id>
-    <published>2023-10-02T12:28:39.000Z</published>
-    <updated>2023-10-02T13:25:59.482Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 84 期。本篇是对过去一周（09.25 - 10.01）的记录、思考与分享。</p><hr /><ul><li>祝各位朋友中秋国庆快乐、玩的开心 🎊<br />难得一个长假期，朋友们出去玩了没。我以前是小长假是坚决不出去玩的，路上堵，景区看人，没啥可玩的；但是现在我的想法改了，放假了就带小孩多出去转转看看，能避开高峰期那是最好不过了，但大多数人也就放假了才有空，平时上班孩子上学，只有放假了才都有空，那就算路上堵景区堵，也要尽可能多的带小孩出去玩。</li><li>我一放假就带小可爱回姥姥家了，假期这几天玩手机时间骤减，电脑也没开，吃吃喝喝加带孩儿，一天很快就过去了。</li><li>Timeline 上好多去日本的，还有去了又去的。我疫情前就想去日本的，到现在也还没提上日程，不过我早晚肯定是要去的。</li><li>从 2023 年 9 月 30 日起，任何 App 上架中国大陆地区的 App Store 都必须有效的互联网信息服务 (ICP) 备案号，新提交的 App 必须要备案号，但是更新 App 暂不需要，但以后肯定也是要的，不知道宽限期有多久。<br />之前游戏要版号国区已经下架大量游戏，大量优质好游戏国区都玩不到了；这次不知道要下架多少 App 呢，尤其是国外开发者的 App；已经有开发者明确表示放弃国区 App Store；国区 App Store 已经没什么待的价值了。<br />能转区还是转了吧。我自己从云上贵州开始就转美区了，新注册的美区的 Apple ID，只有偶尔登陆国区下载些只有国区 App Store 有的 App。另外我自己的几个小 App 大概也要放弃国区了。<br />网上有许多其他地区 Apple ID 的注册教程，我当时是参考少数派的 <a href="https://sspai.com/post/25837">App Store 注册美区 Apple ID 帐号终极指南</a> 这篇，2015 年的文章了，也许现在还适用。<br />注册其他区 Apple ID，支付是个问题，但也好解决，Apple 官网可以买 Gift Card。我自己是注册了美区的 PayPal 账号，绑定了花旗银行和招商银行的信用卡，这几年用下来，也花了不少钱了。</li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>-LKs- - <a href="https://www.bilibili.com/video/BV1wj411y7pq/">350w 粉 UP 主每月要花多少钱？时隔 5 年的读评论！</a></li><li>橙红 Iris - <a href="https://www.bilibili.com/video/BV1nH4y1U7Hy/">耗时 21 天，用动捕让李逵出道！索尼 mocopi 体验</a><br />橙红可太有趣了</li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://taresky.com/apple-id-us">美区 Apple ID 使用指南</a></li><li><a href="https://mp.weixin.qq.com/s/qDgSz27GdB67vEpEP538sA">角膜、小店和母亲的爱，他留给这世界了</a></li><li><a href="https://lepture.com/zh/2023/signup-attack">註冊郵箱攻擊</a></li></ul><h4 id="其他有趣的-2"><a class="markdownIt-Anchor" href="#其他有趣的-2"></a> 其他有趣的</h4><ul><li><a href="https://twitter.com/Koori_Moe/status/1708387949262553349">@Koori_Moe/status/1708387949262553349</a><br />FindMy Stickers Pack #1 这个贴纸有点意思，想要了。<a href="https://shop.koori.dev/products/findmy-stickers-pack-1">购买链接</a>。</li><li>Action Button 的最佳使用方式，<a href="https://twitter.com/niceoe/status/1708135353356632088">@niceoe/status/1708135353356632088</a></li><li>App 备案自助流程，<a href="https://twitter.com/hzlzh/status/1708104392757608887">@hzlzh/status/1708104392757608887</a></li><li>“确认了，全部大陆 app 均需 ICP 备案。”，<a href="https://twitter.com/JidanzaiDashan/status/1707673120478466063">@JidanzaiDashan/status/1707673120478466063</a></li><li>『有趣的冷知识：日本遇到这种事不会说“变砖”，会说“变镇纸”』，<a href="https://twitter.com/Megabits_mzq/status/1707046112488775848">@Megabits_mzq/status/1707046112488775848</a></li><li>“iOS 开发者工伤维权互助小组”，🤣 <a href="https://twitter.com/ezzz_au/status/1706447490940313764">@ezzz_au/status/1706447490940313764</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 84 期。本篇是对过去一周（09.25 - 10.01）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;祝各位朋友中秋国庆快乐、玩的开心 🎊&lt;br /&gt;
-难得一个长假期，朋友们出去玩了没。我以前是小长假是</summary>
       
     
     
