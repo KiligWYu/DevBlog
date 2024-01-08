@@ -1,0 +1,124 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Kilig 的碎周报 - #98（2024.01.08） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YLMXL0J5N0');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 6.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #98（2024.01.08）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #98（2024.01.08）</h1><div class="post-meta">2024-01-08<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/98/" href="/newsletter/98/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 98 期。本篇是对过去一周（01.01 - 01.07）的记录、思考与分享。</p>
+<hr />
+<p>本周一半（下午）时间在星巴克，一半时间在市图书（新）馆，才发现图书馆已经开门半个月了。以后如果出门，就优先去图书馆，离家 5 公里，比星巴克远点。<br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401081117028.webp" alt="市图书（新）馆楼层索引" /></p>
+<p>在用 SwiftUI + TCA 做个小玩具，主要是实践下 TCA，本周继续，可以基本完成。</p>
+<p>用 Swift 写了俩命令行小工具，把日常繁琐操作自动化一下，虽然用 Shell 脚本也是可以的，但我更熟 Swift 啊，写 Swift 可比写 Shell 脚本顺畅多了。</p>
+<h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/feIeCR6oFNM?si=_25Ir9ZgL7P0IVIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4>
+<p>新年伊始，年终总结的文章比较多，来看看别人的 2023。</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://61.life/2024/0101">谜底 2023</a>，<a target="_blank" rel="noopener" href="https://61.life/2024/0106">61 的 2023</a></li>
+<li>新一 - <a target="_blank" rel="noopener" href="https://a-wing.top/self/2023/12/31/2023">2023 总结：新的冒险</a></li>
+<li>印记 - <a target="_blank" rel="noopener" href="https://yinji.org/5233.html">聊聊这几年我做过的兼职</a></li>
+<li>[卡瓦邦噶] - <a target="_blank" rel="noopener" href="https://www.kawabangga.com/posts/5616">2023 年总结</a></li>
+<li>少数派 - <a target="_blank" rel="noopener" href="https://sspai.com/post/85521">不读可以先收藏：2023 少数派年度高分内容「合订本」</a></li>
+<li>程序员的猫 - <a target="_blank" rel="noopener" href="http://catcoding.me/p/2023-summary/">我的 2023</a></li>
+<li>木子 - <a target="_blank" rel="noopener" href="https://blog.k8s.li/honda-civic.html">考驾照和买二手车</a></li>
+</ul>
+<h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4>
+<ul>
+<li>天真的和感伤的小说家 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1BK41147Bq/">【年终忏悔录】要是我今年不太好，会不会让你开心一点！</a></li>
+<li>bopular - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1zC4y1i7QZ/">最近爱用的咖啡豆咖啡馆咖啡机</a></li>
+<li>小 Lin 说 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=iGz2uWl-kGc">一口气了解美联储 | 全球权力最大的金融机构</a></li>
+<li>TuTu 生活志 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=6KOCBrOiEnQ">迟到的 2023 年终盘点～去年有哪些最提升我幸福指数 / 生活乐趣 / 工作效率的东西</a></li>
+<li>aGameScout - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=GuJ5UuknsHU">After 34 Years, Someone Finally Beat Tetris</a></li>
+<li>星球研究所 Institute for Planets - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=P1PshivkNsg">东莞的故事，要从那一场虎门销烟开始说起…… | WHAT IS THE FULL PICTURS OF DONGGUAN?</a></li>
+<li>星球研究所 Institute for Planets - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=enOCUFgLrOI">地理如何造河南？河南如何 “造中华”？｜What is Henan ?</a></li>
+<li>柴知道 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1sN4y1s7xi/">你家外墙怎么总是鼓包掉皮？掏空 6 个钱包，买不来一个正经外立面？</a></li>
+<li>兔叭咯 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1K64y1J7uL/">【医学博士】一次高危行为感染艾滋病的概率有多高？| 如何判断自己是否感染艾滋病？</a></li>
+<li>平凡开箱 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1fg4y1S76A/">全球首发体验：小米 SU7 智能座舱</a></li>
+<li>老梁 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=rvQMc9BIHe4">老梁理解白岩松 2024 年促消费 如何解决老百姓 “有钱不敢花”</a></li>
+<li>睡前消息 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=9vyj2gjgqZM">【参考信息第 173 期】年度汉字 “苔”；核聚变竞赛</a></li>
+</ul>
+<h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.smashingmagazine.com/2023/12/desktop-wallpaper-calendars-january-2024/">The Magic Of New Beginnings (January 2024 Wallpapers Edition)</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/LunarBar-app/LunarBar">LunarBar-app/LunarBar</a>: A compact lunar calendar for your macOS menu bar.<br />
+LunarBar 的开发故事：<a target="_blank" rel="noopener" href="https://github.com/LunarBar-app/LunarBar/blob/main/DEV.md">LunarBar-app/LunarBar/blob/main/DEV.md</a></li>
+<li><a target="_blank" rel="noopener" href="https://apps.apple.com/app/id1566140414">SVG Shaper for SwiftUI</a> via <a target="_blank" rel="noopener" href="https://twitter.com/helje5/status/1743700778080952610">@helje5</a><br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401081054481.webp" alt="SVG Shaper for SwiftUI" /></li>
+<li>#TIL #省钱小妙招 咸鱼除了二手物品交易，还能交停车费、餐饮代点、买会员、买电影票等等，还非常便宜。via <a target="_blank" rel="noopener" href="https://twitter.com/meterscao/status/1743106356897518074">@meterscao</a></li>
+<li>《<a target="_blank" rel="noopener" href="https://twitter.com/DIGITALYCHEE/status/1742908103866396688">数码荔枝创业回忆录</a>》，via <a target="_blank" rel="noopener" href="https://twitter.com/DIGITALYCHEE/status/1742908103866396688">@DIGITALYCHEE</a></li>
+<li>#万物皆可苹果风 via 小红书，<a target="_blank" rel="noopener" href="https://twitter.com/hwangdevs/status/1742854508684960035">@hwangdevs</a></li>
+<li>#TIL How to get your app’s landing page url to display install button on 𝕏 via <a target="_blank" rel="noopener" href="https://twitter.com/Amani_Art/status/1742499095091036200">@Amani_Art</a></li>
+<li>捕蛇者说 - <a target="_blank" rel="noopener" href="https://pythonhunter.org/episodes/ep44">Ep 44. 与 Tualatrix 聊聊独立开发使用的技术栈</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/Lessica/Reveil">Lessica Lessica/Reveil</a>: Bringing back the most advanced system and security analysis tool.<br />
+<img src="https://github.com/Lessica/Reveil/raw/main/Artworks/Screenshot.png" alt="Reveil screenshot" /></li>
+</ul>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/97/">Kilig 的碎周报 - #97（2024.01.01）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json', true);
+  xhr.timeout = 2500;
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      $('.post-meta .post-comments-count').show();
+      var s = document.createElement('script');
+      s.id = 'dsq-count-scr';
+      s.src = 'https://kiligwyu.disqus.com/count.js';
+      s.async = true;
+      (document.head || document.body).appendChild(s);
+    }
+  };
+  xhr.ontimeout = function () { xhr.abort(); };
+  xhr.send(null);
+});</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/98/',
+    url: 'http://kiligwyu.com/newsletter/98/',
+    title: 'Kilig 的碎周报 - #98（2024.01.08）',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://kiligwyu.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/App/">App</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Learn-in-Public/">Learn in Public</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/">开封旅游</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a><span class="category-list-count">98</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Swift/" style="font-size: 15px;">Swift</a> <a href="/tags/App/" style="font-size: 15px;">App</a> <a href="/tags/macOS/" style="font-size: 15px;">macOS</a> <a href="/tags/Issues/" style="font-size: 15px;">Issues</a> <a href="/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E6%96%87/" style="font-size: 15px;">每日一文</a> <a href="/tags/shell/" style="font-size: 15px;">shell</a> <a href="/tags/aria2/" style="font-size: 15px;">aria2</a> <a href="/tags/Xcode/" style="font-size: 15px;">Xcode</a> <a href="/tags/Markdown/" style="font-size: 15px;">Markdown</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/iTunes-U/" style="font-size: 15px;">iTunes U</a> <a href="/tags/favicon/" style="font-size: 15px;">favicon</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Objective-C/" style="font-size: 15px;">Objective-C</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px;">算法</a> <a href="/tags/Padavan/" style="font-size: 15px;">Padavan</a> <a href="/tags/svn/" style="font-size: 15px;">svn</a> <a href="/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/" style="font-size: 15px;">开封旅游</a> <a href="/tags/WWDC/" style="font-size: 15px;">WWDC</a> <a href="/tags/lip/" style="font-size: 15px;">lip</a> <a href="/tags/newsletter/" style="font-size: 15px;">newsletter</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/newsletter/98/">Kilig 的碎周报 - #98（2024.01.08）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/97/">Kilig 的碎周报 - #97（2024.01.01）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/96/">Kilig 的碎周报 - #96（2023.12.25）</a></li><li class="post-list-item"><a class="post-list-link" href="/KaifengTravel/Kaifengfu/">开封旅游之开封府</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/95/">Kilig 的碎周报 - #95（2023.12.18）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/94/">Kilig 的碎周报 - #94（2023.12.11）</a></li><li class="post-list-item"><a class="post-list-link" href="/KaifengTravel/DaxiangguoTemple/">开封旅游之大相国寺</a></li><li class="post-list-item"><a class="post-list-link" href="/KaifengTravel/QifengHometown/">开封旅游之朱仙镇启封故园</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/93/">Kilig 的碎周报 - #93（2023.12.04）</a></li><li class="post-list-item"><a class="post-list-link" href="/newsletter/92/">Kilig 的碎周报 - #92（2023.11.27）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-comment-o"> 最近评论</i></div><script type="text/javascript" src="//kiligwyu.disqus.com/recent_comments_widget.js?num_items=5&amp;hide_avatars=1&amp;avatar_size=32&amp;excerpt_length=20&amp;hide_mods=1"></script></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
