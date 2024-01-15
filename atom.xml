@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-01-08T03:32:59.756Z</updated>
+  <updated>2024-01-15T09:12:05.409Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #99（2024.01.15）</title>
+    <link href="http://kiligwyu.com/newsletter/99/"/>
+    <id>http://kiligwyu.com/newsletter/99/</id>
+    <published>2024-01-15T07:46:30.000Z</published>
+    <updated>2024-01-15T09:12:05.409Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 99 期。本篇是对过去一周（01.08 - 01.14）的记录、思考与分享。</p><hr /><p>上周说的在用 SwiftUI + TCA 做的小玩具已经完成了，就差个 logo 了，本周上架 App Store。</p><p>周五晚上在外面吃了驴肉火锅，好吃。但是到家下车时候手指让车门夹了下（我真是个人才 🤡），右手无名指，指甲翘起来半个，图片就不放了，比较血腥，周六去媳妇儿单位包扎了下，然后每两天去消毒包扎一次。伤不重，没啥大碍，就是稍微有些不便。</p><p>车在地库被物业保洁剐蹭了一下，掉点漆，今天下午送 4S 店了。</p><p>年底了看了好多年终总结，推荐这几个：</p><ol><li>sofish -  <a href="https://mp.weixin.qq.com/s?__biz=MjM5NjI4MjM0Mw==&amp;mid=2652166294&amp;idx=1&amp;sn=475bf1b82f7f9943837b67bec399c5cd&amp;chksm=bd0bd21e8a7c5b084b576103690074bebfe1a96cfbdc5d7370ba727782cbbc8001bb2e84fe41&amp;token=241587091&amp;lang=zh_CN#rd">2023 小结</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1BK41147Bq/">【年终忏悔录】要是我今年不太好，会不会让你开心一点！</a></li><li>Randy - <a href="https://www.xiaoyuzhoufm.com/episode/65840dc73d5d24e9cb71cef7">2023 年终总结：Randy 对话 Randy</a></li></ol><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>耿同学讲故事 - <a href="https://www.bilibili.com/video/BV1ug4y1Q7gB/">被判死刑的药监局长，能拯救春晚收视率吗？</a></li><li>橙红 Iris - <a href="https://www.bilibili.com/video/BV1Hc411t7W6/">第一次直播，我竟然亏了 10W+ …</a><br />橙红太有趣了，一个抽奖视频都能整活儿</li><li>Ele 实验室 - <a href="https://www.bilibili.com/video/BV1yi4y1B7Jt/">【计算机博物志】自然语言处理的 “古往” 和 “今来”</a></li><li>Netflix - <a href="https://www.youtube.com/watch?v=mogSbMD6EcY">3 Body Problem</a><br />期待下奈飞的《三体》。<br><iframe width="560" height="315" src="https://www.youtube.com/embed/mogSbMD6EcY?si=FdR0zkxgdjss4cw2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><p>@sofish -  <a href="https://mp.weixin.qq.com/s?__biz=MjM5NjI4MjM0Mw==&amp;mid=2652166294&amp;idx=1&amp;sn=475bf1b82f7f9943837b67bec399c5cd&amp;chksm=bd0bd21e8a7c5b084b576103690074bebfe1a96cfbdc5d7370ba727782cbbc8001bb2e84fe41&amp;token=241587091&amp;lang=zh_CN#rd">2023 小结</a></p><blockquote><p>“你的人生目标不是最大化财富，而是最大化人生体验… 相比于浪费人生，人们更加担心钱被花光；你的思维必须倒过来，你最大的恐惧应该是时间与人生被浪费，而不是 ‘到了 80 岁我还能有多少多少钱’ 这个问题。”（《最优解人生》），我支持这种脑回路，并这么走。</p><p>鸣沙山是一个好地方，我几乎天天跑去看夕阳。有天我去边上的沙漠骑骆驼，五人一队，中途有个滑沙项目，需要多数人想去才会停下，导游问了我前面的四位都说不去。在确认大家不赶时间后，我问假设我请客是不是可以同去，结果我们都获得一次刺激的滑沙体验。</p><p>孩子们对于世界的理解更接近本质 —— 有玩得来的伙伴，有好玩的事。成人似乎总希望抓住虚无的意义，比如历史名胜、人文景观，好像一旦抓住某种意义，生命便能无悔。</p><p>人生是游戏，幸福是重复，而人是多重自我的集合。我们从人、书、想象里学习而拥有不同、独立的自我，拼成了一个我。一个人拥有的自我越多，看到的世界便越丰富。</p></blockquote><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://sspai.com/page/beeper-power">少数派的这款移动电源</a> 有点意思。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401151621424.webp" alt="BB 机移动电源" /></li><li><a href="https://www.lacie.com/as/en/support/kb/LaCie%2BDrive%2BIcons/">LaCie 移动硬盘的图标</a>，via <a href="https://twitter.com/lewangx/status/1745034621379915788">@lewangx</a></li><li>捕蛇者说 - <a href="https://pythonhunter.org/episodes/ep45">Ep 45. 与 Tualatrix 聊聊独立开发的近况</a><br />还有第 44 期：<a href="https://pythonhunter.org/episodes/ep44">Ep 44. 与 Tualatrix 聊聊独立开发使用的技术栈</a></li><li><a href="https://www.landiannews.com/archives/101766.html">Windows 资源管理器进程占用很高的 CPU？有可能是百度网盘干的蠢事</a><br />多少年了，这些个大厂软件还是这么流氓。</li><li><a href="https://apps.apple.com/app/id493136154">Clear 2.0</a> 终于发布了，但是这包大小让人无语啊，4，5 百 MB 啊，当然大部分都是图片音频资源，压缩一下能减少不少。应用内有个隐藏彩蛋（via <a href="https://twitter.com/hwangdevs/status/1744984771535728910">@hwangdevs</a>）。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401151633348.webp" alt="Clear Lists" /></li><li>#TIL iMessage 的爬虫 user-agent 居然是<br /><code>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0</code><br />，装作自己是 facebook/twitter 的 bot。via <a href="https://twitter.com/niceoe/status/1744598383711674561">@niceoe</a></li><li><a href="https://twitter.com/niceoe/status/1744574419937423673">@niceoe</a> 分享的自己 GitHub 的 Star List：<a href="https://github.com/stars/j178/lists/modern-cli">Modern CLI</a></li><li>2024 Apple Vision Pro 的预告片 “Get Ready” vs 2007 iPhone 的预告片 “Hello” via <a href="https://twitter.com/Krgn1002/status/1744549229794922557">@Krgn1002</a><br><iframe width="560" height="315" src="https://www.youtube.com/embed/aqTIB_q40bo?si=P0XeJzVvXSW2PgMp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><iframe width="560" height="315" src="https://www.youtube.com/embed/mmiWTKZzBLY?si=o-QbR1YZvhPc2wUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li><li>把鼠须管输入法的系统托盘小图标换成 Ventura/Monoma 系统那种长方形风格，via <a href="https://twitter.com/lewangx/status/1744371641700725118">@lewangx</a></li><li>利用 iOS 的色彩滤镜（color filter）来模拟电子书的显示效果，via <a href="https://twitter.com/aries4zx/status/1744296506310680771">@aries4zx</a></li><li>Randy 分享的 50 几张好看的电子书屏保，via <a href="https://twitter.com/randyloop/status/1744280905827635710">@randyloop</a></li><li>交往的本质，via <a href="https://twitter.com/brabalawuka/status/1744269165199032521">@brabalawuka</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401151646586.webp" alt="交往的本质" /></li><li>#TIL 如何注销 V2EX 账号：发帖艾特 <a href="https://twitter.com/Livid">@Livid</a>，请删除我的账号 🤣 via <a href="https://twitter.com/TTTTTTTcp/status/1744161066387714383">@TTTTTTTcp</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 99 期。本篇是对过去一周（01.08 - 01.14）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;上周说的在用 SwiftUI + TCA 做的小玩具已经完成了，就差个 logo 了，本周上架 App Store</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #98（2024.01.08）</title>
@@ -468,32 +494,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 87 期。本篇是对过去一周（10.16 - 10.22）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;更新了 &lt;a href=&quot;https://apps.apple.com/app/id1573715683&quot;&gt;Tap</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #86（2023.10.16）</title>
-    <link href="http://kiligwyu.com/newsletter/86/"/>
-    <id>http://kiligwyu.com/newsletter/86/</id>
-    <published>2023-10-16T02:06:31.000Z</published>
-    <updated>2023-10-16T07:11:09.234Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 86 期。本篇是对过去一周（10.09 - 10.15）的记录、思考与分享。</p><hr /><p>最近好多感冒发烧的小朋友，严重的还有肺炎。小可爱也生病了，发烧、咳嗽，一周了还没好，药也没少吃，医院检查了没啥大碍，希望早点好。<br />我也有点感冒了，发烧了一个晚上，轻微咳嗽。</p><p>Dota 2 的 <a href="https://www.dota2.com/esports/ti12/schedule">TI12 国际邀请赛</a> 也已经开始了，看看比赛。</p><p>这周的天气挺好，下午时候去汴西湖边骑车、坐坐，晒晒太阳，喝喝咖啡奶茶，非常惬意。湖边的红叶还没完全红，再过段时间，等红叶红了，就非常好看了。<br />开封第 41 界菊花展快开始了，市民广场上好多菊花，有的开了，还有很多含苞待放。周日去看了眼，好多人，没咋拍照。<br />我还想着练习练习拍照，人物、风景等。下周我去多拍点照片（汴西湖、菊花），放在下期的碎周报里。<br />另外，等菊花节过去了再买张开封旅游年票（菊展前 15 日开始年票就暂停使用了），把开封所有景点都去玩一遍，再多拍些照片，到时也会发在碎周报里。</p><p>十一假期一杯咖啡咖啡也没喝，现在又忍不住了，买了 illy 的咖啡粉和挂耳袋，自己冲，咖啡粉很细，适合做意式浓缩，，管他什么水温、水粉比、冲泡手法，拿大烧水壶夏季八冲。到双十一再囤一些咖啡和装备。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161259065.webp" alt="夏季八冲 illy 挂耳" /></p><p>Safari 的 Tampermonkey 拓展，最近经常是无响应呢，所以换 Edge 浏览器试试，结果 <a href="https://twitter.com/waylybaye/status/1713175874391175432">Chromium 内核的浏览器都有“连接中断”的问题</a>，可能是 macOS Sonoma 系统的问题，但 Safari 就没有这样的问题，另外我还是喜欢 Safari，就又用回了 Safari，但部分脚本会不正常，先用着必要时候再切到 Chrome 或 Edge。</p><p><a href="https://apps.apple.com/app/id6463897064">Kroma</a> 发了两个版本，色彩库增加了搜索功能，还增加了一个彩蛋（摇一摇）。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="mv"><a class="markdownIt-Anchor" href="#mv"></a> MV</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/_ws0QtAiiXQ?si=tH-uUcFmLGXo7Qag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h4 id="apps"><a class="markdownIt-Anchor" href="#apps"></a> Apps</h4><ul><li><a href="https://www.appinn.com/tomatobar-for-mac/">TomatoBar – 优雅的 macOS 菜单栏番茄钟，带音效</a>，<a href="https://github.com/ivoronin/TomatoBar">ivoronin/TomatoBar</a><br /><img src="https://github.com/ivoronin/TomatoBar/raw/main/screenshot.png?raw=true" alt="TomatoBar" /></li><li><a href="https://www.appinn.com/singlefile-v1-22/">著名网页离线保存工具 SingleFile v1.22 新增通用自解压 ZIP 功能，可节省 4 倍硬盘空间</a></li><li><a href="https://apps.apple.com/app/id1589044499">Randa - Generate random numbers</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161449206.webp" alt="Randa" /></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>flypig 的小号 - <a href="https://www.bilibili.com/video/BV1ew411r7UD/">语出惊人！与 Apple 高级副总裁 Joz 的假期对谈</a></li><li><a href="https://www.youtube.com/watch?v=oIqFELl3n7Q">荷兰工作｜从普通人到模特，Yi 如何踏出第一步？｜小人物 A Nobody Podcast</a></li><li>Ele 实验室 - <a href="https://www.bilibili.com/video/BV1Zu4y1W7dm/">一些反直觉概率的计算机模拟</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=WoPwVT9Nrdw">【精彩】微软收购动视暴雪 | 世纪收购战争</a></li><li>Phoenix Hou - <a href="https://www.youtube.com/watch?v=xBrl8EQotK8">如何从零开始掌握一门语言</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://pipuwong.com/giffgaff">买了 1 张 0 月租的英国手机卡：GiffGaff 卡</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://fatbobman.substack.com/">Fatbobman’s Swift Weekly</a></li><li>觅 2 - <a href="https://www.bilibili.com/video/BV1FC4y1G7rj/">做了一个 B 兜小游戏</a>，有微信版和 <a href="https://gamemaker.weixin.qq.com/#/game?game_id=lbZDQ5NWM2ODAtYTZmZS00N2Y4LWIwN2QtNDZjZGEzZTQ2NTg2">网页版</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161438178.avif" alt="B 兜游戏微信小程序版" /></li><li>作为一个工程师，用到的一些小众但是非常实用的 Chrome 插件：<a href="https://twitter.com/vikingmute/status/1713018751824900157">@vikingmute</a></li><li>未联网 app 备案方案：针对 “不联网不需要备案，但不备案不能上应用商店” 的困境，我的做法是建个网站，里面放上产品的介绍和下载链接，然后用这个网站来备案。App 不用改，可以继续单机。<a href="https://twitter.com/waylybaye/status/1712999631951642647">@waylybaye</a></li><li>挑战全程坐公交 🚌 安徽到上海，<a href="https://twitter.com/pengchujin/status/1712127881965629859">@pengchujin</a></li><li>小格说 - <a href="https://www.youtube.com/watch?v=kAq0tO6TeTw">拖更一年的以色列游记第一弹 —— 以色列和美国很像？！</a></li><li><a href="https://twitter.com/theapplehub/status/1711601586739527939">iPhone 15 Plus vs iPhone 15 Pro Max by @theapplehub</a>，<a href="https://twitter.com/theapplehub/status/1711381734422647207">iPhone 15 vs iPhone 15 Pro</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310161501894.webp" alt="iPhone 15 Plus vs iPhone 15 Pro Max" /></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 86 期。本篇是对过去一周（10.09 - 10.15）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;最近好多感冒发烧的小朋友，严重的还有肺炎。小可爱也生病了，发烧、咳嗽，一周了还没好，药也没少吃，医院检查了没啥大碍</summary>
       
     
     
