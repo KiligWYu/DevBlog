@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-01-22T06:25:40.377Z</updated>
+  <updated>2024-01-29T07:53:57.619Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #101（2024.01.29）</title>
+    <link href="http://kiligwyu.com/newsletter/101/"/>
+    <id>http://kiligwyu.com/newsletter/101/</id>
+    <published>2024-01-29T02:10:08.000Z</published>
+    <updated>2024-01-29T07:53:57.619Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 101 期。本篇是对过去一周（01.22 - 01.28）的记录、思考与分享。</p><hr /><p>在看王小波《黄金时代》，本周看完了《<a href="https://book.douban.com/subject/27013746/">革命时期的爱情</a>》，《黄金时代》有好多版本，包含的短片小说也不一样，我在看的版本是  <a href="https://book.douban.com/subject/1089243/">花城出版社的 1999 年版</a>，包含《黄金时代》、《革命时期的爱情》、《我的阴阳两界》。</p><p>用 Swift 简单写了个命令行爬虫工具，爬取某 X 站的磁力链接，省的再一个个点开页面复制了 😄。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.youtube.com/watch?v=U1unmE6OlYM">Shot on iPhone 15 Pro Max | Chinese New Year - Little Garlic | Apple</a></li><li>b 站 up 主 - <a href="https://space.bilibili.com/514273130">老东北美食</a></li><li><a href="https://www.bilibili.com/video/BV1bK411b7wy/">这朵《繁花》让我恶心！！避雷小说批注版！！</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>王登科 - <a href="https://greatdk.com/1962.html">哄哄模拟器的完整复盘，火了，但一度让我很发愁</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://apps.apple.com/app/lok-board/id1621242252">Lok Board</a>，iPad 生产力工具。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401291533506.webp" alt="Lok Board" /></li><li><a href="https://www.landiannews.com/archives/101996.html">软件破解站分发带毒软件专门攻击 Mac 用户 请 Mac 用户立即自查</a><br />使用正版软件，不仅仅是为了支持开发者，也为了个人数据安全。我电脑上就没有盗版软件，这些年光买软件都花了不少了。</li><li><a href="https://linux.do/t/topic/1051">你们赢了，但我却没有输</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 101 期。本篇是对过去一周（01.22 - 01.28）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;在看王小波《黄金时代》，本周看完了《&lt;a href=&quot;https://book.douban.com/subje</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #100（2024.01.22）</title>
@@ -469,32 +495,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 89 期。本篇是对过去一周（10.30 - 11.05）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;周日去河南财经政法大学参加了软考，中级软件设计师，考的比我预期的要好一些（谜之自信），不过我一早就做好了不过的准备</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #88（2023.10.30）</title>
-    <link href="http://kiligwyu.com/newsletter/88/"/>
-    <id>http://kiligwyu.com/newsletter/88/</id>
-    <published>2023-10-30T05:46:28.000Z</published>
-    <updated>2023-10-30T07:03:55.974Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 88 期。本篇是对过去一周（10.23 - 10.29）的记录、思考与分享。</p><hr /><p>看完了《<a href="https://book.douban.com/subject/1162566/">终极实验</a>》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301352285.webp" alt="终极实验" /></p><p>周末去给小可爱姥姥搬家，还没有正式入住，先把部分家具搬过去，沙发、茶几、电视柜、床、冰箱等大件，忙活一天，胳膊疼手疼，平时不咋运动猛一干活肌肉疼 🤣。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>Apple 发布会上画的饼 - <a href="https://apps.apple.com/app/id6447391597">手记</a> app 终于上架了，但是只支持 iOS 17.2，但是 17.2 正式版还没发呢。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301433417.webp" alt="Journal" /></li><li><a href="https://twitter.com/BasicAppleGuy">@BasicAppleGuy</a> 设计的新壁纸 <a href="https://basicappleguy.com/basicappleblog/macos-ten-peaks">MACOS TEN PEAKS</a> 和 <a href="https://basicappleguy.com/haberdashery/scaryfast">SCARY FAST.</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301450931.webp" alt="MACOS TEN PEAKS" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301448740.webp" alt="SCARY FAST APPLE EVENT LOGO &amp; SCARY FAST FINDER" /></li><li>YouTube 去广告插件 uBlock origin 和 <a href="https://greasyfork.org/zh-CN/scripts/459541-youtube%E5%8E%BB%E5%B9%BF%E5%91%8A-youtube-ad-blocker">脚本</a>，<a href="https://twitter.com/Megabits_mzq/status/1717552913818722721">@Megabits_mzq</a>。</li><li>Setapp - <a href="https://cdn.setapp.com/blog/images/Mac_Apps_Report_2023.pdf">Mac apps Report 2023</a></li><li>Ikigai 图，<a href="https://twitter.com/vista8/status/1716829901188485420">@vista8</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202310301501377.webp" alt="Ikigai 图" /><blockquote><p>Ikigai 是一个源于日本的概念，意为 “生活的意义” 或 “存在的意义”。它由四个核心元素组成：你热爱的事物、你擅长的事物、世界需要的事物，以及你可以从中获得报酬的事物。这四个元素两两相交，形成了 6 种不同的组合，每种组合都有其独特的含义和影响。</p></blockquote></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 88 期。本篇是对过去一周（10.23 - 10.29）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;看完了《&lt;a href=&quot;https://book.douban.com/subject/1162566/&quot;&gt;终极</summary>
       
     
     
