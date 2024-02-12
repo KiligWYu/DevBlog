@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-02-05T13:12:39.059Z</updated>
+  <updated>2024-02-12T08:48:56.648Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #103（2024.02.12）</title>
+    <link href="http://kiligwyu.com/newsletter/103/"/>
+    <id>http://kiligwyu.com/newsletter/103/</id>
+    <published>2024-02-12T08:24:26.000Z</published>
+    <updated>2024-02-12T08:48:56.648Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 103 期。本篇是对过去一周（02.05 - 02.11）的记录、思考与分享。</p><hr /><p>新年快乐！朋友们。🎆🎇🧨</p><hr /><p>本周又是独自带孩儿。终于熬到媳妇儿放假了，今年回媳妇儿家过年，又赶上孩子舅妈生二胎，月嫂又放鸽子了，重新再找的月嫂得到年后才来，媳妇儿又忙疯了，还得我自己带孩儿 🤣。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.bilibili.com/video/BV1vu4m1K7eG/">【官方双语】真怕了 - ElectroBoom 科技大升级 @FPS 罗兹 @辉光字幕组 联合制作 #linus 谈科技</a><br />哇，梦幻联动了。</li><li><a href="https://www.bilibili.com/video/BV1Sy42187RW/">先收藏！如何科学地配一副好眼镜？近视20年，我才知道自己没戴过好眼镜【柴知道】</a></li><li><a href="https://www.youtube.com/watch?v=JVJPAYwY8Us">Vision Pro Teardown: Behind the Complex and Creepy Tech</a><ul><li><a href="https://www.youtube.com/watch?v=wt22M5nWJ4Q">Vision Pro Teardown Part 2 - Is the Apple Vision Pro Really 4K?</a></li></ul></li></ul><hr /><p>本周没太多好分享的，手机都没空刷，就这吧先，下周就轻松了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 103 期。本篇是对过去一周（02.05 - 02.11）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;新年快乐！朋友们。🎆🎇🧨&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;本周又是独自带孩儿。终于熬到媳妇儿放假了，今年回媳妇</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #102（2024.02.05）</title>
@@ -479,30 +507,6 @@
     
     
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MSS 1.3 版本发布：更多使用方式</title>
-    <link href="http://kiligwyu.com/mss-1-3/"/>
-    <id>http://kiligwyu.com/mss-1-3/</id>
-    <published>2023-11-09T07:23:19.000Z</published>
-    <updated>2023-11-09T08:30:16.509Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://apps.apple.com/app/id1633245174">MSS（图影）</a> 1.3 版本已经上架 Mac App Store，距离上个版本已经过了半年了，本次更新增加了服务和打开方式，后面有介绍，还修复了快速操作的本地化问题，还新做了张 App Store 里的预览图片。</p><h2 id="mss"><a class="markdownIt-Anchor" href="#mss"></a> MSS</h2><p>MSS，是『Mac Style Screenshot』的缩写，中文名『图影』，是一个给图片添加阴影效果的小工具，模拟系统窗口截图时的阴影效果。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091540125.webp" alt="MSS Preview" /></p><h2 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h2><p>除了常规的打开 MSS 拖拽图片进去的使用方法外，MSS 还支持快速操作、服务、右键打开等方式使用。</p><h3 id="快速操作"><a class="markdownIt-Anchor" href="#快速操作"></a> 快速操作</h3><p>在访达中选中图片后，在右侧的预览下方可以自定义快速操作，把 MSS 加进去，然后就可以快速地给图片添加阴影，app 都不用打开。<br />在图片上右键 -&gt; 快速操作 -&gt; MSS 也一样。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091556316.webp" alt="访达图片预览中使用 MSS" /></p><p>在 系统设置 -&gt; 隐私与安全性 -&gt; 拓展 -&gt; 访达 -&gt; 选中 MSS，启用 MSS 快速操作。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091557224.webp" alt="选择在访达中显示的快速操作" /></p><h3 id="服务"><a class="markdownIt-Anchor" href="#服务"></a> 服务</h3><p>MSS 也支持作为服务启动，在 系统设置 -&gt; 键盘 -&gt; 键盘快捷键 -&gt; 服务 -&gt; 图片 -&gt; 选中 MSS，启用 MSS 服务。另外，服务是支持自定义快捷键的，但使用时会打开主程序。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091604153.webp" alt="在系统设置中启用 MSS 服务" /></p><p>在图片上右键 -&gt; 服务 -&gt; MSS，使用 MSS 服务。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091606868.webp" alt="使用 MSS 服务" /></p><h3 id="使用-mss-打开图片"><a class="markdownIt-Anchor" href="#使用-mss-打开图片"></a> 使用 MSS 打开图片</h3><p>在图片上右键 -&gt; 打开方式 -&gt; MSS。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091608291.webp" alt="使用 MSS 打开图片" /></p><h2 id="最后"><a class="markdownIt-Anchor" href="#最后"></a> 最后</h2><p>MSS 还有许多不足之处，阴影也没有系统窗口阴影细腻，但是我自己很喜欢的一个小工具，后续会不断更新维护的，也会一直免费提供。如果你恰好也喜欢 MSS，还请 <a href="macappstore://apps.apple.com/app/id1633245174?action=write-review">在 Mac App Store 给个好评</a>，非常感谢！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/app/id1633245174&quot;&gt;MSS（图影）&lt;/a&gt; 1.3 版本已经上架 Mac App Store，距离上个版本已经过了半年了，本次更新增加了服务和打开方式，后面有介绍，还修复了快速操作的本地化问题，</summary>
-      
-    
-    
-    
-    <category term="App" scheme="http://kiligwyu.com/categories/App/"/>
-    
-    
-    <category term="App" scheme="http://kiligwyu.com/tags/App/"/>
     
   </entry>
   
