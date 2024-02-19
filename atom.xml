@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-02-12T08:48:56.648Z</updated>
+  <updated>2024-02-19T08:53:02.381Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #104（2024.02.19）</title>
+    <link href="http://kiligwyu.com/newsletter/104/"/>
+    <id>http://kiligwyu.com/newsletter/104/</id>
+    <published>2024-02-19T06:40:01.000Z</published>
+    <updated>2024-02-19T08:53:02.381Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 104 期。本篇是对过去一周（02.12 - 02.18）的记录、思考与分享。</p><hr /><p>新年快乐啊朋友们！都返程开工了吧，假期过的如何，返程路上堵吗？堵在路上蛮糟心的，比如堵在海南、新疆等，最近刷视频看到的，太难了。</p><p>我们初四（02.13）从孩子姥姥家回来了，孩子姑姑要来。一上高速就堵在了转高速的道上，看了下导航，果断绕行，避开拥堵，稍绕远了一点点，但不堵。<br />孩子姑姑在这宅了两天，候补到票就走了。<br />我妈也来了，我可以轻松一下了。<br />我爸车子在地库放没电了，才半个月，我准备买根电线自己搭电了。</p><p>又拿 Swift 写个命令行小工具，使用 <a href="https://developer.apple.com/documentation/linkpresentation">LinkPresentation</a> 把链接转成 Markdown 格式，个别网站的 Metadata 数据不全的就扒网站 HTML 解析获取。省得再复制创作者、标题、链接再手动拼 Markdown 了，写碎周报效率又提升了。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Tw93 - <a href="https://tw93.fun/2024-02-09/tools.html">我的年度工具折腾之旅</a></li><li>小众软件 - <a href="https://www.appinn.com/rssworker/">RSSWorker - 为 B 站动态、TG 频道、微博用户、小红书用户生成 RSS[CF Worker]</a><ul><li><a href="https://www.appinn.com/appinn-2023-top-15-list-1/">小众软件 2023 年度精选.1</a></li><li><a href="https://www.appinn.com/2023-appinn-wechat-mp-top10/">兔年（2023）小众软件微信公众号阅读数前 10 的文章</a></li><li><a href="https://www.appinn.com/fix-tim-for-macos/">Fix Tim - 不重启，修 Mac：不用重启修复 macOS 使用中 bug 的工具</a></li><li><a href="https://www.appinn.com/mahjongg-mentor/">在线麻将接龙 - 经典配对游戏，龙年主题上线</a></li><li><a href="https://www.appinn.com/pinwin-for-win/">PinWin - Win 11 可用，置顶任何窗口</a></li></ul></li><li>少数派 - <a href="https://sspai.com/post/86214">人机交互的基石｜Apple 字体设计排版深度解析</a><ul><li><a href="https://sspai.com/post/82267">EP01. 丰田皇冠的前世今生</a></li></ul></li><li>蓝点网 - <a href="https://www.landiannews.com/download/102371.html">[下载] Linux 中国发布全站文章备份数据备份 包含 1.77GB 图片等附件</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>惜车工场 CSW - <a href="https://www.bilibili.com/video/BV1NS421K7rW/">与车共舞 | JENNIE《YOU &amp; ME》全曲翻跳！像素级还原！！</a><ul><li><a href="https://www.bilibili.com/video/BV1TZ421S7dp/">女装拜年！龙年规划！价值 1000W 的年度情怀车大片！一次性放送！「惜车龙年特辑」</a></li></ul></li><li>毕的二阶导 - <a href="https://www.bilibili.com/video/BV1sm411Q7eY/">大过年的，千万不要这么煮饺子！</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=Qa9YXSj34h4">【硬核】神秘的金融产品 如何导致富豪们接连爆仓</a></li><li>酱紫表 - <a href="https://www.youtube.com/watch?v=1_MMS2kzqJc">你的手机也能用上 eSIM｜5ber eSIM 使用教程带你开卡香港 ClubSim</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1hu4m1P7Mu/">【杜比视界】激发你设备的极限画质，影视飓风 2023-2024 免费样片</a></li><li>老师好我叫何同学 - <a href="https://www.bilibili.com/video/BV1SB421z7cq/">【何同学竖屏】70000 块的烟花比 5 毛的好多少？</a></li><li>Little Chinese Everywhere - <a href="https://www.youtube.com/watch?v=vf1-p60nFSA">Entering China’s Tropical PARADISE 🇨🇳 I S2, EP65</a></li><li>YouTube Channel - <a href="https://www.youtube.com/@xiaorenwu">中國小人物</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>少数派 - <a href="https://sspai.com/post/86310">派早报：iFixit 拆解 Vision Pro，谷歌正式移除网页缓存功能</a><br />谷歌移除网页缓存功能，我说咋找不到网页缓存的入口了呢。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 104 期。本篇是对过去一周（02.12 - 02.18）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;新年快乐啊朋友们！都返程开工了吧，假期过的如何，返程路上堵吗？堵在路上蛮糟心的，比如堵在海南、新疆等，最近刷视频</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #103（2024.02.12）</title>
@@ -481,32 +507,6 @@
     
     
     <category term="开封旅游" scheme="http://kiligwyu.com/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #90（2023.11.13）</title>
-    <link href="http://kiligwyu.com/newsletter/90/"/>
-    <id>http://kiligwyu.com/newsletter/90/</id>
-    <published>2023-11-13T02:20:03.000Z</published>
-    <updated>2023-11-13T03:24:39.600Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 90 期。本篇是对过去一周（11.06 - 11.12）的记录、思考与分享。</p><hr /><p>看了电影 <a href="https://movie.douban.com/subject/1291838/">红猪 紅の豚 (1992)</a>，92 年的电影，国内现在才要上映了，我就去找资源看看，推荐。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311131030380.webp" alt="红猪 紅の豚 (1992)" /></p><p>我的给图片添加类似 macOS 窗口截图阴影的 app <a href="https://apps.apple.com/app/id1633245174">MSS</a> 发了 1.3 版本，增加了服务和打开方式，详请可见 <a href="/mss-1-3/">MSS 1.3 版本发布：更多使用方式</a> 这篇。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311091540125.webp" alt="MSS Preview" /></p><p>买了开封旅游年票，准备挨个打卡拍照，到时照片也发在播客里。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311131026389.webp" alt="开封旅游年票" /></p><p>双 11 也结束了，我除了买了些咖啡及相关的用具（手冲壶）外，没买别的，也没什么想买的。</p><p>在读《金阁寺》，计划这周读完的，但没有，下周读完。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>林亦 LYi - <a href="https://www.youtube.com/watch?v=1hc1pyzT6aw">8G 内存？苹果高管怎么看 M3 MacBook Pro？</a></li><li><a href="https://space.bilibili.com/29768810">惜车工场 CSW</a></li><li>Apple Explained - <a href="https://www.youtube.com/watch?v=pV0ud2B8WfQ">History of the iPhone</a>，<a href="https://www.youtube.com/watch?v=CcbgqLtl_Oo">Apple’s RAM Scam</a></li><li>Hugh Jeffreys - <a href="https://www.youtube.com/watch?v=e3e-b-7jCYk">Astonishing Anti Repair Practices By Apple In the Last 15 Years</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://anotherdayu.com/2023/5452/">My App Defaults 2023</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>又有新字体了，GitHub 推出的 <a href="https://monaspace.githubnext.com">Monospace</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311131049089.webp" alt="Monospace" /></li><li>22 tips for iOS development, <a href="https://twitter.com/ios_dev_alb/status/1722970743967789145">@ios_dev_alb</a></li><li>时空幻境 周年纪念版 (Braid, Anniversary Edition)，预计 2024-04-30 上市，也是我喜欢的游戏之一，开发者分享了更多信息，<a href="https://twitter.com/Jonathan_Blow/status/1722709573071433996">@Jonathan_Blow</a>。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 90 期。本篇是对过去一周（11.06 - 11.12）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;看了电影 &lt;a href=&quot;https://movie.douban.com/subject/1291838/&quot;&gt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   
