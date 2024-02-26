@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-02-19T08:53:02.381Z</updated>
+  <updated>2024-02-26T10:04:54.333Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #105（2024.02.26）</title>
+    <link href="http://kiligwyu.com/newsletter/105/"/>
+    <id>http://kiligwyu.com/newsletter/105/</id>
+    <published>2024-02-26T07:01:40.000Z</published>
+    <updated>2024-02-26T10:04:54.333Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 105 期。本篇是对过去一周（02.19 - 02.25）的记录、思考与分享。</p><hr /><p>一波寒潮，降温不少，又下了一场雪，今年的雪格外多。</p><p>小朋友感冒快好了，这几天白天闹，晚上睡醒也闹，真是难带啊！（痛并快乐着 😂）</p><p>元宵节快乐啊！<br />元宵节买了点巧克力馅的汤圆吃，好吃，不喜欢吃传统馅的。<br />晚上放烟花的真多，咚咚咚响到后半夜。<br />元宵节过了，年也就过了。接下来规划下近期的安排，重心放在工作和学习上。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Manjusaka - <a href="https://www.manjusaka.blog/posts/2024/02/20/a-simple-discussion-about-the-ultraman/">简单聊聊奥特曼中很有趣的细节</a></li><li>superleeyom - <a href="https://github.com/superleeyom/blog/issues/58">2024 香港银行卡办卡之旅</a></li><li>Randy -  <a href="https://read.lutaonan.com/preface">Randy 的读书乐园</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>Bloomberg Originals - <a href="https://www.youtube.com/watch?v=PM101DvvG4Q">How Singapore Uses Science to Stay Cool</a><ul><li><a href="https://www.youtube.com/watch?v=Ttu55nEtC6o">How China’s BYD Overtook Tesla</a></li><li><a href="https://www.youtube.com/watch?v=08myo1UdTZ8">This Is How Huawei Shocked America With a Smartphone</a></li></ul></li><li>MHYYYY - <a href="https://www.youtube.com/watch?v=ctRF2wpKNrY">观众文章分享6：央视春晚为何难看 - 江主义的破产 || 高中生组织集体抗议饭堂公司经历</a><ul><li><a href="https://www.youtube.com/watch?v=U3j9iS3y58w">以我自己为例调查河南农村家庭情况</a></li></ul></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1H2421F7sg/">JPEG凭什么称霸互联网 30 多年？你大爷永远是你大爷！</a></li><li>阿Test正经比比 - <a href="https://www.bilibili.com/video/BV1Cm411U7s4/">关于 UP 主你想知道的问题，耗时三个月深度揭秘！</a></li><li>老师好我叫何同学 - <a href="https://www.bilibili.com/video/BV1c2421c7Jy/">很牛，但没用丨苹果 Vision Pro 深度体验</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=eAGUayRRwU8">拼多多的“仅退款”，到底惹怒了多少人？</a></li><li>Process X - <a href="https://www.youtube.com/watch?v=tywqPPPgnrw">制作无缝印章的过程。 日本印章每张售价超过 1000 美元。</a></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6463499163">Twodos - Simple Todos</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202402261802877.webp" alt="Twodos" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>iPhone 的 AirDrop 可能会导致网络不稳定，重启就好。via <a href="https://twitter.com/Blankwonder/status/1761766353248423978">@Blankwonder</a><ul><li>macOS 上也有类似的问题：Macrumors - <a href="https://forums.macrumors.com/threads/wi-fi-jitter-erratic-ping-latency-due-to-awdl-airdrop-airplay.2373916/">Wi-Fi Jitter, Erratic Ping, Latency Due To AWDL (AirDrop/AirPlay)</a></li></ul></li><li>#TIL 在折腾虚拟机时，可能会遇到在安装驱动前需要共享文件的情况。这时候可以用以下命令把文件夹打包成 ISO 镜像。via <a href="https://twitter.com/Megabits_mzq/status/1760970962982646100">@Megabits_mzq</a><br /><code>hdiutil makehybrid -o &quot;folder.iso&quot; &quot;folder&quot; -iso -joliet</code></li><li>#TIL You can easily combine icons in SF symbols 🤯 Duplicate an existing symbol as custom symbol and combine it with a component. via <a href="https://twitter.com/Daafdaan/status/1760577227014418919">@Daafdaan</a></li><li><a href="https://localsend.org/">LocalSend</a>: Share files to nearby devices. Free, open-source, cross-platform.</li><li>一行命令永久激活 Windows/Office。via <a href="https://twitter.com/lewangdev/status/1759832706572280102">@lewangdev</a><br /><code>irm https://massgrave.dev/get | iex</code></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 105 期。本篇是对过去一周（02.19 - 02.25）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;一波寒潮，降温不少，又下了一场雪，今年的雪格外多。&lt;/p&gt;
+&lt;p&gt;小朋友感冒快好了，这几天白天闹，晚上睡醒也闹，</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #104（2024.02.19）</title>
@@ -479,27 +506,6 @@
     
     
     <summary type="html">周四下午（11.16）去了 [包公祠](https://baike.baidu.com/item/包公祠/258115)，不大很快就转完了，乱拍一通，室内玻璃反光拍不清楚 🤣。开封的景点比较集中，快的话两三天就能全部看完。我一次只去一个景点，反正有年卡，慢慢看了。</summary>
-    
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/categories/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开封旅游之龙亭景区</title>
-    <link href="http://kiligwyu.com/KaifengTravel/LongtingScenicArea/"/>
-    <id>http://kiligwyu.com/KaifengTravel/LongtingScenicArea/</id>
-    <published>2023-11-15T07:50:36.000Z</published>
-    <updated>2023-12-22T16:34:13.877Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><a href="/KaifengTravel/TheMemorialTempleOfLordBao/">开封旅游之包公祠</a></li><li><a href="/KaifengTravel/WansuiShanWuxiaCity/">开封旅游之万岁山武侠城</a></li><li><a href="/KaifengTravel/QifengHometown/">开封旅游之朱仙镇启封故园</a></li><li><a href="/KaifengTravel/DaxiangguoTemple/">开封旅游之大相国寺</a></li><li><a href="/KaifengTravel/Kaifengfu/">开封旅游之大开封府</a></li></ul><hr /><p>在 <a href="/newsletter/90/">第 90 期碎周报</a> 中我说我买了开封旅游年票，开始挨个打卡拍照，记录在博客上，14 日下午我去了龙亭景区，第一个去的景点，在菊花节结束之前（11.18），走马观花，乱拍一翻。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311131026389.webp" alt="开封旅游年票" /></p><h2 id="龙亭景区"><a class="markdownIt-Anchor" href="#龙亭景区"></a> 龙亭景区</h2><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151458858.heic" alt="龙亭简介" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151500710.heic" alt="梅苑" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151501221.heic" alt="聴香" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151501104.heic" alt="嵩呼" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151501267.heic" alt="缠枝莲婴戏纹石缸" /></p><blockquote><p>此物係青石質，清代乾隆年間文物。它是用來養植荷花等水上觀賞植物和放養魚類的容器，所盛之水用於消防滅火也是主要功能之一。係國家三級文物。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151511821.jpeg" alt="龙亭大殿" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151512421.jpeg" alt="龙亭大殿内的龙椅" /></p><p>还有人参拜，这有啥可拜的 😶。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151512364.jpeg" alt="龙亭大殿上鸟瞰御道" /></p><h2 id="菊花"><a class="markdownIt-Anchor" href="#菊花"></a> 菊花</h2><p>景区内有大量的菊花，形态各异，大大增加了景区的观赏性。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151513143.heic" alt="御道上的菊花" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151514128.heic" alt="湖中的菊花台" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151519411.heic" alt="五颜六色的菊花" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151520427.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151521356.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151522600.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151522120.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151523995.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151523336.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151523658.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151524017.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151525729.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151525730.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151525731.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151525732.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151527220.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151527221.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151527222.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151527223.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151527224.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151537242.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151537243.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151537244.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151537245.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151537246.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151537247.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151538018.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151538019.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/LongtingScenicArea/202311151538020.heic" alt="" /></p><h2 id="最后"><a class="markdownIt-Anchor" href="#最后"></a> 最后</h2><p>景区里还有些微演出活动，工作日人也不少，除了菊花、龙亭大殿，可观赏的东西不多。</p>]]></content>
-    
-    
-    <summary type="html">在 [第 90 期碎周报](/newsletter/90/) 中我说我买了开封旅游年票，开始挨个打卡拍照，记录在博客上，14 日下午我去了龙亭景区，第一个去的景点，在菊花节结束之前（11.18），走马观花，乱拍一翻。</summary>
     
     
     
