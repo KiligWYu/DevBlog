@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-02-26T10:04:54.333Z</updated>
+  <updated>2024-03-04T14:18:37.168Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #106（2024.03.04）</title>
+    <link href="http://kiligwyu.com/newsletter/106/"/>
+    <id>http://kiligwyu.com/newsletter/106/</id>
+    <published>2024-03-04T13:01:48.000Z</published>
+    <updated>2024-03-04T14:18:37.168Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 106 期。本篇是对过去一周（02.26 - 03.03）的记录、思考与分享。</p><hr /><p>在读《<a href="https://aryamansharda.gumroad.com/l/tcvck">Ace The iOS Interview</a>》，还有三分之一，下周读完。</p><p>下周我外爷 96 大寿，我妈周末回老家了，下周又要我自己带孩儿几天了。</p><p>周末带家里的几个小孩去了趟 <a href="/KaifengTravel/WansuiShanWuxiaCity/">万岁山</a>，人山人海啊，简单玩了会就出来了，景区门口车真多。还是得淡季才能去，人太多了不好玩。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>5km - <a href="https://5km.studio/blog/2024-independent-development-six-month-summary">2024 年已过两月 - 独立开发半年记</a></li><li>pseudoyu - <a href="https://www.pseudoyu.com/zh/2024/02/29/weekly_review_20240229/">周报 #53 - 空白的三个月、生活漂流与春节</a></li><li>张小吉 - <a href="https://www.bmms.me/blog/slash-programmer-digital-nomad-transition">渐入佳境：斜杠程序员的数字游民转型之旅</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=vXWNCMY70lA&amp;pp=wgIGCgQQAhgB">且听，龙吟！拆开中国最强核电站，你会看到什么？| The Birth of HRP1000</a><ul><li><a href="https://www.youtube.com/watch?v=lLn0o6pqkgA&amp;pp=wgIGCgQQAhgB">什么是潮汕？| WHAT IS CHAOSHAN?</a></li></ul></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=Gkg7dozcyvg">【天文】真實的火星｜人類無法登陸火星的真正原因？</a></li><li>neo - <a href="https://www.youtube.com/watch?v=VbeM8Lf7s5A">The Genius Design of Apple Park</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg7suDJceZ7bIpHwsLA">必应 2024.02 超高清无水印壁纸</a>，共 29 张 109.8 MB。</li><li>一行命令绕开 Arc 浏览器新图标的推荐限制（推荐 50 个人才能使用）。via <a href="https://twitter.com/unixzii/status/1763407331831038254">@unixzii</a><br /><code>defaults write company.thebrowser.Browser currentAppIconName -string flutedGlass</code><br />参数 <code>-string</code> 后面的是 icon 名的小驼峰格式。</li><li>Chrome Extension - <a href="https://chromewebstore.google.com/detail/meta-seo-inspector/ibkclpciafdglkjkcibmohobjkcfkaef">META SEO inspector</a><br />Easily inspect the meta data found inside web pages, find issues and get advices to fix them.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 106 期。本篇是对过去一周（02.26 - 03.03）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;在读《&lt;a href=&quot;https://aryamansharda.gumroad.com/l/tcvck&quot;&gt;A</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #105（2024.02.26）</title>
@@ -492,27 +518,6 @@
     
     
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开封旅游之包公祠</title>
-    <link href="http://kiligwyu.com/KaifengTravel/TheMemorialTempleOfLordBao/"/>
-    <id>http://kiligwyu.com/KaifengTravel/TheMemorialTempleOfLordBao/</id>
-    <published>2023-11-19T15:19:45.000Z</published>
-    <updated>2023-12-22T16:33:53.345Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><a href="/KaifengTravel/LongtingScenicArea/">开封旅游之龙亭景区</a></li><li><a href="/KaifengTravel/WansuiShanWuxiaCity/">开封旅游之万岁山武侠城</a></li><li><a href="/KaifengTravel/QifengHometown/">开封旅游之朱仙镇启封故园</a></li><li><a href="/KaifengTravel/DaxiangguoTemple/">开封旅游之大相国寺</a></li><li><a href="/KaifengTravel/Kaifengfu/">开封旅游之大开封府</a></li></ul><hr /><p>周四下午（11.16）去了 <a href="https://baike.baidu.com/item/%E5%8C%85%E5%85%AC%E7%A5%A0/258115">包公祠</a>，不大很快就转完了，乱拍一通，室内玻璃反光拍不清楚 🤣。</p><p>开封的景点比较集中，快的话两三天就能全部看完。我一次只去一个景点，反正有年卡，慢慢看了。</p><h2 id="拍的部分照片"><a class="markdownIt-Anchor" href="#拍的部分照片"></a> 拍的部分照片</h2><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328443.heic" alt="包公祠大门" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328444.heic" alt="包公祠简介" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328445.heic" alt="百龙亭" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328446.heic" alt="包公湖" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328447.heic" alt="2 门 - 德昭古今" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328448.heic" alt="2 殿 - 峭直清廉" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328449.heic" alt="包拯书郡斋壁、包公家训、宋包孝肃公遗像" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192328450.heic" alt="宋陵包公墓碑、包拯手书斋山" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329423.heic" alt="西配殿 - 白简凝霜" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329424.heic" alt="东配殿 - 铁面无私" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329426.heic" alt="大殿 - 公正廉明" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329427.heic" alt="宋代卧榻（模型）" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329428.heic" alt="端州掷砚" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329429.heic" alt="明成化说唱词话丛刊 - 1" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329430.heic" alt="明成化说唱词话丛刊 - 2" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329431.heic" alt="开封府模型" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329432.heic" alt="宋代官服、包拯服装（复制品）" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329433.heic" alt="宋代交通工具客船（模型）" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329434.heic" alt="包拯先祖部分书像" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329435.heic" alt="正大光明、包公坐像" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329436.heic" alt="蜡像“铡美案”" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192329437.heic" alt="蜡像“铡美案”" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192330036.heic" alt="开封府题名记" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/TheMemorialTempleOfLordBao/202311192330037.heic" alt="包孝肃公祠记" /></p>]]></content>
-    
-    
-    <summary type="html">周四下午（11.16）去了 [包公祠](https://baike.baidu.com/item/包公祠/258115)，不大很快就转完了，乱拍一通，室内玻璃反光拍不清楚 🤣。开封的景点比较集中，快的话两三天就能全部看完。我一次只去一个景点，反正有年卡，慢慢看了。</summary>
-    
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/categories/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
     
   </entry>
   
