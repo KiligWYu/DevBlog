@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-03-11T07:55:08.024Z</updated>
+  <updated>2024-03-18T09:27:41.387Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #108（2024.03.18）</title>
+    <link href="http://kiligwyu.com/newsletter/108/"/>
+    <id>http://kiligwyu.com/newsletter/108/</id>
+    <published>2024-03-18T07:48:49.000Z</published>
+    <updated>2024-03-18T09:27:41.387Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 108 期。本篇是对过去一周（03.11 - 03.17）的记录、思考与分享。</p><hr /><p>上期说到错过了首映且便宜的 <a href="https://movie.douban.com/subject/35575567/">沙丘 2 Dune: Part Two (2024)</a> IMAX 电影，本周二（03.12）去看了，还是在闲鱼上买的票，¥41，便宜了 ¥10.9。<br />还看了些《沙丘 2》的影片解析。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403181611268.webp" alt="沙丘 2 Dune: Part Two (2024)" /></p><p>上周看的《周处除三害》，看了些影片解析，里面的很多细节，不看解析根本发现不了，对影片的理解也更进一步了。<br />有点后悔在电影院看《周处除三害》了，因为院线是删减版的。</p><p>去年还在订阅 SetApp 时候，一直使用 CleanMyMac X 这款清理软件，退订 SetApp 之后，想找个平替，不考虑腾讯柠檬清理，最后在数码荔枝买了 <a href="https://www.macbooster.net">MacBooster 8</a>，但在应用更新时，<a href="https://www.corecode.io/macupdater/">MacUpdater</a> 提醒我 MacBooster 是个广告软件（adware），自动忽略了，从提供的 <a href="https://www.virustotal.com/gui/file/f06f5382374e7978738756d92aa76bad4951d127204b4d0bb3e4a9b15948a0ae/">链接</a> 来看，说的是 MacBooster 7，现在纠结要不要继续用 MacBooster 了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403181622325.webp" alt="App 'MacBooster 8' Ignored " /></p><p>用了多年的窗口管理工具 <a href="https://magnet.crowdcafe.com">Magnet</a>，被发现会引起系统卡顿（via <a href="https://twitter.com/zhizijun/status/1768129567720603818">@zhizijun</a>），于是又找了款开源平替，<a href="https://rectangleapp.com">Rectangle</a>。</p><p>另外刷到 Reddit 上的一个帖子（via <a href="https://twitter.com/safaricheung/status/1767225437682594055">@safaricheung</a>），Downie 4 威胁随机删除用户电脑上的文件的帖子，原 po 是正版用户受害者。软件作者打击盗版无可厚非，但威胁删除用户文件不能接受。虽然有人逆向软件发现其实并不会真的删除用户文件。<br />我也是多年的正版 Downie 用户，其实视频下载工具有很多开源平替，后续我也将弃用 Downie。</p><ul><li><a href="https://www.reddit.com/r/mac/comments/1bbxs3f/dowine4_threates_a_legitimate_user_with_random/">Dowine4 threates a legitimate user with random deletion of files from my computer</a></li></ul><p>又学到了关于用 Swift 写命令行的知识点和小技巧，完善下之前写的几个小工具。</p><ul><li>一个工匠 - <a href="https://www.yigegongjiang.com/2023/SwiftSystemShell/">【Swift 三方源码 1】SwiftShell 高效的命令行工具</a><ul><li>一个工匠 - <a href="https://www.yigegongjiang.com/2023/SwiftCommandEnv/">Swift 脚本开发环境搭建</a></li></ul></li></ul><p>DailyWiki 1.1 喜提 Guideline 4.2.2 - Design - Minimum Functionality，这次更新增加了查看大（原）图功能，更新了数据（网页）解析，还有些 UI 细节更新，这下好了，不用更了。<br />该 app 本身确实简单，1.0 能上架，也是侥幸，可能遇到了宽松的审核员。接下来想想还能加些什么功能，把 app 弄复杂点再上架吧。</p><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1SF4m1V7vN/">给粉丝压个 Vision Pro？影视飓风 800 万粉丝 Q&amp;A！</a><ul><li><a href="https://mediastorm.feishu.cn/docx/Ij8sdqJZDoQEuqx9xcpcXAbfnbe">TORMCREW 屏保</a><br />使用了几天 TORMCREW 屏保，内存占用太大，弃用了。</li></ul></li><li>小Lin说 - <a href="https://www.youtube.com/watch?v=qk5hdxFJXg8">一口气了解全球经济形势</a></li><li><a href="https://www.youtube.com/@1379lab/videos">1379 号观察员</a><ul><li>1379号观察员 - <a href="https://www.youtube.com/watch?v=3DJbh_abWK4">一口气看懂《沙丘 2》- 人类每次正视自己的渺小，都是自身的一次巨大进步</a></li><li>该频道还有沙丘六部曲的解析 👍</li></ul></li><li>星球研究所Institute for Planets - <a href="https://www.youtube.com/watch?v=Kitz60V2sOE">等不及了！让春天来得更猛烈些吧！</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>一个工匠 - <a href="https://www.yigegongjiang.com/2024/my2023/">我的 2023</a></li><li><a href="https://44maker.github.io/wiki/Mac/index.html">Mac 终极配置教程</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://apps.apple.com/app/id6476837563">Acute Calculator</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403181708229.webp" alt="Acute Calculator" /></li><li>那些当年被送入网瘾中心的孩子后来怎么样了，via <a href="https://twitter.com/Chai20230817/status/1768859409177088255">@Chai20230817</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 108 期。本篇是对过去一周（03.11 - 03.17）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;上期说到错过了首映且便宜的 &lt;a href=&quot;https://movie.douban.com/subject/</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #107（2024.03.11）</title>
@@ -47,9 +73,9 @@
     <link href="http://kiligwyu.com/learninpublic/2024/"/>
     <id>http://kiligwyu.com/learninpublic/2024/</id>
     <published>2024-03-11T05:15:36.000Z</published>
-    <updated>2024-03-11T07:36:00.951Z</updated>
+    <updated>2024-03-18T09:23:41.579Z</updated>
     
-    <content type="html"><![CDATA[<p>2024 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><ol><li>03.07: ★ <a href="https://movie.douban.com/subject/36151692/">周处除三害 周處除三害 (2023)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111526435.webp" alt="周处除三害 周處除三害 (2023)" /></li></ol><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><ol><li><a href="https://aryamansharda.gumroad.com/l/tcvck">Ace The iOS Interview</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111502725.webp" alt="Ace The iOS Interview" /></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>2024 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><ol><li>03.07: ★ <a href="https://movie.douban.com/subject/36151692/">周处除三害 周處除三害 (2023)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111526435.webp" alt="周处除三害 周處除三害 (2023)" /></li><li>03.12: ★ <a href="https://movie.douban.com/subject/35575567/">沙丘 2 Dune: Part Two (2024)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403181611268.webp" alt="沙丘 2 Dune: Part Two (2024)" /></li></ol><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><ol><li><a href="https://aryamansharda.gumroad.com/l/tcvck">Ace The iOS Interview</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111502725.webp" alt="Ace The iOS Interview" /></li></ol>]]></content>
     
     
       
@@ -490,32 +516,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 93 期。本篇是对过去一周（11.27 - 12.03）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;把博客的副标题改成了『代码之外』，博客上发的都是些非技术上的文章，我已经跟自己和解了，承认自己写不出什么高深的技术</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #92（2023.11.27）</title>
-    <link href="http://kiligwyu.com/newsletter/92/"/>
-    <id>http://kiligwyu.com/newsletter/92/</id>
-    <published>2023-11-27T01:14:11.000Z</published>
-    <updated>2023-11-27T02:52:43.929Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 92 期。本篇是对过去一周（11.20 - 11.26）的记录、思考与分享。</p><hr /><p><a href="https://apps.apple.com/app/id6463897064">Kroma</a> 和 <a href="https://apps.apple.com/app/id6453156811">FQRC</a> 分别提交了 1.4 和 1.2 版本，更新支持了横屏和 iPadOS，均已上架 App Store。</p><p>周三（11.23）下午去了万岁山武侠城，照片发在 <a href="/KaifengTravel/WansuiShanWuxiaCity/">开发旅游之万岁山武侠城</a>，人很多、参观的小朋友很多、演出很多，有雕版印刷博物馆、汴梁婚俗文证博物馆、迷你动物园、游乐场等，总结就是适合带小朋友去玩。</p><p>看完了《<a href="https://book.douban.com/subject/10794374/">金阁寺</a>》和《<a href="https://book.douban.com/subject/30230525/">情书</a>》。<br />金阁寺不喜欢，情书一口气读完的。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311270923191.webp" alt="金阁寺" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202311270923189.webp" alt="情书" /></p><p>黑五，一大堆软件服务好价，我瞅了半天也没啥买的，最后买了阿里云 ¥99 一年的服务器，Namecheap 上买个域名。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>兔叭咯 - <a href="https://www.bilibili.com/bangumi/play/ep787491">【医学博士】得了破伤风还能活多久？| 这种伤口很有可能是破伤风！</a></li><li>polebug23 - <a href="https://www.bilibili.com/video/BV1yw411P7AB/">vlog | 女程序员远程办公的一天｜remote一年多带给我的变化？家中的工位长啥样？</a></li><li>脑洞乌托邦 - <a href="https://www.youtube.com/watch?v=-aZyMfYYzP8">网红鼻祖「凤姐」被封杀的惊人真相！靠征婚火爆全网，扬言「只有奥巴马才配得上我」！怼明星、喷华为、宁死也要留在美国，如今凤姐究竟过得怎么样了？[She’s Xiaowu 小乌]</a></li><li><a href="https://www.bilibili.com/video/BV15u4y1j7V1/">【睡前消息 673】模范夫妻中国梦 毁在融创烂尾楼</a><br />又被夹了，<a href="https://www.youtube.com/watch?v=we8vNy6DYMI">YouTube 上还有</a>。</li><li><a href="https://t.me/c/1375513876/204991">t.me/c/1375513876/204991</a><br />钓鱼佬挑战荒野垂钓，100 分钟，我居然看完了 🤣</li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li><a href="https://yinji.org/5182.html">多写点内容，少折腾工具</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><p>治疗疑难杂症，除了重启大法，还有清理大法，比如 Xcode 打开项目卡顿，可以删除 xcuserdata 试试（via <a href="https://twitter.com/i/web/status/1727994846554820882">@Blankwonder</a>），<a href="https://github.com/lexrus/.files/blob/master/alias.fish#L19-L20">清理 asl 日志</a> 可以减少终端启动时间（via <a href="https://twitter.com/lexrus/status/1728003534568956196">@lexrus</a>）。</p>  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">rm</span> -rf /private/var/log/asl/*.asl</span><br></pre></td></tr></table></figure></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 92 期。本篇是对过去一周（11.20 - 11.26）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/app/id6463897064&quot;&gt;Kroma&lt;/</summary>
       
     
     
