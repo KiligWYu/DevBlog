@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-03-18T09:27:41.387Z</updated>
+  <updated>2024-03-25T06:55:18.708Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #109（2024.03.25）</title>
+    <link href="http://kiligwyu.com/newsletter/109/"/>
+    <id>http://kiligwyu.com/newsletter/109/</id>
+    <published>2024-03-25T06:06:18.000Z</published>
+    <updated>2024-03-25T06:55:18.708Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 109 期。本篇是对过去一周（03.18 - 03.24）的记录、思考与分享。</p><hr /><iframe width="560" height="315" src="https://www.youtube.com/embed/v4xZUr0BEfE?si=HfweozMk54Pon4Yu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p>春天到了，该发芽的发芽，该开花的开花。我竟没有心情出去走走，旅游景点也不想去，开封旅游系列停了好久了。</p><p>本周读完了《<a href="https://objccn.io/products/thinking-in-swiftui-2023">SwiftUI 编程思想（2023）</a>》和《<a href="https://book.douban.com/subject/1089243/">黄金时代</a>》。<br />这个版本的《黄金时代》包含《黄金时代》、《革命时期的爱情》和《我的阴阳两界》。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403251412923.webp" alt="SwiftUI 编程思想（2023）" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403251412885.webp" alt="黄金时代" /></p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>MHYYYY - <a href="https://www.youtube.com/watch?v=O4I7ewyN8Kk">自我辩论：性交易是否应该合法化 || 正方：反对性交易合法化 - 健康问题、剥削理论、管控角度、自身利益、社会风气、婚姻制度 || 反方：支持性交易合法化 - 性需求、财政问题、阶级问题、理念之争</a></li><li>小麦咪 - <a href="https://www.bilibili.com/video/BV1T6421F7m4/">35 岁学跳舞，会太晚吗？｜男左女右</a></li><li>和之梦 - 官方频道 - <a href="https://www.youtube.com/watch?app=desktop&amp;v=D3BED0a5BAc">28 岁大厂退休前员工：好烦，人死了，钱都花不完完【我住在这里的理由367】</a></li><li>__cling- - <a href="https://www.bilibili.com/video/BV1tA4m1P7J7/">加州旅馆有什么能力？让我们听到吐也还如此着迷？</a><ul><li>__cling- - <a href="https://www.bilibili.com/video/BV1FK421e7SL/">听了一万遍渡口，却不知道渡口为什么好？为什么渡口能成为大家的煲机神曲呢？</a></li></ul></li><li>冷科普 - <a href="https://www.bilibili.com/video/BV1NC411t7MV/">“车轮悬挂”是什么？在轮子上方顶支笔，有趣的现象发生了</a></li><li>方猫boom - <a href="https://www.bilibili.com/video/BV1j6421F7WW/">抓娃娃机的结构原理，为什么抓不到？</a></li><li>是老胡没错 - <a href="https://www.bilibili.com/video/BV1Nw4m1o7MJ/">职 场 废 物 3</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>少数派 - <a href="https://sspai.com/post/87503">2023 年度征文获奖结果公布</a></li><li>罗磊的独立博客 - <a href="https://luolei.org/fighting-cancer">我的老婆确诊肺癌，希望能得到你的帮助</a></li></ul><h3 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h3><p>图拉鼎老师的新作 <a href="https://apps.apple.com/app/id6475077023">MarkMark</a> 发布了，MarkMark 是一款专门为 Apple 平台设计开发的「稍后读」+「收藏夹」原生产品，支持 iPhone、iPad 和 Mac，目前免费。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403251450395.webp" alt="MarkMark" /></p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>雀乐（原落网） - <a href="https://space.bilibili.com/21386343">bilibili/21386343</a><br />才发现落网去年八月就已经回归了，更名为雀乐，落网曾是我最喜欢的音乐网站之一。</li><li>一个投票，via <a href="https://t.me/AppleNuts/1946">@AppleNuts</a>，果然大家都讨厌百度。<br />未来苹果很有可能在 AI 方面和百度合作，出于国内的合规要求，希望苹果不要封死使用其他 AI 的可能性。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403251429157.webp" alt="狗都不用的“文心一言”" /></li><li>macOS 版 Windows USB 启动盘创建工具，<a href="https://github.com/TechUnRestricted/windiskwriter">TechUnRestricted / windiskwriter</a><br /><img src="https://camo.githubusercontent.com/35388342333d3735d8c91d0eeaa0aab7c71b2ec0427e3a48ffa0793d826abc1b/68747470733a2f2f692e706f7374696d672e63632f435979665a6234592f57696e2d4469736b2d5772697465722d53637265656e73686f742d506169722e706e67" alt="WinDiskWriter Screenshot" /></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 109 期。本篇是对过去一周（03.18 - 03.24）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.c</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #108（2024.03.18）</title>
@@ -73,9 +99,9 @@
     <link href="http://kiligwyu.com/learninpublic/2024/"/>
     <id>http://kiligwyu.com/learninpublic/2024/</id>
     <published>2024-03-11T05:15:36.000Z</published>
-    <updated>2024-03-18T09:23:41.579Z</updated>
+    <updated>2024-03-25T06:54:21.153Z</updated>
     
-    <content type="html"><![CDATA[<p>2024 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><ol><li>03.07: ★ <a href="https://movie.douban.com/subject/36151692/">周处除三害 周處除三害 (2023)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111526435.webp" alt="周处除三害 周處除三害 (2023)" /></li><li>03.12: ★ <a href="https://movie.douban.com/subject/35575567/">沙丘 2 Dune: Part Two (2024)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403181611268.webp" alt="沙丘 2 Dune: Part Two (2024)" /></li></ol><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><ol><li><a href="https://aryamansharda.gumroad.com/l/tcvck">Ace The iOS Interview</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111502725.webp" alt="Ace The iOS Interview" /></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>2024 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><ol><li>03.07: ★ <a href="https://movie.douban.com/subject/36151692/">周处除三害 周處除三害 (2023)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111526435.webp" alt="周处除三害 周處除三害 (2023)" /></li><li>03.12: ★ <a href="https://movie.douban.com/subject/35575567/">沙丘 2 Dune: Part Two (2024)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403181611268.webp" alt="沙丘 2 Dune: Part Two (2024)" /></li></ol><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><ol><li><a href="https://aryamansharda.gumroad.com/l/tcvck">Ace The iOS Interview</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111502725.webp" alt="Ace The iOS Interview" /></li><li>03.22: ★ <a href="https://book.douban.com/subject/1089243/">黄金时代</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403251412885.webp" alt="黄金时代" /></li><li>03.23: ★ <a href="https://objccn.io/products/thinking-in-swiftui-2023">SwiftUI 编程思想（2023）</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403251412923.webp" alt="SwiftUI 编程思想（2023）" /></li></ol>]]></content>
     
     
       
@@ -498,32 +524,6 @@
     
     
     <category term="开封旅游" scheme="http://kiligwyu.com/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #93（2023.12.04）</title>
-    <link href="http://kiligwyu.com/newsletter/93/"/>
-    <id>http://kiligwyu.com/newsletter/93/</id>
-    <published>2023-12-04T01:51:02.000Z</published>
-    <updated>2023-12-04T03:38:22.077Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 93 期。本篇是对过去一周（11.27 - 12.03）的记录、思考与分享。</p><hr /><p>把博客的副标题改成了『代码之外』，博客上发的都是些非技术上的文章，我已经跟自己和解了，承认自己写不出什么高深的技术文章，所以就叫代码之外好了。<br />另外，也推荐一下 <a href="https://bento.me/beyondcode">代码之外 Beyond Code</a> 的播客。</p><blockquote><p>代码之外 Beyond Code 是一档由 GeekPlux 和 Randy 共同主持的程序员闲聊播客节目。</p></blockquote><p>读完了《<a href="https://book.douban.com/subject/36124352/">读库 2205</a>》，这本书在我桌子上躺了一年了都，才看完，接下来把《读库 2206》也看了。22 年订了一年的读库会员，23 年没有再续订，一是为了开源节流，另外我也不缺其他读物。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312040953453.webp" alt="读库 2205" /></p><p>在 Sketch 里重新设计了简历，之前是用 <a href="https://cv.ftqq.com">冷熊简历</a> 等制作的 Markdown 格式的简单简历，重新设计简历后，把原来两页的松散简历压缩到一页，信息量不减反增，并且设计的还很好看。<br />在设计上参考了 <a href="https://easycv.cn">简单简历</a>，简单简历是个很棒的在线制作简历的工具，有很多模板，可以轻松制作出好看的简历。</p><p>本周入门了 TCA 架构，接下来的 SwiftUI 项目也尝试使用 TCA 架构，再推荐下 ethanhuang13 的 <a href="https://www.youtube.com/playlist?list=PL_ISTqHGWkNyN2qbc5wVDRyE6baEQ-BqU">iOS 開發配飯吃・SwiftUI + TCA 系列</a>。</p><p>本周下午基本都在万达星巴克阅读或工作，图书馆还没装修好，从 8 月开始就闭馆了。下周继续在星巴克办公，也继续我的 <a href="/categories/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/">开封旅游</a>。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>柴知道 - <a href="https://www.bilibili.com/video/BV1TN4y127us/">8年246起“刹车失灵”，全是司机的锅？为什么电车总是刹车失灵？【柴知道】</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1Ec411z7j2/">我们买了一颗国产卫星。</a></li><li>YouTube Channel - <a href="https://www.youtube.com/@MalteMarten">Malte Marten</a>，好听的 <a href="https://zh.wikipedia.org/zh-cn/%E6%89%8B%E7%A2%9F">手碟</a> 音乐。</li><li>许云 - <a href="https://www.youtube.com/watch?v=-fw4Ztd3e_Y">骑行内蒙离开呼和浩特，最近被有组织的网暴了三个月，准备诉诸法律保护自己</a><br />YouTube 上一堆骑行、旅游的 up 主，我更喜欢许云。我关注许云也不久，之前他身上发生了什么（via <a href="https://twitter.com/dayu06252827994/status/1731299889492193681">@dayu06252827994</a>），真相只有他自己知道，反正我只知道网暴别人是不对的。</li><li>炸号警告，啊~ 已经炸了 via <a href="https://twitter.com/caijingshujuku/status/1729916091831611632">@caijingshujuku</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>游研社 - <a href="https://www.yystv.cn/p/3617">色情页游孵化出了拼多多</a></li><li>61 - <a href="https://t.me/Journey61/268">Telegram 频道临时起意的一次更新</a>，<a href="https://61.life/2023/1202">61.life</a></li><li>Viking - <a href="https://vikingz.me/best-font/">哪个是程序员最爱的编程字体？2 百万阅读的帖子选出最帅的七种字体</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><p><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg6pvDJceZ7bIpHwsLA">十一月份的超高清无水印必应壁纸</a>。</p></li><li><p>#TIL 一行命令搞定 Mac 版微信双开，via <a href="https://immmmm.com/weekly-2023-11-26/">@木木木木木</a>。<br />另外，Mac 上 QQ 的多开就简单许多，快捷键 <code>⌘ + N</code> 即可。</p>  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open -n /Applications/WeChat.app/Contents/MacOS/WeChat</span><br></pre></td></tr></table></figure></li><li><p>#TIL 由于文化差异，对百分比的计算的理解不同，看似违反数学常识的计算，在国外反而很普遍：<code>500 - 20% = 400</code>。<a href="https://twitter.com/hzlzh/status/1729906088269746257">via @hzlzh</a></p></li><li><p>V2EX - <a href="https://www.v2ex.com/t/995953">在微信内编辑图片会上传并审查原图</a></p></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 93 期。本篇是对过去一周（11.27 - 12.03）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;把博客的副标题改成了『代码之外』，博客上发的都是些非技术上的文章，我已经跟自己和解了，承认自己写不出什么高深的技术</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   
