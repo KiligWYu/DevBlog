@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-03-25T06:55:18.708Z</updated>
+  <updated>2024-04-01T13:35:38.983Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #110（2024.04.01）</title>
+    <link href="http://kiligwyu.com/newsletter/110/"/>
+    <id>http://kiligwyu.com/newsletter/110/</id>
+    <published>2024-04-01T02:55:21.000Z</published>
+    <updated>2024-04-01T13:35:38.983Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 110 期。本篇是对过去一周（03.25 - 03.31）的记录、思考与分享。</p><hr /><p>更新了下博客主题，去掉了侧边栏，字体改为 <a href="https://fonts.google.com/noto/specimen/Noto+Serif+SC">Noto Serif SC</a>。</p><p>周六（03.30）小孩儿奶奶回老家了，照顾我外爷半个月，接下来这半个月又得我自己带孩儿了。<br />我现在自己带孩儿得心应手，非常专业了，只有一点，孩子会占用掉绝大部分时间 🤣。</p><p>周日（03.31）去了 <a href="https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%C2%B7%E4%B8%AD%E5%9B%BD%E7%BB%BF%E5%8C%96%E5%8D%9A%E8%A7%88%E5%9B%AD/17197617">绿博园</a>，野餐，走马观花遛了一圈。以后买个帐篷去露营吧。</p><p>最近在学习进阶 SwiftUI，搜集的一些 demo 跟着写，之后可以放 GitHub 上。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>杨光_建厨师 - <a href="https://www.bilibili.com/video/BV1px421k7gq/">如何完美做出好剥、不裂、软嫩的煮鸡蛋，溏心、全熟，都给你答案【解构家常菜】</a><ul><li><a href="https://www.bilibili.com/video/BV1p94y1n7My/">如何完美地做出各种熟度的煎蛋？溏心、全熟、漫画，都给你答案</a></li></ul></li><li>Phoenix Hou - <a href="https://www.youtube.com/watch?v=gP_oYl6tbb0">Chinese polyglot speaks 8 languages 【booklist in 8 languages】</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=fYfpqmwLV00">把淀粉肠干“塌房”的鸡骨泥，可能你已经吃一辈子了</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=T9vbXEWzVpY">猪油这么香，为什么吃的人却越来越少了？</a></li></ul><h3 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h3><ul><li><a href="https://miraa.app">Miraa.app</a> - AI Bilingual Subtitles &amp; Learning, on the <a href="https://apps.apple.com/app/miraa/id6462883096">App Store</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404011709092.webp" alt="Miraa" /></li><li>MyWeight² - Widgets for Weight Tracking: <a href="https://testflight.apple.com/join/tCFT6Kfr">TestFlight</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404011625092.png" alt="MyWeight²" /></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg74zDJceZ7bIpHwsLA">必应 2024.03 超高清无水印壁纸</a>，共计 31 张 111.3 MB。</li><li><a href="https://t2m.tuki.moe">Torrent to Magent Converter</a></li><li>赵亮老师的博客：<a href="https://pywonderland.com">朝花夕拾</a><ul><li><a href="https://pywonderland.com/envelope-and-caustics/">咖啡杯中的焦散线</a></li></ul></li><li>Steam - <a href="https://store.steampowered.com/app/2805070/Screenbound/">Screenbound</a><br /><img src="https://cdn.akamai.steamstatic.com/steam/apps/2805070/extras/screenbound-zoom.gif" alt="Screenbound" /></li><li><a href="https://github.com/easychen/one-person-businesses-methodology-v2.0">easychen/one-person-businesses-methodology-v2.0</a>: 《一人企业方法论》第二版</li><li>苹果新出的开发者油管频道：<a href="https://www.youtube.com/@AppleDeveloper/featured">Apple Developer</a></li><li><a href="https://tuki.moe/angular-magnet-and-torrent/">Magnet 和种子之间的关系 —— 在前端（Angular）实现种子到 Magnet 转换的实践</a><ul><li><a href="https://t2m.tuki.moe">Torrent to Magent Converter</a></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 110 期。本篇是对过去一周（03.25 - 03.31）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;更新了下博客主题，去掉了侧边栏，字体改为 &lt;a href=&quot;https://fonts.google.com/n</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #109（2024.03.25）</title>
@@ -496,27 +522,6 @@
     
     
     <summary type="html">周五下午（12.08）去了大相国寺，国家 4A 级景区。大相国寺，原名建国寺，位于河南省开封市自由路西段，是中国著名的佛教寺院。大相国寺始建于北齐天保六年（555 年），唐代延和元年（712 年），唐睿宗因纪念其由相王登上皇位，赐名大相国寺。北宋时期，相国寺深得皇家尊崇，多次扩建，是京城最大的寺院和全国佛教活动中心。后因战乱水患而损毁。清康熙十年（1671 年）重修。</summary>
-    
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/categories/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开封旅游之朱仙镇启封故园</title>
-    <link href="http://kiligwyu.com/KaifengTravel/QifengHometown/"/>
-    <id>http://kiligwyu.com/KaifengTravel/QifengHometown/</id>
-    <published>2023-12-09T07:19:38.000Z</published>
-    <updated>2023-12-22T16:33:37.961Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><a href="/KaifengTravel/LongtingScenicArea/">开封旅游之龙亭景区</a></li><li><a href="/KaifengTravel/TheMemorialTempleOfLordBao/">开封旅游之包公祠</a></li><li><a href="/KaifengTravel/WansuiShanWuxiaCity/">开封旅游之万岁山武侠城</a></li><li><a href="/KaifengTravel/DaxiangguoTemple/">开封旅游之大相国寺</a></li><li><a href="/KaifengTravel/Kaifengfu/">开封旅游之大开封府</a></li></ul><hr /><p>周四下午（12.07）去了 <a href="https://baike.baidu.com/item/%E6%9C%B1%E4%BB%99%E9%95%87%E5%90%AF%E5%B0%81%E6%95%85%E5%9B%AD/19513236">启封故园</a>，开封市祥符区朱仙镇的 4A 级景点。</p><blockquote><p>朱仙镇启封故园，即朱仙镇国家文化生态旅游示范区。是河南省、开封市重点项目和省、市重点旅游项目。该项目位于开封市朱仙镇北侧、开尉路以西、运粮河两侧，总建设周期 10 年，计划累计投资 120 亿，总建筑面积 80 多万平方米。项目规划分为古镇风情展示区、环湖风景游览区、温泉休闲度假区、古战场文化体验区、生态农家体验区、文化创意养生区、生态湿地体验区、生态林地观光区等 8 个功能区。</p></blockquote><p>景区内还有部分在建项目，冬天万物萧条，景色不是特别好。部分照片如下。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091534506.heic" alt="启封楼" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091534505.heic" alt="启封楼" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091534503.heic" alt="启封楼" /></p><blockquote><p>启封故园的标志性建筑 ---- 启封楼。众所周知，朱仙镇是开封的启源，来到这里就是来到了开封的发源地。朱仙镇作为中国古代四大名镇，历史地位显耀，文化底蕴深厚。大牌楼为景区标志性建筑，通体采用南非水胶木和太平洋地区的铁木，榫卯搭建而成。它宽 36 米，高 16.83 米，进深 11 米，为七门八柱结构，寓意启封故地千年古镇欢迎八方游客。也是有迹可查的中国最大的牌楼，堪称中国第一大牌楼。<br />牌楼正面匾额刻为繁体 “启封故园”（啓封故園），背面为繁体 “朱仙古镇”（朱仙古鎮），彰显八朝古都厚重底蕴。开封八朝古都各个朝代发生的重大历史事件，如今都用手工雕刻的图案浓缩在朱仙镇大牌楼上，所以大牌楼就是展现开封历史文化的一个载体。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091534504.heic" alt="精武广场 - 精忠报国" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091536220.heic" alt="四面牌坊" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091536221.heic" alt="四面牌坊" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091536222.heic" alt="四面牌坊" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091536223.heic" alt="宋徽宗私访朱仙镇" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091536224.heic" alt="乾隆巧断文字狱" /></p><blockquote><p>四面牌坊宽 10.8 米，高 11.43 米，进深 10.8 米。东面牌坊的匾额为漕运码头（背面匾额：商埠重镇）。雕刻楹联 “纳南吐北，千帆竞驶朱仙渡；卸东装西，万商蜂拥运粮舟。”<br />南面牌坊匾额为豫剧之源（背面匾额：中州音韵）。雕刻楹联 “锣鼓梆子，五花八门蒋许门；生旦花脸，南腔北调祥符调。”<br />西面牌坊的匾额为年画鼻祖（背面匾额：迎祥纳福）。雕刻楹联 “唐宋起兴，千家口碑垂金石；明清鼎盛，万户载道占鳌头。”<br />北面牌坊匾额为朱仙大捷（背面匾额：精忠报国）。雕刻楹联 “仰天长啸，三十功名尘与土，壮怀激烈，八千里路云和月。”</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091536225.heic" alt="三星高照" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091538412.heic" alt="漕运码头 - 恩德济民" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544401.heic" alt="漕运粮仓" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544402.heic" alt="千总署" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544403.heic" alt="验粮楼" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544404.heic" alt="验粮楼" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544405.heic" alt="验粮楼" /></p><blockquote><p>验粮楼，又名仰需楼。验粮楼是古代政府设在漕粮征收地的外派机构，负责将每年地方上缴的漕粮验收定级并登账入库。全国都设置了类似验粮机构，河南省有粮道衙门，开封府及祥符县设有类似征粮机构，下设监督巡查官、征收监兑官、押运官、领运官等。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544520.heic" alt="鸣鹤岛上的福禄寿三星阁" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544517.heic" alt="潜龙桥" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544519.heic" alt="潜龙桥" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544518.heic" alt="潜龙桥上鸟瞰" /></p><blockquote><p>1785 年，清乾隆五十年九月间，整个黄淮下游地区出现了一次罕见的特大旱情，情况严重。年事已高的乾隆最后一次南巡，在南巡视察河工期间，他对整体筹划河务及治河引水的重大工程亲自决策，祭祀河神也达到了盛况空前的规模。乾隆皇帝在纪晓岚、河南巡抚毕沅陪同下，巡视了贾鲁河下游的朱仙镇，并下榻清真寺。当时乾隆皇帝下旨令河南巡抚在朱仙镇再修一座大拱桥，方便百姓出行。后人为纪念一历史事件，把乾隆皇帝修建的桥称作 “乾隆桥”，为避讳帝王字号，便谐音称 “潜龙桥”。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544514.heic" alt="及第阁" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091544516.heic" alt="马上封侯楼前的猴戏表演" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091545391.heic" alt="状元桥" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091545392.heic" alt="状元桥" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091545393.heic" alt="状元桥" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091545390.heic" alt="状元桥上" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091545388.HEIC" alt="状元桥上拍的全景图" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091545389.HEIC" alt="状元桥上拍的全景图" /></p><blockquote><p>状元桥，它全长 152 米，桥面宽 6 米，历时十个月纯手工雕凿而成。所用石材均为五莲红，来自于有着 “江北石材第一镇” 之称的山东省五莲县桥头镇。<br />开封是宋都，当时宋徽宗的三儿子赵楷，一直很喜欢读书，于是在各地士子进京赶考的时候他也去凑了个热闹。宋重和元年，即公元 1118 年，赵楷才 17 岁，他偷偷地参加了科举考试。由于他文采非凡异常，一路过关斩将，进入殿试并夺得头名（状元）。发榜后，赵楷将实情告诉了徽宗，徽宗在高兴之余怕天下士子说闲话，就把当年的第二名（榜眼）王昂提为状元。宋徽宗为鼓励众皇子读书，赐赵楷黄金千两。赵楷分文未取，以朝廷赈灾的名义赐予遭受黄河水灾严重的朱仙镇一带，用剩下黄金建造了一座桥，老百姓称它为状元桥，实则纪念中国历史上身份最高的状元赵楷。全国现有 100 多座状元桥，而景区状元桥是中国历史上一座为没有名分的 “状元” 命名的状元桥。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546150.heic" alt="王爷府" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546151.heic" alt="秋菊亭" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546152.heic" alt="司命坊" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546153.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546154.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546155.heic" alt="偕老亭" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546156.heic" alt="鹊桥" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546157.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546158.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546159.heic" alt="凤仪桥" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546160.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546161.heic" alt="" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/QifengHometown/202312091546162.heic" alt="" /></p><hr /><p>启封故园文化底蕴深厚，冬季景色稍差些，有空可以来玩。</p>]]></content>
-    
-    
-    <summary type="html">周四下午（12.07）去了启封故园，开封市祥符区朱仙镇的 4A 级景点。朱仙镇启封故园，即朱仙镇国家文化生态旅游示范区。是河南省、开封市重点项目和省、市重点旅游项目。该项目位于开封市朱仙镇北侧、开尉路以西、运粮河两侧，总建设周期 10 年，计划累计投资 120 亿，总建筑面积 80 多万平方米。项目规划分为古镇风情展示区、环湖风景游览区、温泉休闲度假区、古战场文化体验区、生态农家体验区、文化创意养生区、生态湿地体验区、生态林地观光区等 8 个功能区。</summary>
     
     
     
