@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-04-09T01:15:13.928Z</updated>
+  <updated>2024-04-15T06:39:12.872Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #112（2024.04.15）</title>
+    <link href="http://kiligwyu.com/newsletter/112/"/>
+    <id>http://kiligwyu.com/newsletter/112/</id>
+    <published>2024-04-15T05:56:50.000Z</published>
+    <updated>2024-04-15T06:39:12.872Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 112 期。本篇是对过去一周（04.08 - 04.14）的记录、思考与分享。</p><hr /><p>又到了杨柳絮漫天飞舞的时候，现在还不算严重。</p><p>再过两天，小孩奶奶就来了，我就能轻松些了。</p><p>家里攒了好多花盆了，留着吧没用还占地，弃之可惜。我现在已经不喜欢养花了，最后净剩些盆。</p><p>给图片添加类似 macOS 窗口截图时的阴影的小工具 <a href="https://apps.apple.com/app/id1633245174/">MSS</a> 更新了 1.4 版本，此次更新支持了从剪贴板粘贴图片，也修复了些小问题。</p><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>吟游诗人基德 - <a href="https://www.bilibili.com/video/BV1Cq421c7hY/">【基德】减肥神技？？168 断食法的真相</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://www.pcspy.net">播客广场</a><ul><li>少数派 - <a href="https://sspai.com/post/87991">为了发现更多感兴趣的播客，我开发了一款工具</a></li></ul></li><li><a href="https://inpaintweb.lxfater.com">Inpaint-web</a> - 免费无限量去水印和物体的在线工具</li><li>#TIL macOS 应用启动时添加 <code>-_NS_4445425547 YES</code> 这个参数，可以在菜单栏获得一个 🐞 菜单，可以获取一些信息方便 debug，也可以用 <code>defaults write -g _NS_4445425547 -bool true</code> 让这个菜单显示在所有 App 上。via <a href="https://twitter.com/tualatrix/status/1777574176330789143">@tualatrix</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404151428686.webp" alt="Finder 的 🐞 菜单" /></li><li>小众软件 - <a href="https://www.appinn.com/just-one-page-pdf/">Just-One-Page-PDF - 将网页保存为 PDF：A4 尺寸，支持保存为一页或多页 PDF[Chrome]</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 112 期。本篇是对过去一周（04.08 - 04.14）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;又到了杨柳絮漫天飞舞的时候，现在还不算严重。&lt;/p&gt;
+&lt;p&gt;再过两天，小孩奶奶就来了，我就能轻松些了。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #111（2024.04.08）</title>
@@ -500,32 +528,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 95 期。本篇是对过去一周（12.11 - 12.17）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;喜鹊造字发布了新字 &lt;a href=&quot;https://mp.weixin.qq.com/s/xAf8ibKrti-</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #94（2023.12.11）</title>
-    <link href="http://kiligwyu.com/newsletter/94/"/>
-    <id>http://kiligwyu.com/newsletter/94/</id>
-    <published>2023-12-11T06:23:43.000Z</published>
-    <updated>2023-12-11T08:13:01.613Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 94 期。本篇是对过去一周（12.04 - 12.10）的记录、思考与分享。</p><hr /><p>macOS Sonoma 更新了 14.2 Release Candidate，修复了中文输入法偶尔卡死系统的问题（via <a href="https://twitter.com/tualatrix/status/1732253465077006442">@tualatrix</a>），值得更新，正式版到下周了。</p><p>周四周五分别去了朱仙镇启封故园和大相国寺，天气是真好。都是 4A 级景区，启封故园冬天景色不是特别好，大相国寺殿内禁止拍照，部分照片分别发在 <a href="/KaifengTravel/QifengHometown/">开封旅游之朱仙镇启封故园</a> 和 <a href="/KaifengTravel/DaxiangguoTemple/">开封旅游之大相国寺</a>。</p><p>2023 年下半年的软考可以查成绩了，我报考的中级软件设计师，果不其然，挂了。考试时就已经做好了挂的准备，当时掉以轻心，备考时间不足，复习的不够。算了。</p><p>我的 Setapp 订阅到期了，其实组个家庭，每人每月 $5，还是很划算的。但我不准备续订了，常用的软件单独购买，部分软件我以前也买的有，实在贵的找替代品，大多数软件还是可以买断的，小部分一年内可以更新，一年后也还可以保留使用，除非遇到兼容问题再升级，升级也还有优惠，所以总体算下来还是比订阅划算些。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>Max Tech - <a href="https://www.youtube.com/watch?v=u1dxOI_kYG8">8GB M3 Mac vs 16GB Windows PC - Did Apple LIE to You?!</a></li><li><a href="https://www.youtube.com/watch?v=L6WDq0V5oBg">Exclusive 2024 Tesla Cybertruck Full Review &amp; Drag Race w R1T &amp; Hummer — Jason Cammisa on the ICONS</a></li><li><a href="https://www.bilibili.com/video/BV1SQ4y1V7do/">《黑神话：悟空》发售日预告 | 2024.8.20，直面天命</a></li><li>Drew Builds Stuff - <a href="https://www.youtube.com/watch?v=bv88wM6AN6Y">Building a WINDOW with 3 Huge TVs</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1m94y177Eo/">ZEALER 前员工从传播学角度聊聊王自如</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1GN4y1a7HM/">11月网络热门话题鉴定 | 其实没人在意五月天唱功的</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1Ku4y1G7Ne/">卡波特利用真实灭门案写出的畅销书，背后谁更冷血</a></li><li>耿同学讲故事 - <a href="https://www.bilibili.com/video/BV1ZN411L7Ap/">好学生是什么样的？中国大学生网树立了错误的榜样！</a></li><li>flypig 的小号 -  <a href="https://www.bilibili.com/video/BV1QN411L7yZ/">我们拷问了金凡，「雷军金凡」那个金凡</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1Vw411b7tA/">【Vlog】去了一趟韩国。</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>十里 - <a href="https://5km.studio/blog/appletv-start-new-life-experience">AppleTV 开启新的生活体验</a></li><li><a href="https://xargin.com/ghost-story/">一些鬼故事</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>B 站的视频分享到 𝕏 上时，链接域名后面加上 “bb”，𝕏 就会解析视频链接，而不只显示个链接，比如将链接里的 <code>bilibili.com</code> 改成 <code>bilibilibb.com</code>，<code>b23.tv</code> 的短链改成 <code>b23bb.tv</code>。via <a href="https://twitter.com/HzaoHzao/status/1733337729436618997">@HzaoHzao</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312111539331.webp" alt="@HzaoHzao Screenshot" /></li><li>皓叔的遗作 <a href="https://shop18793264.m.youzan.com/wscgoods/detail/3no167zbyfy6wg4">《左耳听风》实体书</a> 出版了。via <a href="https://twitter.com/songma/status/1733064864569127400">@songma</a></li><li>Github 开源一哥 Sindre 的公开财务数据：<a href="https://opencollective.com/sindresorhus">opencollective.com/sindresorhus</a>。via <a href="https://twitter.com/hzlzh/status/1732755777318957449">@hzlzh</a>，另外关于 Sindre Sorhus，还有一篇介绍文章：<a href="https://mp.weixin.qq.com/s/y2AYcC83KCv2Pi060n_MZg">GitHub 的榜一大佬晒出存款后，大家却想给他捐钱。</a>。</li><li>一个把任意数据混合到图片像素中的在线工具：<a href="https://mixim.cyandev.app">Mixim</a>。via <a href="https://twitter.com/unixzii/status/1732019384632418382">@unixzii</a></li><li><s>快来偷学咒语，</s> <a href="https://github.com/linexjlin/GPTs">linexjlin/GPTs</a>: leaked prompts of GPTs. via <a href="https://twitter.com/HiTw93/status/1732187345234075972">@HiTw93</a></li><li>把 iPhone Wi-Fi 里自定义的 DNS 前面加上 <code>tls://</code>，收取微信再也不转转转了。🤣 via <a href="https://twitter.com/shajiabiji/status/1731865962184401069">@shajiabiji</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 94 期。本篇是对过去一周（12.04 - 12.10）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;macOS Sonoma 更新了 14.2 Release Candidate，修复了中文输入法偶尔卡死系统的问题</summary>
       
     
     
