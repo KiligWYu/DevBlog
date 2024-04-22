@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-04-15T06:39:12.872Z</updated>
+  <updated>2024-04-22T06:09:46.523Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #113（2024.04.22）</title>
+    <link href="http://kiligwyu.com/newsletter/113/"/>
+    <id>http://kiligwyu.com/newsletter/113/</id>
+    <published>2024-04-22T05:24:31.000Z</published>
+    <updated>2024-04-22T06:09:46.523Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 113 期。本篇是对过去一周（04.15 - 04.21）的记录、思考与分享。</p><hr /><p><a href="https://apps.apple.com/app/id6463897064/">Kroma - Your Color Library</a> 更新了了 1.5 版本，日常更新和修复。</p><p>周日去了荷泽看牡丹，并没有很壮观，盛花期可能已经过了，人还特别多，还得看着小朋友，也没有心情拍照，一张都没拍。</p><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>JUNPING - <a href="https://blog.imjp.uk/indie-app-zh">探索打造以用户为中心的独立应用</a></li><li>Piglei - <a href="https://www.piglei.com/articles/three-little-things-on-code-review/">Code Review 时，曾被我忽视的 3 件重要小事</a></li><li>德普王’s Blog - <a href="https://depp.wang/tools/">软件工具推荐</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7421.html">看完豆瓣电影 250 后的体验</a></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=PprktCMvhLo">天才在左，疯子在右，法国在哪？【新列国志01】 | France: The Land of Geniuses and Maniacs</a></li><li>柴知道 ChaiKnows Official Channel - <a href="https://www.youtube.com/watch?v=d0sB_AyFn54">人死之后会再社死一次吗？你在网上的秘密守得住吗？【柴知道：人生大题】</a></li></ul><h3 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h3><ul><li><a href="https://apps.apple.com/app/id1048524688">Delta - Game Emulator</a> - All-in-One GBA4iOS Successor<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221336313.webp" alt="Delta - App Store Preview Screenshot" /></li></ul><blockquote><p>Delta – Game Emulator 是一款新鲜上架 App Store，适配 iPhone 的游戏模拟器，支持NES、SNES、Game Boy、Game Boy Color、Game Boy Advance、Nintendo DS、Nintendo 64、Sega Genesis 等多种游戏机，需要自备游戏 ROM。<a href="https://www.appinn.com/delta-game-emulator/">@Appinn</a></p></blockquote><p>终于可以在 iPhone 上玩小时候的小游戏了，很早以前我就分享过我收集的小游戏 <a href="https://github.com/KiligWYu/PlayForFun">KiligWYu/PlayForFun</a>，除了游戏 rom，还有一些 Flash 小游戏（swf）。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221347219.webp" alt="在 iPhone 上玩小游戏" /></p><ul><li><p><a href="https://apps.apple.com/app/id6478897923">雀乐</a><br />原落网，iOS 客户端，发现独立、小众好听的音乐。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221350938.webp" alt="雀乐 - App Store Preview Screenshot" /></p></li><li><p><a href="https://sindresorhus.com/command-x">Command X</a> - Cut and paste files in Finder<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221359770.webp" alt="Command X Preview Screenshot" /></p></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://github.com/tonyhuan/GuanKiapTsingKhai">tonyhuan/GuanKiapTsingKhai</a> - 原俠正楷，整合「芫荽」及「霞鶩文楷輕便版」這二個基於「Klee One」改造的中文字型，並提供簡轉繁字型 (簡體改以繁體顯示) 及偽直排字型 (各單字旋轉 90 度形成直書排版)。<br /><img src="https://github.com/tonyhuan/GuanKiapTsingKhai/raw/main/img/GKTK_Sample_112-00.png" alt="GuanKiapTsingKhai Preview" /></li><li><a href="https://github.com/quilljs/quill">quilljs/quill</a> - 开源富文本编辑器</li><li><a href="https://github.com/Lakr233/BBackupp">Lakr233/BBackupp</a> - Automated iOS Backup Robot.<br />开源的 iOS 备份工具。<br /><img src="https://github.com/Lakr233/BBackupp/raw/main/Resource/Readme/SCR-20240322-khfv.jpeg" alt="BBackupp Preview Screenshot" /></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 113 期。本篇是对过去一周（04.15 - 04.21）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/app/id6463897064/&quot;&gt;Kroma</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #112（2024.04.15）</title>
@@ -510,32 +536,6 @@
     
     
     <category term="开封旅游" scheme="http://kiligwyu.com/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #95（2023.12.18）</title>
-    <link href="http://kiligwyu.com/newsletter/95/"/>
-    <id>http://kiligwyu.com/newsletter/95/</id>
-    <published>2023-12-18T04:43:14.000Z</published>
-    <updated>2023-12-18T06:19:16.592Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 95 期。本篇是对过去一周（12.11 - 12.17）的记录、思考与分享。</p><hr /><p>喜鹊造字发布了新字 <a href="https://mp.weixin.qq.com/s/xAf8ibKrti-fhZlLwWeJ3g">喜鹊宋体</a>，本字体爱好者火速购买了，字体是挺好看的，但个人觉得不太适合做电子书的字体。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181306019.webp" alt="自用的字体安装 app - 喜鹊宋体预览" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181306063.webp" alt="电子书喜鹊宋体预览" /></p><p>读完了 <a href="https://book.douban.com/subject/36182329/">读库 2206</a>，开篇就是长达 158 页的颇无聊的《窑洞渐远》。不过我没有按顺序读，最后才读《窑洞渐远》，读了几十页就放弃了。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181250227.webp" alt="读库 2206" /></p><p>本周气温骤降，下了场大雪，小区里的雪景很漂亮。景区也是，不过太冷了加上路上不太好走，本周没去景区，分享几张小区里拍的照片。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351034.webp" alt="小区里的雪景_1" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351035.webp" alt="小区里的雪景_2" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351036.webp" alt="小区里的雪景_3" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351037.webp" alt="小区里的雪景_4" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351038.webp" alt="小区里的雪景_5" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181351039.webp" alt="小区里的雪景_6" /></p><p>周末在家给小可爱过了生日，提前过了 😄。Happy Birthday! 🎂</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=6ue2pwOPdyk">什么是墨脱？| What is Mêdog?</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=NE5Wye5ON0s">什么是云南？| What is Yunnan?</a></li><li>小饭团儿 Midy - <a href="https://www.bilibili.com/video/BV1yg4y1Z7eA/">故事感写真怎么拍？拍照引导过程分享！</a></li><li><a href="https://www.youtube.com/watch?v=Dm480OcyJDY">【睡前消息 682】支持张雪峰批文科，没有独立性哪有尊严</a></li><li><a href="https://www.bilibili.com/video/BV1na4y1R7zA/">包了个机场！看看谁是地表最快电车！001FR VS 特斯拉 SP VS 路特斯 R+</a></li><li>林亦 LYi - <a href="https://www.bilibili.com/video/BV1e64y1V7mo/">年终总结：人工智能与人类终局</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><p><a href="https://www.solidot.org/story?sid=76842">x.com 是 Twitter，但其它 [a-z].com 呢？</a></p><blockquote><p><a href="http://x.com">x.com</a> 被重定向到 Twitter，或者现在的 Twitter 就是 X，但其它的单字母 .com 网站呢？除了 <a href="http://x.com">x.com</a>、<a href="http://q.com">q.com</a> 和 <a href="http://z.com">z.com</a>，其它如 <a href="http://a.com">a.com</a>、<a href="http://b.com">b.com</a> 等都是空白页。为什么这些单字母域名会不存在？管理全球域名的非盈利机构 IANA（Internet Assigned Numbers Authority）在推出 .com 后不久就撤回了购买单字母域名的可能性，已有的单字母域名如 <a href="http://x.com">x.com</a> 允许保留。此举可能是出于安全方面的考虑。举例来说，<a href="http://e.com">e.com</a> 的子域名 <a href="http://googl.e.com">googl.e.com</a> 可能会被一位粗心的用户当成是 <a href="http://google.com">google.com</a>。相比下，单字母的 .org 域名很多都能访问。</p></blockquote></li><li><p><a href="https://basicappleguy.com/basicappleblog/ugly-christmas-sweater-wallpapers">UGLY CHRISTMAS SWEATER WALLPAPERS</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181355707.webp" alt="HAPPY MACINTOSH" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181355708.webp" alt="CLARUS THE DOGCOW" /></p></li><li><p><a href="https://twitter.com/HiTw93/status/1735618802162008432">Tw93 分享的日本游记</a>，从人、生活、交通、工作等多方面分享自己的感受。via <a href="https://twitter.com/HiTw93/status/1735618802162008432">@HiTw93</a></p></li><li><p><a href="https://apps.apple.com/app/id6472669260">CrossCraft: Custom Crosswords</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181404976.webp" alt="CrossCraft: Custom Crosswords" /></p></li><li><p><a href="https://chromewebstore.google.com/detail/ikibhhoiahknmbgdnbfkooeienfmnakl">EpubKit</a>：一个用来保存网页然后把这些网页合并成一本 EPUB 电子书的插件。via <a href="https://twitter.com/randyloop/status/1735269008541364656">@randyloop</a></p></li><li><p>🤯 via <a href="https://twitter.com/AFutureD/status/1734590387027878061">@AFutureD</a>，<a href="https://github.com/Simon-He95/awesome-collections/blob/main/zshrc/.zshrc">Simon-He95/awesome-collections/blob/main/zshrc/.zshrc</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/202312181408165.webp" alt="切输入法很烦的" /></p></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 95 期。本篇是对过去一周（12.11 - 12.17）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;喜鹊造字发布了新字 &lt;a href=&quot;https://mp.weixin.qq.com/s/xAf8ibKrti-</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   
