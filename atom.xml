@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-04-22T06:09:46.523Z</updated>
+  <updated>2024-04-29T06:40:32.111Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #114（2024.04.29）</title>
+    <link href="http://kiligwyu.com/newsletter/114/"/>
+    <id>http://kiligwyu.com/newsletter/114/</id>
+    <published>2024-04-29T05:56:55.000Z</published>
+    <updated>2024-04-29T06:40:32.111Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 114 期。本篇是对过去一周（04.22 - 04.28）的记录、思考与分享。</p><hr /><p>又是无趣的一周。<br />星巴克办公，为新产品做技术调研，基本确定了实现方案，接下来就是开发了。<br />简单了解下 Telegram 的机器人和 API，把部分通知接入 Telegram。<br />同时也在继续学习 SwiftUI。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>惜车工场CSW - <a href="https://www.bilibili.com/video/BV1Gz42167HN/">小米 SU7 即将满月，我们有几个新问题想请教雷总！「迟到车评」</a></li><li>两颗皮蛋 - <a href="https://www.bilibili.com/video/BV1am41127dS/">[杜比] 10000 公里深测，特斯拉究竟改变了什么？</a></li><li>崔永元 - <a href="https://www.youtube.com/watch?v=Y8o279e0E4s">说说王志安，说说柴静他们的过去和现在！</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=8NR2s2KcmAc">为什么草莓味的食品没啥草莓味？</a></li><li>柴知道 ChaiKnows Official Channel - <a href="https://www.youtube.com/watch?v=d0sB_AyFn54">人死之后会再社死一次吗？你在网上的秘密守得住吗？【柴知道：人生大题】</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>少数派 - <a href="https://sspai.com/post/88299">iPhone 终于有任天堂模拟器了：聊聊热门应用 Delta 的前世今生</a></li><li><a href="https://franktan.blog/2024/04/25/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8F%82%E5%8A%A0%E7%9A%84try-swift-tokyo%E5%B0%8F%E8%AE%B0/">第一次参加的 try! Swift Tokyo 小记</a></li><li>肇鑫的日常博客 - <a href="https://zhaoxin.pro/life/17138654694795.html">今天购物的两件小事</a></li><li>Holy Swift - <a href="https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/">Common Mistakes to Avoid When Using Enums in Swift</a></li><li>肘子的 Swift 记事本 - <a href="https://fatbobman.com/zh/posts/in-depth-exploration-of-overlay-and-background-modifiers-in-swiftui/">深入探索 SwiftUI 中的 Overlay 和 Background 修饰器</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://github.com/lihaoyun6/QuickRecorder">lihaoyun6/QuickRecorder</a>: A lightweight screen recorder based on ScreenCapture Kit for macOS / 基于 ScreenCapture Kit 的轻量化多功能 macOS 录屏工具</li><li><a href="https://github.com/s1ntoneli/AppUpdater">s1ntoneli/AppUpdater</a>: A simple app-updater for macOS, checks your GitHub releases for a binary asset and silently updates your app.</li><li><a href="https://ddyx.me/">低端游戏</a>：在浏览器里玩怀旧游戏。via <a href="https://twitter.com/hzlzh/status/1783386525390328231">@hzlzh</a><ul><li>在线体验 Windows 95/98：<a href="https://copy.sh/v86/">copy.sh/v86/</a>。via <a href="https://twitter.com/hzlzh/status/1783397413207867773">@hzlzh</a></li></ul></li><li><a href="https://sindresorhus.com/icon-preview">Icon Preview</a>: Preview your app icon and menu bar icon.</li><li><a href="https://iknowwhatyoudownload.com/en/peer/">I Know What You Download</a>: 这个网站可以看到你用的 ip 出口和它所属的网段底下的 ip 在 BT 上下载了什么。via <a href="https://twitter.com/Moelin_Moe/status/1782658643802071136">@Moelin_Moe</a></li><li><a href="https://wangchujiang.com/devtutor/">DevTutor for SwiftUI</a>: SwiftUI 的速查手册</li><li><a href="https://epubkit.app/blog/indie-hacker/">硬地骇客 - 两个月 $12000 ARR 实践之路</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 114 期。本篇是对过去一周（04.22 - 04.28）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;又是无趣的一周。&lt;br /&gt;
+星巴克办公，为新产品做技术调研，基本确定了实现方案，接下来就是开发了。&lt;br /&gt;</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #113（2024.04.22）</title>
@@ -515,27 +542,6 @@
     
     
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开封旅游之开封府</title>
-    <link href="http://kiligwyu.com/KaifengTravel/Kaifengfu/"/>
-    <id>http://kiligwyu.com/KaifengTravel/Kaifengfu/</id>
-    <published>2023-12-22T15:17:30.000Z</published>
-    <updated>2023-12-22T16:35:09.623Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li><a href="/KaifengTravel/LongtingScenicArea/">开封旅游之龙亭景区</a></li><li><a href="/KaifengTravel/TheMemorialTempleOfLordBao/">开封旅游之包公祠</a></li><li><a href="/KaifengTravel/WansuiShanWuxiaCity/">开封旅游之万岁山武侠城</a></li><li><a href="/KaifengTravel/QifengHometown/">开封旅游之朱仙镇启封故园</a></li><li><a href="/KaifengTravel/DaxiangguoTemple/">开封旅游之大相国寺</a></li></ul><hr /><p>12.20 下午去游玩了<a href="https://baike.baidu.com/item/%E5%BC%80%E5%B0%81%E5%BA%9C/1121182">开封府</a>，晴空万里，就是气温有些低。</p><p>开封府不在旅游年票包含的景区内，但凭年票可以打七折，原价 ¥65。（但优惠需要身份证，当天我没带，景区停车场停车费 ¥10，最后买了全价票）。当天气温较低，手机电量急剧下降，我才逛了半个景区，就给冻关机了，所以只拍了半个景区的照片 🤣。</p><blockquote><p>开封府，位于开封市包公东湖北岸，是北宋京都官吏行政、司法的衙署，被誉为天下首府，是国家 AAAA 级旅游景区。<br />开封府，又称南衙，初建于五代后梁开平元年（公元 907 年），已有一千多年历史。<br />史料记载，北宋开封府共有 183 任府尹，尤以包公打座南衙而驰名中外。今日重建的开封府，占地 60 余亩，建筑面积 1.36 万平方米，与位于包公西湖的包公祠相呼应，同碧波荡漾的三池湖水相映衬，形成了东府西祠、楼阁碧水的秀美景观。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340001.heic" alt="重建宋东京开封府记" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340002.JPEG" alt="开封府尹题名记碑" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340003.JPEG" alt="开封府题名记碑" /></p><blockquote><p>开封府题名记碑记载了二百余名开封府府尹的任职情况。其中，宋太宗、宋真宗、宋钦宗三位皇帝都曾潜龙在此，先后有寇准、包拯、欧阳修、范仲淹、苏轼、司马光、苏颂、蔡襄、宗泽等一大批杰出政治家、思想家、文学家、军事家在此任职。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340004.heic" alt="包公司法文化博物馆" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340005.heic" alt="仪门" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340006.heic" alt="仪门" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340007.heic" alt="开封府大鼎" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340008.heic" alt="北宋开封府印" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340012.heic" alt="仪门背面" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340009.heic" alt="戒石铭和后面的正厅" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340019.heic" alt="戒石铭北面" /></p><blockquote><p>树立在正厅院里的巨石，就是 “戒石铭”。其南面镌刻 “公生明”，提醒官员只有公正，一心为公，才能明察秋毫，才能清正廉明；其北面的 “尔奉尔禄，民脂民膏；下民易虐，上天难欺”，在告诫官员们要洁身自好，为官一任，造福一方。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340013.heic" alt="左厅" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340014.heic" alt="左厅职能简介" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340015.heic" alt="左厅里的铜像" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340016.heic" alt="右厅" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340017.heic" alt="右厅职能简介" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340018.heic" alt="右厅里的铜像" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340010.heic" alt="正厅" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222340011.heic" alt="正厅牌匾" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344039.heic" alt="正厅内" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344040.heic" alt="“龙头”“虎头”“狗头” 三口铜铡" /></p><blockquote><p>正厅，是北宋开封府长官发布政令，处理政务以及府衙举行重大活动，公开审理要案的地方。大堂有一种庄严肃穆的气氛，大堂前就是大家熟知的 “龙头”“虎头”“狗头” 三口铜铡，令人望而生畏。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344041.heic" alt="宋真宗御制文臣七条" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344042.heic" alt="宋真宗御制武臣七条" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344045.heic" alt="诫百官举行真宗文武七条诏" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344043.heic" alt="议事厅" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344044.heic" alt="议事厅蜡像" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344046.heic" alt="大宋开封府官吏手迹" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344047.heic" alt="天安气和" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344048.heic" alt="苏轼书《醉翁亭记》" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344049.heic" alt="五岳真形图" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344050.heic" alt="天庆观" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344051.heic" alt="三清殿" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344052.heic" alt="梅花堂" /></p><blockquote><p>梅花堂坐落在一个梅花飘香的小院之中，它是传说中包公倒坐南衙的地方。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344053.heic" alt="寒雪清骨" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/KaifengTravel/Kaifengfu/202312222344054.heic" alt="清 慎 勤" /></p><p>就拍了这么多照片，手机就关机了，开封府大门没拍，大门外还有“流承”“宣化”牌坊“獬豸图”照壁等，大门上的文城墙，西南角的府司西狱、潜龙宫、清心楼等，都没能拍照，在清心楼上鸟瞰整个开封府，屋顶上还有残存的积雪，风景也很好看。</p><p>下次再去开封府都不知是何时了。</p>]]></content>
-    
-    
-    <summary type="html">12.20 下午去游玩了开封府，晴空万里，就是气温有些低。开封府，位于开封市包公东湖北岸，是北宋京都官吏行政、司法的衙署，被誉为天下首府，是国家 AAAA 级旅游景区，票价 ¥65。</summary>
-    
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/categories/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
-    
-    
-    <category term="开封旅游" scheme="http://kiligwyu.com/tags/%E5%BC%80%E5%B0%81%E6%97%85%E6%B8%B8/"/>
     
   </entry>
   
