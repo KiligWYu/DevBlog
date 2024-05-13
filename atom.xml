@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-05-06T14:48:54.940Z</updated>
+  <updated>2024-05-13T14:58:22.050Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #116（2024.05.13）</title>
+    <link href="http://kiligwyu.com/newsletter/116/"/>
+    <id>http://kiligwyu.com/newsletter/116/</id>
+    <published>2024-05-13T14:18:47.000Z</published>
+    <updated>2024-05-13T14:58:22.050Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 116 期。本篇是对过去一周（05.06 - 05.12）的记录、思考与分享。</p><hr /><p>苹果 5 月 7 日发布了新一代 iPad Air 和 iPad Pro，首发 M4 芯片用在了 Pro 上，Pro 更强也更薄了，屏幕也升级了，接下来就看 6 月 WWDC 上公布的新系统了，肯定有 AI 方面的更新。iPad Pro 对我毫无吸引力，这么强的性能，也用不上，我的 9.7 英寸 iPad Pro 还在吃灰呢，不过我比较期待今年的新款 iPhone。</p><h2 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h2><ul><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV17T421Q7ej/">给勇敢辞职的朋友煽风点火</a></li><li>橙红Iris - <a href="https://www.bilibili.com/video/BV1eH4y137qz/">【买齐所有】iPad 编年史（2010-2024）：一块玻璃的艺术之旅</a></li><li>星球研究所Institute for Planets - <a href="https://www.youtube.com/watch?v=0cqoFqj_yOY">恐高慎入！走出大凉山，到底有多难？| The Arduous Journey Out of Liangshan</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=hx1AxPmLAnM">世界上最豪华的火车上，吃的有多美味？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1kE42137if/">医保DRG改革来了！它能让你安心看病吗？【柴知道】</a></li></ul><h2 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h2><ul><li>WildCat’s Blog - <a href="https://blog.wildcat.io/2024/04/lessons-learned-from-leaving-the-most-valuable-company-zh/">离开第一市值大厂，我学到了什么？</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>可以分析网站使用的技术栈的 Chrome 拓展 <a href="https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg">Wappalyzer</a> via <a href="https://twitter.com/vikingmute/status/1789831066578289096">@vikingmute</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202405132242482.webp" alt="GitHub 使用的技术栈" /></li><li>棒棒网址生成器：<a href="http://llIlI.lI">llIlI.lI</a> via <a href="https://twitter.com/chenxuu/status/1789321466544013539">@chenxuu</a>。<br />把网址变成棒棒，比如把 <a href="https://kilig.blog/">kilig.blog</a> 变成 <a href="http://IIIIIIlIIIl.llIlI.lI">IIIIIIlIIIl.llIlI.lI</a>，这个跟 <a href="https://ooooooooooooooooooooooo.ooo">Looooooooooooooooooooooonger</a> 有异曲同工之妙。</li><li><a href="https://pushkeen.ai/appstore-icons">pushkeen.ai/appstore-icons</a>: 在线快速获取 App Store 的 App Logo</li><li><a href="https://github.com/jaywcjlove/reference">jaywcjlove/reference</a>: 为开发人员分享快速参考备忘清单 (速查表)</li><li><a href="https://books.epubkit.app">EpubKit 电子书精选</a> via <a href="https://twitter.com/randyloop/status/1788769413086560649">@randyloop</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 116 期。本篇是对过去一周（05.06 - 05.12）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;苹果 5 月 7 日发布了新一代 iPad Air 和 iPad Pro，首发 M4 芯片用在了 Pro 上，P</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #115（2024.05.06）</title>
@@ -508,33 +534,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 98 期。本篇是对过去一周（01.01 - 01.07）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;本周一半（下午）时间在星巴克，一半时间在市图书（新）馆，才发现图书馆已经开门半个月了。以后如果出门，就优先去图书馆</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #97（2024.01.01）</title>
-    <link href="http://kiligwyu.com/newsletter/97/"/>
-    <id>http://kiligwyu.com/newsletter/97/</id>
-    <published>2024-01-01T12:57:52.000Z</published>
-    <updated>2024-01-01T15:02:21.352Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 97 期。本篇是对过去一周（23.12.25 - 12.31）的记录、思考与分享。</p><hr /><p>新年快乐啊朋友们！</p><p>最近在 Safari 上遇到部分网站的 Cloudflare 验证会卡住的问题，经过尝试，最后发现是 Safari 的一个拓展造成的，把它所有网站的访问权限（或者只把该网站的访问权限）关掉就好了。</p><p>上期周报里我说，不出意外的话元旦过后我就该上班了，可意外偏偏来的飞快，周二下午收到 offer，周三下午公司就变卦了，周一跟人事沟通时候对方还强调了“契约精神”。算了，我另外再找就是了，塞翁失马，焉知非福。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li><a href="https://www.bilibili.com/video/BV1Yb4y137BN/">B 站百大 up 主怎么做评测？算法代替天赋【先看 × 问题不大】（1）</a></li><li>bopular - <a href="https://www.bilibili.com/video/BV14e411z7XA/">我的 2023</a></li><li>Apple - <a href="https://www.youtube.com/watch?v=07cKD8GK__c">iPhone 15 Plus | Miss You | Apple</a></li><li><a href="https://www.bilibili.com/video/BV1Lj411n7M3/">支个招！百 大 UP 第 一 步，___</a></li><li>柴知道 &amp; 铁打的郎中 - <a href="https://www.bilibili.com/video/BV1aa4y1B7FL/">50 跟 1000 元的眼镜片怎么选？国产镜片真的比进口的差？【柴知道】</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1gK411b79Q/">2023 年狗刨片头混剪来啦 [tv_doge]！</a></li><li><a href="https://www.youtube.com/@user-dt4hx7ml3i/">豪哥喝一杯</a></li><li>爪 - <a href="https://www.youtube.com/watch?v=zEpuMHZqcfk">2023 年的最后一天，第一次 vlog 尝试</a></li><li><a href="https://www.youtube.com/@MegabitsStudio">Megabits Studio</a></li></ul><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Fatbobman - <a href="https://fatbobman.com/zh/posts/blog-update-chronicle-2024/">博客更新记：用新博客迎接 2024</a></li><li>Hank’s Blog - <a href="https://zhaohongxuan.github.io/2023/12/27/2023-review/">再见，我的 2023</a></li><li><a href="https://trycombine.com/posts/marin-side-projects-2023/">Marin’s Side Projects 2023</a></li><li>61 - <a href="https://61.life/2023/1230">📖2023 阅读记录</a></li><li>象牙山刘能 / 黄大龙 - <a href="https://disksing.com/life-recording/">都 2024 了，你还没随身带录音笔吗？</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg7pPDJceZ7bIpHwsLA">2023 年 12 月必应超高清无水印壁纸</a></li><li><a href="https://apps.apple.com/app/id1515035333">小鱼短信</a>：基于机器学习的垃圾短信链接应用，类似 <a href="https://apps.apple.com/app/id1642682818">熊猫吃短信</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401012217996.webp" alt="小鱼短信" /></li><li><a href="https://apps.apple.com/app/id6473619527">Strip Light</a>：屏幕跑马灯<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401012235381.webp" alt="Strip Light" /></li><li><a href="https://apps.apple.com/app/id1631654360">Dtd Playlist-StandBy Music App</a> 开发者分享的关于 Dtd 和 HpppyPlan 的由来。via <a href="https://twitter.com/DTD_STUDIOS/status/1740680551764562410">@DTD_STUDIOS</a><blockquote><p>Dtd 是 DAY TO DAY HAPPY DAY 的缩写。<br />HappyPlan 就是字面意思，开心计划。</p></blockquote></li><li>2023 圣诞音乐会节目【幸福在哪里？】via <a href="https://twitter.com/maoshen04/status/1740576939352760489">@maoshen04</a></li><li><a href="https://24hbook.com">24h 搜书网</a> via <a href="https://twitter.com/deepsixnone/status/1739976131267465482">@deepsixnone</a></li><li>房东不退押金该咋办？这个高赞回答应很实用。via <a href="https://twitter.com/Pandazhq/status/1738971034320015722">@Pandazhq</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 97 期。本篇是对过去一周（23.12.25 - 12.31）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;新年快乐啊朋友们！&lt;/p&gt;
-&lt;p&gt;最近在 Safari 上遇到部分网站的 Cloudflare 验证会卡住的</summary>
       
     
     
