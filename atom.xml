@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-05-13T14:58:22.050Z</updated>
+  <updated>2024-05-20T08:01:11.387Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #117（2024.05.20）</title>
+    <link href="http://kiligwyu.com/newsletter/117/"/>
+    <id>http://kiligwyu.com/newsletter/117/</id>
+    <published>2024-05-20T06:50:11.000Z</published>
+    <updated>2024-05-20T08:01:11.387Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 117 期。本篇是对过去一周（05.13 - 05.19）的记录、思考与分享。</p><hr /><p>#TIL 这边路边的柳树挺多的，每次从柳树下经过，总感觉有水落下，那么这些水从哪来的呢，网上搜了下，原来是 <a href="https://baike.baidu.com/item/%E6%9F%B3%E6%B2%AB%E8%9D%89/5328818">柳沫蝉</a> 这个家伙的泡沫腺的分泌物，虽然没什么危害对人，但也得及时清洗，尤其对敏感体质人群。</p><p>#TIL iOS 的闹钟，之前有个版本是去掉了时间滚动选择，需要手动输入的，后来可能吐槽人太多，苹果又改回滚动选择了，我现在才发现其实苹果也保留了手动输入时间功能的，只要长按选中的时间松手后就会弹出键盘，就可以手动输入时间了。我个人是更喜欢手动输入时间的，可以快速的设置闹钟时间，可比滑拉半天滚轮快多了。via <a href="https://twitter.com/dsteppenbeck/status/1792323283909796195">@dsteppenbeck</a><br /><img width=50% alt="手动输入闹钟时间" src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202405201513187.webp"></img></p><h2 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h2><ul><li>CaesarZX - <a href="https://www.youtube.com/watch?v=l8RHGeMugOk">陈冠希代言 vvild 小野电子烟广告  | 1分钟版</a></li><li>Branch Education - <a href="https://www.youtube.com/watch?v=dX9CGRZwD-w">How are Microchips Made?</a></li></ul><h2 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h2><ul><li>卡瓦邦噶！-  <a href="https://www.kawabangga.com/posts/2393">为什么要“包含头不包含尾”？</a></li><li><a href="https://blog-cn.nocobase.com/posts/nocobase-opensource-income-3years/">一个不知名的开源项目可以带来多少收入 —— NocoBase 3 年总结分享</a></li><li><a href="https://lutaonan.com/blog/a-year-off-work/">不上班的第一年 | Randy’s Blog</a></li></ul><h2 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h2><ul><li><a href="https://zh.wikipedia.org/wiki/%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B">侯世达定律</a><blockquote><p>做事所花费的时间总是比你预期的要长，即使你的预期中考虑了侯世达定律。</p></blockquote></li><li>VMware Fusion Pro 和 VMware Workstation Pro 对个人免费开放了，macOS 免费且强大虚拟机的新选择 via <a href="https://blogs.vmware.com/teamfusion/2024/05/fusion-pro-now-available-free-for-personal-use.html">VMware Fusion Blog</a></li><li>MASKED FORUM 假面圓桌派 - <a href="https://www.youtube.com/watch?v=nTp9b26KS78">【假面圓桌派】快速瞭解 OpenAI 剛發佈的 GPT-4o｜20 刀買男友、翻譯、導盲犬、老師｜免費羊毛｜iOS 18 的 Siri 不智障</a></li><li><a href="https://github.com/enkia/tokyo-night-vscode-theme">enkia/tokyo-night-vscode-theme</a></li><li><a href="https://blog.orangesai.com/p/ai-native-apps-developments-and-ideas">AI Native Apps 开发的一些实践和思考 | 橘子汽水铺 by orange.ai</a></li><li><a href="https://copybook.me">Copy Book</a>: 收集了互联网上各种常见场景下的标准英文表述和术语，做国际化时可以参考。via <a href="https://twitter.com/luoleiorg/status/1791359200058343635">@luoleiorg</a></li><li><a href="https://github.com/CapSoftware/Cap">CapSoftware/Cap</a>: Open source Loom alternative. Effortless, instant screen sharing.</li><li><a href="https://helm-app.com">Helm</a>: a native macOS app for App Store Connect that helps ship apps and updates faster and easier.</li><li><a href="https://github.com/ajeetdsouza/zoxide">ajeetdsouza/zoxide</a>: A smarter cd command. Supports all major shells.</li><li><a href="https://twitter.com/recatm/status/1790864765461340167">Reddit 问答版：为了赚钱你做过的最恶心的事情是什么？</a></li><li><a href="https://www.apple.com/newsroom/2024/05/apple-announces-new-accessibility-features-including-eye-tracking/">Apple announces new accessibility features, including Eye Tracking, Music Haptics, and Vocal Shortcuts</a><br />Vehicle Motion Cues Can Help Reduce Motion Sickness 这个可太有用了。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 117 期。本篇是对过去一周（05.13 - 05.19）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;#TIL 这边路边的柳树挺多的，每次从柳树下经过，总感觉有水落下，那么这些水从哪来的呢，网上搜了下，原来是 &lt;a</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #116（2024.05.13）</title>
@@ -508,32 +534,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 99 期。本篇是对过去一周（01.08 - 01.14）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;上周说的在用 SwiftUI + TCA 做的小玩具已经完成了，就差个 logo 了，本周上架 App Store</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #98（2024.01.08）</title>
-    <link href="http://kiligwyu.com/newsletter/98/"/>
-    <id>http://kiligwyu.com/newsletter/98/</id>
-    <published>2024-01-08T00:57:02.000Z</published>
-    <updated>2024-01-08T03:32:59.756Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 98 期。本篇是对过去一周（01.01 - 01.07）的记录、思考与分享。</p><hr /><p>本周一半（下午）时间在星巴克，一半时间在市图书（新）馆，才发现图书馆已经开门半个月了。以后如果出门，就优先去图书馆，离家 5 公里，比星巴克远点。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401081117028.webp" alt="市图书（新）馆楼层索引" /></p><p>在用 SwiftUI + TCA 做个小玩具，主要是实践下 TCA，本周继续，可以基本完成。</p><p>用 Swift 写了俩命令行小工具，把日常繁琐操作自动化一下，虽然用 Shell 脚本也是可以的，但我更熟 Swift 啊，写 Swift 可比写 Shell 脚本顺畅多了。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/feIeCR6oFNM?si=_25Ir9ZgL7P0IVIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><p>新年伊始，年终总结的文章比较多，来看看别人的 2023。</p><ul><li><a href="https://61.life/2024/0101">谜底 2023</a>，<a href="https://61.life/2024/0106">61 的 2023</a></li><li>新一 - <a href="https://a-wing.top/self/2023/12/31/2023">2023 总结：新的冒险</a></li><li>印记 - <a href="https://yinji.org/5233.html">聊聊这几年我做过的兼职</a></li><li>[卡瓦邦噶] - <a href="https://www.kawabangga.com/posts/5616">2023 年总结</a></li><li>少数派 - <a href="https://sspai.com/post/85521">不读可以先收藏：2023 少数派年度高分内容「合订本」</a></li><li>程序员的猫 - <a href="http://catcoding.me/p/2023-summary/">我的 2023</a></li><li>木子 - <a href="https://blog.k8s.li/honda-civic.html">考驾照和买二手车</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1BK41147Bq/">【年终忏悔录】要是我今年不太好，会不会让你开心一点！</a></li><li>bopular - <a href="https://www.bilibili.com/video/BV1zC4y1i7QZ/">最近爱用的咖啡豆咖啡馆咖啡机</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=iGz2uWl-kGc">一口气了解美联储 | 全球权力最大的金融机构</a></li><li>TuTu 生活志 - <a href="https://www.youtube.com/watch?v=6KOCBrOiEnQ">迟到的 2023 年终盘点～去年有哪些最提升我幸福指数 / 生活乐趣 / 工作效率的东西</a></li><li>aGameScout - <a href="https://www.youtube.com/watch?v=GuJ5UuknsHU">After 34 Years, Someone Finally Beat Tetris</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=P1PshivkNsg">东莞的故事，要从那一场虎门销烟开始说起…… | WHAT IS THE FULL PICTURS OF DONGGUAN?</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=enOCUFgLrOI">地理如何造河南？河南如何 “造中华”？｜What is Henan ?</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1sN4y1s7xi/">你家外墙怎么总是鼓包掉皮？掏空 6 个钱包，买不来一个正经外立面？</a></li><li>兔叭咯 - <a href="https://www.bilibili.com/video/BV1K64y1J7uL/">【医学博士】一次高危行为感染艾滋病的概率有多高？| 如何判断自己是否感染艾滋病？</a></li><li>平凡开箱 - <a href="https://www.bilibili.com/video/BV1fg4y1S76A/">全球首发体验：小米 SU7 智能座舱</a></li><li>老梁 - <a href="https://www.youtube.com/watch?v=rvQMc9BIHe4">老梁理解白岩松 2024 年促消费 如何解决老百姓 “有钱不敢花”</a></li><li>睡前消息 - <a href="https://www.youtube.com/watch?v=9vyj2gjgqZM">【参考信息第 173 期】年度汉字 “苔”；核聚变竞赛</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://www.smashingmagazine.com/2023/12/desktop-wallpaper-calendars-january-2024/">The Magic Of New Beginnings (January 2024 Wallpapers Edition)</a></li><li><a href="https://github.com/LunarBar-app/LunarBar">LunarBar-app/LunarBar</a>: A compact lunar calendar for your macOS menu bar.<br />LunarBar 的开发故事：<a href="https://github.com/LunarBar-app/LunarBar/blob/main/DEV.md">LunarBar-app/LunarBar/blob/main/DEV.md</a></li><li><a href="https://apps.apple.com/app/id1566140414">SVG Shaper for SwiftUI</a> via <a href="https://twitter.com/helje5/status/1743700778080952610">@helje5</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202401081054481.webp" alt="SVG Shaper for SwiftUI" /></li><li>#TIL #省钱小妙招 咸鱼除了二手物品交易，还能交停车费、餐饮代点、买会员、买电影票等等，还非常便宜。via <a href="https://twitter.com/meterscao/status/1743106356897518074">@meterscao</a></li><li>《<a href="https://twitter.com/DIGITALYCHEE/status/1742908103866396688">数码荔枝创业回忆录</a>》，via <a href="https://twitter.com/DIGITALYCHEE/status/1742908103866396688">@DIGITALYCHEE</a></li><li>#万物皆可苹果风 via 小红书，<a href="https://twitter.com/hwangdevs/status/1742854508684960035">@hwangdevs</a></li><li>#TIL How to get your app’s landing page url to display install button on 𝕏 via <a href="https://twitter.com/Amani_Art/status/1742499095091036200">@Amani_Art</a></li><li>捕蛇者说 - <a href="https://pythonhunter.org/episodes/ep44">Ep 44. 与 Tualatrix 聊聊独立开发使用的技术栈</a></li><li><a href="https://github.com/Lessica/Reveil">Lessica Lessica/Reveil</a>: Bringing back the most advanced system and security analysis tool.<br /><img src="https://github.com/Lessica/Reveil/raw/main/Artworks/Screenshot.png" alt="Reveil screenshot" /></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 98 期。本篇是对过去一周（01.01 - 01.07）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;本周一半（下午）时间在星巴克，一半时间在市图书（新）馆，才发现图书馆已经开门半个月了。以后如果出门，就优先去图书馆</summary>
       
     
     
