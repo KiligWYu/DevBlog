@@ -303,7 +303,15 @@ html.dataset.dark = localStorage.dark;
  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">git rebase -i &lt;base-commit&gt; <span class="comment"># -i, --interactive</span></span></span><br></pre></td></tr></table></figure>
 <p><code>&lt;base-commit&gt;</code> 是想要开始修改历史的位置。例如，如果想修改最后的 3 个提交，可以这样：</p>
  <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">git rebase -i HEAD~3</span></span><br></pre></td></tr></table></figure>
-<p>这会打开一个文本编辑器，显示最近 3 次提交的列表。你可以在列表中选择编辑、压缩、删除等操作。例如，将提交从 <code>pick</code> 改为 <code>edit</code> 即可进行编辑。</p>
+<p>这会打开一个文本编辑器，显示最近 3 次提交的列表。你可以在列表中选择编辑、压缩、删除等操作。</p>
+<ul>
+<li><code>pick</code>：按原样保留此提交</li>
+<li><code>reword</code>：保留此提交但编辑提交信息</li>
+<li><code>edit</code>：保留此提交但会暂停变基，使你可以修改此提交</li>
+<li><code>squash</code>：将此提交与前一个提交合并，并编辑提交信息</li>
+<li><code>fixup</code>：将此提交与前一个提交合并，但不保留此提交的信息</li>
+<li><code>drop</code>：完全删除此提交</li>
+</ul>
 <p>在编辑器中，可能会看到如下内容：</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pick abc1234 First commit message</span><br><span class="line">pick def5678 Second commit message</span><br><span class="line">pick ghi9012 Third commit message</span><br></pre></td></tr></table></figure>
 <p>可以修改成：</p>
@@ -373,6 +381,7 @@ html.dataset.dark = localStorage.dark;
 <li><a target="_blank" rel="noopener" href="https://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html">GitHub 秘籍</a></li>
 <li><a target="_blank" rel="noopener" href="https://open.leancloud.cn/git-commit-message/">Git Commit 日志风格指南</a></li>
 <li><a target="_blank" rel="noopener" href="https://missing-semester-cn.github.io/2020/version-control/">版本控制 (Git)</a></li>
+<li><a target="_blank" rel="noopener" href="https://wizardzines.com/git-cheat-sheet.pdf">git cheat sheet</a></li>
 </ul>
 </div><div class="tags"><a href="/tags/Git"><i class="fa fa-tag">Git</i></a></div><div class="post-nav"><a class="next" href="/newsletter/117/">Kilig 的碎周报 - #117（2024.05.20）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
   var xhr = new XMLHttpRequest();
