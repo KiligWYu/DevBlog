@@ -1,0 +1,529 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Combine 备忘清单 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YLMXL0J5N0');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Combine 备忘清单</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">Combine 备忘清单</h1><div class="post-meta">2024-06-16</div><a class="disqus-comment-count" data-disqus-identifier="combine/" href="/combine/#disqus_thread"></a><div class="post-content"><ul>
+<li><a href="#publishers-subscribers">Publishers &amp; Subscribers</a>
+<ul>
+<li><a href="#publisher">Publisher</a></li>
+<li><a href="#subscriber">Subscriber</a></li>
+<li><a href="#cancellable">Cancellable</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AE%A2%E9%98%85%E8%80%85">创建自定义订阅者</a></li>
+<li><a href="#future">Future</a></li>
+<li><a href="#%E7%B1%BB%E5%9E%8B%E6%93%A6%E9%99%A4type-erasure">类型擦除（Type erasure）</a></li>
+</ul>
+</li>
+<li><a href="#operators">Operators</a>
+<ul>
+<li><a href="#transforming-operators">Transforming Operators</a>
+<ul>
+<li><a href="#collect">collect()</a></li>
+<li><a href="#map_">map(_:)</a>
+<ul>
+<li><a href="#mapping-key-paths">Mapping key paths</a></li>
+<li><a href="#trymap_">tryMap(_:)</a></li>
+</ul>
+</li>
+<li><a href="#flatmapmaxpublishers_">flatMap(maxPublishers:_:)</a></li>
+<li><a href="#replacenilwith">replaceNil(with:)</a></li>
+<li><a href="#replaceemptywith">replaceEmpty(with:)</a></li>
+<li><a href="#scan__">scan(_:_:)</a></li>
+</ul>
+</li>
+<li><a href="#filtering-operators">Filtering Operators</a>
+<ul>
+<li><a href="#filtering">Filtering</a>
+<ul>
+<li><a href="#filter">filter</a></li>
+<li><a href="#removeduplicates">removeDuplicates</a></li>
+</ul>
+</li>
+<li><a href="#compacting-and-ignoring">Compacting and ignoring</a>
+<ul>
+<li><a href="#compactmap">compactMap</a></li>
+<li><a href="#ignoreoutput">ignoreOutput</a></li>
+</ul>
+</li>
+<li><a href="#finding-values">Finding values</a>
+<ul>
+<li><a href="#firstwhere">firstWhere</a></li>
+<li><a href="#lastwhere">lastWhere</a></li>
+</ul>
+</li>
+<li><a href="#dropping-values">Dropping values</a>
+<ul>
+<li><a href="#dropfirst">dropFirst</a></li>
+<li><a href="#dropwhile">dropWhile</a></li>
+<li><a href="#dropuntiloutputfrom">dropUntilOutputFrom</a></li>
+</ul>
+</li>
+<li><a href="#limiting-values">Limiting values</a>
+<ul>
+<li><a href="#prefix">prefix</a></li>
+<li><a href="#prefixwhile">prefixWhile</a></li>
+<li><a href="#prefixuntiloutputfrom">prefixUntilOutputFrom</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#combining-operators">Combining Operators</a>
+<ul>
+<li><a href="#prepending">Prepending</a>
+<ul>
+<li><a href="#prependoutput">prepend(Output…)</a></li>
+<li><a href="#prependsequence">prepend(Sequence)</a></li>
+<li><a href="#prependpublisher">prepend(Publisher)</a></li>
+</ul>
+</li>
+<li><a href="#appending">Appending</a>
+<ul>
+<li><a href="#appendoutput">append(Output…)</a></li>
+<li><a href="#appendsequence">append(Sequence)</a></li>
+<li><a href="#appendpublisher">append(Publisher)</a></li>
+</ul>
+</li>
+<li><a href="#advanced-combining">Advanced combining</a>
+<ul>
+<li><a href="#switchtolatest">switchToLatest</a></li>
+<li><a href="#mergewith">merge(with:)</a></li>
+<li><a href="#combinelatest">combineLatest</a></li>
+<li><a href="#zip">zip</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#time-manipulation-operators">Time Manipulation Operators</a>
+<ul>
+<li><a href="#shifting-time">Shifting time</a></li>
+<li><a href="#collecting-values">Collecting values</a></li>
+<li><a href="#holding-off-on-events">Holding off on events</a>
+<ul>
+<li><a href="#debounce">Debounce</a></li>
+<li><a href="#throttle">Throttle</a></li>
+<li><a href="#timing-out">Timing out</a></li>
+</ul>
+</li>
+<li><a href="#measuring-time">Measuring time</a></li>
+</ul>
+</li>
+<li><a href="#sequence-operators">Sequence Operators</a>
+<ul>
+<li><a href="#finding-values">Finding values</a>
+<ul>
+<li><a href="#min">min</a></li>
+<li><a href="#max">max</a></li>
+<li><a href="#first">first</a></li>
+<li><a href="#last">last</a></li>
+<li><a href="#outputat">output(at:)</a></li>
+<li><a href="#outputin">output(in:)</a></li>
+</ul>
+</li>
+<li><a href="#querying-the-publisher">Querying the publisher</a>
+<ul>
+<li><a href="#count">count</a></li>
+<li><a href="#contains">contains</a></li>
+<li><a href="#allsatisfy">allSatisfy</a></li>
+<li><a href="#reduce">reduce</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#action">Action</a>
+<ul>
+<li><a href="#debugging">Debugging</a>
+<ul>
+<li><a href="#printing-events">Printing events</a></li>
+<li><a href="#acting-on-events-performing-side-effects">Acting on events — performing side effects</a></li>
+<li><a href="#using-the-debugger-as-a-last-resort">Using the debugger as a last resort</a></li>
+</ul>
+</li>
+<li><a href="#timers">Timers</a>
+<ul>
+<li><a href="#using-runloop">Using RunLoop</a></li>
+<li><a href="#using-the-timer-class">Using the Timer class</a></li>
+<li><a href="#using-dispatchqueue">Using DispatchQueue</a></li>
+</ul>
+</li>
+<li><a href="#key-value-observing">Key-Value Observing</a>
+<ul>
+<li><a href="#publisherforoptions">publisher(for:options:)</a></li>
+<li><a href="#observation-options">Observation options</a></li>
+</ul>
+</li>
+<li><a href="#resource-management">Resource Management</a>
+<ul>
+<li><a href="#the-share-operator">The share() operator</a></li>
+<li><a href="#the-multicast_-operator">The multicast(_:) operator</a></li>
+<li><a href="#future">Future</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#error-handling">Error Handling</a>
+<ul>
+<li><a href="#never">Never</a></li>
+<li><a href="#setfailuretype">setFailureType</a></li>
+<li><a href="#assigntoon">assign(to:on:)</a></li>
+<li><a href="#assignto">assign(to:)</a></li>
+<li><a href="#assertnofailure">assertNoFailure</a></li>
+<li><a href="#catching-and-retrying">Catching and retrying</a></li>
+</ul>
+</li>
+<li><a href="#schedulers">Schedulers</a>
+<ul>
+<li><a href="#subscribeon-%E5%92%8C-receiveon">subscribe(on:) 和 receive(on:)</a></li>
+<li><a href="#scheduler-implementations">Scheduler implementations</a></li>
+<li><a href="#runloopmain-vs-dispatchqueuemain">RunLoop.main vs DispatchQueue.main</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8F%A6%E8%A7%81">另见</a></li>
+</ul>
+<p>Combine 是一个声明式、响应式框架，用于随着时间的推移处理异步事件。支持 iOS 13、macOS 10.15、watchOS 6 及之后的系统。这里是我学习 Combine 时的笔记，只是列出要点，没有详细的解释，权当备忘清单。</p>
+<blockquote>
+<p>The Combine framework provides a declarative approach for how your app processes events. Rather than potentially implementing multiple delegate callbacks or completion handler closures, you can create a single processing chain for a given event source. Each part of the chain is a Combine operator that performs a distinct action on the elements received from the previous step.</p>
+</blockquote>
+<h2 id="publishers-subscribers"><a class="markdownIt-Anchor" href="#publishers-subscribers"></a> Publishers &amp; Subscribers</h2>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162153303.png" alt="Publishers &amp; Subscribers" /></p>
+<h3 id="publisher"><a class="markdownIt-Anchor" href="#publisher"></a> Publisher</h3>
+<p><code>Publisher</code> 协议声明类型可以随着时间的推移传输一系列值。</p>
+<p>发布者可以发出两种事件，值和完成事件。它可以发出零个或多个值，但只能发出一个完成事件，该事件可以是正常完成事件，也可以是错误。一旦发布者发出完成事件，它就完成了并且不能再发出任何事件。</p>
+<h3 id="subscriber"><a class="markdownIt-Anchor" href="#subscriber"></a> Subscriber</h3>
+<p><code>Subscriber</code> 协议声明类型可以从发布者接收输入。如果没有订阅者来接收输出，则发布者不会发出任何值。</p>
+<p>Combine 提供两个内置订阅者：</p>
+<ul>
+<li><code>sink(_:_:)</code>：允许你使用闭包来处理输出值</li>
+<li><code>assign(to:on:)</code>：将结果输出绑定到数据模型或 UI 控件上的某些属性</li>
+</ul>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> just <span class="operator">=</span> <span class="type">Just</span>(<span class="string">&quot;Hello world!&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">_</span> <span class="operator">=</span> just</span><br><span class="line">  .sink(</span><br><span class="line">    receiveCompletion: &#123;</span><br><span class="line">      <span class="built_in">print</span>(<span class="string">&quot;Received completion&quot;</span>, <span class="variable">$0</span>)</span><br><span class="line">    &#125;,</span><br><span class="line">    receiveValue: &#123;</span><br><span class="line">      <span class="built_in">print</span>(<span class="string">&quot;Received value&quot;</span>, <span class="variable">$0</span>)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">SomeObject</span> &#123;</span><br><span class="line">  <span class="keyword">var</span> value: <span class="type">String</span> <span class="operator">=</span> <span class="string">&quot;&quot;</span> &#123;</span><br><span class="line">    <span class="keyword">didSet</span> &#123;</span><br><span class="line">      <span class="built_in">print</span>(value)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> object <span class="operator">=</span> <span class="type">SomeObject</span>()</span><br><span class="line"><span class="keyword">let</span> publisher <span class="operator">=</span> [<span class="string">&quot;Hello&quot;</span>, <span class="string">&quot;world!&quot;</span>].publisher</span><br><span class="line"><span class="keyword">_</span> <span class="operator">=</span> publisher</span><br><span class="line">  .assign(to: \.value, on: object)</span><br></pre></td></tr></table></figure>
+<h3 id="cancellable"><a class="markdownIt-Anchor" href="#cancellable"></a> Cancellable</h3>
+<p><code>Subscription</code> 协议继承自 <code>Cancellable</code> 协议，当订阅者完成其工作并且不再希望从发布者接收值时，可以调用 <code>cancel()</code> 以取消订阅。<br />
+如果你没有在订阅上明确调用 <code>cancel()</code>，它将持续到发布者完成，或直到正常内存管理导致存储的订阅非初始化。到那时，它会为你取消订阅。</p>
+<h3 id="创建自定义订阅者"><a class="markdownIt-Anchor" href="#创建自定义订阅者"></a> 创建自定义订阅者</h3>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> publisher <span class="operator">=</span> (<span class="number">1</span> <span class="operator">...</span> <span class="number">6</span>).publisher</span><br><span class="line"></span><br><span class="line"><span class="keyword">final</span> <span class="keyword">class</span> <span class="title class_">IntSubscriber</span>: <span class="title class_">Subscriber</span> &#123;</span><br><span class="line">  <span class="keyword">typealias</span> <span class="type">Input</span> <span class="operator">=</span> <span class="type">Int</span></span><br><span class="line">  <span class="keyword">typealias</span> <span class="type">Failure</span> <span class="operator">=</span> <span class="type">Never</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">receive</span>(<span class="params">subscription</span>: <span class="type">Subscription</span>) &#123;</span><br><span class="line">    subscription.request(.max(<span class="number">3</span>))</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">receive</span>(<span class="keyword">_</span> <span class="params">input</span>: <span class="type">Int</span>) -&gt; <span class="type">Subscribers</span>.<span class="type">Demand</span> &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Received value&quot;</span>, input)</span><br><span class="line">    <span class="keyword">return</span> .none</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">func</span> <span class="title function_">receive</span>(<span class="params">completion</span>: <span class="type">Subscribers</span>.<span class="type">Completion</span>&lt;<span class="type">Never</span>&gt;) &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Received completion&quot;</span>, completion)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="future"><a class="markdownIt-Anchor" href="#future"></a> Future</h3>
+<p>就像可以使用 <code>Just</code> 创建向订阅者发出单个值然后完成的发布者一样， <code>Future</code> 可用于异步生成单个结果然后完成。</p>
+<p><code> Future</code> 是贪婪的，也就是说一旦创建就会执行。它不需要像普通发布者那样懒惰的订阅者。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> subscriptions <span class="operator">=</span> <span class="type">Set</span>&lt;<span class="type">AnyCancellable</span>&gt;()</span><br><span class="line"></span><br><span class="line"><span class="keyword">func</span> <span class="title function_">futureIncrement</span>(</span><br><span class="line">  <span class="params">integer</span>: <span class="type">Int</span>,</span><br><span class="line">  <span class="params">afterDelay</span> <span class="params">delay</span>: <span class="type">TimeInterval</span>) -&gt; <span class="type">Future</span>&lt;<span class="type">Int</span>, <span class="type">Never</span>&gt;</span><br><span class="line">&#123;</span><br><span class="line">  <span class="type">Future</span>&lt;<span class="type">Int</span>, <span class="type">Never</span>&gt; &#123; promise <span class="keyword">in</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Original&quot;</span>)</span><br><span class="line">    <span class="type">DispatchQueue</span>.global().asyncAfter(deadline: .now() <span class="operator">+</span> delay) &#123;</span><br><span class="line">      promise(.success(integer <span class="operator">+</span> <span class="number">1</span>))</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> future <span class="operator">=</span> futureIncrement(integer: <span class="number">1</span>, afterDelay: <span class="number">3</span>)</span><br><span class="line"></span><br><span class="line">future</span><br><span class="line">  .sink(receiveCompletion: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;,</span><br><span class="line">        receiveValue: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 在指定的延迟之后，第二个订阅会收到相同的值</span></span><br><span class="line"><span class="comment">// feature 不会重新履行诺言；相反，它共享或重放其输出</span></span><br><span class="line">future</span><br><span class="line">  .sink(receiveCompletion: &#123; <span class="built_in">print</span>(<span class="string">&quot;Second&quot;</span>, <span class="variable">$0</span>) &#125;,</span><br><span class="line">        receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;Second&quot;</span>, <span class="variable">$0</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="类型擦除type-erasure"><a class="markdownIt-Anchor" href="#类型擦除type-erasure"></a> 类型擦除（Type erasure）</h3>
+<p>有时，你希望让订阅者订阅以接收来自发布者的事件，但无法访问有关该发布者的其他详细信息，这时可以使用类型擦除 <code>eraseToAnyPublisher</code>。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> subscriptions <span class="operator">=</span> <span class="type">Set</span>&lt;<span class="type">AnyCancellable</span>&gt;()</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subject <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">Int</span>, <span class="type">Never</span>&gt;()</span><br><span class="line">  </span><br><span class="line"><span class="keyword">let</span> publisher <span class="operator">=</span> subject.eraseToAnyPublisher()</span><br><span class="line">  </span><br><span class="line">publisher</span><br><span class="line">  .sink(receiveValue: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br><span class="line">  </span><br><span class="line">subject.send(<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">// error: Value of type &#x27;AnyPublisher&lt;Int, Never&gt;&#x27; has no member &#x27;send&#x27;</span></span><br><span class="line">publisher.send(<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="operators"><a class="markdownIt-Anchor" href="#operators"></a> Operators</h2>
+<h3 id="transforming-operators"><a class="markdownIt-Anchor" href="#transforming-operators"></a> Transforming Operators</h3>
+<h4 id="collect"><a class="markdownIt-Anchor" href="#collect"></a> collect()</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162153420.png" alt="collect()" /></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>, <span class="string">&quot;E&quot;</span>].publisher</span><br><span class="line">  .collect()</span><br><span class="line">  <span class="comment">// .collect(2)</span></span><br><span class="line">  .sink(receiveCompletion: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;,</span><br><span class="line">        receiveValue: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h4 id="map_"><a class="markdownIt-Anchor" href="#map_"></a> map(_:)</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162154662.png" alt="map(_:)" /></p>
+<h5 id="mapping-key-paths"><a class="markdownIt-Anchor" href="#mapping-key-paths"></a> Mapping key paths</h5>
+<ul>
+<li><code>map&lt;T&gt;(_:)</code></li>
+<li><code>map&lt;T0, T1&gt;(_:_:)</code></li>
+<li><code>map&lt;T0, T1, T2&gt;(_:_:_:)</code></li>
+</ul>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">publisher</span><br><span class="line">  .map(\.x, \.y)</span><br><span class="line">  .sink(receiveValue: &#123; x, y <span class="keyword">in</span></span><br><span class="line">    <span class="built_in">print</span>(</span><br><span class="line">      <span class="string">&quot;The coordinate at (<span class="subst">\(x)</span>, <span class="subst">\(y)</span>) is in quadrant&quot;</span>,</span><br><span class="line">      quadrantOf(x: x, y: y)</span><br><span class="line">    )</span><br><span class="line">  &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br><span class="line"></span><br><span class="line">publisher.send(<span class="type">Coordinate</span>(x: <span class="number">10</span>, y: <span class="operator">-</span><span class="number">8</span>))</span><br><span class="line">publisher.send(<span class="type">Coordinate</span>(x: <span class="number">0</span>, y: <span class="number">5</span>))</span><br></pre></td></tr></table></figure>
+<h5 id="trymap_"><a class="markdownIt-Anchor" href="#trymap_"></a> tryMap(_:)</h5>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Just</span>(<span class="string">&quot;Directory name that does not exist&quot;</span>)</span><br><span class="line">  .tryMap &#123; <span class="keyword">try</span> <span class="type">FileManager</span>.default.contentsOfDirectory(atPath: <span class="variable">$0</span>) &#125;</span><br><span class="line">  .sink(receiveCompletion: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;,</span><br><span class="line">        receiveValue: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h4 id="flatmapmaxpublishers_"><a class="markdownIt-Anchor" href="#flatmapmaxpublishers_"></a> flatMap(maxPublishers:_:)</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162155701.png" alt="flatMap(maxPublishers:_:)" /></p>
+<p><code>flatMap</code> 接收三个发布者： <code>P1</code> 、 <code>P2</code> 和 <code>P3</code> 。 <code>flatMap</code> 从 <code>P1</code> 和 <code>P2</code> 发出发布者的值，但忽略 <code>P3</code> 因为 <code>maxPublishers</code> 设置为 2 。</p>
+<h4 id="replacenilwith"><a class="markdownIt-Anchor" href="#replacenilwith"></a> replaceNil(with:)</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162156246.png" alt="replaceNil(with:)" /></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">&quot;A&quot;</span>, <span class="literal">nil</span>, <span class="string">&quot;C&quot;</span>].publisher</span><br><span class="line">  .eraseToAnyPublisher()</span><br><span class="line">  .replaceNil(with: <span class="string">&quot;-&quot;</span>)</span><br><span class="line">  .sink(receiveValue: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h4 id="replaceemptywith"><a class="markdownIt-Anchor" href="#replaceemptywith"></a> replaceEmpty(with:)</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162156738.png" alt="replaceEmpty(with:)" /></p>
+<h4 id="scan__"><a class="markdownIt-Anchor" href="#scan__"></a> scan(_:_:)</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162156933.png" alt="scan" /></p>
+<h3 id="filtering-operators"><a class="markdownIt-Anchor" href="#filtering-operators"></a> Filtering Operators</h3>
+<h4 id="filtering"><a class="markdownIt-Anchor" href="#filtering"></a> Filtering</h4>
+<h5 id="filter"><a class="markdownIt-Anchor" href="#filter"></a> filter</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162157534.png" alt="filter" /></p>
+<h5 id="removeduplicates"><a class="markdownIt-Anchor" href="#removeduplicates"></a> removeDuplicates</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162157326.png" alt="removeDuplicates" /></p>
+<h4 id="compacting-and-ignoring"><a class="markdownIt-Anchor" href="#compacting-and-ignoring"></a> Compacting and ignoring</h4>
+<h5 id="compactmap"><a class="markdownIt-Anchor" href="#compactmap"></a> compactMap</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162157275.png" alt="compactMap" /></p>
+<h5 id="ignoreoutput"><a class="markdownIt-Anchor" href="#ignoreoutput"></a> ignoreOutput</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162158611.png" alt="ignoreOutput" /></p>
+<h4 id="finding-values"><a class="markdownIt-Anchor" href="#finding-values"></a> Finding values</h4>
+<h5 id="firstwhere"><a class="markdownIt-Anchor" href="#firstwhere"></a> firstWhere</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162158592.png" alt="firstWhere" /></p>
+<h5 id="lastwhere"><a class="markdownIt-Anchor" href="#lastwhere"></a> lastWhere</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162158996.png" alt="lastWhere" /></p>
+<h4 id="dropping-values"><a class="markdownIt-Anchor" href="#dropping-values"></a> Dropping values</h4>
+<h5 id="dropfirst"><a class="markdownIt-Anchor" href="#dropfirst"></a> dropFirst</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162158483.png" alt="dropFirst" /></p>
+<h5 id="dropwhile"><a class="markdownIt-Anchor" href="#dropwhile"></a> dropWhile</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162158242.png" alt="dropWhile" /></p>
+<h5 id="dropuntiloutputfrom"><a class="markdownIt-Anchor" href="#dropuntiloutputfrom"></a> dropUntilOutputFrom</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162159634.png" alt="dropUntilOutputFrom" /></p>
+<h4 id="limiting-values"><a class="markdownIt-Anchor" href="#limiting-values"></a> Limiting values</h4>
+<h5 id="prefix"><a class="markdownIt-Anchor" href="#prefix"></a> prefix</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162159971.png" alt="prefix" /></p>
+<h5 id="prefixwhile"><a class="markdownIt-Anchor" href="#prefixwhile"></a> prefixWhile</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162159211.png" alt="prefixWhile" /></p>
+<h5 id="prefixuntiloutputfrom"><a class="markdownIt-Anchor" href="#prefixuntiloutputfrom"></a> prefixUntilOutputFrom</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162159149.png" alt="prefixUntilOutputFrom" /></p>
+<h3 id="combining-operators"><a class="markdownIt-Anchor" href="#combining-operators"></a> Combining Operators</h3>
+<h4 id="prepending"><a class="markdownIt-Anchor" href="#prepending"></a> Prepending</h4>
+<h5 id="prependoutput"><a class="markdownIt-Anchor" href="#prependoutput"></a> prepend(Output…)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162159017.png" alt="prepend(Output…)" /></p>
+<p>The last prepend affects the upstream first. The same below.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// ...</span></span><br><span class="line">.prepend(<span class="number">1</span>, <span class="number">2</span>)</span><br><span class="line">.prepend(<span class="operator">-</span><span class="number">1</span>, <span class="number">0</span>)</span><br><span class="line"><span class="comment">// ...</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// output: -1 0 1 2</span></span><br></pre></td></tr></table></figure>
+<h5 id="prependsequence"><a class="markdownIt-Anchor" href="#prependsequence"></a> prepend(Sequence)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162200197.png" alt="prepend(Sequence)" /></p>
+<h5 id="prependpublisher"><a class="markdownIt-Anchor" href="#prependpublisher"></a> prepend(Publisher)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162200927.png" alt="prepend(Publisher)" /></p>
+<h4 id="appending"><a class="markdownIt-Anchor" href="#appending"></a> Appending</h4>
+<h5 id="appendoutput"><a class="markdownIt-Anchor" href="#appendoutput"></a> append(Output…)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162200181.png" alt="append(Output…)" /></p>
+<h5 id="appendsequence"><a class="markdownIt-Anchor" href="#appendsequence"></a> append(Sequence)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162200285.png" alt="append(Sequence)" /></p>
+<h5 id="appendpublisher"><a class="markdownIt-Anchor" href="#appendpublisher"></a> append(Publisher)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162203782.png" alt="append(Publisher)" /></p>
+<h4 id="advanced-combining"><a class="markdownIt-Anchor" href="#advanced-combining"></a> Advanced combining</h4>
+<h5 id="switchtolatest"><a class="markdownIt-Anchor" href="#switchtolatest"></a> switchToLatest</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162203240.png" alt="switchToLatest" /></p>
+<h5 id="mergewith"><a class="markdownIt-Anchor" href="#mergewith"></a> merge(with:)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162204130.png" alt="merge(with:)" /></p>
+<h5 id="combinelatest"><a class="markdownIt-Anchor" href="#combinelatest"></a> combineLatest</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162204136.png" alt="combineLatestPublisher" /></p>
+<h5 id="zip"><a class="markdownIt-Anchor" href="#zip"></a> zip</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162204021.png" alt="zip" /></p>
+<h3 id="time-manipulation-operators"><a class="markdownIt-Anchor" href="#time-manipulation-operators"></a> Time Manipulation Operators</h3>
+<h4 id="shifting-time"><a class="markdownIt-Anchor" href="#shifting-time"></a> Shifting time</h4>
+<p><code>delay(for:tolerance:scheduler:options)</code> 运算符对整个值序列进行时间偏移。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162204606.png" alt="1.5s delay" /></p>
+<h4 id="collecting-values"><a class="markdownIt-Anchor" href="#collecting-values"></a> Collecting values</h4>
+<p><code>collect(_ strategy:options:)</code></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> collectMaxCount <span class="operator">=</span> <span class="number">2</span></span><br><span class="line"><span class="keyword">let</span> collectTimeStride <span class="operator">=</span> <span class="number">4</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> sourcePublisher <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">Date</span>, <span class="type">Never</span>&gt;()</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> collectedPublisher <span class="operator">=</span> sourcePublisher</span><br><span class="line">  <span class="comment">// 按指定的时间间隔从发布者收集值</span></span><br><span class="line">  .collect(.byTime(<span class="type">DispatchQueue</span>.main, .seconds(collectTimeStride)))</span><br><span class="line">  .flatMap &#123; dates <span class="keyword">in</span> dates.publisher &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> collectedPublisher2 <span class="operator">=</span> sourcePublisher</span><br><span class="line">  <span class="comment">// 按指定的时间间隔从发布者收集值并限制收集的值的数量</span></span><br><span class="line">  .collect(.byTimeOrCount(<span class="type">DispatchQueue</span>.main,</span><br><span class="line">                          .seconds(collectTimeStride),</span><br><span class="line">                          collectMaxCount))</span><br><span class="line">  .flatMap &#123; dates <span class="keyword">in</span> dates.publisher &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="holding-off-on-events"><a class="markdownIt-Anchor" href="#holding-off-on-events"></a> Holding off on events</h4>
+<h5 id="debounce"><a class="markdownIt-Anchor" href="#debounce"></a> Debounce</h5>
+<p><code>.debounce(for:scheduler:options:)</code></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> subject <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">String</span>, <span class="type">Never</span>&gt;()</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> debounced <span class="operator">=</span> subject</span><br><span class="line">  <span class="comment">// 每秒最多允许发送一个值，发送该一秒间隔内发送的最后一个值（如果有）</span></span><br><span class="line">  .debounce(for: .seconds(<span class="number">1.0</span>), scheduler: <span class="type">DispatchQueue</span>.main)</span><br><span class="line">  .share()</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>Note:</strong> One thing to watch out for is the publisher’s completion. If your publisher completes right after the last value was emitted, but before the time configured for <code>debounce</code> elapses, you will never see the last value in the debounced publisher!</p>
+</blockquote>
+<h5 id="throttle"><a class="markdownIt-Anchor" href="#throttle"></a> Throttle</h5>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> throttleDelay <span class="operator">=</span> <span class="number">1.0</span></span><br><span class="line"><span class="keyword">let</span> subject <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">String</span>, <span class="type">Never</span>&gt;()</span><br><span class="line"><span class="keyword">let</span> throttled <span class="operator">=</span> subject</span><br><span class="line">  .throttle(for: .seconds(throttleDelay), scheduler: <span class="type">DispatchQueue</span>.main, latest: <span class="literal">false</span>)</span><br><span class="line">  .share()</span><br></pre></td></tr></table></figure>
+<p>和 <code>debounce</code> 的区别是：</p>
+<ul>
+<li><code>debounce</code> 等待接收到的值暂停，然后在指定的时间间隔后发出最新的值。</li>
+<li><code>throttle</code> 等待指定的时间间隔，然后发出在该时间间隔内收到的第一个或最新的值。它不关心暂停。</li>
+</ul>
+<h5 id="timing-out"><a class="markdownIt-Anchor" href="#timing-out"></a> Timing out</h5>
+<p><code>timeout(_:scheduler:options:customError:)</code></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> subject <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">Void</span>, <span class="type">Never</span>&gt;()</span><br><span class="line"><span class="keyword">let</span> timedOutSubject <span class="operator">=</span> subject.timeout(.seconds(<span class="number">5</span>), scheduler: <span class="type">DispatchQueue</span>.main)</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">enum</span> <span class="title class_">TimeoutError</span>: <span class="title class_">Error</span> &#123;</span><br><span class="line">  <span class="keyword">case</span> timedOut</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subject <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">Void</span>, <span class="type">TimeoutError</span>&gt;()</span><br><span class="line"><span class="keyword">let</span> timedOutSubject <span class="operator">=</span> subject.timeout(.seconds(<span class="number">5</span>),</span><br><span class="line">                                      scheduler: <span class="type">DispatchQueue</span>.main,</span><br><span class="line">                                      customError: &#123; .timedOut &#125;)</span><br></pre></td></tr></table></figure>
+<h4 id="measuring-time"><a class="markdownIt-Anchor" href="#measuring-time"></a> Measuring time</h4>
+<p><code>measureInterval(using:)</code></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> subject <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">String</span>, <span class="type">Never</span>&gt;()</span><br><span class="line"><span class="comment">// 在 `DispatchQueue` 的情况下， `TimeInterval` 被定义为“使用该类型的值（以纳秒为单位）创建的 `DispatchTimeInterval` ”</span></span><br><span class="line"><span class="keyword">let</span> measureSubject <span class="operator">=</span> subject.measureInterval(using: <span class="type">DispatchQueue</span>.main)</span><br><span class="line"><span class="comment">// 在 `RunLoop` 调度程序的输出，其大小直接以秒表示</span></span><br><span class="line"><span class="keyword">let</span> measureSubject2 <span class="operator">=</span> subject.measureInterval(using: <span class="type">RunLoop</span>.main)</span><br></pre></td></tr></table></figure>
+<h3 id="sequence-operators"><a class="markdownIt-Anchor" href="#sequence-operators"></a> Sequence Operators</h3>
+<h4 id="finding-values-2"><a class="markdownIt-Anchor" href="#finding-values-2"></a> Finding values</h4>
+<h5 id="min"><a class="markdownIt-Anchor" href="#min"></a> min</h5>
+<p><code>min</code> 运算符可让你找到发布者发出的最小值。它是贪婪的，这意味着它必须等待发布者发送 <code>.finished</code> 完成事件。发布者完成后，运算符仅发出最小值。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162204243.png" alt="min" /></p>
+<h5 id="max"><a class="markdownIt-Anchor" href="#max"></a> max</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162205987.png" alt="max" /></p>
+<h5 id="first"><a class="markdownIt-Anchor" href="#first"></a> first</h5>
+<p>不会等待上游发布者完成，而是在收到第一个发出的值时取消订阅。<br />
+还可以使用 <code>first(where:)</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162205218.png" alt="first" /></p>
+<h5 id="last"><a class="markdownIt-Anchor" href="#last"></a> last</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162205815.png" alt="last" /></p>
+<h5 id="outputat"><a class="markdownIt-Anchor" href="#outputat"></a> output(at:)</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162205008.png" alt="output(at:)" /></p>
+<h5 id="outputin"><a class="markdownIt-Anchor" href="#outputin"></a> output(in:)</h5>
+<p>该运算符发出索引范围内的各个值，而不是它们的集合。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162206858.png" alt="output(in:)" /></p>
+<h4 id="querying-the-publisher"><a class="markdownIt-Anchor" href="#querying-the-publisher"></a> Querying the publisher</h4>
+<h5 id="count"><a class="markdownIt-Anchor" href="#count"></a> count</h5>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162206769.png" alt="count" /></p>
+<h5 id="contains"><a class="markdownIt-Anchor" href="#contains"></a> contains</h5>
+<p>如果上游发布者发出指定的值，则 <code>contains</code> 运算符将发出 <code>true</code> 并取消订阅。<br />
+还可以使用 <code>contains(where:)</code>。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162206766.png" alt="contains" /></p>
+<h5 id="allsatisfy"><a class="markdownIt-Anchor" href="#allsatisfy"></a> allSatisfy</h5>
+<p>一旦不满足条件，<code>allSatisfy</code> 发出 <code>false</code> 就立即取消订阅。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162206780.png" alt="allSatisfy" /></p>
+<h5 id="reduce"><a class="markdownIt-Anchor" href="#reduce"></a> reduce</h5>
+<p><code>scan</code> 和 <code>reduce</code> 具有相同的功能，主要区别在于 <code>scan</code> 为每个发出的值发出累积值，而 <code>reduce</code> 一旦上游发布者发送 <code>.finished</code> 完成事件，就会发出单个累积值。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162206410.png" alt="reduce" /></p>
+<h2 id="action"><a class="markdownIt-Anchor" href="#action"></a> Action</h2>
+<h3 id="debugging"><a class="markdownIt-Anchor" href="#debugging"></a> Debugging</h3>
+<h4 id="printing-events"><a class="markdownIt-Anchor" href="#printing-events"></a> Printing events</h4>
+<p><code>print(:to:)</code></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> subscription <span class="operator">=</span> (<span class="number">1</span><span class="operator">...</span><span class="number">3</span>).publisher</span><br><span class="line">  .print(<span class="string">&quot;publisher&quot;</span>)</span><br><span class="line">  .sink &#123; <span class="keyword">_</span> <span class="keyword">in</span> &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="acting-on-events-performing-side-effects"><a class="markdownIt-Anchor" href="#acting-on-events-performing-side-effects"></a> Acting on events — performing side effects</h4>
+<p>除了打印信息之外，对特定事件执行操作通常也很有用。我们称之为<strong>执行副作用</strong>，因为您“在侧面”采取的操作不会直接影响下游的其他发布者，但可能会产生类似于修改外部变量的效果。</p>
+<p><code>handleEvents(receiveSubscription:receiveOutput:receiveCompletion:receiveCancel:receiveRequest:)</code></p>
+<h4 id="using-the-debugger-as-a-last-resort"><a class="markdownIt-Anchor" href="#using-the-debugger-as-a-last-resort"></a> Using the debugger as a last resort</h4>
+<p><code>breakpointOnError()</code><br />
+<code>breakpoint(receiveSubscription:receiveOutput:receiveCompletion:)</code></p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">.breakpoint(receiveOutput: &#123; value <span class="keyword">in</span></span><br><span class="line">  <span class="keyword">return</span> value <span class="operator">&gt;</span> <span class="number">10</span> <span class="operator">&amp;&amp;</span> value <span class="operator">&lt;</span> <span class="number">15</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<h3 id="timers"><a class="markdownIt-Anchor" href="#timers"></a> Timers</h3>
+<h4 id="using-runloop"><a class="markdownIt-Anchor" href="#using-runloop"></a> Using RunLoop</h4>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> runLoop <span class="operator">=</span> <span class="type">RunLoop</span>.main</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subscription <span class="operator">=</span> runLoop.schedule(</span><br><span class="line">  after: runLoop.now,</span><br><span class="line">  interval: .seconds(<span class="number">1</span>),</span><br><span class="line">  tolerance: .milliseconds(<span class="number">100</span>)</span><br><span class="line">) &#123;</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;Timer fired&quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">runLoop.schedule(after: .<span class="keyword">init</span>(<span class="type">Date</span>(timeIntervalSinceNow: <span class="number">3.0</span>))) &#123;</span><br><span class="line">  subscription.cancel()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="using-the-timer-class"><a class="markdownIt-Anchor" href="#using-the-timer-class"></a> Using the Timer class</h4>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> subscription <span class="operator">=</span> <span class="type">Timer</span></span><br><span class="line">  .publish(every: <span class="number">1.0</span>, on: .main, in: .common)</span><br><span class="line">  .autoconnect()</span><br><span class="line">  .scan(<span class="number">0</span>) &#123; counter, <span class="keyword">_</span> <span class="keyword">in</span> counter <span class="operator">+</span> <span class="number">1</span> &#125;</span><br><span class="line">  .sink &#123; counter <span class="keyword">in</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Counter is <span class="subst">\(counter)</span>&quot;</span>)</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<h4 id="using-dispatchqueue"><a class="markdownIt-Anchor" href="#using-dispatchqueue"></a> Using DispatchQueue</h4>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> queue <span class="operator">=</span> <span class="type">DispatchQueue</span>.main</span><br><span class="line"><span class="keyword">let</span> source <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">Int</span>, <span class="type">Never</span>&gt;()</span><br><span class="line"><span class="keyword">var</span> counter <span class="operator">=</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> cancellable <span class="operator">=</span> queue.schedule(</span><br><span class="line">  after: queue.now,</span><br><span class="line">  interval: .seconds(<span class="number">1</span>)</span><br><span class="line">) &#123;</span><br><span class="line">  source.send(counter)</span><br><span class="line">  counter <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subscription <span class="operator">=</span> source.sink &#123;</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;Timer emitted <span class="subst">\(<span class="variable">$0</span>)</span>&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="key-value-observing"><a class="markdownIt-Anchor" href="#key-value-observing"></a> Key-Value Observing</h3>
+<h4 id="publisherforoptions"><a class="markdownIt-Anchor" href="#publisherforoptions"></a> publisher(for:options:)</h4>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> queue <span class="operator">=</span> <span class="type">OperationQueue</span>()</span><br><span class="line"><span class="keyword">let</span> subscription <span class="operator">=</span> queue.publisher(for: \.operationCount)</span><br><span class="line">  .sink &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Outstanding operations in queue: <span class="subst">\(<span class="variable">$0</span>)</span>&quot;</span>)</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">TestObject</span>: <span class="title class_">NSObject</span> &#123;</span><br><span class="line">  <span class="keyword">@objc</span> <span class="keyword">dynamic</span> <span class="keyword">var</span> integerProperty: <span class="type">Int</span> <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">  <span class="keyword">@objc</span> <span class="keyword">dynamic</span> <span class="keyword">var</span> stringProperty: <span class="type">String</span> <span class="operator">=</span> <span class="string">&quot;&quot;</span></span><br><span class="line">  <span class="keyword">@objc</span> <span class="keyword">dynamic</span> <span class="keyword">var</span> arrayProperty: [<span class="type">Float</span>] <span class="operator">=</span> []</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> obj <span class="operator">=</span> <span class="type">TestObject</span>()</span><br><span class="line"><span class="keyword">let</span> subscription <span class="operator">=</span> obj.publisher(for: \.integerProperty)</span><br><span class="line">  .sink &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;integerProperty changes to <span class="subst">\(<span class="variable">$0</span>)</span>&quot;</span>)</span><br><span class="line">  &#125;</span><br><span class="line"><span class="keyword">let</span> subscription2 <span class="operator">=</span> obj.publisher(for: \.stringProperty)</span><br><span class="line">  .sink &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;stringProperty changes to <span class="subst">\(<span class="variable">$0</span>)</span>&quot;</span>)</span><br><span class="line">  &#125;</span><br><span class="line"><span class="keyword">let</span> subscription3 <span class="operator">=</span> obj.publisher(for: \.arrayProperty)</span><br><span class="line">  .sink &#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;arrayProperty changes to <span class="subst">\(<span class="variable">$0</span>)</span>&quot;</span>)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">obj.integerProperty <span class="operator">=</span> <span class="number">100</span></span><br><span class="line">obj.integerProperty <span class="operator">=</span> <span class="number">200</span></span><br><span class="line">obj.stringProperty <span class="operator">=</span> <span class="string">&quot;Hello&quot;</span></span><br><span class="line">obj.arrayProperty <span class="operator">=</span> [<span class="number">1.0</span>]</span><br><span class="line">obj.stringProperty <span class="operator">=</span> <span class="string">&quot;World&quot;</span></span><br><span class="line">obj.arrayProperty <span class="operator">=</span> [<span class="number">1.0</span>, <span class="number">2.0</span>]</span><br></pre></td></tr></table></figure>
+<h4 id="observation-options"><a class="markdownIt-Anchor" href="#observation-options"></a> Observation options</h4>
+<p><code>options</code> 参数是一个具有四个值的选项集： <code>.initial</code> 、 <code>.prior</code> 、 <code>.old</code> 和 <code>.new</code> 。默认值为 <code>[.initial] </code>。</p>
+<h3 id="resource-management"><a class="markdownIt-Anchor" href="#resource-management"></a> Resource Management</h3>
+<h4 id="the-share-operator"><a class="markdownIt-Anchor" href="#the-share-operator"></a> The share() operator</h4>
+<p><code>share()</code> 运算符的目的是让你通过引用而不是通过值获取发布者。<br />
+<code>share()</code> 运算符返回 <code>Publishers.Share</code> 类的实例。这个新发布者“共享”上游发布者。</p>
+<p>例如，你正在执行一个网络请求，希望多个订阅者接收结果而不需要多次请求。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> shared <span class="operator">=</span> <span class="type">URLSession</span>.shared</span><br><span class="line">  .dataTaskPublisher(for: <span class="type">URL</span>(string: <span class="string">&quot;https://www.kodeco.com&quot;</span>)<span class="operator">!</span>)</span><br><span class="line">  .map(\.data)</span><br><span class="line">  .print(<span class="string">&quot;shared&quot;</span>)</span><br><span class="line">  .share()</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;subscribing first&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subscription1 <span class="operator">=</span> shared.sink(</span><br><span class="line">  receiveCompletion: &#123; <span class="keyword">_</span> <span class="keyword">in</span> &#125;,</span><br><span class="line">  receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;subscription1 received: &#x27;<span class="subst">\(<span class="variable">$0</span>)</span>&#x27;&quot;</span>) &#125;</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;subscribing second&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subscription2 <span class="operator">=</span> shared.sink(</span><br><span class="line">  receiveCompletion: &#123; <span class="keyword">_</span> <span class="keyword">in</span> &#125;,</span><br><span class="line">  receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;subscription2 received: &#x27;<span class="subst">\(<span class="variable">$0</span>)</span>&#x27;&quot;</span>) &#125;</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<h4 id="the-multicast_-operator"><a class="markdownIt-Anchor" href="#the-multicast_-operator"></a> The multicast(_:) operator</h4>
+<p><code>multicast(_:)</code> 的独特特征是它返回的发布者是 <code>ConnectablePublisher</code> 。这意味着在调用其 <code>connect()</code> 方法之前，它不会订阅上游发布者。这使你有足够的时间来设置所需的所有订阅者，然后再让它连接到上游发布者并开始工作。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> subject <span class="operator">=</span> <span class="type">PassthroughSubject</span>&lt;<span class="type">Data</span>, <span class="type">URLError</span>&gt;()</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> multicasted <span class="operator">=</span> <span class="type">URLSession</span>.shared</span><br><span class="line">  .dataTaskPublisher(for: <span class="type">URL</span>(string: <span class="string">&quot;https://www.raywenderlich.com&quot;</span>)<span class="operator">!</span>)</span><br><span class="line">  .map(\.data)</span><br><span class="line">  .print(<span class="string">&quot;multicast&quot;</span>)</span><br><span class="line">  .multicast(subject: subject)</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subscription1 <span class="operator">=</span> multicasted</span><br><span class="line">  .sink(</span><br><span class="line">    receiveCompletion: &#123; <span class="keyword">_</span> <span class="keyword">in</span> &#125;,</span><br><span class="line">    receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;subscription1 received: &#x27;<span class="subst">\(<span class="variable">$0</span>)</span>&#x27;&quot;</span>) &#125;</span><br><span class="line">  )</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subscription2 <span class="operator">=</span> multicasted</span><br><span class="line">  .sink(</span><br><span class="line">    receiveCompletion: &#123; <span class="keyword">_</span> <span class="keyword">in</span> &#125;,</span><br><span class="line">    receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;subscription2 received: &#x27;<span class="subst">\(<span class="variable">$0</span>)</span>&#x27;&quot;</span>) &#125;</span><br><span class="line">  )</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> cancellable <span class="operator">=</span> multicasted.connect()</span><br></pre></td></tr></table></figure>
+<h4 id="future-2"><a class="markdownIt-Anchor" href="#future-2"></a> Future</h4>
+<p><code>Future</code> 是一个类，而不是一个结构。创建后，立即执行，存储已完成的 <code>Promise</code> 的结果并将其传递给当前和未来的订阅者。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">performSomeWork</span>() <span class="keyword">throws</span> -&gt; <span class="type">Int</span> &#123;</span><br><span class="line">  <span class="built_in">print</span>(<span class="string">&quot;Performing some work and returning a result&quot;</span>)</span><br><span class="line">  <span class="keyword">return</span> <span class="number">5</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> future <span class="operator">=</span> <span class="type">Future</span>&lt;<span class="type">Int</span>, <span class="type">Error</span>&gt; &#123; fulfill <span class="keyword">in</span></span><br><span class="line">  <span class="keyword">do</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> result <span class="operator">=</span> <span class="keyword">try</span> performSomeWork()</span><br><span class="line">    fulfill(.success(result))</span><br><span class="line">  &#125; <span class="keyword">catch</span> &#123;</span><br><span class="line">    fulfill(.failure(error))</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Subscribing to future...&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> subscription1 <span class="operator">=</span> future</span><br><span class="line">  .sink(</span><br><span class="line">    receiveCompletion: &#123; <span class="keyword">_</span> <span class="keyword">in</span> <span class="built_in">print</span>(<span class="string">&quot;subscription1 completed&quot;</span>) &#125;,</span><br><span class="line">    receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;subscription1 received: &#x27;<span class="subst">\(<span class="variable">$0</span>)</span>&#x27;&quot;</span>) &#125;</span><br><span class="line">  )</span><br><span class="line"><span class="keyword">let</span> subscription2 <span class="operator">=</span> future</span><br><span class="line">  .sink(</span><br><span class="line">    receiveCompletion: &#123; <span class="keyword">_</span> <span class="keyword">in</span> <span class="built_in">print</span>(<span class="string">&quot;subscription2 completed&quot;</span>) &#125;,</span><br><span class="line">    receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;subscription2 received: &#x27;<span class="subst">\(<span class="variable">$0</span>)</span>&#x27;&quot;</span>) &#125;</span><br><span class="line">  )</span><br></pre></td></tr></table></figure>
+<h2 id="advanced-combine"><a class="markdownIt-Anchor" href="#advanced-combine"></a> Advanced Combine</h2>
+<h3 id="error-handling"><a class="markdownIt-Anchor" href="#error-handling"></a> Error Handling</h3>
+<h4 id="never"><a class="markdownIt-Anchor" href="#never"></a> Never</h4>
+<p><code>Failure</code> 类型为 <code>Never</code> 的发布者表明该发布者永远不会失败。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162207260.png" alt="Never" /></p>
+<p><code>Just</code> 始终声明 <code>Failure</code> 为 <code>Never</code> 。</p>
+<h4 id="setfailuretype"><a class="markdownIt-Anchor" href="#setfailuretype"></a> setFailureType</h4>
+<p>将绝对正确的发布者转变为会发出错误的发布者的第一种方法是使用 <code>setFailureType</code> 。这是另一个仅适用于失败类型为 <code>Never</code> 的发布者的运算符。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">enum</span> <span class="title class_">MyError</span>: <span class="title class_">Error</span> &#123;</span><br><span class="line">  <span class="keyword">case</span> ohNo</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">Just</span>(<span class="string">&quot;Hello&quot;</span>)</span><br><span class="line">  .setFailureType(to: <span class="type">MyError</span>.<span class="keyword">self</span>)</span><br><span class="line">  .sink(</span><br><span class="line">    receiveCompletion: &#123; completion <span class="keyword">in</span></span><br><span class="line">      <span class="keyword">switch</span> completion &#123;</span><br><span class="line">      <span class="keyword">case</span> .failure(.ohNo):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Finished with Oh No!&quot;</span>)</span><br><span class="line">      <span class="keyword">case</span> .finished:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Finished successfully!&quot;</span>)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    receiveValue: &#123; value <span class="keyword">in</span></span><br><span class="line">      <span class="built_in">print</span>(<span class="string">&quot;Got value: <span class="subst">\(value)</span>&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  )</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h4 id="assigntoon"><a class="markdownIt-Anchor" href="#assigntoon"></a> assign(to:on:)</h4>
+<p><code>assign</code> 运算符仅适用于不会失败的发布者，与 <code>setFailureType</code> 相同。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">  <span class="keyword">let</span> id <span class="operator">=</span> <span class="type">UUID</span>()</span><br><span class="line">  <span class="keyword">var</span> name <span class="operator">=</span> <span class="string">&quot;Unknown&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> person <span class="operator">=</span> <span class="type">Person</span>()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;1&quot;</span>, person.name)</span><br><span class="line"></span><br><span class="line"><span class="type">Just</span>(<span class="string">&quot;Shai&quot;</span>)</span><br><span class="line">  .handleEvents(</span><br><span class="line">    receiveCompletion: &#123; <span class="keyword">_</span> <span class="keyword">in</span> <span class="built_in">print</span>(<span class="string">&quot;2&quot;</span>, person.name) &#125;</span><br><span class="line">  )</span><br><span class="line">  .assign(to: \.name, on: person)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h4 id="assignto"><a class="markdownIt-Anchor" href="#assignto"></a> assign(to:)</h4>
+<p><code>assign(to:on:)</code> 会强引用 <code>on</code> 参数的对象。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">MyViewModel</span>: <span class="title class_">ObservableObject</span> &#123;</span><br><span class="line">  <span class="meta">@Published</span> <span class="keyword">var</span> currentDate <span class="operator">=</span> <span class="type">Date</span>()</span><br><span class="line"></span><br><span class="line">  <span class="keyword">init</span>() &#123;</span><br><span class="line">    <span class="type">Timer</span>.publish(every: <span class="number">1</span>, on: .main, in: .common)</span><br><span class="line">      .autoconnect()</span><br><span class="line">      .prefix(<span class="number">3</span>)</span><br><span class="line">      .assign(to: <span class="operator">&amp;</span><span class="variable">$currentDate</span>)</span><br><span class="line">    <span class="comment">// 下面两行会造成循环引用</span></span><br><span class="line">    <span class="comment">// .assign(to: \.currentDate, on: self)</span></span><br><span class="line">    <span class="comment">// .store(in: &amp;subscriptions)</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> vm <span class="operator">=</span> <span class="type">MyViewModel</span>()</span><br><span class="line">vm.<span class="variable">$currentDate</span></span><br><span class="line">  .sink(receiveValue: &#123; <span class="built_in">print</span>(<span class="variable">$0</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h4 id="assertnofailure"><a class="markdownIt-Anchor" href="#assertnofailure"></a> assertNoFailure</h4>
+<p>在开发过程中，为确认发布者无法以失败事件完成时，<code>assertNoFailure</code> 运算符非常有用。它不会阻止上游发出故障事件。但是，如果检测到错误，它会崩溃并显示 <code>fatalError</code>。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">enum</span> <span class="title class_">MyError</span>: <span class="title class_">Error</span> &#123;</span><br><span class="line">  <span class="keyword">case</span> ohNo</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="type">Just</span>(<span class="string">&quot;Hello&quot;</span>)</span><br><span class="line">  .setFailureType(to: <span class="type">MyError</span>.<span class="keyword">self</span>)</span><br><span class="line">  .tryMap &#123; <span class="keyword">_</span> <span class="keyword">in</span> <span class="keyword">throw</span> <span class="type">MyError</span>.ohNo &#125;</span><br><span class="line">  .assertNoFailure()</span><br><span class="line">  .sink(receiveValue: &#123; <span class="built_in">print</span>(<span class="string">&quot;Got value: <span class="subst">\(<span class="variable">$0</span>)</span> &quot;</span>) &#125;)</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h4 id="catching-and-retrying"><a class="markdownIt-Anchor" href="#catching-and-retrying"></a> Catching and retrying</h4>
+<p><code>retry</code> 运算符接受一个数字。如果发布者失败，它将重新订阅上游并重试最多您指定的次数。如果所有重试都失败，它只会将错误推送到下游。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> photoService <span class="operator">=</span> <span class="type">PhotoService</span>()</span><br><span class="line"></span><br><span class="line">photoService</span><br><span class="line">  .fetchPhoto(quality: .high, failingTimes: <span class="number">2</span>)</span><br><span class="line">  .handleEvents(</span><br><span class="line">    receiveSubscription: &#123; <span class="keyword">_</span> <span class="keyword">in</span> <span class="built_in">print</span>(<span class="string">&quot;Trying ...&quot;</span>) &#125;,</span><br><span class="line">    receiveCompletion: &#123;</span><br><span class="line">      <span class="keyword">guard</span> <span class="keyword">case</span> .failure(<span class="keyword">let</span> error) <span class="operator">=</span> <span class="variable">$0</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> &#125;</span><br><span class="line">      <span class="built_in">print</span>(<span class="string">&quot;Got error: <span class="subst">\(error)</span>&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  )</span><br><span class="line"><span class="operator">+</span> .retry(<span class="number">3</span>)</span><br><span class="line"><span class="operator">+</span> .catch &#123; <span class="keyword">_</span> -&gt; <span class="type">PhotoService</span>.<span class="type">Publisher</span> <span class="keyword">in</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Failed fetching high quality, falling back to low quality&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span> photoService.fetchPhoto(quality: .low)</span><br><span class="line">  &#125;</span><br><span class="line"><span class="operator">+</span> .replaceError(with: <span class="type">UIImage</span>(named: <span class="string">&quot;na.jpg&quot;</span>)<span class="operator">!</span>)</span><br><span class="line">  .sink(</span><br><span class="line">    receiveCompletion: &#123; <span class="built_in">print</span>(<span class="string">&quot;<span class="subst">\(<span class="variable">$0</span>)</span>&quot;</span>) &#125;,</span><br><span class="line">    receiveValue: &#123; image <span class="keyword">in</span></span><br><span class="line">      image</span><br><span class="line">      <span class="built_in">print</span>(<span class="string">&quot;Got image: <span class="subst">\(image)</span>&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  )</span><br><span class="line">  .store(in: <span class="operator">&amp;</span>subscriptions)</span><br></pre></td></tr></table></figure>
+<h3 id="schedulers"><a class="markdownIt-Anchor" href="#schedulers"></a> Schedulers</h3>
+<p>Combine 框架提供了两个与调度程序一起使用的基本运算符：</p>
+<ul>
+<li><code>subscribe(on:)</code> 和 <code>subscribe(on:options:)</code> 在指定的调度程序上创建订阅（开始工作）。</li>
+<li><code>receive(on:)</code> 和 <code>receive(on:options:)</code> 在指定的调度程序上传递值。</li>
+</ul>
+<p>此外，以下运算符将调度程序和调度程序选项作为参数。</p>
+<ul>
+<li><code>debounce(for:scheduler:options:)</code></li>
+<li><code>delay(for:tolerance:scheduler:options:)</code></li>
+<li><code>measureInterval(using:options:)</code></li>
+<li><code>throttle(for:scheduler:latest:)</code></li>
+<li><code>timeout(_:scheduler:options:customError:)</code></li>
+</ul>
+<h4 id="subscribeon-和-receiveon"><a class="markdownIt-Anchor" href="#subscribeon-和-receiveon"></a> subscribe(on:) 和 receive(on:)</h4>
+<p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/Combine/202406162208298.png" alt="subscribe(on:) 和 receive(on:)" /></p>
+<ol>
+<li><code>Publisher</code> 接收订阅者并创建一个 <code>Subscription</code></li>
+<li><code>Subscriber</code> 接收订阅并请求来自发布者的值（虚线）</li>
+<li><code>Publisher</code> 开始工作（通过 <code>Subscription</code> ）</li>
+<li><code>Publisher</code> 发出值（通过 <code>Subscription</code> ）</li>
+<li>运算符转换值</li>
+<li><code>Subscriber</code> 接收最终值</li>
+</ol>
+<p>步骤一、二和三通常发生在代码订阅发布者时当前的线程上。但是当您使用 <code>subscribe(on:)</code> 运算符时，所有这些操作都在您指定的调度程序上运行。例如，发布者在后台执行一些昂贵的计算时，以避免阻塞主线程，执行此操作的简单方法是使用 <code>subscribe(on:)</code>。</p>
+<p><code>receive(on:)</code> 允许你指定应使用哪个调度程序来向订阅者传递值。例如在主线程接收值以更新 UI。</p>
+<h4 id="scheduler-implementations"><a class="markdownIt-Anchor" href="#scheduler-implementations"></a> Scheduler implementations</h4>
+<ul>
+<li><code>ImmediateScheduler</code>：立即在当前线程上执行代码，这是默认的执行上下文</li>
+<li><code>RunLoop</code>：绑定到 <code>Foundation</code> 的 <code>Thread</code> 对象</li>
+<li><code>DispatchQueue</code>：可以是串行的也可以是并发的</li>
+<li><code>OperationQueue</code>：调节工作项执行的队列</li>
+<li><code>TestScheduler</code>：一个虚拟的、模拟的调度程序，用于测试</li>
+</ul>
+<h5 id="runloopmain-vs-dispatchqueuemain"><a class="markdownIt-Anchor" href="#runloopmain-vs-dispatchqueuemain"></a> RunLoop.main vs DispatchQueue.main</h5>
+<blockquote>
+<p>RunLoop 是管理输入源（例如应用程序的触摸）的对象的编程接口。 RunLoop 由系统创建和管理，系统还负责为每个线程对象创建一个 RunLoop 对象。系统还负责创建代表主线程的主运行循环。</p>
+<p><code>DispatchQueue.main</code> 是与当前进程的主线程关联的调度队列。系统负责生成代表主线程的队列。调度队列在其关联的线程上串行或并发地执行任务。</p>
+<p><code>RunLoop.main</code> 和 <code>DispatchQueue.main</code> 都在主线程上执行其代码，这意味着您可以使用两者来更新用户界面。</p>
+<p><code>RunLoop.main</code> 和 <code>DispatchQueue.main</code> 之间最显着的区别是后者即使在 RunLoop 繁忙时也能直接执行。例如，在使用 <code>DispatchQueue.main</code> 作为调度程序时，下载的图像即使在滚动时也会立即显示，而使用 <code>RunLoop.main</code> 时图像仅在滚动后显示。换句话说：只要发生用户交互，主运行循环上计划的闭包的执行就会被延迟执行。</p>
+</blockquote>
+<h2 id="另见"><a class="markdownIt-Anchor" href="#另见"></a> 另见</h2>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/combine">Combine</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.kodeco.com/books/combine-asynchronous-programming-with-swift/v1.0/">Combine: Asynchronous Programming with Swift</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.avanderlee.com/combine/runloop-main-vs-dispatchqueue-main/">RunLoop.main vs DispatchQueue.main: The differences explained</a></li>
+</ul>
+</div><div class="tags"><a href="/tags/Combine"><i class="fa fa-tag">Combine</i></a></div><div class="post-nav"><a class="next" href="/git/">Git 备忘清单</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json', true);
+  xhr.timeout = 2500;
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      $('.post-meta .post-comments-count').show();
+      var s = document.createElement('script');
+      s.id = 'dsq-count-scr';
+      s.src = 'https://kiligwyu.disqus.com/count.js';
+      s.async = true;
+      (document.head || document.body).appendChild(s);
+    }
+  };
+  xhr.ontimeout = function () { xhr.abort(); };
+  xhr.send(null);
+});</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'combine/',
+    url: 'http://kiligwyu.com/combine/',
+    title: 'Combine 备忘清单',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
