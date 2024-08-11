@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-08-05T15:15:21.114Z</updated>
+  <updated>2024-08-11T13:11:00.312Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HomePod 使用体验</title>
+    <link href="http://kiligwyu.com/homepod-usage-experience/"/>
+    <id>http://kiligwyu.com/homepod-usage-experience/</id>
+    <published>2024-08-11T09:52:21.000Z</published>
+    <updated>2024-08-11T13:11:00.312Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 HomePod 已经有半个月了，分享一下使用体验，仅针对我个人的使用体验和看法，先说结论，很满意。下面就展开讲讲。</p><h2 id="购买-homepod"><a class="markdownIt-Anchor" href="#购买-homepod"></a> 购买 HomePod</h2><p>HomePod 产品发发售都有六年多的时间了，第二代 HomePod 发售也一年多了，那么我为什么到现在才购买 HomePod？HomePod 的定位是带有音响功能的智能家居中枢，而我想要的只不过是个电脑的外接音响，而 HomePod 作为外接音响是不合格的，而我用了好多年的 Beats Pill+，基本够用，近段时间由于工作上的变化，我又回到了上海，恰好 <a href="https://www.beatsbydre.com/speakers/beats-pill">新一代的 Beats Pill 也发布了</a>，本想买个 Pill 的，可是等了一个多月还没发售，<s>我又重新思考了下自己的需求</s>，最后决定购买 HomePod。</p><p>我希望每天下班回到家（出租屋）后，屋里能充满音乐，偶尔看看电影，Pill 就能满足需求，而新款 Pill 迟迟未发售，加上我也想尝试下 HomePod，还有就是可能跟我当时的心情有关，那一周的时间情绪都非常低落，所以有点消费的冲动。决定购买 HomePod 也是一瞬间的事情，临下班前下单，下班直奔零售店，当我拿到 HomePod 那一刻，感受到了 HomePod 的分量，好重啊，更加期待它的实际表现了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112054627.webp" style="width: 50%;" alt="我在 𝕏 上发的帖子"><h2 id="日常使用"><a class="markdownIt-Anchor" href="#日常使用"></a> 日常使用</h2><p>房间里有个音响，可以明显提升生活质量，尤其是一个人租住时候。正如我前面所说，HomePod 我主要拿来听音乐了，它的音质自然不必说，何况我也不是音乐发烧友。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112055842.webp" alt="我的桌面" /></p><p>目前房间里的桌子有些小了，再放上一个 27 英寸的显示器，空间就更不够用了，我甚至把床头柜搬过来，放在桌子旁边当个边几用了。HomePod 就放在显示器旁边，它的优点之一就是可以当成一个独立的设备，可以不依赖于手机或电脑，大多数时候它都在脱离其他设备在播放音乐，但同时，依旧可以在手机上看到 HomePod 的状态，可以非常方便地在手机上接管控制。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112055618.webp" style="width: 50%;" alt="iPhone 上控制 HomePod"><p>另一个优点就是语音控制了，Siri 虽然还是公认的智障，但相比其他家的语音控制，明显好用的多。比如我说“Siri 下一首”、“Siri 大点声”、“Siri 随机播放我的收藏”、“Siri 播放 LP 的 Lost on You 专辑”，基本上都可以快速的得到正确回应，我可以把整条命令说完而不必叫它等它回应了再说命令，Siri 也不会有像“好的主人”这样多余的恶心的回复，很棒。唯一不太行的是，我的资料库里面大部分都是非中文音乐，让 Siri 播放这些音乐经常识别错误，不过这不是 Siri 的问题是我的问题。</p><p>HomePod 不太适合电脑外接音响的主要原因是，连接走的是 AirPlay 2 协议，而非蓝牙协议，因此就有音画不同步的问题。我也经常会在 MacBook 上连接控制 HomePod，听听音乐、看看视频或电影，操作非常的不跟手，延迟非常明显，比如切歌、暂停、快进快退等，总要慢个一两秒，不过用 Safari 浏览器看视频，可以自动音画同步，播放器的话，IINA 固定延迟 2s，设置让音频快 2s 即可。总的来说，我可以接受，问题不大。</p><h2 id="智能家居"><a class="markdownIt-Anchor" href="#智能家居"></a> 智能家居</h2><p>智能家居中枢是 HomePod 的另一大卖点了，不过这方面我的使用体验就非常有限了，我只有米家台灯 1S 增强版这一个可以接入 HomeKit 的设备，让 Siri 控制开关灯还是蛮方便的。</p><p>另外一点，就是 HomeKit 的自动化，在 Home App 里设置一些自动化，比如我就设置了当我到家时候就开灯并开始随机播放我的收藏，每天当我下班到家后，我还没进门音乐就已经响起来了，体验很好，这也是别的普通音响所不能的。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112059942.webp" style="width: 50%;" alt="我的自动化设置"><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>就我目前的情况，主要还是拿 HomePod 来听 Apple Music，其他智能设备也非常有限，我对 HomePod 总的来说非常满意，要说还有什么不满意的地方，那就是应该再买一个组一对儿才好，以后吧。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;使用 HomePod 已经有半个月了，分享一下使用体验，仅针对我个人的使用体验和看法，先说结论，很满意。下面就展开讲讲。&lt;/p&gt;
+&lt;h2 id=&quot;购买-homepod&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#购买-homepod&quot;&gt;&lt;/a&gt;</summary>
+      
+    
+    
+    
+    
+    <category term="Homepod" scheme="http://kiligwyu.com/tags/Homepod/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #119（2024.08.05）</title>
@@ -472,33 +495,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 106 期。本篇是对过去一周（02.26 - 03.03）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;在读《&lt;a href=&quot;https://aryamansharda.gumroad.com/l/tcvck&quot;&gt;A</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #105（2024.02.26）</title>
-    <link href="http://kiligwyu.com/newsletter/105/"/>
-    <id>http://kiligwyu.com/newsletter/105/</id>
-    <published>2024-02-26T07:01:40.000Z</published>
-    <updated>2024-02-26T10:04:54.333Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 105 期。本篇是对过去一周（02.19 - 02.25）的记录、思考与分享。</p><hr /><p>一波寒潮，降温不少，又下了一场雪，今年的雪格外多。</p><p>小朋友感冒快好了，这几天白天闹，晚上睡醒也闹，真是难带啊！（痛并快乐着 😂）</p><p>元宵节快乐啊！<br />元宵节买了点巧克力馅的汤圆吃，好吃，不喜欢吃传统馅的。<br />晚上放烟花的真多，咚咚咚响到后半夜。<br />元宵节过了，年也就过了。接下来规划下近期的安排，重心放在工作和学习上。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>Manjusaka - <a href="https://www.manjusaka.blog/posts/2024/02/20/a-simple-discussion-about-the-ultraman/">简单聊聊奥特曼中很有趣的细节</a></li><li>superleeyom - <a href="https://github.com/superleeyom/blog/issues/58">2024 香港银行卡办卡之旅</a></li><li>Randy -  <a href="https://read.lutaonan.com/preface">Randy 的读书乐园</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>Bloomberg Originals - <a href="https://www.youtube.com/watch?v=PM101DvvG4Q">How Singapore Uses Science to Stay Cool</a><ul><li><a href="https://www.youtube.com/watch?v=Ttu55nEtC6o">How China’s BYD Overtook Tesla</a></li><li><a href="https://www.youtube.com/watch?v=08myo1UdTZ8">This Is How Huawei Shocked America With a Smartphone</a></li></ul></li><li>MHYYYY - <a href="https://www.youtube.com/watch?v=ctRF2wpKNrY">观众文章分享6：央视春晚为何难看 - 江主义的破产 || 高中生组织集体抗议饭堂公司经历</a><ul><li><a href="https://www.youtube.com/watch?v=U3j9iS3y58w">以我自己为例调查河南农村家庭情况</a></li></ul></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1H2421F7sg/">JPEG凭什么称霸互联网 30 多年？你大爷永远是你大爷！</a></li><li>阿Test正经比比 - <a href="https://www.bilibili.com/video/BV1Cm411U7s4/">关于 UP 主你想知道的问题，耗时三个月深度揭秘！</a></li><li>老师好我叫何同学 - <a href="https://www.bilibili.com/video/BV1c2421c7Jy/">很牛，但没用丨苹果 Vision Pro 深度体验</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=eAGUayRRwU8">拼多多的“仅退款”，到底惹怒了多少人？</a></li><li>Process X - <a href="https://www.youtube.com/watch?v=tywqPPPgnrw">制作无缝印章的过程。 日本印章每张售价超过 1000 美元。</a></li></ul><h4 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h4><ul><li><a href="https://apps.apple.com/app/id6463499163">Twodos - Simple Todos</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202402261802877.webp" alt="Twodos" /></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>iPhone 的 AirDrop 可能会导致网络不稳定，重启就好。via <a href="https://twitter.com/Blankwonder/status/1761766353248423978">@Blankwonder</a><ul><li>macOS 上也有类似的问题：Macrumors - <a href="https://forums.macrumors.com/threads/wi-fi-jitter-erratic-ping-latency-due-to-awdl-airdrop-airplay.2373916/">Wi-Fi Jitter, Erratic Ping, Latency Due To AWDL (AirDrop/AirPlay)</a></li></ul></li><li>#TIL 在折腾虚拟机时，可能会遇到在安装驱动前需要共享文件的情况。这时候可以用以下命令把文件夹打包成 ISO 镜像。via <a href="https://twitter.com/Megabits_mzq/status/1760970962982646100">@Megabits_mzq</a><br /><code>hdiutil makehybrid -o &quot;folder.iso&quot; &quot;folder&quot; -iso -joliet</code></li><li>#TIL You can easily combine icons in SF symbols 🤯 Duplicate an existing symbol as custom symbol and combine it with a component. via <a href="https://twitter.com/Daafdaan/status/1760577227014418919">@Daafdaan</a></li><li><a href="https://localsend.org/">LocalSend</a>: Share files to nearby devices. Free, open-source, cross-platform.</li><li>一行命令永久激活 Windows/Office。via <a href="https://twitter.com/lewangdev/status/1759832706572280102">@lewangdev</a><br /><code>irm https://massgrave.dev/get | iex</code></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 105 期。本篇是对过去一周（02.19 - 02.25）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;一波寒潮，降温不少，又下了一场雪，今年的雪格外多。&lt;/p&gt;
-&lt;p&gt;小朋友感冒快好了，这几天白天闹，晚上睡醒也闹，</summary>
       
     
     
