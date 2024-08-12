@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-08-11T13:11:00.312Z</updated>
+  <updated>2024-08-12T14:06:48.009Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -17,25 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Kilig 的碎周报 - #120（2024.08.12）</title>
+    <link href="http://kiligwyu.com/newsletter/120/"/>
+    <id>http://kiligwyu.com/newsletter/120/</id>
+    <published>2024-08-12T12:41:22.000Z</published>
+    <updated>2024-08-12T14:06:48.009Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 120 期。本篇是对过去一周（08.05 - 08.11）的记录、思考与分享。</p><hr /><p>昨天发了一篇《<a href="/homepod-usage-experience">HomePod 使用体验</a>》，是我使用 HomePod 半月来的一些感受。</p><p>最近升级了下我的 Markdown 链接解析工具，加了自动保存到本地文件的功能，这样，我可以方便的把一周来各种链接都自动保存到一起，写周报时候可以拷过来，再稍微修改下就可以了，大大提升效率。</p><h2 id="一些链接"><a class="markdownIt-Anchor" href="#一些链接"></a> 一些链接</h2><h3 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h3><ul><li><a href="https://github.com/tom-doerr/zsh_codex">tom-doerr/zsh_codex</a>: This is a ZSH plugin that enables you to use OpenAI’s Codex AI in the command line.</li><li><a href="https://github.com/ccbikai/BroadcastChannel">ccbikai/BroadcastChannel</a>: Turn your Telegram Channel into a MicroBlog.</li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://www.roczhang.com/28.html">28</a></li><li>Apple Developer - <a href="https://developer.apple.com/cn/news/">关于设计的幕后故事：Lost in Play</a></li></ul><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>枫言枫语 - <a href="https://podcasts.apple.com/us/podcast/%E6%9E%AB%E8%A8%80%E6%9E%AB%E8%AF%AD/id1069600190">Vol. 123 无主题闲聊 02</a></li><li>IC实验室 - <a href="https://www.youtube.com/watch?v=HWxZfXUoOKs">齁甜费列罗，凭啥让人着魔？</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1WH4y1c7GP/">对话何同学：我是一块情绪的海绵</a></li><li>黑神话悟空 - <a href="https://www.bilibili.com/video/BV1oH4y1c7Kk/">《黑神话：悟空》最终预告 | 8 月 20 日，重走西游</a></li><li>Frame Order - <a href="https://www.youtube.com/watch?v=JbDYpA_WQFw">When A Waiter Steals Your Date | Cartoon Box 413</a></li><li>斑鸠鸭 - <a href="https://www.bilibili.com/video/BV1LW421976E/">范伟的演技，什么水平？</a></li><li>鞑厨高寒 - <a href="https://www.bilibili.com/video/BV1Yr421K7EA/">咖啡没有那么多废话</a></li><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1Jn4y1f7uX/">老白的地狱之路，小粉的炼狱之陟，《绝命毒师》的伏笔和隐喻最终章</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=I2pVB0I5OeI">為什麼說蚯蚓是世界上最重要的動物？達爾文研究40年，發現蚯蚓的瘋狂真相！如果地球上沒有蚯蚓</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=S6XItwN2UQ0">貓頭鷹為什麼這麼恨鷹？怎麼又跟烏鴉打起來了？原來牠們是鳥類中的「貓」！飛行完全沒有聲音的真正原因</a></li><li>Little Chinese Everywhere - <a href="https://www.youtube.com/watch?v=NA7mj_9GHTI">Lhasa - Tibet’s Most Famous City! S2, EP86</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=6aKBdRl2Gq8">一杯冰卖你3块5，凭什么能卖这么贵?</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=9Ud296rBAe0">为什么法棍这么硬，真的是用来当武器吗？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1FZ421M7Mj/">真心话：你真的需要智驾吗？5年后，你的智驾还能用吗?【柴知道：车圈化简】</a></li><li>4A广告提案网 - <a href="https://www.bilibili.com/video/BV1Cb421E7UR/">苹果广告到了泰国也变沙雕了</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="http://wandawhirl.com">Wanda Whirl</a></li><li><a href="https://cali.design">Cali Kuo</a></li><li>Steam - <a href="https://store.steampowered.com/app/3117780/YinYang_PingPong/">Yin-Yang Ping-Pong</a></li><li>Chrome Extension - <a href="https://chromewebstore.google.com/detail/%E7%AD%89%E7%AD%89%E6%A0%87%E7%AD%BE-%E4%BF%9D%E6%8C%81%E4%B8%93%E6%B3%A8/iechpbdmenjodjnfjendoheikjbdholm">等等标签 - 保持专注</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 120 期。本篇是对过去一周（08.05 - 08.11）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;昨天发了一篇《&lt;a href=&quot;/homepod-usage-experience&quot;&gt;HomePod 使用体验&lt;</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HomePod 使用体验</title>
     <link href="http://kiligwyu.com/homepod-usage-experience/"/>
     <id>http://kiligwyu.com/homepod-usage-experience/</id>
     <published>2024-08-11T09:52:21.000Z</published>
-    <updated>2024-08-11T13:11:00.312Z</updated>
+    <updated>2024-08-11T13:12:00.743Z</updated>
     
     <content type="html"><![CDATA[<p>使用 HomePod 已经有半个月了，分享一下使用体验，仅针对我个人的使用体验和看法，先说结论，很满意。下面就展开讲讲。</p><h2 id="购买-homepod"><a class="markdownIt-Anchor" href="#购买-homepod"></a> 购买 HomePod</h2><p>HomePod 产品发发售都有六年多的时间了，第二代 HomePod 发售也一年多了，那么我为什么到现在才购买 HomePod？HomePod 的定位是带有音响功能的智能家居中枢，而我想要的只不过是个电脑的外接音响，而 HomePod 作为外接音响是不合格的，而我用了好多年的 Beats Pill+，基本够用，近段时间由于工作上的变化，我又回到了上海，恰好 <a href="https://www.beatsbydre.com/speakers/beats-pill">新一代的 Beats Pill 也发布了</a>，本想买个 Pill 的，可是等了一个多月还没发售，<s>我又重新思考了下自己的需求</s>，最后决定购买 HomePod。</p><p>我希望每天下班回到家（出租屋）后，屋里能充满音乐，偶尔看看电影，Pill 就能满足需求，而新款 Pill 迟迟未发售，加上我也想尝试下 HomePod，还有就是可能跟我当时的心情有关，那一周的时间情绪都非常低落，所以有点消费的冲动。决定购买 HomePod 也是一瞬间的事情，临下班前下单，下班直奔零售店，当我拿到 HomePod 那一刻，感受到了 HomePod 的分量，好重啊，更加期待它的实际表现了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112054627.webp" style="width: 50%;" alt="我在 𝕏 上发的帖子"><h2 id="日常使用"><a class="markdownIt-Anchor" href="#日常使用"></a> 日常使用</h2><p>房间里有个音响，可以明显提升生活质量，尤其是一个人租住时候。正如我前面所说，HomePod 我主要拿来听音乐了，它的音质自然不必说，何况我也不是音乐发烧友。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112055842.webp" alt="我的桌面" /></p><p>目前房间里的桌子有些小了，再放上一个 27 英寸的显示器，空间就更不够用了，我甚至把床头柜搬过来，放在桌子旁边当个边几用了。HomePod 就放在显示器旁边，它的优点之一就是可以当成一个独立的设备，可以不依赖于手机或电脑，大多数时候它都在脱离其他设备在播放音乐，但同时，依旧可以在手机上看到 HomePod 的状态，可以非常方便地在手机上接管控制。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112055618.webp" style="width: 50%;" alt="iPhone 上控制 HomePod"><p>另一个优点就是语音控制了，Siri 虽然还是公认的智障，但相比其他家的语音控制，明显好用的多。比如我说“Siri 下一首”、“Siri 大点声”、“Siri 随机播放我的收藏”、“Siri 播放 LP 的 Lost on You 专辑”，基本上都可以快速的得到正确回应，我可以把整条命令说完而不必叫它等它回应了再说命令，Siri 也不会有像“好的主人”这样多余的恶心的回复，很棒。唯一不太行的是，我的资料库里面大部分都是非中文音乐，让 Siri 播放这些音乐经常识别错误，不过这不是 Siri 的问题是我的问题。</p><p>HomePod 不太适合电脑外接音响的主要原因是，连接走的是 AirPlay 2 协议，而非蓝牙协议，因此就有音画不同步的问题。我也经常会在 MacBook 上连接控制 HomePod，听听音乐、看看视频或电影，操作非常的不跟手，延迟非常明显，比如切歌、暂停、快进快退等，总要慢个一两秒，不过用 Safari 浏览器看视频，可以自动音画同步，播放器的话，IINA 固定延迟 2s，设置让音频快 2s 即可。总的来说，我可以接受，问题不大。</p><h2 id="智能家居"><a class="markdownIt-Anchor" href="#智能家居"></a> 智能家居</h2><p>智能家居中枢是 HomePod 的另一大卖点了，不过这方面我的使用体验就非常有限了，我只有米家台灯 1S 增强版这一个可以接入 HomeKit 的设备，让 Siri 控制开关灯还是蛮方便的。</p><p>另外一点，就是 HomeKit 的自动化，在 Home App 里设置一些自动化，比如我就设置了当我到家时候就开灯并开始随机播放我的收藏，每天当我下班到家后，我还没进门音乐就已经响起来了，体验很好，这也是别的普通音响所不能的。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112059942.webp" style="width: 50%;" alt="我的自动化设置"><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>就我目前的情况，主要还是拿 HomePod 来听 Apple Music，其他智能设备也非常有限，我对 HomePod 总的来说非常满意，要说还有什么不满意的地方，那就是应该再买一个组一对儿才好，以后吧。</p>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;使用 HomePod 已经有半个月了，分享一下使用体验，仅针对我个人的使用体验和看法，先说结论，很满意。下面就展开讲讲。&lt;/p&gt;
-&lt;h2 id=&quot;购买-homepod&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#购买-homepod&quot;&gt;&lt;/a&gt;</summary>
-      
+    <summary type="html">使用 HomePod 已经有半个月了，分享一下使用体验，仅针对我个人的使用体验和看法，先说结论，很满意。下面就展开讲讲。</summary>
     
     
     
     
-    <category term="Homepod" scheme="http://kiligwyu.com/tags/Homepod/"/>
+    <category term="HomePod" scheme="http://kiligwyu.com/tags/HomePod/"/>
     
   </entry>
   
@@ -477,32 +499,6 @@
     
     
     <category term="lip" scheme="http://kiligwyu.com/tags/lip/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #106（2024.03.04）</title>
-    <link href="http://kiligwyu.com/newsletter/106/"/>
-    <id>http://kiligwyu.com/newsletter/106/</id>
-    <published>2024-03-04T13:01:48.000Z</published>
-    <updated>2024-03-04T14:18:37.168Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 106 期。本篇是对过去一周（02.26 - 03.03）的记录、思考与分享。</p><hr /><p>在读《<a href="https://aryamansharda.gumroad.com/l/tcvck">Ace The iOS Interview</a>》，还有三分之一，下周读完。</p><p>下周我外爷 96 大寿，我妈周末回老家了，下周又要我自己带孩儿几天了。</p><p>周末带家里的几个小孩去了趟 <a href="/KaifengTravel/WansuiShanWuxiaCity/">万岁山</a>，人山人海啊，简单玩了会就出来了，景区门口车真多。还是得淡季才能去，人太多了不好玩。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>5km - <a href="https://5km.studio/blog/2024-independent-development-six-month-summary">2024 年已过两月 - 独立开发半年记</a></li><li>pseudoyu - <a href="https://www.pseudoyu.com/zh/2024/02/29/weekly_review_20240229/">周报 #53 - 空白的三个月、生活漂流与春节</a></li><li>张小吉 - <a href="https://www.bmms.me/blog/slash-programmer-digital-nomad-transition">渐入佳境：斜杠程序员的数字游民转型之旅</a></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=vXWNCMY70lA&amp;pp=wgIGCgQQAhgB">且听，龙吟！拆开中国最强核电站，你会看到什么？| The Birth of HRP1000</a><ul><li><a href="https://www.youtube.com/watch?v=lLn0o6pqkgA&amp;pp=wgIGCgQQAhgB">什么是潮汕？| WHAT IS CHAOSHAN?</a></li></ul></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=Gkg7dozcyvg">【天文】真實的火星｜人類無法登陸火星的真正原因？</a></li><li>neo - <a href="https://www.youtube.com/watch?v=VbeM8Lf7s5A">The Genius Design of Apple Park</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg7suDJceZ7bIpHwsLA">必应 2024.02 超高清无水印壁纸</a>，共 29 张 109.8 MB。</li><li>一行命令绕开 Arc 浏览器新图标的推荐限制（推荐 50 个人才能使用）。via <a href="https://twitter.com/unixzii/status/1763407331831038254">@unixzii</a><br /><code>defaults write company.thebrowser.Browser currentAppIconName -string flutedGlass</code><br />参数 <code>-string</code> 后面的是 icon 名的小驼峰格式。</li><li>Chrome Extension - <a href="https://chromewebstore.google.com/detail/meta-seo-inspector/ibkclpciafdglkjkcibmohobjkcfkaef">META SEO inspector</a><br />Easily inspect the meta data found inside web pages, find issues and get advices to fix them.</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 106 期。本篇是对过去一周（02.26 - 03.03）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;在读《&lt;a href=&quot;https://aryamansharda.gumroad.com/l/tcvck&quot;&gt;A</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   
