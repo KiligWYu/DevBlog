@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-08-19T16:03:39.702Z</updated>
+  <updated>2024-08-26T14:28:31.860Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #122（2024.08.26）</title>
+    <link href="http://kiligwyu.com/newsletter/122/"/>
+    <id>http://kiligwyu.com/newsletter/122/</id>
+    <published>2024-08-26T12:38:04.000Z</published>
+    <updated>2024-08-26T14:28:31.860Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 122 期。本篇是对过去一周（08.19 - 08.25）的记录、思考与分享。</p><hr /><p>我发现博客上有几篇文章时间错乱了，原因是这样的，上上周 <a href="https://apps.apple.com/us/app/id6502180430">FileZilla Pro RemoteDrive</a> “限免”时候，我试试能不能取代 OneDrive 客户端，就把 OneDrive 删除了，然后发现并不好用，就把 OneDrive 又装回来了，而我博客的文章是软链接到 OneDrive 里的，而这几篇文章里的 metadata 里缺少 date 字段，默认使用文件的创建日期，而我把 OneDrive 装回来时，文件的创建时间就变了，导致有几篇文章发布时间不对。而这几篇文章发布时间可能已经错过一次了，很早之前当我把文件软链接到 OneDrive 里的时候，文件的创建日期可能已经变了。我试着找到文件的创建日期，把时间修改回来，不过可能还是不对，但，没关系了，重要的文件本身。<br />另外，<a href="https://x.com/FileZillaPro/status/1823806078343373023">FileZilla Pro RemoteDrive 不是限免，是要转订阅制了</a>。</p><p>周末又回家了，周末要是不加班的话，完全可以考虑回去的，周五晚上走，周日晚上回，不耽误上班，有卧铺坐卧铺，没卧铺就硬座吧。路上看了 <a href="https://movie.douban.com/subject/27119398/">莫斯科绅士 A Gentleman in Moscow (2024)</a>，一部八集的英剧，一晚上看完，还有 <a href="https://movie.douban.com/subject/34996127/">疯狂的麦克斯：狂暴女神 Furiosa: A Mad Max Saga (2024)</a>。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408262050551.webp" style="width: 50%;" alt="莫斯科绅士 A Gentleman in Moscow (2024)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408262050961.webp" style="width: 50%;" alt="疯狂的麦克斯：狂暴女神 Furiosa: A Mad Max Saga (2024)"><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>杨光_建厨师 - <a href="https://www.bilibili.com/video/BV1BS421X7FH/">如何做出细腻绵密、颜色翠绿的绿豆沙/绿豆汤【解构家常菜】</a></li><li>Pablo Cimadevila - <a href="https://www.youtube.com/watch?v=mwwq0TAX3lA">CIRCLE OF LIFE necklace</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1nM4m1176V/">从产业角度聊聊《黑神话》</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1cW42197dd/">郁达夫骂沈从文，你以为大学生就有饭吃了</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://mp.weixin.qq.com/s/oRNNRtxpR4MJ-ETtjGhiFw">“干了这么多年了，只会干这个”，似乎并不是个错</a></li><li><a href="https://jhuo.ca/post/telegram_russian_hacker/">Telegram 传奇：俄罗斯富豪、黑客高手、极权和阴谋</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://github.com/eyelly-wu/appstore-discounts">eyelly-wu/appstore-discounts</a>: An open-source App Store discounts tracker built on GitHub Actions, supporting RSS, Telegram and DingTalk notifications.</li><li><a href="https://github.com/wasi-master/13ft">wasi-master/13ft</a>: My own custom <a href="http://12ft.io">12ft.io</a> replacement.</li><li><a href="https://x.com/DalinHuang/status/1826786684995879122">👨‍💻 从 Google 到 Shopify 👜：一场面试的旅程</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 122 期。本篇是对过去一周（08.19 - 08.25）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;我发现博客上有几篇文章时间错乱了，原因是这样的，上上周 &lt;a href=&quot;https://apps.apple.</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #121（2024.08.19）</title>
@@ -463,32 +489,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 108 期。本篇是对过去一周（03.11 - 03.17）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;上期说到错过了首映且便宜的 &lt;a href=&quot;https://movie.douban.com/subject/</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #107（2024.03.11）</title>
-    <link href="http://kiligwyu.com/newsletter/107/"/>
-    <id>http://kiligwyu.com/newsletter/107/</id>
-    <published>2024-03-11T06:20:49.000Z</published>
-    <updated>2024-03-11T07:55:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 107 期。本篇是对过去一周（03.04 - 03.10）的记录、思考与分享。</p><hr /><p>看完了《<a href="https://aryamansharda.gumroad.com/l/tcvck">Ace The iOS Interview</a>》，学到不少。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111502725.webp" alt="Ace The iOS Interview" /></p><p>一早（03.02）就在万达电影客户端上买了周五（03.08）的《沙丘 2》IMAX 电影票，¥29.9，越早买越便宜，还送了张 ¥8 的优惠券。<br />但《沙丘 2》还是没看成，周五中午外甥幼儿园妇女节活动，把他奶奶拉去参加了，我只好在家带孩儿了，退了电影票，再买不到这个价的票了。<br />周四在闲鱼买电影票《周处除三害》，¥33，比我自己买便宜了 ¥0.9（使用之前买《沙丘 2》时候送的 ¥8 优惠券后，如果没有优惠券，相当于便宜了 8.9¥）。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202403111526435.webp" alt="周处除三害 周處除三害 (2023)" /></p><p>跟媳妇儿日常吵架 😂。</p><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><h4 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h4><ul><li>人物 - <a href="https://mp.weixin.qq.com/s/zlv4UpDY1qzRjAPt-WfkEw">王净 一个女孩，长大成人</a></li><li><a href="https://invertedpassion.com/why-time-seems-to-pass-faster-as-we-age/">Why time seems to pass faster as we age</a><ul><li><a href="https://readit.plus/a/18dnm/why-time-seems-to-pass-faster-as-we-age">为什么随着年龄增长时间似乎过得更快</a></li></ul></li></ul><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>酱紫表 - <a href="https://www.bilibili.com/video/BV1Kx4y1k7bs/">我的 Mac 8 + 4TB！苹果电脑外挂 SSD 尿袋教程</a></li><li>测委会-雷欧刘 - <a href="https://www.bilibili.com/video/BV1At4y1X7TC/">最懂汽车文化的剧组？盘点口碑神剧“绝命毒师”里的那些车【上集】</a></li><li>大帅老猿 - <a href="https://www.youtube.com/watch?v=STZkkKE8zfc">I spent $10,000 , drive an RV through 33 provinces,160 cities in China, totaling 18,641 miles.</a></li><li>十万个品牌故事 - <a href="https://www.bilibili.com/video/BV1ii421d7s6/">半斤卖千元，阿胶是宝贝还是智商税？</a></li></ul><h4 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h4><ul><li>zhiqiang-official - <a href="https://podcasts.apple.com/us/podcast/zhiqiang-official/id1734138981">ep1: 聊聊开源和商业化</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 107 期。本篇是对过去一周（03.04 - 03.10）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;看完了《&lt;a href=&quot;https://aryamansharda.gumroad.com/l/tcvck&quot;&gt;</summary>
       
     
     
