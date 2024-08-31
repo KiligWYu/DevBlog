@@ -11,7 +11,25 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95inSwift/">数据结构和排序算法 in Swift</a></h1><div class="post-meta">2020-03-03</div><a class="disqus-comment-count" data-disqus-identifier="数据结构和排序算法inSwift/" href="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95inSwift/#disqus_thread"></a><div class="post-content">
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/%E5%89%91%E6%8C%87Offer%E7%BC%96%E7%A8%8B%E9%A2%98inSwift/">剑指 Offer 编程题 in Swift</a></h1><div class="post-meta">2020-03-16</div><a class="disqus-comment-count" data-disqus-identifier="剑指Offer编程题inSwift/" href="/%E5%89%91%E6%8C%87Offer%E7%BC%96%E7%A8%8B%E9%A2%98inSwift/#disqus_thread"></a><div class="post-content">
+1. 赋值运算符函数
+2. 实现 Singleton 模式
+3. 数组中重复的数字
+
+3.1 找出数组中重复的数字
+3.2 不修改数组找出重复的数字
+
+
+4. 二维数组中的查找
+5. 替换空格
+6. 从尾到头打印链表
+7. 重建二叉树
+8. 二叉树的下一个节点
+9. 用两个栈实现队列
+10. 斐波那契数列
+
+10.1 求斐波那契数列的第 n 项
+10.2 ...</div><p class="readmore"><a href="/%E5%89%91%E6%8C%87Offer%E7%BC%96%E7%A8%8B%E9%A2%98inSwift/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95inSwift/">数据结构和排序算法 in Swift</a></h1><div class="post-meta">2020-03-03</div><a class="disqus-comment-count" data-disqus-identifier="数据结构和排序算法inSwift/" href="/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95inSwift/#disqus_thread"></a><div class="post-content">
 1. 数据结构
 
 1.1 链表、栈和队列的 Swift 实现
@@ -58,12 +76,5 @@ WARNING: 本文基于斐讯 K2 PSG1218 路由器，固件版本 22.6.507.43 或 
 降级到 V22.6.506.28 后，尝试了下 路由器刷breed Web控制台助手v5.3版本...</div><p class="readmore"><a href="/%E6%96%90%E8%AE%AF-K2-%E5%88%B7%E5%85%A5-Padavan-%E5%9B%BA%E4%BB%B6/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/Xcode-10-beta-%E7%BC%BA%E5%B0%91-libstdc-%E5%BA%93%E7%9A%84%E5%A4%84%E7%90%86/">Xcode 10 beta 缺少 libstdc++ 库的处理</a></h1><div class="post-meta">2018-07-11</div><a class="disqus-comment-count" data-disqus-identifier="Xcode-10-beta-缺少-libstdc-库的处理/" href="/Xcode-10-beta-%E7%BC%BA%E5%B0%91-libstdc-%E5%BA%93%E7%9A%84%E5%A4%84%E7%90%86/#disqus_thread"></a><div class="post-content">我司项目使用企业账号，并不上架 App Store，通过第三方平台进行分发，所以我想直接用 Xcode 10 进行日常开发和打包，但是在编译时遇到了 library not found for -lstdc++.6.0.9 的错误。
 
 经查得知在 iOS 12.0 中去掉了这个库，用 libc++ 来替代 libstdc++。
-libstdc++.6.0.9...</div><p class="readmore"><a href="/Xcode-10-beta-%E7%BC%BA%E5%B0%91-libstdc-%E5%BA%93%E7%9A%84%E5%A4%84%E7%90%86/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/download-xcode-beta-by-aria2/">使用 Aria2 下载 Xcode-beta</a></h1><div class="post-meta">2018-06-20</div><a class="disqus-comment-count" data-disqus-identifier="download-xcode-beta-by-aria2/" href="/download-xcode-beta-by-aria2/#disqus_thread"></a><div class="post-content"> 08.14 更新
-之前找的 Cookie 有误，已更新，见第一张截图。
-
- 关于 Aria2 及其使用
-略。
- 下载 Xcode-beta
-使用浏览器下载，由于网络波动，经常下载到一半就被断掉，而且还不能断点续传，Xcode 安装包现在都要 5 个多 G 了 😂 ，网络不好下载很蛋疼的 😂…
-那么能不能用第三方下载工具下载呢，默认是不能的，比如 Xco...</div><p class="readmore"><a href="/download-xcode-beta-by-aria2/">阅读全文</a></p></div><nav class="page-navigator"><a class="extend prev" rel="prev" href="/page/15/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/14/">14</a><a class="page-number" href="/page/15/">15</a><span class="page-number current">16</span><a class="page-number" href="/page/17/">17</a><a class="page-number" href="/page/18/">18</a><span class="space">&hellip;</span><a class="page-number" href="/page/20/">20</a><a class="extend next" rel="next" href="/page/17/">下一页</a></nav><script id="dsq-count-scr" src="//kiligwyu.disqus.com/count.js" async></script></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+libstdc++.6.0.9...</div><p class="readmore"><a href="/Xcode-10-beta-%E7%BC%BA%E5%B0%91-libstdc-%E5%BA%93%E7%9A%84%E5%A4%84%E7%90%86/">阅读全文</a></p></div><nav class="page-navigator"><a class="extend prev" rel="prev" href="/page/15/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/14/">14</a><a class="page-number" href="/page/15/">15</a><span class="page-number current">16</span><a class="page-number" href="/page/17/">17</a><a class="page-number" href="/page/18/">18</a><span class="space">&hellip;</span><a class="page-number" href="/page/20/">20</a><a class="extend next" rel="next" href="/page/17/">下一页</a></nav><script id="dsq-count-scr" src="//kiligwyu.disqus.com/count.js" async></script></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
 <br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Xcode Cloud 使用指南 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YLMXL0J5N0');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Xcode Cloud 使用指南</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">Xcode Cloud 使用指南</h1><div class="post-meta">2024-08-31</div><a class="disqus-comment-count" data-disqus-identifier="Xcode-Cloud/" href="/Xcode-Cloud/#disqus_thread"></a><div class="post-content"><p>一早就想写篇介绍 Xoode Cloud 的文章的，相关截图都准备好了，但迟迟没有动笔，现在看到了 Darryl Bayliss 的 <a target="_blank" rel="noopener" href="https://darrylbayliss.net/getting-setup-with-xcode-cloud/">Getting Setup With Xcode Cloud</a> 一文，好了我不用写了，那我就把这篇文章翻译一下好了。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311314273.webp" alt="我准备的 Xcode Cloud 截图">
+<p>我现在正在使用 macOS Sequoia Beta 和 Xcode 16 Beta，也正是因为我可以使用 Xcode Cloud 来发布应用，所以我才敢大胆地使用 Beta 版系统。<br />
+下面是完整译文，本译文使用到了 AI 翻译，但个人精校。</p>
+<hr />
+<h2 id="xcode-cloud-入门"><a class="markdownIt-Anchor" href="#xcode-cloud-入门"></a> Xcode Cloud 入门</h2>
+<p>Xcode Cloud 是 Apple 提供的一个持续集成和持续交付（Continuous Integration 和 Continuous Delivery，简称 CI/CD）平台。它能够自动化处理一些繁琐的工作流程，如构建应用、测试、签名以及分发。</p>
+<p>你可能会问，为什么要使用 Xcode Cloud？如果你曾经手动将应用归档，然后提交到 App Store Connect，你就会知道这些步骤非常耗时。</p>
+<p>有了 Xcode Cloud，你只需在 Xcode 中点击几下按钮，就可以轻松实现自动化。让我们来看看如何操作。</p>
+<h3 id="设置-xcode-cloud"><a class="markdownIt-Anchor" href="#设置-xcode-cloud"></a> 设置 Xcode Cloud</h3>
+<p>要使用 Xcode Cloud，有一些前提条件，主要包括：</p>
+<ul>
+<li>加入 Apple 开发者计划</li>
+<li>在 App Store Connect 上创建一个应用</li>
+<li>将你的开发者 Apple ID 添加到 Xcode 中</li>
+</ul>
+<p>你的项目还需要存储在一个 <a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/xcode/requirements-for-using-xcode-cloud#Developer-account-requirements">git 仓库</a>中。Xcode Cloud 大量使用 git 作为触发器，以便知道何时开始运行。</p>
+<p>如果你需要更多详细信息，可以查阅 <a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/xcode/requirements-for-using-xcode-cloud#Developer-account-requirements">完整的要求列表</a>。</p>
+<p>一旦设置完成，就可以开始设置工作流了。在 Xcode 顶部，点击 Git 分支，会弹出一个窗口。你会看到一个名为 <strong>创建工作流</strong> 的选项。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311316320.png" alt="Create Workflow">
+<p>点击该选项后，Xcode 会显示一个新窗口，询问你要为哪个应用创建工作流。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311317691.png" alt="应用选择">
+<p>选择一个应用并点击 <strong>Next</strong>。接下来，你将进入一个新的界面，来自定义你的工作流。</p>
+<h3 id="创建工作流程"><a class="markdownIt-Anchor" href="#创建工作流程"></a> 创建工作流程</h3>
+<p>工作流界面包含几个不同的部分。首先是 <strong>General</strong> 部分，在这里你可以填写关于工作流的信息。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311317991.png" alt="General 选项">
+<p>在这里，你可以为你的工作流命名，并描述它的功能。无论你是独立开发者，还是团队中有多个工程师需要使用同一工作流，这对你来说都是很有用的。</p>
+<p>你还可以在这一部分中限制工作流的编辑权限，确保其他团队成员在没有适当权限的情况下不会篡改工作流。</p>
+<p>接下来是 <strong>Environment</strong> 部分。在这里，你可以选择你的工作流将使用的 Xcode 和 macOS 的版本。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311318504.png" alt="Environment 选项">
+<p>Xcode Cloud 提供了多种 Xcode 版本，包括测试版。这对于你想创建多个工作流来构建和测试不同配置时非常有用。</p>
+<p>在 <strong>Environment</strong> 部分，你还可以选择在每次构建前清理工作流。如果不勾选该选项，每个工作流都会存储派生数据和每次构建的其他信息，以加快后续的构建速度。</p>
+<p>虽然这通常是有益的，但根据你的需求，你可能希望避免这种情况。例如，将构建版本交付给 TestFlight 进行外部测试时，需要一个干净的构建。</p>
+<p>最后，你可以为工作流设置环境变量。应用程序使用的自定义构建脚本可以获取这些变量，以扩展工作流。如果变量值需要保密，你可以勾选“Secret”选项框，变量值将被隐藏。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311318405.png" alt="Secret 选项">
+<p>在设置完工作流信息并配置环境后，下一步就是创建触发器，这些触发器将使工作流运行。</p>
+<h3 id="启动条件"><a class="markdownIt-Anchor" href="#启动条件"></a> 启动条件</h3>
+<p>接下来的部分叫做 <strong>Start Conditions</strong>。在这里，你可以告诉工作流哪些条件应当触发它运行。默认情况下，Xcode 会将启动条件设置为对任何分支上的任何文件的任何更改。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311319122.png" alt="启动条件">
+<p>建议根据需要调整这个设置，因为默认情况下，每次提交都会触发工作流运行。一个可选的方法是将启动条件限制为仅在特定分支上运行。首先，选择 <strong>Custom Branches</strong> 单选按钮，然后开始输入分支的名称。Xcode 会搜索你的 git 分支，并建议与你的搜索匹配的分支。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311321777.png" alt="启动条件 - 自定义分支">
+<p>你还可以选择基于对特定文件或文件夹的更改来触发工作流，包括特定类型的文件。可以添加多个文件触发器，这样你就能为文件更改构建复杂的触发规则。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311322195.png" alt="启动条件 - 文件">
+<p>如果你需要不同的触发器，可以点击启动条件旁边的“+”按钮来创建不同的启动触发器。Xcode 为多种情况提供了不同的触发器。</p>
+<p>这些触发器包括 git 标签的更改、Pull Request 的更改、特定分支的定时器，最后还有手动启动工作流。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311323907.png" alt="更多启动条件">
+<p>大多数触发器都有一个常见的选项，就是 <strong>Auto Cancel Builds</strong>。如果你的触发器可能会多次启动工作流，这个功能非常有用。与其等待每个构建完成，Xcode Cloud 会取消较旧的构建并优先处理最新的构建。</p>
+<p>这个功能非常实用，所以默认是启用的！</p>
+<p>当你对工作流启动触发器感到满意时，你就可以继续设置工作流要执行的操作了。</p>
+<h3 id="工作流动作"><a class="markdownIt-Anchor" href="#工作流动作"></a> 工作流动作</h3>
+<p>在任何优秀的 CI/CD 平台中，定期和重复地执行动作是确保应用成功构建并快速发现问题的良好实践。</p>
+<p>Xcode Cloud 也不例外，它允许你从一系列动作中进行选择。默认情况下，你的工作流包括一个 <strong>Build</strong> 动作，用于构建你选择的 app scheme。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311324277.png" alt="Build 动作">
+<p>如果 scheme 存在问题，Xcode Cloud 会提供有用的警告，以便你进行处理。</p>
+<p>与启动触发器类似，你可以添加更多的构建动作作为工作流的一部分。这些操作包括运行测试、运行分析器，以及在将应用分发到 TestFlight 或 App Store 之前对其进行归档。</p>
+<p>测试和分析构建操作包含一个 <strong>Requirement</strong> 设置。该设置决定构建操作是否必须通过才能让工作流继续。例如，如果你希望在某个测试失败时使工作流失败，那么你可以强制执行此要求。</p>
+<p>有趣的是，目前测试构建操作似乎不支持 visionOS。</p>
+<p>你可以根据需要为工作流配置任意数量的构建操作。例如，你可以为项目中的每个方案运行测试，然后在一个工作流中构建、归档和分发每个应用。</p>
+<p>当你设置好构建动作后，就可以进入工作流的最后部分，设置后续动作。</p>
+<h3 id="后续动作"><a class="markdownIt-Anchor" href="#后续动作"></a> 后续动作</h3>
+<p>后续动作允许你在工作流完成之前执行一些操作。这些操作包括向 TestFlight 用户分发新构建版本，对 macOS 应用进行公证，以及通过 Slack 或电子邮件通知其他人工作流的结果。</p>
+<p><strong>Notify</strong> 动作让你可以在一定程度上控制发送的消息内容。你可以选择接收所有 <strong>Build Success</strong> 消息，或者在工作流从之前的失败中修复时收到通知，甚至可以选择不接收任何通知！</p>
+<p>对于 <strong>Build Failure</strong> 消息，也有类似的选项。你可以选择接收所有失败消息、仅接收中断工作流的失败消息，或者完全不接收失败消息。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311325211.png" alt="后续动作 - 通知">
+<h3 id="保存工作流"><a class="markdownIt-Anchor" href="#保存工作流"></a> 保存工作流</h3>
+<p>当设置好工作流后，点击窗口右下角的 <strong>Save</strong> 按钮。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311325072.png" alt="保存">
+<p>Xcode Cloud 会检查工作流，并让你知道是否存在需要解决的问题。如果一切正常，工作流窗口会消失，你会回到 Xcode 界面。</p>
+<p>再次点击 Xcode 顶部的 git 分支，这次选择 <strong>Manage Workflows</strong>。会出现一个新窗口，显示你为应用创建的工作流。</p>
+<p>如果你想编辑工作流，选择该工作流并点击左下角的齿轮按钮。你也可以在选中工作流时点击 <code>-</code> 按钮来删除它。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311325585.png" alt="管理工作流">
+<h3 id="在-xcode-cloud-中运行-shell-脚本"><a class="markdownIt-Anchor" href="#在-xcode-cloud-中运行-shell-脚本"></a> 在 Xcode Cloud 中运行 Shell 脚本</h3>
+<p>Xcode Cloud 支持在工作流的特定部分运行 Shell 脚本。如果你需要为工作流进行更高级的配置，这将非常有用，并且可以让你的工作流进一步自定义。</p>
+<p>探讨这一主题超出了本文的范围，不过你可以在 <a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/xcode/writing-custom-build-scripts">开发者文档</a> 中找到更多信息。</p>
+<h3 id="在-xcode-和-app-store-connect-中查看你的工作流"><a class="markdownIt-Anchor" href="#在-xcode-和-app-store-connect-中查看你的工作流"></a> 在 Xcode 和 App Store Connect 中查看你的工作流</h3>
+<p>你可以在 Xcode 中查看工作流的结果，方法是点击 <strong>Report Navigator</strong>，然后点击 <strong>Cloud</strong> 选项卡。每个工作流及其构建结果都会显示在这里。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311326781.png" alt="工作流结果报告">
+<p>你还可以在 App Store Connect 中查看和操作你的工作流，方法是导航到你的 App Store 列表，并在列表顶部选择 <strong>Xcode Cloud</strong> 选项卡。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311326749.png" alt="在 App Store Connect 上管理工作流">
+<h3 id="费用"><a class="markdownIt-Anchor" href="#费用"></a> 费用</h3>
+<p>Xcode Cloud 包含在每个 Apple Developer Program 会员资格中。每个会员每月提供 25 小时的计算时间。如果超出这个时间，你可以选择多种订阅选项来获得更多的时间。</p>
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408311327651.png" alt="费用">
+<h3 id="延伸阅读"><a class="markdownIt-Anchor" href="#延伸阅读"></a> 延伸阅读</h3>
+<p>表面上看，Xcode Cloud 是一个易于使用的 Apple 应用 CI/CD 平台。然而，别被它的简单迷惑，只需点击几下按钮，你就可以开始创建覆盖大多数用例的高效工作流。</p>
+<p>如果你想了解更多，我建议从以下资源开始：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/Xcode/Xcode-Cloud">Xcode Cloud Developer Documentation</a>：官方文档，涵盖一般用法以及如何充分利用 Xcode Cloud 的深入主题。</li>
+<li><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/xcode/developing-a-workflow-strategy-for-xcode-cloud">Developing a workflow strategy for Xcode Cloud</a>：关于如何使用 Xcode Cloud 改进 CI/CD 的最佳实践。</li>
+<li><a target="_blank" rel="noopener" href="https://developer.apple.com/documentation/xcode/configuring-webhooks-in-xcode-cloud">Configuring Webhooks with Xcode Cloud</a>：关于如何使用 Webhooks 将 Xcode Cloud 事件暴露给你自己的工具和服务的建议。</li>
+</ul>
+<h3 id="最后"><a class="markdownIt-Anchor" href="#最后"></a> 最后</h3>
+<p>如果你喜欢这篇博客文章，可以在 <a target="_blank" rel="noopener" href="https://ko-fi.com/darrylbayliss">Kofi</a> 上给我捐助。</p>
+<p>你也可以点击下方的链接，在社交媒体上关注我，了解更多关于软件工程的内容。</p>
+<hr />
+<p>以上就是原文全部内容了，Xcode Cloud 作为苹果官方的 CI/CD 工具，使用简单，25 小时的免费额度不多，但对于我来说，用于构建个人应用，还算够用。</p>
+</div><div class="tags"><a href="/tags/Xcode Cloud"><i class="fa fa-tag">Xcode Cloud</i></a><a href="/tags/CI/CD"><i class="fa fa-tag">CI/CD</i></a></div><div class="post-nav"><a class="next" href="/newsletter/122/">Kilig 的碎周报 - #122（2024.08.26）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json', true);
+  xhr.timeout = 2500;
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      $('.post-meta .post-comments-count').show();
+      var s = document.createElement('script');
+      s.id = 'dsq-count-scr';
+      s.src = 'https://kiligwyu.disqus.com/count.js';
+      s.async = true;
+      (document.head || document.body).appendChild(s);
+    }
+  };
+  xhr.ontimeout = function () { xhr.abort(); };
+  xhr.send(null);
+});</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'Xcode-Cloud/',
+    url: 'http://kiligwyu.com/Xcode-Cloud/',
+    title: 'Xcode Cloud 使用指南',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
