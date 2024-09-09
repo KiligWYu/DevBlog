@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-09-05T16:10:24.316Z</updated>
+  <updated>2024-09-09T14:17:29.294Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #124（2024.09.09）</title>
+    <link href="http://kiligwyu.com/newsletter/124/"/>
+    <id>http://kiligwyu.com/newsletter/124/</id>
+    <published>2024-09-09T12:21:22.000Z</published>
+    <updated>2024-09-09T14:17:29.294Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 124 期。本篇是对过去一周（09.02 - 09.08）的记录、思考与分享。</p><hr /><ol><li>更新了一下 <a href="https://apps.apple.com/app/id6463897064/">Kroma</a>，主要是 UI 方面的改进，改进了可用性，之前在部分颜色下，页面上的元素对比度不够，下周发版。</li><li>准备复活一个已下架的应用，整合几个功能单一的 apps，之后会把已整合的 app 下架。因为功能单一的 app，上架或更新都成问题，目前已经确定了功能和实现方案，使用 SwiftUI + TCA，项目进度 0%。</li><li>在数码荔枝买了窗口管理工具 <a href="https://manytricks.com/moom/">Moom</a>，以前还在订阅 SetApp 时候使用过 Moom。Moom 4 改变巨大，更加的简单易用了，UI 也更贴合 macOS。<br />我之前使用 <a href="https://apps.apple.com/app/id441258766">Magnet</a>，在本碎周报的 <a href="/newsletter/108/">第 108 期</a> 里，我有说过，Magnet 可能会造成系统卡顿（by <a href="https://twitter.com/zhizijun/status/1768129567720603818">@zhizijun</a>），就改用 <a href="https://rectangleapp.com/">Rectangle</a>。现在改用 Moom 了，Moom 的自定义程度也更大。<br />Moom 有个我喜欢的功能就是按下修饰键时，移动鼠标可以快速方便地移动窗口位置，在 Moom 之前，我使用在 Dock 栏可以预览窗口的工具 <a href="https://bahoom.com/hyperdock">HyperDock</a>，HyperDock 可以设置按下鼠标左键时移动窗口，我更喜欢 HyperDock 的按下鼠标左键时再移动窗口，但 HyperDock 在 macOS Sequoia 上该功能失效了，而且 HyperDock 也好多年没更新了。我去给 Moom 提个反馈，看能不能加上按下鼠标左键时再移动窗口。<br />说到预览窗口，近期有个开源项目 <a href="https://github.com/ejbills/DockDoor/">ejbills/DockDoor</a>，不过现在还没 HyperDock 好用，等 DockDoor 进化吧，以后或许可以替代 HyperDock。<br />另外可以看看 MacStories 对 Moom 的介绍文章 <a href="https://www.macstories.net/reviews/moom-4-mac-window-management-upgraded/">Moom 4: Mac Window Management, Upgraded</a> 以及 <a href="https://manytricks.com/blog/">Moom 的官方博客</a> 以获取更多信息。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409092151349.webp" style="width: 50%;" alt="Moom Settings"><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409092152648.webp" style="width: 50%;" alt="HyperDock Settings"></li><li>买了打字指法练习工具 <a href="https://apps.apple.com/app/id1035137927">KeyKey</a>，每天花一点点时间来练习正确的指法。打字练习工具也有很多，比如 <a href="https://github.com/RealKai42/qwerty-learner">RealKai42/qwerty-learner</a> 和 <a href="https://github.com/wintermute-cell/ngrrram">wintermute-cell/ngrrram</a> 等，但我更喜欢 KeyKey。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409092158584.webp" style="width: 50%;" alt="KeyKey"></li></ol><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1WNHreTEZk/">《风骚律师》的象征和隐喻01：小律师吉米，处处禁止通行的一天</a></li><li><a href="https://meethigher.top/blog/2024/black-wukong-youji/">黑神话悟空 - 妖怪平生录</a></li><li>-LKs- - <a href="https://www.bilibili.com/video/BV1KEpceFEtS/">给UP主打工到底爽不爽？幕后员工真实锐评！</a></li><li>1379 号观察员 - <a href="https://www.youtube.com/watch?v=g4FJzhEr8_g">孔乙己（恐已己）- 鲁镇往事</a></li><li>吸奇侠 - <a href="https://www.youtube.com/watch?v=X8z2_Dp-xJQ">【吸奇侠】聊《黑神话：悟空》第三回「夜生白露」小动画，谁信善？谁作恶？</a></li><li>笑锦要沉稳 - <a href="https://www.bilibili.com/video/BV1mopceAE7z/">因为他人善啊</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>某高老师 - 人间观察 - <a href="https://someonegao.com/dream-of-the-mountain">梦断黑风岭 - Dream Of The Mountain</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://www.macstories.net/reviews/reeder-a-new-approach-to-following-feeds/">Reeder: A New Approach to Following Feeds</a></li><li><a href="https://meethigher.top/blog/2024/black-wukong-youji/">黑神话悟空 - 妖怪平生录</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 124 期。本篇是对过去一周（09.02 - 09.08）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;更新了一下 &lt;a href=&quot;https://apps.apple.com/app/id646389</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>记一次数据无法保存的诡异问题</title>
@@ -456,32 +483,6 @@
 &lt;p&gt;又到了杨柳絮漫天飞舞的时候，现在还不算严重。&lt;/p&gt;
 &lt;p&gt;再过两天，小孩奶奶就来了，我就能轻松些了。&lt;/p&gt;
 </summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #111（2024.04.08）</title>
-    <link href="http://kiligwyu.com/newsletter/111/"/>
-    <id>http://kiligwyu.com/newsletter/111/</id>
-    <published>2024-04-08T14:47:57.000Z</published>
-    <updated>2024-04-09T01:15:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 111 期。本篇是对过去一周（04.01 - 04.07）的记录、思考与分享。</p><hr /><p>又是白天独自带小孩儿的半周，清明假期回小孩儿姥姥家了两天。天气不冷了，白天多带小孩儿在外面玩。乍暖还寒，容易感冒，我就稍有点，小孩儿也感冒了，鼻塞流涕咳嗽，快好了。<br />还得独自带小孩儿一周。在家陪小孩儿时间多了，跟我最亲 😄。</p><p>我最近反思了下自己，我认为自己还是缺乏行动力，看到好多朋友的产品，其实好多我也一早就想做的，可始终没能落地，加上缺乏设计能力，一拖再拖。今年希望可以发布更多产品，MVP 开发，快速迭代。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>bopular - <a href="https://www.bilibili.com/video/BV1Hm411z7kd/">此处有一些漂亮跟便宜</a></li><li>酱紫表 - <a href="https://www.bilibili.com/video/BV1kt421n7da/">短信转发最全教程｜ 2024 全平台</a></li><li>郭云神奇 - <a href="https://www.bilibili.com/video/BV1fE421M77b/">《大话西游》10 万字拆解：观音 1 句诡异台词，揭开细思极恐的剧情暗线！01</a></li><li>电影广角镜 - <a href="https://space.bilibili.com/1859934844/channel/collectiondetail?sid=2151210">《绝命毒师》中伏笔和隐喻</a></li><li>Hi 科普啦 - <a href="https://www.youtube.com/watch?v=qSDY-YDe2M0">曾经的“红人”黑皮西瓜，为啥一夜之间销声匿迹？它有何致命缺陷</a></li><li>MHYYYY - <a href="https://www.youtube.com/watch?v=3kWzAWIMJrk">愚人节政治梗图合集</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>十里 - <a href="https://5km.studio/blog/frp-proxy">frp 实现内网穿透</a></li><li>东坡肘子 - <a href="https://fatbobman.com/zh/posts/new-frameworks-new-mindset/">新框架、新思维：解析 Observation 和 SwiftData 框架</a></li><li>张小吉 - <a href="https://www.bmms.me/blog/silky-smooth-ios-progress-bar-interaction-explained">超级干干干干货！丝滑的 iOS 进度条解锁交互到底是怎么制作的？</a></li><li><a href="https://research.swtch.com/xz-timeline">Timeline of the xz open source attack</a></li></ul><h3 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h3><ul><li><a href="https://apps.apple.com/app/id6468948294">MusicBox Mini</a> - Chimes on Your Wrist<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404090858096.webp" alt="MusicBox Mini" /></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://morerss.com/zh.php">MoreRSS</a> - RSS 订阅合集，via <a href="https://twitter.com/huhexian">@huhexian</a></li><li><a href="https://megabits.xyz">megabits.xyz</a> - Megabits Studio 官网，via <a href="https://twitter.com/Megabits_mzq">@Megabits_mzq</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 111 期。本篇是对过去一周（04.01 - 04.07）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;又是白天独自带小孩儿的半周，清明假期回小孩儿姥姥家了两天。天气不冷了，白天多带小孩儿在外面玩。乍暖还寒，容易感冒</summary>
       
     
     
