@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-09-09T14:17:29.294Z</updated>
+  <updated>2024-09-18T14:04:40.060Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #125（2024.09.18）</title>
+    <link href="http://kiligwyu.com/newsletter/125/"/>
+    <id>http://kiligwyu.com/newsletter/125/</id>
+    <published>2024-09-18T13:21:54.000Z</published>
+    <updated>2024-09-18T14:04:40.060Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 125 期。本篇是对过去一周（09.09 - 09.17）的记录、思考与分享。</p><hr /><p>各位朋友，中秋节过的如何？，本期周报晚两天更新，中秋节回家没有带电脑，因为我知道带了也没空开。带小朋友回姥姥家玩，几个小朋友吵闹了几天。<br />然后又该抢国庆的票了。</p><p>这次回家路上看了四部爱在电影，爱在三部曲加另一部爱在。<a href="https://movie.douban.com/subject/1296339/">爱在黎明破晓前 Before Sunrise (1995)</a>、<a href="https://movie.douban.com/subject/1291990/"><br />爱在日落黄昏时 Before Sunset (2004)</a>、<a href="https://movie.douban.com/subject/10808442/">爱在午夜降临前 Before Midnight (2013)</a> 和 <a href="https://movie.douban.com/subject/3036465/">爱在记忆消逝前 The Leisure Seeker (2017)</a>。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133590.webp" style="width: 50%;" alt="爱在黎明破晓前 Before Sunrise (1995)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133589.webp" style="width: 50%;" alt="爱在日落黄昏时 Before Sunset (2004)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133588.webp" style="width: 50%;" alt="爱在午夜降临前 Before Midnight (2013)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133587.webp" style="width: 50%;" alt="爱在记忆消逝前 The Leisure Seeker (2017)"><p>熬夜看了苹果发布会，我现在用的是 iPhone 11 Pro Max，后盖玻璃摔碎了，电池容量只有 74% 了，电池衰减加上硬件损耗加上系统越来越复杂，使用起来经常发烫加卡顿，已经忍了好长时间了，本来想买台新款 Pro Max 的，但我想想似乎还没 PS5 Pro 吸引力大，就算是 iPhone 11 Pro Max，日常使用性能也是过剩的，周末有空去换个电池，就又满血复活，还能再用几年。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>杨光_建厨师 - <a href="https://www.bilibili.com/video/BV11xpjezEBV/">全面解析！如何做出软烂不柴、红亮颤悠的红烧肉【解构家常菜】</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1W84EeJEZg/">千兆网下载跑不满，真是你的问题？Steam下载速度怎么这么快？</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>『Cuto 壁纸新版本 2.10.0 更新了，现在你可以在 Cuto app 里、iOS 18 控制中心、锁屏，一键更换喜欢的壁纸了。另外我们推出了『2024 用户最爱』合辑，囊括了最近一年最受欢迎的 50 张壁纸，升系统换新机别忘了试试。』via <a href="https://x.com/icodesign_me/status/1834030512006136281">@icodesign_me</a></li><li><a href="https://appleslides.com">Apple Bento Slides - Explore Apple Event Presentations</a></li><li><a href="https://github.com/pablopunk/SwiftShift">pablopunk/SwiftShift</a>: Sweet window management for macOS</li><li><a href="https://meatfighter.com/ascii-silhouettify/spa/index.html#/">ASCII Silhouettify</a></li><li><a href="https://github.com/rektdeckard/departure-mono">rektdeckard/departure-mono</a>: A monospaced pixel font with a lo-fi, techy vibe</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 125 期。本篇是对过去一周（09.09 - 09.17）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;各位朋友，中秋节过的如何？，本期周报晚两天更新，中秋节回家没有带电脑，因为我知道带了也没空开。带小朋友回姥姥家玩</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #124（2024.09.09）</title>
@@ -455,34 +481,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 113 期。本篇是对过去一周（04.15 - 04.21）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;a href=&quot;https://apps.apple.com/app/id6463897064/&quot;&gt;Kroma</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #112（2024.04.15）</title>
-    <link href="http://kiligwyu.com/newsletter/112/"/>
-    <id>http://kiligwyu.com/newsletter/112/</id>
-    <published>2024-04-15T05:56:50.000Z</published>
-    <updated>2024-04-15T06:39:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 112 期。本篇是对过去一周（04.08 - 04.14）的记录、思考与分享。</p><hr /><p>又到了杨柳絮漫天飞舞的时候，现在还不算严重。</p><p>再过两天，小孩奶奶就来了，我就能轻松些了。</p><p>家里攒了好多花盆了，留着吧没用还占地，弃之可惜。我现在已经不喜欢养花了，最后净剩些盆。</p><p>给图片添加类似 macOS 窗口截图时的阴影的小工具 <a href="https://apps.apple.com/app/id1633245174/">MSS</a> 更新了 1.4 版本，此次更新支持了从剪贴板粘贴图片，也修复了些小问题。</p><h4 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h4><ul><li>吟游诗人基德 - <a href="https://www.bilibili.com/video/BV1Cq421c7hY/">【基德】减肥神技？？168 断食法的真相</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://www.pcspy.net">播客广场</a><ul><li>少数派 - <a href="https://sspai.com/post/87991">为了发现更多感兴趣的播客，我开发了一款工具</a></li></ul></li><li><a href="https://inpaintweb.lxfater.com">Inpaint-web</a> - 免费无限量去水印和物体的在线工具</li><li>#TIL macOS 应用启动时添加 <code>-_NS_4445425547 YES</code> 这个参数，可以在菜单栏获得一个 🐞 菜单，可以获取一些信息方便 debug，也可以用 <code>defaults write -g _NS_4445425547 -bool true</code> 让这个菜单显示在所有 App 上。via <a href="https://twitter.com/tualatrix/status/1777574176330789143">@tualatrix</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404151428686.webp" alt="Finder 的 🐞 菜单" /></li><li>小众软件 - <a href="https://www.appinn.com/just-one-page-pdf/">Just-One-Page-PDF - 将网页保存为 PDF：A4 尺寸，支持保存为一页或多页 PDF[Chrome]</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 112 期。本篇是对过去一周（04.08 - 04.14）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;又到了杨柳絮漫天飞舞的时候，现在还不算严重。&lt;/p&gt;
-&lt;p&gt;再过两天，小孩奶奶就来了，我就能轻松些了。&lt;/p&gt;
-</summary>
       
     
     
