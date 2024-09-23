@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-09-18T14:04:40.060Z</updated>
+  <updated>2024-09-23T15:22:38.574Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #126（2024.09.23）</title>
+    <link href="http://kiligwyu.com/newsletter/126/"/>
+    <id>http://kiligwyu.com/newsletter/126/</id>
+    <published>2024-09-23T14:36:18.000Z</published>
+    <updated>2024-09-23T15:22:38.574Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 126 期。本篇是对过去一周（09.18 - 09.22）的记录、思考与分享。</p><hr /><p>本期周报只有半周，由于上期中秋节晚更的缘故。</p><p>本周在做一个 macOS 的小工具，进度 40% 了，在国庆前发布。</p><h3 id="apps"><a class="markdownIt-Anchor" href="#apps"></a> Apps</h3><ul><li><p><a href="https://apps.apple.com/app/id6670337467">Expenzio - Expense Tracker</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409232307300.webp" style="width: 50%;" alt="Expenzio - Expense Tracker"></p></li><li><p><a href="https://apps.apple.com/app/id6683308033">‎CassetteOne - Ambience &amp; Music</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409232311957.webp" style="width: 50%;" alt="CassetteOne - Ambience & Music"></p></li><li><p><a href="https://apps.apple.com/app/id6657986705">‎Daylights - Highlight Journal</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409232315013.webp" style="width: 50%;" alt="Daylights - Highlight Journal"></p></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>嗑书的阿冉叔 - <a href="https://www.bilibili.com/video/BV1imtLePEyu/">为什么黑神话第三回，叫《屁》？8千字深度解析《屁》的满级佛学</a></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=S3bBbHgE4Rs">爲什麽沒有直徑壹光年的恒星？2024 年目前已知的宇宙中最大恒星！WOH G64！</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=OFEuopIFNvo">电话普及二十年，年轻人却害怕接电话了？</a></li></ul><h3 id="文章-x"><a class="markdownIt-Anchor" href="#文章-x"></a> 文章 / 𝕏</h3><ul><li><a href="https://b123400.net/blog/I-no-longer-write-Haskell">我已經沒在工作用 Haskell 了</a></li><li><a href="https://xiaowenz.com/run-a-uk-company/">如何注册和维护一个英国公司 更新于 2024 年 9 月</a></li><li><a href="https://x.com/AwakeningBear01/status/1836928566401151160">@AwakeningBear01</a> 分享的英雄联盟段位升级带来的人生感悟：<blockquote><ol><li>在人生初期，如果你没背景没资源，你最好找到自己热爱的东西，并将其到达专精程度。</li><li>第二阶段，找到志同道合的队友，一同进步，目的是降低自己的负面情绪带来的的影响。</li><li>找到心流，通过刻意训练，不断重复来提高你的个人表现，从专精到极限。</li><li>通过数据，顺应趋势，等待属于自己的版本和风口，人生并不像游戏，可以重开，所以等待适合自己的版本非常重要。</li><li>复盘，不断找到更好的策略，在失败中找到自己的问题所在，不断优化。</li><li>迭代复利，善战者无赫赫之功，做好复利规划，用策略代替情绪波动，直至真正意义上的胜利。</li></ol></blockquote></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>『Tips：iPhone 新机数据迁移，可以使用 USB 3/4 有线连接大幅提高传输速度（我这无线是 9 小时，有线 30 分钟）。但是记得在配置开始阶段就需要将两设备进行有线连接，而不能等到数据恢复的选项时再连接，有线成功握手后，传输数据的按钮会有非常明确的一个动画表示是有线连接状态。』via <a href="https://x.com/Blankwonder/status/1836984047047737561">@Blankwonder</a></li><li><a href="https://github.com/Lakr233/NotchNotification">Lakr233/NotchNotification</a>: Display Notification Inside Mac’s Notch.</li><li><a href="https://github.com/PlayCover/PlayCover">PlayCover/PlayCover</a>: Run iOS apps and games on Apple Silicon Macs with mouse, keyboard and controller support.</li><li><a href="https://github.com/langren1353/GM_script">langren1353/GM_script</a>: AC-baidu: 重定向优化百度搜狗谷歌搜索_去广告_favicon_双列</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 126 期。本篇是对过去一周（09.18 - 09.22）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;本期周报只有半周，由于上期中秋节晚更的缘故。&lt;/p&gt;
+&lt;p&gt;本周在做一个 macOS 的小工具，进度 40% 了</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #125（2024.09.18）</title>
@@ -455,32 +482,6 @@
 &lt;hr /&gt;
 &lt;p&gt;又是无趣的一周。&lt;br /&gt;
 星巴克办公，为新产品做技术调研，基本确定了实现方案，接下来就是开发了。&lt;br /&gt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #113（2024.04.22）</title>
-    <link href="http://kiligwyu.com/newsletter/113/"/>
-    <id>http://kiligwyu.com/newsletter/113/</id>
-    <published>2024-04-22T05:24:31.000Z</published>
-    <updated>2024-04-22T06:09:46.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 113 期。本篇是对过去一周（04.15 - 04.21）的记录、思考与分享。</p><hr /><p><a href="https://apps.apple.com/app/id6463897064/">Kroma - Your Color Library</a> 更新了了 1.5 版本，日常更新和修复。</p><p>周日去了荷泽看牡丹，并没有很壮观，盛花期可能已经过了，人还特别多，还得看着小朋友，也没有心情拍照，一张都没拍。</p><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>JUNPING - <a href="https://blog.imjp.uk/indie-app-zh">探索打造以用户为中心的独立应用</a></li><li>Piglei - <a href="https://www.piglei.com/articles/three-little-things-on-code-review/">Code Review 时，曾被我忽视的 3 件重要小事</a></li><li>德普王’s Blog - <a href="https://depp.wang/tools/">软件工具推荐</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7421.html">看完豆瓣电影 250 后的体验</a></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=PprktCMvhLo">天才在左，疯子在右，法国在哪？【新列国志01】 | France: The Land of Geniuses and Maniacs</a></li><li>柴知道 ChaiKnows Official Channel - <a href="https://www.youtube.com/watch?v=d0sB_AyFn54">人死之后会再社死一次吗？你在网上的秘密守得住吗？【柴知道：人生大题】</a></li></ul><h3 id="app"><a class="markdownIt-Anchor" href="#app"></a> App</h3><ul><li><a href="https://apps.apple.com/app/id1048524688">Delta - Game Emulator</a> - All-in-One GBA4iOS Successor<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221336313.webp" alt="Delta - App Store Preview Screenshot" /></li></ul><blockquote><p>Delta – Game Emulator 是一款新鲜上架 App Store，适配 iPhone 的游戏模拟器，支持NES、SNES、Game Boy、Game Boy Color、Game Boy Advance、Nintendo DS、Nintendo 64、Sega Genesis 等多种游戏机，需要自备游戏 ROM。<a href="https://www.appinn.com/delta-game-emulator/">@Appinn</a></p></blockquote><p>终于可以在 iPhone 上玩小时候的小游戏了，很早以前我就分享过我收集的小游戏 <a href="https://github.com/KiligWYu/PlayForFun">KiligWYu/PlayForFun</a>，除了游戏 rom，还有一些 Flash 小游戏（swf）。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221347219.webp" alt="在 iPhone 上玩小游戏" /></p><ul><li><p><a href="https://apps.apple.com/app/id6478897923">雀乐</a><br />原落网，iOS 客户端，发现独立、小众好听的音乐。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221350938.webp" alt="雀乐 - App Store Preview Screenshot" /></p></li><li><p><a href="https://sindresorhus.com/command-x">Command X</a> - Cut and paste files in Finder<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202404221359770.webp" alt="Command X Preview Screenshot" /></p></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://github.com/tonyhuan/GuanKiapTsingKhai">tonyhuan/GuanKiapTsingKhai</a> - 原俠正楷，整合「芫荽」及「霞鶩文楷輕便版」這二個基於「Klee One」改造的中文字型，並提供簡轉繁字型 (簡體改以繁體顯示) 及偽直排字型 (各單字旋轉 90 度形成直書排版)。<br /><img src="https://github.com/tonyhuan/GuanKiapTsingKhai/raw/main/img/GKTK_Sample_112-00.png" alt="GuanKiapTsingKhai Preview" /></li><li><a href="https://github.com/quilljs/quill">quilljs/quill</a> - 开源富文本编辑器</li><li><a href="https://github.com/Lakr233/BBackupp">Lakr233/BBackupp</a> - Automated iOS Backup Robot.<br />开源的 iOS 备份工具。<br /><img src="https://github.com/Lakr233/BBackupp/raw/main/Resource/Readme/SCR-20240322-khfv.jpeg" alt="BBackupp Preview Screenshot" /></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 113 期。本篇是对过去一周（04.15 - 04.21）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/app/id6463897064/&quot;&gt;Kroma</summary>
       
     
     
