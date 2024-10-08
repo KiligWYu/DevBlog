@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-09-23T15:22:38.574Z</updated>
+  <updated>2024-10-08T16:44:53.867Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #127（2024.10.08）</title>
+    <link href="http://kiligwyu.com/newsletter/127/"/>
+    <id>http://kiligwyu.com/newsletter/127/</id>
+    <published>2024-10-08T11:40:32.000Z</published>
+    <updated>2024-10-08T16:44:53.867Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 127 期。本篇是对过去两周（09.23 - 10.07）的记录、思考与分享。</p><hr /><p>国庆节的票是真难买啊，我 29 日晚上回去，7 号晚上回来，候补了好长时间都没候补到，都是买了一站的票，上车后坐餐车。来回路上看了 <a href="https://movie.douban.com/subject/26628357/">一个叫欧维的男人决定去死 En man som heter Ove (2015)</a>、<a href="https://movie.douban.com/subject/35736202/">狗神 DogMan (2023)</a>、<a href="https://movie.douban.com/subject/1297192/">致命 ID Identity (2003)</a> 和 <a href="https://movie.douban.com/subject/1300613/">土拨鼠之日 Groundhog Day (1993)</a>。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359905.webp" style="width: 50%;" alt="一个叫欧维的男人决定去死 En man som heter Ove (2015)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359904.webp" style="width: 50%;" alt="狗神 DogMan (2023)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359903.webp" style="width: 50%;" alt="致命 ID Identity (2003)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359901.webp" style="width: 50%;" alt="土拨鼠之日 Groundhog Day (1993)"><p>朋友们假期都去哪玩了呀，我们会了趟老家，吃吃喝喝在洛阳玩了一天。</p><p>我外爷轮到我妈来照顾了，趁国庆节放假，媳妇儿可以少请几天假。在老家看到我外爷，我忽然觉得我外爷好孤独，连个说话的人都没有，日子一天天过去，说难听点，就是在“等死”。或许以后我可以写篇关于我外爷的文章。</p><p>在闲鱼买了 iPhone 16 Pro Max，白色，港版，512GB，线下面交，本来想买沙漠色，但没现货，就买了白色的，个人觉得白色和沙漠色都很好看，从 11 Pro Max 升级上来，使用两周多，稍后等我再写篇使用感受。</p><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://carlosgong.github.io/posts/2024011101.html">20240111: 35 岁</a></li><li><a href="https://tw93.fun/2024-09-09/future.html">聊聊未来技术趋势</a></li><li><a href="https://quail.ink/commonsense/p/so-many-chinese-people-killed-in-japan-no-reflection-on-anti-chinese-thought">那么多中国人在日本被杀，怎么就没人反思仇华思想？ | 基本常识</a></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>差评君 - <a href="https://www.youtube.com/watch?v=Y1rCOuZHF00">NASA 都被坑了?为啥美国人还坚持用这些奇怪的单位?</a></li><li>杨光_建厨师 - <a href="https://www.bilibili.com/video/BV18Zs6eXEmB/">【转行】清华毕业的建筑师、公司老板为什么去做美食博主？讲讲我自己的故事</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1TTsre2EBP/">磁带是怎么记录你的青春的？它为什么适合盗版？</a></li><li>Harry 的數碼遊牧之旅 - <a href="https://www.youtube.com/watch?v=rVIUt1kjDMM">歡迎 13 - Swift 開發者的日常分享大會 #9 (feat. 13)</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-V6DJceZ7bIpHwsLA">必应 9 月超高清无水印壁纸</a>。</li><li><a href="https://sindresorhus.com/supercharge">Supercharge</a>: Elevate your Mac experience.</li><li><a href="https://github.com/MythicApp/Mythic">MythicApp/Mythic</a>: An open-source macOS game launcher with the ability to play Windows games through a custom implementation of Apple’s Game Porting Toolkit — supporting multiple platforms (Epic &amp; Steam TBA)</li><li><a href="https://github.com/elrumo/macOS_Big_Sur_icons_replacements">elrumo/macOS_Big_Sur_icons_replacements</a>: Replacement icons for popular apps in the style of macOS Big Sur</li><li><a href="https://github.com/nadimkobeissi/mkbsd">nadimkobeissi/mkbsd</a>: Download all the wallpapers in MKBHD’s “Panels” app</li><li><a href="https://www.toptal.com/developers/gitignore">gitignore.io</a>: Create useful .gitignore files for your project</li><li><a href="https://app.uiboy.com">APPLORE - Discover and Explore App Icons</a></li><li><a href="https://www.patreon.com/posts/ios-kai-fa-de-du-112741361">iOS 開發的年度週期 | 13</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 127 期。本篇是对过去两周（09.23 - 10.07）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;国庆节的票是真难买啊，我 29 日晚上回去，7 号晚上回来，候补了好长时间都没候补到，都是买了一站的票，上车后坐</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #126（2024.09.23）</title>
@@ -455,33 +481,6 @@
 &lt;hr /&gt;
 &lt;p&gt;五一小长假过的咋样啊朋友们，出去玩了没？&lt;br /&gt;
 我们一号去买了辆三轮，二号五号骑三轮在黑岗口公园玩，三号四</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #114（2024.04.29）</title>
-    <link href="http://kiligwyu.com/newsletter/114/"/>
-    <id>http://kiligwyu.com/newsletter/114/</id>
-    <published>2024-04-29T05:56:55.000Z</published>
-    <updated>2024-04-29T06:40:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 114 期。本篇是对过去一周（04.22 - 04.28）的记录、思考与分享。</p><hr /><p>又是无趣的一周。<br />星巴克办公，为新产品做技术调研，基本确定了实现方案，接下来就是开发了。<br />简单了解下 Telegram 的机器人和 API，把部分通知接入 Telegram。<br />同时也在继续学习 SwiftUI。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>惜车工场CSW - <a href="https://www.bilibili.com/video/BV1Gz42167HN/">小米 SU7 即将满月，我们有几个新问题想请教雷总！「迟到车评」</a></li><li>两颗皮蛋 - <a href="https://www.bilibili.com/video/BV1am41127dS/">[杜比] 10000 公里深测，特斯拉究竟改变了什么？</a></li><li>崔永元 - <a href="https://www.youtube.com/watch?v=Y8o279e0E4s">说说王志安，说说柴静他们的过去和现在！</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=8NR2s2KcmAc">为什么草莓味的食品没啥草莓味？</a></li><li>柴知道 ChaiKnows Official Channel - <a href="https://www.youtube.com/watch?v=d0sB_AyFn54">人死之后会再社死一次吗？你在网上的秘密守得住吗？【柴知道：人生大题】</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>少数派 - <a href="https://sspai.com/post/88299">iPhone 终于有任天堂模拟器了：聊聊热门应用 Delta 的前世今生</a></li><li><a href="https://franktan.blog/2024/04/25/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%8F%82%E5%8A%A0%E7%9A%84try-swift-tokyo%E5%B0%8F%E8%AE%B0/">第一次参加的 try! Swift Tokyo 小记</a></li><li>肇鑫的日常博客 - <a href="https://zhaoxin.pro/life/17138654694795.html">今天购物的两件小事</a></li><li>Holy Swift - <a href="https://holyswift.app/common-mistakes-to-avoid-when-using-enums-in-swift/">Common Mistakes to Avoid When Using Enums in Swift</a></li><li>肘子的 Swift 记事本 - <a href="https://fatbobman.com/zh/posts/in-depth-exploration-of-overlay-and-background-modifiers-in-swiftui/">深入探索 SwiftUI 中的 Overlay 和 Background 修饰器</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://github.com/lihaoyun6/QuickRecorder">lihaoyun6/QuickRecorder</a>: A lightweight screen recorder based on ScreenCapture Kit for macOS / 基于 ScreenCapture Kit 的轻量化多功能 macOS 录屏工具</li><li><a href="https://github.com/s1ntoneli/AppUpdater">s1ntoneli/AppUpdater</a>: A simple app-updater for macOS, checks your GitHub releases for a binary asset and silently updates your app.</li><li><a href="https://ddyx.me/">低端游戏</a>：在浏览器里玩怀旧游戏。via <a href="https://twitter.com/hzlzh/status/1783386525390328231">@hzlzh</a><ul><li>在线体验 Windows 95/98：<a href="https://copy.sh/v86/">copy.sh/v86/</a>。via <a href="https://twitter.com/hzlzh/status/1783397413207867773">@hzlzh</a></li></ul></li><li><a href="https://sindresorhus.com/icon-preview">Icon Preview</a>: Preview your app icon and menu bar icon.</li><li><a href="https://iknowwhatyoudownload.com/en/peer/">I Know What You Download</a>: 这个网站可以看到你用的 ip 出口和它所属的网段底下的 ip 在 BT 上下载了什么。via <a href="https://twitter.com/Moelin_Moe/status/1782658643802071136">@Moelin_Moe</a></li><li><a href="https://wangchujiang.com/devtutor/">DevTutor for SwiftUI</a>: SwiftUI 的速查手册</li><li><a href="https://epubkit.app/blog/indie-hacker/">硬地骇客 - 两个月 $12000 ARR 实践之路</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 114 期。本篇是对过去一周（04.22 - 04.28）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;又是无趣的一周。&lt;br /&gt;
-星巴克办公，为新产品做技术调研，基本确定了实现方案，接下来就是开发了。&lt;br /&gt;</summary>
       
     
     
