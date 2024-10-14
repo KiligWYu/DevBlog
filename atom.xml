@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-10-08T16:44:53.867Z</updated>
+  <updated>2024-10-14T15:25:28.571Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #128（2024.10.14）</title>
+    <link href="http://kiligwyu.com/newsletter/128/"/>
+    <id>http://kiligwyu.com/newsletter/128/</id>
+    <published>2024-10-14T13:28:58.000Z</published>
+    <updated>2024-10-14T15:25:28.571Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 128 期。本篇是对过去一周（10.07 - 10.13）的记录、思考与分享。</p><hr /><p>在第 126 期里，我说我在开发一个 macOS 小工具，已经暂停了，因为在沙盒环境下，Quick Action 的功能无法实现，而 Quick Action 算是一个比较重要的差异点，可以在不打开 App 的情况下实现功能，就像 <a href="https://apps.apple.com/app/id1633245174/">MSS</a> 一样，不用打开 App 就可以给图片添加边框阴影。如果非沙盒环境就不能上架 Mac App Store，那我就没啥动力开发了，做最小化实现留着自己用了好了。</p><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/%D0%BA%D1%83%D0%BA%D1%83%D1%88%D0%BA%D0%B0/1288416464?i=1288417351"></iframe><ul><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1Cx2JYSEBb/">清晰度不如 4 年前！视频变糊是你的错觉吗？</a><br />影视飓风这期视频吐槽没说到点上，还全网下架了，不过在别人的账号下还能看到。另外可以听听下面的播客：<ul><li>津津乐道 - <a href="https://podcasts.apple.com/us/podcast/%E6%B4%A5%E6%B4%A5%E4%B9%90%E9%81%93/id108644234">科技乱炖：视频变糊是资本的锅？影视飓风错的有点离谱</a></li><li>三无环 - <a href="https://podcasts.apple.com/us/podcast/no-169-%E8%A7%86%E9%A2%91%E7%BD%91%E7%AB%99%E8%B6%8A%E7%9C%8B%E8%B6%8A%E7%B3%8A-%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88/id1475113228?i=1000672717473">No.169 视频网站越看越糊，意味着什么？</a></li></ul></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1BWxse9E2G/">制霸表情包！GIF是如何成为梗图之王的？</a></li><li>花生説 - <a href="https://www.youtube.com/watch?v=7wTE0ru29ko">「花生」浅谈魅族 21 年发展史：四次重开！草根创业天花板？</a><br />我的第一款智能手机就是魅族的 MX，当时非常喜欢魅族的 MX 系列手机。</li><li>小唯的公寓 Wei’s Apartment - <a href="https://www.youtube.com/watch?v=sne1Ph4u8Cw">一个普通人的英语学习小 tip｜从哑巴英语到流利日常</a></li><li>Veritasium - <a href="https://www.youtube.com/watch?v=w5ebcowAJD8">How do QR codes work? (I built one myself to find out)</a></li><li><a href="https://www.bilibili.com/video/BV13L2yYeEn8/">纯黑《寂静岭2：重制版》沉浸式惊怂实况_实况</a></li><li>惜车工场 CSW - <a href="https://www.bilibili.com/video/BV1bV2hYtE2f/">腾势 Z9 GT！自主大 GT 从无到有，这回成了？「迟到车评」</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=y0lFRiRvkzI">China’s Xinjiang Revealed: Not What You Thought!</a></li><li>陈一枝你坐下 - <a href="https://www.bilibili.com/video/BV1ew411U7kS/">如何避免各种“瘾”火烧身？</a></li><li>韦恩英语 - <a href="https://www.bilibili.com/video/BV1oX4y1w7gs/">Kurt Vonnegut 冯内古特 - 好故事的类型</a></li><li>4A 广告提案网 - <a href="https://www.bilibili.com/video/BV1do2DYfEt5/">徐志胜最新沙雕广告：我有一个朋友，他是根绒毛</a><br />里面的配乐《<a href="https://music.163.com/song?id=2634543570">绒毛之歌</a>》也还挺好听。<br><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2634543570&auto=0&height=66"></iframe></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>Randy’s Blog - <a href="https://lutaonan.com/blog/ai-writing/">AI 和写作</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://stock.greatdk.com">概念股搜索器</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 128 期。本篇是对过去一周（10.07 - 10.13）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;在第 126 期里，我说我在开发一个 macOS 小工具，已经暂停了，因为在沙盒环境下，Quick Action</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #127（2024.10.08）</title>
@@ -454,33 +480,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 116 期。本篇是对过去一周（05.06 - 05.12）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;苹果 5 月 7 日发布了新一代 iPad Air 和 iPad Pro，首发 M4 芯片用在了 Pro 上，P</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #115（2024.05.06）</title>
-    <link href="http://kiligwyu.com/newsletter/115/"/>
-    <id>http://kiligwyu.com/newsletter/115/</id>
-    <published>2024-05-06T00:50:18.000Z</published>
-    <updated>2024-05-06T14:48:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 115 期。本篇是对过去一周（04.29 - 05.05）的记录、思考与分享。</p><hr /><p>五一小长假过的咋样啊朋友们，出去玩了没？<br />我们一号去买了辆三轮，二号五号骑三轮在黑岗口公园玩，三号四号在小孩儿姥姥家。<br />有考虑出远门玩，但考虑到五一哪儿哪儿人都多，带着小孩不方便，遂作罢，骑三轮边上公园玩玩吧。<br />三轮也是一早都想买了的，可以带小孩儿周边遛的。<br />四号在小孩儿舅舅家喝多了居然，还是啤酒，也就喝了一罐半，<a href="https://www.jiuhuar.com/craftbeer/56e13db58b15e6e6e1d4679f.html">橙色炸弹 16 度</a>，这个啤酒不好喝，拉黑 🤣。</p><p>自行车又吃灰好久了，清洗下，骑行黑岗口，是我目前骑行距离最长的一次 🤣。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202405062146743.jpeg" alt="Outdoor Cycle 26.26KM" /></p><h2 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h2><ul><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1KE42157Qp/">【杜比视界】是建模还是实拍？它真的能骗过人眼！</a></li><li>毕的二阶导 - <a href="https://www.bilibili.com/video/BV1yM4m1Z7Ee/">喝 10 瓶水 vs 喝 10 瓶啤酒，哪个更难？？这一口真得讲究…</a></li></ul><h2 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h2><ul><li>枫言枫语 - <a href="https://justinyan.me/post/5968">凯文·凯利 73 岁生日的 101 条人生建议(中文翻译)</a></li><li><a href="https://5km.studio/newsletters/3">5km Studio Newsletter #3</a></li></ul><h2 id="壁纸"><a class="markdownIt-Anchor" href="#壁纸"></a> 壁纸</h2><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg78GDJceZ7bIpHwsLA">必应四月超高清无水印壁纸</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202405062242292.webp" alt="必应四月超高清无水印壁纸" /></li><li><a href="https://bodhichristian.pixieset.com">bodhichristian.pixieset.com</a>: Wallpapers for everyone. New collection monthly.<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202405062239659.webp" alt="bodhichristian.pixieset.com" /></li><li><a href="https://basicappleguy.com/basicappleblog/stripes">Stripes Wallpaper Collection</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202405062240501.webp" alt="Stripes Wallpaper Collection" /></li></ul><h2 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h2><ul><li><a href="https://github.com/dylanaraps/neofetch">dylanaraps/neofetch</a> 停止更新了，替代品可以用 <a href="https://github.com/fastfetch-cli/fastfetch">fastfetch-cli/fastfetch</a></li><li><a href="https://github.com/Antonoko/playdate-chinese-IME">Antonoko/playdate-chinese-IME</a>: a high efficiency Chinese/English input method on playdate</li><li><a href="https://docs.proxyman.io/troubleshooting/ios-16-devices-issues">iOS 16 and iOS 17 issues | Proxyman Documentation</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 115 期。本篇是对过去一周（04.29 - 05.05）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;五一小长假过的咋样啊朋友们，出去玩了没？&lt;br /&gt;
-我们一号去买了辆三轮，二号五号骑三轮在黑岗口公园玩，三号四</summary>
       
     
     
