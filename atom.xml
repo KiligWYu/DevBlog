@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-11-18T13:36:10.963Z</updated>
+  <updated>2024-11-25T08:54:32.372Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #134（2024.11.25）</title>
+    <link href="http://kiligwyu.com/newsletter/134/"/>
+    <id>http://kiligwyu.com/newsletter/134/</id>
+    <published>2024-11-25T07:59:50.000Z</published>
+    <updated>2024-11-25T08:54:32.372Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 134 期。本篇是对过去一周（11.18 - 11.24）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/%E6%B2%A1%E6%9C%89%E4%BF%A1%E5%8F%B7-live/1779898627"></iframe><hr /><p>之前说的整合 Apps 的新 App 已经开发完成，不过还没提审，周末回家带小朋友了，不然周末都发布了的。<br />发布又要到下周了，下周我要带小朋友一周，有时间就发布。</p><p>看了电影 <a href="https://movie.douban.com/subject/1295124/">辛德勒的名单 Schindler’s List (1993)</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251603395.webp" style="width: 50%;" alt="辛德勒的名单 Schindler's List (1993)"></p><p>周末自己安装更换了即热水龙头，卧室离厨房太远，热水要放好长时间才热，遂买了款即热的水龙头。自己更换了，没有叫上门安装。更换还费了点劲儿，因为家里没有合适的工具，旧水龙头的接口拧的太紧，不过最后还是安好了，这下不用忍受冷水了。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>-LKs- - <a href="https://www.bilibili.com/video/BV1cAU7Y1Ew7/">漂流相机到哪了？我要做团队了？LKs 大项目进展汇报！</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1VqSFYpE8Z/">影视飓风开车去罗马｜第 3 期</a></li><li>超 Carry 的柴西 - <a href="https://www.bilibili.com/video/BV1m6STYYEGb/">跟无穷小亮游北京什么体验？狐：今天形象管理过了【互联网脚替 12】</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://chicagokare.xyz">Chicago Kare by Duane King</a>: A Faithful Reproduction of the Bitmap Version of the Chicago Typeface Created by Susan Kare for Apple Computer in 1984.<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251624788.png" style="width: 50%;" alt="Chicago Kare"></li><li>christian lavelle’s Mobile Wallpapers - <a href="https://christianlavelle.com/mobile-wallpapers#block-b89216935d0adf705119">November 2024</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251625889.webp" style="width: 50%;" alt="November 2024 Wallpapers"></li><li><a href="https://apps.apple.com/app/id6737716371">Mouse Metrics Distance &amp; Click</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251627400.webp" style="width: 50%;" alt="Mouse Metrics Distance & Click"></li><li><a href="https://lobehub.com/icons">AI / LLM Model Icon Set · LobeHub</a>: 🥨 Lobe Icons - Popular AI / LLM Model Brand SVG Logo and Icon Collection.<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251632252.png" style="width: 50%;" alt="AI / LLM Model Icon Set"></li><li><a href="https://tufu.me/2024/11/24/useful-wallpapers.html">Useful Wallpapers 项目</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251635060.png" style="width: 50%;" alt="Useful Wallpapers"></li><li><a href="https://poetrystrands.com/zh">古诗连词游戏</a>：通过连接汉字来还原古诗原句</li><li><a href="https://apps.apple.com/app/id6738393886">Fish Image Viewer</a>: View images with ease.<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251638828.webp" style="width: 50%;" alt="Fish Image Viewer"></li><li><a href="https://xiaowenz.com/blog/2024/11/kyogoku-natsuhiko-podcast/">京极夏彦和知识的密度。</a></li><li><a href="https://tabtabapp.net">Supercharged Windows &amp; Tabs Manager for Mac</a>: TabTab helps you stay productive by making it easy to manage windows and tabs across all your Mac apps. It’s fast, intuitive, and runs entirely on your device. Scroll down to see how it can replace ⌘Command+Tab.</li><li>BasicAppleGuy - <a href="https://basicappleguy.com/basicappleblog/designed-by-apple-in-california">Designed by Apple in California</a></li><li><a href="https://gitreceipt.vercel.app">GitHub Receipt</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411251651536.jpeg" style="width: 50%;" alt="GitHub Receipt"></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 134 期。本篇是对过去一周（11.18 - 11.24）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #133（2024.11.18）</title>
@@ -494,32 +520,6 @@
     
     
     <category term="HomePod" scheme="http://kiligwyu.com/tags/HomePod/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #119（2024.08.05）</title>
-    <link href="http://kiligwyu.com/newsletter/119/"/>
-    <id>http://kiligwyu.com/newsletter/119/</id>
-    <published>2024-08-05T12:46:20.000Z</published>
-    <updated>2024-08-05T15:15:21.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 119 期。本篇是对过去一周（07.29 - 08.04）的记录、思考与分享。</p><hr /><p>周日晚上的火车晚点了两个多小时，在候车厅玩 <a href="https://apps.apple.com/us/app/vampire-survivors/id6478975337">Vampire Survivors+</a>，这个游戏八月一号上架了 Apple Arcade。周末两天也在玩这个游戏。<br />我一直觉得火车应该是受天气影响较小的交通工具，而实际上受天气影响还蛮大的，尤其是夏季短时强对流恶劣天气。本次晚点就是受陕西境内的天气影响。前段时间还遇到，临发车前被通知车次停运，估计也是天气原因。今年的恶劣天气异常多，各地暴雨洪涝灾害不断。</p><p>看了 <a href="https://www.imdb.com/title/tt0434409/">V 字仇杀队 V for Vendetta (2005)</a> 和 <a href="https://movie.douban.com/subject/1291565/">疯狂约会美丽都 Les triplettes de Belleville (2003)</a> 两部电影。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408052057818.webp" alt="V 字仇杀队 V for Vendetta (2005)" /><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408052057489.webp" alt="疯狂约会美丽都 Les triplettes de Belleville (2003)" /></p><h3 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h3><ul><li><a href="https://github.com/hzeyuan/x-cards">hzeyuan/x-cards</a>: Easy share X anywhere,in any format<ul><li><a href="https://x-cards.net">x-cards.net</a></li></ul></li><li><a href="https://github.com/lihaoyun6/Logoer">lihaoyun6/Logoer</a>: Change the style of the Apple logo in macOS menu bar / 更换 macOS 菜单栏苹果 Logo 样式的小工具</li><li><a href="https://github.com/Kyle-Ye/XcodeLLMEligible">Kyle-Ye/XcodeLLMEligible</a>: 国行 Mac 使用 Xcode LLM 的方法</li><li><a href="https://github.com/jaywcjlove/symbol-scribe">jaywcjlove/symbol-scribe</a>: In messaging applications, use interesting emoji emoticons such as smiley faces, kaomojis, and various other symbols.<ul><li><a href="https://wangchujiang.com/symbol-scribe/">Symbol Scribe</a></li></ul></li><li><a href="https://github.com/CyC2018/CS-Notes">CyC2018/CS-Notes</a>: 📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计</li></ul><h3 id="apps"><a class="markdownIt-Anchor" href="#apps"></a> Apps</h3><ul><li><a href="https://apps.apple.com/app/id6503706164">StyleGuide - HIG Menubar App</a></li><li><a href="https://apps.apple.com/app/id6503827110">Miley AI - Personal Journal AI</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg98pDJceZ7bIpHwsLA">必应七月超高清无水印壁纸</a></li><li>三輪 - <a href="https://sanlun.bike/post/shang-hai-shu-cheng">上海书城</a></li><li>晨钟酱 Official - <a href="https://www.bilibili.com/video/BV1Hz421z7wr/">山寨机如何伪造配置？逆向源码后我直呼离谱！</a></li><li><em>#TIL</em> <a href="https://jc0b.computer/posts/enabling-touchid-for-sudo-macos-sonoma/">Enabling Touch ID for sudo in macOS Sonoma</a></li><li><em>#TIL</em> iPhone 的相机，拍照时候，按住拍照按钮向左滑，可以连拍。</li><li><a href="https://askhackers.com">askhackers.com</a>: Get answers from the world’s top hackers</li><li>花果山大圣 - <a href="https://www.youtube.com/watch?v=sQPaBY7RpDw">funnyCoder13期 - 和同事李豹聊聊大厂被裁后的思考，自媒体重新起航</a></li><li>IC实验室 - <a href="https://www.youtube.com/watch?v=e9A4BF-gIG4">俞敏洪和董宇辉为什么没有撕起来？- IC实验室出品</a></li><li>纳豆奶奶 - <a href="https://www.youtube.com/watch?v=pHjXkALzDHA">為什麼美國人越窮越胖？ 300公斤的流浪漢你看過嗎？ ？</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=IJzI0vxUTMU">一条“线”也能成功申遗？不愧是中国！拆开北京中轴线，你会看见什么？ | BEIING CANNOT BE WITHOUT A CENTRAL AXIS</a></li><li>小Lin说 - <a href="https://www.youtube.com/watch?v=NM1hSguZ4fI">【硬核】一口气了解外汇 | Everything You Need To Know About Foreign Exchange</a></li><li>花果山大圣 - <a href="https://www.youtube.com/watch?v=plDC3QP9qIU">34岁程序员带全家离开北京</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1A142187KH/">复古网红 CCD 当年是怎么死的？它值得怀念吗？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1Vb421779F/">无线电玩到尽头有多强？通话免费，覆盖全球，直通月球！</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 119 期。本篇是对过去一周（07.29 - 08.04）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;周日晚上的火车晚点了两个多小时，在候车厅玩 &lt;a href=&quot;https://apps.apple.com/us</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   
