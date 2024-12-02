@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-11-25T08:54:32.372Z</updated>
+  <updated>2024-12-02T13:57:51.473Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #135（2024.12.02）</title>
+    <link href="http://kiligwyu.com/newsletter/135/"/>
+    <id>http://kiligwyu.com/newsletter/135/</id>
+    <published>2024-12-02T11:53:03.000Z</published>
+    <updated>2024-12-02T13:57:51.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 135 期。本篇是对过去一周（11.25 - 12.01）的记录、思考与分享。</p><hr /><p>新 App <a href="https://apps.apple.com/app/id1333958571">iCollect+</a> 已上架 App Store，完全使用 SwiftUI + TCA 重写，碰上感恩节，审核花了好几天时间，今天才审核，被拒，修复一个在 iPad 上的显示问题，火速重新提交审核，最后审核通过。同时下架花密、每日维基、Gloam 和 FQRC。稍后我会写一篇关于 iCollect+ 的详细介绍。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412022132470.webp" style="width: 50%;" alt="iCollect+"></p><p>黑五啥都没买，虽然一堆应用或服务限时折扣，可看了一圈没有啥要买的，立省 100%。</p><p>看了电影 <a href="https://movie.douban.com/subject/1292064/">楚门的世界 The Truman Show (1998)</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412022122887.webp" style="width: 50%;" alt="楚门的世界 The Truman Show (1998)"></p><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>知行小酒馆 - <a href="https://podcasts.apple.com/us/podcast/%E7%9F%A5%E8%A1%8C%E5%B0%8F%E9%85%92%E9%A6%86/id1559695855">高考前只管努力，工作后只想发疯，我们的教育究竟怎么了？</a></li><li>狗大蛋子 - <a href="https://b23.tv/jwcZ74L">傻子怎么演？浅谈“大傻春”的自我修养【有戏】</a></li><li>林亦 LYi - <a href="https://www.youtube.com/watch?v=Ycfoe8SfAPc">为什么 C 口数据线越来越乱？</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=nP00Z71OaBU">为什么韩国人如此热衷于喝冰美式？</a></li><li>虎嗅视界官方频道 - <a href="https://www.youtube.com/watch?v=0e4gR5CMfVI">为啥都是摇粒绒，有的200有的2000？怎么选摇粒绒才叫性价比？</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-glDJceZ7bIpHwsLA">必应 2024.11 超高清无水印壁纸</a></li><li><a href="https://www.smashingmagazine.com/2024/11/desktop-wallpaper-calendars-december-2024/">Dreaming Of Miracles (December 2024 Wallpapers Edition)</a></li><li><a href="https://apps.apple.com/us/story/id1773419991">Announcing the App Store Award Finalists : App Store Story</a></li><li>蓝点网 - <a href="https://www.landiannews.com/archives/106869.html">只有贴胶布才靠谱：工程师通过关闭 ThinkPad 摄像头 LED 指示灯实现悄悄录像</a></li><li>蓝点网 - <a href="https://www.landiannews.com/archives/106820.html">[教程] PayPal 似乎悄悄改了汇率兑换设置 如果不改将被扣除转换手续费</a></li><li>小众软件 - <a href="https://www.appinn.com/snippetslab/">SnippetsLab 免费了！程序员必备的 Mac 代码片段管理工具</a><ul><li><a href="https://apps.apple.com/cn/app/snippetslab/id1006087419?mt=12&amp;utm_source=appinn.com">SnippetsLab on Mac App Store</a></li></ul></li><li><a href="https://developer.apple.com/bug-reporting/profiles-and-logs/">Profiles and Logs - Bug Reporting - Apple Developer</a><ul><li>“Apple 提供了一个描述文件可以用来显示 Wi-Fi 连接状态的详细信息”，via <a href="https://x.com/KawaiiZapic/status/1862451439312019865">@KawaiiZapic</a></li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 135 期。本篇是对过去一周（11.25 - 12.01）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;新 App &lt;a href=&quot;https://apps.apple.com/app/id1333958571&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>旧瓶装新酒，iCollect 升级 iCollect+</title>
+    <link href="http://kiligwyu.com/app/iCollectPlus/"/>
+    <id>http://kiligwyu.com/app/iCollectPlus/</id>
+    <published>2024-11-30T14:26:59.000Z</published>
+    <updated>2024-11-30T15:35:58.136Z</updated>
+    
+    <content type="html"><![CDATA[<p>在之前的碎周报里，我说我正在整合一些旧的 Apps，就是把其他的一些小 Apps 整合进一个老的、已经下架三年半了的、也是些小功能集合的 iCollect，之前下架 iCollect 是想把其中的一些功能拆分成多个 App，不过现在兜兜转转又整合回来了，这次再整合回来，是因为那些小的 Apps 上架和更新都要被苹果拒绝，功能太单一，所以 iCollect 又回来了，并且重命名为 iCollect+，版本号为 5.0.0（下架时候是 3.8.0）。<br />iCollect+ 的审核正好赶上感恩节，上架审核就花了好几天。上架之后另外几个小 Apps 会被下架，包括花密、Gloam、FQRC、每日维基。</p><p>iCollect+ 推翻原来的架构 Swift + MVVM + Targets，采用 SwiftUI + TCA + Swift Package 重新开发，主要功能包括必应壁纸、花密、简繁转换、维基百科首页、维基百科历史上的今天、Gloam、QRMate，每个功能是一个独立的 Package，都用 SwiftUI + TCA 重新实现。<br />但是都是些基础的实现，还有很多可以优化的，比如一些细节动画、更好的设计、桌面小组件、照片拓展、分享拓展、快捷指令等，但我应该是不会加了，不想花太多时间在这个项目上，接下来我要把更多的时间投入到下一个正经的产品上。</p><p>下面是对 iCollect+ 功能的详细介绍。</p><h2 id="必应壁纸"><a class="markdownIt-Anchor" href="#必应壁纸"></a> 必应壁纸</h2><p>在我使用电脑的这些年里，大部分时候包括现在，都是拿必应的每日壁纸当桌面壁纸，为了自动化这件事情，就有了 <a href="https://apps.apple.com/app/id1573715683/">Tapet</a> - macOS 上每日自动更换必应壁纸的小工具，UHD 超高清且无水印的必应壁纸。在 iOS 上，那些漂亮的必应壁纸拿来当壁纸也是不错的。不过 iCollect+ 上的必应壁纸功能就简单多了，只提供一周内的必应壁纸。</p><p>另外，我有保存近几年的必应壁纸，<a href="https://1drv.ms/f/s!AuQ7aUGVDnCMkRYMlx5ntsikfCws">见我的 OneDrive 分享</a>。</p><h2 id="花密"><a class="markdownIt-Anchor" href="#花密"></a> 花密</h2><h2 id="简繁转换"><a class="markdownIt-Anchor" href="#简繁转换"></a> 简繁转换</h2><h2 id="维基首页"><a class="markdownIt-Anchor" href="#维基首页"></a> 维基首页</h2><h2 id="历史上的今天"><a class="markdownIt-Anchor" href="#历史上的今天"></a> 历史上的今天</h2><h2 id="gloam"><a class="markdownIt-Anchor" href="#gloam"></a> Gloam</h2><h2 id="qrmate"><a class="markdownIt-Anchor" href="#qrmate"></a> QRMate</h2><h2 id="自定义标签栏和默认标签页"><a class="markdownIt-Anchor" href="#自定义标签栏和默认标签页"></a> 自定义标签栏和默认标签页</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在之前的碎周报里，我说我正在整合一些旧的 Apps，就是把其他的一些小 Apps 整合进一个老的、已经下架三年半了的、也是些小功能集合的 iCollect，之前下架 iCollect 是想把其中的一些功能拆分成多个 App，不过现在兜兜转转又整合回来了，这次再整合回来，是因</summary>
+      
+    
+    
+    
+    
+    <category term="app" scheme="http://kiligwyu.com/tags/app/"/>
+    
+    <category term="iCollect" scheme="http://kiligwyu.com/tags/iCollect/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #134（2024.11.25）</title>
@@ -475,51 +525,6 @@
     
     
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #120（2024.08.12）</title>
-    <link href="http://kiligwyu.com/newsletter/120/"/>
-    <id>http://kiligwyu.com/newsletter/120/</id>
-    <published>2024-08-12T12:41:22.000Z</published>
-    <updated>2024-08-12T14:06:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 120 期。本篇是对过去一周（08.05 - 08.11）的记录、思考与分享。</p><hr /><p>昨天发了一篇《<a href="/homepod-usage-experience">HomePod 使用体验</a>》，是我使用 HomePod 半月来的一些感受。</p><p>最近升级了下我的 Markdown 链接解析工具，加了自动保存到本地文件的功能，这样，我可以方便的把一周来各种链接都自动保存到一起，写周报时候可以拷过来，再稍微修改下就可以了，大大提升效率。</p><h2 id="一些链接"><a class="markdownIt-Anchor" href="#一些链接"></a> 一些链接</h2><h3 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h3><ul><li><a href="https://github.com/tom-doerr/zsh_codex">tom-doerr/zsh_codex</a>: This is a ZSH plugin that enables you to use OpenAI’s Codex AI in the command line.</li><li><a href="https://github.com/ccbikai/BroadcastChannel">ccbikai/BroadcastChannel</a>: Turn your Telegram Channel into a MicroBlog.</li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://www.roczhang.com/28.html">28</a></li><li>Apple Developer - <a href="https://developer.apple.com/cn/news/">关于设计的幕后故事：Lost in Play</a></li></ul><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>枫言枫语 - <a href="https://podcasts.apple.com/us/podcast/%E6%9E%AB%E8%A8%80%E6%9E%AB%E8%AF%AD/id1069600190">Vol. 123 无主题闲聊 02</a></li><li>IC实验室 - <a href="https://www.youtube.com/watch?v=HWxZfXUoOKs">齁甜费列罗，凭啥让人着魔？</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1WH4y1c7GP/">对话何同学：我是一块情绪的海绵</a></li><li>黑神话悟空 - <a href="https://www.bilibili.com/video/BV1oH4y1c7Kk/">《黑神话：悟空》最终预告 | 8 月 20 日，重走西游</a></li><li>Frame Order - <a href="https://www.youtube.com/watch?v=JbDYpA_WQFw">When A Waiter Steals Your Date | Cartoon Box 413</a></li><li>斑鸠鸭 - <a href="https://www.bilibili.com/video/BV1LW421976E/">范伟的演技，什么水平？</a></li><li>鞑厨高寒 - <a href="https://www.bilibili.com/video/BV1Yr421K7EA/">咖啡没有那么多废话</a></li><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1Jn4y1f7uX/">老白的地狱之路，小粉的炼狱之陟，《绝命毒师》的伏笔和隐喻最终章</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=I2pVB0I5OeI">為什麼說蚯蚓是世界上最重要的動物？達爾文研究40年，發現蚯蚓的瘋狂真相！如果地球上沒有蚯蚓</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=S6XItwN2UQ0">貓頭鷹為什麼這麼恨鷹？怎麼又跟烏鴉打起來了？原來牠們是鳥類中的「貓」！飛行完全沒有聲音的真正原因</a></li><li>Little Chinese Everywhere - <a href="https://www.youtube.com/watch?v=NA7mj_9GHTI">Lhasa - Tibet’s Most Famous City! S2, EP86</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=6aKBdRl2Gq8">一杯冰卖你3块5，凭什么能卖这么贵?</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=9Ud296rBAe0">为什么法棍这么硬，真的是用来当武器吗？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1FZ421M7Mj/">真心话：你真的需要智驾吗？5年后，你的智驾还能用吗?【柴知道：车圈化简】</a></li><li>4A广告提案网 - <a href="https://www.bilibili.com/video/BV1Cb421E7UR/">苹果广告到了泰国也变沙雕了</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="http://wandawhirl.com">Wanda Whirl</a></li><li><a href="https://cali.design">Cali Kuo</a></li><li>Steam - <a href="https://store.steampowered.com/app/3117780/YinYang_PingPong/">Yin-Yang Ping-Pong</a></li><li>Chrome Extension - <a href="https://chromewebstore.google.com/detail/%E7%AD%89%E7%AD%89%E6%A0%87%E7%AD%BE-%E4%BF%9D%E6%8C%81%E4%B8%93%E6%B3%A8/iechpbdmenjodjnfjendoheikjbdholm">等等标签 - 保持专注</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 120 期。本篇是对过去一周（08.05 - 08.11）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;昨天发了一篇《&lt;a href=&quot;/homepod-usage-experience&quot;&gt;HomePod 使用体验&lt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HomePod 使用体验</title>
-    <link href="http://kiligwyu.com/homepod-usage-experience/"/>
-    <id>http://kiligwyu.com/homepod-usage-experience/</id>
-    <published>2024-08-11T09:52:21.000Z</published>
-    <updated>2024-08-11T13:12:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用 HomePod 已经有半个月了，分享一下使用体验，仅针对我个人的使用体验和看法，先说结论，很满意。下面就展开讲讲。</p><h2 id="购买-homepod"><a class="markdownIt-Anchor" href="#购买-homepod"></a> 购买 HomePod</h2><p>HomePod 产品发发售都有六年多的时间了，第二代 HomePod 发售也一年多了，那么我为什么到现在才购买 HomePod？HomePod 的定位是带有音响功能的智能家居中枢，而我想要的只不过是个电脑的外接音响，而 HomePod 作为外接音响是不合格的，而我用了好多年的 Beats Pill+，基本够用，近段时间由于工作上的变化，我又回到了上海，恰好 <a href="https://www.beatsbydre.com/speakers/beats-pill">新一代的 Beats Pill 也发布了</a>，本想买个 Pill 的，可是等了一个多月还没发售，<s>我又重新思考了下自己的需求</s>，最后决定购买 HomePod。</p><p>我希望每天下班回到家（出租屋）后，屋里能充满音乐，偶尔看看电影，Pill 就能满足需求，而新款 Pill 迟迟未发售，加上我也想尝试下 HomePod，还有就是可能跟我当时的心情有关，那一周的时间情绪都非常低落，所以有点消费的冲动。决定购买 HomePod 也是一瞬间的事情，临下班前下单，下班直奔零售店，当我拿到 HomePod 那一刻，感受到了 HomePod 的分量，好重啊，更加期待它的实际表现了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112054627.webp" style="width: 50%;" alt="我在 𝕏 上发的帖子"><h2 id="日常使用"><a class="markdownIt-Anchor" href="#日常使用"></a> 日常使用</h2><p>房间里有个音响，可以明显提升生活质量，尤其是一个人租住时候。正如我前面所说，HomePod 我主要拿来听音乐了，它的音质自然不必说，何况我也不是音乐发烧友。</p><p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112055842.webp" alt="我的桌面" /></p><p>目前房间里的桌子有些小了，再放上一个 27 英寸的显示器，空间就更不够用了，我甚至把床头柜搬过来，放在桌子旁边当个边几用了。HomePod 就放在显示器旁边，它的优点之一就是可以当成一个独立的设备，可以不依赖于手机或电脑，大多数时候它都在脱离其他设备在播放音乐，但同时，依旧可以在手机上看到 HomePod 的状态，可以非常方便地在手机上接管控制。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112055618.webp" style="width: 50%;" alt="iPhone 上控制 HomePod"><p>另一个优点就是语音控制了，Siri 虽然还是公认的智障，但相比其他家的语音控制，明显好用的多。比如我说“Siri 下一首”、“Siri 大点声”、“Siri 随机播放我的收藏”、“Siri 播放 LP 的 Lost on You 专辑”，基本上都可以快速的得到正确回应，我可以把整条命令说完而不必叫它等它回应了再说命令，Siri 也不会有像“好的主人”这样多余的恶心的回复，很棒。唯一不太行的是，我的资料库里面大部分都是非中文音乐，让 Siri 播放这些音乐经常识别错误，不过这不是 Siri 的问题是我的问题。</p><p>HomePod 不太适合电脑外接音响的主要原因是，连接走的是 AirPlay 2 协议，而非蓝牙协议，因此就有音画不同步的问题。我也经常会在 MacBook 上连接控制 HomePod，听听音乐、看看视频或电影，操作非常的不跟手，延迟非常明显，比如切歌、暂停、快进快退等，总要慢个一两秒，不过用 Safari 浏览器看视频，可以自动音画同步，播放器的话，IINA 固定延迟 2s，设置让音频快 2s 即可。总的来说，我可以接受，问题不大。</p><h2 id="智能家居"><a class="markdownIt-Anchor" href="#智能家居"></a> 智能家居</h2><p>智能家居中枢是 HomePod 的另一大卖点了，不过这方面我的使用体验就非常有限了，我只有米家台灯 1S 增强版这一个可以接入 HomeKit 的设备，让 Siri 控制开关灯还是蛮方便的。</p><p>另外一点，就是 HomeKit 的自动化，在 Home App 里设置一些自动化，比如我就设置了当我到家时候就开灯并开始随机播放我的收藏，每天当我下班到家后，我还没进门音乐就已经响起来了，体验很好，这也是别的普通音响所不能的。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408112059942.webp" style="width: 50%;" alt="我的自动化设置"><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>就我目前的情况，主要还是拿 HomePod 来听 Apple Music，其他智能设备也非常有限，我对 HomePod 总的来说非常满意，要说还有什么不满意的地方，那就是应该再买一个组一对儿才好，以后吧。</p>]]></content>
-    
-    
-    <summary type="html">使用 HomePod 已经有半个月了，分享一下使用体验，仅针对我个人的使用体验和看法，先说结论，很满意。下面就展开讲讲。</summary>
-    
-    
-    
-    
-    <category term="HomePod" scheme="http://kiligwyu.com/tags/HomePod/"/>
     
   </entry>
   

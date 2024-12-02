@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Kilig 的碎周报 - #135（2024.12.02） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YLMXL0J5N0');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #135（2024.12.02）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #135（2024.12.02）</h1><div class="post-meta">2024-12-02<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/135/" href="/newsletter/135/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 135 期。本篇是对过去一周（11.25 - 12.01）的记录、思考与分享。</p>
+<hr />
+<p>新 App <a target="_blank" rel="noopener" href="https://apps.apple.com/app/id1333958571">iCollect+</a> 已上架 App Store，完全使用 SwiftUI + TCA 重写，碰上感恩节，审核花了好几天时间，今天才审核，被拒，修复一个在 iPad 上的显示问题，火速重新提交审核，最后审核通过。同时下架花密、每日维基、Gloam 和 FQRC。稍后我会写一篇关于 iCollect+ 的详细介绍。<br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412022132470.webp" style="width: 50%;" alt="iCollect+"></p>
+<p>黑五啥都没买，虽然一堆应用或服务限时折扣，可看了一圈没有啥要买的，立省 100%。</p>
+<p>看了电影 <a target="_blank" rel="noopener" href="https://movie.douban.com/subject/1292064/">楚门的世界 The Truman Show (1998)</a>。<br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412022122887.webp" style="width: 50%;" alt="楚门的世界 The Truman Show (1998)"></p>
+<h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3>
+<ul>
+<li>知行小酒馆 - <a target="_blank" rel="noopener" href="https://podcasts.apple.com/us/podcast/%E7%9F%A5%E8%A1%8C%E5%B0%8F%E9%85%92%E9%A6%86/id1559695855">高考前只管努力，工作后只想发疯，我们的教育究竟怎么了？</a></li>
+<li>狗大蛋子 - <a target="_blank" rel="noopener" href="https://b23.tv/jwcZ74L">傻子怎么演？浅谈“大傻春”的自我修养【有戏】</a></li>
+<li>林亦 LYi - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Ycfoe8SfAPc">为什么 C 口数据线越来越乱？</a></li>
+<li>赛博食录 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=nP00Z71OaBU">为什么韩国人如此热衷于喝冰美式？</a></li>
+<li>虎嗅视界官方频道 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0e4gR5CMfVI">为啥都是摇粒绒，有的200有的2000？怎么选摇粒绒才叫性价比？</a></li>
+</ul>
+<h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-glDJceZ7bIpHwsLA">必应 2024.11 超高清无水印壁纸</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.smashingmagazine.com/2024/11/desktop-wallpaper-calendars-december-2024/">Dreaming Of Miracles (December 2024 Wallpapers Edition)</a></li>
+<li><a target="_blank" rel="noopener" href="https://apps.apple.com/us/story/id1773419991">Announcing the App Store Award Finalists : App Store Story</a></li>
+<li>蓝点网 - <a target="_blank" rel="noopener" href="https://www.landiannews.com/archives/106869.html">只有贴胶布才靠谱：工程师通过关闭 ThinkPad 摄像头 LED 指示灯实现悄悄录像</a></li>
+<li>蓝点网 - <a target="_blank" rel="noopener" href="https://www.landiannews.com/archives/106820.html">[教程] PayPal 似乎悄悄改了汇率兑换设置 如果不改将被扣除转换手续费</a></li>
+<li>小众软件 - <a target="_blank" rel="noopener" href="https://www.appinn.com/snippetslab/">SnippetsLab 免费了！程序员必备的 Mac 代码片段管理工具</a>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://apps.apple.com/cn/app/snippetslab/id1006087419?mt=12&amp;utm_source=appinn.com">SnippetsLab on Mac App Store</a></li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://developer.apple.com/bug-reporting/profiles-and-logs/">Profiles and Logs - Bug Reporting - Apple Developer</a>
+<ul>
+<li>“Apple 提供了一个描述文件可以用来显示 Wi-Fi 连接状态的详细信息”，via <a target="_blank" rel="noopener" href="https://x.com/KawaiiZapic/status/1862451439312019865">@KawaiiZapic</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/app/iCollectPlus/">旧瓶装新酒，iCollect 升级 iCollect+</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json', true);
+  xhr.timeout = 2500;
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      $('.post-meta .post-comments-count').show();
+      var s = document.createElement('script');
+      s.id = 'dsq-count-scr';
+      s.src = 'https://kiligwyu.disqus.com/count.js';
+      s.async = true;
+      (document.head || document.body).appendChild(s);
+    }
+  };
+  xhr.ontimeout = function () { xhr.abort(); };
+  xhr.send(null);
+});</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/135/',
+    url: 'http://kiligwyu.com/newsletter/135/',
+    title: 'Kilig 的碎周报 - #135（2024.12.02）',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
