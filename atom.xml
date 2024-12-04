@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-12-02T13:57:51.473Z</updated>
+  <updated>2024-12-04T15:59:35.285Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>旧瓶装新酒，iCollect 升级 iCollect+</title>
+    <link href="http://kiligwyu.com/app/iCollectPlus/"/>
+    <id>http://kiligwyu.com/app/iCollectPlus/</id>
+    <published>2024-12-04T14:26:59.000Z</published>
+    <updated>2024-12-04T15:59:35.285Z</updated>
+    
+    <content type="html"><![CDATA[<video autoplay muted loop width="360" height="640">  <source src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042315031.mp4" type="video/mp4"></video><p><br><a href="https://apps.apple.com/app/id1333958571">Download iCollect+ on the App Store</a><br></p><p>在之前的碎周报里，我说我正在整合一些旧的 Apps，就是把其他的一些小 Apps 整合进一个老的、已经下架三年半了的、也是些小功能集合的 iCollect，之前下架 iCollect 是想把其中的一些功能拆分成多个 App，不过现在兜兜转转又整合回来了，这次再整合回来，是因为那些小的 Apps 上架和更新都要被苹果拒绝，功能太单一，所以 iCollect 又回来了，并且重命名为 iCollect+，版本号为 5.0.0（下架时候是 3.8.0）。<br />iCollect+ 的审核正好赶上感恩节，上架审核就花了好几天，现已上架，其他几个小 Apps 也已被下架，包括花密、Gloam、FQRC、每日维基。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320099.webp" style="width: 30%;" alt="项目目录"><p>iCollect+ 推翻原来的架构 Swift + MVVM + Targets，采用 SwiftUI + TCA + Swift Package 重新开发，主要功能包括必应壁纸、花密、简繁转换、维基百科首页、维基百科历史上的今天、Gloam、QRMate，每个功能是一个独立的 Package，都用 SwiftUI + TCA 重新实现。<br />但是都是些基础的实现，还有很多可以优化的，比如一些细节动画、更好的设计、桌面小组件、照片拓展、分享拓展、快捷指令等，但我应该是不会加了，不想花太多时间在这个项目上，接下来我要把更多的时间投入到下一个正经的产品上。</p><p>下面是对 iCollect+ 功能的详细介绍。</p><h2 id="必应壁纸"><a class="markdownIt-Anchor" href="#必应壁纸"></a> 必应壁纸</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320091.webp" style="width: 50%;" alt="必应壁纸"><p>在我使用电脑的这些年里，大部分时候包括现在，都是拿必应的每日壁纸当桌面壁纸，为了自动化这件事情，就有了 <a href="https://apps.apple.com/app/id1573715683/">Tapet</a> - macOS 上每日自动更换必应壁纸的小工具，UHD 超高清且无水印的必应壁纸。在 iOS 上，那些漂亮的必应壁纸拿来当壁纸也是不错的。不过 iCollect+ 上的必应壁纸功能就简单多了，只提供一周内的必应壁纸。</p><p>另外，我有保存近几年的必应壁纸，<a href="https://1drv.ms/f/s!AuQ7aUGVDnCMkRYMlx5ntsikfCws">见我的 OneDrive 分享</a>，每月更新。</p><h2 id="花密"><a class="markdownIt-Anchor" href="#花密"></a> 花密</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320096.webp" style="width: 50%;" alt="花密"><p>花密是一款已经十多年了的、我也用了好多年了的、极简密码管理工具，官网是 <a href="https://flowerpassword.com">flowerpassword.com</a>，小众软件上有一篇它的介绍文章：<a href="https://www.appinn.com/huami/">花密 - 好记又安全的密码管理器</a>。</p><p>我现在的主力密码管理工具是苹果的 Passwords（<a href="https://support.apple.com/zh-cn/120758">使用 “密码” App 来创建密码和通行密钥，并跨 Apple 设备进行管理和共享</a>）,花密也有在使用，作为辅助密码生成器。</p><p>另外花密还有 macOS 版，<a href="https://apps.apple.com/app/id1375291184">花密 for macOS</a>。</p><h2 id="简繁转换"><a class="markdownIt-Anchor" href="#简繁转换"></a> 简繁转换</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320098.webp" style="width: 50%;" alt="简繁转换"><p>使用了 OpenCC 來翻譯，尤其是臺灣正體，用詞跟簡體中文有些差別，偶爾用來翻譯一下文案。</p><h2 id="维基首页"><a class="markdownIt-Anchor" href="#维基首页"></a> 维基首页</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320092.webp" style="width: 50%;" alt="维基首页"><p>原生方式显示维基百科首页，支持英文和中文。</p><h2 id="历史上的今天"><a class="markdownIt-Anchor" href="#历史上的今天"></a> 历史上的今天</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320093.webp" style="width: 50%;" alt="历史上的今天"><p>原生方式显示维基百科历史上的今天，支持英文和中文。和维基首页一样，时常打开来，看看新鲜事，也回顾下历史。</p><h2 id="gloam"><a class="markdownIt-Anchor" href="#gloam"></a> Gloam</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320094.webp" style="width: 50%;" alt="Gloam"><p>Gloam 是一个模糊照片的工具，提供多种模糊方式，这次重写，把批量模糊去掉了，也改进了下模糊算法。</p><h2 id="qrmate"><a class="markdownIt-Anchor" href="#qrmate"></a> QRMate</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320095.webp" style="width: 50%;" alt="QRMate"><p>一个二维码识别、创建、收藏管理的小功能，支持图片识别和扫码，支持 iCloud 同步。</p><h2 id="发现和设置"><a class="markdownIt-Anchor" href="#发现和设置"></a> 发现和设置</h2><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320097.webp" style="width: 50%;" alt="发现"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042320100.webp" style="width: 50%;" alt="设置和自定义标签页"><p>支持自定义标签栏和启动时默认标签页。</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>这次重写 iCollect+，改进一些功能，也砍掉了一些功能，作为一个自用的应用，正如前面所说，很多功能都没有加，之后的更新不会很频繁，当然你有任何想法或建议，欢迎沟通联系。接下来我会把时间和精力投入到另外一个一直想做的应用上。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;video autoplay muted loop width=&quot;360&quot; height=&quot;640&quot;&gt;
+  &lt;source src=&quot;https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412042315031.mp4&quot; type</summary>
+      
+    
+    
+    
+    
+    <category term="app" scheme="http://kiligwyu.com/tags/app/"/>
+    
+    <category term="iCollect" scheme="http://kiligwyu.com/tags/iCollect/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #135（2024.12.02）</title>
@@ -493,32 +518,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 121 期。本篇是对过去一周（08.12 - 08.18）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;周末在路上看了四部电影，★ &lt;a href=&quot;https://movie.douban.com/subject/</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #120（2024.08.12）</title>
-    <link href="http://kiligwyu.com/newsletter/120/"/>
-    <id>http://kiligwyu.com/newsletter/120/</id>
-    <published>2024-08-12T12:41:22.000Z</published>
-    <updated>2024-08-12T14:06:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 120 期。本篇是对过去一周（08.05 - 08.11）的记录、思考与分享。</p><hr /><p>昨天发了一篇《<a href="/homepod-usage-experience">HomePod 使用体验</a>》，是我使用 HomePod 半月来的一些感受。</p><p>最近升级了下我的 Markdown 链接解析工具，加了自动保存到本地文件的功能，这样，我可以方便的把一周来各种链接都自动保存到一起，写周报时候可以拷过来，再稍微修改下就可以了，大大提升效率。</p><h2 id="一些链接"><a class="markdownIt-Anchor" href="#一些链接"></a> 一些链接</h2><h3 id="开源项目"><a class="markdownIt-Anchor" href="#开源项目"></a> 开源项目</h3><ul><li><a href="https://github.com/tom-doerr/zsh_codex">tom-doerr/zsh_codex</a>: This is a ZSH plugin that enables you to use OpenAI’s Codex AI in the command line.</li><li><a href="https://github.com/ccbikai/BroadcastChannel">ccbikai/BroadcastChannel</a>: Turn your Telegram Channel into a MicroBlog.</li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://www.roczhang.com/28.html">28</a></li><li>Apple Developer - <a href="https://developer.apple.com/cn/news/">关于设计的幕后故事：Lost in Play</a></li></ul><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>枫言枫语 - <a href="https://podcasts.apple.com/us/podcast/%E6%9E%AB%E8%A8%80%E6%9E%AB%E8%AF%AD/id1069600190">Vol. 123 无主题闲聊 02</a></li><li>IC实验室 - <a href="https://www.youtube.com/watch?v=HWxZfXUoOKs">齁甜费列罗，凭啥让人着魔？</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1WH4y1c7GP/">对话何同学：我是一块情绪的海绵</a></li><li>黑神话悟空 - <a href="https://www.bilibili.com/video/BV1oH4y1c7Kk/">《黑神话：悟空》最终预告 | 8 月 20 日，重走西游</a></li><li>Frame Order - <a href="https://www.youtube.com/watch?v=JbDYpA_WQFw">When A Waiter Steals Your Date | Cartoon Box 413</a></li><li>斑鸠鸭 - <a href="https://www.bilibili.com/video/BV1LW421976E/">范伟的演技，什么水平？</a></li><li>鞑厨高寒 - <a href="https://www.bilibili.com/video/BV1Yr421K7EA/">咖啡没有那么多废话</a></li><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1Jn4y1f7uX/">老白的地狱之路，小粉的炼狱之陟，《绝命毒师》的伏笔和隐喻最终章</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=I2pVB0I5OeI">為什麼說蚯蚓是世界上最重要的動物？達爾文研究40年，發現蚯蚓的瘋狂真相！如果地球上沒有蚯蚓</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=S6XItwN2UQ0">貓頭鷹為什麼這麼恨鷹？怎麼又跟烏鴉打起來了？原來牠們是鳥類中的「貓」！飛行完全沒有聲音的真正原因</a></li><li>Little Chinese Everywhere - <a href="https://www.youtube.com/watch?v=NA7mj_9GHTI">Lhasa - Tibet’s Most Famous City! S2, EP86</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=6aKBdRl2Gq8">一杯冰卖你3块5，凭什么能卖这么贵?</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=9Ud296rBAe0">为什么法棍这么硬，真的是用来当武器吗？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1FZ421M7Mj/">真心话：你真的需要智驾吗？5年后，你的智驾还能用吗?【柴知道：车圈化简】</a></li><li>4A广告提案网 - <a href="https://www.bilibili.com/video/BV1Cb421E7UR/">苹果广告到了泰国也变沙雕了</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="http://wandawhirl.com">Wanda Whirl</a></li><li><a href="https://cali.design">Cali Kuo</a></li><li>Steam - <a href="https://store.steampowered.com/app/3117780/YinYang_PingPong/">Yin-Yang Ping-Pong</a></li><li>Chrome Extension - <a href="https://chromewebstore.google.com/detail/%E7%AD%89%E7%AD%89%E6%A0%87%E7%AD%BE-%E4%BF%9D%E6%8C%81%E4%B8%93%E6%B3%A8/iechpbdmenjodjnfjendoheikjbdholm">等等标签 - 保持专注</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 120 期。本篇是对过去一周（08.05 - 08.11）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;昨天发了一篇《&lt;a href=&quot;/homepod-usage-experience&quot;&gt;HomePod 使用体验&lt;</summary>
       
     
     
