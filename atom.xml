@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-12-04T15:59:35.285Z</updated>
+  <updated>2024-12-09T13:46:44.086Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #136（2024.12.09）</title>
+    <link href="http://kiligwyu.com/newsletter/136/"/>
+    <id>http://kiligwyu.com/newsletter/136/</id>
+    <published>2024-12-09T13:23:48.000Z</published>
+    <updated>2024-12-09T13:46:44.086Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 136 期。本篇是对过去一周（12.02 - 12.08）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/carol-of-the-bells-bass-singer-version/1783395250?i=1783395251"></iframe><p><br>离圣诞节还有半个多月呢，公司里、商场里，节日的气氛已经很浓了，那给你的 Mac 桌面也增加点节日气氛，Simon Støvring 开发的 <a href="https://www.festivitas.app">🎄 Festivitas</a> 应用为 macOS Dock 栏和菜单栏添加节日灯串。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092115028.gif" style="width: 50%;" alt="Festivitas"></p><p>周末更新了一下自部署服务，增加了公众号 RSS 订阅工具 <a href="https://github.com/cooderl/wewe-rss">wewe-rss</a> 和翻付费墙工具 <a href="https://github.com/everywall/ladder">Ladder</a>。</p><p>更新了一下 Apple Music 歌单，把很早之前从网易云转到 Apple Music 时，Apple Music 里没有的曲目，下载下来，手动管理，有 20+ 首。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092116486.webp" style="width: 50%;" alt="手动管理 Apple Music 音乐"></p><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://p5d12000.medium.com/%E9%96%8B%E9%99%A4%E5%93%A1%E5%B7%A5%E7%9A%84%E5%8E%9F%E5%89%87-73b927086d35">開除員工的原則</a></li><li><a href="https://write.laily.net/zh-cn/post/2024/atrophy/">退化</a></li><li><a href="https://anotherdayu.com/2024/6207/">目前使用的自托管服务</a></li><li><a href="https://world.hey.com/xiaowen/post-e21b61eb">专栏：职场不用喝咖啡</a></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1V36NYGEs2/">【杜比全景声】 海拔 4000 米的川西，藏着多少高人？</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1tkqJYiES1/">1 个招牌能买 1 套房？霓虹灯为什么消失了</a></li><li>是玉木呀 - <a href="https://www.bilibili.com/video/BV1FKzUYrEmg/">视频还没做完我血压上来了！！</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=-cIPok5TI00">0.5 瓦功率覆盖上万公里？无线电爱好者们到底在玩什么？</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=kYDyjwaEuDE">先菌子，后小人？欢迎来到云南魔幻森林！【新山海经 05】丨Can’t Live Without Mushrooms!!</a></li><li>郭云神奇 - <a href="https://www.bilibili.com/video/BV1R2i2Y9E8o/">《鹿鼎记》10 万字拆解：1 段大尺度「恐怖打戏」，竟暗藏最残酷的权力斗争？！01</a></li><li>郭云神奇 - <a href="https://www.bilibili.com/video/BV15biiY4Exi/">12 月院线烂片避雷指南！眼大漏风、脑子易干？</a></li><li>Redknot - 乔红 - <a href="https://www.youtube.com/watch?v=MP5GcjV2zRM">凭什么连 Mac 都能玩 Windows 游戏了</a></li><li>狗大蛋子 - <a href="https://www.bilibili.com/video/BV1DkiBYsE5X/">“老姑夫陪你喝两盅！”赵本山为啥接地气？【有戏】</a></li><li>-LKs- - <a href="https://www.bilibili.com/video/BV1wjiBYVEax/">攒了两年的宝藏歌单，每首歌只放 16 秒！</a><br />LKs 提供了其网易云和 QQ 音乐的歌单，Apple Music 则可以使用苹果自家的 <a href="https://apps.apple.com/app/id284993459">Shazam: Find Music &amp; Concerts</a> App 来快速识别歌曲，个别 Apple Music 上没有。</li><li>bopular - <a href="https://www.bilibili.com/video/BV1rSiRYREqH/">相遇、相处、分开</a></li><li>方猫 boom - <a href="https://www.bilibili.com/video/BV1nZi1YtEjx/">延时开关？马桶进排水机构的巧妙原理</a></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=g5RKRUGvFTE">15億像素！史上最大、最清晰的仙女星系圖像！</a></li><li>虎嗅视界官方频道 - <a href="https://www.youtube.com/watch?v=0e4gR5CMfVI">为啥都是摇粒绒，有的 200 有的 2000？怎么选摇粒绒才叫性价比？</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=nP00Z71OaBU">为什么韩国人如此热衷于喝冰美式？</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://www.festivitas.app">🎄 Festivitas</a><br />圣诞节快到了，为你的 macOS 桌面也增添些节日气氛，往 Dock 栏和菜单栏上添加彩灯串。</li><li><a href="https://awards.unsplash.com/2024/#/intro">Unsplash Awards 2024</a><br />第 8 届 Unsplash Awards 了，把链接中的年份换掉就可以查看往年的 Awards 了。</li><li><a href="https://basicappleguy.com/basicappleblog/ugly-christmas-sweater-wallpapers-mac-edition">Ugly Christmas Sweater Wallpapers (Mac Edition)</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092141355.webp" style="width: 50%;" alt="Ugly Christmas Sweater Wallpapers (Mac Edition)"></li><li><a href="https://github.com/cooderl/wewe-rss">cooderl/wewe-rss</a>: 🤗 更优雅的微信公众号订阅方式，支持私有化部署、微信公众号 RSS 生成（基于微信读书）v2.x</li><li><a href="https://github.com/everywall/ladder">everywall/ladder</a>: Selfhosted alternative to <a href="http://12ft.io">12ft.io</a>. and <a href="http://1ft.io">1ft.io</a> bypass paywalls with a proxy ladder and remove CORS headers from any URL</li><li><a href="https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/">‘Brain rot’ named Oxford Word of the Year 2024 - Oxford University Press</a></li><li><a href="https://github.com/IBM/plex">IBM/plex</a><br />IBM Plex 字体也有中文字体了，IBM Plex Sans SC。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092131047.png" style="width: 50%;" alt="IBM Plex Sans SC"></li><li>一张不错的壁纸，via <a href="https://x.com/lexrus/status/1865580871622992161">@lexrus</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092132579.jpeg" style="width: 50%;" alt="先做个垃圾出来"></li><li>Pre-Order: <a href="https://apps.apple.com/app/id1630468596">Art of Fauna: Nature Puzzles</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092135233.webp" style="width: 50%;" alt="Art of Fauna: Nature Puzzles"></li><li><a href="https://github.com/RogyMD/TCAminesweeper">RogyMD/TCAminesweeper</a>: Minesweeper game in Swift UI using the Composable Architecture.<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092139512.webp" style="width: 50%;" alt="Minesweeper"></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 136 期。本篇是对过去一周（12.02 - 12.08）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>旧瓶装新酒，iCollect 升级 iCollect+</title>
@@ -492,32 +518,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 122 期。本篇是对过去一周（08.19 - 08.25）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;我发现博客上有几篇文章时间错乱了，原因是这样的，上上周 &lt;a href=&quot;https://apps.apple.</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #121（2024.08.19）</title>
-    <link href="http://kiligwyu.com/newsletter/121/"/>
-    <id>http://kiligwyu.com/newsletter/121/</id>
-    <published>2024-08-19T11:36:39.000Z</published>
-    <updated>2024-08-19T16:03:39.702Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 121 期。本篇是对过去一周（08.12 - 08.18）的记录、思考与分享。</p><hr /><p>周末在路上看了四部电影，★ <a href="https://movie.douban.com/subject/1787291/">被嫌弃的松子的一生 嫌われ松子の一生 (2006)</a>、★ <a href="https://movie.douban.com/subject/6985810/">狩猎 Jagten (2012)</a>、 <a href="https://movie.douban.com/subject/30182726/">狩猎 The Hunt (2020)</a>、★ <a href="https://movie.douban.com/subject/35371261/">铃芽之旅 すずめの戸締まり (2022)</a>，其中《铃芽之旅》下载时候没检查，下成了国语配音的版本，看起来好别扭。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408192011599.webp" style="width: 50%;" alt="被嫌弃的松子的一生 嫌われ松子の一生 (2006)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408192012550.webp" style="width: 50%;" alt="狩猎 Jagten (2012)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408192012268.webp" style="width: 50%;" alt="狩猎 The Hunt (2020)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408192012583.webp" style="width: 50%;" alt="铃芽之旅 すずめの戸締まり (2022)"><p>周末在外面一家小店吃饭时候，店内有个有意思的音箱，<a href="https://future-mirror.com/morrart.html">MORROR ART</a> 悬浮透明歌词音箱，很不错的装饰品，查了下价格，¥3200+ 有点贵了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408192350673.webp" style="width: 50%;" alt="MORROR ART 音箱（图片截自官网）"><h3 id="影音"><a class="markdownIt-Anchor" href="#影音"></a> 影音</h3><ul><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=-4a6s3kkxD0">被拖欠20年工資的天文學家，從貧苦和疾病中掙紮，擊碎了千百年來人們對宇宙的固有認知｜約翰內斯·開普勒</a></li><li>代码之外 Beyond Code - <a href="https://podcasts.apple.com/us/podcast/%E7%AC%AC-11-%E9%9B%86-owen-%E8%81%8A%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91%E7%9A%84%E8%B5%B7%E6%BA%90-%E8%A3%B8%E8%BE%9E%E4%B8%89%E5%B9%B4%E7%9A%84%E7%BB%8F%E5%8E%86-%E5%81%9A%E7%A9%B7%E4%BA%BA%E4%B9%9F%E8%83%BD%E7%94%A8%E7%9A%84%E4%BA%A7%E5%93%81-%E5%A4%A7%E4%BA%9A%E6%B9%BE%E7%9A%84%E7%94%9F%E6%B4%BB/id1688972924?i=1000664981781">‎第 11 集 | Owen 聊沉浸式翻译的起源、裸辞三年的经历、做穷人也能用的产品、大亚湾的生活</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=SpUi5Omd-dU">被吹上天的万能厨具，空气炸锅真的比油炸更健康吗？</a></li><li>花果山大圣 - <a href="https://www.youtube.com/watch?v=LdAZlnSxc7A">funnyCoder 14 期 - 和 david 聊聊加拿大程序员职场和移民问题</a></li><li>无穷小亮的科普日常 - <a href="https://www.bilibili.com/video/BV1g4421S7mE/">螽斯在厄瓜多尔能整出无数种花活</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://imfile.io">ImFile</a>：顺畅、高速、强大而便捷的下载工具</li><li>@haozes - <a href="https://twitter.com/haozes/status/1822608036915257388">小米 AX3600 路由器 + iPhone 15 Pro 低电量模式下连接，会导致路由器 crash</a>，“这个应该是 iPhone 15 使用了 160hz 频段的信号，以前的设备都没，但路由器出的时候，手机还没有，兼容性问题”</li><li><a href="https://github.com/internet-development/www-server-mono">internet-development/www-server-mono</a>: Server Mono is a font released by the Internet Development Studio Company.</li><li>Randy’s Blog - <a href="https://lutaonan.com/blog/code-artists/">「代码艺术家」不会被 AI 取代</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 121 期。本篇是对过去一周（08.12 - 08.18）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;周末在路上看了四部电影，★ &lt;a href=&quot;https://movie.douban.com/subject/</summary>
       
     
     

@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Kilig 的碎周报 - #136（2024.12.09） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YLMXL0J5N0');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #136（2024.12.09）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #136（2024.12.09）</h1><div class="post-meta">2024-12-09<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><a class="disqus-comment-count" data-disqus-identifier="newsletter/136/" href="/newsletter/136/#disqus_thread"></a><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 136 期。本篇是对过去一周（12.02 - 12.08）的记录、思考与分享。</p>
+<hr />
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/carol-of-the-bells-bass-singer-version/1783395250?i=1783395251"></iframe>
+<p><br>离圣诞节还有半个多月呢，公司里、商场里，节日的气氛已经很浓了，那给你的 Mac 桌面也增加点节日气氛，Simon Støvring 开发的 <a target="_blank" rel="noopener" href="https://www.festivitas.app">🎄 Festivitas</a> 应用为 macOS Dock 栏和菜单栏添加节日灯串。<br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092115028.gif" style="width: 50%;" alt="Festivitas"></p>
+<p>周末更新了一下自部署服务，增加了公众号 RSS 订阅工具 <a target="_blank" rel="noopener" href="https://github.com/cooderl/wewe-rss">wewe-rss</a> 和翻付费墙工具 <a target="_blank" rel="noopener" href="https://github.com/everywall/ladder">Ladder</a>。</p>
+<p>更新了一下 Apple Music 歌单，把很早之前从网易云转到 Apple Music 时，Apple Music 里没有的曲目，下载下来，手动管理，有 20+ 首。<br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092116486.webp" style="width: 50%;" alt="手动管理 Apple Music 音乐"></p>
+<h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://p5d12000.medium.com/%E9%96%8B%E9%99%A4%E5%93%A1%E5%B7%A5%E7%9A%84%E5%8E%9F%E5%89%87-73b927086d35">開除員工的原則</a></li>
+<li><a target="_blank" rel="noopener" href="https://write.laily.net/zh-cn/post/2024/atrophy/">退化</a></li>
+<li><a target="_blank" rel="noopener" href="https://anotherdayu.com/2024/6207/">目前使用的自托管服务</a></li>
+<li><a target="_blank" rel="noopener" href="https://world.hey.com/xiaowen/post-e21b61eb">专栏：职场不用喝咖啡</a></li>
+</ul>
+<h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3>
+<ul>
+<li>影视飓风 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1V36NYGEs2/">【杜比全景声】 海拔 4000 米的川西，藏着多少高人？</a></li>
+<li>影视飓风 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1tkqJYiES1/">1 个招牌能买 1 套房？霓虹灯为什么消失了</a></li>
+<li>是玉木呀 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1FKzUYrEmg/">视频还没做完我血压上来了！！</a></li>
+<li>差评君 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=-cIPok5TI00">0.5 瓦功率覆盖上万公里？无线电爱好者们到底在玩什么？</a></li>
+<li>星球研究所 Institute for Planets - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kYDyjwaEuDE">先菌子，后小人？欢迎来到云南魔幻森林！【新山海经 05】丨Can’t Live Without Mushrooms!!</a></li>
+<li>郭云神奇 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1R2i2Y9E8o/">《鹿鼎记》10 万字拆解：1 段大尺度「恐怖打戏」，竟暗藏最残酷的权力斗争？！01</a></li>
+<li>郭云神奇 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV15biiY4Exi/">12 月院线烂片避雷指南！眼大漏风、脑子易干？</a></li>
+<li>Redknot - 乔红 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=MP5GcjV2zRM">凭什么连 Mac 都能玩 Windows 游戏了</a></li>
+<li>狗大蛋子 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1DkiBYsE5X/">“老姑夫陪你喝两盅！”赵本山为啥接地气？【有戏】</a></li>
+<li>-LKs- - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1wjiBYVEax/">攒了两年的宝藏歌单，每首歌只放 16 秒！</a><br />
+LKs 提供了其网易云和 QQ 音乐的歌单，Apple Music 则可以使用苹果自家的 <a target="_blank" rel="noopener" href="https://apps.apple.com/app/id284993459">Shazam: Find Music &amp; Concerts</a> App 来快速识别歌曲，个别 Apple Music 上没有。</li>
+<li>bopular - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1rSiRYREqH/">相遇、相处、分开</a></li>
+<li>方猫 boom - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nZi1YtEjx/">延时开关？马桶进排水机构的巧妙原理</a></li>
+<li>司文的不思議世界 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=g5RKRUGvFTE">15億像素！史上最大、最清晰的仙女星系圖像！</a></li>
+<li>虎嗅视界官方频道 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=0e4gR5CMfVI">为啥都是摇粒绒，有的 200 有的 2000？怎么选摇粒绒才叫性价比？</a></li>
+<li>赛博食录 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=nP00Z71OaBU">为什么韩国人如此热衷于喝冰美式？</a></li>
+</ul>
+<h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.festivitas.app">🎄 Festivitas</a><br />
+圣诞节快到了，为你的 macOS 桌面也增添些节日气氛，往 Dock 栏和菜单栏上添加彩灯串。</li>
+<li><a target="_blank" rel="noopener" href="https://awards.unsplash.com/2024/#/intro">Unsplash Awards 2024</a><br />
+第 8 届 Unsplash Awards 了，把链接中的年份换掉就可以查看往年的 Awards 了。</li>
+<li><a target="_blank" rel="noopener" href="https://basicappleguy.com/basicappleblog/ugly-christmas-sweater-wallpapers-mac-edition">Ugly Christmas Sweater Wallpapers (Mac Edition)</a><br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092141355.webp" style="width: 50%;" alt="Ugly Christmas Sweater Wallpapers (Mac Edition)"></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/cooderl/wewe-rss">cooderl/wewe-rss</a>: 🤗 更优雅的微信公众号订阅方式，支持私有化部署、微信公众号 RSS 生成（基于微信读书）v2.x</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/everywall/ladder">everywall/ladder</a>: Selfhosted alternative to <a target="_blank" rel="noopener" href="http://12ft.io">12ft.io</a>. and <a target="_blank" rel="noopener" href="http://1ft.io">1ft.io</a> bypass paywalls with a proxy ladder and remove CORS headers from any URL</li>
+<li><a target="_blank" rel="noopener" href="https://corp.oup.com/news/brain-rot-named-oxford-word-of-the-year-2024/">‘Brain rot’ named Oxford Word of the Year 2024 - Oxford University Press</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/IBM/plex">IBM/plex</a><br />
+IBM Plex 字体也有中文字体了，IBM Plex Sans SC。<br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092131047.png" style="width: 50%;" alt="IBM Plex Sans SC"></li>
+<li>一张不错的壁纸，via <a target="_blank" rel="noopener" href="https://x.com/lexrus/status/1865580871622992161">@lexrus</a><br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092132579.jpeg" style="width: 50%;" alt="先做个垃圾出来"></li>
+<li>Pre-Order: <a target="_blank" rel="noopener" href="https://apps.apple.com/app/id1630468596">Art of Fauna: Nature Puzzles</a><br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092135233.webp" style="width: 50%;" alt="Art of Fauna: Nature Puzzles"></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/RogyMD/TCAminesweeper">RogyMD/TCAminesweeper</a>: Minesweeper game in Swift UI using the Composable Architecture.<br />
+<img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412092139512.webp" style="width: 50%;" alt="Minesweeper"></li>
+</ul>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/app/iCollectPlus/">旧瓶装新酒，iCollect 升级 iCollect+</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json', true);
+  xhr.timeout = 2500;
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      $('.post-meta .post-comments-count').show();
+      var s = document.createElement('script');
+      s.id = 'dsq-count-scr';
+      s.src = 'https://kiligwyu.disqus.com/count.js';
+      s.async = true;
+      (document.head || document.body).appendChild(s);
+    }
+  };
+  xhr.ontimeout = function () { xhr.abort(); };
+  xhr.send(null);
+});</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/136/',
+    url: 'http://kiligwyu.com/newsletter/136/',
+    title: 'Kilig 的碎周报 - #136（2024.12.09）',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
