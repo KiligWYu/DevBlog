@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-12-09T13:46:44.086Z</updated>
+  <updated>2024-12-11T16:05:18.485Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在 iOS 上安装字体</title>
+    <link href="http://kiligwyu.com/Install-Fonts-on-iOS/"/>
+    <id>http://kiligwyu.com/Install-Fonts-on-iOS/</id>
+    <published>2024-12-11T14:56:02.000Z</published>
+    <updated>2024-12-11T16:05:18.485Z</updated>
+    
+    <content type="html"><![CDATA[<p>苹果早在 iOS 13 开始就开放了第三方字体的安装功能，本来打算在 <a href="/app/iCollectPlus/">iCollect+</a> 中增加安装字体的小工具，发现不太行，今天就来说说安装自定义字体这件小事。</p><h2 id="api"><a class="markdownIt-Anchor" href="#api"></a> API</h2><p>首先，苹果在 CoreText 中提供安装字体的 API，如下，</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">CTFontManagerRegisterFontURLs</span>(</span><br><span class="line">    <span class="keyword">_</span> <span class="params">fontURLs</span>: <span class="type">CFArray</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">scope</span>: <span class="type">CTFontManagerScope</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">enabled</span>: <span class="type">Bool</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">registrationHandler</span>: ((<span class="type">CFArray</span>, <span class="type">Bool</span>) -&gt; <span class="type">Bool</span>)<span class="operator">?</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>不过通过此 API 来安装字体有些限制，不是随便就可以安装的，字体文件必须包含在项目中或使用 On-Demand Receources，否则就会报下面的错误。所以参数中的 <code>fontURLs</code>，这里的 URL 不能是网络上的 URL，不能是 File URL。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">The file is not in an allowed location. It must be either in the application’s bundle or an on-demand resource.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>安装字体后，可以在 Settings -&gt; General -&gt; Fonts -&gt; My Fonts 中查看。</p><h2 id="profile"><a class="markdownIt-Anchor" href="#profile"></a> Profile</h2><p>另一种安装字体的方式是通过描述文件，这种方法不需要写代码，简单配置下就可以安装字体。</p><p>首先，在 Mac App Store 中下载苹果自家的 <a href="https://apps.apple.com/app/id1037126344">Apple Configurator</a> 应用；然后打开，按 ⌘ + N 新建描述文件，在 General 中输入描述文件的名字，Identifier 会自动生成，其他选填或保持默认的就行。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112251604.webp" style="width: 50%;" alt="mobileconfig - General"><p>在 Fonts 选项中添加要安装的字体，然后保存，字体文件会包含在描述文件中，描述文件的拓展名为 <code>mobileconfig</code>，可以在描述文件上右键打开方式选 Apple Configurator，再次编辑。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112251606.webp" style="width: 50%;" alt="mobileconfig - Fonts"><p>接下来就是安装了，注意这里不能通过 AirDrop 隔空投送到手机上安装，也不能放在 iCloud Drive 里，在手机文件应用里点击安装，要通过网络下载的方式，比如通过文件分享工具，在 Safari 中下载次描述文件。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112252102.webp" style="width: 50%;" alt="Profile Downloaded"><p>下载后，在 Settings 中就能看到此描述文件了，安装即可，注意描述文件没有签名，不过自用的话，签不签名都无所谓了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253600.webp" style="width: 50%;" alt="Settings - Downloaded Profile"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253420.webp" style="width: 50%;" alt="Install Profile"><p>安装后，在描述文件的 More Details 里就能看到已安装的字体了，通过描述文件安装的字体，不会显示在 Settings -&gt; General -&gt; Fonts -&gt; My Fonts 里面。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253044.webp" style="width: 50%;" alt="Fonts in Profile"><p>最后，在支持自定义字体的应用中，就可以使用已安装的字体了。（下图中的 App 是 <a href="https://apps.apple.com/app/id1508706541">Spring for Twitter</a>）</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253528.webp" style="width: 50%;" alt="Use Fonts in Other Apps. The app in the screenshot is Spring.">]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;苹果早在 iOS 13 开始就开放了第三方字体的安装功能，本来打算在 &lt;a href=&quot;/app/iCollectPlus/&quot;&gt;iCollect+&lt;/a&gt; 中增加安装字体的小工具，发现不太行，今天就来说说安装自定义字体这件小事。&lt;/p&gt;
+&lt;h2 id=&quot;api&quot;&gt;&lt;a cl</summary>
+      
+    
+    
+    
+    
+    <category term="Fonts" scheme="http://kiligwyu.com/tags/Fonts/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #136（2024.12.09）</title>
@@ -500,32 +523,6 @@
     <category term="Xcode Cloud" scheme="http://kiligwyu.com/tags/Xcode-Cloud/"/>
     
     <category term="CI/CD" scheme="http://kiligwyu.com/tags/CI-CD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #122（2024.08.26）</title>
-    <link href="http://kiligwyu.com/newsletter/122/"/>
-    <id>http://kiligwyu.com/newsletter/122/</id>
-    <published>2024-08-26T12:38:04.000Z</published>
-    <updated>2024-08-26T14:28:31.860Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 122 期。本篇是对过去一周（08.19 - 08.25）的记录、思考与分享。</p><hr /><p>我发现博客上有几篇文章时间错乱了，原因是这样的，上上周 <a href="https://apps.apple.com/us/app/id6502180430">FileZilla Pro RemoteDrive</a> “限免”时候，我试试能不能取代 OneDrive 客户端，就把 OneDrive 删除了，然后发现并不好用，就把 OneDrive 又装回来了，而我博客的文章是软链接到 OneDrive 里的，而这几篇文章里的 metadata 里缺少 date 字段，默认使用文件的创建日期，而我把 OneDrive 装回来时，文件的创建时间就变了，导致有几篇文章发布时间不对。而这几篇文章发布时间可能已经错过一次了，很早之前当我把文件软链接到 OneDrive 里的时候，文件的创建日期可能已经变了。我试着找到文件的创建日期，把时间修改回来，不过可能还是不对，但，没关系了，重要的文件本身。<br />另外，<a href="https://x.com/FileZillaPro/status/1823806078343373023">FileZilla Pro RemoteDrive 不是限免，是要转订阅制了</a>。</p><p>周末又回家了，周末要是不加班的话，完全可以考虑回去的，周五晚上走，周日晚上回，不耽误上班，有卧铺坐卧铺，没卧铺就硬座吧。路上看了 <a href="https://movie.douban.com/subject/27119398/">莫斯科绅士 A Gentleman in Moscow (2024)</a>，一部八集的英剧，一晚上看完，还有 <a href="https://movie.douban.com/subject/34996127/">疯狂的麦克斯：狂暴女神 Furiosa: A Mad Max Saga (2024)</a>。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408262050551.webp" style="width: 50%;" alt="莫斯科绅士 A Gentleman in Moscow (2024)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202408262050961.webp" style="width: 50%;" alt="疯狂的麦克斯：狂暴女神 Furiosa: A Mad Max Saga (2024)"><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>杨光_建厨师 - <a href="https://www.bilibili.com/video/BV1BS421X7FH/">如何做出细腻绵密、颜色翠绿的绿豆沙/绿豆汤【解构家常菜】</a></li><li>Pablo Cimadevila - <a href="https://www.youtube.com/watch?v=mwwq0TAX3lA">CIRCLE OF LIFE necklace</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1nM4m1176V/">从产业角度聊聊《黑神话》</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1cW42197dd/">郁达夫骂沈从文，你以为大学生就有饭吃了</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://mp.weixin.qq.com/s/oRNNRtxpR4MJ-ETtjGhiFw">“干了这么多年了，只会干这个”，似乎并不是个错</a></li><li><a href="https://jhuo.ca/post/telegram_russian_hacker/">Telegram 传奇：俄罗斯富豪、黑客高手、极权和阴谋</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://github.com/eyelly-wu/appstore-discounts">eyelly-wu/appstore-discounts</a>: An open-source App Store discounts tracker built on GitHub Actions, supporting RSS, Telegram and DingTalk notifications.</li><li><a href="https://github.com/wasi-master/13ft">wasi-master/13ft</a>: My own custom <a href="http://12ft.io">12ft.io</a> replacement.</li><li><a href="https://x.com/DalinHuang/status/1826786684995879122">👨‍💻 从 Google 到 Shopify 👜：一场面试的旅程</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 122 期。本篇是对过去一周（08.19 - 08.25）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;我发现博客上有几篇文章时间错乱了，原因是这样的，上上周 &lt;a href=&quot;https://apps.apple.</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   
