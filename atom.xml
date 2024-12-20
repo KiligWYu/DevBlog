@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-12-16T12:56:23.408Z</updated>
+  <updated>2024-12-20T05:21:32.682Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>𝕏 账号被封禁</title>
+    <link href="http://kiligwyu.com/suspended-x-accounts/"/>
+    <id>http://kiligwyu.com/suspended-x-accounts/</id>
+    <published>2024-12-20T04:47:13.000Z</published>
+    <updated>2024-12-20T05:21:32.682Z</updated>
+    
+    <content type="html"><![CDATA[<p>16 日下午，<a href="https://x.com/KiligWYu">我的 𝕏 账号</a> 被封了，原因是违反了 𝕏 “不真实账号”的规定，我一脸懵逼，这是我的大号，2016 年注册的，我来说说账号被封之前我都干了啥。</p><p>我在 iOS 和 macOS 上都使用 <a href="https://apps.apple.com/app/id1508706541">Spring for Twitter</a> 这个现在还勉强能用的 Twitter 客户端，偶尔也用 𝕏 官方客户端和网页端。但最近这段时间，在 Spring 上登录 𝕏 后，账号的有效期变短了，一天可能需要登录好几次，而且似乎还是单点登录。<br />之前也试过 <a href="https://github.com/tw93/Pake">tw93/Pake</a> 的 Twitter 客户端，是用 Rust 打包的网页端，但体验很不好，比如推文中的链接无法打开，每次都要复制出来在浏览器里打开。<br />由于 Spring 登录后账号频繁过期，太烦人了，我想要不再试试 Pake 的 Twitter 客户端，浏览器套壳，刷推会稳定些，就又尝试了 Pake 的 Twitter 客户端。<br />然后问题就来了，16 日下午存在 Spring 和 Pake - Twitter 的交替使用（都需要重新登录），当我再次使用 Pake - Twitter 登录账号后，立即就提示账号过期需要重新登录，我又重新登录，还是提示过期，我就去网页端登录，提示账号炸了。<br />是我在不同客户端登录次数太多造成的？，我当时就有些愤怒，义正严词地提交了申诉，要求解封。<br />接下来就收到了 𝕏 账号封禁的邮件，知道了是因为违反了它们的“不真实账号”规定，行吧，你说不真实就不真实吧。<br />账号的封禁跟 Spring 和 Pake - Twitter 没有关系，只是因为频繁的登录以及不透明的 𝕏 规则。<br />后来我又温和地提交了申诉，再后来又用 AI 写了申诉。结果吗，毫无音信，我都怀疑马斯克把人开完了，到底有没真人在处理申诉。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201140380.webp" style="width: 50%; display: inline-block;" alt="因“不真实账号”而被封禁的大号"></div><br><p>我还有个 2018 年注册的小号，我就登录了小号，关注了些之前关注的人，没多久，小号也被封了，原因一样“不真实账号”。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201140381.webp" style="width: 50%; display: inline-block;" alt="同样原因被封禁的小号"></div><br><p>行吧，老子不跟你玩了，我去玩蓝天和长毛象了，前些天发现的 <a href="https://apps.apple.com/app/id6738878242">Sky Follower Bridge</a> 也还没来得及用呢。老马要把 𝕏 打造成超级平台，还没开始，我账号就先没了；就算成了，我也用不上也不敢用。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201149465.webp" style="width: 50%; display: inline-block;" alt="Seamlessly migrate your social connections from 𝕏 to Bluesky"></div><br><p>这些年来，各家平台也越来越封闭，第三方客户端百花齐放的时代一去不复返了。我还是希望朋友们不要固定在一个平台上，多从不同平台、渠道摄入更多信息，突破信息茧房，以及个人数据及时备份，需要的话。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;16 日下午，&lt;a href=&quot;https://x.com/KiligWYu&quot;&gt;我的 𝕏 账号&lt;/a&gt; 被封了，原因是违反了 𝕏 “不真实账号”的规定，我一脸懵逼，这是我的大号，2016 年注册的，我来说说账号被封之前我都干了啥。&lt;/p&gt;
+&lt;p&gt;我在 iOS 和 mac</summary>
+      
+    
+    
+    
+    
+    <category term="𝕏" scheme="http://kiligwyu.com/tags/%F0%9D%95%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #137（2024.12.16）</title>
@@ -500,32 +523,6 @@
     <category term="Develop" scheme="http://kiligwyu.com/tags/Develop/"/>
     
     <category term="Tapet" scheme="http://kiligwyu.com/tags/Tapet/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #123（2024.09.02）</title>
-    <link href="http://kiligwyu.com/newsletter/123/"/>
-    <id>http://kiligwyu.com/newsletter/123/</id>
-    <published>2024-09-02T09:24:16.000Z</published>
-    <updated>2024-09-02T10:36:29.135Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 123 期。本篇是对过去一周（08.26 - 09.01）的记录、思考与分享。</p><hr /><p>周末看了 ★ <a href="https://movie.douban.com/subject/36934908/">因果报应 Maharaja (2024)</a> 和几乎同名的电影 <a href="https://movie.douban.com/subject/36912449/">真相守护者 Maharaj (2024)</a>，跟豆瓣评论区的“受害者”一样，本来要看《因果报应》，结果看了《真相守护者》，《真相守护者》的评分也太低了，一般情况下我会跳过这些低评分的电影的，结果阴差阳错看完了。我挺喜欢印度电影的，在高中时候看了第一部印度电影 <a href="https://movie.douban.com/subject/4136145/">通缉令 Wanted (2009)</a>（这部电影到现在我还很喜欢的），就喜欢上了印度电影，后来看了不少的印度电影，印度电影中的歌舞可以说是特色了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409021745782.webp" style="width: 50%;" alt="因果报应 Maharaja (2024)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409021746899.webp" style="width: 50%;" alt="误看的《真相守护者 Maharaj (2024)》"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409021746148.webp" style="width: 50%;" alt="我看的第一部印度电影《通缉令 Wanted (2009)》"><p>本周看了不少《黑神话：悟空》的评测、解读、教程都视频，除了游戏本身，其中的隐含的寓意也都非常深刻，看一些解读可以帮助理解，相关链接在后文中可以找到。据传 PS5 Pro 快要发布了，等我到时候买一台，一定要好好体验下这款大作，立个 flag 在此。</p><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>柴知道 - <a href="https://www.bilibili.com/video/BV1d74y127GP/">“真实续航”=“标称续航”打 5 折？新能源车为什么总是“续航虚标”？【柴知道：车圈化简】</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV12x4y1s7W6/">小林的书单推荐【寂寞的书单】</a></li><li>范特蜥 - <a href="https://www.bilibili.com/video/BV1Y4sxemENc">黑神话悟空豪华版小曲欣赏（72 首已上传完毕）</a><br />《黑神话：悟空》里的 72 首小曲，我下载下来提取音频，本地循环播放了。</li><li>张子贺 Zake - <a href="https://www.bilibili.com/video/BV1dx4y1x7mz/">休学 + 拒绝百万年薪，不是有所成就才算活着</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1o1421t7ep/">我祖母的一生真寂寞啊</a></li><li>超粒方 - <a href="https://www.youtube.com/watch?v=hsPRA2enykE">一次看懂《黑神話:悟空》為何爭議不斷? 到底是不是好遊戲?</a></li><li>吸奇侠 - <a href="https://www.youtube.com/watch?v=cbHbF587zoQ">【吸奇侠】聊《黑神话：悟空》第二回小动画，志怪奇闻、人性善恶</a></li><li>中队长同志 - <a href="https://www.bilibili.com/video/BV1Jr421T7gh/">天上最后的光《黑神话:弥勒》隐藏结局未济卦释义“无火处无经”</a></li><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV17Z421K7ib/">01《黑神话：悟空》全流程、剧情讲解梳理、4K 最高画质攻略【第一回：火照黑云】</a></li><li>极客羊 - <a href="https://www.youtube.com/watch?v=fxbEacG15iI">爆肝50个小时！盘点《黑神话：悟空》里 14 个彩蛋和细节！</a></li><li>极客羊 - <a href="https://www.youtube.com/watch?v=-vEVLDamIxI">细节满满，耐人寻味！盘点《黑神话：悟空》21个超赞的彩蛋和细节！【第二期】</a></li><li>黑椒墨鱼 - <a href="https://www.youtube.com/watch?v=p8uhDfuvrMo">大聖降過的妖爲何都回來了？黑神話悟空到底講了個什麽故事？【D9 蒙太奇】</a></li><li>黑椒墨鱼 - <a href="https://www.youtube.com/watch?v=kQIKvo6egiM">黑神話需要上百小時 通關三次才能發現的彩蛋【彩蛋藝術館】</a></li><li>软件那些事儿 - <a href="https://podcasts.apple.com/us/podcast/%E8%BD%AF%E4%BB%B6%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF/id1147186605?i=1000667222732">No.458 GitHub 数万 stars 的 yihong 讲如何做开源</a></li><li>凑近点看 - <a href="https://podcasts.apple.com/us/podcast/%E5%87%91%E8%BF%91%E7%82%B9%E7%9C%8B/id1580036852?i=1000666929749">VOL 155 - 试试你的水温：让我们 Small Talk 一下 x 不把天聊 si</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://atpx.com/blog/disable-comments/">为什么关闭评论</a></li><li>印记 - <a href="https://yinji.org/5298.html">博客精简计划：取消评论</a></li><li><a href="https://www.piglei.com/articles/programmer-reading-list-1/">程序员阅读清单：我喜欢的 100 篇技术文章（1-20）</a></li><li><a href="https://mp.weixin.qq.com/s/NXCW47EBSrbPJaQX7WBlBA">第 50 本书小结</a></li><li><a href="https://mp.weixin.qq.com/s/73eW7N1ZR1Lqu0MLFeNDnw">数字游民创业周记 05：租了一间办公室，一人公司，一人工位，开始自己交社保</a></li><li><a href="https://mp.weixin.qq.com/s?__biz=MzU4NDE1MzIwNg==&amp;mid=2247485005&amp;idx=1&amp;sn=757dcd7c6cf1f70fd4427c4d443ace5f">程序员自由创业周记 #40：结束了</a></li><li><a href="https://laike9m.com/blog/tui-yan-du-li-kai-fa-chan-pin-wo-zuo-liao-na-xie-chang-shi,159/">推广独立开发产品，我做了哪些尝试</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-UbDJceZ7bIpHwsLA">必应八月超高清无水印壁纸</a> by Kilig。</li><li><a href="https://github.com/eythaann/Seelen-UI">eythaann/Seelen-UI</a>: The Fully Customizable Desktop Environment for Windows 10/11 with a windows tiling manager included.</li><li><a href="https://localsend.org">LocalSend: Share files to nearby devices</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 123 期。本篇是对过去一周（08.26 - 09.01）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;周末看了 ★ &lt;a href=&quot;https://movie.douban.com/subject/3693490</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
     
   </entry>
   

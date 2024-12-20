@@ -11,7 +11,25 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/%E6%9B%B4%E6%96%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/">更新本地仓库地址</a></h1><div class="post-meta">2018-03-08</div><a class="disqus-comment-count" data-disqus-identifier="更新本地仓库地址/" href="/%E6%9B%B4%E6%96%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/#disqus_thread"></a><div class="post-content">由于 svn 服务器地址变更，本地仓库需要更新新的地址，可以用命令行或客户端来更新仓库地址。
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/basic-algorithm-scripting-camp/">初级 JavaScript 算法</a></h1><div class="post-meta">2018-03-13</div><a class="disqus-comment-count" data-disqus-identifier="basic-algorithm-scripting-camp/" href="/basic-algorithm-scripting-camp/#disqus_thread"></a><div class="post-content">初级 JavaScript 算法，题目来源 W3Cschool 编程实战。
+
+
+1、翻转字符串
+2、阶乘
+3、回文
+4、寻找最长单词
+5、设置首字母大写
+6、寻找数组中的最大值
+7、确认末尾字符
+8、重复操作
+9、字符串截取
+10、数组分割
+11、数组截断
+12、数组查询
+13、删除数组中的所有的假值
+14、去除数组中任意多个值
+15、数组排序并插入值
+16...</div><p class="readmore"><a href="/basic-algorithm-scripting-camp/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/%E6%9B%B4%E6%96%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/">更新本地仓库地址</a></h1><div class="post-meta">2018-03-08</div><a class="disqus-comment-count" data-disqus-identifier="更新本地仓库地址/" href="/%E6%9B%B4%E6%96%B0%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80/#disqus_thread"></a><div class="post-content">由于 svn 服务器地址变更，本地仓库需要更新新的地址，可以用命令行或客户端来更新仓库地址。
 
  使用 svn relocate 命令更新仓库地址
 
@@ -52,5 +70,5 @@ iCollect 是从十一之后，利用空余时间开始做，把以前自用的�
  思路
 递归遍历所有文件，如果是图片，利用 sips 命令获取其宽度和高度（用 sips -h 和 man sips 查看其用法），如果高度大于宽度则删除。
  Shell
-1234567891011121314151617181920212223242526272829303132#!/bin...</div><p class="readmore"><a href="/delete-images-by-shell/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/auto-export-ipa/">自动打包 ipa</a></h1><div class="post-meta">2017-09-02</div><a class="disqus-comment-count" data-disqus-identifier="auto-export-ipa/" href="/auto-export-ipa/#disqus_thread"></a><div class="post-content"><p>自动打包 ipa 并上传到蒲公英测试平台的 shell 脚本。</p></div><p class="readmore"><a href="/auto-export-ipa/">阅读全文</a></p></div><nav class="page-navigator"><a class="extend prev" rel="prev" href="/page/20/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><a class="page-number" href="/page/20/">20</a><span class="page-number current">21</span><a class="page-number" href="/page/22/">22</a><a class="extend next" rel="next" href="/page/22/">下一页</a></nav><script id="dsq-count-scr" src="//kiligwyu.disqus.com/count.js" async></script></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+1234567891011121314151617181920212223242526272829303132#!/bin...</div><p class="readmore"><a href="/delete-images-by-shell/">阅读全文</a></p></div><nav class="page-navigator"><a class="extend prev" rel="prev" href="/page/20/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><a class="page-number" href="/page/20/">20</a><span class="page-number current">21</span><a class="page-number" href="/page/22/">22</a><a class="extend next" rel="next" href="/page/22/">下一页</a></nav><script id="dsq-count-scr" src="//kiligwyu.disqus.com/count.js" async></script></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2024 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
 <br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
