@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-12-23T14:28:29.559Z</updated>
+  <updated>2024-12-30T12:11:13.584Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #139（2024.12.30）</title>
+    <link href="http://kiligwyu.com/newsletter/139/"/>
+    <id>http://kiligwyu.com/newsletter/139/</id>
+    <published>2024-12-30T11:55:40.000Z</published>
+    <updated>2024-12-30T12:11:13.584Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 139 期。本篇是对过去一周（12.23 - 12.29）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/%E6%BF%AE%E6%9B%BC/1524924298"></iframe><p><br>本周是 996 的一周，只到月底 996，总共也没有几天，所以还可以接受。</p><p>周六晚上一口气看完了 <a href="https://movie.douban.com/subject/35656342/">鱿鱼游戏 第二季 오징어 게임 시즌 2 (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412302000834.webp" style="width: 50%; display: inline-block;" alt="鱿鱼游戏 第二季 오징어 게임 시즌 2 (2024)"></div><br><p>周日简单搞了个静态网页 <a href="http://kilig.tech/">kilig.tech</a>，使用 Nginx 部署，最简单的方式，单文件 HTML，样式、图片全包含在里面，<a href="http://kilig.tech/">kilig.tech</a> 使用了 <a href="https://sindresorhus.com/apps">Sindre Sorhus - Apps</a> 的源码，直接在 Safari Web Inspector 里编辑 HTML 源码，去掉多余元素，然后使用 <a href="https://apps.apple.com/app/id6444322545">SingleFile for Safari</a> 把网页保存为单个文件，再检查一下源码，图片使用 Base64 编码替换一下，去掉不必要的信息，网页底部添加备案号，就完成了，上传到云服务器，搞定。<br />只是 App 备案使用，所以简单搞一下，以后有空再整。</p><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>橙红 Iris - <a href="https://www.bilibili.com/video/BV1grCPYCE5o/">差价 2000 倍？电动牙刷怎么选？选扫振还是声波？国产还是进口？用13支电动牙刷的经验告诉你</a></li><li>森纳映画 - <a href="https://www.youtube.com/watch?v=49RLuvQ8Pv8">【不止遊戲】子彈口徑 為什麼都是如 7.62 這種奇怪的數字？</a></li><li>王林林 Eileen - <a href="https://www.youtube.com/watch?v=of0DwEriMn4">【兰花】唯一能反寄生真菌的白嫖之王!昆虫传粉还得倒贴的美丽陷阱</a></li><li>无穷小亮的科普日常 - <a href="https://www.bilibili.com/video/BV1wiC5YZEK7/">幽帘虫、洞穴猎蝽、闪光神秘斑点……广西溶洞里的生命奇观！</a></li><li>DoodletmeGO - <a href="https://www.youtube.com/watch?v=P6uwj5Ix7qg">Fantasy Haircut</a></li><li>音樂家的無聊人生 Musician Seacow - <a href="https://www.youtube.com/watch?v=gRQho0kcke0">人類藝術顛峰！為什麼你一定要認識貝多芬《英雄交響曲》</a></li><li>天才捕手 FM - <a href="https://podcasts.apple.com/us/podcast/%E5%A4%A9%E6%89%8D%E6%8D%95%E6%89%8Bfm-%E6%9C%80%E5%B8%A6%E5%8A%B2%E7%9A%84%E8%81%8C%E4%B8%9A%E6%95%85%E4%BA%8B/id1503858543">脱口秀演员黑灯：盲人有个视角就很不错了</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://aerolite.dev/applite">Applite</a></li><li><a href="https://creativerly.com/tiny-macos-utility-apps-part-5/">Tiny macOS utility apps I love – Part 5</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 139 期。本篇是对过去一周（12.23 - 12.29）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #138（2024.12.23）</title>
@@ -493,33 +519,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 125 期。本篇是对过去一周（09.09 - 09.17）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;各位朋友，中秋节过的如何？，本期周报晚两天更新，中秋节回家没有带电脑，因为我知道带了也没空开。带小朋友回姥姥家玩</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #124（2024.09.09）</title>
-    <link href="http://kiligwyu.com/newsletter/124/"/>
-    <id>http://kiligwyu.com/newsletter/124/</id>
-    <published>2024-09-09T12:21:22.000Z</published>
-    <updated>2024-09-09T14:17:29.294Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 124 期。本篇是对过去一周（09.02 - 09.08）的记录、思考与分享。</p><hr /><ol><li>更新了一下 <a href="https://apps.apple.com/app/id6463897064/">Kroma</a>，主要是 UI 方面的改进，改进了可用性，之前在部分颜色下，页面上的元素对比度不够，下周发版。</li><li>准备复活一个已下架的应用，整合几个功能单一的 apps，之后会把已整合的 app 下架。因为功能单一的 app，上架或更新都成问题，目前已经确定了功能和实现方案，使用 SwiftUI + TCA，项目进度 0%。</li><li>在数码荔枝买了窗口管理工具 <a href="https://manytricks.com/moom/">Moom</a>，以前还在订阅 SetApp 时候使用过 Moom。Moom 4 改变巨大，更加的简单易用了，UI 也更贴合 macOS。<br />我之前使用 <a href="https://apps.apple.com/app/id441258766">Magnet</a>，在本碎周报的 <a href="/newsletter/108/">第 108 期</a> 里，我有说过，Magnet 可能会造成系统卡顿（by <a href="https://twitter.com/zhizijun/status/1768129567720603818">@zhizijun</a>），就改用 <a href="https://rectangleapp.com/">Rectangle</a>。现在改用 Moom 了，Moom 的自定义程度也更大。<br />Moom 有个我喜欢的功能就是按下修饰键时，移动鼠标可以快速方便地移动窗口位置，在 Moom 之前，我使用在 Dock 栏可以预览窗口的工具 <a href="https://bahoom.com/hyperdock">HyperDock</a>，HyperDock 可以设置按下鼠标左键时移动窗口，我更喜欢 HyperDock 的按下鼠标左键时再移动窗口，但 HyperDock 在 macOS Sequoia 上该功能失效了，而且 HyperDock 也好多年没更新了。我去给 Moom 提个反馈，看能不能加上按下鼠标左键时再移动窗口。<br />说到预览窗口，近期有个开源项目 <a href="https://github.com/ejbills/DockDoor/">ejbills/DockDoor</a>，不过现在还没 HyperDock 好用，等 DockDoor 进化吧，以后或许可以替代 HyperDock。<br />另外可以看看 MacStories 对 Moom 的介绍文章 <a href="https://www.macstories.net/reviews/moom-4-mac-window-management-upgraded/">Moom 4: Mac Window Management, Upgraded</a> 以及 <a href="https://manytricks.com/blog/">Moom 的官方博客</a> 以获取更多信息。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409092151349.webp" style="width: 50%;" alt="Moom Settings"><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409092152648.webp" style="width: 50%;" alt="HyperDock Settings"></li><li>买了打字指法练习工具 <a href="https://apps.apple.com/app/id1035137927">KeyKey</a>，每天花一点点时间来练习正确的指法。打字练习工具也有很多，比如 <a href="https://github.com/RealKai42/qwerty-learner">RealKai42/qwerty-learner</a> 和 <a href="https://github.com/wintermute-cell/ngrrram">wintermute-cell/ngrrram</a> 等，但我更喜欢 KeyKey。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409092158584.webp" style="width: 50%;" alt="KeyKey"></li></ol><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1WNHreTEZk/">《风骚律师》的象征和隐喻01：小律师吉米，处处禁止通行的一天</a></li><li><a href="https://meethigher.top/blog/2024/black-wukong-youji/">黑神话悟空 - 妖怪平生录</a></li><li>-LKs- - <a href="https://www.bilibili.com/video/BV1KEpceFEtS/">给UP主打工到底爽不爽？幕后员工真实锐评！</a></li><li>1379 号观察员 - <a href="https://www.youtube.com/watch?v=g4FJzhEr8_g">孔乙己（恐已己）- 鲁镇往事</a></li><li>吸奇侠 - <a href="https://www.youtube.com/watch?v=X8z2_Dp-xJQ">【吸奇侠】聊《黑神话：悟空》第三回「夜生白露」小动画，谁信善？谁作恶？</a></li><li>笑锦要沉稳 - <a href="https://www.bilibili.com/video/BV1mopceAE7z/">因为他人善啊</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li>某高老师 - 人间观察 - <a href="https://someonegao.com/dream-of-the-mountain">梦断黑风岭 - Dream Of The Mountain</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://www.macstories.net/reviews/reeder-a-new-approach-to-following-feeds/">Reeder: A New Approach to Following Feeds</a></li><li><a href="https://meethigher.top/blog/2024/black-wukong-youji/">黑神话悟空 - 妖怪平生录</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 124 期。本篇是对过去一周（09.02 - 09.08）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li&gt;更新了一下 &lt;a href=&quot;https://apps.apple.com/app/id646389</summary>
       
     
     
