@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2024-12-30T12:11:13.584Z</updated>
+  <updated>2025-01-06T13:14:48.526Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #140（2025.01.06）</title>
+    <link href="http://kiligwyu.com/newsletter/140/"/>
+    <id>http://kiligwyu.com/newsletter/140/</id>
+    <published>2025-01-06T12:30:07.000Z</published>
+    <updated>2025-01-06T13:14:48.526Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 140 期。本篇是对过去一周（2024.12.30 - 2025.01.05）的记录、思考与分享。</p><hr /><p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/xKm77n0WcB4?si=TqA0QyvMIk7mL7HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br></p><p>新年快乐！</p><p>本周看了 <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a>、<a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a> 和 <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br><p>周六发现手机上机场挂了，所有线路全部超时，备用机场所有线路也全部超时，蜂窝网络下也一样，然后发现直连模式也超时；我使用的是 Surge 这个应用，我怀疑是 DNS 的问题，但使用系统 DNS 或自定义 DNS 也还是同样的问题，想着也没改配置，前一天还正常使用呢，正一筹莫展时候，搜索发现有可能会是 DoH（DNS over HTTPS） 的问题，我又检查了下 Surge 的配置，配置文件里没有 DoH 的配置，后来发现在 Modules 下面，开启了 DoH，老早以前设置的，还开了两个，阿里的 Ali-DoH 和腾讯的 DNSPod-DoH，进一步排查发现是 DNSPod-DoH 的问题，禁用掉就好了。</p><blockquote><p><strong>DNS over HTTPS</strong>（缩写：<strong>DoH</strong>）是域名系统的安全协议，以 HTTPS 协议完成 DNS 解析来保护 网络主机的隐私，能避免传统 DNS 协议中用户的 DNS 解析请求被窃听或者修改（例如中间人攻击）的情况。—— <a href="https://www.wikiwand.com/zh-hans/articles/DNS_over_HTTPS">DNS over HTTPS - Wikiwand</a></p></blockquote><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>戴铭的博客 - <a href="https://starming.com/2024/11/04/introduction-japanese-colors/">全网最全的日本传统颜色指南，看完你会更懂日本</a></li><li><a href="https://mp.weixin.qq.com/s/xVqVfew2SvuFXCfjI9nciA">娜夜极短诗 30 首</a></li><li><a href="https://mp.weixin.qq.com/s/AL66AhcLjGbyEnbNvyJ2FA">为什么 中文 不 需要 空格</a></li></ul><hr style="margin-left: 20px;"><ul><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1Kg6JYgEc2/">你曾经的2024快乐吗</a><br />只有魔鬼才匆匆忙忙</li><li>硬件茶谈 - <a href="https://www.youtube.com/watch?v=eTo-_EWB1uY">【硬核科普】一个视频了解磁轴，静电容，机械轴，光轴键盘的原理</a></li><li>綜劇安利社 - <a href="https://www.youtube.com/watch?v=Rgk8vVrVik4">最新脱口秀专场！#梁海源 #坐在角落的人</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-hjDJceZ7bIpHwsLA">必应 12 月超高清无水印壁纸</a>。<ul><li><a href="https://1drv.ms/f/s!AuQ7aUGVDnCMg7sBDJceZ7bIpHwsLA">必应 2024 年超高清无水印壁纸</a>。</li></ul></li><li><a href="https://github.com/hoarder-app/hoarder">hoarder-app/hoarder</a>: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 140 期。本篇是对过去一周（2024.12.30 - 2025.01.05）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;br&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阅读记录（2025）</title>
+    <link href="http://kiligwyu.com/learninpublic/2025/"/>
+    <id>http://kiligwyu.com/learninpublic/2025/</id>
+    <published>2025-01-06T12:15:36.000Z</published>
+    <updated>2025-01-06T13:14:38.860Z</updated>
+    
+    <content type="html"><![CDATA[<p>2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><ul><li><a href="#%E7%94%B5%E5%BD%B1">电影</a><ul><li><a href="#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5%8F%8B-lets-go-to-prison-2006">1. 01.03: ★ 同居牢友 Let’s Go to Prison (2006)</a></li><li><a href="#2-0103-%E5%9D%A0%E8%90%BD%E7%9A%84%E5%AE%A1%E5%88%A4-anatomie-dune-chute-2023">2. 01.03: ★ 坠落的审判 Anatomie d’une chute (2023)</a></li><li><a href="#3-0105-%E8%90%8D%E6%B0%B4%E7%9B%B8%E8%85%90%E6%AA%90%E5%BB%8A%E4%B8%8B-%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%BC%E3%81%AE%E7%B8%81%E5%81%B4-2022">3. 01.05: ★ 萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></li></ul></li></ul><hr /><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><h3 id="1-0103-同居牢友-lets-go-to-prison-2006"><a class="markdownIt-Anchor" href="#1-0103-同居牢友-lets-go-to-prison-2006"></a> 1. 01.03: ★ <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><h3 id="2-0103-坠落的审判-anatomie-dune-chute-2023"><a class="markdownIt-Anchor" href="#2-0103-坠落的审判-anatomie-dune-chute-2023"></a> 2. 01.03: ★ <a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><h3 id="3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"><a class="markdownIt-Anchor" href="#3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"></a> 3. 01.05: ★ <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#%E7%94%B5%E5%BD%B1&quot;&gt;电影&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5</summary>
+      
+    
+    
+    
+    <category term="Learn in Public" scheme="http://kiligwyu.com/categories/Learn-in-Public/"/>
+    
+    
+    <category term="lip" scheme="http://kiligwyu.com/tags/lip/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #139（2024.12.30）</title>
@@ -466,59 +520,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 127 期。本篇是对过去两周（09.23 - 10.07）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;国庆节的票是真难买啊，我 29 日晚上回去，7 号晚上回来，候补了好长时间都没候补到，都是买了一站的票，上车后坐</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #126（2024.09.23）</title>
-    <link href="http://kiligwyu.com/newsletter/126/"/>
-    <id>http://kiligwyu.com/newsletter/126/</id>
-    <published>2024-09-23T14:36:18.000Z</published>
-    <updated>2024-09-23T15:22:38.574Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 126 期。本篇是对过去一周（09.18 - 09.22）的记录、思考与分享。</p><hr /><p>本期周报只有半周，由于上期中秋节晚更的缘故。</p><p>本周在做一个 macOS 的小工具，进度 40% 了，在国庆前发布。</p><h3 id="apps"><a class="markdownIt-Anchor" href="#apps"></a> Apps</h3><ul><li><p><a href="https://apps.apple.com/app/id6670337467">Expenzio - Expense Tracker</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409232307300.webp" style="width: 50%;" alt="Expenzio - Expense Tracker"></p></li><li><p><a href="https://apps.apple.com/app/id6683308033">‎CassetteOne - Ambience &amp; Music</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409232311957.webp" style="width: 50%;" alt="CassetteOne - Ambience & Music"></p></li><li><p><a href="https://apps.apple.com/app/id6657986705">‎Daylights - Highlight Journal</a><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409232315013.webp" style="width: 50%;" alt="Daylights - Highlight Journal"></p></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>嗑书的阿冉叔 - <a href="https://www.bilibili.com/video/BV1imtLePEyu/">为什么黑神话第三回，叫《屁》？8千字深度解析《屁》的满级佛学</a></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=S3bBbHgE4Rs">爲什麽沒有直徑壹光年的恒星？2024 年目前已知的宇宙中最大恒星！WOH G64！</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=OFEuopIFNvo">电话普及二十年，年轻人却害怕接电话了？</a></li></ul><h3 id="文章-x"><a class="markdownIt-Anchor" href="#文章-x"></a> 文章 / 𝕏</h3><ul><li><a href="https://b123400.net/blog/I-no-longer-write-Haskell">我已經沒在工作用 Haskell 了</a></li><li><a href="https://xiaowenz.com/run-a-uk-company/">如何注册和维护一个英国公司 更新于 2024 年 9 月</a></li><li><a href="https://x.com/AwakeningBear01/status/1836928566401151160">@AwakeningBear01</a> 分享的英雄联盟段位升级带来的人生感悟：<blockquote><ol><li>在人生初期，如果你没背景没资源，你最好找到自己热爱的东西，并将其到达专精程度。</li><li>第二阶段，找到志同道合的队友，一同进步，目的是降低自己的负面情绪带来的的影响。</li><li>找到心流，通过刻意训练，不断重复来提高你的个人表现，从专精到极限。</li><li>通过数据，顺应趋势，等待属于自己的版本和风口，人生并不像游戏，可以重开，所以等待适合自己的版本非常重要。</li><li>复盘，不断找到更好的策略，在失败中找到自己的问题所在，不断优化。</li><li>迭代复利，善战者无赫赫之功，做好复利规划，用策略代替情绪波动，直至真正意义上的胜利。</li></ol></blockquote></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>『Tips：iPhone 新机数据迁移，可以使用 USB 3/4 有线连接大幅提高传输速度（我这无线是 9 小时，有线 30 分钟）。但是记得在配置开始阶段就需要将两设备进行有线连接，而不能等到数据恢复的选项时再连接，有线成功握手后，传输数据的按钮会有非常明确的一个动画表示是有线连接状态。』via <a href="https://x.com/Blankwonder/status/1836984047047737561">@Blankwonder</a></li><li><a href="https://github.com/Lakr233/NotchNotification">Lakr233/NotchNotification</a>: Display Notification Inside Mac’s Notch.</li><li><a href="https://github.com/PlayCover/PlayCover">PlayCover/PlayCover</a>: Run iOS apps and games on Apple Silicon Macs with mouse, keyboard and controller support.</li><li><a href="https://github.com/langren1353/GM_script">langren1353/GM_script</a>: AC-baidu: 重定向优化百度搜狗谷歌搜索_去广告_favicon_双列</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 126 期。本篇是对过去一周（09.18 - 09.22）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;本期周报只有半周，由于上期中秋节晚更的缘故。&lt;/p&gt;
-&lt;p&gt;本周在做一个 macOS 的小工具，进度 40% 了</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #125（2024.09.18）</title>
-    <link href="http://kiligwyu.com/newsletter/125/"/>
-    <id>http://kiligwyu.com/newsletter/125/</id>
-    <published>2024-09-18T13:21:54.000Z</published>
-    <updated>2024-09-18T14:04:40.060Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 125 期。本篇是对过去一周（09.09 - 09.17）的记录、思考与分享。</p><hr /><p>各位朋友，中秋节过的如何？，本期周报晚两天更新，中秋节回家没有带电脑，因为我知道带了也没空开。带小朋友回姥姥家玩，几个小朋友吵闹了几天。<br />然后又该抢国庆的票了。</p><p>这次回家路上看了四部爱在电影，爱在三部曲加另一部爱在。<a href="https://movie.douban.com/subject/1296339/">爱在黎明破晓前 Before Sunrise (1995)</a>、<a href="https://movie.douban.com/subject/1291990/"><br />爱在日落黄昏时 Before Sunset (2004)</a>、<a href="https://movie.douban.com/subject/10808442/">爱在午夜降临前 Before Midnight (2013)</a> 和 <a href="https://movie.douban.com/subject/3036465/">爱在记忆消逝前 The Leisure Seeker (2017)</a>。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133590.webp" style="width: 50%;" alt="爱在黎明破晓前 Before Sunrise (1995)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133589.webp" style="width: 50%;" alt="爱在日落黄昏时 Before Sunset (2004)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133588.webp" style="width: 50%;" alt="爱在午夜降临前 Before Midnight (2013)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202409182133587.webp" style="width: 50%;" alt="爱在记忆消逝前 The Leisure Seeker (2017)"><p>熬夜看了苹果发布会，我现在用的是 iPhone 11 Pro Max，后盖玻璃摔碎了，电池容量只有 74% 了，电池衰减加上硬件损耗加上系统越来越复杂，使用起来经常发烫加卡顿，已经忍了好长时间了，本来想买台新款 Pro Max 的，但我想想似乎还没 PS5 Pro 吸引力大，就算是 iPhone 11 Pro Max，日常使用性能也是过剩的，周末有空去换个电池，就又满血复活，还能再用几年。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>杨光_建厨师 - <a href="https://www.bilibili.com/video/BV11xpjezEBV/">全面解析！如何做出软烂不柴、红亮颤悠的红烧肉【解构家常菜】</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1W84EeJEZg/">千兆网下载跑不满，真是你的问题？Steam下载速度怎么这么快？</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>『Cuto 壁纸新版本 2.10.0 更新了，现在你可以在 Cuto app 里、iOS 18 控制中心、锁屏，一键更换喜欢的壁纸了。另外我们推出了『2024 用户最爱』合辑，囊括了最近一年最受欢迎的 50 张壁纸，升系统换新机别忘了试试。』via <a href="https://x.com/icodesign_me/status/1834030512006136281">@icodesign_me</a></li><li><a href="https://appleslides.com">Apple Bento Slides - Explore Apple Event Presentations</a></li><li><a href="https://github.com/pablopunk/SwiftShift">pablopunk/SwiftShift</a>: Sweet window management for macOS</li><li><a href="https://meatfighter.com/ascii-silhouettify/spa/index.html#/">ASCII Silhouettify</a></li><li><a href="https://github.com/rektdeckard/departure-mono">rektdeckard/departure-mono</a>: A monospaced pixel font with a lo-fi, techy vibe</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 125 期。本篇是对过去一周（09.09 - 09.17）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;各位朋友，中秋节过的如何？，本期周报晚两天更新，中秋节回家没有带电脑，因为我知道带了也没空开。带小朋友回姥姥家玩</summary>
       
     
     
