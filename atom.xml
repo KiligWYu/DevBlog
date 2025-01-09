@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2025-01-06T13:14:48.526Z</updated>
+  <updated>2025-01-09T16:30:59.412Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>App ICP 备案</title>
+    <link href="http://kiligwyu.com/ICP-Filing/"/>
+    <id>http://kiligwyu.com/ICP-Filing/</id>
+    <published>2025-01-09T14:58:23.000Z</published>
+    <updated>2025-01-09T16:30:59.412Z</updated>
+    
+    <content type="html"><![CDATA[<p>终于走完了网站备案和 App 备案，这里简单回顾一下。注意，本篇不是备案教程。</p><h2 id="为什么备案"><a class="markdownIt-Anchor" href="#为什么备案"></a> 为什么备案</h2><p>我的两个小破 App，<a href="https://apps.apple.com/app/id6463897064/">Kroma</a> 和 <a href="https://apps.apple.com/app/id1333958571/">iCollect+</a>，不备案就不能上架大陆地区 App Store，虽然目前还不是靠独立开发 App 挣钱养活自己，目前也不指望能赚多少钱（肯定是赔本的），但未雨绸缪，要想在大陆地区上架销售，备案是少不了的，另外也为了曾经帮助过我的朋友们，感谢你们的热情反馈和五星好评。</p><p>尽管我个人比较抵触备案，从网站备案到 App 备案，再到各种实名制服务，只会让监管变本加厉，只会让个人隐私泄露的更彻底，对不法行为的打击收效甚微。或许这只是我的个人偏见。</p><h2 id="备案流程"><a class="markdownIt-Anchor" href="#备案流程"></a> 备案流程</h2><p>App 备案，需要一个已备案的可访问域名，就算是不联网的 App 也需要，总的流程就是，先买一个域名，然后域名备案，搭建网站，最后再 App 备案。</p><p>我在阿里云买了一个便宜的域名，<a href="http://kilig.tech/">kilig.tech</a>，10 年 ¥199。总的来说，备案没什么难度，按流程，需要什么材料就提交什么材料，提交审核，如果被打回，按要求修改重新提交就是。下面是我提交审核的时间线。</p><ul><li>2024<ul><li>12.12 购买域名，申请 ICP 备案</li><li>12.13 通过阿里云初审</li><li>12.15 提交至通信管理局审核，工信部短信核验</li><li>12.24 管局审核通过，下发 ICP 备案号；提交 App 备案申请，两个 App 一块儿申请</li><li>12.25 阿里云初审未通过，要求补充 App 备注信息（功能简介、使用的后端接口域名、App Store 链接等），别且要求网站可访问</li><li>12.29 <a href="http://kilig.tech/">kilig.tech</a> 网站部署，重新提交审核</li><li>12.30 提交至通信管理局审核，工信部短信核验</li></ul></li><li>2025<ul><li>01.09 管局审核通过，下发 App 备案号</li></ul></li></ul><p>前后花了快一个月，其中，由于工作繁忙，网站部署延迟了几天；管局审核才是耗时最长的，“20 个工作日内”，还两次。</p><h2 id="备案后"><a class="markdownIt-Anchor" href="#备案后"></a> 备案后</h2><p>App Store Connect 提交一下 App 备案号，立即就可以在大陆地区 App Store 上架销售了。</p><h2 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h2><p>详细的备案流程可以参考 <a href="https://github.com/anyesu/blog/issues/49">阿里云域名购买及个人备案 · Issue #49</a> 这篇文章。</p><p>部署网站，如果只想简单搞搞，可以参考 <a href="/newsletter/139/">139 期碎周报</a> 里我的方案：</p><blockquote><p>周日简单搞了个静态网页 <a href="http://kilig.tech/">kilig.tech</a>，使用 Nginx 部署，最简单的方式，单文件 HTML，样式、图片全包含在里面，<a href="http://kilig.tech/">kilig.tech</a> 使用了 <a href="https://sindresorhus.com/apps">Sindre Sorhus - Apps</a> 的源码，直接在 Safari Web Inspector 里编辑 HTML 源码，去掉多余元素，然后使用 <a href="https://apps.apple.com/app/id6444322545">SingleFile for Safari</a> 把网页保存为单个文件，再检查一下源码，图片使用 Base64 编码替换一下，去掉不必要的信息，网页底部添加备案号，就完成了，上传到云服务器，搞定。<br />只是 App 备案使用，所以简单搞一下，以后有空再整。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;终于走完了网站备案和 App 备案，这里简单回顾一下。注意，本篇不是备案教程。&lt;/p&gt;
+&lt;h2 id=&quot;为什么备案&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#为什么备案&quot;&gt;&lt;/a&gt; 为什么备案&lt;/h2&gt;
+&lt;p&gt;我的两个小破 App，&lt;a hr</summary>
+      
+    
+    
+    
+    
+    <category term="ICP" scheme="http://kiligwyu.com/tags/ICP/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #140（2025.01.06）</title>
@@ -494,32 +518,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 128 期。本篇是对过去一周（10.07 - 10.13）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;在第 126 期里，我说我在开发一个 macOS 小工具，已经暂停了，因为在沙盒环境下，Quick Action</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #127（2024.10.08）</title>
-    <link href="http://kiligwyu.com/newsletter/127/"/>
-    <id>http://kiligwyu.com/newsletter/127/</id>
-    <published>2024-10-08T11:40:32.000Z</published>
-    <updated>2024-10-08T16:44:53.867Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 127 期。本篇是对过去两周（09.23 - 10.07）的记录、思考与分享。</p><hr /><p>国庆节的票是真难买啊，我 29 日晚上回去，7 号晚上回来，候补了好长时间都没候补到，都是买了一站的票，上车后坐餐车。来回路上看了 <a href="https://movie.douban.com/subject/26628357/">一个叫欧维的男人决定去死 En man som heter Ove (2015)</a>、<a href="https://movie.douban.com/subject/35736202/">狗神 DogMan (2023)</a>、<a href="https://movie.douban.com/subject/1297192/">致命 ID Identity (2003)</a> 和 <a href="https://movie.douban.com/subject/1300613/">土拨鼠之日 Groundhog Day (1993)</a>。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359905.webp" style="width: 50%;" alt="一个叫欧维的男人决定去死 En man som heter Ove (2015)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359904.webp" style="width: 50%;" alt="狗神 DogMan (2023)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359903.webp" style="width: 50%;" alt="致命 ID Identity (2003)"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410082359901.webp" style="width: 50%;" alt="土拨鼠之日 Groundhog Day (1993)"><p>朋友们假期都去哪玩了呀，我们会了趟老家，吃吃喝喝在洛阳玩了一天。</p><p>我外爷轮到我妈来照顾了，趁国庆节放假，媳妇儿可以少请几天假。在老家看到我外爷，我忽然觉得我外爷好孤独，连个说话的人都没有，日子一天天过去，说难听点，就是在“等死”。或许以后我可以写篇关于我外爷的文章。</p><p>在闲鱼买了 iPhone 16 Pro Max，白色，港版，512GB，线下面交，本来想买沙漠色，但没现货，就买了白色的，个人觉得白色和沙漠色都很好看，从 11 Pro Max 升级上来，使用两周多，稍后等我再写篇使用感受。</p><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://carlosgong.github.io/posts/2024011101.html">20240111: 35 岁</a></li><li><a href="https://tw93.fun/2024-09-09/future.html">聊聊未来技术趋势</a></li><li><a href="https://quail.ink/commonsense/p/so-many-chinese-people-killed-in-japan-no-reflection-on-anti-chinese-thought">那么多中国人在日本被杀，怎么就没人反思仇华思想？ | 基本常识</a></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>差评君 - <a href="https://www.youtube.com/watch?v=Y1rCOuZHF00">NASA 都被坑了?为啥美国人还坚持用这些奇怪的单位?</a></li><li>杨光_建厨师 - <a href="https://www.bilibili.com/video/BV18Zs6eXEmB/">【转行】清华毕业的建筑师、公司老板为什么去做美食博主？讲讲我自己的故事</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1TTsre2EBP/">磁带是怎么记录你的青春的？它为什么适合盗版？</a></li><li>Harry 的數碼遊牧之旅 - <a href="https://www.youtube.com/watch?v=rVIUt1kjDMM">歡迎 13 - Swift 開發者的日常分享大會 #9 (feat. 13)</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-V6DJceZ7bIpHwsLA">必应 9 月超高清无水印壁纸</a>。</li><li><a href="https://sindresorhus.com/supercharge">Supercharge</a>: Elevate your Mac experience.</li><li><a href="https://github.com/MythicApp/Mythic">MythicApp/Mythic</a>: An open-source macOS game launcher with the ability to play Windows games through a custom implementation of Apple’s Game Porting Toolkit — supporting multiple platforms (Epic &amp; Steam TBA)</li><li><a href="https://github.com/elrumo/macOS_Big_Sur_icons_replacements">elrumo/macOS_Big_Sur_icons_replacements</a>: Replacement icons for popular apps in the style of macOS Big Sur</li><li><a href="https://github.com/nadimkobeissi/mkbsd">nadimkobeissi/mkbsd</a>: Download all the wallpapers in MKBHD’s “Panels” app</li><li><a href="https://www.toptal.com/developers/gitignore">gitignore.io</a>: Create useful .gitignore files for your project</li><li><a href="https://app.uiboy.com">APPLORE - Discover and Explore App Icons</a></li><li><a href="https://www.patreon.com/posts/ios-kai-fa-de-du-112741361">iOS 開發的年度週期 | 13</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 127 期。本篇是对过去两周（09.23 - 10.07）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;国庆节的票是真难买啊，我 29 日晚上回去，7 号晚上回来，候补了好长时间都没候补到，都是买了一站的票，上车后坐</summary>
       
     
     
