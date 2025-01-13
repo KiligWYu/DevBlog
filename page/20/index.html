@@ -11,11 +11,19 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/turn-shell-script-to-app/">把 Shell Script 封装成 App</a></h1><div class="post-meta">2018-04-26</div><a class="disqus-comment-count" data-disqus-identifier="turn-shell-script-to-app/" href="/turn-shell-script-to-app/#disqus_thread"></a><div class="post-content">
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/disable-terminal-login-messages/">禁止终端的登录消息</a></h1><div class="post-meta">2018-05-12</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">在默认配置下，打开终端，login 命令会显示当前用户的最后一次登录消息。
+
+要禁止这些消息，可以在主目录下创建一个 .hushlogin 的空文件，下次登录将静默登录。
+1➜  ~ touch .hushlogin
+ 相关链接
+
+禁止登录消息
+
+</div><p class="readmore"><a href="/disable-terminal-login-messages/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/turn-shell-script-to-app/">把 Shell Script 封装成 App</a></h1><div class="post-meta">2018-04-26</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">
 以之前写的过滤图片的 脚本 为例，把其封装成 App。
 首先来看下最终的 App 的结构：
 1234567ImageFilter.app|____Contents| |____MacOS| | |____run.sh| |____Resources| | |____shortcut.icns| |____Info.plist
-其中，shortcut.icn...</div><p class="readmore"><a href="/turn-shell-script-to-app/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/FlowerPassword-for-Mac-V1-0/">花密 for Mac V1.0</a></h1><div class="post-meta">2018-04-23</div><a class="disqus-comment-count" data-disqus-identifier="FlowerPassword-for-Mac-V1-0/" href="/FlowerPassword-for-Mac-V1-0/#disqus_thread"></a><div class="post-content">周末写了个自用的小工具，花密 for Mac。
+其中，shortcut.icn...</div><p class="readmore"><a href="/turn-shell-script-to-app/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/FlowerPassword-for-Mac-V1-0/">花密 for Mac V1.0</a></h1><div class="post-meta">2018-04-23</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">周末写了个自用的小工具，花密 for Mac。
 官方客户端年久失修，不得不每次都打开网页版，实在不方便，遂自己动手写了个。
 
 
@@ -24,11 +32,11 @@ html.dataset.dark = localStorage.dark;
 并没有上架 Mac App Store。
 👉👉🏻👉🏼👉🏽👉🏾👉🏿 花密 for Mac V1.0 ✌️
 NEW:
-Version 2.0 已上架 ...</div><p class="readmore"><a href="/FlowerPassword-for-Mac-V1-0/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/DateFormatter/">DateFormatter</a></h1><div class="post-meta">2018-04-20</div><a class="disqus-comment-count" data-disqus-identifier="DateFormatter/" href="/DateFormatter/#disqus_thread"></a><div class="post-content">在项目中，许多页面要用到 DateFormatter，还有许多的日期格式，然后就创建许多 DateFormatter，而创建 DateFormatter 是需要许多开销的，还是会影响性能的，虽然现在设备的性能很高，但还是值得去优化的。
+Version 2.0 已上架 ...</div><p class="readmore"><a href="/FlowerPassword-for-Mac-V1-0/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/DateFormatter/">DateFormatter</a></h1><div class="post-meta">2018-04-20</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">在项目中，许多页面要用到 DateFormatter，还有许多的日期格式，然后就创建许多 DateFormatter，而创建 DateFormatter 是需要许多开销的，还是会影响性能的，虽然现在设备的性能很高，但还是值得去优化的。
 
 Apple 的文档中也提到：
 
-Creating a date formatter is not a cheap oper...</div><p class="readmore"><a href="/DateFormatter/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/favicon/">获取网站 favicon.ico 图标</a></h1><div class="post-meta">2018-04-19</div><a class="disqus-comment-count" data-disqus-identifier="favicon/" href="/favicon/#disqus_thread"></a><div class="post-content">
+Creating a date formatter is not a cheap oper...</div><p class="readmore"><a href="/DateFormatter/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/favicon/">获取网站 favicon.ico 图标</a></h1><div class="post-meta">2018-04-19</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">
 favicon.ico
 favicon.ico 用途
 如何获取 favicon.ico
@@ -44,9 +52,9 @@ http[s]😕/domain/favicon.ico
 这个图标一般都是放在网站的根目录下的，当打开一个网站时，会显示在浏览器标签页上。
 
  favicon.ico 用途
-比如 Alfred 中自定义...</div><p class="readmore"><a href="/favicon/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/anchor-points-in-local-html/">UIWebView 加载本地 HTML 时的锚点问题</a></h1><div class="post-meta">2018-04-18</div><a class="disqus-comment-count" data-disqus-identifier="anchor-points-in-local-html/" href="/anchor-points-in-local-html/#disqus_thread"></a><div class="post-content">UIWebView 加载本地的 HTML 时，HTML 中的锚点是无效的，需要特殊处理，可以通过 JavaScript 来实现。
+比如 Alfred 中自定义...</div><p class="readmore"><a href="/favicon/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/anchor-points-in-local-html/">UIWebView 加载本地 HTML 时的锚点问题</a></h1><div class="post-meta">2018-04-18</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">UIWebView 加载本地的 HTML 时，HTML 中的锚点是无效的，需要特殊处理，可以通过 JavaScript 来实现。
 
-1234567func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNaviga...</div><p class="readmore"><a href="/anchor-points-in-local-html/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/iCollect-v1_2-iColor-v1_1_1/">iCollect v1.2 和 iColor v1.1.1 发布</a></h1><div class="post-meta">2018-04-17</div><a class="disqus-comment-count" data-disqus-identifier="iCollect-v1_2-iColor-v1_1_1/" href="/iCollect-v1_2-iColor-v1_1_1/#disqus_thread"></a><div class="post-content">今早 iCollect 1.2 版本和 iColor 1.1.1 版本通过审核，上架 App Store。
+1234567func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNaviga...</div><p class="readmore"><a href="/anchor-points-in-local-html/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/iCollect-v1_2-iColor-v1_1_1/">iCollect v1.2 和 iColor v1.1.1 发布</a></h1><div class="post-meta">2018-04-17</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">今早 iCollect 1.2 版本和 iColor 1.1.1 版本通过审核，上架 App Store。
 
  iCollect v1.2
 
@@ -65,14 +73,14 @@ App 名称由 iColors 更为 iColor
 错误修复
 
 下个版本将会带来新的设计。
-</div><p class="readmore"><a href="/iCollect-v1_2-iColor-v1_1_1/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/macos-awesome-settings/">macOS 个性化设置</a></h1><div class="post-meta">2018-04-09</div><a class="disqus-comment-count" data-disqus-identifier="macos-awesome-settings/" href="/macos-awesome-settings/#disqus_thread"></a><div class="post-content">macOS 个性化设置，通过命令行开启 macOS 的隐藏功能，下面的脚本是我的个性化设置。
+</div><p class="readmore"><a href="/iCollect-v1_2-iColor-v1_1_1/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/macos-awesome-settings/">macOS 个性化设置</a></h1><div class="post-meta">2018-04-09</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">macOS 个性化设置，通过命令行开启 macOS 的隐藏功能，下面的脚本是我的个性化设置。
 
  sudo macos-awesome-settings.sh
-1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545...</div><p class="readmore"><a href="/macos-awesome-settings/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/runtime-reject-uialertcontroller-dismiss/">使用 Runtime 禁止 UIAlertController 消失</a></h1><div class="post-meta">2018-04-08</div><a class="disqus-comment-count" data-disqus-identifier="runtime-reject-uialertcontroller-dismiss/" href="/runtime-reject-uialertcontroller-dismiss/#disqus_thread"></a><div class="post-content">在开发中经常遇到一些需要弹框 UIAlertController 一直显示不消失的需求，如登录时等。但一般的，不管点击取消或确定按钮，弹框都会消失。今天就用 Runtime 这个“黑魔法”来实现这个需求。
+1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545...</div><p class="readmore"><a href="/macos-awesome-settings/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/runtime-reject-uialertcontroller-dismiss/">使用 Runtime 禁止 UIAlertController 消失</a></h1><div class="post-meta">2018-04-08</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">在开发中经常遇到一些需要弹框 UIAlertController 一直显示不消失的需求，如登录时等。但一般的，不管点击取消或确定按钮，弹框都会消失。今天就用 Runtime 这个“黑魔法”来实现这个需求。
 
 首先在 UIAlertAction 的回调里打个断点，看下 UIAlertController 调用的方法：
 
-可以看到 UIAlertControll...</div><p class="readmore"><a href="/runtime-reject-uialertcontroller-dismiss/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/exercism/objective-c/5/">Objective-C 习题（五）</a></h1><div class="post-meta">2018-03-29</div><a class="disqus-comment-count" data-disqus-identifier="exercism/objective-c/5/" href="/exercism/objective-c/5/#disqus_thread"></a><div class="post-content">Objective-C 练习题，题目来源 exercism.io，一共 50 题，见 GitHub。
+可以看到 UIAlertControll...</div><p class="readmore"><a href="/runtime-reject-uialertcontroller-dismiss/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/exercism/objective-c/5/">Objective-C 习题（五）</a></h1><div class="post-meta">2018-03-29</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')--><div class="post-content">Objective-C 练习题，题目来源 exercism.io，一共 50 题，见 GitHub。
 第五篇共 10 题，完。
 
 
@@ -89,11 +97,5 @@ App 名称由 iColors 更为 iColor
 # Strain
 # Run Length Encoding
 # Luhn
-#...</div><p class="readmore"><a href="/exercism/objective-c/5/">阅读全文</a></p></div><div class="post"><h1 class="post-title"><a href="/anchor-point/">Markdown 中的锚点语法</a></h1><div class="post-meta">2018-03-27</div><a class="disqus-comment-count" data-disqus-identifier="anchor-point/" href="/anchor-point/#disqus_thread"></a><div class="post-content">
-Markdown 中的锚点语法：[标题](#标题) ，比如
-1234567891011[第一级标题](#第一级标题)[第二级标题](#第二级标题)[第六级标题](#第六级标题)# 第一级标题## 第二级标题...###### 第六级标题
-
-
-标题中的空格要替换成连字符 -，如
-123[Hello World](#Hello-World)## Hello W...</div><p class="readmore"><a href="/anchor-point/">阅读全文</a></p></div><nav class="page-navigator"><a class="extend prev" rel="prev" href="/page/19/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/18/">18</a><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><a class="page-number" href="/page/22/">22</a><a class="extend next" rel="next" href="/page/21/">下一页</a></nav><script id="dsq-count-scr" src="//kiligwyu.disqus.com/count.js" async></script></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+#...</div><p class="readmore"><a href="/exercism/objective-c/5/">阅读全文</a></p></div><nav class="page-navigator"><a class="extend prev" rel="prev" href="/page/19/">上一页</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/18/">18</a><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><a class="page-number" href="/page/22/">22</a><a class="page-number" href="/page/23/">23</a><a class="extend next" rel="next" href="/page/21/">下一页</a></nav><script id="dsq-count-scr" src="//kiligwyu.disqus.com/count.js" async></script></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
 <br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
