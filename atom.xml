@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2025-01-13T14:52:20.383Z</updated>
+  <updated>2025-01-20T13:19:39.075Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #142（2025.01.20）</title>
+    <link href="http://kiligwyu.com/newsletter/142/"/>
+    <id>http://kiligwyu.com/newsletter/142/</id>
+    <published>2025-01-20T11:53:26.000Z</published>
+    <updated>2025-01-20T13:19:39.075Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 142 期。本篇是对过去一周（01.13 - 01.19）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-door/1691699589?i=1691699849"></iframe><p><br>又是 996 的一周，赶年前的版本需求，不过周四（01.23）我就放假了。</p><p>购买了 <a href="https://apps.apple.com/app/id1549159979">uPic</a>，macOS 上原生的图片上传工具，相比之前使用的跨平台 PicGo，动辄两三百兆的内存占用，uPic 只要不到 50M，虽然只是偶尔简单使用，<em>#为好应用买单</em>。</p><p><a href="https://www.cnbeta.com.tw/articles/game/1471896.htm">有传言《丝之歌》快要发布了，大约在四月份</a>，我把《空洞骑士》又捡起来玩玩，好多年没玩了，进度差不多 80% 了，手残不想玩，周末找了个插件 <a href="https://github.com/fifty-six/Scarab">Scarab</a>，装了几个 mod，有修复手柄的 mod、有简单模式的 mod、有秒杀所有虫子包括自己的 mod 等等，游戏一下子简单了许多，手残也能玩了。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li><a href="https://mp.weixin.qq.com/s/lth_l2jPNcPrcwJZuJ4D5g">中国“擦边”简史</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7483.html">我的三观（世界观、价值观、人生观）</a></li><li>道哥 vulgur - <a href="https://mp.weixin.qq.com/s/9RRdsQ7A0wu1_AqYCfeTBg">独立开发周记 85：2024 年终总结</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://www.bilibili.com/video/BV12PceewEyY/">《惊 喜》：游戏科学蛇年贺岁小短片_黑神话悟空</a></li><li>两颗皮蛋 - <a href="https://www.bilibili.com/video/BV1hPwqeXEon/">[杜比]赢了又如何？浅谈本世代游戏主机战争｜PS5｜PS5 Pro｜XSS</a></li><li>冷科普 - <a href="https://www.bilibili.com/video/BV1mowAeEEFn/">轴承里的滚珠掉不出来，它又是怎么放进去的？看完解开多年疑惑！</a></li><li>三木刃 - <a href="https://www.bilibili.com/video/BV1rTwPerEVG/">一只视频 让鬼畜区集体 “穿越” 回五年前！</a></li><li>郭云神奇 - <a href="https://www.bilibili.com/video/BV1eKcde3EME/">《鹿鼎记》10 万字拆解：1 场暗黑「鸿门宴」的终极博弈！洞悉了权力的本质？04</a></li><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV1NpchepEux/">《黑神话：悟空》一大波官方周边来袭！开箱开个够！</a><br />黑神话的周边看得我也想买了…</li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=-6ElLlMUaoI">童年揭密：从小喝到大，但你根本不了解娃哈哈…</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://github.com/seadfeng/favicon-downloader">seadfeng/favicon-downloader</a></li><li><a href="https://www.uisdc.com/hunter/0221606148.html">苹果门店为什么将 MacBook 摆放角度调整为 76 度？</a></li><li><a href="https://github.com/fifty-six/Scarab">fifty-six/Scarab</a>: An installer for Hollow Knight mods written in Avalonia.</li><li><a href="https://apps.apple.com/app/id6740155555">YinYun: Minimalist Air Quality</a></li></ul><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737378563.webp" style="width: 50%; display: inline-block;" alt=""></div><br><ul><li><em>#NSFW <a href="https://limbopro.com/archives/31512.html">那些收藏数破万的经典番号</a></em></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 142 期。本篇是对过去一周（01.13 - 01.19）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #141（2025.01.13）</title>
@@ -502,30 +528,6 @@
     
     
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>iPhone 16 Pro Max 使用体验</title>
-    <link href="http://kiligwyu.com/iPhone-16-Pro-Max/"/>
-    <id>http://kiligwyu.com/iPhone-16-Pro-Max/</id>
-    <published>2024-10-18T05:55:46.000Z</published>
-    <updated>2024-10-18T15:28:27.429Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用 iPhone 16 Pro Max 已经有三周了，总的来说很满意，这里简单记录一下。</p><h2 id="购买"><a class="markdownIt-Anchor" href="#购买"></a> 购买</h2><p>我的上一台 iPhone 还是 2019 年发布的 11 Pro Max，512GB、暗夜绿色，是我很喜欢的颜色，11 系列发布那年的 11 月份买的。这几年用下来，我一直没有戴壳和贴膜，今年大约四五月份时候后背玻璃摔碎了，边框四角有些磕碰掉漆，屏幕上有两三道稍深些的划痕，但不细看也看不出来，电池容量也降到了 74%，iOS 系统越来越大，加上硬件损耗，发热卡顿也越来越严重，续航大大降低，今年早些时候我就决定买今年的新 iPhone 了。</p><p>每年 iPhone 都挤牙膏一样，变化不大，但从 11 Pro Max 升级到 16 Pro Max，那升级可就很大了。屏幕从 6.5 英寸增大到 6.9 英寸，边框更窄、支持 ProMotion、全天候显示、亮度也增加了；芯片从 A13 升级到 A18 Pro；电池更大，续航大幅增加；摄像头升级、灵动岛功能、、USB-C 接口、5G 蜂窝网络、操作按钮、相机控制等等，升级巨大，详细的对比可见 <a href="https://www.apple.com.cn/iphone/compare/?modelList=iphone-11-pro-max,iphone-16-pro-max">iPhone 11 Pro Max 和 iPhone 16 Pro Max 机型比较</a>。</p><p>iPhone 16 系列发布后，我竟然还有些犹豫，一是觉得 11 其实也够用，换个电池，相能依旧足够；二是不想再用国行版，Apple Intelligence 的饼也吃不上。这里非常感谢 <a href="https://twitter.com/hzlzh">@hzlzh</a> 老师，看到 <a href="https://twitter.com/hzlzh/status/1838806953637925230">自力老师买了港版的 iPhone 16 Pro Max</a>，我发邮件过去咨询了下，最后也决定买港版，在闲鱼上找了个看上去靠谱的卖家，上海线下面交。最后买了港版 iPhone 16 Pro Max，512GB、白色，今年的白色很好看，沙漠色也好看，白色有现货就买了白色。</p><h2 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h2><p>出色的大屏、超长的续航、流畅的系统，总之我很满意。</p><h3 id="线缆"><a class="markdownIt-Anchor" href="#线缆"></a> 线缆</h3><p>我的旧手机 11 Pro Max，卖不上价了，继续留着自用，拿来当测试机。11 还是 Lighting 的接口，所以 Lighting 线缆还要用，我现在用到的线缆有些多，A2L、A2C、C2L、C2C，还有 A-Micro USB，加上 Apple Watch 的充电线，太多线了，全升级到 C 口也要一笔开销，也不可能，毕竟一些没有 C 口的设备也是刚需，C2C 一根线走天下还要很长的时间啊。</p><h3 id="壳与膜"><a class="markdownIt-Anchor" href="#壳与膜"></a> 壳与膜</h3><p>我的 11 就没戴壳和贴膜，虽然屏幕有些划痕，后背玻璃也摔碎了，那是因为手机用久了，就想换新的，用起来也没那么爱惜了，摔坏了就有借口买新的了 🤣。<br />我 16 也不戴壳和贴膜，像我比较仔细、爱惜东西的人，而且现在的手机也还挺耐摔，没必要为了几乎不会发生的事情，而戴壳贴膜，牺牲掉科技进步所带来的使用体验。但万一发生了小概率事件，虽然肉疼但我接受，就跟不买保险一样。</p><h3 id="软硬件"><a class="markdownIt-Anchor" href="#软硬件"></a> 软硬件</h3><p>系统与软件这方面跟我的 11 比起来，没有多大的不同，11 上没有的灵动岛是我很喜欢的，灵动岛的交互让人心情愉悦。<br />另外就是港版跟国行的差别了，没有了低电量的弹框、App 首次打开时的联网弹框等，使用体验有些微提升。<br />在一个就是 Apple Intelligence 的饼了，我主力使用美区的 Apple Account，可以使用苹果智能了，虽然港版也用不了 ChatGPT，而且 Siri 也只能用英文的，我日常用 Siri 也不多，苹果智能加持的 Siri 依旧是不太聪明的样子，还要很长的路要走。<br />相机控制按键，跟大家吐槽的一样，不太好用，我拍照也少，但多一个快速启动相机入口也是不错的，希望苹果之后可以通过系统更新，提升相机控制按键的使用体验，并开放更多功能给该按键。</p><h2 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h2><p>要问我 iPhone 16 Pro Max 上最喜欢的功能是什么，答案是几年前的 iPhone 上早就有了的灵动岛和全天候显示了。<br />都说 iPhone 16 Pro 系列是新一代钉子户机型，我也觉得，各方面都很优秀，还能用上 Apple Intelligence，我的下一台 iPhone 或许是 iPhone 21？。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;使用 iPhone 16 Pro Max 已经有三周了，总的来说很满意，这里简单记录一下。&lt;/p&gt;
-&lt;h2 id=&quot;购买&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#购买&quot;&gt;&lt;/a&gt; 购买&lt;/h2&gt;
-&lt;p&gt;我的上一台 iPhone 还是 201</summary>
-      
-    
-    
-    
-    
-    <category term="iPhone 16 Pro Max" scheme="http://kiligwyu.com/tags/iPhone-16-Pro-Max/"/>
     
   </entry>
   
