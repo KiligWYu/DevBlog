@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2025-01-20T13:19:39.075Z</updated>
+  <updated>2025-01-27T14:31:17.414Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #143（2025.01.27）</title>
+    <link href="http://kiligwyu.com/newsletter/143/"/>
+    <id>http://kiligwyu.com/newsletter/143/</id>
+    <published>2025-01-27T05:31:12.000Z</published>
+    <updated>2025-01-27T14:31:17.414Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 143 期。本篇是对过去一周（01.20 - 01.26）的记录、思考与分享。</p><hr /><p>过年好！朋友们！</p><p>看了电影 <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737959879.webp" style="width: 50%; display: inline-block;" alt="蓦然回首 ルックバック (2024)"></div><br><p>已经放假回家了，在家陪小朋友玩，每次回来都有很多变化，话越来越多了，越来越懂事了，很可爱很好玩。<br />已经开始沉迷抖音了，天天说看抖音看抖音，还会微信里翻哥哥姐姐弟弟妹妹们的视频看。<br />还会玩 Siri 了，经常抱着我的手表或手机“Hi Siri”，Siri 一回应她，可开心了 😄。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=L9uPDsuebTo">为 14 亿人供电，有多难？丨How hard to power 1.4 billion people?</a></li><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV1pYw8eSEVs/">2024 年单机主机游戏游玩清单！找到你钟意的那一款~</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://apps.apple.com/app/pieoneer/id6739781207">Pieoneer</a><br />macOS 上又一款好看的快捷启动、切换应用的工具。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737986698.webp" style="width: 50%; display: inline-block;" alt="Pieoneer"></div><br></li><li><a href="https://apps.apple.com/app/id6740568639">Couplets by NIX</a><br />圣诞节有 <a href="https://www.festivitas.app/">在桌面放置彩灯串的应用</a>，现在春节到了，可以在桌面上放置对联了。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737986796.webp" style="width: 50%; display: inline-block;" alt="Couplets by NIX"></div><br></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://medicine.lvwzhen.com/">进口原研药目录</a></li><li><a href="https://github.com/MattBlackOnly/TubeTube">MattBlackOnly/TubeTube</a>: YouTube Downloader using yt-dlp.</li><li><a href="https://github.com/wojciech-kulik/FlashSpace">wojciech-kulik/FlashSpace</a>: FlashSpace is a blazingly fast virtual workspace manager for macOS ⚡.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 143 期。本篇是对过去一周（01.20 - 01.26）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;过年好！朋友们！&lt;/p&gt;
+&lt;p&gt;看了电影 &lt;a href=&quot;https://movie.douban.com/s</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #142（2025.01.20）</title>
@@ -123,9 +150,9 @@
     <link href="http://kiligwyu.com/learninpublic/2025/"/>
     <id>http://kiligwyu.com/learninpublic/2025/</id>
     <published>2025-01-06T12:15:36.000Z</published>
-    <updated>2025-01-13T14:40:27.900Z</updated>
+    <updated>2025-01-27T14:01:11.701Z</updated>
     
-    <content type="html"><![CDATA[<p>2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><ul><li><a href="#%E7%94%B5%E5%BD%B1">电影</a><ul><li><a href="#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5%8F%8B-lets-go-to-prison-2006">1. 01.03: ★ 同居牢友 Let’s Go to Prison (2006)</a></li><li><a href="#2-0103-%E5%9D%A0%E8%90%BD%E7%9A%84%E5%AE%A1%E5%88%A4-anatomie-dune-chute-2023">2. 01.03: ★ 坠落的审判 Anatomie d’une chute (2023)</a></li><li><a href="#3-0105-%E8%90%8D%E6%B0%B4%E7%9B%B8%E8%85%90%E6%AA%90%E5%BB%8A%E4%B8%8B-%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%BC%E3%81%AE%E7%B8%81%E5%81%B4-2022">3. 01.05: ★ 萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></li><li><a href="#4-0112-%E7%8C%AB%E7%8C%AB%E7%9A%84%E5%A5%87%E5%B9%BB%E6%BC%82%E6%B5%81-straume-2024">4. 01.12: ★ 猫猫的奇幻漂流 Straume (2024)</a></li></ul></li></ul><hr /><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><h3 id="1-0103-同居牢友-lets-go-to-prison-2006"><a class="markdownIt-Anchor" href="#1-0103-同居牢友-lets-go-to-prison-2006"></a> 1. 01.03: ★ <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><h3 id="2-0103-坠落的审判-anatomie-dune-chute-2023"><a class="markdownIt-Anchor" href="#2-0103-坠落的审判-anatomie-dune-chute-2023"></a> 2. 01.03: ★ <a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><h3 id="3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"><a class="markdownIt-Anchor" href="#3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"></a> 3. 01.05: ★ <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br><h3 id="4-0112-猫猫的奇幻漂流-straume-2024"><a class="markdownIt-Anchor" href="#4-0112-猫猫的奇幻漂流-straume-2024"></a> 4. 01.12: ★ <a href="https://movie.douban.com/subject/35603727/">猫猫的奇幻漂流 Straume (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501132226290.webp" style="width: 50%; display: inline-block;" alt="猫猫的奇幻漂流 Straume (2024)"></div><br>]]></content>
+    <content type="html"><![CDATA[<p>2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><ul><li><a href="#%E7%94%B5%E5%BD%B1">电影</a><ul><li><a href="#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5%8F%8B-lets-go-to-prison-2006">1. 01.03: ★ 同居牢友 Let’s Go to Prison (2006)</a></li><li><a href="#2-0103-%E5%9D%A0%E8%90%BD%E7%9A%84%E5%AE%A1%E5%88%A4-anatomie-dune-chute-2023">2. 01.03: ★ 坠落的审判 Anatomie d’une chute (2023)</a></li><li><a href="#3-0105-%E8%90%8D%E6%B0%B4%E7%9B%B8%E8%85%90%E6%AA%90%E5%BB%8A%E4%B8%8B-%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%BC%E3%81%AE%E7%B8%81%E5%81%B4-2022">3. 01.05: ★ 萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></li><li><a href="#4-0112-%E7%8C%AB%E7%8C%AB%E7%9A%84%E5%A5%87%E5%B9%BB%E6%BC%82%E6%B5%81-straume-2024">4. 01.12: ★ 猫猫的奇幻漂流 Straume (2024)</a></li><li><a href="#5-0122-%E8%93%A6%E7%84%B6%E5%9B%9E%E9%A6%96-%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF-2024">5. 01.22: ★ 蓦然回首 ルックバック (2024)</a></li></ul></li></ul><hr /><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><h3 id="1-0103-同居牢友-lets-go-to-prison-2006"><a class="markdownIt-Anchor" href="#1-0103-同居牢友-lets-go-to-prison-2006"></a> 1. 01.03: ★ <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><h3 id="2-0103-坠落的审判-anatomie-dune-chute-2023"><a class="markdownIt-Anchor" href="#2-0103-坠落的审判-anatomie-dune-chute-2023"></a> 2. 01.03: ★ <a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><h3 id="3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"><a class="markdownIt-Anchor" href="#3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"></a> 3. 01.05: ★ <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br><h3 id="4-0112-猫猫的奇幻漂流-straume-2024"><a class="markdownIt-Anchor" href="#4-0112-猫猫的奇幻漂流-straume-2024"></a> 4. 01.12: ★ <a href="https://movie.douban.com/subject/35603727/">猫猫的奇幻漂流 Straume (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501132226290.webp" style="width: 50%; display: inline-block;" alt="猫猫的奇幻漂流 Straume (2024)"></div><br><h3 id="5-0122-蓦然回首-ルックバック-2024"><a class="markdownIt-Anchor" href="#5-0122-蓦然回首-ルックバック-2024"></a> 5. 01.22: ★ <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737959879.webp" style="width: 50%; display: inline-block;" alt="蓦然回首 ルックバック (2024)"></div><br>]]></content>
     
     
       
@@ -493,33 +520,6 @@
 &lt;hr /&gt;
 &lt;ul&gt;
 &lt;li&gt;之前的碎周报里，有时候会遗漏些内容，我一般会发在评论区，现在我决定还是更新在正文里，博客的评论功能，</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #129（2024.10.21）</title>
-    <link href="http://kiligwyu.com/newsletter/129/"/>
-    <id>http://kiligwyu.com/newsletter/129/</id>
-    <published>2024-10-21T14:13:50.000Z</published>
-    <updated>2024-10-22T14:12:52.963Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 129 期。本篇是对过去一周（10.14 - 10.20）的记录、思考与分享。</p><hr /><p>10.22 更新：</p><p>有一些忘了发的，我都会发在评论里，我觉得还是在正文里补写一下，毕竟评论哪天我可能就关掉了。</p><p>我还买了个小鹰背包，Osprey Daylite Plus 黑色 20L。这里还要感谢 <a href="https://x.com/hzlzh">@hzlzh</a> 老师的，之前看自力老师的推文，说要换背包，我发邮件过去询问了，最后还是买的小鹰，那我也下单小鹰吧。<br />我的上个背包还是开信用卡刷卡送的，没有型、没有侧边网兜，就两仓，一个放电脑，一个放其他东西，都没地方放 iPad 了，早就想换了的，一直凑合背着。<br />这个背包，我刚拿到时候，感觉有点大，不过实际上背起来也正好，小一号的 13L 稍有点小，装不下我以后要买的 16 寸电脑，背负系统，也没可参照的。以后就背这个包了。</p><p>还有一首乐音忘了发了， <a href="https://music.apple.com/us/album/whiskey-sunset/1741754984?i=1741754987">MV 的 Whiskey Sunset</a>，也是 <a href="https://space.bilibili.com/1859934844">电影广角镜</a> 制作的 <a href="https://space.bilibili.com/1859934844/channel/collectiondetail?sid=3794811">风骚律师的象征和隐喻</a> 系列视频的片头曲。</p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/whiskey-sunset/1741754984?i=1741754987"></iframe><hr /><p>最近才开始在 YouTube 上看一些国内的单口喜剧节目，有很多喜欢的演员，像呼兰、毛豆、黑灯、付航等，什么时候有机会去线下看一次。</p><p>我的港版 iPhone 16 Pro Max 使用也快一个月了，简单写了篇 <a href="/iPhone-16-Pro-Max/">iPhone 16 Pro Max 使用体验</a>。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV1nimjYgEco/">31《黑神话：悟空》全流程、剧情讲解梳理、4K 最高画质攻略【第六回：未竟】03.全结局，完结！</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=Hy1U63vhXdc">原产于中国的拉面，为什么会成为日本国民美食？</a></li><li>Little Chinese Everywhere - <a href="https://www.youtube.com/watch?v=9XHAx8gkOOM">Where CHINA meets NORTH KOREA 🇨🇳🇰🇵 I S2, EP96</a></li><li>-LKs- - <a href="https://www.bilibili.com/video/BV1pQCmYdE1b/">包场整个音乐厅，用云宫迅音带你听懂交响乐！</a><br />什么时候也去线下听一场音乐会。</li><li>十万个品牌故事 - <a href="https://www.bilibili.com/video/BV1B5CRYPEQ9/">世界上最猛的润滑剂，为何让男人爱不释手？</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=s3iM7VslPsQ">一口气了解洗钱 它能玩得有多花</a></li><li>纪实杂谈 - <a href="https://www.youtube.com/watch?v=MkREAsri5i4">《黑神话悟空》还有另外的结局？制作人：说了太多东西，真不敢放出来！</a></li><li>付航脱口秀 - <a href="https://www.bilibili.com/video/BV15g411A7Z9/">付航的故事动画片</a></li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://anotherdayu.com/2024/5962/">博客作者呀，我想采访你这 9 个问题！</a></li><li><a href="https://www.brain-hole.org/post/summary/">一通举报电话背后的故事让我脊背发凉</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>蓝点网 - <a href="https://www.landiannews.com/archives/106201.html">苹果工程师解释钥匙串生成的随机密码：让你短时间内记住但不会长期记住</a></li><li><a href="https://shots.so">Create Amazing Mockups</a></li><li><a href="https://github.com/jaywcjlove/awesome-swift-macos-apps">jaywcjlove/awesome-swift-macos-apps</a></li><li>Jimmy Cheung - <a href="https://www.figma.com/community/file/1405488261476464561">Somno Sleep App Illustration Design</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 129 期。本篇是对过去一周（10.14 - 10.20）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;10.22 更新：&lt;/p&gt;
-&lt;p&gt;有一些忘了发的，我都会发在评论里，我觉得还是在正文里补写一下，毕竟评论哪天我可</summary>
       
     
     
