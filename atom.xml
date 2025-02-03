@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2025-01-27T14:31:17.414Z</updated>
+  <updated>2025-02-03T14:40:10.879Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #144（2025.02.03）</title>
+    <link href="http://kiligwyu.com/newsletter/144/"/>
+    <id>http://kiligwyu.com/newsletter/144/</id>
+    <published>2025-02-03T14:10:57.000Z</published>
+    <updated>2025-02-03T14:40:10.879Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 144 期。本篇是对过去一周（01.27 - 02.02）的记录、思考与分享。</p><hr /><p>新年快乐啊朋友们！假期快要结束了，到返程的时间了，祝朋友们返程一路平安，新的一年身体健康工作顺利！<br />我还有一周才上班 😄✌️。</p><p>除夕是在丈母娘家过的，有些无聊，我决定以后还是在自己家过。<br />这些年过年，都没回我老家，主要是天气太冷，老家没有暖气没有空调的，干什么都不太方便，大人凑合也就算了，主要是小朋友，就别受那份罪了。</p><p>春节期间，市区里应该是禁放烟花爆竹的，具体政策我也没了解，很多路口、放烟花的地方都有警察值守。不过还是有非常多放烟花的，除夕自不必说，噼里啪啦一整夜。但其他晚上午夜了还有放巨响的炮仗，这就有些扰民，过分了，我猜他们收到的新年祝福抵不消收到的诅咒谩骂了。</p><p>我之前也说过很多次了，我假期一般很少开电脑、玩手机，主要都用来陪家人陪小朋友了。目前打发时间玩的是 Apple Arcade 上的 <a href="https://apps.apple.com/app/id6596757342">疯狂动物园</a>，一款六七年前很火的动物跑酷游戏，游戏刚出时候也玩过一段时间，后来怎么不玩了已经不记得了，Apple Arcade 上的版本算是非常干净的了。</p><p>所以本期就没有“一堆链接”了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 144 期。本篇是对过去一周（01.27 - 02.02）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;新年快乐啊朋友们！假期快要结束了，到返程的时间了，祝朋友们返程一路平安，新的一年身体健康工作顺利！&lt;br /&gt;
+</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #143（2025.01.27）</title>
@@ -493,33 +520,6 @@
     <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 131 期。本篇是对过去一周（10.28 - 11.03）的记录、思考与分享。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;在读库的微信小程序上买了读库 2025 全年阅读计划（M 计划：两个月读两本），上一次购买读库还是 2022 年</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #130（2024.10.28）</title>
-    <link href="http://kiligwyu.com/newsletter/130/"/>
-    <id>http://kiligwyu.com/newsletter/130/</id>
-    <published>2024-10-28T13:47:07.000Z</published>
-    <updated>2024-10-28T14:48:02.349Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 130 期。本篇是对过去一周（10.21 - 10.27）的记录、思考与分享。</p><hr /><ul><li>之前的碎周报里，有时候会遗漏些内容，我一般会发在评论区，现在我决定还是更新在正文里，博客的评论功能，以后可能就关闭了。</li><li>当我要在 Mac App Store 买软件时候，才发现我的付款方式没了，账单地址被覆盖成了购物地址，可能是我前段时间误操作造成的，也没注意。<br />我用的是美区的 Apple ID，付款方式使用的是美区的 PayPal，当我要修改账单地址时，发现没那么容易，在手机端设置时，电话号码的区号老师被自动格式化为 1 位，本应该是 3 位；在网页端上，就没有电话号码的输入框，提交一点反应都没，看接口报错也是电话的原因；在 Mac App Store 里设置，老师提示“Try again later”。<br />于是我先买了张 $50 的 Gift Card，付款成功，先用着。<br />又经过多次尝试，最后在 Mac App Store 里添加 PayPal 成功了，怎么成功的我也很懵，先试了添加 Visa 卡，肯定失败的，在 Visa 卡后面有个 PayPal，点了就成功了，我之前试过直接添加 PayPal 的。反正最后是设置 PayPal 付款成功了。</li><li>看了 <a href="https://johnresig.com/blog/write-code-every-day/">Write Code Every Day</a> 这篇文章，我觉得我也可以实践下作者提出的“Write Code Every Day”的理念，要做的事情太多，会加重拖延症，每天做一些，每天进步一点。<br />但我发现就这也不是很容易坚持的，因为每天要做的事情还是太多，看书、学英语、练习打字、Side Projects 等等，Todoist、Reading List、RSS 订阅、邮件订阅等，又攒了太多内容，本来就不多的空余时间，有时候周末还要回家，晚上火车白天陪小朋友玩，要做到“Write Code Every Day”也不是件容易的事情，不过，每天总有些空余时间，不管多少，要做的事情没法全做可以做一部分，正所谓“不积跬步，无以至千里；不积小流，无以成江海。”。</li><li>由于公司法务合规问题，现在一个月只能上十五天的班了，本月又能休息一周了，正好回家陪小朋友玩。</li><li>看了电影 <a href="https://movie.douban.com/subject/26656728/">泳者之心 Young Woman and the Sea (2024)</a> 和 <a href="https://movie.douban.com/subject/1291580/">杀死比尔 Kill Bill: Vol. 1 (2003)</a>。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410282155860.webp" style="width: 50%;" alt="泳者之心 Young Woman and the Sea (2024)"><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202410282155859.webp" style="width: 50%;" alt="杀死比尔 Kill Bill: Vol. 1 (2003)"></li><li>小朋友晚上在床上疯玩的时候，不知怎的，胳膊（肘关节）又脱臼了，之前左胳膊脱臼过，两次，这次是右胳膊，好在媳妇儿是儿童医院大夫，医院的人脉广，找了住在附近的骨科大夫，几秒钟就复位了。带小朋友还是要注意些的，脱臼多了反而会更容易脱臼，习惯性脱臼。<br />我小时候胳膊也脱臼过一次，上小学了，秋天的一个月圆之夜，跟朋友们在（麦）厂上疯玩，肩关节脱臼了，我爸半夜带我去找村里的大夫，给纠正过来。</li></ul><h3 id="文章"><a class="markdownIt-Anchor" href="#文章"></a> 文章</h3><ul><li><a href="https://johnresig.com/blog/write-code-every-day/">Write Code Every Day</a></li><li><a href="https://yinji.org/5339.html">一天之中最舒服的时刻 - 印记</a></li></ul><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>是老胡没错 - <a href="https://www.bilibili.com/video/BV1QsyBYjE95/">一生嘴硬的男人们</a></li><li>斑鸠鸭 - <a href="https://www.bilibili.com/video/BV1X5yaYfEYj/">从方小萍到许三多，国产剧谁还赞美“愚人”？</a></li><li>斑鸠鸭 - <a href="https://www.bilibili.com/video/BV1EUyoYkE8v/">新一代的脱口秀喜剧之王，为什么是他？</a></li><li>橙红Iris - <a href="https://www.bilibili.com/video/BV1wPyLYYEQB/">【买齐所有】vivo 编年史(2012 - 2024）：生存，还是理想？这是个问题</a></li><li>Leya蕾雅 - <a href="https://www.youtube.com/watch?v=XEDKVgRxySs">痛入骨髓 - 最強心理恐怖遊戲「寂靜嶺 2」原版+重製版完整鑒賞 ︳沉默之丘2 ︳Silent Hill 2 Original + Remake Retrospective</a></li><li>六分超超 - <a href="https://www.bilibili.com/video/BV1cpyWYHESd/">没人比苹果更懂“抄袭”了…</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://basicappleguy.com/basicappleblog/iphone-16-pro-internals">iPhone 16 Pro &amp; Pro Max Internals Wallpapers</a></li><li><a href="https://neo-developer.binbat.com">Neo Developer - 新生代开发者指南</a>：本文档类似经典课程《计算机教育中缺失的一课》但更加注重工程化和团队协作效率</li><li><a href="https://janereader.com">Jane Reader - A modern epub reader</a></li><li><a href="https://x.com/Jimmy_JingLv/status/1848720927087022469">制糖工厂的充电宝又炸了</a><br />制糖工厂家的产品设计的很好，很好看，但质量安全方面可能差一些，为好设计买单的前提是安全。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 130 期。本篇是对过去一周（10.21 - 10.27）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;之前的碎周报里，有时候会遗漏些内容，我一般会发在评论区，现在我决定还是更新在正文里，博客的评论功能，</summary>
       
     
     
