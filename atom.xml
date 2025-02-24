@@ -6,7 +6,7 @@
   <link href="http://kiligwyu.com/atom.xml" rel="self"/>
   
   <link href="http://kiligwyu.com/"/>
-  <updated>2025-02-17T14:47:20.449Z</updated>
+  <updated>2025-02-24T15:22:42.109Z</updated>
   <id>http://kiligwyu.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kilig 的碎周报 - #147（2025.02.24）</title>
+    <link href="http://kiligwyu.com/newsletter/147/"/>
+    <id>http://kiligwyu.com/newsletter/147/</id>
+    <published>2025-02-24T05:37:58.000Z</published>
+    <updated>2025-02-24T15:22:42.109Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 147 期。本篇是对过去一周（02.17 - 02.23）的记录、思考与分享。</p><hr /><iframe width="560" height="315" src="https://www.youtube.com/embed/JRnDYB28bL8?si=69zqOz0TJX__svWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><hr /><ol><li><p>最近改用 <a href="https://www.startpage.com/">Startpage</a> 作为默认的搜索引擎，在配置 Alfred 快速发起 Startpage 搜索时，遇到个问题，Startpage 发起的搜索用的 POST 请求，而 Alfred Web Search 只能用 GET 请求，用 Workflow 的话又该如何实现，我咨询了 DeepSeek 如何用 Alfred 快速发起 Startpage 搜索，DeepSeek 给的方案：创建一个 Workflow，Run Script（如下），在浏览器中打开一个临时的自动提交的表单。</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">query=<span class="string">&quot;&#123;query&#125;&quot;</span></span><br><span class="line"><span class="comment"># 生成临时 HTML 文件路径</span></span><br><span class="line">html_path=<span class="string">&quot;/tmp/startpage_post.html&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建自动提交表单的 HTML</span></span><br><span class="line"><span class="built_in">cat</span> &lt;&lt;<span class="string">EOF &gt; $html_path</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">  &lt;body&gt;</span></span><br><span class="line"><span class="string">    &lt;form id=&quot;searchForm&quot; action=&quot;https://www.startpage.com/sp/search&quot; method=&quot;POST&quot;&gt;</span></span><br><span class="line"><span class="string">      &lt;input type=&quot;hidden&quot; name=&quot;query&quot; value=&quot;$query&quot;/&gt;</span></span><br><span class="line"><span class="string">    &lt;/form&gt;</span></span><br><span class="line"><span class="string">    &lt;script&gt;document.getElementById(&#x27;searchForm&#x27;).submit();&lt;/script&gt;</span></span><br><span class="line"><span class="string">  &lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br><span class="line"><span class="string">EOF</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用浏览器打开临时 HTML 文件</span></span><br><span class="line">open <span class="variable">$html_path</span></span><br></pre></td></tr></table></figure><p>妙啊，是我未曾想到的方案。但是 AI 的答案我们要“小心求证”，比如这里 DeepSeek 给的提交表单的 action 是 <code>/do/search</code>，而我查了下 Startpage 官网，action 是 <code>/sp/search</code>（我也试了下 <code>do/search</code> 确实也行，但还是用官网的 <code>sp/search</code>）。</p></li><li><p>整理了下邮件，该删除的删除，该归档的归档。对于收到的一些如验证码、广告邮件、垃圾邮件等不重要的邮件随手删除，重要邮件定期归档，做好邮箱管理，避免邮件堆积。</p></li><li><p><em>#差生文具多</em> 冲颜值买了 IQUNIX MG65 键盘，白色太好看了，官方店铺缺货（现在应该有了），在闲鱼上淘到了好价，¥578，在我的闲鱼的浏览历史里，同款键盘都很快就卖出了，可见这可键盘有多火，价位都在 ¥600+，我刚好刷到了这个成色好还低价的，就果断下手了。到手试用了下，挺好用，我也很喜欢，就是这 65 键盘的布局，没有 F1, F2, etc. 键倒是无所谓，反正平时也几乎用不到，但少了 <code>~</code> 和 <code>`</code>，这两个键还是很常用的，需要靠组合键 <code>fn + ⇧ + \</code> 和 <code>fn + \</code> 来实现了。<br />少数派上有一篇关于此键盘的文章 - <a href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a>。<br />我之前在用的 Keychron K6 红轴的键盘，在蓝牙连接模式下，部分按键经常断触，也就弃用吃灰了。想放闲鱼上出了，但断触的问题我也不确定是键盘本身的问题还是与 macOS 系统兼容性问题还是什么别的问题，如果是键盘本身的问题，那放闲鱼就有点坑买家了，另外我也看了下闲鱼上这款键盘的行情，价格低到几十一百，还无人问津，当废品也不好出，就先继续放着吃灰吧。</p></li></ol><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1740409437.jpg" style="width: 50%; display: inline-block;" alt="IQUNIX MG65 键盘 - 少数派文章的题图"></div><br><hr /><ul><li>少数派 - <a href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a></li><li><a href="https://blog.xxm.plus/14c118ea4e24801ca8c5ef716c65b89e">一件关于帮助的小事</a></li><li><a href="https://blog.solazy.me/20250220/">对于少数群体，我选择「无声的尊重」</a></li><li><a href="https://ourai.ws/posts/twenty-two-years-of-wild-growth/">野蛮生长廿二年</a></li><li><a href="https://youmemark.com/user/CmGzCzwpeegxFiqAytUoWAhfdHeVgJWh">Randy Lu 的 Bookmark</a></li><li><a href="https://www.swift.org/blog/how-swifts-server-support-powers-things-cloud/">How Swift’s server support powers Things Cloud</a></li><li><a href="https://www.macrumors.com/how-to/make-any-file-a-template-macos-tool/">Make Any File a Template Using This Hidden macOS Tool</a></li></ul><hr /><ul><li>Apple TV - <a href="https://www.youtube.com/watch?v=JRnDYB28bL8">Severance — Music To Refine To feat. ODESZA | Apple TV+</a></li><li>oooooohmygosh - <a href="https://www.bilibili.com/video/BV1C7A8e9EBd/">如何设计一款流行两千年的字体？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1ydAzeUE7r/">暴打 4K 屏，CRT 显示器玩老游戏居然显示效果更好？</a></li><li>是玉木呀 - <a href="https://b23.tv/vWRPDn6">【玉木】小米的设计追上苹果了吗？</a></li><li>陈一枝你坐下 - <a href="https://www.bilibili.com/video/BV1pUA2eqECw/">大男主如何管理小金库？</a></li><li>橙红 Iris - <a href="https://www.youtube.com/watch?v=dKO7X0V5I3o">薄了，然后呢？好用吗？适配了吗？折痕有吗？OPPO Find N5 十问十答</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=ayWGMVlz47s">世界上最高的貓，雪山之巔的老虎，用生命在捕獵的傳奇大貓，雪豹的瘋狂真相！</a></li></ul><hr /><ul><li><a href="https://youmemark.com/">YouMeMark</a>: Bookmark for you and your friends.</li><li><a href="https://fancy-guavaberry-f60.notion.site/vps">VPS 常用脚本  | Notion</a></li><li><a href="https://basicappleguy.com/haberdashery/newest-member">Newest Member to the Apple Family Wallpaper</a></li></ul><hr /><ul><li><a href="https://github.com/zzzdajb/DickHelper">zzzdajb/DickHelper</a>: 🙈</li><li><a href="https://github.com/BewlyBewly/BewlyBewly">BewlyBewly/BewlyBewly</a>: Just make a few small changes to your Bilibili homepage.</li><li><a href="https://github.com/ccbikai/hacker-news">ccbikai/hacker-news</a>: 一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 147 期。本篇是对过去一周（02.17 - 02.23）的记录、思考与分享。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.c</summary>
+      
+    
+    
+    
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    
+  </entry>
   
   <entry>
     <title>Kilig 的碎周报 - #146（2025.02.17）</title>
@@ -497,33 +523,6 @@
 &lt;hr /&gt;
 &lt;p&gt;本周继续“Write Code Every Day”，重写的项目快完成了，下周发布。&lt;/p&gt;
 &lt;p&gt;昨天看了 &lt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Kilig 的碎周报 - #132（2024.11.11）</title>
-    <link href="http://kiligwyu.com/newsletter/132/"/>
-    <id>http://kiligwyu.com/newsletter/132/</id>
-    <published>2024-11-11T12:26:05.000Z</published>
-    <updated>2024-11-15T02:38:39.352Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 132 期。本篇是对过去一周（11.04 - 11.10）的记录、思考与分享。</p><hr /><p>本周继续践行“Write Code Every Day”，继续整合已有的几个项目。</p><p>买了几本书，有技术书也有非技术书，距上次买实体书已经好长好长时间了。还买了些其他可以提升生活质量的东西，比如电热毯，一个人租房住时候的过冬利器，虽然现在还不冷，也可以派上用场，天气不好没有晾晒条件或者梅雨季时候，可以拿电热毯来除湿；还买了烘鞋器，我属于脚汗比较厉害的体质，有了烘鞋器，每天早上都可以穿上干爽的鞋了。</p><hr /><p>11.14 更新：</p><p>下班时候下雨了，我是属于雨天走路特别容易湿鞋的人，老是把水甩到鞋面上，有了烘鞋器，就无惧湿鞋了，到家一会就烘干了。<br />尽管下雨，我有带伞。每天早上出门前都会看下天气，可能下雨的话就带上伞。不过夏天时候，天气多变，雷阵雨说来就来，就天天带着伞。<br />毕导老师之前也发过一起视频：<a href="https://www.bilibili.com/video/BV1ZT42167nx/">常在雨天走，如何不湿鞋？</a>。</p><hr /><p>之前看到 Dayu 老师的 <a href="https://anotherdayu.com/2024/5962/">博客作者呀，我想采访你这 9 个问题！</a> 的问卷，我也来回答了一下，见上一篇 <a href="/blog-questionnaire-response/">答问卷</a>。</p><p>本周看了两步电影 <a href="https://movie.douban.com/subject/1291584/">杀死比尔 2 Kill Bill: Vol. 2 (2004)</a> 和 <a href="https://movie.douban.com/subject/36406672/">饥饿站台 2 El hoyo 2 (2024)</a>，饥饿站台 2 的豆瓣评分好低啊，要看下电影解析才能看懂电影。<br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411112131233.webp" style="width: 50%;" alt="杀死比尔 2 Kill Bill: Vol. 2 (2004)"><br /><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202411112131234.webp" style="width: 50%;" alt="饥饿站台 2 El hoyo 2 (2024)"></p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1L31MYqESz/">诺奖韩江【素食者】男性视角下的女性丢失了什么</a></li><li>郭云神奇 - <a href="https://b23.tv/qqJPczq">《大话西游》1 个「被删减」的唐僧，却暗藏着全片最残酷的真相！（大结局）</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1znDmYaE5y/">国行 iPhone 无线充电功率腰斩，到底是谁的锅？</a></li><li>大家车 - YYP - <a href="https://www.bilibili.com/video/BV183m5YUEbv/">这是一部前无古人，后无来者的行政座驾【雪铁龙 C6 车颜论】</a></li><li>波音谷 - <a href="https://www.bilibili.com/video/BV1ipiFeyEfy/">拍视频5年，我终于明白什么是好看的色彩</a></li><li>戀愛的本質 - <a href="https://www.youtube.com/watch?v=y8WpWGiNPN4">惨不忍睹丨2024 年 11 月懂车帝在凌晨悄悄上线了中国多个热销汽车的碰撞测试</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>Dota 2 更新了新英雄『凯 / Kez』，一只大鸟，很强，<a href="https://www.dota2.com/kez">官网</a> 里还有几张壁纸可以收了。</li><li><a href="https://github.com/s1ntoneli/Copi">s1ntoneli/Copi</a>: A Secure Alternative to macOS Clipboard</li><li>Hello wallpaper by <a href="https://x.com/BasicAppleGuy/status/1854177606377120029">@@BasicAppleGuy</a></li><li><a href="https://x.com/gokunocool/status/1854573553418703192">@gokunocool</a> 分享了泰国的一些有意思的细节。</li><li><a href="https://icraft.gantcloud.com">iCraft Editor - Architecture Diagram Drawing Tool</a></li><li><a href="https://x-comfort-browser.xyz">X-Comfort-Browser · 内容平台注意力保护插件</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 132 期。本篇是对过去一周（11.04 - 11.10）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;本周继续践行“Write Code Every Day”，继续整合已有的几个项目。&lt;/p&gt;
-&lt;p&gt;买了几本书，有</summary>
       
     
     

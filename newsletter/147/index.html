@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Kilig 的碎周报 - #147（2025.02.24） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-YLMXL0J5N0');
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Kilig 的碎周报 - #147（2025.02.24）</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">Kilig 的碎周报 - #147（2025.02.24）</h1><div class="post-meta">2025-02-24<span> | </span><span class="category"><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/">碎周报</a></span></div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')--><div class="post-content"><p>Hi There! 感谢阅读 Kilig 的碎周报第 147 期。本篇是对过去一周（02.17 - 02.23）的记录、思考与分享。</p>
+<hr />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JRnDYB28bL8?si=69zqOz0TJX__svWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+<hr />
+<ol>
+<li>
+<p>最近改用 <a target="_blank" rel="noopener" href="https://www.startpage.com/">Startpage</a> 作为默认的搜索引擎，在配置 Alfred 快速发起 Startpage 搜索时，遇到个问题，Startpage 发起的搜索用的 POST 请求，而 Alfred Web Search 只能用 GET 请求，用 Workflow 的话又该如何实现，我咨询了 DeepSeek 如何用 Alfred 快速发起 Startpage 搜索，DeepSeek 给的方案：创建一个 Workflow，Run Script（如下），在浏览器中打开一个临时的自动提交的表单。</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">query=<span class="string">&quot;&#123;query&#125;&quot;</span></span><br><span class="line"><span class="comment"># 生成临时 HTML 文件路径</span></span><br><span class="line">html_path=<span class="string">&quot;/tmp/startpage_post.html&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建自动提交表单的 HTML</span></span><br><span class="line"><span class="built_in">cat</span> &lt;&lt;<span class="string">EOF &gt; $html_path</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">  &lt;body&gt;</span></span><br><span class="line"><span class="string">    &lt;form id=&quot;searchForm&quot; action=&quot;https://www.startpage.com/sp/search&quot; method=&quot;POST&quot;&gt;</span></span><br><span class="line"><span class="string">      &lt;input type=&quot;hidden&quot; name=&quot;query&quot; value=&quot;$query&quot;/&gt;</span></span><br><span class="line"><span class="string">    &lt;/form&gt;</span></span><br><span class="line"><span class="string">    &lt;script&gt;document.getElementById(&#x27;searchForm&#x27;).submit();&lt;/script&gt;</span></span><br><span class="line"><span class="string">  &lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br><span class="line"><span class="string">EOF</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用浏览器打开临时 HTML 文件</span></span><br><span class="line">open <span class="variable">$html_path</span></span><br></pre></td></tr></table></figure>
+<p>妙啊，是我未曾想到的方案。但是 AI 的答案我们要“小心求证”，比如这里 DeepSeek 给的提交表单的 action 是 <code>/do/search</code>，而我查了下 Startpage 官网，action 是 <code>/sp/search</code>（我也试了下 <code>do/search</code> 确实也行，但还是用官网的 <code>sp/search</code>）。</p>
+</li>
+<li>
+<p>整理了下邮件，该删除的删除，该归档的归档。对于收到的一些如验证码、广告邮件、垃圾邮件等不重要的邮件随手删除，重要邮件定期归档，做好邮箱管理，避免邮件堆积。</p>
+</li>
+<li>
+<p><em>#差生文具多</em> 冲颜值买了 IQUNIX MG65 键盘，白色太好看了，官方店铺缺货（现在应该有了），在闲鱼上淘到了好价，¥578，在我的闲鱼的浏览历史里，同款键盘都很快就卖出了，可见这可键盘有多火，价位都在 ¥600+，我刚好刷到了这个成色好还低价的，就果断下手了。到手试用了下，挺好用，我也很喜欢，就是这 65 键盘的布局，没有 F1, F2, etc. 键倒是无所谓，反正平时也几乎用不到，但少了 <code>~</code> 和 <code>`</code>，这两个键还是很常用的，需要靠组合键 <code>fn + ⇧ + \</code> 和 <code>fn + \</code> 来实现了。<br />
+少数派上有一篇关于此键盘的文章 - <a target="_blank" rel="noopener" href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a>。<br />
+我之前在用的 Keychron K6 红轴的键盘，在蓝牙连接模式下，部分按键经常断触，也就弃用吃灰了。想放闲鱼上出了，但断触的问题我也不确定是键盘本身的问题还是与 macOS 系统兼容性问题还是什么别的问题，如果是键盘本身的问题，那放闲鱼就有点坑买家了，另外我也看了下闲鱼上这款键盘的行情，价格低到几十一百，还无人问津，当废品也不好出，就先继续放着吃灰吧。</p>
+</li>
+</ol>
+<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1740409437.jpg" style="width: 50%; display: inline-block;" alt="IQUNIX MG65 键盘 - 少数派文章的题图"></div><br>
+<hr />
+<ul>
+<li>少数派 - <a target="_blank" rel="noopener" href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.xxm.plus/14c118ea4e24801ca8c5ef716c65b89e">一件关于帮助的小事</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.solazy.me/20250220/">对于少数群体，我选择「无声的尊重」</a></li>
+<li><a target="_blank" rel="noopener" href="https://ourai.ws/posts/twenty-two-years-of-wild-growth/">野蛮生长廿二年</a></li>
+<li><a target="_blank" rel="noopener" href="https://youmemark.com/user/CmGzCzwpeegxFiqAytUoWAhfdHeVgJWh">Randy Lu 的 Bookmark</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.swift.org/blog/how-swifts-server-support-powers-things-cloud/">How Swift’s server support powers Things Cloud</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.macrumors.com/how-to/make-any-file-a-template-macos-tool/">Make Any File a Template Using This Hidden macOS Tool</a></li>
+</ul>
+<hr />
+<ul>
+<li>Apple TV - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=JRnDYB28bL8">Severance — Music To Refine To feat. ODESZA | Apple TV+</a></li>
+<li>oooooohmygosh - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1C7A8e9EBd/">如何设计一款流行两千年的字体？</a></li>
+<li>柴知道 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ydAzeUE7r/">暴打 4K 屏，CRT 显示器玩老游戏居然显示效果更好？</a></li>
+<li>是玉木呀 - <a target="_blank" rel="noopener" href="https://b23.tv/vWRPDn6">【玉木】小米的设计追上苹果了吗？</a></li>
+<li>陈一枝你坐下 - <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1pUA2eqECw/">大男主如何管理小金库？</a></li>
+<li>橙红 Iris - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=dKO7X0V5I3o">薄了，然后呢？好用吗？适配了吗？折痕有吗？OPPO Find N5 十问十答</a></li>
+<li>老肉雜談 - <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ayWGMVlz47s">世界上最高的貓，雪山之巔的老虎，用生命在捕獵的傳奇大貓，雪豹的瘋狂真相！</a></li>
+</ul>
+<hr />
+<ul>
+<li><a target="_blank" rel="noopener" href="https://youmemark.com/">YouMeMark</a>: Bookmark for you and your friends.</li>
+<li><a target="_blank" rel="noopener" href="https://fancy-guavaberry-f60.notion.site/vps">VPS 常用脚本  | Notion</a></li>
+<li><a target="_blank" rel="noopener" href="https://basicappleguy.com/haberdashery/newest-member">Newest Member to the Apple Family Wallpaper</a></li>
+</ul>
+<hr />
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/zzzdajb/DickHelper">zzzdajb/DickHelper</a>: 🙈</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/BewlyBewly/BewlyBewly">BewlyBewly/BewlyBewly</a>: Just make a few small changes to your Bilibili homepage.</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/ccbikai/hacker-news">ccbikai/hacker-news</a>: 一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。</li>
+</ul>
+</div><div class="tags"><a href="/tags/newsletter"><i class="fa fa-tag">newsletter</i></a></div><div class="post-nav"><a class="next" href="/newsletter/146/">Kilig 的碎周报 - #146（2025.02.17）</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', '//disqus.com/next/config.json', true);
+  xhr.timeout = 2500;
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      $('.post-meta .post-comments-count').show();
+      var s = document.createElement('script');
+      s.id = 'dsq-count-scr';
+      s.src = 'https://kiligwyu.disqus.com/count.js';
+      s.async = true;
+      (document.head || document.body).appendChild(s);
+    }
+  };
+  xhr.ontimeout = function () { xhr.abort(); };
+  xhr.send(null);
+});</script><div class="comments" id="disqus_thread"><script type="text/javascript">// Load comments with DisqusJS
+function loadComments() {
+  window.dsqjs = new DisqusJS({
+    shortname: 'kiligwyu',
+    siteName: '𝕶𝖎𝖑𝖎𝖌\'𝖘 𝕭𝖑𝖔𝖌',
+    identifier: 'newsletter/147/',
+    url: 'http://kiligwyu.com/newsletter/147/',
+    title: 'Kilig 的碎周报 - #147（2025.02.24）',
+    api: '',
+    apikey: '',
+    admin: 'kiligwyu',
+    adminLabel: ''
+  });
+}
+// Lazy load {# Credit: https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/comments/disqus.swig #}
+(function () {
+  var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+  if (offsetTop <= 0) {
+    // Load directly when there's no scrollbar
+    window.addEventListener('load', loadComments, false);
+  } else {
+    var disqusScroll = function () {
+      // offsetTop may changes because of manually resizing browser window or lazy loading images
+      var offsetTop = document.getElementById('disqus_thread').offsetTop - window.innerHeight;
+      var scrollTop = window.scrollY;
+
+      // Pre-load comments a bit? (margin or anything else)
+      if (offsetTop - scrollTop < 60) {
+        window.removeEventListener('scroll', disqusScroll);
+        loadComments();
+      }
+    };
+    window.addEventListener('scroll', disqusScroll);
+  }
+})();
+// Scroll to comments automatically if #comment-xxx anchor specified
+window.addEventListener('load', function () {
+  // I don't know why, it just works.
+  window.setTimeout(function () {
+    if (location.hash.indexOf('#comment-') !== -1) {
+      document.getElementById('disqus_thread').scrollIntoView(true);
+    }
+  }, 100);
+}, false);
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
