@@ -1,540 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>𝕶𝖎𝖑𝖎𝖌&#39;𝖘 𝕭𝖑𝖔𝖌</title>
-  
-  <subtitle>代码之外</subtitle>
-  <link href="http://kiligwyu.com/atom.xml" rel="self"/>
-  
-  <link href="http://kiligwyu.com/"/>
-  <updated>2025-04-01T08:06:37.337Z</updated>
-  <id>http://kiligwyu.com/</id>
-  
   <author>
     <name>𝕶𝖎𝖑𝖎𝖌</name>
-    
   </author>
-  
   <generator uri="https://hexo.io/">Hexo</generator>
-  
+  <id>http://kiligwyu.com/</id>
+  <link href="http://kiligwyu.com/" rel="alternate"/>
+  <link href="http://kiligwyu.com/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 𝕶𝖎𝖑𝖎𝖌</rights>
+  <subtitle>代码之外</subtitle>
+  <title>𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title>
+  <updated>2025-04-01T08:06:37.000Z</updated>
   <entry>
-    <title>Kilig 的碎周报 - #152（2025.03.31）</title>
-    <link href="http://kiligwyu.com/newsletter/152/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 152 期。本篇是对过去一周（03.24 - 04.01）的记录、思考与分享。</p><hr /><p>周三接公司通知，本月不用上班了，立马买了晚上的坐票，回家了。<br />周五接前公司电话，让去帮下忙改改项目，周五下午去了，加周六一天周一一天，差不多改完了，本来改动不大，奈何项目太久没有维护了，光是跑起来就费了老大劲儿。<br />周一接公司通知，4 月开始要远程办公了。<br />本来这篇是要 31 日发的，晚上有些焦虑，完全没有心情写。就愚人节发吧。</p><p>看完了 <a href="https://movie.douban.com/subject/34890017/">流人 第一季 Slow Horses Season 1 (2022)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1743492405.webp" style="width: 50%; display: inline-block;" alt="流人 第一季 Slow Horses Season 1 (2022)"></div><br><hr /><ul><li><a href="https://blog.citrons.cc/my-first-time-being-exposed-online/">第一次被「掛」上網路後，我的回應與感想</a></li><li>少数派 - <a href="https://sspai.com/post/96419">2024 年开咖啡店从开业到转让的感悟</a></li></ul><hr /><ul><li><a href="https://1drv.ms/f/c/8c700e9541693be4/QuQ7aUGVDnAggIyWCAAAAAAADJceZ7bIpHwsLA">必应 2025.03 超高清无水印壁纸</a></li><li><a href="https://developer.apple.com/accessories/Accessory-Design-Guidelines.pdf">Accessory Design Guidelines for Apple Devices</a></li><li><a href="https://github.com/mozilla/mozilla-type-family">mozilla/mozilla-type-family</a>: A collection of custom fonts for Mozilla</li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/152/</id>
+    <link href="http://kiligwyu.com/newsletter/152/"/>
     <published>2025-03-31T02:47:34.000Z</published>
-    <updated>2025-04-01T08:06:37.337Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 152 期。本篇是对过去一周（03.24 - 04.01）的记录、思考与分享。</p><hr /><p>周三接公司通知，本月不用上班了，立马买了晚上的坐票，回家了。<br />周五接前公司电话，让去帮下忙改改项目，周五下午去了，加周六一天周一一天，差不多改完了，本来改动不大，奈何项目太久没有维护了，光是跑起来就费了老大劲儿。<br />周一接公司通知，4 月开始要远程办公了。<br />本来这篇是要 31 日发的，晚上有些焦虑，完全没有心情写。就愚人节发吧。</p><p>看完了 <a href="https://movie.douban.com/subject/34890017/">流人 第一季 Slow Horses Season 1 (2022)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1743492405.webp" style="width: 50%; display: inline-block;" alt="流人 第一季 Slow Horses Season 1 (2022)"></div><br><hr /><ul><li><a href="https://blog.citrons.cc/my-first-time-being-exposed-online/">第一次被「掛」上網路後，我的回應與感想</a></li><li>少数派 - <a href="https://sspai.com/post/96419">2024 年开咖啡店从开业到转让的感悟</a></li></ul><hr /><ul><li><a href="https://1drv.ms/f/c/8c700e9541693be4/QuQ7aUGVDnAggIyWCAAAAAAADJceZ7bIpHwsLA">必应 2025.03 超高清无水印壁纸</a></li><li><a href="https://developer.apple.com/accessories/Accessory-Design-Guidelines.pdf">Accessory Design Guidelines for Apple Devices</a></li><li><a href="https://github.com/mozilla/mozilla-type-family">mozilla/mozilla-type-family</a>: A collection of custom fonts for Mozilla</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 152 期。本篇是对过去一周（03.24 - 04.01）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;周三接公司通知，本月不用上班了，立马买了晚上的坐票，回家了。&lt;br /&gt;
-周五接前公司电话，让去帮下忙改改项目，</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 152 期。本篇是对过去一周（03.24 - 04.01）的记录、思考与分享。</p>
+<hr />
+<p>周三接公司通知，本月不用上班了，立马买了晚上的坐票，回家了。<br />
+周五接前公司电话，让去帮下忙改改项目，]]>
+    </summary>
+    <title>Kilig 的碎周报 - #152（2025.03.31）</title>
+    <updated>2025-04-01T08:06:37.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #151（2025.03.24）</title>
-    <link href="http://kiligwyu.com/newsletter/151/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 151 期。本篇是对过去一周（03.17 - 03.23）的记录、思考与分享。</p><hr /><ul><li>看完了《<a href="https://book.douban.com/subject/37109336/">读库 2501</a>》</li></ul><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820126.webp" style="width: 50%; display: inline-block;" alt="读库 2501"></div><br><ul><li>看完了 <a href="https://movie.douban.com/subject/35783948/">人生切割术 第二季 Severance Season 2 (2025)</a>，接下来看 <a href="https://movie.douban.com/subject/34890017/">流人 Slow Horses</a>。<br /><a href="https://basicappleguy.com/haberdashery/the-exalted-victory-of-cold-harbor">最后一集中的 THE EXALTED VICTORY OF COLD HARBOR 壁纸</a> via <a href="https://x.com/BasicAppleGuy/status/1903536748636057901">@BasicAppleGuy</a>。</li></ul><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820146.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第二季 Severance Season 2 (2025)"></div><br><ul><li>《刺客信条：影》发布了，刺客信条系列我还是很喜欢的，跑酷、潜行、暗杀，不过每一代似乎也都差不多，但我也就在大学时期玩过刺客信条，哪一代也不记得了，等有机会就玩玩每一代。</li><li><a href="https://apps.apple.com/app/id6737565099">StevePinyin</a> 2.0（还在 TestFlight 内测中）支持给联系人添加头像了，<a href="https://surgeee.me/steve-2/">Steve 分享的头像包</a>，目前已经支持跳过已有头像了，还缺少覆盖头像的功能，那我只好先自己写个删除头像的小工具配合使用。</li></ul><hr /><ul><li>橙红Iris - <a href="https://www.bilibili.com/video/BV1s6QBYDETB/">重2g，续航12天，智能戒指是智商税吗？RingConn Gen 2 一个月体验</a></li><li>是玉木呀 - <a href="https://www.bilibili.com/video/BV1b8QBYtEzJ/">一起进来的同事都晋升了，我还留在原地</a></li><li>Redknot-乔红 - <a href="https://www.bilibili.com/video/BV1SGXsYxESV/">内存和显存的区别</a></li><li>画渣花小烙 - <a href="https://www.bilibili.com/video/BV1XTXsYfE8A/">【花小烙】不小心食物中毒，身体里会发生什么？</a></li><li>Drew Builds Stuff - <a href="https://www.youtube.com/watch?v=Tnfk1uOb42c">FINISHING MY TINY HOUSE - The Final Video</a></li><li>医学边界 - <a href="https://www.bilibili.com/video/BV1kYQRY8Evm/">罂粟、吗啡，海洛因：为什么止痛药和毒品总是一线之隔？| 阿片类药物</a></li></ul><hr /><ul><li><a href="https://poptranslate.app/">A Better Way to Translate Text with AI on Mac</a><br />图拉鼎老师的新作 PopTranslate，macOS AI 翻译工具，<a href="https://imtx.me/blog/the-story-behind-the-development-of-poptranslate/">开发 PopTranslate 背后的故事</a>。<br />不过我不是其目标用户，或者说我完全没必要没动力成为其用户，虽然 AI 翻译质量确实比机翻要好很多，但平时也不需要很高的翻译质量，系统自带的词典、翻译（直接右键菜单 Look Up、Translate），再加上欧路词典、Google 翻译脚本（Tampermonkey）、Immersive Translate 拓展、苹果智能（Writing Tools）等完全够用了，必要时也可以交给 AI 客户端来翻译，就不必再花钱订阅一个翻译工具了。<br />不过有需要的朋友不妨试试。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820163.webp" style="width: 50%; display: inline-block;" alt="系统右键菜单中的 Look Up、Translate、Writing Tools"></div><br></li><li>少数派 - <a href="https://sspai.com/post/97355">那些被 Apple 收购的公司，现在怎么样了？</a></li><li><a href="https://floor796.com/">Floor796</a></li><li><a href="https://www.ftium4.com/Apple-Easter-Eggs.html">苹果软件中的彩蛋大揭秘，你知道几个？</a></li><li><a href="https://www.cnbeta.com.tw/articles/tech/1487110.htm">xAI Grok人工智能应用登陆 Telegram 但目前仅限会员使用</a><br />我有 Telegram Premium 会员，可以白嫖一下 Grok。不过会员到期后我不打算续费了，平时 Telegram 使用的少，会员功能也没啥吸引力。</li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/151/</id>
+    <link href="http://kiligwyu.com/newsletter/151/"/>
     <published>2025-03-24T12:09:31.000Z</published>
-    <updated>2025-03-24T12:56:52.954Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 151 期。本篇是对过去一周（03.17 - 03.23）的记录、思考与分享。</p><hr /><ul><li>看完了《<a href="https://book.douban.com/subject/37109336/">读库 2501</a>》</li></ul><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820126.webp" style="width: 50%; display: inline-block;" alt="读库 2501"></div><br><ul><li>看完了 <a href="https://movie.douban.com/subject/35783948/">人生切割术 第二季 Severance Season 2 (2025)</a>，接下来看 <a href="https://movie.douban.com/subject/34890017/">流人 Slow Horses</a>。<br /><a href="https://basicappleguy.com/haberdashery/the-exalted-victory-of-cold-harbor">最后一集中的 THE EXALTED VICTORY OF COLD HARBOR 壁纸</a> via <a href="https://x.com/BasicAppleGuy/status/1903536748636057901">@BasicAppleGuy</a>。</li></ul><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820146.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第二季 Severance Season 2 (2025)"></div><br><ul><li>《刺客信条：影》发布了，刺客信条系列我还是很喜欢的，跑酷、潜行、暗杀，不过每一代似乎也都差不多，但我也就在大学时期玩过刺客信条，哪一代也不记得了，等有机会就玩玩每一代。</li><li><a href="https://apps.apple.com/app/id6737565099">StevePinyin</a> 2.0（还在 TestFlight 内测中）支持给联系人添加头像了，<a href="https://surgeee.me/steve-2/">Steve 分享的头像包</a>，目前已经支持跳过已有头像了，还缺少覆盖头像的功能，那我只好先自己写个删除头像的小工具配合使用。</li></ul><hr /><ul><li>橙红Iris - <a href="https://www.bilibili.com/video/BV1s6QBYDETB/">重2g，续航12天，智能戒指是智商税吗？RingConn Gen 2 一个月体验</a></li><li>是玉木呀 - <a href="https://www.bilibili.com/video/BV1b8QBYtEzJ/">一起进来的同事都晋升了，我还留在原地</a></li><li>Redknot-乔红 - <a href="https://www.bilibili.com/video/BV1SGXsYxESV/">内存和显存的区别</a></li><li>画渣花小烙 - <a href="https://www.bilibili.com/video/BV1XTXsYfE8A/">【花小烙】不小心食物中毒，身体里会发生什么？</a></li><li>Drew Builds Stuff - <a href="https://www.youtube.com/watch?v=Tnfk1uOb42c">FINISHING MY TINY HOUSE - The Final Video</a></li><li>医学边界 - <a href="https://www.bilibili.com/video/BV1kYQRY8Evm/">罂粟、吗啡，海洛因：为什么止痛药和毒品总是一线之隔？| 阿片类药物</a></li></ul><hr /><ul><li><a href="https://poptranslate.app/">A Better Way to Translate Text with AI on Mac</a><br />图拉鼎老师的新作 PopTranslate，macOS AI 翻译工具，<a href="https://imtx.me/blog/the-story-behind-the-development-of-poptranslate/">开发 PopTranslate 背后的故事</a>。<br />不过我不是其目标用户，或者说我完全没必要没动力成为其用户，虽然 AI 翻译质量确实比机翻要好很多，但平时也不需要很高的翻译质量，系统自带的词典、翻译（直接右键菜单 Look Up、Translate），再加上欧路词典、Google 翻译脚本（Tampermonkey）、Immersive Translate 拓展、苹果智能（Writing Tools）等完全够用了，必要时也可以交给 AI 客户端来翻译，就不必再花钱订阅一个翻译工具了。<br />不过有需要的朋友不妨试试。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820163.webp" style="width: 50%; display: inline-block;" alt="系统右键菜单中的 Look Up、Translate、Writing Tools"></div><br></li><li>少数派 - <a href="https://sspai.com/post/97355">那些被 Apple 收购的公司，现在怎么样了？</a></li><li><a href="https://floor796.com/">Floor796</a></li><li><a href="https://www.ftium4.com/Apple-Easter-Eggs.html">苹果软件中的彩蛋大揭秘，你知道几个？</a></li><li><a href="https://www.cnbeta.com.tw/articles/tech/1487110.htm">xAI Grok人工智能应用登陆 Telegram 但目前仅限会员使用</a><br />我有 Telegram Premium 会员，可以白嫖一下 Grok。不过会员到期后我不打算续费了，平时 Telegram 使用的少，会员功能也没啥吸引力。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 151 期。本篇是对过去一周（03.17 - 03.23）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;看完了《&lt;a href=&quot;https://book.douban.com/subject/37109</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 151 期。本篇是对过去一周（03.17 - 03.23）的记录、思考与分享。</p>
+<hr />
+<ul>
+<li>看完了《<a href="https://book.douban.com/subject/37109]]>
+    </summary>
+    <title>Kilig 的碎周报 - #151（2025.03.24）</title>
+    <updated>2025-03-24T12:56:52.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #150（2025.03.17）</title>
-    <link href="http://kiligwyu.com/newsletter/150/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 150 期。本篇是对过去一周（03.10 - 03.16）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/devils-resting-place/1440824439?i=1440825441&l=zh-Hans-CN"></iframe><br><br><p>看完了 <a href="https://movie.douban.com/subject/36323224/">豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742210995.webp" style="width: 50%; display: inline-block;" alt="豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)"></div><br><p>周末买了 <a href="https://store.steampowered.com/app/427520/Factorio/">Factorio</a>，玩了下，一天多就没了 🤣，不过已经退烧了。场景复杂了我的 M1 开始有点点卡顿了。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742210992.webp" style="width: 50%; display: inline-block;" alt="Steam 商城里的 Factorio"></div><br><hr /><ul><li>波音谷 - <a href="https://www.bilibili.com/video/BV11KQJYwEnk/">为啥你对拍摄这么焦虑?那就停止复制吧</a></li><li>SteveMould - <a href="https://www.bilibili.com/video/BV1KnQTYPE9J/">充气人偶为何舞动？软管不稳定性</a></li><li>下尺报告 - <a href="https://www.bilibili.com/video/BV1vfRVYGER9/">好家伙，商家你是真不怕我回来给差评啊！</a></li><li>画渣花小烙 - <a href="https://www.bilibili.com/video/BV1Z49mYMEnx/">眼皮上为什么会突然长麦粒肿？</a></li></ul><hr /><ul><li><a href="https://macos-defaults.com/">A list of macOS defaults commands with demos ✨</a><br />macOS 上有许多的隐藏功能 / 设置，可以通过命令行开启 / 设置，这个网站就搜集了很多的命令行设置。</li><li><a href="https://sindresorhus.com/googly-eyes">Googly Eyes</a><br />网页上 App Logo 居然也做了鼠标追踪 😄。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742211483.webp" style="width: 50%; display: inline-block;" alt="Googly Eyes - Screenshot"></div><br></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/150/</id>
+    <link href="http://kiligwyu.com/newsletter/150/"/>
     <published>2025-03-17T11:20:56.000Z</published>
-    <updated>2025-03-17T12:27:27.435Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 150 期。本篇是对过去一周（03.10 - 03.16）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/devils-resting-place/1440824439?i=1440825441&l=zh-Hans-CN"></iframe><br><br><p>看完了 <a href="https://movie.douban.com/subject/36323224/">豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742210995.webp" style="width: 50%; display: inline-block;" alt="豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)"></div><br><p>周末买了 <a href="https://store.steampowered.com/app/427520/Factorio/">Factorio</a>，玩了下，一天多就没了 🤣，不过已经退烧了。场景复杂了我的 M1 开始有点点卡顿了。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742210992.webp" style="width: 50%; display: inline-block;" alt="Steam 商城里的 Factorio"></div><br><hr /><ul><li>波音谷 - <a href="https://www.bilibili.com/video/BV11KQJYwEnk/">为啥你对拍摄这么焦虑?那就停止复制吧</a></li><li>SteveMould - <a href="https://www.bilibili.com/video/BV1KnQTYPE9J/">充气人偶为何舞动？软管不稳定性</a></li><li>下尺报告 - <a href="https://www.bilibili.com/video/BV1vfRVYGER9/">好家伙，商家你是真不怕我回来给差评啊！</a></li><li>画渣花小烙 - <a href="https://www.bilibili.com/video/BV1Z49mYMEnx/">眼皮上为什么会突然长麦粒肿？</a></li></ul><hr /><ul><li><a href="https://macos-defaults.com/">A list of macOS defaults commands with demos ✨</a><br />macOS 上有许多的隐藏功能 / 设置，可以通过命令行开启 / 设置，这个网站就搜集了很多的命令行设置。</li><li><a href="https://sindresorhus.com/googly-eyes">Googly Eyes</a><br />网页上 App Logo 居然也做了鼠标追踪 😄。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742211483.webp" style="width: 50%; display: inline-block;" alt="Googly Eyes - Screenshot"></div><br></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 150 期。本篇是对过去一周（03.10 - 03.16）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 150 期。本篇是对过去一周（03.10 - 03.16）的记录、思考与分享。</p>
+<hr />
+<iframe allow="autoplay *; encrypted-media *;" frameborder=]]>
+    </summary>
+    <title>Kilig 的碎周报 - #150（2025.03.17）</title>
+    <updated>2025-03-17T12:27:27.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #149（2025.03.10）</title>
-    <link href="http://kiligwyu.com/newsletter/149/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 149 期。本篇是对过去一周（03.04 - 03.09）的记录、思考与分享。</p><hr /><p>在看 <a href="https://movie.douban.com/subject/35783948/">人生切割术 第二季 Severance Season 2 (2025)</a>，白天休息时间还有下班路上时间，追完了第二季，目前更新到第八集，还有两集，每周五更新。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741610837.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第二季 Severance Season 2 (2025)"></div><br><p>下一部要看的美剧是 <a href="https://movie.douban.com/subject/36323224/">豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a>。啊不，是英剧。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741610840.webp" style="width: 50%; display: inline-block;" alt="豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)"></div><br><hr /><ul><li>毕导 - <a href="https://www.bilibili.com/video/BV1ZJ9CY4EzR/">在这个简单的问题上，你学的教材可能一直是错的</a><br />简直 amazing 啊。另外，飞天闪客也做了个视频 <a href="https://www.bilibili.com/video/BV1yMRbYaEwx/">尝试复现一下毕导的两个虚像</a>。</li><li>oooooohmygosh - <a href="https://www.bilibili.com/video/BV1na9kY8E6g/">中国车牌丑吗？</a><br />丑。</li><li>飞天闪客 - <a href="https://www.bilibili.com/video/BV1nmRsYJE9r/">你管这破玩意叫文件？</a></li><li>老梁 - <a href="https://www.youtube.com/watch?v=P6MIJBOxJqM">老梁：汤姆张算不算“山东黑子”</a></li><li>Alan Becker - <a href="https://www.youtube.com/watch?v=EFmxPMdBqmU">Animation vs. Coding</a><ul><li>码农高天 - <a href="https://www.youtube.com/watch?v=-WJXmtcE5BU">【火柴人 vs 编程】Python 核心开发者全解析</a></li></ul></li></ul><hr /><ul><li><a href="https://www.juxtopposed.com/macos-icons">Pixelated MacOS Icons</a><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741611001.webp" style="width: 50%; display: inline-block;" alt="Pixelated MacOS Icons"></div><br></li><li>理想生活实验室 - <a href="http://www.toodaylab.com/83360">2025 年普利兹克奖授予了刘家琨，表彰他因地制宜地建构了普通人的生活</a></li><li><a href="https://www.cnbeta.com.tw/articles/tech/1483904.htm">M4 MacBook Air 键盘上微妙的设计差异</a><br />静音按键图标更新。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741611017.jpg" style="width: 50%; display: inline-block;" alt="新的静音按键图标"></div><br></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/149/</id>
+    <link href="http://kiligwyu.com/newsletter/149/"/>
     <published>2025-03-10T12:11:58.000Z</published>
-    <updated>2025-03-10T12:59:53.579Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 149 期。本篇是对过去一周（03.04 - 03.09）的记录、思考与分享。</p><hr /><p>在看 <a href="https://movie.douban.com/subject/35783948/">人生切割术 第二季 Severance Season 2 (2025)</a>，白天休息时间还有下班路上时间，追完了第二季，目前更新到第八集，还有两集，每周五更新。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741610837.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第二季 Severance Season 2 (2025)"></div><br><p>下一部要看的美剧是 <a href="https://movie.douban.com/subject/36323224/">豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a>。啊不，是英剧。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741610840.webp" style="width: 50%; display: inline-block;" alt="豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)"></div><br><hr /><ul><li>毕导 - <a href="https://www.bilibili.com/video/BV1ZJ9CY4EzR/">在这个简单的问题上，你学的教材可能一直是错的</a><br />简直 amazing 啊。另外，飞天闪客也做了个视频 <a href="https://www.bilibili.com/video/BV1yMRbYaEwx/">尝试复现一下毕导的两个虚像</a>。</li><li>oooooohmygosh - <a href="https://www.bilibili.com/video/BV1na9kY8E6g/">中国车牌丑吗？</a><br />丑。</li><li>飞天闪客 - <a href="https://www.bilibili.com/video/BV1nmRsYJE9r/">你管这破玩意叫文件？</a></li><li>老梁 - <a href="https://www.youtube.com/watch?v=P6MIJBOxJqM">老梁：汤姆张算不算“山东黑子”</a></li><li>Alan Becker - <a href="https://www.youtube.com/watch?v=EFmxPMdBqmU">Animation vs. Coding</a><ul><li>码农高天 - <a href="https://www.youtube.com/watch?v=-WJXmtcE5BU">【火柴人 vs 编程】Python 核心开发者全解析</a></li></ul></li></ul><hr /><ul><li><a href="https://www.juxtopposed.com/macos-icons">Pixelated MacOS Icons</a><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741611001.webp" style="width: 50%; display: inline-block;" alt="Pixelated MacOS Icons"></div><br></li><li>理想生活实验室 - <a href="http://www.toodaylab.com/83360">2025 年普利兹克奖授予了刘家琨，表彰他因地制宜地建构了普通人的生活</a></li><li><a href="https://www.cnbeta.com.tw/articles/tech/1483904.htm">M4 MacBook Air 键盘上微妙的设计差异</a><br />静音按键图标更新。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741611017.jpg" style="width: 50%; display: inline-block;" alt="新的静音按键图标"></div><br></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 149 期。本篇是对过去一周（03.04 - 03.09）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;在看 &lt;a href=&quot;https://movie.douban.com/subject/35783948/&quot;&gt;</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 149 期。本篇是对过去一周（03.04 - 03.09）的记录、思考与分享。</p>
+<hr />
+<p>在看 <a href="https://movie.douban.com/subject/35783948/">]]>
+    </summary>
+    <title>Kilig 的碎周报 - #149（2025.03.10）</title>
+    <updated>2025-03-10T12:59:53.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #148（2025.03.03）</title>
-    <link href="http://kiligwyu.com/newsletter/148/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 148 期。本篇是对过去一周（02.24 - 03.03）的记录、思考与分享。</p><hr /><ul><li>购买了 <a href="https://choosy.app">Choosy</a> 这个软件，可以添加规则在不同的浏览器中打开链接，比如我工作中公司相关的网站我都在 Vivaldi 中打开，<s>豆瓣网也在 Vivaldi 中打开（一些 Tampermonkey 的脚本在 Safari 上无法正常使用）</s>，原 Tampermonkey 更名 <a href="https://apps.apple.com/app/id1482490089">Tampermonkey Classic</a>，新版的 <a href="https://apps.apple.com/app/id6738342400">Tampermonkey</a> 可以完美执行脚本，其他网站默认还用 Safari。<br />同类的软件还有一个开源的 <a href="https://browserosaurus.com">Browserosaurus</a>，不过它是使用 Electron 实现的，我还是倾向于使用原生软件。</li><li>看完了 <a href="https://movie.douban.com/subject/26957900/">死侍与金刚狼 Deadpool &amp; Wolverine (2024)</a>，还有 <a href="https://movie.douban.com/subject/34885342/">人生切割术 第一季 Severance Season 1 (2022)</a>。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006015.webp" style="width: 50%; display: inline-block;" alt="死侍与金刚狼 Deadpool & Wolverine (2024)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006017.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第一季 Severance Season 1 (2022)"></div><br></li><li>周末回家了，周日晚坐了一夜的硬座，今天早上一早就到上海了，在公司附近的肯德基吃早餐（还没下雨），快到上班的点才去公司，下大雨了，没走多远，鞋子就湿了，有那么一瞬间，我都想翘班回家了，去 TMD 班。<br />但我还是去上班了，湿鞋穿了一天，到下班（21:00）也暖干了 😑。</li></ul><hr /><ul><li>-LKs- - <a href="https://www.bilibili.com/video/BV1itADeqE4P/">400天15万公里！这台相机走遍了整个地球？</a></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=JCKBWTJns5E">人類為什麼不能用核彈摧毀小行星？2024YR4、阿波菲斯！</a></li><li>先看评测 - <a href="https://www.bilibili.com/video/BV1uCPeejEPM/">被「万字怒评」之后，一个评测博主的自证</a></li><li>13 的 iOS 開發配飯吃 - <a href="https://www.youtube.com/watch?v=4j67qLCGCRY">iOS 開發配飯吃 #21 🆕離職後的新節目 feat. Harry Ng</a></li></ul><hr /><ul><li><a href="https://1drv.ms/f/c/8c700e9541693be4/QuQ7aUGVDnAggIyWCAAAAAAADJceZ7bIpHwsLA">必应 2025.02 超高清无水印壁纸</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeCvQZHAvSVlWtNxw6Rcinb5t1kfHwayVRaGoE42MX6jEFNkQ/viewform">關於月經的基本知識</a><br />一个关于月经的问卷调查，via <a href="https://x.com/ChachaMojoy/status/1894369084659454331">@ChachaMojoy</a>，我也填了一下，💯 满分，这些基本的生理卫生知识我可是很精通的 😄。</li><li>小众软件 - <a href="https://www.appinn.com/apple-tv-snoopy-screensaver-for-macos/">即开即用…吗？Apple TV 史努比屏保 macOS 移植版</a></li><li><a href="https://apps.apple.com/app/id1606306441">谜底黑胶</a> 3.0 设计太棒了 👍</li><li><a href="https://www.cnbeta.com.tw/articles/science/1480962.htm">飞机轮胎材料揭秘：为什么可以滑行那么长时间？</a></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/148/</id>
+    <link href="http://kiligwyu.com/newsletter/148/"/>
     <published>2025-03-03T12:37:51.000Z</published>
-    <updated>2025-03-03T15:26:46.469Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 148 期。本篇是对过去一周（02.24 - 03.03）的记录、思考与分享。</p><hr /><ul><li>购买了 <a href="https://choosy.app">Choosy</a> 这个软件，可以添加规则在不同的浏览器中打开链接，比如我工作中公司相关的网站我都在 Vivaldi 中打开，<s>豆瓣网也在 Vivaldi 中打开（一些 Tampermonkey 的脚本在 Safari 上无法正常使用）</s>，原 Tampermonkey 更名 <a href="https://apps.apple.com/app/id1482490089">Tampermonkey Classic</a>，新版的 <a href="https://apps.apple.com/app/id6738342400">Tampermonkey</a> 可以完美执行脚本，其他网站默认还用 Safari。<br />同类的软件还有一个开源的 <a href="https://browserosaurus.com">Browserosaurus</a>，不过它是使用 Electron 实现的，我还是倾向于使用原生软件。</li><li>看完了 <a href="https://movie.douban.com/subject/26957900/">死侍与金刚狼 Deadpool &amp; Wolverine (2024)</a>，还有 <a href="https://movie.douban.com/subject/34885342/">人生切割术 第一季 Severance Season 1 (2022)</a>。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006015.webp" style="width: 50%; display: inline-block;" alt="死侍与金刚狼 Deadpool & Wolverine (2024)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006017.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第一季 Severance Season 1 (2022)"></div><br></li><li>周末回家了，周日晚坐了一夜的硬座，今天早上一早就到上海了，在公司附近的肯德基吃早餐（还没下雨），快到上班的点才去公司，下大雨了，没走多远，鞋子就湿了，有那么一瞬间，我都想翘班回家了，去 TMD 班。<br />但我还是去上班了，湿鞋穿了一天，到下班（21:00）也暖干了 😑。</li></ul><hr /><ul><li>-LKs- - <a href="https://www.bilibili.com/video/BV1itADeqE4P/">400天15万公里！这台相机走遍了整个地球？</a></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=JCKBWTJns5E">人類為什麼不能用核彈摧毀小行星？2024YR4、阿波菲斯！</a></li><li>先看评测 - <a href="https://www.bilibili.com/video/BV1uCPeejEPM/">被「万字怒评」之后，一个评测博主的自证</a></li><li>13 的 iOS 開發配飯吃 - <a href="https://www.youtube.com/watch?v=4j67qLCGCRY">iOS 開發配飯吃 #21 🆕離職後的新節目 feat. Harry Ng</a></li></ul><hr /><ul><li><a href="https://1drv.ms/f/c/8c700e9541693be4/QuQ7aUGVDnAggIyWCAAAAAAADJceZ7bIpHwsLA">必应 2025.02 超高清无水印壁纸</a></li><li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeCvQZHAvSVlWtNxw6Rcinb5t1kfHwayVRaGoE42MX6jEFNkQ/viewform">關於月經的基本知識</a><br />一个关于月经的问卷调查，via <a href="https://x.com/ChachaMojoy/status/1894369084659454331">@ChachaMojoy</a>，我也填了一下，💯 满分，这些基本的生理卫生知识我可是很精通的 😄。</li><li>小众软件 - <a href="https://www.appinn.com/apple-tv-snoopy-screensaver-for-macos/">即开即用…吗？Apple TV 史努比屏保 macOS 移植版</a></li><li><a href="https://apps.apple.com/app/id1606306441">谜底黑胶</a> 3.0 设计太棒了 👍</li><li><a href="https://www.cnbeta.com.tw/articles/science/1480962.htm">飞机轮胎材料揭秘：为什么可以滑行那么长时间？</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 148 期。本篇是对过去一周（02.24 - 03.03）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;购买了 &lt;a href=&quot;https://choosy.app&quot;&gt;Choosy&lt;/a&gt; 这个软件，可</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 148 期。本篇是对过去一周（02.24 - 03.03）的记录、思考与分享。</p>
+<hr />
+<ul>
+<li>购买了 <a href="https://choosy.app">Choosy</a> 这个软件，可]]>
+    </summary>
+    <title>Kilig 的碎周报 - #148（2025.03.03）</title>
+    <updated>2025-03-03T15:26:46.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #147（2025.02.24）</title>
-    <link href="http://kiligwyu.com/newsletter/147/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 147 期。本篇是对过去一周（02.17 - 02.23）的记录、思考与分享。</p><hr /><iframe width="560" height="315" src="https://www.youtube.com/embed/JRnDYB28bL8?si=69zqOz0TJX__svWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><hr /><ol><li><p>最近改用 <a href="https://www.startpage.com/">Startpage</a> 作为默认的搜索引擎，在配置 Alfred 快速发起 Startpage 搜索时，遇到个问题，Startpage 发起的搜索用的 POST 请求，而 Alfred Web Search 只能用 GET 请求，用 Workflow 的话又该如何实现，我咨询了 DeepSeek 如何用 Alfred 快速发起 Startpage 搜索，DeepSeek 给的方案：创建一个 Workflow，Run Script（如下），在浏览器中打开一个临时的自动提交的表单。</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">query=<span class="string">&quot;&#123;query&#125;&quot;</span></span><br><span class="line"><span class="comment"># 生成临时 HTML 文件路径</span></span><br><span class="line">html_path=<span class="string">&quot;/tmp/startpage_post.html&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建自动提交表单的 HTML</span></span><br><span class="line"><span class="built_in">cat</span> &lt;&lt;<span class="string">EOF &gt; $html_path</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">  &lt;body&gt;</span></span><br><span class="line"><span class="string">    &lt;form id=&quot;searchForm&quot; action=&quot;https://www.startpage.com/sp/search&quot; method=&quot;POST&quot;&gt;</span></span><br><span class="line"><span class="string">      &lt;input type=&quot;hidden&quot; name=&quot;query&quot; value=&quot;$query&quot;/&gt;</span></span><br><span class="line"><span class="string">    &lt;/form&gt;</span></span><br><span class="line"><span class="string">    &lt;script&gt;document.getElementById(&#x27;searchForm&#x27;).submit();&lt;/script&gt;</span></span><br><span class="line"><span class="string">  &lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br><span class="line"><span class="string">EOF</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用浏览器打开临时 HTML 文件</span></span><br><span class="line">open <span class="variable">$html_path</span></span><br></pre></td></tr></table></figure><p>妙啊，是我未曾想到的方案。但是 AI 的答案我们要“小心求证”，比如这里 DeepSeek 给的提交表单的 action 是 <code>/do/search</code>，而我查了下 Startpage 官网，action 是 <code>/sp/search</code>（我也试了下 <code>do/search</code> 确实也行，但还是用官网的 <code>sp/search</code>）。</p></li><li><p>整理了下邮件，该删除的删除，该归档的归档。对于收到的一些如验证码、广告邮件、垃圾邮件等不重要的邮件随手删除，重要邮件定期归档，做好邮箱管理，避免邮件堆积。</p></li><li><p><em>#差生文具多</em> 冲颜值买了 IQUNIX MG65 键盘，白色太好看了，官方店铺缺货（现在应该有了），在闲鱼上淘到了好价，¥578，在我的闲鱼的浏览历史里，同款键盘都很快就卖出了，可见这可键盘有多火，价位都在 ¥600+，我刚好刷到了这个成色好还低价的，就果断下手了。到手试用了下，挺好用，我也很喜欢，就是这 65 键盘的布局，没有 F1, F2, etc. 键倒是无所谓，反正平时也几乎用不到，但少了 <code>~</code> 和 <code>`</code>，这两个键还是很常用的，需要靠组合键 <code>fn + ⇧ + \</code> 和 <code>fn + \</code> 来实现了。<br />少数派上有一篇关于此键盘的文章 - <a href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a>。<br />我之前在用的 Keychron K6 红轴的键盘，在蓝牙连接模式下，部分按键经常断触，也就弃用吃灰了。想放闲鱼上出了，但断触的问题我也不确定是键盘本身的问题还是与 macOS 系统兼容性问题还是什么别的问题，如果是键盘本身的问题，那放闲鱼就有点坑买家了，另外我也看了下闲鱼上这款键盘的行情，价格低到几十一百，还无人问津，当废品也不好出，就先继续放着吃灰吧。</p></li></ol><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1740409437.jpg" style="width: 50%; display: inline-block;" alt="IQUNIX MG65 键盘 - 少数派文章的题图"></div><br><hr /><ul><li>少数派 - <a href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a></li><li><a href="https://blog.xxm.plus/14c118ea4e24801ca8c5ef716c65b89e">一件关于帮助的小事</a></li><li><a href="https://blog.solazy.me/20250220/">对于少数群体，我选择「无声的尊重」</a></li><li><a href="https://ourai.ws/posts/twenty-two-years-of-wild-growth/">野蛮生长廿二年</a></li><li><a href="https://youmemark.com/user/CmGzCzwpeegxFiqAytUoWAhfdHeVgJWh">Randy Lu 的 Bookmark</a></li><li><a href="https://www.swift.org/blog/how-swifts-server-support-powers-things-cloud/">How Swift’s server support powers Things Cloud</a></li><li><a href="https://www.macrumors.com/how-to/make-any-file-a-template-macos-tool/">Make Any File a Template Using This Hidden macOS Tool</a></li></ul><hr /><ul><li>Apple TV - <a href="https://www.youtube.com/watch?v=JRnDYB28bL8">Severance — Music To Refine To feat. ODESZA | Apple TV+</a></li><li>oooooohmygosh - <a href="https://www.bilibili.com/video/BV1C7A8e9EBd/">如何设计一款流行两千年的字体？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1ydAzeUE7r/">暴打 4K 屏，CRT 显示器玩老游戏居然显示效果更好？</a></li><li>是玉木呀 - <a href="https://b23.tv/vWRPDn6">【玉木】小米的设计追上苹果了吗？</a></li><li>陈一枝你坐下 - <a href="https://www.bilibili.com/video/BV1pUA2eqECw/">大男主如何管理小金库？</a></li><li>橙红 Iris - <a href="https://www.youtube.com/watch?v=dKO7X0V5I3o">薄了，然后呢？好用吗？适配了吗？折痕有吗？OPPO Find N5 十问十答</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=ayWGMVlz47s">世界上最高的貓，雪山之巔的老虎，用生命在捕獵的傳奇大貓，雪豹的瘋狂真相！</a></li></ul><hr /><ul><li><a href="https://youmemark.com/">YouMeMark</a>: Bookmark for you and your friends.</li><li><a href="https://fancy-guavaberry-f60.notion.site/vps">VPS 常用脚本  | Notion</a></li><li><a href="https://basicappleguy.com/haberdashery/newest-member">Newest Member to the Apple Family Wallpaper</a></li></ul><hr /><ul><li><a href="https://github.com/zzzdajb/DickHelper">zzzdajb/DickHelper</a>: 🙈</li><li><a href="https://github.com/BewlyBewly/BewlyBewly">BewlyBewly/BewlyBewly</a>: Just make a few small changes to your Bilibili homepage.<br />macOS Safari 拓展：<a href="https://apps.apple.com/app/id6742200021">BLBewly</a></li><li><a href="https://github.com/ccbikai/hacker-news">ccbikai/hacker-news</a>: 一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。</li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/147/</id>
+    <link href="http://kiligwyu.com/newsletter/147/"/>
     <published>2025-02-24T05:37:58.000Z</published>
-    <updated>2025-03-03T14:35:21.172Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 147 期。本篇是对过去一周（02.17 - 02.23）的记录、思考与分享。</p><hr /><iframe width="560" height="315" src="https://www.youtube.com/embed/JRnDYB28bL8?si=69zqOz0TJX__svWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><hr /><ol><li><p>最近改用 <a href="https://www.startpage.com/">Startpage</a> 作为默认的搜索引擎，在配置 Alfred 快速发起 Startpage 搜索时，遇到个问题，Startpage 发起的搜索用的 POST 请求，而 Alfred Web Search 只能用 GET 请求，用 Workflow 的话又该如何实现，我咨询了 DeepSeek 如何用 Alfred 快速发起 Startpage 搜索，DeepSeek 给的方案：创建一个 Workflow，Run Script（如下），在浏览器中打开一个临时的自动提交的表单。</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">query=<span class="string">&quot;&#123;query&#125;&quot;</span></span><br><span class="line"><span class="comment"># 生成临时 HTML 文件路径</span></span><br><span class="line">html_path=<span class="string">&quot;/tmp/startpage_post.html&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建自动提交表单的 HTML</span></span><br><span class="line"><span class="built_in">cat</span> &lt;&lt;<span class="string">EOF &gt; $html_path</span></span><br><span class="line"><span class="string">&lt;html&gt;</span></span><br><span class="line"><span class="string">  &lt;body&gt;</span></span><br><span class="line"><span class="string">    &lt;form id=&quot;searchForm&quot; action=&quot;https://www.startpage.com/sp/search&quot; method=&quot;POST&quot;&gt;</span></span><br><span class="line"><span class="string">      &lt;input type=&quot;hidden&quot; name=&quot;query&quot; value=&quot;$query&quot;/&gt;</span></span><br><span class="line"><span class="string">    &lt;/form&gt;</span></span><br><span class="line"><span class="string">    &lt;script&gt;document.getElementById(&#x27;searchForm&#x27;).submit();&lt;/script&gt;</span></span><br><span class="line"><span class="string">  &lt;/body&gt;</span></span><br><span class="line"><span class="string">&lt;/html&gt;</span></span><br><span class="line"><span class="string">EOF</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 用浏览器打开临时 HTML 文件</span></span><br><span class="line">open <span class="variable">$html_path</span></span><br></pre></td></tr></table></figure><p>妙啊，是我未曾想到的方案。但是 AI 的答案我们要“小心求证”，比如这里 DeepSeek 给的提交表单的 action 是 <code>/do/search</code>，而我查了下 Startpage 官网，action 是 <code>/sp/search</code>（我也试了下 <code>do/search</code> 确实也行，但还是用官网的 <code>sp/search</code>）。</p></li><li><p>整理了下邮件，该删除的删除，该归档的归档。对于收到的一些如验证码、广告邮件、垃圾邮件等不重要的邮件随手删除，重要邮件定期归档，做好邮箱管理，避免邮件堆积。</p></li><li><p><em>#差生文具多</em> 冲颜值买了 IQUNIX MG65 键盘，白色太好看了，官方店铺缺货（现在应该有了），在闲鱼上淘到了好价，¥578，在我的闲鱼的浏览历史里，同款键盘都很快就卖出了，可见这可键盘有多火，价位都在 ¥600+，我刚好刷到了这个成色好还低价的，就果断下手了。到手试用了下，挺好用，我也很喜欢，就是这 65 键盘的布局，没有 F1, F2, etc. 键倒是无所谓，反正平时也几乎用不到，但少了 <code>~</code> 和 <code>`</code>，这两个键还是很常用的，需要靠组合键 <code>fn + ⇧ + \</code> 和 <code>fn + \</code> 来实现了。<br />少数派上有一篇关于此键盘的文章 - <a href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a>。<br />我之前在用的 Keychron K6 红轴的键盘，在蓝牙连接模式下，部分按键经常断触，也就弃用吃灰了。想放闲鱼上出了，但断触的问题我也不确定是键盘本身的问题还是与 macOS 系统兼容性问题还是什么别的问题，如果是键盘本身的问题，那放闲鱼就有点坑买家了，另外我也看了下闲鱼上这款键盘的行情，价格低到几十一百，还无人问津，当废品也不好出，就先继续放着吃灰吧。</p></li></ol><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1740409437.jpg" style="width: 50%; display: inline-block;" alt="IQUNIX MG65 键盘 - 少数派文章的题图"></div><br><hr /><ul><li>少数派 - <a href="https://sspai.com/post/91471">iQunix 终于有一款完整适配 macOS 的键盘了！</a></li><li><a href="https://blog.xxm.plus/14c118ea4e24801ca8c5ef716c65b89e">一件关于帮助的小事</a></li><li><a href="https://blog.solazy.me/20250220/">对于少数群体，我选择「无声的尊重」</a></li><li><a href="https://ourai.ws/posts/twenty-two-years-of-wild-growth/">野蛮生长廿二年</a></li><li><a href="https://youmemark.com/user/CmGzCzwpeegxFiqAytUoWAhfdHeVgJWh">Randy Lu 的 Bookmark</a></li><li><a href="https://www.swift.org/blog/how-swifts-server-support-powers-things-cloud/">How Swift’s server support powers Things Cloud</a></li><li><a href="https://www.macrumors.com/how-to/make-any-file-a-template-macos-tool/">Make Any File a Template Using This Hidden macOS Tool</a></li></ul><hr /><ul><li>Apple TV - <a href="https://www.youtube.com/watch?v=JRnDYB28bL8">Severance — Music To Refine To feat. ODESZA | Apple TV+</a></li><li>oooooohmygosh - <a href="https://www.bilibili.com/video/BV1C7A8e9EBd/">如何设计一款流行两千年的字体？</a></li><li>柴知道 - <a href="https://www.bilibili.com/video/BV1ydAzeUE7r/">暴打 4K 屏，CRT 显示器玩老游戏居然显示效果更好？</a></li><li>是玉木呀 - <a href="https://b23.tv/vWRPDn6">【玉木】小米的设计追上苹果了吗？</a></li><li>陈一枝你坐下 - <a href="https://www.bilibili.com/video/BV1pUA2eqECw/">大男主如何管理小金库？</a></li><li>橙红 Iris - <a href="https://www.youtube.com/watch?v=dKO7X0V5I3o">薄了，然后呢？好用吗？适配了吗？折痕有吗？OPPO Find N5 十问十答</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=ayWGMVlz47s">世界上最高的貓，雪山之巔的老虎，用生命在捕獵的傳奇大貓，雪豹的瘋狂真相！</a></li></ul><hr /><ul><li><a href="https://youmemark.com/">YouMeMark</a>: Bookmark for you and your friends.</li><li><a href="https://fancy-guavaberry-f60.notion.site/vps">VPS 常用脚本  | Notion</a></li><li><a href="https://basicappleguy.com/haberdashery/newest-member">Newest Member to the Apple Family Wallpaper</a></li></ul><hr /><ul><li><a href="https://github.com/zzzdajb/DickHelper">zzzdajb/DickHelper</a>: 🙈</li><li><a href="https://github.com/BewlyBewly/BewlyBewly">BewlyBewly/BewlyBewly</a>: Just make a few small changes to your Bilibili homepage.<br />macOS Safari 拓展：<a href="https://apps.apple.com/app/id6742200021">BLBewly</a></li><li><a href="https://github.com/ccbikai/hacker-news">ccbikai/hacker-news</a>: 一个基于 AI 的 Hacker News 中文播客项目，每天自动抓取 Hacker News 热门文章，通过 AI 生成中文总结并转换为播客内容。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 147 期。本篇是对过去一周（02.17 - 02.23）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.c</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 147 期。本篇是对过去一周（02.17 - 02.23）的记录、思考与分享。</p>
+<hr />
+<iframe width="560" height="315" src="https://www.youtube.c]]>
+    </summary>
+    <title>Kilig 的碎周报 - #147（2025.02.24）</title>
+    <updated>2025-03-03T14:35:21.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #146（2025.02.17）</title>
-    <link href="http://kiligwyu.com/newsletter/146/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 146 期。本篇是对过去一周（02.10 - 02.16）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/busy-woman/1795512297?i=1795513518"></iframe><br><hr /><p>前段时间有天我忽然意识到一个问题，我似乎变得冷漠了许多，上班下班，路上常遇到需要帮助的人，我都是匆匆赶路，错过了，我才想起来我可以顺手帮一把的；当我意识到我的冷漠后，我觉得我本不是个冷酷无情的人，我也是有助人为乐的精神的，以后再遇到需要帮助的人，能帮就帮一把。<br />比如这周有天晚上下班在地铁站，扶梯边有个人拎两个大箱子，不好上扶梯，在扶梯边犹犹豫豫，路过好几个人，我也路过，二话不说（戴着耳机呢），顺手接过一个箱子，顺利上下扶梯。<br />一点微不足道的小忙，也可以让我心情变好一些。</p><p>#差生文具多 我又换终端了，试试 <a href="https://github.com/ghostty-org/ghostty">Ghostty</a>，之前使用 <a href="https://github.com/alacritty/alacritty">Alacritty</a>。两者的差别可以参考 <a href="https://blog.allwens.work/zai-Mac-shang-shi-yong-Ghostty-dai-ti-Alacritty?locale=zh">在 Mac 上使用 Ghostty 代替 Alacritty</a>。</p><blockquote><p>Ghostty: 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.<br />Alacritty: A cross-platform, OpenGL terminal emulator.</p></blockquote><p>花了一点点时间，又重构了下 Surge 的配置文件，利用 <a href="https://kb.nssurge.com/surge-knowledge-base/guidelines/detached-profile">配置分离</a>，重新整理了下 Mac 和 iPhone 的配置，共用的部分放一个配置文件里，差异化的部分也单独放在不同配置文件里。<br />代理部分就用订阅配置的代理和分组，之前是手动管理代理和分组，线路太多，去掉无用代理，重新分组，这样比较麻烦，需要定期手动更新，现在直接使用订阅配置里的代理和分组，免维护。<br />对规则部分进行了拆分，分为自定义规则、通用规则、iPhone 专用规则、Mac 专用规则，规则的更新维护也更清晰方便。</p><hr /><ul><li><a href="https://www.dev-life.site">自洽的程序员</a></li><li><a href="https://beartalking.com/i-got-scammed">I got scammed on Twitter: here’s how</a></li><li><a href="https://blog.solazy.me/20250212/">帮下属成功谈了涨薪</a></li><li><a href="https://onevcat.com/2025/02/reasoning-model/">关于推理模型的一些误解和盲区</a></li><li><a href="https://www.pseudoyu.com/zh/2025/01/20/weekly_review_83/">周报 #83 - 年初收纳（房间、设备、服务、软件）</a></li></ul><hr /><ul><li>半拿铁 - <a href="https://podcasts.apple.com/us/podcast/%E5%8D%8A%E6%8B%BF%E9%93%81-%E5%95%86%E4%B8%9A%E6%B2%89%E6%B5%AE%E5%BD%95/id1615939013">No.137 DeepSeek 小传</a></li><li>吟游诗人基德 - <a href="https://www.bilibili.com/video/BV1ckNaeAE8c/">DeepSeek 终极报告：误解与真相</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=funbg7-BAv0">为什么大米没有以前那么好吃了？口感香味都大不如前，真的是我们口味的问题吗？</a></li><li>医痴的木头屋 - <a href="https://www.youtube.com/watch?v=0tkAO2M8q3Q">大 S 死亡案例的分析，以及对于大家的一些建议</a></li><li>柴静 Chai Jing - <a href="https://www.youtube.com/watch?v=rfEXbAuzKPk">柴静回应“薄瓜瓜”：薄熙来在打黑中应该负什么责任？我亲历的重庆打黑</a></li><li>大聪看电影 - <a href="https://www.youtube.com/watch?v=3jW3k9maDAo">《哪吒 2》萬字解析！憑什麼能衝百億票房！腦洞解析第三部！</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=PboCsLRmwvQ">我们还原了 3000 年前真实的殷商时代！丨Yin Shang: the Most Mysterious Dynasty in China</a></li><li>斑鸠鸭 - <a href="https://www.bilibili.com/video/BV1B2KVe6E4A/">微微一笑，绝对不抽！赵本山小品《心病》，什么水平？</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=OI0wKP231Y4">辣椒是如何统治中国人口味的？</a></li><li>飞天闪客 - <a href="https://www.bilibili.com/video/BV17x6hYZEzJ/">你管这破玩意叫网络？</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=KOpySAX5u8M">非洲最奇特的生物，妖艷到顛覆認知，世界上最大的猴子——山魈，跟狒狒的區別和淵源</a></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=McPKtTCOscQ">禁止南極開采的真正原因！｜地球之最</a></li><li>爱摆牌的龙龙1代摆 - <a href="https://www.bilibili.com/video/BV1LDNEeJEwm/">当第一张牌轻轻倒下，连锁反应如同哪吒的觉醒，势不可挡！这不仅是一次物理的倾倒，更是心灵的震撼，是对“我命由我不由天”最生动的诠释。</a></li><li>花生説 - <a href="https://www.youtube.com/watch?v=uHFEYnzrhyI">老罗眼中的耻辱，却是我心中的里程碑，锤子 M1L 炒冷饭</a></li><li>IC实验室 - <a href="https://www.youtube.com/watch?v=YwY8rOgcOWE">三天百亿，春节档排片经济学 </a></li><li>橙红 Iris - <a href="https://www.youtube.com/watch?v=XDqjfhxnmxg">85 个小米产品，哪些值得买？</a></li><li>鹿米仓 - <a href="https://www.bilibili.com/video/BV1NTwhe4Eeh/">去弯路上找找人生的意义！</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1CUfhYmEB1/">2024 年终观察（下）：不妨理直气壮地去责任化</a></li><li>狮子 Lion__ - <a href="https://www.bilibili.com/video/BV19xf6YWETV/">被房贷“困”住半辈子的妈妈</a></li></ul><hr /><ul><li>小众软件 - <a href="https://www.appinn.com/apple-transfer-purchased-apps/">苹果推出账户间购买项目迁移功能，可转移已购 App</a><br />不过限制同一个地区的两个账户，如果开放地区就更好了，不过也无所谓了对我来说，我基本上国区购买的项目，美区又都购买了一遍了。</li><li><a href="https://basicappleguy.com/haberdashery/valentines-day">Apple Valentine’s Wallpaper</a></li><li><a href="https://basicappleguy.com/haberdashery/pixelmator-joins-apple">Pixelmator Joins Apple</a></li><li><a href="https://codepen.io/Mikhail-Bespalov/pen/dPyyZed">Halftone Editor</a>:复刻 OpenAI 超级碗广告动画。</li><li><a href="https://db.ypsou.com/api.html">豆瓣电影工具 API - 开发者接口文档 | 豆瓣电影工具</a></li><li><a href="https://apps.apple.com/app/id6504160127">Windy Pro ~ Cozy White Noise</a><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739802899.webp" style="width: 50%; display: inline-block;" alt="Windy Pro ~ Cozy White Noise"></div><br></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/146/</id>
+    <link href="http://kiligwyu.com/newsletter/146/"/>
     <published>2025-02-17T10:56:01.000Z</published>
-    <updated>2025-02-17T14:47:20.449Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 146 期。本篇是对过去一周（02.10 - 02.16）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/busy-woman/1795512297?i=1795513518"></iframe><br><hr /><p>前段时间有天我忽然意识到一个问题，我似乎变得冷漠了许多，上班下班，路上常遇到需要帮助的人，我都是匆匆赶路，错过了，我才想起来我可以顺手帮一把的；当我意识到我的冷漠后，我觉得我本不是个冷酷无情的人，我也是有助人为乐的精神的，以后再遇到需要帮助的人，能帮就帮一把。<br />比如这周有天晚上下班在地铁站，扶梯边有个人拎两个大箱子，不好上扶梯，在扶梯边犹犹豫豫，路过好几个人，我也路过，二话不说（戴着耳机呢），顺手接过一个箱子，顺利上下扶梯。<br />一点微不足道的小忙，也可以让我心情变好一些。</p><p>#差生文具多 我又换终端了，试试 <a href="https://github.com/ghostty-org/ghostty">Ghostty</a>，之前使用 <a href="https://github.com/alacritty/alacritty">Alacritty</a>。两者的差别可以参考 <a href="https://blog.allwens.work/zai-Mac-shang-shi-yong-Ghostty-dai-ti-Alacritty?locale=zh">在 Mac 上使用 Ghostty 代替 Alacritty</a>。</p><blockquote><p>Ghostty: 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.<br />Alacritty: A cross-platform, OpenGL terminal emulator.</p></blockquote><p>花了一点点时间，又重构了下 Surge 的配置文件，利用 <a href="https://kb.nssurge.com/surge-knowledge-base/guidelines/detached-profile">配置分离</a>，重新整理了下 Mac 和 iPhone 的配置，共用的部分放一个配置文件里，差异化的部分也单独放在不同配置文件里。<br />代理部分就用订阅配置的代理和分组，之前是手动管理代理和分组，线路太多，去掉无用代理，重新分组，这样比较麻烦，需要定期手动更新，现在直接使用订阅配置里的代理和分组，免维护。<br />对规则部分进行了拆分，分为自定义规则、通用规则、iPhone 专用规则、Mac 专用规则，规则的更新维护也更清晰方便。</p><hr /><ul><li><a href="https://www.dev-life.site">自洽的程序员</a></li><li><a href="https://beartalking.com/i-got-scammed">I got scammed on Twitter: here’s how</a></li><li><a href="https://blog.solazy.me/20250212/">帮下属成功谈了涨薪</a></li><li><a href="https://onevcat.com/2025/02/reasoning-model/">关于推理模型的一些误解和盲区</a></li><li><a href="https://www.pseudoyu.com/zh/2025/01/20/weekly_review_83/">周报 #83 - 年初收纳（房间、设备、服务、软件）</a></li></ul><hr /><ul><li>半拿铁 - <a href="https://podcasts.apple.com/us/podcast/%E5%8D%8A%E6%8B%BF%E9%93%81-%E5%95%86%E4%B8%9A%E6%B2%89%E6%B5%AE%E5%BD%95/id1615939013">No.137 DeepSeek 小传</a></li><li>吟游诗人基德 - <a href="https://www.bilibili.com/video/BV1ckNaeAE8c/">DeepSeek 终极报告：误解与真相</a></li><li>差评君 - <a href="https://www.youtube.com/watch?v=funbg7-BAv0">为什么大米没有以前那么好吃了？口感香味都大不如前，真的是我们口味的问题吗？</a></li><li>医痴的木头屋 - <a href="https://www.youtube.com/watch?v=0tkAO2M8q3Q">大 S 死亡案例的分析，以及对于大家的一些建议</a></li><li>柴静 Chai Jing - <a href="https://www.youtube.com/watch?v=rfEXbAuzKPk">柴静回应“薄瓜瓜”：薄熙来在打黑中应该负什么责任？我亲历的重庆打黑</a></li><li>大聪看电影 - <a href="https://www.youtube.com/watch?v=3jW3k9maDAo">《哪吒 2》萬字解析！憑什麼能衝百億票房！腦洞解析第三部！</a></li><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=PboCsLRmwvQ">我们还原了 3000 年前真实的殷商时代！丨Yin Shang: the Most Mysterious Dynasty in China</a></li><li>斑鸠鸭 - <a href="https://www.bilibili.com/video/BV1B2KVe6E4A/">微微一笑，绝对不抽！赵本山小品《心病》，什么水平？</a></li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=OI0wKP231Y4">辣椒是如何统治中国人口味的？</a></li><li>飞天闪客 - <a href="https://www.bilibili.com/video/BV17x6hYZEzJ/">你管这破玩意叫网络？</a></li><li>老肉雜談 - <a href="https://www.youtube.com/watch?v=KOpySAX5u8M">非洲最奇特的生物，妖艷到顛覆認知，世界上最大的猴子——山魈，跟狒狒的區別和淵源</a></li><li>司文的不思議世界 - <a href="https://www.youtube.com/watch?v=McPKtTCOscQ">禁止南極開采的真正原因！｜地球之最</a></li><li>爱摆牌的龙龙1代摆 - <a href="https://www.bilibili.com/video/BV1LDNEeJEwm/">当第一张牌轻轻倒下，连锁反应如同哪吒的觉醒，势不可挡！这不仅是一次物理的倾倒，更是心灵的震撼，是对“我命由我不由天”最生动的诠释。</a></li><li>花生説 - <a href="https://www.youtube.com/watch?v=uHFEYnzrhyI">老罗眼中的耻辱，却是我心中的里程碑，锤子 M1L 炒冷饭</a></li><li>IC实验室 - <a href="https://www.youtube.com/watch?v=YwY8rOgcOWE">三天百亿，春节档排片经济学 </a></li><li>橙红 Iris - <a href="https://www.youtube.com/watch?v=XDqjfhxnmxg">85 个小米产品，哪些值得买？</a></li><li>鹿米仓 - <a href="https://www.bilibili.com/video/BV1NTwhe4Eeh/">去弯路上找找人生的意义！</a></li><li>老蒋巨靠谱 - <a href="https://www.bilibili.com/video/BV1CUfhYmEB1/">2024 年终观察（下）：不妨理直气壮地去责任化</a></li><li>狮子 Lion__ - <a href="https://www.bilibili.com/video/BV19xf6YWETV/">被房贷“困”住半辈子的妈妈</a></li></ul><hr /><ul><li>小众软件 - <a href="https://www.appinn.com/apple-transfer-purchased-apps/">苹果推出账户间购买项目迁移功能，可转移已购 App</a><br />不过限制同一个地区的两个账户，如果开放地区就更好了，不过也无所谓了对我来说，我基本上国区购买的项目，美区又都购买了一遍了。</li><li><a href="https://basicappleguy.com/haberdashery/valentines-day">Apple Valentine’s Wallpaper</a></li><li><a href="https://basicappleguy.com/haberdashery/pixelmator-joins-apple">Pixelmator Joins Apple</a></li><li><a href="https://codepen.io/Mikhail-Bespalov/pen/dPyyZed">Halftone Editor</a>:复刻 OpenAI 超级碗广告动画。</li><li><a href="https://db.ypsou.com/api.html">豆瓣电影工具 API - 开发者接口文档 | 豆瓣电影工具</a></li><li><a href="https://apps.apple.com/app/id6504160127">Windy Pro ~ Cozy White Noise</a><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739802899.webp" style="width: 50%; display: inline-block;" alt="Windy Pro ~ Cozy White Noise"></div><br></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 146 期。本篇是对过去一周（02.10 - 02.16）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 146 期。本篇是对过去一周（02.10 - 02.16）的记录、思考与分享。</p>
+<hr />
+<iframe allow="autoplay *; encrypted-media *;" frameborder=]]>
+    </summary>
+    <title>Kilig 的碎周报 - #146（2025.02.17）</title>
+    <updated>2025-02-17T14:47:20.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #145（2025.02.10）</title>
-    <link href="http://kiligwyu.com/newsletter/145/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 145 期。本篇是对过去一周（02.03 - 02.09）的记录、思考与分享。</p><hr /><p>上班了，在家呆的时间也够久了，好快啊。</p><p>看了电影 <a href="https://movie.douban.com/subject/25882861/">危楼愚夫 Дурак (2014)</a> 和 <a href="https://movie.douban.com/subject/21937445/">辩护人 변호인 (2013)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187547.webp" style="width: 50%; display: inline-block;" alt="危楼愚夫 Дурак (2014)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187545.webp" style="width: 50%; display: inline-block;" alt="辩护人 변호인 (2013)"></div><br><p>看了 Randy 的 <a href="https://lutaonan.com/blog/apple-notes-and-para/">我如何使用 Apple Notes 做笔记</a> 这篇博文，获益匪浅，我差不多也是两年多前放弃了所有笔记软件，换用 <a href="https://www.mweb.im">MWeb</a> 记录我的所有笔记。我目前的笔记是按照 Swift、SwiftUI、Linux、macOS 等这样的分类，我觉得文中介绍的按 PARA 的方式给笔记分类更好、更科学，接下来我也将按照 PARA 的方式进行笔记管理。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>Randy’s Blog - <a href="https://lutaonan.com/blog/apple-notes-and-para/">我如何使用 Apple Notes 做笔记</a></li><li>onevcat - <a href="https://onevcat.com/2025/01/deepseek-ai/">DeepSeek，大国竞争，以及国运</a></li><li>少数派 - <a href="https://sspai.com/post/96002">《命令与征服：红色警戒 2 与尤里的复仇》最终印象</a></li><li><a href="https://www.cnbeta.com.tw/articles/movie/1477482.htm">为何电影院普遍都是红色座椅？</a></li><li><a href="https://ourai.ws/posts/become-a-super-individual-to-break-through/">成为「超级个体」，在互联网寒冬与 AI 浪潮中乘风破浪！</a></li><li><a href="https://waytoagi.feishu.cn/record/QAURr4CNGeJ5GIcvU0nc9X3dndg">DeepSeek 从入门到精通</a></li><li><a href="https://www.cnbeta.com.tw/articles/science/1472626.htm">如果鸟类发现自己养了一只杜鹃的雏鸟，那么它们会怎么做？</a></li></ul><hr style="margin-left: 20px;"><ul><li>柴知道 - <a href="https://www.bilibili.com/video/BV1gJNteaEVM/">歪，秦始皇吗？插头乱成这样，你还管不管了！？ </a></li><li>记录生活的蛋黄派 - <a href="https://www.bilibili.com/video/BV1V6NHe9E7Q/">观众老爷老奶推荐的下饭酱，味道怎么样？帅小伙试试！</a></li><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1VAfXYZEb9/">盘点《绝命毒师》每集标题的隐藏含义，共61集，纯干货无剧情【全网最细】</a></li><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1S4fSYyEtm/">《绝命毒师》72个不可错过的细节，纯干货（镜头、色彩、象征、隐喻、伏笔、呼应）【全网最细】</a></li><li>虽然但是张黑黑 - <a href="https://www.bilibili.com/video/BV1A3Fje6Ej6/">欢迎来到桌面AGI时代！六台M4 Pro本地大模型推理实测</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1HEf2YWEvs/">【杜比视界】你的设备能撑住吗？影视飓风年度样片</a></li></ul><hr style="margin-left: 20px;"><ul><li>小众软件 - <a href="https://www.appinn.com/victoryroad-11-fonts/">推荐 11 款 VIctoryRoad 比较喜欢的免费、可商用字体</a></li><li>Greasy Fork - <a href="https://greasyfork.org/zh-CN/scripts/524465-github-freshness">GitHub Freshness</a>: 通过颜色高亮的方式，帮助你快速判断一个 GitHub 仓库是否在更新。</li><li><a href="https://github.com/FuzzyIdeas/StartupFolder">FuzzyIdeas/StartupFolder</a>: Run anything at startup by placing it in a special folder.</li><li>Apple Support - <a href="https://support.apple.com/en-us/120622">Prevent a Mac laptop from turning on when opening its lid or connecting to power</a></li><li><a href="https://github.com/1692775560/deepseek_project">1692775560/deepseek_project</a>: 通过网页版微信接入 DeepSeek 当微信机器人。</li><li>#TIL #冷知识：iOS 照片应用能保存的最大图片，长边是不允许超过 65535，也就是 0xFFFF，via <a href="https://x.com/Megabits_mzq/status/1888140436566675796">@Megabits_mzq</a></li><li>复刻 <a href="https://www.ttplayer.co/index.php">千千静听不同时期的官网</a></li><li><a href="https://indiegoodies.com/awesome-open-source-mac-apps">Open Source Mac Apps</a>: Discover popular open source Mac apps.</li><li><a href="https://apps.apple.com/app/id6472498645">Apple Invites</a><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739802899.webp" style="width: 50%; display: inline-block;" alt=""></div><br></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/145/</id>
+    <link href="http://kiligwyu.com/newsletter/145/"/>
     <published>2025-02-10T12:34:39.000Z</published>
-    <updated>2025-02-17T14:39:58.030Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 145 期。本篇是对过去一周（02.03 - 02.09）的记录、思考与分享。</p><hr /><p>上班了，在家呆的时间也够久了，好快啊。</p><p>看了电影 <a href="https://movie.douban.com/subject/25882861/">危楼愚夫 Дурак (2014)</a> 和 <a href="https://movie.douban.com/subject/21937445/">辩护人 변호인 (2013)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187547.webp" style="width: 50%; display: inline-block;" alt="危楼愚夫 Дурак (2014)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187545.webp" style="width: 50%; display: inline-block;" alt="辩护人 변호인 (2013)"></div><br><p>看了 Randy 的 <a href="https://lutaonan.com/blog/apple-notes-and-para/">我如何使用 Apple Notes 做笔记</a> 这篇博文，获益匪浅，我差不多也是两年多前放弃了所有笔记软件，换用 <a href="https://www.mweb.im">MWeb</a> 记录我的所有笔记。我目前的笔记是按照 Swift、SwiftUI、Linux、macOS 等这样的分类，我觉得文中介绍的按 PARA 的方式给笔记分类更好、更科学，接下来我也将按照 PARA 的方式进行笔记管理。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>Randy’s Blog - <a href="https://lutaonan.com/blog/apple-notes-and-para/">我如何使用 Apple Notes 做笔记</a></li><li>onevcat - <a href="https://onevcat.com/2025/01/deepseek-ai/">DeepSeek，大国竞争，以及国运</a></li><li>少数派 - <a href="https://sspai.com/post/96002">《命令与征服：红色警戒 2 与尤里的复仇》最终印象</a></li><li><a href="https://www.cnbeta.com.tw/articles/movie/1477482.htm">为何电影院普遍都是红色座椅？</a></li><li><a href="https://ourai.ws/posts/become-a-super-individual-to-break-through/">成为「超级个体」，在互联网寒冬与 AI 浪潮中乘风破浪！</a></li><li><a href="https://waytoagi.feishu.cn/record/QAURr4CNGeJ5GIcvU0nc9X3dndg">DeepSeek 从入门到精通</a></li><li><a href="https://www.cnbeta.com.tw/articles/science/1472626.htm">如果鸟类发现自己养了一只杜鹃的雏鸟，那么它们会怎么做？</a></li></ul><hr style="margin-left: 20px;"><ul><li>柴知道 - <a href="https://www.bilibili.com/video/BV1gJNteaEVM/">歪，秦始皇吗？插头乱成这样，你还管不管了！？ </a></li><li>记录生活的蛋黄派 - <a href="https://www.bilibili.com/video/BV1V6NHe9E7Q/">观众老爷老奶推荐的下饭酱，味道怎么样？帅小伙试试！</a></li><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1VAfXYZEb9/">盘点《绝命毒师》每集标题的隐藏含义，共61集，纯干货无剧情【全网最细】</a></li><li>电影广角镜 - <a href="https://www.bilibili.com/video/BV1S4fSYyEtm/">《绝命毒师》72个不可错过的细节，纯干货（镜头、色彩、象征、隐喻、伏笔、呼应）【全网最细】</a></li><li>虽然但是张黑黑 - <a href="https://www.bilibili.com/video/BV1A3Fje6Ej6/">欢迎来到桌面AGI时代！六台M4 Pro本地大模型推理实测</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1HEf2YWEvs/">【杜比视界】你的设备能撑住吗？影视飓风年度样片</a></li></ul><hr style="margin-left: 20px;"><ul><li>小众软件 - <a href="https://www.appinn.com/victoryroad-11-fonts/">推荐 11 款 VIctoryRoad 比较喜欢的免费、可商用字体</a></li><li>Greasy Fork - <a href="https://greasyfork.org/zh-CN/scripts/524465-github-freshness">GitHub Freshness</a>: 通过颜色高亮的方式，帮助你快速判断一个 GitHub 仓库是否在更新。</li><li><a href="https://github.com/FuzzyIdeas/StartupFolder">FuzzyIdeas/StartupFolder</a>: Run anything at startup by placing it in a special folder.</li><li>Apple Support - <a href="https://support.apple.com/en-us/120622">Prevent a Mac laptop from turning on when opening its lid or connecting to power</a></li><li><a href="https://github.com/1692775560/deepseek_project">1692775560/deepseek_project</a>: 通过网页版微信接入 DeepSeek 当微信机器人。</li><li>#TIL #冷知识：iOS 照片应用能保存的最大图片，长边是不允许超过 65535，也就是 0xFFFF，via <a href="https://x.com/Megabits_mzq/status/1888140436566675796">@Megabits_mzq</a></li><li>复刻 <a href="https://www.ttplayer.co/index.php">千千静听不同时期的官网</a></li><li><a href="https://indiegoodies.com/awesome-open-source-mac-apps">Open Source Mac Apps</a>: Discover popular open source Mac apps.</li><li><a href="https://apps.apple.com/app/id6472498645">Apple Invites</a><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739802899.webp" style="width: 50%; display: inline-block;" alt=""></div><br></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 145 期。本篇是对过去一周（02.03 - 02.09）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;上班了，在家呆的时间也够久了，好快啊。&lt;/p&gt;
-&lt;p&gt;看了电影 &lt;a href=&quot;https://movie.d</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 145 期。本篇是对过去一周（02.03 - 02.09）的记录、思考与分享。</p>
+<hr />
+<p>上班了，在家呆的时间也够久了，好快啊。</p>
+<p>看了电影 <a href="https://movie.d]]>
+    </summary>
+    <title>Kilig 的碎周报 - #145（2025.02.10）</title>
+    <updated>2025-02-17T14:39:58.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #144（2025.02.03）</title>
-    <link href="http://kiligwyu.com/newsletter/144/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 144 期。本篇是对过去一周（01.27 - 02.02）的记录、思考与分享。</p><hr /><p>新年快乐啊朋友们！假期快要结束了，到返程的时间了，祝朋友们返程一路平安，新的一年身体健康工作顺利！<br />我还有一周才上班 😄✌️。</p><p>除夕是在丈母娘家过的，有些无聊，我决定以后还是在自己家过。<br />这些年过年，都没回我老家，主要是天气太冷，老家没有暖气没有空调的，干什么都不太方便，大人凑合也就算了，主要是小朋友，就别受那份罪了。</p><p>春节期间，市区里应该是禁放烟花爆竹的，具体政策我也没了解，很多路口、放烟花的地方都有警察值守。不过还是有非常多放烟花的，除夕自不必说，噼里啪啦一整夜。但其他晚上午夜了还有放巨响的炮仗，这就有些扰民，过分了，我猜他们收到的新年祝福抵不消收到的诅咒谩骂了。</p><p>我之前也说过很多次了，我假期一般很少开电脑、玩手机，主要都用来陪家人陪小朋友了。目前打发时间玩的是 Apple Arcade 上的 <a href="https://apps.apple.com/app/id6596757342">疯狂动物园</a>，一款六七年前很火的动物跑酷游戏，游戏刚出时候也玩过一段时间，后来怎么不玩了已经不记得了，Apple Arcade 上的版本算是非常干净的了。</p><p>所以本期就没有“一堆链接”了。</p>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/144/</id>
+    <link href="http://kiligwyu.com/newsletter/144/"/>
     <published>2025-02-03T14:10:57.000Z</published>
-    <updated>2025-02-03T14:40:10.879Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 144 期。本篇是对过去一周（01.27 - 02.02）的记录、思考与分享。</p><hr /><p>新年快乐啊朋友们！假期快要结束了，到返程的时间了，祝朋友们返程一路平安，新的一年身体健康工作顺利！<br />我还有一周才上班 😄✌️。</p><p>除夕是在丈母娘家过的，有些无聊，我决定以后还是在自己家过。<br />这些年过年，都没回我老家，主要是天气太冷，老家没有暖气没有空调的，干什么都不太方便，大人凑合也就算了，主要是小朋友，就别受那份罪了。</p><p>春节期间，市区里应该是禁放烟花爆竹的，具体政策我也没了解，很多路口、放烟花的地方都有警察值守。不过还是有非常多放烟花的，除夕自不必说，噼里啪啦一整夜。但其他晚上午夜了还有放巨响的炮仗，这就有些扰民，过分了，我猜他们收到的新年祝福抵不消收到的诅咒谩骂了。</p><p>我之前也说过很多次了，我假期一般很少开电脑、玩手机，主要都用来陪家人陪小朋友了。目前打发时间玩的是 Apple Arcade 上的 <a href="https://apps.apple.com/app/id6596757342">疯狂动物园</a>，一款六七年前很火的动物跑酷游戏，游戏刚出时候也玩过一段时间，后来怎么不玩了已经不记得了，Apple Arcade 上的版本算是非常干净的了。</p><p>所以本期就没有“一堆链接”了。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 144 期。本篇是对过去一周（01.27 - 02.02）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;新年快乐啊朋友们！假期快要结束了，到返程的时间了，祝朋友们返程一路平安，新的一年身体健康工作顺利！&lt;br /&gt;
-</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 144 期。本篇是对过去一周（01.27 - 02.02）的记录、思考与分享。</p>
+<hr />
+<p>新年快乐啊朋友们！假期快要结束了，到返程的时间了，祝朋友们返程一路平安，新的一年身体健康工作顺利！<br />]]>
+    </summary>
+    <title>Kilig 的碎周报 - #144（2025.02.03）</title>
+    <updated>2025-02-03T14:40:10.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #143（2025.01.27）</title>
-    <link href="http://kiligwyu.com/newsletter/143/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 143 期。本篇是对过去一周（01.20 - 01.26）的记录、思考与分享。</p><hr /><p>过年好！朋友们！</p><p>看了电影 <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737959879.webp" style="width: 50%; display: inline-block;" alt="蓦然回首 ルックバック (2024)"></div><br><p>已经放假回家了，在家陪小朋友玩，每次回来都有很多变化，话越来越多了，越来越懂事了，很可爱很好玩。<br />已经开始沉迷抖音了，天天说看抖音看抖音，还会微信里翻哥哥姐姐弟弟妹妹们的视频看。<br />还会玩 Siri 了，经常抱着我的手表或手机“Hi Siri”，Siri 一回应她，可开心了 😄。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=L9uPDsuebTo">为 14 亿人供电，有多难？丨How hard to power 1.4 billion people?</a></li><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV1pYw8eSEVs/">2024 年单机主机游戏游玩清单！找到你钟意的那一款~</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://apps.apple.com/app/pieoneer/id6739781207">Pieoneer</a><br />macOS 上又一款好看的快捷启动、切换应用的工具。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737986698.webp" style="width: 50%; display: inline-block;" alt="Pieoneer"></div><br></li><li><a href="https://apps.apple.com/app/id6740568639">Couplets by NIX</a><br />圣诞节有 <a href="https://www.festivitas.app/">在桌面放置彩灯串的应用</a>，现在春节到了，可以在桌面上放置对联了。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737986796.webp" style="width: 50%; display: inline-block;" alt="Couplets by NIX"></div><br></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://medicine.lvwzhen.com/">进口原研药目录</a></li><li><a href="https://github.com/MattBlackOnly/TubeTube">MattBlackOnly/TubeTube</a>: YouTube Downloader using yt-dlp.</li><li><a href="https://github.com/wojciech-kulik/FlashSpace">wojciech-kulik/FlashSpace</a>: FlashSpace is a blazingly fast virtual workspace manager for macOS ⚡.</li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/143/</id>
+    <link href="http://kiligwyu.com/newsletter/143/"/>
     <published>2025-01-27T05:31:12.000Z</published>
-    <updated>2025-02-10T12:31:41.735Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 143 期。本篇是对过去一周（01.20 - 01.26）的记录、思考与分享。</p><hr /><p>过年好！朋友们！</p><p>看了电影 <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737959879.webp" style="width: 50%; display: inline-block;" alt="蓦然回首 ルックバック (2024)"></div><br><p>已经放假回家了，在家陪小朋友玩，每次回来都有很多变化，话越来越多了，越来越懂事了，很可爱很好玩。<br />已经开始沉迷抖音了，天天说看抖音看抖音，还会微信里翻哥哥姐姐弟弟妹妹们的视频看。<br />还会玩 Siri 了，经常抱着我的手表或手机“Hi Siri”，Siri 一回应她，可开心了 😄。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>星球研究所 Institute for Planets - <a href="https://www.youtube.com/watch?v=L9uPDsuebTo">为 14 亿人供电，有多难？丨How hard to power 1.4 billion people?</a></li><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV1pYw8eSEVs/">2024 年单机主机游戏游玩清单！找到你钟意的那一款~</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://apps.apple.com/app/pieoneer/id6739781207">Pieoneer</a><br />macOS 上又一款好看的快捷启动、切换应用的工具。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737986698.webp" style="width: 50%; display: inline-block;" alt="Pieoneer"></div><br></li><li><a href="https://apps.apple.com/app/id6740568639">Couplets by NIX</a><br />圣诞节有 <a href="https://www.festivitas.app/">在桌面放置彩灯串的应用</a>，现在春节到了，可以在桌面上放置对联了。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737986796.webp" style="width: 50%; display: inline-block;" alt="Couplets by NIX"></div><br></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://medicine.lvwzhen.com/">进口原研药目录</a></li><li><a href="https://github.com/MattBlackOnly/TubeTube">MattBlackOnly/TubeTube</a>: YouTube Downloader using yt-dlp.</li><li><a href="https://github.com/wojciech-kulik/FlashSpace">wojciech-kulik/FlashSpace</a>: FlashSpace is a blazingly fast virtual workspace manager for macOS ⚡.</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 143 期。本篇是对过去一周（01.20 - 01.26）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;过年好！朋友们！&lt;/p&gt;
-&lt;p&gt;看了电影 &lt;a href=&quot;https://movie.douban.com/s</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 143 期。本篇是对过去一周（01.20 - 01.26）的记录、思考与分享。</p>
+<hr />
+<p>过年好！朋友们！</p>
+<p>看了电影 <a href="https://movie.douban.com/s]]>
+    </summary>
+    <title>Kilig 的碎周报 - #143（2025.01.27）</title>
+    <updated>2025-02-10T12:31:41.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #142（2025.01.20）</title>
-    <link href="http://kiligwyu.com/newsletter/142/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 142 期。本篇是对过去一周（01.13 - 01.19）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-door/1691699589?i=1691699849"></iframe><p><br>又是 996 的一周，赶年前的版本需求，不过周四（01.23）我就放假了。</p><p>购买了 <a href="https://apps.apple.com/app/id1549159979">uPic</a>，macOS 上原生的图片上传工具，相比之前使用的跨平台 PicGo，动辄两三百兆的内存占用，uPic 只要不到 50M，虽然只是偶尔简单使用，<em>#为好应用买单</em>。</p><p><a href="https://www.cnbeta.com.tw/articles/game/1471896.htm">有传言《丝之歌》快要发布了，大约在四月份</a>，我把《空洞骑士》又捡起来玩玩，好多年没玩了，进度差不多 80% 了，手残不想玩，周末找了个插件 <a href="https://github.com/fifty-six/Scarab">Scarab</a>，装了几个 mod，有修复手柄的 mod、有简单模式的 mod、有秒杀所有虫子包括自己的 mod 等等，游戏一下子简单了许多，手残也能玩了。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li><a href="https://mp.weixin.qq.com/s/lth_l2jPNcPrcwJZuJ4D5g">中国“擦边”简史</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7483.html">我的三观（世界观、价值观、人生观）</a></li><li>道哥 vulgur - <a href="https://mp.weixin.qq.com/s/9RRdsQ7A0wu1_AqYCfeTBg">独立开发周记 85：2024 年终总结</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://www.bilibili.com/video/BV12PceewEyY/">《惊 喜》：游戏科学蛇年贺岁小短片_黑神话悟空</a></li><li>两颗皮蛋 - <a href="https://www.bilibili.com/video/BV1hPwqeXEon/">[杜比]赢了又如何？浅谈本世代游戏主机战争｜PS5｜PS5 Pro｜XSS</a></li><li>冷科普 - <a href="https://www.bilibili.com/video/BV1mowAeEEFn/">轴承里的滚珠掉不出来，它又是怎么放进去的？看完解开多年疑惑！</a></li><li>三木刃 - <a href="https://www.bilibili.com/video/BV1rTwPerEVG/">一只视频 让鬼畜区集体 “穿越” 回五年前！</a></li><li>郭云神奇 - <a href="https://www.bilibili.com/video/BV1eKcde3EME/">《鹿鼎记》10 万字拆解：1 场暗黑「鸿门宴」的终极博弈！洞悉了权力的本质？04</a></li><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV1NpchepEux/">《黑神话：悟空》一大波官方周边来袭！开箱开个够！</a><br />黑神话的周边看得我也想买了…</li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=-6ElLlMUaoI">童年揭密：从小喝到大，但你根本不了解娃哈哈…</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://github.com/seadfeng/favicon-downloader">seadfeng/favicon-downloader</a></li><li><a href="https://www.uisdc.com/hunter/0221606148.html">苹果门店为什么将 MacBook 摆放角度调整为 76 度？</a></li><li><a href="https://github.com/fifty-six/Scarab">fifty-six/Scarab</a>: An installer for Hollow Knight mods written in Avalonia.</li><li><a href="https://apps.apple.com/app/id6740155555">YinYun: Minimalist Air Quality</a></li></ul><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737378563.webp" style="width: 50%; display: inline-block;" alt=""></div><br><ul><li><em>#NSFW <a href="https://limbopro.com/archives/31512.html">那些收藏数破万的经典番号</a></em></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/142/</id>
+    <link href="http://kiligwyu.com/newsletter/142/"/>
     <published>2025-01-20T11:53:26.000Z</published>
-    <updated>2025-01-20T13:19:39.075Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 142 期。本篇是对过去一周（01.13 - 01.19）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-door/1691699589?i=1691699849"></iframe><p><br>又是 996 的一周，赶年前的版本需求，不过周四（01.23）我就放假了。</p><p>购买了 <a href="https://apps.apple.com/app/id1549159979">uPic</a>，macOS 上原生的图片上传工具，相比之前使用的跨平台 PicGo，动辄两三百兆的内存占用，uPic 只要不到 50M，虽然只是偶尔简单使用，<em>#为好应用买单</em>。</p><p><a href="https://www.cnbeta.com.tw/articles/game/1471896.htm">有传言《丝之歌》快要发布了，大约在四月份</a>，我把《空洞骑士》又捡起来玩玩，好多年没玩了，进度差不多 80% 了，手残不想玩，周末找了个插件 <a href="https://github.com/fifty-six/Scarab">Scarab</a>，装了几个 mod，有修复手柄的 mod、有简单模式的 mod、有秒杀所有虫子包括自己的 mod 等等，游戏一下子简单了许多，手残也能玩了。</p><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li><a href="https://mp.weixin.qq.com/s/lth_l2jPNcPrcwJZuJ4D5g">中国“擦边”简史</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7483.html">我的三观（世界观、价值观、人生观）</a></li><li>道哥 vulgur - <a href="https://mp.weixin.qq.com/s/9RRdsQ7A0wu1_AqYCfeTBg">独立开发周记 85：2024 年终总结</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://www.bilibili.com/video/BV12PceewEyY/">《惊 喜》：游戏科学蛇年贺岁小短片_黑神话悟空</a></li><li>两颗皮蛋 - <a href="https://www.bilibili.com/video/BV1hPwqeXEon/">[杜比]赢了又如何？浅谈本世代游戏主机战争｜PS5｜PS5 Pro｜XSS</a></li><li>冷科普 - <a href="https://www.bilibili.com/video/BV1mowAeEEFn/">轴承里的滚珠掉不出来，它又是怎么放进去的？看完解开多年疑惑！</a></li><li>三木刃 - <a href="https://www.bilibili.com/video/BV1rTwPerEVG/">一只视频 让鬼畜区集体 “穿越” 回五年前！</a></li><li>郭云神奇 - <a href="https://www.bilibili.com/video/BV1eKcde3EME/">《鹿鼎记》10 万字拆解：1 场暗黑「鸿门宴」的终极博弈！洞悉了权力的本质？04</a></li><li>紫雨 carol - <a href="https://www.bilibili.com/video/BV1NpchepEux/">《黑神话：悟空》一大波官方周边来袭！开箱开个够！</a><br />黑神话的周边看得我也想买了…</li><li>赛博食录 - <a href="https://www.youtube.com/watch?v=-6ElLlMUaoI">童年揭密：从小喝到大，但你根本不了解娃哈哈…</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://github.com/seadfeng/favicon-downloader">seadfeng/favicon-downloader</a></li><li><a href="https://www.uisdc.com/hunter/0221606148.html">苹果门店为什么将 MacBook 摆放角度调整为 76 度？</a></li><li><a href="https://github.com/fifty-six/Scarab">fifty-six/Scarab</a>: An installer for Hollow Knight mods written in Avalonia.</li><li><a href="https://apps.apple.com/app/id6740155555">YinYun: Minimalist Air Quality</a></li></ul><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737378563.webp" style="width: 50%; display: inline-block;" alt=""></div><br><ul><li><em>#NSFW <a href="https://limbopro.com/archives/31512.html">那些收藏数破万的经典番号</a></em></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 142 期。本篇是对过去一周（01.13 - 01.19）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 142 期。本篇是对过去一周（01.13 - 01.19）的记录、思考与分享。</p>
+<hr />
+<iframe allow="autoplay *; encrypted-media *;" frameborder=]]>
+    </summary>
+    <title>Kilig 的碎周报 - #142（2025.01.20）</title>
+    <updated>2025-01-20T13:19:39.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #141（2025.01.13）</title>
-    <link href="http://kiligwyu.com/newsletter/141/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 141 期。本篇是对过去一周（01.06 - 01.12）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/love-somebody/1773341928?i=1773342229"></iframe><p><br>本周看了电影 <a href="https://movie.douban.com/subject/35603727/">猫猫的奇幻漂流 Straume (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501132226290.webp" style="width: 50%; display: inline-block;" alt="猫猫的奇幻漂流 Straume (2024)"></div><br><h2 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h2><ul><li><a href="https://eclecticlight.co/2024/11/08/why-cpu-in-activity-monitor-isnt-what-you-think/">Why % CPU in Activity Monitor isn’t what you think</a></li><li><a href="https://rmondello.com/2024/10/07/apple-passwords-generated-strong-password-format/">Apple Passwords’ Generated Strong Password Format</a></li><li><a href="https://mp.weixin.qq.com/s/9RRdsQ7A0wu1_AqYCfeTBg">独立开发周记 85：2024 年终总结</a></li><li>三輪 - <a href="https://sanlun.bike/post/ni-zen-yao-shua-ya">那你怎么刷牙</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7480.html">月光博客 2024 年推荐阅读文章</a></li></ul><hr style="margin-left: 20px;"><ul><li>苹果年度的新春大片 - <a href="https://www.apple.com.cn/105/media/cn/iphone/2024/9a2516c1-9ca8-438d-8e38-6710e6c4e2b5/films/chinese-new-year-main/iphone-chinese-new-year-main-tpl-cn-2024_16x9.m3u8">想和你一起听听歌</a></li><li>Redknot - 乔红 - <a href="https://www.bilibili.com/video/BV1Htr8YhELV/">用最好的动画为你讲解–内存的原理</a></li><li>TenGuSan - <a href="https://www.bilibili.com/video/BV1BcrwYLErA/">【怪艺内参】从 40 万年薪到失业一年半的“被优化之神” S01E01</a></li><li>林亦 LYi - <a href="https://www.bilibili.com/video/BV1tjcHevEoB/">大器晚成！苹果芯片“失败”史</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=BHxJg38OiOs">全球最大奶茶公司的秘密</a></li><li>马督工 - <a href="https://www.bilibili.com/video/BV1Lpc3eDEQe/">【睡前消息 852】自铸败局——中国电影 2024 年总结</a></li></ul><hr style="margin-left: 20px;"><ul><li>小众软件 - <a href="https://www.appinn.com/privtracker/">PrivTracker - 开源的私人 BT Tracker 服务器地址：超大文件分享的又一个选择</a></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/141/</id>
+    <link href="http://kiligwyu.com/newsletter/141/"/>
     <published>2025-01-13T11:07:37.000Z</published>
-    <updated>2025-01-13T14:52:20.383Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 141 期。本篇是对过去一周（01.06 - 01.12）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/love-somebody/1773341928?i=1773342229"></iframe><p><br>本周看了电影 <a href="https://movie.douban.com/subject/35603727/">猫猫的奇幻漂流 Straume (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501132226290.webp" style="width: 50%; display: inline-block;" alt="猫猫的奇幻漂流 Straume (2024)"></div><br><h2 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h2><ul><li><a href="https://eclecticlight.co/2024/11/08/why-cpu-in-activity-monitor-isnt-what-you-think/">Why % CPU in Activity Monitor isn’t what you think</a></li><li><a href="https://rmondello.com/2024/10/07/apple-passwords-generated-strong-password-format/">Apple Passwords’ Generated Strong Password Format</a></li><li><a href="https://mp.weixin.qq.com/s/9RRdsQ7A0wu1_AqYCfeTBg">独立开发周记 85：2024 年终总结</a></li><li>三輪 - <a href="https://sanlun.bike/post/ni-zen-yao-shua-ya">那你怎么刷牙</a></li><li>月光博客 - <a href="https://www.williamlong.info/archives/7480.html">月光博客 2024 年推荐阅读文章</a></li></ul><hr style="margin-left: 20px;"><ul><li>苹果年度的新春大片 - <a href="https://www.apple.com.cn/105/media/cn/iphone/2024/9a2516c1-9ca8-438d-8e38-6710e6c4e2b5/films/chinese-new-year-main/iphone-chinese-new-year-main-tpl-cn-2024_16x9.m3u8">想和你一起听听歌</a></li><li>Redknot - 乔红 - <a href="https://www.bilibili.com/video/BV1Htr8YhELV/">用最好的动画为你讲解–内存的原理</a></li><li>TenGuSan - <a href="https://www.bilibili.com/video/BV1BcrwYLErA/">【怪艺内参】从 40 万年薪到失业一年半的“被优化之神” S01E01</a></li><li>林亦 LYi - <a href="https://www.bilibili.com/video/BV1tjcHevEoB/">大器晚成！苹果芯片“失败”史</a></li><li>小 Lin 说 - <a href="https://www.youtube.com/watch?v=BHxJg38OiOs">全球最大奶茶公司的秘密</a></li><li>马督工 - <a href="https://www.bilibili.com/video/BV1Lpc3eDEQe/">【睡前消息 852】自铸败局——中国电影 2024 年总结</a></li></ul><hr style="margin-left: 20px;"><ul><li>小众软件 - <a href="https://www.appinn.com/privtracker/">PrivTracker - 开源的私人 BT Tracker 服务器地址：超大文件分享的又一个选择</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 141 期。本篇是对过去一周（01.06 - 01.12）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 141 期。本篇是对过去一周（01.06 - 01.12）的记录、思考与分享。</p>
+<hr />
+<iframe allow="autoplay *; encrypted-media *;" frameborder=]]>
+    </summary>
+    <title>Kilig 的碎周报 - #141（2025.01.13）</title>
+    <updated>2025-01-13T14:52:20.000Z</updated>
   </entry>
-  
   <entry>
-    <title>App ICP 备案</title>
-    <link href="http://kiligwyu.com/ICP-Filing/"/>
-    <id>http://kiligwyu.com/ICP-Filing/</id>
-    <published>2025-01-09T14:58:23.000Z</published>
-    <updated>2025-01-09T16:30:59.412Z</updated>
-    
-    <content type="html"><![CDATA[<p>终于走完了网站备案和 App 备案，这里简单回顾一下。注意，本篇不是备案教程。</p><h2 id="为什么备案"><a class="markdownIt-Anchor" href="#为什么备案"></a> 为什么备案</h2><p>我的两个小破 App，<a href="https://apps.apple.com/app/id6463897064/">Kroma</a> 和 <a href="https://apps.apple.com/app/id1333958571/">iCollect+</a>，不备案就不能上架大陆地区 App Store，虽然目前还不是靠独立开发 App 挣钱养活自己，目前也不指望能赚多少钱（肯定是赔本的），但未雨绸缪，要想在大陆地区上架销售，备案是少不了的，另外也为了曾经帮助过我的朋友们，感谢你们的热情反馈和五星好评。</p><p>尽管我个人比较抵触备案，从网站备案到 App 备案，再到各种实名制服务，只会让监管变本加厉，只会让个人隐私泄露的更彻底，对不法行为的打击收效甚微。或许这只是我的个人偏见。</p><h2 id="备案流程"><a class="markdownIt-Anchor" href="#备案流程"></a> 备案流程</h2><p>App 备案，需要一个已备案的可访问域名，就算是不联网的 App 也需要，总的流程就是，先买一个域名，然后域名备案，搭建网站，最后再 App 备案。</p><p>我在阿里云买了一个便宜的域名，<a href="http://kilig.tech/">kilig.tech</a>，10 年 ¥199。总的来说，备案没什么难度，按流程，需要什么材料就提交什么材料，提交审核，如果被打回，按要求修改重新提交就是。下面是我提交审核的时间线。</p><ul><li>2024<ul><li>12.12 购买域名，申请 ICP 备案</li><li>12.13 通过阿里云初审</li><li>12.15 提交至通信管理局审核，工信部短信核验</li><li>12.24 管局审核通过，下发 ICP 备案号；提交 App 备案申请，两个 App 一块儿申请</li><li>12.25 阿里云初审未通过，要求补充 App 备注信息（功能简介、使用的后端接口域名、App Store 链接等），别且要求网站可访问</li><li>12.29 <a href="http://kilig.tech/">kilig.tech</a> 网站部署，重新提交审核</li><li>12.30 提交至通信管理局审核，工信部短信核验</li></ul></li><li>2025<ul><li>01.09 管局审核通过，下发 App 备案号</li></ul></li></ul><p>前后花了快一个月，其中，由于工作繁忙，网站部署延迟了几天；管局审核才是耗时最长的，“20 个工作日内”，还两次。</p><h2 id="备案后"><a class="markdownIt-Anchor" href="#备案后"></a> 备案后</h2><p>App Store Connect 提交一下 App 备案号，立即就可以在大陆地区 App Store 上架销售了。</p><h2 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h2><p>详细的备案流程可以参考 <a href="https://github.com/anyesu/blog/issues/49">阿里云域名购买及个人备案 · Issue #49</a> 这篇文章。</p><p>部署网站，如果只想简单搞搞，可以参考 <a href="/newsletter/139/">139 期碎周报</a> 里我的方案：</p><blockquote><p>周日简单搞了个静态网页 <a href="http://kilig.tech/">kilig.tech</a>，使用 Nginx 部署，最简单的方式，单文件 HTML，样式、图片全包含在里面，<a href="http://kilig.tech/">kilig.tech</a> 使用了 <a href="https://sindresorhus.com/apps">Sindre Sorhus - Apps</a> 的源码，直接在 Safari Web Inspector 里编辑 HTML 源码，去掉多余元素，然后使用 <a href="https://apps.apple.com/app/id6444322545">SingleFile for Safari</a> 把网页保存为单个文件，再检查一下源码，图片使用 Base64 编码替换一下，去掉不必要的信息，网页底部添加备案号，就完成了，上传到云服务器，搞定。<br />只是 App 备案使用，所以简单搞一下，以后有空再整。</p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;终于走完了网站备案和 App 备案，这里简单回顾一下。注意，本篇不是备案教程。&lt;/p&gt;
-&lt;h2 id=&quot;为什么备案&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#为什么备案&quot;&gt;&lt;/a&gt; 为什么备案&lt;/h2&gt;
-&lt;p&gt;我的两个小破 App，&lt;a hr</summary>
-      
-    
-    
-    
-    
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
     <category term="ICP" scheme="http://kiligwyu.com/tags/ICP/"/>
-    
+    <content>
+      <![CDATA[<p>终于走完了网站备案和 App 备案，这里简单回顾一下。注意，本篇不是备案教程。</p><h2 id="为什么备案"><a class="markdownIt-Anchor" href="#为什么备案"></a> 为什么备案</h2><p>我的两个小破 App，<a href="https://apps.apple.com/app/id6463897064/">Kroma</a> 和 <a href="https://apps.apple.com/app/id1333958571/">iCollect+</a>，不备案就不能上架大陆地区 App Store，虽然目前还不是靠独立开发 App 挣钱养活自己，目前也不指望能赚多少钱（肯定是赔本的），但未雨绸缪，要想在大陆地区上架销售，备案是少不了的，另外也为了曾经帮助过我的朋友们，感谢你们的热情反馈和五星好评。</p><p>尽管我个人比较抵触备案，从网站备案到 App 备案，再到各种实名制服务，只会让监管变本加厉，只会让个人隐私泄露的更彻底，对不法行为的打击收效甚微。或许这只是我的个人偏见。</p><h2 id="备案流程"><a class="markdownIt-Anchor" href="#备案流程"></a> 备案流程</h2><p>App 备案，需要一个已备案的可访问域名，就算是不联网的 App 也需要，总的流程就是，先买一个域名，然后域名备案，搭建网站，最后再 App 备案。</p><p>我在阿里云买了一个便宜的域名，<a href="http://kilig.tech/">kilig.tech</a>，10 年 ¥199。总的来说，备案没什么难度，按流程，需要什么材料就提交什么材料，提交审核，如果被打回，按要求修改重新提交就是。下面是我提交审核的时间线。</p><ul><li>2024<ul><li>12.12 购买域名，申请 ICP 备案</li><li>12.13 通过阿里云初审</li><li>12.15 提交至通信管理局审核，工信部短信核验</li><li>12.24 管局审核通过，下发 ICP 备案号；提交 App 备案申请，两个 App 一块儿申请</li><li>12.25 阿里云初审未通过，要求补充 App 备注信息（功能简介、使用的后端接口域名、App Store 链接等），别且要求网站可访问</li><li>12.29 <a href="http://kilig.tech/">kilig.tech</a> 网站部署，重新提交审核</li><li>12.30 提交至通信管理局审核，工信部短信核验</li></ul></li><li>2025<ul><li>01.09 管局审核通过，下发 App 备案号</li></ul></li></ul><p>前后花了快一个月，其中，由于工作繁忙，网站部署延迟了几天；管局审核才是耗时最长的，“20 个工作日内”，还两次。</p><h2 id="备案后"><a class="markdownIt-Anchor" href="#备案后"></a> 备案后</h2><p>App Store Connect 提交一下 App 备案号，立即就可以在大陆地区 App Store 上架销售了。</p><h2 id="其他"><a class="markdownIt-Anchor" href="#其他"></a> 其他</h2><p>详细的备案流程可以参考 <a href="https://github.com/anyesu/blog/issues/49">阿里云域名购买及个人备案 · Issue #49</a> 这篇文章。</p><p>部署网站，如果只想简单搞搞，可以参考 <a href="/newsletter/139/">139 期碎周报</a> 里我的方案：</p><blockquote><p>周日简单搞了个静态网页 <a href="http://kilig.tech/">kilig.tech</a>，使用 Nginx 部署，最简单的方式，单文件 HTML，样式、图片全包含在里面，<a href="http://kilig.tech/">kilig.tech</a> 使用了 <a href="https://sindresorhus.com/apps">Sindre Sorhus - Apps</a> 的源码，直接在 Safari Web Inspector 里编辑 HTML 源码，去掉多余元素，然后使用 <a href="https://apps.apple.com/app/id6444322545">SingleFile for Safari</a> 把网页保存为单个文件，再检查一下源码，图片使用 Base64 编码替换一下，去掉不必要的信息，网页底部添加备案号，就完成了，上传到云服务器，搞定。<br />只是 App 备案使用，所以简单搞一下，以后有空再整。</p></blockquote>]]>
+    </content>
+    <id>http://kiligwyu.com/ICP-Filing/</id>
+    <link href="http://kiligwyu.com/ICP-Filing/"/>
+    <published>2025-01-09T14:58:23.000Z</published>
+    <summary>
+      <![CDATA[<p>终于走完了网站备案和 App 备案，这里简单回顾一下。注意，本篇不是备案教程。</p>
+<h2 id="为什么备案"><a class="markdownIt-Anchor" href="#为什么备案"></a> 为什么备案</h2>
+<p>我的两个小破 App，<a hr]]>
+    </summary>
+    <title>App ICP 备案</title>
+    <updated>2025-01-09T16:30:59.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #140（2025.01.06）</title>
-    <link href="http://kiligwyu.com/newsletter/140/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 140 期。本篇是对过去一周（2024.12.30 - 2025.01.05）的记录、思考与分享。</p><hr /><p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/xKm77n0WcB4?si=TqA0QyvMIk7mL7HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br></p><p>新年快乐！</p><p>本周看了 <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a>、<a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a> 和 <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br><p>周六发现手机上机场挂了，所有线路全部超时，备用机场所有线路也全部超时，蜂窝网络下也一样，然后发现直连模式也超时；我使用的是 Surge 这个应用，我怀疑是 DNS 的问题，但使用系统 DNS 或自定义 DNS 也还是同样的问题，想着也没改配置，前一天还正常使用呢，正一筹莫展时候，搜索发现有可能会是 DoH（DNS over HTTPS） 的问题，我又检查了下 Surge 的配置，配置文件里没有 DoH 的配置，后来发现在 Modules 下面，开启了 DoH，老早以前设置的，还开了两个，阿里的 Ali-DoH 和腾讯的 DNSPod-DoH，进一步排查发现是 DNSPod-DoH 的问题，禁用掉就好了。</p><blockquote><p><strong>DNS over HTTPS</strong>（缩写：<strong>DoH</strong>）是域名系统的安全协议，以 HTTPS 协议完成 DNS 解析来保护 网络主机的隐私，能避免传统 DNS 协议中用户的 DNS 解析请求被窃听或者修改（例如中间人攻击）的情况。—— <a href="https://www.wikiwand.com/zh-hans/articles/DNS_over_HTTPS">DNS over HTTPS - Wikiwand</a></p></blockquote><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>戴铭的博客 - <a href="https://starming.com/2024/11/04/introduction-japanese-colors/">全网最全的日本传统颜色指南，看完你会更懂日本</a></li><li><a href="https://mp.weixin.qq.com/s/xVqVfew2SvuFXCfjI9nciA">娜夜极短诗 30 首</a></li><li><a href="https://mp.weixin.qq.com/s/AL66AhcLjGbyEnbNvyJ2FA">为什么 中文 不 需要 空格</a></li></ul><hr style="margin-left: 20px;"><ul><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1Kg6JYgEc2/">你曾经的2024快乐吗</a><br />只有魔鬼才匆匆忙忙</li><li>硬件茶谈 - <a href="https://www.youtube.com/watch?v=eTo-_EWB1uY">【硬核科普】一个视频了解磁轴，静电容，机械轴，光轴键盘的原理</a></li><li>綜劇安利社 - <a href="https://www.youtube.com/watch?v=Rgk8vVrVik4">最新脱口秀专场！#梁海源 #坐在角落的人</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-hjDJceZ7bIpHwsLA">必应 12 月超高清无水印壁纸</a>。<ul><li><a href="https://1drv.ms/f/s!AuQ7aUGVDnCMg7sBDJceZ7bIpHwsLA">必应 2024 年超高清无水印壁纸</a>。</li></ul></li><li><a href="https://github.com/hoarder-app/hoarder">hoarder-app/hoarder</a>: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search.</li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/140/</id>
+    <link href="http://kiligwyu.com/newsletter/140/"/>
     <published>2025-01-06T12:30:07.000Z</published>
-    <updated>2025-01-06T13:14:48.526Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 140 期。本篇是对过去一周（2024.12.30 - 2025.01.05）的记录、思考与分享。</p><hr /><p><br><iframe width="560" height="315" src="https://www.youtube.com/embed/xKm77n0WcB4?si=TqA0QyvMIk7mL7HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br></p><p>新年快乐！</p><p>本周看了 <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a>、<a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a> 和 <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br><p>周六发现手机上机场挂了，所有线路全部超时，备用机场所有线路也全部超时，蜂窝网络下也一样，然后发现直连模式也超时；我使用的是 Surge 这个应用，我怀疑是 DNS 的问题，但使用系统 DNS 或自定义 DNS 也还是同样的问题，想着也没改配置，前一天还正常使用呢，正一筹莫展时候，搜索发现有可能会是 DoH（DNS over HTTPS） 的问题，我又检查了下 Surge 的配置，配置文件里没有 DoH 的配置，后来发现在 Modules 下面，开启了 DoH，老早以前设置的，还开了两个，阿里的 Ali-DoH 和腾讯的 DNSPod-DoH，进一步排查发现是 DNSPod-DoH 的问题，禁用掉就好了。</p><blockquote><p><strong>DNS over HTTPS</strong>（缩写：<strong>DoH</strong>）是域名系统的安全协议，以 HTTPS 协议完成 DNS 解析来保护 网络主机的隐私，能避免传统 DNS 协议中用户的 DNS 解析请求被窃听或者修改（例如中间人攻击）的情况。—— <a href="https://www.wikiwand.com/zh-hans/articles/DNS_over_HTTPS">DNS over HTTPS - Wikiwand</a></p></blockquote><h3 id="一堆链接"><a class="markdownIt-Anchor" href="#一堆链接"></a> 一堆链接</h3><ul><li>戴铭的博客 - <a href="https://starming.com/2024/11/04/introduction-japanese-colors/">全网最全的日本传统颜色指南，看完你会更懂日本</a></li><li><a href="https://mp.weixin.qq.com/s/xVqVfew2SvuFXCfjI9nciA">娜夜极短诗 30 首</a></li><li><a href="https://mp.weixin.qq.com/s/AL66AhcLjGbyEnbNvyJ2FA">为什么 中文 不 需要 空格</a></li></ul><hr style="margin-left: 20px;"><ul><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1Kg6JYgEc2/">你曾经的2024快乐吗</a><br />只有魔鬼才匆匆忙忙</li><li>硬件茶谈 - <a href="https://www.youtube.com/watch?v=eTo-_EWB1uY">【硬核科普】一个视频了解磁轴，静电容，机械轴，光轴键盘的原理</a></li><li>綜劇安利社 - <a href="https://www.youtube.com/watch?v=Rgk8vVrVik4">最新脱口秀专场！#梁海源 #坐在角落的人</a></li></ul><hr style="margin-left: 20px;"><ul><li><a href="https://1drv.ms/u/s!AuQ7aUGVDnCMg-hjDJceZ7bIpHwsLA">必应 12 月超高清无水印壁纸</a>。<ul><li><a href="https://1drv.ms/f/s!AuQ7aUGVDnCMg7sBDJceZ7bIpHwsLA">必应 2024 年超高清无水印壁纸</a>。</li></ul></li><li><a href="https://github.com/hoarder-app/hoarder">hoarder-app/hoarder</a>: A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search.</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 140 期。本篇是对过去一周（2024.12.30 - 2025.01.05）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;br&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 140 期。本篇是对过去一周（2024.12.30 - 2025.01.05）的记录、思考与分享。</p>
+<hr />
+<p><br><iframe width="560" height="315" src="http]]>
+    </summary>
+    <title>Kilig 的碎周报 - #140（2025.01.06）</title>
+    <updated>2025-01-06T13:14:48.000Z</updated>
   </entry>
-  
   <entry>
-    <title>阅读记录（2025）</title>
-    <link href="http://kiligwyu.com/learninpublic/2025/"/>
-    <id>http://kiligwyu.com/learninpublic/2025/</id>
-    <published>2025-01-06T12:15:36.000Z</published>
-    <updated>2025-04-01T07:29:46.697Z</updated>
-    
-    <content type="html"><![CDATA[<p>2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><ul><li><a href="#%E7%94%B5%E5%BD%B1">电影</a><ul><li><a href="#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5%8F%8B-lets-go-to-prison-2006">1. 01.03: ★ 同居牢友 Let’s Go to Prison (2006)</a></li><li><a href="#2-0103-%E5%9D%A0%E8%90%BD%E7%9A%84%E5%AE%A1%E5%88%A4-anatomie-dune-chute-2023">2. 01.03: ★ 坠落的审判 Anatomie d’une chute (2023)</a></li><li><a href="#3-0105-%E8%90%8D%E6%B0%B4%E7%9B%B8%E8%85%90%E6%AA%90%E5%BB%8A%E4%B8%8B-%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%BC%E3%81%AE%E7%B8%81%E5%81%B4-2022">3. 01.05: ★ 萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></li><li><a href="#4-0112-%E7%8C%AB%E7%8C%AB%E7%9A%84%E5%A5%87%E5%B9%BB%E6%BC%82%E6%B5%81-straume-2024">4. 01.12: ★ 猫猫的奇幻漂流 Straume (2024)</a></li><li><a href="#5-0122-%E8%93%A6%E7%84%B6%E5%9B%9E%E9%A6%96-%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF-2024">5. 01.22: ★ 蓦然回首 ルックバック (2024)</a></li><li><a href="#6-0209-%E5%8D%B1%E6%A5%BC%E6%84%9A%E5%A4%AB-%D0%B4%D1%83%D1%80%D0%B0%D0%BA-2014">6. 02.09: ★ 危楼愚夫 Дурак (2014)</a></li><li><a href="#7-0209-%E8%BE%A9%E6%8A%A4%E4%BA%BA-%EB%B3%80%ED%98%B8%EC%9D%B8-2013">7. 02.09: ★ 辩护人 변호인 (2013)</a></li><li><a href="#8-0228-%E6%AD%BB%E4%BE%8D%E4%B8%8E%E9%87%91%E5%88%9A%E7%8B%BC-deadpool-wolverine-2024">8. 02.28: 死侍与金刚狼 Deadpool &amp; Wolverine (2024)</a></li></ul></li><li><a href="#%E5%89%A7%E9%9B%86">剧集</a><ul><li><a href="#1-0303-%E4%BA%BA%E7%94%9F%E5%88%87%E5%89%B2%E6%9C%AF-%E7%AC%AC%E4%B8%80%E5%AD%A3-severance-season-1-2022">1. 03.03: ★ 人生切割术 第一季 Severance Season 1 (2022)</a></li><li><a href="#2-0314-%E8%B1%BA%E7%8B%BC%E7%9A%84%E6%97%A5%E5%AD%90-%E7%AC%AC%E4%B8%80%E5%AD%A3-the-day-of-the-jackal-season-1-2024">2. 03.14: ★ 豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a></li><li><a href="#3-0321-%E4%BA%BA%E7%94%9F%E5%88%87%E5%89%B2%E6%9C%AF-%E7%AC%AC%E4%BA%8C%E5%AD%A3-severance-season-2-2025">3. 03.21: ★ 人生切割术 第二季 Severance Season 2 (2025)</a></li><li><a href="#4-0326-%E6%B5%81%E4%BA%BA-%E7%AC%AC%E4%B8%80%E5%AD%A3-slow-horses-season-1-2022">4. 03.26: ★ 流人 第一季 Slow Horses Season 1 (2022)</a></li></ul></li><li><a href="#%E9%98%85%E8%AF%BB">阅读</a><ul><li><a href="#1-0323-%E8%AF%BB%E5%BA%93-2501">1. 03.23: 读库 2501</a></li></ul></li></ul><hr /><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><h3 id="1-0103-同居牢友-lets-go-to-prison-2006"><a class="markdownIt-Anchor" href="#1-0103-同居牢友-lets-go-to-prison-2006"></a> 1. 01.03: ★ <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><h3 id="2-0103-坠落的审判-anatomie-dune-chute-2023"><a class="markdownIt-Anchor" href="#2-0103-坠落的审判-anatomie-dune-chute-2023"></a> 2. 01.03: ★ <a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><h3 id="3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"><a class="markdownIt-Anchor" href="#3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"></a> 3. 01.05: ★ <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br><h3 id="4-0112-猫猫的奇幻漂流-straume-2024"><a class="markdownIt-Anchor" href="#4-0112-猫猫的奇幻漂流-straume-2024"></a> 4. 01.12: ★ <a href="https://movie.douban.com/subject/35603727/">猫猫的奇幻漂流 Straume (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501132226290.webp" style="width: 50%; display: inline-block;" alt="猫猫的奇幻漂流 Straume (2024)"></div><br><h3 id="5-0122-蓦然回首-ルックバック-2024"><a class="markdownIt-Anchor" href="#5-0122-蓦然回首-ルックバック-2024"></a> 5. 01.22: ★ <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737959879.webp" style="width: 50%; display: inline-block;" alt="蓦然回首 ルックバック (2024)"></div><br><h3 id="6-0209-危楼愚夫-дурак-2014"><a class="markdownIt-Anchor" href="#6-0209-危楼愚夫-дурак-2014"></a> 6. 02.09: ★ <a href="https://movie.douban.com/subject/25882861/">危楼愚夫 Дурак (2014)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187547.webp" style="width: 50%; display: inline-block;" alt="危楼愚夫 Дурак (2014)"></div><br><h3 id="7-0209-辩护人-변호인-2013"><a class="markdownIt-Anchor" href="#7-0209-辩护人-변호인-2013"></a> 7. 02.09: ★ <a href="https://movie.douban.com/subject/21937445/">辩护人 변호인 (2013)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187545.webp" style="width: 50%; display: inline-block;" alt="辩护人 변호인 (2013)"></div><br><h3 id="8-0228-死侍与金刚狼-deadpool-wolverine-2024"><a class="markdownIt-Anchor" href="#8-0228-死侍与金刚狼-deadpool-wolverine-2024"></a> 8. 02.28: <a href="https://movie.douban.com/subject/26957900/">死侍与金刚狼 Deadpool &amp; Wolverine (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006015.webp" style="width: 50%; display: inline-block;" alt="死侍与金刚狼 Deadpool & Wolverine (2024)"></div><br><h2 id="剧集"><a class="markdownIt-Anchor" href="#剧集"></a> 剧集</h2><h3 id="1-0303-人生切割术-第一季-severance-season-1-2022"><a class="markdownIt-Anchor" href="#1-0303-人生切割术-第一季-severance-season-1-2022"></a> 1. 03.03: ★ <a href="https://movie.douban.com/subject/34885342/">人生切割术 第一季 Severance Season 1 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006017.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第一季 Severance Season 1 (2022)"></div><br><h3 id="2-0314-豺狼的日子-第一季-the-day-of-the-jackal-season-1-2024"><a class="markdownIt-Anchor" href="#2-0314-豺狼的日子-第一季-the-day-of-the-jackal-season-1-2024"></a> 2. 03.14: ★ <a href="https://movie.douban.com/subject/36323224/">豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742210995.webp" style="width: 50%; display: inline-block;" alt="豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)"></div><br><h3 id="3-0321-人生切割术-第二季-severance-season-2-2025"><a class="markdownIt-Anchor" href="#3-0321-人生切割术-第二季-severance-season-2-2025"></a> 3. 03.21: ★ <a href="https://movie.douban.com/subject/35783948/">人生切割术 第二季 Severance Season 2 (2025)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820146.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第二季 Severance Season 2 (2025)"></div><br><h3 id="4-0326-流人-第一季-slow-horses-season-1-2022"><a class="markdownIt-Anchor" href="#4-0326-流人-第一季-slow-horses-season-1-2022"></a> 4. 03.26: ★ <a href="https://movie.douban.com/subject/34890017/">流人 第一季 Slow Horses Season 1 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1743492405.webp" style="width: 50%; display: inline-block;" alt="流人 第一季 Slow Horses Season 1 (2022)"></div><br><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><h3 id="1-0323-读库-2501"><a class="markdownIt-Anchor" href="#1-0323-读库-2501"></a> 1. 03.23: <a href="https://book.douban.com/subject/37109336/">读库 2501</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820126.webp" style="width: 50%; display: inline-block;" alt="读库 2501"></div><br>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%94%B5%E5%BD%B1&quot;&gt;电影&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5</summary>
-      
-    
-    
-    
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
     <category term="Learn in Public" scheme="http://kiligwyu.com/categories/Learn-in-Public/"/>
-    
-    
     <category term="lip" scheme="http://kiligwyu.com/tags/lip/"/>
-    
+    <content>
+      <![CDATA[<p>2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p><ul><li><a href="#%E7%94%B5%E5%BD%B1">电影</a><ul><li><a href="#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5%8F%8B-lets-go-to-prison-2006">1. 01.03: ★ 同居牢友 Let’s Go to Prison (2006)</a></li><li><a href="#2-0103-%E5%9D%A0%E8%90%BD%E7%9A%84%E5%AE%A1%E5%88%A4-anatomie-dune-chute-2023">2. 01.03: ★ 坠落的审判 Anatomie d’une chute (2023)</a></li><li><a href="#3-0105-%E8%90%8D%E6%B0%B4%E7%9B%B8%E8%85%90%E6%AA%90%E5%BB%8A%E4%B8%8B-%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%83%95%E3%82%A9%E3%83%BC%E3%82%BC%E3%81%AE%E7%B8%81%E5%81%B4-2022">3. 01.05: ★ 萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></li><li><a href="#4-0112-%E7%8C%AB%E7%8C%AB%E7%9A%84%E5%A5%87%E5%B9%BB%E6%BC%82%E6%B5%81-straume-2024">4. 01.12: ★ 猫猫的奇幻漂流 Straume (2024)</a></li><li><a href="#5-0122-%E8%93%A6%E7%84%B6%E5%9B%9E%E9%A6%96-%E3%83%AB%E3%83%83%E3%82%AF%E3%83%90%E3%83%83%E3%82%AF-2024">5. 01.22: ★ 蓦然回首 ルックバック (2024)</a></li><li><a href="#6-0209-%E5%8D%B1%E6%A5%BC%E6%84%9A%E5%A4%AB-%D0%B4%D1%83%D1%80%D0%B0%D0%BA-2014">6. 02.09: ★ 危楼愚夫 Дурак (2014)</a></li><li><a href="#7-0209-%E8%BE%A9%E6%8A%A4%E4%BA%BA-%EB%B3%80%ED%98%B8%EC%9D%B8-2013">7. 02.09: ★ 辩护人 변호인 (2013)</a></li><li><a href="#8-0228-%E6%AD%BB%E4%BE%8D%E4%B8%8E%E9%87%91%E5%88%9A%E7%8B%BC-deadpool-wolverine-2024">8. 02.28: 死侍与金刚狼 Deadpool &amp; Wolverine (2024)</a></li></ul></li><li><a href="#%E5%89%A7%E9%9B%86">剧集</a><ul><li><a href="#1-0303-%E4%BA%BA%E7%94%9F%E5%88%87%E5%89%B2%E6%9C%AF-%E7%AC%AC%E4%B8%80%E5%AD%A3-severance-season-1-2022">1. 03.03: ★ 人生切割术 第一季 Severance Season 1 (2022)</a></li><li><a href="#2-0314-%E8%B1%BA%E7%8B%BC%E7%9A%84%E6%97%A5%E5%AD%90-%E7%AC%AC%E4%B8%80%E5%AD%A3-the-day-of-the-jackal-season-1-2024">2. 03.14: ★ 豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a></li><li><a href="#3-0321-%E4%BA%BA%E7%94%9F%E5%88%87%E5%89%B2%E6%9C%AF-%E7%AC%AC%E4%BA%8C%E5%AD%A3-severance-season-2-2025">3. 03.21: ★ 人生切割术 第二季 Severance Season 2 (2025)</a></li><li><a href="#4-0326-%E6%B5%81%E4%BA%BA-%E7%AC%AC%E4%B8%80%E5%AD%A3-slow-horses-season-1-2022">4. 03.26: ★ 流人 第一季 Slow Horses Season 1 (2022)</a></li></ul></li><li><a href="#%E9%98%85%E8%AF%BB">阅读</a><ul><li><a href="#1-0323-%E8%AF%BB%E5%BA%93-2501">1. 03.23: 读库 2501</a></li></ul></li></ul><hr /><h2 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h2><h3 id="1-0103-同居牢友-lets-go-to-prison-2006"><a class="markdownIt-Anchor" href="#1-0103-同居牢友-lets-go-to-prison-2006"></a> 1. 01.03: ★ <a href="https://movie.douban.com/subject/1867389/">同居牢友 Let’s Go to Prison (2006)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039069.webp" style="width: 50%; display: inline-block;" alt="同居牢友 Let's Go to Prison (2006)"></div><br><h3 id="2-0103-坠落的审判-anatomie-dune-chute-2023"><a class="markdownIt-Anchor" href="#2-0103-坠落的审判-anatomie-dune-chute-2023"></a> 2. 01.03: ★ <a href="https://movie.douban.com/subject/35633650/">坠落的审判 Anatomie d’une chute (2023)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039068.webp" style="width: 50%; display: inline-block;" alt="坠落的审判 Anatomie d'une chute (2023)"></div><br><h3 id="3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"><a class="markdownIt-Anchor" href="#3-0105-萍水相腐檐廊下-メタモルフォーゼの縁側-2022"></a> 3. 01.05: ★ <a href="https://movie.douban.com/subject/35316486/">萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501062039066.webp" style="width: 50%; display: inline-block;" alt="萍水相腐檐廊下 メタモルフォーゼの縁側 (2022)"></div><br><h3 id="4-0112-猫猫的奇幻漂流-straume-2024"><a class="markdownIt-Anchor" href="#4-0112-猫猫的奇幻漂流-straume-2024"></a> 4. 01.12: ★ <a href="https://movie.douban.com/subject/35603727/">猫猫的奇幻漂流 Straume (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/202501132226290.webp" style="width: 50%; display: inline-block;" alt="猫猫的奇幻漂流 Straume (2024)"></div><br><h3 id="5-0122-蓦然回首-ルックバック-2024"><a class="markdownIt-Anchor" href="#5-0122-蓦然回首-ルックバック-2024"></a> 5. 01.22: ★ <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1737959879.webp" style="width: 50%; display: inline-block;" alt="蓦然回首 ルックバック (2024)"></div><br><h3 id="6-0209-危楼愚夫-дурак-2014"><a class="markdownIt-Anchor" href="#6-0209-危楼愚夫-дурак-2014"></a> 6. 02.09: ★ <a href="https://movie.douban.com/subject/25882861/">危楼愚夫 Дурак (2014)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187547.webp" style="width: 50%; display: inline-block;" alt="危楼愚夫 Дурак (2014)"></div><br><h3 id="7-0209-辩护人-변호인-2013"><a class="markdownIt-Anchor" href="#7-0209-辩护人-변호인-2013"></a> 7. 02.09: ★ <a href="https://movie.douban.com/subject/21937445/">辩护人 변호인 (2013)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1739187545.webp" style="width: 50%; display: inline-block;" alt="辩护人 변호인 (2013)"></div><br><h3 id="8-0228-死侍与金刚狼-deadpool-wolverine-2024"><a class="markdownIt-Anchor" href="#8-0228-死侍与金刚狼-deadpool-wolverine-2024"></a> 8. 02.28: <a href="https://movie.douban.com/subject/26957900/">死侍与金刚狼 Deadpool &amp; Wolverine (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006015.webp" style="width: 50%; display: inline-block;" alt="死侍与金刚狼 Deadpool & Wolverine (2024)"></div><br><h2 id="剧集"><a class="markdownIt-Anchor" href="#剧集"></a> 剧集</h2><h3 id="1-0303-人生切割术-第一季-severance-season-1-2022"><a class="markdownIt-Anchor" href="#1-0303-人生切割术-第一季-severance-season-1-2022"></a> 1. 03.03: ★ <a href="https://movie.douban.com/subject/34885342/">人生切割术 第一季 Severance Season 1 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1741006017.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第一季 Severance Season 1 (2022)"></div><br><h3 id="2-0314-豺狼的日子-第一季-the-day-of-the-jackal-season-1-2024"><a class="markdownIt-Anchor" href="#2-0314-豺狼的日子-第一季-the-day-of-the-jackal-season-1-2024"></a> 2. 03.14: ★ <a href="https://movie.douban.com/subject/36323224/">豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742210995.webp" style="width: 50%; display: inline-block;" alt="豺狼的日子 第一季 The Day of the Jackal Season 1 (2024)"></div><br><h3 id="3-0321-人生切割术-第二季-severance-season-2-2025"><a class="markdownIt-Anchor" href="#3-0321-人生切割术-第二季-severance-season-2-2025"></a> 3. 03.21: ★ <a href="https://movie.douban.com/subject/35783948/">人生切割术 第二季 Severance Season 2 (2025)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820146.webp" style="width: 50%; display: inline-block;" alt="人生切割术 第二季 Severance Season 2 (2025)"></div><br><h3 id="4-0326-流人-第一季-slow-horses-season-1-2022"><a class="markdownIt-Anchor" href="#4-0326-流人-第一季-slow-horses-season-1-2022"></a> 4. 03.26: ★ <a href="https://movie.douban.com/subject/34890017/">流人 第一季 Slow Horses Season 1 (2022)</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1743492405.webp" style="width: 50%; display: inline-block;" alt="流人 第一季 Slow Horses Season 1 (2022)"></div><br><h2 id="阅读"><a class="markdownIt-Anchor" href="#阅读"></a> 阅读</h2><h3 id="1-0323-读库-2501"><a class="markdownIt-Anchor" href="#1-0323-读库-2501"></a> 1. 03.23: <a href="https://book.douban.com/subject/37109336/">读库 2501</a></h3><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2025/1742820126.webp" style="width: 50%; display: inline-block;" alt="读库 2501"></div><br>]]>
+    </content>
+    <id>http://kiligwyu.com/learninpublic/2025/</id>
+    <link href="http://kiligwyu.com/learninpublic/2025/"/>
+    <published>2025-01-06T12:15:36.000Z</published>
+    <summary>
+      <![CDATA[<p>2025 年书影音记录，日期为完成日期，★ 为（个人）推荐。</p>
+<ul>
+<li><a href="#%E7%94%B5%E5%BD%B1">电影</a>
+<ul>
+<li><a href="#1-0103-%E5%90%8C%E5%B1%85%E7%89%A2%E5]]>
+    </summary>
+    <title>阅读记录（2025）</title>
+    <updated>2025-04-01T07:29:46.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #139（2024.12.30）</title>
-    <link href="http://kiligwyu.com/newsletter/139/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 139 期。本篇是对过去一周（12.23 - 12.29）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/%E6%BF%AE%E6%9B%BC/1524924298"></iframe><p><br>本周是 996 的一周，只到月底 996，总共也没有几天，所以还可以接受。</p><p>周六晚上一口气看完了 <a href="https://movie.douban.com/subject/35656342/">鱿鱼游戏 第二季 오징어 게임 시즌 2 (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412302000834.webp" style="width: 50%; display: inline-block;" alt="鱿鱼游戏 第二季 오징어 게임 시즌 2 (2024)"></div><br><p>周日简单搞了个静态网页 <a href="http://kilig.tech/">kilig.tech</a>，使用 Nginx 部署，最简单的方式，单文件 HTML，样式、图片全包含在里面，<a href="http://kilig.tech/">kilig.tech</a> 使用了 <a href="https://sindresorhus.com/apps">Sindre Sorhus - Apps</a> 的源码，直接在 Safari Web Inspector 里编辑 HTML 源码，去掉多余元素，然后使用 <a href="https://apps.apple.com/app/id6444322545">SingleFile for Safari</a> 把网页保存为单个文件，再检查一下源码，图片使用 Base64 编码替换一下，去掉不必要的信息，网页底部添加备案号，就完成了，上传到云服务器，搞定。<br />只是 App 备案使用，所以简单搞一下，以后有空再整。</p><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>橙红 Iris - <a href="https://www.bilibili.com/video/BV1grCPYCE5o/">差价 2000 倍？电动牙刷怎么选？选扫振还是声波？国产还是进口？用13支电动牙刷的经验告诉你</a></li><li>森纳映画 - <a href="https://www.youtube.com/watch?v=49RLuvQ8Pv8">【不止遊戲】子彈口徑 為什麼都是如 7.62 這種奇怪的數字？</a></li><li>王林林 Eileen - <a href="https://www.youtube.com/watch?v=of0DwEriMn4">【兰花】唯一能反寄生真菌的白嫖之王!昆虫传粉还得倒贴的美丽陷阱</a></li><li>无穷小亮的科普日常 - <a href="https://www.bilibili.com/video/BV1wiC5YZEK7/">幽帘虫、洞穴猎蝽、闪光神秘斑点……广西溶洞里的生命奇观！</a></li><li>DoodletmeGO - <a href="https://www.youtube.com/watch?v=P6uwj5Ix7qg">Fantasy Haircut</a></li><li>音樂家的無聊人生 Musician Seacow - <a href="https://www.youtube.com/watch?v=gRQho0kcke0">人類藝術顛峰！為什麼你一定要認識貝多芬《英雄交響曲》</a></li><li>天才捕手 FM - <a href="https://podcasts.apple.com/us/podcast/%E5%A4%A9%E6%89%8D%E6%8D%95%E6%89%8Bfm-%E6%9C%80%E5%B8%A6%E5%8A%B2%E7%9A%84%E8%81%8C%E4%B8%9A%E6%95%85%E4%BA%8B/id1503858543">脱口秀演员黑灯：盲人有个视角就很不错了</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://aerolite.dev/applite">Applite</a></li><li><a href="https://creativerly.com/tiny-macos-utility-apps-part-5/">Tiny macOS utility apps I love – Part 5</a></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/139/</id>
+    <link href="http://kiligwyu.com/newsletter/139/"/>
     <published>2024-12-30T11:55:40.000Z</published>
-    <updated>2024-12-30T12:11:13.584Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 139 期。本篇是对过去一周（12.23 - 12.29）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/%E6%BF%AE%E6%9B%BC/1524924298"></iframe><p><br>本周是 996 的一周，只到月底 996，总共也没有几天，所以还可以接受。</p><p>周六晚上一口气看完了 <a href="https://movie.douban.com/subject/35656342/">鱿鱼游戏 第二季 오징어 게임 시즌 2 (2024)</a>。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412302000834.webp" style="width: 50%; display: inline-block;" alt="鱿鱼游戏 第二季 오징어 게임 시즌 2 (2024)"></div><br><p>周日简单搞了个静态网页 <a href="http://kilig.tech/">kilig.tech</a>，使用 Nginx 部署，最简单的方式，单文件 HTML，样式、图片全包含在里面，<a href="http://kilig.tech/">kilig.tech</a> 使用了 <a href="https://sindresorhus.com/apps">Sindre Sorhus - Apps</a> 的源码，直接在 Safari Web Inspector 里编辑 HTML 源码，去掉多余元素，然后使用 <a href="https://apps.apple.com/app/id6444322545">SingleFile for Safari</a> 把网页保存为单个文件，再检查一下源码，图片使用 Base64 编码替换一下，去掉不必要的信息，网页底部添加备案号，就完成了，上传到云服务器，搞定。<br />只是 App 备案使用，所以简单搞一下，以后有空再整。</p><h3 id="音视频"><a class="markdownIt-Anchor" href="#音视频"></a> 音视频</h3><ul><li>橙红 Iris - <a href="https://www.bilibili.com/video/BV1grCPYCE5o/">差价 2000 倍？电动牙刷怎么选？选扫振还是声波？国产还是进口？用13支电动牙刷的经验告诉你</a></li><li>森纳映画 - <a href="https://www.youtube.com/watch?v=49RLuvQ8Pv8">【不止遊戲】子彈口徑 為什麼都是如 7.62 這種奇怪的數字？</a></li><li>王林林 Eileen - <a href="https://www.youtube.com/watch?v=of0DwEriMn4">【兰花】唯一能反寄生真菌的白嫖之王!昆虫传粉还得倒贴的美丽陷阱</a></li><li>无穷小亮的科普日常 - <a href="https://www.bilibili.com/video/BV1wiC5YZEK7/">幽帘虫、洞穴猎蝽、闪光神秘斑点……广西溶洞里的生命奇观！</a></li><li>DoodletmeGO - <a href="https://www.youtube.com/watch?v=P6uwj5Ix7qg">Fantasy Haircut</a></li><li>音樂家的無聊人生 Musician Seacow - <a href="https://www.youtube.com/watch?v=gRQho0kcke0">人類藝術顛峰！為什麼你一定要認識貝多芬《英雄交響曲》</a></li><li>天才捕手 FM - <a href="https://podcasts.apple.com/us/podcast/%E5%A4%A9%E6%89%8D%E6%8D%95%E6%89%8Bfm-%E6%9C%80%E5%B8%A6%E5%8A%B2%E7%9A%84%E8%81%8C%E4%B8%9A%E6%95%85%E4%BA%8B/id1503858543">脱口秀演员黑灯：盲人有个视角就很不错了</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://aerolite.dev/applite">Applite</a></li><li><a href="https://creativerly.com/tiny-macos-utility-apps-part-5/">Tiny macOS utility apps I love – Part 5</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 139 期。本篇是对过去一周（12.23 - 12.29）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 139 期。本篇是对过去一周（12.23 - 12.29）的记录、思考与分享。</p>
+<hr />
+<iframe allow="autoplay *; encrypted-media *;" frameborder=]]>
+    </summary>
+    <title>Kilig 的碎周报 - #139（2024.12.30）</title>
+    <updated>2024-12-30T12:11:13.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #138（2024.12.23）</title>
-    <link href="http://kiligwyu.com/newsletter/138/"/>
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
+    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
+    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 138 期。本篇是对过去一周（12.16 - 12.22）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/jayou/1777704233?i=1777704236"></iframe><p><br>把 Google Photos 中的图片转移到 iCloud 里了，<a href="https://www.landiannews.com/archives/104892.html">从今年 7 月份起，就可以转移照片了</a>，不过我在网页版 Google Photos 中的 Google Takeout 里，没有找到导出到 iCloud 的选项，从 <a href="https://support.apple.com/en-us/120924">Transfer a copy of your photos and videos to iCloud Photos - Apple Support</a> 文中的 Google Takeout 链接可以导出到 iCloud。<br />不过要先关闭 iCloud 的 Advanced Data Protection 才行。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232051842.webp" style="width: 50%; display: inline-block;" alt="关闭 iCloud 的 Advanced Data Protection"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232040046.webp" style="width: 50%; display: inline-block;" alt="把 Google Photos 中的图片转移到 iCloud 里的完成通知"></div><br><p>周六在隔壁小区外边一家理发店剪了头发。之前常去的那家，搬迁了，离家也有些远，剪的还可以，但有些贵。<br />这家店是夫妻店，我早上去的早，才开门，还在打扫卫生，我前边已经有一个人在等了。店主家小朋友也在，上小学了，在跟一只小奶狗玩儿。店里还有两只叽叽喳喳不会说话的鹦鹉。<br />他们家的会员系统也特别简单，就是一张手动维护的 Excel 表格，会员一次 ¥15，非会员 ¥20。我也办了个会员，充值 ¥200，之所以办会员，一是离家近，剪的可以，再一个是接地气。</p><p>本周看了 <a href="https://movie.douban.com/subject/1291546/">霸王别姬 (1993)</a> 和 <a href="https://movie.douban.com/subject/1309199/">史密斯夫妇 Mr. &amp; Mrs. Smith (2005)</a> 两部电影。还有一部电影 <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a> 只看了开头，因为手机屏幕太小，白色的字幕在白色的画面上太难辨认，回头在大屏上看吧。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232032993.webp" style="width: 50%; display: inline-block;" alt="霸王别姬 (1993)"></div><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232032992.webp" style="width: 50%; display: inline-block;" alt="史密斯夫妇 Mr. & Mrs. Smith (2005)"></div><br><p>周末给小朋友过了生日，现在又是聚少离多的日子，每每离家时都很舍不得，多希望可以多陪小朋友玩啊。</p><p>下周公司开始 996，到月底，实际上我们也不很忙，但公司要求，那就 996 吧，也没几天了。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>4AM 居士 - <a href="https://www.youtube.com/watch?v=5EwG3uAY5uI">终于有人说清楚了螺丝！Finally someone clarified the screw!</a></li><li>4A 广告提案网 - <a href="https://www.bilibili.com/video/BV17KkHYqE2p/">起猛了！看到一只巨鸡在清晨的街头溜达…</a><br />开头的歌曲就是从这个广告里识别来的。这只绿色大公鸡太洗脑了，现在一听到这首歌，满脑子都是绿色大公鸡。</li><li>Redknot - 乔红 - <a href="https://www.youtube.com/watch?v=MYV0_QQRsFU&amp;t=614s">【硬核】色品图是怎么来的？How did the Chromaticity Diagram come about?</a></li><li>狗大蛋子 - <a href="https://www.bilibili.com/video/BV1HWkwYWE4i/">1 分钟沦陷！电影怎么开场才能吸引人？【狗蛋唠唠嗑】</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1rEknYzEmf/">久违的同框？影视飓风 1000 万粉丝 Q&amp;A！</a></li><li>猪摸摸 Li - <a href="https://www.bilibili.com/video/BV1z2BKYJEL5/">凡人 5 年学跳舞、编程、开发游戏！实战分享坚持下来的秘技 #unity #kpop</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>Setapp - <a href="https://app.setapp.com/mac-developer-survey">Mac Developer Survey 2024</a></li><li><a href="https://chromewebstore.google.com/collection/2024_favorites">Chrome Web Store - Favorites of 2024</a></li></ul>]]>
+    </content>
     <id>http://kiligwyu.com/newsletter/138/</id>
+    <link href="http://kiligwyu.com/newsletter/138/"/>
     <published>2024-12-23T12:29:19.000Z</published>
-    <updated>2024-12-23T14:28:29.559Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 138 期。本篇是对过去一周（12.16 - 12.22）的记录、思考与分享。</p><hr /><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/jayou/1777704233?i=1777704236"></iframe><p><br>把 Google Photos 中的图片转移到 iCloud 里了，<a href="https://www.landiannews.com/archives/104892.html">从今年 7 月份起，就可以转移照片了</a>，不过我在网页版 Google Photos 中的 Google Takeout 里，没有找到导出到 iCloud 的选项，从 <a href="https://support.apple.com/en-us/120924">Transfer a copy of your photos and videos to iCloud Photos - Apple Support</a> 文中的 Google Takeout 链接可以导出到 iCloud。<br />不过要先关闭 iCloud 的 Advanced Data Protection 才行。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232051842.webp" style="width: 50%; display: inline-block;" alt="关闭 iCloud 的 Advanced Data Protection"></div><br><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232040046.webp" style="width: 50%; display: inline-block;" alt="把 Google Photos 中的图片转移到 iCloud 里的完成通知"></div><br><p>周六在隔壁小区外边一家理发店剪了头发。之前常去的那家，搬迁了，离家也有些远，剪的还可以，但有些贵。<br />这家店是夫妻店，我早上去的早，才开门，还在打扫卫生，我前边已经有一个人在等了。店主家小朋友也在，上小学了，在跟一只小奶狗玩儿。店里还有两只叽叽喳喳不会说话的鹦鹉。<br />他们家的会员系统也特别简单，就是一张手动维护的 Excel 表格，会员一次 ¥15，非会员 ¥20。我也办了个会员，充值 ¥200，之所以办会员，一是离家近，剪的可以，再一个是接地气。</p><p>本周看了 <a href="https://movie.douban.com/subject/1291546/">霸王别姬 (1993)</a> 和 <a href="https://movie.douban.com/subject/1309199/">史密斯夫妇 Mr. &amp; Mrs. Smith (2005)</a> 两部电影。还有一部电影 <a href="https://movie.douban.com/subject/36765646/">蓦然回首 ルックバック (2024)</a> 只看了开头，因为手机屏幕太小，白色的字幕在白色的画面上太难辨认，回头在大屏上看吧。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232032993.webp" style="width: 50%; display: inline-block;" alt="霸王别姬 (1993)"></div><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412232032992.webp" style="width: 50%; display: inline-block;" alt="史密斯夫妇 Mr. & Mrs. Smith (2005)"></div><br><p>周末给小朋友过了生日，现在又是聚少离多的日子，每每离家时都很舍不得，多希望可以多陪小朋友玩啊。</p><p>下周公司开始 996，到月底，实际上我们也不很忙，但公司要求，那就 996 吧，也没几天了。</p><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>4AM 居士 - <a href="https://www.youtube.com/watch?v=5EwG3uAY5uI">终于有人说清楚了螺丝！Finally someone clarified the screw!</a></li><li>4A 广告提案网 - <a href="https://www.bilibili.com/video/BV17KkHYqE2p/">起猛了！看到一只巨鸡在清晨的街头溜达…</a><br />开头的歌曲就是从这个广告里识别来的。这只绿色大公鸡太洗脑了，现在一听到这首歌，满脑子都是绿色大公鸡。</li><li>Redknot - 乔红 - <a href="https://www.youtube.com/watch?v=MYV0_QQRsFU&amp;t=614s">【硬核】色品图是怎么来的？How did the Chromaticity Diagram come about?</a></li><li>狗大蛋子 - <a href="https://www.bilibili.com/video/BV1HWkwYWE4i/">1 分钟沦陷！电影怎么开场才能吸引人？【狗蛋唠唠嗑】</a></li><li>影视飓风 - <a href="https://www.bilibili.com/video/BV1rEknYzEmf/">久违的同框？影视飓风 1000 万粉丝 Q&amp;A！</a></li><li>猪摸摸 Li - <a href="https://www.bilibili.com/video/BV1z2BKYJEL5/">凡人 5 年学跳舞、编程、开发游戏！实战分享坚持下来的秘技 #unity #kpop</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li>Setapp - <a href="https://app.setapp.com/mac-developer-survey">Mac Developer Survey 2024</a></li><li><a href="https://chromewebstore.google.com/collection/2024_favorites">Chrome Web Store - Favorites of 2024</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 138 期。本篇是对过去一周（12.16 - 12.22）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;iframe allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=</summary>
-      
-    
-    
-    
-    <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
-    <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 138 期。本篇是对过去一周（12.16 - 12.22）的记录、思考与分享。</p>
+<hr />
+<iframe allow="autoplay *; encrypted-media *;" frameborder=]]>
+    </summary>
+    <title>Kilig 的碎周报 - #138（2024.12.23）</title>
+    <updated>2024-12-23T14:28:29.000Z</updated>
   </entry>
-  
   <entry>
-    <title>𝕏 账号被封禁</title>
-    <link href="http://kiligwyu.com/suspended-x-accounts/"/>
-    <id>http://kiligwyu.com/suspended-x-accounts/</id>
-    <published>2024-12-20T04:47:13.000Z</published>
-    <updated>2024-12-20T05:21:32.682Z</updated>
-    
-    <content type="html"><![CDATA[<p>16 日下午，<a href="https://x.com/KiligWYu">我的 𝕏 账号</a> 被封了，原因是违反了 𝕏 “不真实账号”的规定，我一脸懵逼，这是我的大号，2016 年注册的，我来说说账号被封之前我都干了啥。</p><p>我在 iOS 和 macOS 上都使用 <a href="https://apps.apple.com/app/id1508706541">Spring for Twitter</a> 这个现在还勉强能用的 Twitter 客户端，偶尔也用 𝕏 官方客户端和网页端。但最近这段时间，在 Spring 上登录 𝕏 后，账号的有效期变短了，一天可能需要登录好几次，而且似乎还是单点登录。<br />之前也试过 <a href="https://github.com/tw93/Pake">tw93/Pake</a> 的 Twitter 客户端，是用 Rust 打包的网页端，但体验很不好，比如推文中的链接无法打开，每次都要复制出来在浏览器里打开。<br />由于 Spring 登录后账号频繁过期，太烦人了，我想要不再试试 Pake 的 Twitter 客户端，浏览器套壳，刷推会稳定些，就又尝试了 Pake 的 Twitter 客户端。<br />然后问题就来了，16 日下午存在 Spring 和 Pake - Twitter 的交替使用（都需要重新登录），当我再次使用 Pake - Twitter 登录账号后，立即就提示账号过期需要重新登录，我又重新登录，还是提示过期，我就去网页端登录，提示账号炸了。<br />是我在不同客户端登录次数太多造成的？，我当时就有些愤怒，义正严词地提交了申诉，要求解封。<br />接下来就收到了 𝕏 账号封禁的邮件，知道了是因为违反了它们的“不真实账号”规定，行吧，你说不真实就不真实吧。<br />账号的封禁跟 Spring 和 Pake - Twitter 没有关系，只是因为频繁的登录以及不透明的 𝕏 规则。<br />后来我又温和地提交了申诉，再后来又用 AI 写了申诉。结果吗，毫无音信，我都怀疑马斯克把人开完了，到底有没真人在处理申诉。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201140380.webp" style="width: 50%; display: inline-block;" alt="因“不真实账号”而被封禁的大号"></div><br><p>我还有个 2018 年注册的小号，我就登录了小号，关注了些之前关注的人，没多久，小号也被封了，原因一样“不真实账号”。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201140381.webp" style="width: 50%; display: inline-block;" alt="同样原因被封禁的小号"></div><br><p>行吧，老子不跟你玩了，我去玩蓝天和长毛象了，前些天发现的 <a href="https://apps.apple.com/app/id6738878242">Sky Follower Bridge</a> 也还没来得及用呢。老马要把 𝕏 打造成超级平台，还没开始，我账号就先没了；就算成了，我也用不上也不敢用。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201149465.webp" style="width: 50%; display: inline-block;" alt="Seamlessly migrate your social connections from 𝕏 to Bluesky"></div><br><p>这些年来，各家平台也越来越封闭，第三方客户端百花齐放的时代一去不复返了。我还是希望朋友们不要固定在一个平台上，多从不同平台、渠道摄入更多信息，突破信息茧房，以及个人数据及时备份，需要的话。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;16 日下午，&lt;a href=&quot;https://x.com/KiligWYu&quot;&gt;我的 𝕏 账号&lt;/a&gt; 被封了，原因是违反了 𝕏 “不真实账号”的规定，我一脸懵逼，这是我的大号，2016 年注册的，我来说说账号被封之前我都干了啥。&lt;/p&gt;
-&lt;p&gt;我在 iOS 和 mac</summary>
-      
-    
-    
-    
-    
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
     <category term="𝕏" scheme="http://kiligwyu.com/tags/%F0%9D%95%8F/"/>
-    
+    <content>
+      <![CDATA[<p>16 日下午，<a href="https://x.com/KiligWYu">我的 𝕏 账号</a> 被封了，原因是违反了 𝕏 “不真实账号”的规定，我一脸懵逼，这是我的大号，2016 年注册的，我来说说账号被封之前我都干了啥。</p><p>我在 iOS 和 macOS 上都使用 <a href="https://apps.apple.com/app/id1508706541">Spring for Twitter</a> 这个现在还勉强能用的 Twitter 客户端，偶尔也用 𝕏 官方客户端和网页端。但最近这段时间，在 Spring 上登录 𝕏 后，账号的有效期变短了，一天可能需要登录好几次，而且似乎还是单点登录。<br />之前也试过 <a href="https://github.com/tw93/Pake">tw93/Pake</a> 的 Twitter 客户端，是用 Rust 打包的网页端，但体验很不好，比如推文中的链接无法打开，每次都要复制出来在浏览器里打开。<br />由于 Spring 登录后账号频繁过期，太烦人了，我想要不再试试 Pake 的 Twitter 客户端，浏览器套壳，刷推会稳定些，就又尝试了 Pake 的 Twitter 客户端。<br />然后问题就来了，16 日下午存在 Spring 和 Pake - Twitter 的交替使用（都需要重新登录），当我再次使用 Pake - Twitter 登录账号后，立即就提示账号过期需要重新登录，我又重新登录，还是提示过期，我就去网页端登录，提示账号炸了。<br />是我在不同客户端登录次数太多造成的？，我当时就有些愤怒，义正严词地提交了申诉，要求解封。<br />接下来就收到了 𝕏 账号封禁的邮件，知道了是因为违反了它们的“不真实账号”规定，行吧，你说不真实就不真实吧。<br />账号的封禁跟 Spring 和 Pake - Twitter 没有关系，只是因为频繁的登录以及不透明的 𝕏 规则。<br />后来我又温和地提交了申诉，再后来又用 AI 写了申诉。结果吗，毫无音信，我都怀疑马斯克把人开完了，到底有没真人在处理申诉。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201140380.webp" style="width: 50%; display: inline-block;" alt="因“不真实账号”而被封禁的大号"></div><br><p>我还有个 2018 年注册的小号，我就登录了小号，关注了些之前关注的人，没多久，小号也被封了，原因一样“不真实账号”。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201140381.webp" style="width: 50%; display: inline-block;" alt="同样原因被封禁的小号"></div><br><p>行吧，老子不跟你玩了，我去玩蓝天和长毛象了，前些天发现的 <a href="https://apps.apple.com/app/id6738878242">Sky Follower Bridge</a> 也还没来得及用呢。老马要把 𝕏 打造成超级平台，还没开始，我账号就先没了；就算成了，我也用不上也不敢用。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412201149465.webp" style="width: 50%; display: inline-block;" alt="Seamlessly migrate your social connections from 𝕏 to Bluesky"></div><br><p>这些年来，各家平台也越来越封闭，第三方客户端百花齐放的时代一去不复返了。我还是希望朋友们不要固定在一个平台上，多从不同平台、渠道摄入更多信息，突破信息茧房，以及个人数据及时备份，需要的话。</p>]]>
+    </content>
+    <id>http://kiligwyu.com/suspended-x-accounts/</id>
+    <link href="http://kiligwyu.com/suspended-x-accounts/"/>
+    <published>2024-12-20T04:47:13.000Z</published>
+    <summary>
+      <![CDATA[<p>16 日下午，<a href="https://x.com/KiligWYu">我的 𝕏 账号</a> 被封了，原因是违反了 𝕏 “不真实账号”的规定，我一脸懵逼，这是我的大号，2016 年注册的，我来说说账号被封之前我都干了啥。</p>
+<p>我在 iOS 和 mac]]>
+    </summary>
+    <title>𝕏 账号被封禁</title>
+    <updated>2024-12-20T05:21:32.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Kilig 的碎周报 - #137（2024.12.16）</title>
-    <link href="http://kiligwyu.com/newsletter/137/"/>
-    <id>http://kiligwyu.com/newsletter/137/</id>
-    <published>2024-12-16T12:12:56.000Z</published>
-    <updated>2024-12-16T12:56:23.408Z</updated>
-    
-    <content type="html"><![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 137 期。本篇是对过去一周（12.09 - 12.15）的记录、思考与分享。</p><hr /><div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Kbkc_0Ns6q0?si=t0D3t4b8VKPUvN7V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br><p><a href="https://apps.apple.com/app/id1333958571/">iCollect+</a> 更新 <a href="https://apps.apple.com/app/id1333958571/">5.2.0</a> 版本，增加了“支持我们”的内购，严格说应该是重新上架，5.0.0 版本时候把内购去掉了。</p><p>在阿里云挑了个便宜的域名 <a href="https://kilig.tech">kilig.tech</a>，十年 ¥199，恰好有一台闲置的云服务器，然后申请了 ICP 备案，现在到了管局审核的步骤，审核通过后给 App 备案，我主要目的就是给 App 备案。等备案完成，我再简单写一篇。<br />为什么要给 App 备案？还不是为了上架大陆 App Store，我之前的想法是，不备案，下架就下架，有点叛逆。不过现在想法变了，在一个地方做生意就要遵守当地的规定，不管它是好还是坏，用户是无辜的。</p><p>周末打发时间看完了诺奖得主韩江的《<a href="https://book.douban.com/subject/35534519/">素食者</a>》，又把四叔的 <a href="https://www.bilibili.com/video/BV1L31MYqESz/">诺奖韩江【素食者】男性视角下的女性丢失了什么</a> 找出来看了一遍。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412162029591.webp" style="width: 50%; display: inline-block;" alt="素食者"></div><br><p>𝕏 账号让我玩炸了，“不真实账号”，什么鬼，很真实的好吗，并没有违反 𝕏 的所谓 <a href="https://help.x.com/en/rules-and-policies/x-rules">规则</a>，我只是登录了第三方客户端而已，<a href="https://apps.apple.com/app/id1508706541">Spring</a> 和 <a href="https://github.com/tw93/Pake">Twitter</a>，账号也开了两步验证的，这就给我封了！？。<br />这下好了，可以戒推了。已提交申诉，看能不解封吧。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412162029744.webp" style="width: 50%; display: inline-block;" alt="炸掉的 𝕏 账号"></div><br><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>狗大蛋子 - <a href="https://www.bilibili.com/video/BV1NwqKY4EPr/">影视剧的美食正在消失！吃戏有多重要？【有戏】</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1enqSYAERw/">我的年度好书是什么？</a></li><li>Redknot - 乔红 - <a href="https://www.youtube.com/watch?v=G-6zD_B_Ewk">人类最伟大的发明 – PN 结</a></li><li>读书的 Harry - <a href="https://www.youtube.com/watch?v=ZZVbI347lOA">【反向努力法则】远离内耗，让人生越过越爽的方法！</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://apps.apple.com/story/id1773419699">Announcing the 2024 App Store Awards : App Store Story</a></li><li><a href="https://github.com/get-artab/artab">get-artab/artab</a>: 让有史以来最好的艺术作品出现在你的新标签页。</li><li><a href="https://github.com/metowolf/vCards">GitHub - metowolf/vCards</a>: 📡️ vCards 中国黄页 - 优化 iOS/Android 来电、信息界面体验</li><li><a href="https://apps.apple.com/app/id6450062082">Monument Valley 3 NETFLIX</a><br />奈飞推出新游戏《纪念碑谷 3》，有奈飞会员的可以免费玩。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412162036615.webp" style="width: 50%; display: inline-block;" alt="Monument Valley 3 NETFLIX"></div><br></li><li>没有更多内容了，𝕏 账号被封了 🤣。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Hi There! 感谢阅读 Kilig 的碎周报第 137 期。本篇是对过去一周（12.09 - 12.15）的记录、思考与分享。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;
-&lt;iframe width=&quot;560&quot; heigh</summary>
-      
-    
-    
-    
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
     <category term="碎周报" scheme="http://kiligwyu.com/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"/>
-    
-    
     <category term="newsletter" scheme="http://kiligwyu.com/tags/newsletter/"/>
-    
+    <content>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 137 期。本篇是对过去一周（12.09 - 12.15）的记录、思考与分享。</p><hr /><div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/Kbkc_0Ns6q0?si=t0D3t4b8VKPUvN7V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br><p><a href="https://apps.apple.com/app/id1333958571/">iCollect+</a> 更新 <a href="https://apps.apple.com/app/id1333958571/">5.2.0</a> 版本，增加了“支持我们”的内购，严格说应该是重新上架，5.0.0 版本时候把内购去掉了。</p><p>在阿里云挑了个便宜的域名 <a href="https://kilig.tech">kilig.tech</a>，十年 ¥199，恰好有一台闲置的云服务器，然后申请了 ICP 备案，现在到了管局审核的步骤，审核通过后给 App 备案，我主要目的就是给 App 备案。等备案完成，我再简单写一篇。<br />为什么要给 App 备案？还不是为了上架大陆 App Store，我之前的想法是，不备案，下架就下架，有点叛逆。不过现在想法变了，在一个地方做生意就要遵守当地的规定，不管它是好还是坏，用户是无辜的。</p><p>周末打发时间看完了诺奖得主韩江的《<a href="https://book.douban.com/subject/35534519/">素食者</a>》，又把四叔的 <a href="https://www.bilibili.com/video/BV1L31MYqESz/">诺奖韩江【素食者】男性视角下的女性丢失了什么</a> 找出来看了一遍。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412162029591.webp" style="width: 50%; display: inline-block;" alt="素食者"></div><br><p>𝕏 账号让我玩炸了，“不真实账号”，什么鬼，很真实的好吗，并没有违反 𝕏 的所谓 <a href="https://help.x.com/en/rules-and-policies/x-rules">规则</a>，我只是登录了第三方客户端而已，<a href="https://apps.apple.com/app/id1508706541">Spring</a> 和 <a href="https://github.com/tw93/Pake">Twitter</a>，账号也开了两步验证的，这就给我封了！？。<br />这下好了，可以戒推了。已提交申诉，看能不解封吧。</p><div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412162029744.webp" style="width: 50%; display: inline-block;" alt="炸掉的 𝕏 账号"></div><br><h3 id="视频"><a class="markdownIt-Anchor" href="#视频"></a> 视频</h3><ul><li>狗大蛋子 - <a href="https://www.bilibili.com/video/BV1NwqKY4EPr/">影视剧的美食正在消失！吃戏有多重要？【有戏】</a></li><li>天真的和感伤的小说家 - <a href="https://www.bilibili.com/video/BV1enqSYAERw/">我的年度好书是什么？</a></li><li>Redknot - 乔红 - <a href="https://www.youtube.com/watch?v=G-6zD_B_Ewk">人类最伟大的发明 – PN 结</a></li><li>读书的 Harry - <a href="https://www.youtube.com/watch?v=ZZVbI347lOA">【反向努力法则】远离内耗，让人生越过越爽的方法！</a></li></ul><h3 id="其他有趣的"><a class="markdownIt-Anchor" href="#其他有趣的"></a> 其他有趣的</h3><ul><li><a href="https://apps.apple.com/story/id1773419699">Announcing the 2024 App Store Awards : App Store Story</a></li><li><a href="https://github.com/get-artab/artab">get-artab/artab</a>: 让有史以来最好的艺术作品出现在你的新标签页。</li><li><a href="https://github.com/metowolf/vCards">GitHub - metowolf/vCards</a>: 📡️ vCards 中国黄页 - 优化 iOS/Android 来电、信息界面体验</li><li><a href="https://apps.apple.com/app/id6450062082">Monument Valley 3 NETFLIX</a><br />奈飞推出新游戏《纪念碑谷 3》，有奈飞会员的可以免费玩。<div style="text-align: center;"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412162036615.webp" style="width: 50%; display: inline-block;" alt="Monument Valley 3 NETFLIX"></div><br></li><li>没有更多内容了，𝕏 账号被封了 🤣。</li></ul>]]>
+    </content>
+    <id>http://kiligwyu.com/newsletter/137/</id>
+    <link href="http://kiligwyu.com/newsletter/137/"/>
+    <published>2024-12-16T12:12:56.000Z</published>
+    <summary>
+      <![CDATA[<p>Hi There! 感谢阅读 Kilig 的碎周报第 137 期。本篇是对过去一周（12.09 - 12.15）的记录、思考与分享。</p>
+<hr />
+<div style="text-align: center;">
+<iframe width="560" heigh]]>
+    </summary>
+    <title>Kilig 的碎周报 - #137（2024.12.16）</title>
+    <updated>2024-12-16T12:56:23.000Z</updated>
   </entry>
-  
   <entry>
-    <title>在 iOS 上安装字体</title>
-    <link href="http://kiligwyu.com/Install-Fonts-on-iOS/"/>
-    <id>http://kiligwyu.com/Install-Fonts-on-iOS/</id>
-    <published>2024-12-11T14:56:02.000Z</published>
-    <updated>2024-12-11T16:05:18.485Z</updated>
-    
-    <content type="html"><![CDATA[<p>苹果早在 iOS 13 开始就开放了第三方字体的安装功能，本来打算在 <a href="/app/iCollectPlus/">iCollect+</a> 中增加安装字体的小工具，发现不太行，今天就来说说安装自定义字体这件小事。</p><h2 id="api"><a class="markdownIt-Anchor" href="#api"></a> API</h2><p>首先，苹果在 CoreText 中提供安装字体的 API，如下，</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">CTFontManagerRegisterFontURLs</span>(</span><br><span class="line">    <span class="keyword">_</span> <span class="params">fontURLs</span>: <span class="type">CFArray</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">scope</span>: <span class="type">CTFontManagerScope</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">enabled</span>: <span class="type">Bool</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">registrationHandler</span>: ((<span class="type">CFArray</span>, <span class="type">Bool</span>) -&gt; <span class="type">Bool</span>)<span class="operator">?</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>不过通过此 API 来安装字体有些限制，不是随便就可以安装的，字体文件必须包含在项目中或使用 On-Demand Receources，否则就会报下面的错误。所以参数中的 <code>fontURLs</code>，这里的 URL 不能是网络上的 URL，不能是 File URL。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">The file is not in an allowed location. It must be either in the application’s bundle or an on-demand resource.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>安装字体后，可以在 Settings -&gt; General -&gt; Fonts -&gt; My Fonts 中查看。</p><h2 id="profile"><a class="markdownIt-Anchor" href="#profile"></a> Profile</h2><p>另一种安装字体的方式是通过描述文件，这种方法不需要写代码，简单配置下就可以安装字体。</p><p>首先，在 Mac App Store 中下载苹果自家的 <a href="https://apps.apple.com/app/id1037126344">Apple Configurator</a> 应用；然后打开，按 ⌘ + N 新建描述文件，在 General 中输入描述文件的名字，Identifier 会自动生成，其他选填或保持默认的就行。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112251604.webp" style="width: 50%;" alt="mobileconfig - General"><p>在 Fonts 选项中添加要安装的字体，然后保存，字体文件会包含在描述文件中，描述文件的拓展名为 <code>mobileconfig</code>，可以在描述文件上右键打开方式选 Apple Configurator，再次编辑。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112251606.webp" style="width: 50%;" alt="mobileconfig - Fonts"><p>接下来就是安装了，注意这里不能通过 AirDrop 隔空投送到手机上安装，也不能放在 iCloud Drive 里，在手机文件应用里点击安装，要通过网络下载的方式，比如通过文件分享工具，在 Safari 中下载次描述文件。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112252102.webp" style="width: 50%;" alt="Profile Downloaded"><p>下载后，在 Settings 中就能看到此描述文件了，安装即可，注意描述文件没有签名，不过自用的话，签不签名都无所谓了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253600.webp" style="width: 50%;" alt="Settings - Downloaded Profile"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253420.webp" style="width: 50%;" alt="Install Profile"><p>安装后，在描述文件的 More Details 里就能看到已安装的字体了，通过描述文件安装的字体，不会显示在 Settings -&gt; General -&gt; Fonts -&gt; My Fonts 里面。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253044.webp" style="width: 50%;" alt="Fonts in Profile"><p>最后，在支持自定义字体的应用中，就可以使用已安装的字体了。（下图中的 App 是 <a href="https://apps.apple.com/app/id1508706541">Spring for Twitter</a>）</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253528.webp" style="width: 50%;" alt="Use Fonts in Other Apps. The app in the screenshot is Spring.">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;苹果早在 iOS 13 开始就开放了第三方字体的安装功能，本来打算在 &lt;a href=&quot;/app/iCollectPlus/&quot;&gt;iCollect+&lt;/a&gt; 中增加安装字体的小工具，发现不太行，今天就来说说安装自定义字体这件小事。&lt;/p&gt;
-&lt;h2 id=&quot;api&quot;&gt;&lt;a cl</summary>
-      
-    
-    
-    
-    
+    <author>
+      <name>𝕶𝖎𝖑𝖎𝖌</name>
+    </author>
     <category term="Fonts" scheme="http://kiligwyu.com/tags/Fonts/"/>
-    
+    <content>
+      <![CDATA[<p>苹果早在 iOS 13 开始就开放了第三方字体的安装功能，本来打算在 <a href="/app/iCollectPlus/">iCollect+</a> 中增加安装字体的小工具，发现不太行，今天就来说说安装自定义字体这件小事。</p><h2 id="api"><a class="markdownIt-Anchor" href="#api"></a> API</h2><p>首先，苹果在 CoreText 中提供安装字体的 API，如下，</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">CTFontManagerRegisterFontURLs</span>(</span><br><span class="line">    <span class="keyword">_</span> <span class="params">fontURLs</span>: <span class="type">CFArray</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">scope</span>: <span class="type">CTFontManagerScope</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">enabled</span>: <span class="type">Bool</span>,</span><br><span class="line">    <span class="keyword">_</span> <span class="params">registrationHandler</span>: ((<span class="type">CFArray</span>, <span class="type">Bool</span>) -&gt; <span class="type">Bool</span>)<span class="operator">?</span></span><br><span class="line">)</span><br></pre></td></tr></table></figure><p>不过通过此 API 来安装字体有些限制，不是随便就可以安装的，字体文件必须包含在项目中或使用 On-Demand Receources，否则就会报下面的错误。所以参数中的 <code>fontURLs</code>，这里的 URL 不能是网络上的 URL，不能是 File URL。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">The file is not in an allowed location. It must be either in the application’s bundle or an on-demand resource.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>安装字体后，可以在 Settings -&gt; General -&gt; Fonts -&gt; My Fonts 中查看。</p><h2 id="profile"><a class="markdownIt-Anchor" href="#profile"></a> Profile</h2><p>另一种安装字体的方式是通过描述文件，这种方法不需要写代码，简单配置下就可以安装字体。</p><p>首先，在 Mac App Store 中下载苹果自家的 <a href="https://apps.apple.com/app/id1037126344">Apple Configurator</a> 应用；然后打开，按 ⌘ + N 新建描述文件，在 General 中输入描述文件的名字，Identifier 会自动生成，其他选填或保持默认的就行。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112251604.webp" style="width: 50%;" alt="mobileconfig - General"><p>在 Fonts 选项中添加要安装的字体，然后保存，字体文件会包含在描述文件中，描述文件的拓展名为 <code>mobileconfig</code>，可以在描述文件上右键打开方式选 Apple Configurator，再次编辑。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112251606.webp" style="width: 50%;" alt="mobileconfig - Fonts"><p>接下来就是安装了，注意这里不能通过 AirDrop 隔空投送到手机上安装，也不能放在 iCloud Drive 里，在手机文件应用里点击安装，要通过网络下载的方式，比如通过文件分享工具，在 Safari 中下载次描述文件。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112252102.webp" style="width: 50%;" alt="Profile Downloaded"><p>下载后，在 Settings 中就能看到此描述文件了，安装即可，注意描述文件没有签名，不过自用的话，签不签名都无所谓了。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253600.webp" style="width: 50%;" alt="Settings - Downloaded Profile"><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253420.webp" style="width: 50%;" alt="Install Profile"><p>安装后，在描述文件的 More Details 里就能看到已安装的字体了，通过描述文件安装的字体，不会显示在 Settings -&gt; General -&gt; Fonts -&gt; My Fonts 里面。</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253044.webp" style="width: 50%;" alt="Fonts in Profile"><p>最后，在支持自定义字体的应用中，就可以使用已安装的字体了。（下图中的 App 是 <a href="https://apps.apple.com/app/id1508706541">Spring for Twitter</a>）</p><img src="https://cdn.jsdelivr.net/gh/KiligWYu/Pics/2024/202412112253528.webp" style="width: 50%;" alt="Use Fonts in Other Apps. The app in the screenshot is Spring.">]]>
+    </content>
+    <id>http://kiligwyu.com/Install-Fonts-on-iOS/</id>
+    <link href="http://kiligwyu.com/Install-Fonts-on-iOS/"/>
+    <published>2024-12-11T14:56:02.000Z</published>
+    <summary>
+      <![CDATA[<p>苹果早在 iOS 13 开始就开放了第三方字体的安装功能，本来打算在 <a href="/app/iCollectPlus/">iCollect+</a> 中增加安装字体的小工具，发现不太行，今天就来说说安装自定义字体这件小事。</p>
+<h2 id="api"><a cl]]>
+    </summary>
+    <title>在 iOS 上安装字体</title>
+    <updated>2024-12-11T16:05:18.000Z</updated>
   </entry>
-  
 </feed>

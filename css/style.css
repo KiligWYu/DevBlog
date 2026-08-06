@@ -161,7 +161,6 @@ div {
 }
 #sidebar .widget {
   margin-bottom: 30px;
-  /* tiered display categories */
 }
 #sidebar .widget .widget-title {
   color: #6E7173;
@@ -208,6 +207,9 @@ div {
 }
 #sidebar .widget .category-list-count::after {
   content: ")";
+}
+#sidebar .widget {
+  /* tiered display categories */
 }
 #sidebar .widget .category-list-child li {
   margin-left: 0.6em !important;
@@ -377,11 +379,12 @@ div {
   font-family: "JetBrains Mono", Menlo, Consolas, monospace !important;
 }
 .post .post-content p a {
-  color: #01579f;
+  color: #b35c34;
   padding-bottom: 2px;
   word-break: normal;
 }
 .post .post-content p a:hover {
+  color: #854126;
   text-decoration: underline;
 }
 .post .post-content .caption {
@@ -423,12 +426,13 @@ div {
 }
 .post .post-content ul a,
 .post .post-content ol a {
-  color: #01579f;
+  color: #b35c34;
   padding-bottom: 2px;
   word-break: normal;
 }
 .post .post-content ul a:hover,
 .post .post-content ol a:hover {
+  color: #854126;
   text-decoration: underline;
 }
 .post .post-content .tagcloud {
@@ -1064,7 +1068,11 @@ figure.highlight figcaption,
 figure.highlight figcaption a,
 .codeblock figcaption a {
   float: right;
-  color: #01579f;
+  color: #b35c34;
+}
+figure.highlight figcaption a:hover,
+.codeblock figcaption a:hover {
+  color: #854126;
 }
 figure.highlight .gutter,
 .codeblock .gutter {
@@ -1769,7 +1777,7 @@ p.search-result {
 em.search-keyword {
   font-weight: bold;
   font-style: normal;
-  color: #01579f;
+  color: #b35c34;
 }
 
 /* Disqus Button */
@@ -1907,9 +1915,15 @@ em.search-keyword {
 
 /* Darkmode CSS*/
 html[data-dark=true] {
-  background-color: #121212 !important;
+  background-color: #fff !important;
+  overscroll-behavior-y: none;
   filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%);
   -webkit-filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%);
+}
+html[data-dark=true] body {
+  min-height: 100vh;
+  background-color: #fff !important;
+  overscroll-behavior-y: none;
 }
 html[data-dark=true] img {
   filter: hue-rotate(180deg) contrast(100%) invert(100%);
@@ -1917,7 +1931,11 @@ html[data-dark=true] img {
 }
 
 .darkmode-toggle {
+  appearance: none;
+  padding: 0;
+  color: #222;
   background: #a2a2a2;
+  border: 0;
   width: 3rem;
   height: 3rem;
   position: fixed;
@@ -1931,6 +1949,17 @@ html[data-dark=true] img {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 16px;
+  line-height: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+}
+.darkmode-toggle:hover {
+  background: #b7b7b7;
+  transform: translateY(-2px);
+}
+.darkmode-toggle:focus-visible {
+  outline: 2px solid #555;
+  outline-offset: 3px;
 }
 
 /* Links Layout*/
@@ -2035,11 +2064,11 @@ html[data-dark=true] img {
   border-radius: 50%;
 }
 
-.tweet-author-info {
-  margin-left: 1rem;
-}
 .tweet-author-info p {
   margin: 0 !important;
+}
+.tweet-author-info {
+  margin-left: 1rem;
 }
 
 .tweet-author-name {

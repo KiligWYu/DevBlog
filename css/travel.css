@@ -1,0 +1,228 @@
+.travel-post {
+  --travel-accent: #a95632;
+  --travel-border: #e5ded5;
+  --travel-muted: #817970;
+  width: min(1120px, 100vw - 48px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.travel-post > .post-title,
+.travel-post > .post-meta,
+.travel-post > .ds-thread-count,
+.travel-post > .disqus-comment-count,
+.travel-post > .clear,
+.travel-post > .tags,
+.travel-post > .post-nav,
+.travel-post > #comments,
+.travel-post > #waline {
+  width: min(760px, 100%);
+  margin-right: auto;
+  margin-left: auto;
+}
+.travel-post > .post-title {
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.25;
+  text-align: center;
+}
+.travel-post > .post-meta {
+  float: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  text-align: center;
+}
+.travel-post .travel-photo-count {
+  margin-left: 5px;
+}
+.travel-post .travel-photo-count::before {
+  margin-right: 7px;
+  color: #c5bcb2;
+  content: "|";
+}
+.travel-post .post-content {
+  padding-top: 30px;
+  font-weight: 400;
+  text-align: left;
+}
+.travel-post .post-content > :not(.travel-gallery) {
+  width: min(760px, 100%);
+  margin-right: auto;
+  margin-left: auto;
+}
+.travel-post .post-content > p {
+  line-height: 1.9;
+}
+.travel-post .post-content > h2,
+.travel-post .post-content > h3 {
+  margin-top: 2.2em;
+  color: #403a36;
+}
+.travel-post .post-content > h2 {
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--travel-border);
+}
+.travel-post .post-content > blockquote {
+  padding: 20px 24px;
+  color: #625c56;
+  border-left: 3px solid var(--travel-accent);
+  border-radius: 0 10px 10px 0;
+  background: #f8f5f1;
+}
+.travel-post .post-content > blockquote::before {
+  display: none;
+}
+.travel-post .post-content > blockquote p:last-child {
+  margin-bottom: 0;
+}
+.travel-post .post-content > ul:first-child {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 14px;
+  list-style: none;
+  border: 1px solid var(--travel-border);
+  border-radius: 12px;
+  background: #faf8f5;
+}
+.travel-post .post-content > ul:first-child li {
+  margin: 0;
+}
+.travel-post .post-content > ul:first-child a {
+  display: inline-block;
+  padding: 6px 11px;
+  color: #6f665f;
+  font-size: 12px;
+  border: 1px solid var(--travel-border);
+  border-radius: 999px;
+  background: #fff;
+}
+.travel-post .post-content > ul:first-child a:hover {
+  color: var(--travel-accent);
+  border-color: var(--travel-accent);
+  text-decoration: none;
+}
+
+.travel-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  width: 100%;
+  margin: 28px 0 36px;
+}
+
+.travel-gallery--single {
+  grid-template-columns: minmax(0, 860px);
+  justify-content: center;
+}
+
+.travel-photo {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--travel-border);
+  border-radius: 12px;
+  background: #f7f4ef;
+  box-shadow: 0 5px 18px rgba(64, 48, 38, 0.08);
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+.travel-photo:hover {
+  box-shadow: 0 14px 32px rgba(64, 48, 38, 0.16);
+  transform: translateY(-3px);
+}
+.travel-photo > .fancybox,
+.travel-photo > img {
+  display: block;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: #ece7e0;
+}
+.travel-photo img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  transition: transform 300ms ease;
+}
+.travel-photo:hover img {
+  transform: scale(1.018);
+}
+
+.travel-gallery--single .travel-photo > .fancybox,
+.travel-gallery--single .travel-photo > img {
+  aspect-ratio: auto;
+}
+.travel-gallery--single .travel-photo img {
+  height: auto;
+  max-height: 720px;
+  object-fit: contain;
+}
+
+.travel-photo__caption {
+  padding: 10px 13px 11px;
+  color: var(--travel-muted);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  border-top: 1px solid var(--travel-border);
+}
+
+.travel-post .tags {
+  margin-top: 34px;
+  padding-top: 20px;
+  border-top: 1px solid var(--travel-border);
+}
+
+@media screen and (max-width: 48em) {
+  .travel-post {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+  .travel-post > .post-title {
+    font-size: 29px;
+    text-align: left;
+  }
+  .travel-post > .post-meta {
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .travel-post .post-content {
+    padding-top: 24px;
+  }
+  .travel-gallery {
+    gap: 14px;
+  }
+}
+@media screen and (max-width: 35.5em) {
+  .travel-post > .post-title {
+    font-size: 25px;
+  }
+  .travel-post .post-content > blockquote {
+    padding: 17px 18px;
+  }
+  .travel-gallery {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin: 24px 0 30px;
+  }
+  .travel-photo > .fancybox,
+  .travel-photo > img {
+    aspect-ratio: auto;
+  }
+  .travel-photo img {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .travel-post *,
+  .travel-post *::before,
+  .travel-post *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

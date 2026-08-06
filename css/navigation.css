@@ -1,0 +1,202 @@
+#header {
+  --nav-accent: #b35c34;
+  --nav-accent-dark: #854126;
+  --nav-border: #e7e1da;
+  --nav-muted: #817970;
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) auto;
+  gap: 24px 36px;
+  align-items: end;
+  padding: 42px 0 21px;
+  border-bottom: 0;
+}
+#header::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: linear-gradient(90deg, var(--nav-accent) 0 52px, var(--nav-border) 52px 100%);
+  content: "";
+}
+#header .site-name {
+  min-width: 0;
+  margin: 0;
+}
+#header .site-name #logo {
+  position: relative;
+  display: inline-block;
+  color: #403a36;
+  font: 700 clamp(29px, 3.8vw, 38px)/1.12 "Noto Serif SC", "Times New Roman", Georgia, serif;
+  letter-spacing: -0.025em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  transition: color 180ms ease, transform 180ms ease;
+}
+#header .site-name #logo::after {
+  position: absolute;
+  right: -12px;
+  bottom: 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--nav-accent);
+  box-shadow: 0 0 0 4px rgba(179, 92, 52, 0.1);
+  content: "";
+}
+#header .site-name #logo:hover {
+  color: var(--nav-accent-dark);
+  transform: translateY(-1px);
+}
+#header .site-name #logo:focus-visible {
+  outline: 2px solid var(--nav-accent);
+  outline-offset: 5px;
+  border-radius: 3px;
+}
+#header .site-name .description {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin: 9px 0 0;
+  color: var(--nav-muted);
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.16em;
+}
+#header .site-name .description::before {
+  width: 18px;
+  height: 1px;
+  background: var(--nav-accent);
+  content: "";
+}
+#header #nav-menu {
+  position: static;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin: 0;
+  padding: 5px;
+  border: 1px solid var(--nav-border);
+  border-radius: 999px;
+  background: #f8f5f1;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+#header #nav-menu a {
+  position: relative;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  height: auto;
+  padding: 9px 11px;
+  color: #625c56;
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  border: 0;
+  border-radius: 999px;
+  transition: color 160ms ease, background-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+#header #nav-menu a i {
+  width: 13px;
+  color: #a0978e;
+  font-size: 12px;
+  text-align: center;
+  transition: color 160ms ease;
+}
+#header #nav-menu a:hover {
+  color: var(--nav-accent-dark);
+  border: 0;
+  background: rgba(255, 255, 255, 0.72);
+  transform: translateY(-1px);
+}
+#header #nav-menu a:hover i {
+  color: var(--nav-accent);
+}
+#header #nav-menu a:focus-visible {
+  outline: 2px solid var(--nav-accent);
+  outline-offset: 2px;
+}
+#header #nav-menu a.current {
+  color: var(--nav-accent-dark);
+  border: 0;
+  background: #fff;
+  box-shadow: 0 2px 9px rgba(71, 54, 43, 0.12);
+}
+#header #nav-menu a.current i {
+  color: var(--nav-accent);
+}
+
+@media screen and (max-width: 60em) {
+  #header {
+    display: block;
+    padding: 34px 0 17px;
+  }
+  #header .site-name {
+    margin: 0;
+    text-align: center;
+  }
+  #header .site-name .description {
+    justify-content: center;
+  }
+  #header #nav-menu {
+    position: static;
+    justify-content: center;
+    width: fit-content;
+    max-width: 100%;
+    margin: 24px auto 0;
+  }
+}
+@media screen and (max-width: 48em) {
+  #header {
+    padding-top: 30px;
+  }
+  #header .site-name {
+    margin-bottom: 0;
+  }
+  #header .site-name #logo {
+    font-size: 31px;
+  }
+  #header #nav-menu {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+    margin: 22px auto 0;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  #header #nav-menu a {
+    height: auto;
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 35.5em) {
+  #header {
+    padding-top: 25px;
+  }
+  #header .site-name #logo {
+    font-size: 28px;
+  }
+  #header .site-name .description {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+  #header #nav-menu {
+    gap: 2px;
+    margin-top: 19px;
+  }
+  #header #nav-menu a {
+    gap: 5px;
+    padding: 8px 9px;
+    font-size: 11px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #header *,
+  #header *::before,
+  #header *::after {
+    transition-duration: 0.01ms !important;
+  }
+}

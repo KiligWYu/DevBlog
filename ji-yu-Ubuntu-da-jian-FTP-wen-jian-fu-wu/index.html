@@ -1,45 +1,44 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>基于 Ubuntu 搭建 FTP 文件服务 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta id="theme-color" name="theme-color" content="#ffffff"><script>(function () {
+  var enabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  try {
+    var stored = localStorage.getItem('dark');
+    if (stored !== null) enabled = stored === 'true';
+  } catch (error) {}
+  document.documentElement.dataset.dark = String(enabled);
+  document.getElementById('theme-color').setAttribute('content', enabled ? '#121212' : '#ffffff');
+}());</script><title>基于 Ubuntu 搭建 FTP 文件服务 | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="/css/navigation.css?v=1.0.0"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-YLMXL0J5N0');
-</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
-var toggle = document.querySelector('.darkmode-toggle');
-var html = document.querySelector('html');
-
-html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
-
-toggle.addEventListener('click', () => {
-localStorage.dark = !(html.dataset.dark == 'true');
-html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">基于 Ubuntu 搭建 FTP 文件服务</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope"> 碎周报</i></a><a href="/categories/Learn-in-Public/"><i class="fa fa-leanpub"> Learn in Public</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">基于 Ubuntu 搭建 FTP 文件服务</h1><div class="post-meta">2019-05-12</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')--><div class="post-content"><ul>
+</script><script type="text/javascript" src="//lib.baomitu.com/clipboard.js/latest/clipboard.min.js"></script><script type="text/javascript" src="//lib.baomitu.com/toastr.js/latest/toastr.min.js"></script><link rel="stylesheet" href="//lib.baomitu.com/toastr.js/latest/toastr.min.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">基于 Ubuntu 搭建 FTP 文件服务</h1><a id="logo" href="/.">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</a><p class="description">代码之外</p></div><nav id="nav-menu" aria-label="主导航"><a class="current" href="/." aria-current="page"><i class="fa fa-home" aria-hidden="true"></i><span class="nav-label">首页</span></a><a href="/categories/%E7%A2%8E%E5%91%A8%E6%8A%A5/"><i class="fa fa-envelope" aria-hidden="true"></i><span class="nav-label">碎周报</span></a><a href="/learninpublic/wall/"><i class="fa fa-leanpub" aria-hidden="true"></i><span class="nav-label">Learn in Public</span></a><a href="/archives/"><i class="fa fa-archive" aria-hidden="true"></i><span class="nav-label">归档</span></a><a href="/about/"><i class="fa fa-user" aria-hidden="true"></i><span class="nav-label">关于</span></a><a href="/atom.xml"><i class="fa fa-rss" aria-hidden="true"></i><span class="nav-label">订阅</span></a></nav></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="post"><h1 class="post-title">基于 Ubuntu 搭建 FTP 文件服务</h1><div class="post-meta">2019-05-12</div><!-- if theme.disqus.enable == true// a.disqus-comment-count(data-disqus-identifier=page.path, href=url_for(page.path) + '#disqus_thread')--><div class="post-content"><ul>
 <li>2020.08.31：必应壁纸脚本更新，获取 UHD 分辨率图片</li>
 </ul>
 <hr />
 <p>1、使用 <code>apt-get</code> 安装 <a target="_blank" rel="noopener" href="https://security.appspot.com/vsftpd.html">vsftpd</a>：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install vsftpd -y</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install vsftpd -y</span><br></pre></td></tr></table></figure>
 <p>1.1、删除掉 pam.d 中 vsftpd，因为该配置文件会导致使用用户名登录 FTP 失败</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">rm</span> /etc/pam.d/vsftpd</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">rm</span> /etc/pam.d/vsftpd</span><br></pre></td></tr></table></figure>
 <p>2、新建用户主目录 <code>/home/uftp</code>，通过 FTP 登录后看到的根目录，并设置权限（只读）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> /home/uftp &amp;&amp; sudo <span class="built_in">chmod</span> a-w /home/uftp</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">mkdir</span> /home/uftp &amp;&amp; <span class="built_in">sudo</span> <span class="built_in">chmod</span> a-w /home/uftp</span><br></pre></td></tr></table></figure>
 <p>2.1、新建公共目录，并设置权限（读写）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> /home/uftp/public &amp;&amp; sudo <span class="built_in">chmod</span> 777 -R /home/uftp/public</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">mkdir</span> /home/uftp/public &amp;&amp; <span class="built_in">sudo</span> <span class="built_in">chmod</span> 777 -R /home/uftp/public</span><br></pre></td></tr></table></figure>
 <p>3、创建一个用户 <code>uftp</code>，并设置该用户目录为 <code>/home/uftp</code></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo useradd -d /home/uftp -s /bin/bash uftp</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> useradd -d /home/uftp -s /bin/bash uftp</span><br></pre></td></tr></table></figure>
 <p>3.1、为用户 <code>uftp</code> 设置密码：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo passwd uftp</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> passwd uftp</span><br></pre></td></tr></table></figure>
 <p>3.2、限制用户 <code>uftp</code> 只能通过 FTP 访问服务器，而不能直接登录服务器：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -s /sbin/nologin uftp</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> usermod -s /sbin/nologin uftp</span><br></pre></td></tr></table></figure>
 <p>4、新建文件 <code>/etc/vsftpd.user_list</code>，用于存放允许访问 FTP 的用户</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">touch</span> /etc/vsftpd.user_list &amp;&amp; sudo <span class="built_in">chmod</span> a+w /etc/vsftpd.user_list</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">touch</span> /etc/vsftpd.user_list &amp;&amp; <span class="built_in">sudo</span> <span class="built_in">chmod</span> a+w /etc/vsftpd.user_list</span><br></pre></td></tr></table></figure>
 <p>4.1、修改 <code>/etc/vsftpd.user_list</code> ，加入刚刚创建的用户</p>
 <p>5、修改 vsftpd 配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">chmod</span> a+w /etc/vsftpd.conf</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">chmod</span> a+w /etc/vsftpd.conf</span><br></pre></td></tr></table></figure>
 <p>修改 <code>/etc/vsftpd.conf</code> 文件中的配置，直接将如下配置添加到配置文件最下方：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># 限制用户对主目录以外目录访问</span><br><span class="line">chroot_local_user=YES</span><br><span class="line"></span><br><span class="line"># 指定一个 userlist 存放允许访问 ftp 的用户列表</span><br><span class="line">userlist_deny=NO</span><br><span class="line">userlist_enable=YES</span><br><span class="line"></span><br><span class="line"># 记录允许访问 ftp 用户列表</span><br><span class="line">userlist_file=/etc/vsftpd.user_list</span><br><span class="line"></span><br><span class="line"># 不配置可能导致莫名的530问题</span><br><span class="line">seccomp_sandbox=NO</span><br><span class="line"></span><br><span class="line"># 允许文件上传</span><br><span class="line">write_enable=YES</span><br><span class="line"></span><br><span class="line"># 使用utf8编码</span><br><span class="line">utf8_filesystem=YES</span><br></pre></td></tr></table></figure>
 <p>6、重启 vsftpd 服务</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> systemctl restart vsftpd.service</span><br></pre></td></tr></table></figure>
 <p>通过 netstat 命令可以看到系统已经监听了 21 端口，FTP 协议默认使用 21 端口作为服务端口</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo netstat -nltp | grep 21</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> netstat -nltp | grep 21</span><br></pre></td></tr></table></figure>
 <p>7、连接到 FTP 服务器</p>
 <p>7.1、使用 FTP 客户端连接，如 Yummy FTP</p>
 <p>7.2、macOS 下在 Finder 中直接按 ⌘+K，输入以下地址</p>
@@ -48,7 +47,7 @@ html.dataset.dark = localStorage.dark;
 <p>1、每日必应图片的脚本 <code>DailyBingWallpaper.sh</code>：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line">SAVEPATH=<span class="string">&quot;/home/uftp/public/Pictures/Bing/&quot;</span>`<span class="built_in">date</span> <span class="string">&quot;+%Y/&quot;</span>``<span class="built_in">date</span> <span class="string">&quot;+%m&quot;</span>`</span><br><span class="line">NAME=$(<span class="built_in">date</span> <span class="string">&quot;+%d&quot;</span>)</span><br><span class="line">URL=<span class="string">&quot;https://bing.com/HPImageArchive.aspx?format=js&amp;n=1&amp;mkt=zh-CN&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">mkdir</span> -p <span class="variable">$SAVEPATH</span></span><br><span class="line"></span><br><span class="line">JSON=`curl -s <span class="variable">$URL</span>`</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$JSON</span> &gt; <span class="variable">$SAVEPATH</span>/<span class="variable">$NAME</span>.json</span><br><span class="line">imgUrl=<span class="string">&quot;https://www.bing.com&quot;</span>`<span class="built_in">echo</span> <span class="variable">$JSON</span> | jq <span class="string">&quot;.images&quot;</span> | jq -r <span class="string">&quot;.[0].urlbase&quot;</span>`<span class="string">&quot;_UHD.jpg&quot;</span></span><br><span class="line">curl -s -o <span class="variable">$SAVEPATH</span>/<span class="variable">$NAME</span>.jpg <span class="string">&quot;<span class="variable">$imgUrl</span>&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>2、使用 <code>apt-get</code> 安装 <a target="_blank" rel="noopener" href="https://stedolan.github.io/jq/">jq</a> （ json 解析工具）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install jq -y</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install jq -y</span><br></pre></td></tr></table></figure>
 <p>3、将 <code>DailyBingWallpaper.sh</code> 添加到定时任务中</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">crontab -e</span><br></pre></td></tr></table></figure>
 <p>第一次使用 <code>crontab</code> 命令时会提示你选择编辑器，这里选 vim 当编辑器，要修改编辑器时可以用 <code>select-editor</code></p>
@@ -117,5 +116,45 @@ window.addEventListener('load', function () {
     }
   }, 100);
 }, false);
-</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
-<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
+</script></div></div></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2026 <a href="/." rel="nofollow">𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌.</a><br> 豫 ICP 备 404 号 - 1
+<br> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><button class="darkmode-toggle" type="button" aria-label="切换到深色模式" title="切换到深色模式"><span class="darkmode-toggle__icon" aria-hidden="true">🌓</span></button><script>(function () {
+  var html = document.documentElement;
+  var toggle = document.querySelector('.darkmode-toggle');
+  var themeColor = document.getElementById('theme-color');
+  var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+
+  if (!toggle) return;
+
+  function isDark() {
+    return html.dataset.dark === 'true';
+  }
+
+  function updateTheme(enabled, persist) {
+    html.dataset.dark = String(enabled);
+    themeColor.setAttribute('content', enabled ? '#121212' : '#ffffff');
+    toggle.setAttribute('aria-label', enabled ? '切换到浅色模式' : '切换到深色模式');
+    toggle.setAttribute('title', enabled ? '切换到浅色模式' : '切换到深色模式');
+
+    if (persist) {
+      try {
+        localStorage.setItem('dark', String(enabled));
+      } catch (error) {}
+    }
+  }
+
+  toggle.addEventListener('click', function () {
+    updateTheme(!isDark(), true);
+  });
+
+  if (prefersDarkMode.addEventListener) {
+    prefersDarkMode.addEventListener('change', function (event) {
+      var hasStoredPreference = false;
+      try {
+        hasStoredPreference = localStorage.getItem('dark') !== null;
+      } catch (error) {}
+      if (!hasStoredPreference) updateTheme(event.matches, false);
+    });
+  }
+
+  updateTheme(isDark(), false);
+}());</script><script type="text/javascript" src="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.js"></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0"></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/latest/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
