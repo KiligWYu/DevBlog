@@ -1,34 +1,39 @@
-.highlight {
+.highlight, .plain-code {
   position: relative;
 }
 
 .btn-copy {
   position: absolute;
-  top: 6px;
-  right: 6px;
-  display: flex;
-  justify-content: center;
+  top: 4px;
+  right: 8px;
+  display: inline-flex;
   align-items: center;
-  width: 32px;
-  height: 24px;
+  justify-content: center;
+  min-width: 52px;
+  min-height: 36px;
+  padding: 4px 10px;
   cursor: pointer;
-  border-radius: 6px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-appearance: none;
-  color: #808080;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-  opacity: 0;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--muted);
+  background: var(--surface);
+  font: 0.8125rem/1.5 var(--font-ui);
 }
 
 .btn-copy:hover {
-  color: #000;
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
-.highlight:hover .btn-copy {
-  opacity: 1;
+.copy-status {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  max-width: calc(100% - 88px);
+  color: var(--muted);
+  font: 0.8125rem/1.5 var(--font-ui);
+}
+
+.plain-code.has-copy > pre {
+  padding-top: 3.5em;
 }
