@@ -71,13 +71,20 @@
     padding: 28px 0 16px;
   }
   #header #nav-menu {
-    display: grid;
-    grid-template-columns: max-content max-content minmax(0, 1fr);
-    gap: 2px 24px;
+    flex-wrap: nowrap;
+    gap: 8px;
     width: 100%;
+    min-width: 0;
+    padding-block: 4px;
+    overflow-x: auto;
   }
   #header #nav-menu a {
+    flex: 0 0 auto;
     font-size: 0.875rem;
+    white-space: nowrap;
+  }
+  #header #nav-menu a:focus-visible {
+    outline-offset: -2px;
   }
   #header #nav-menu i {
     display: none;
