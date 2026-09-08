@@ -2536,7 +2536,7 @@ figure.highlight.has-copy .gutter, .codeblock.has-copy .gutter {
   gap: 8px;
   margin-top: 40px;
   padding: 24px 0;
-  border-color: var(--border);
+  border-top: 0;
 }
 
 .page-navigator a, .page-navigator span {

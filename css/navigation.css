@@ -31,6 +31,15 @@
   gap: 4px 12px;
   margin: 0;
   padding: 0;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+#header #nav-menu > pangu {
+  display: none;
+}
+#header #nav-menu .nav-label {
+  display: block;
+  white-space: nowrap;
 }
 #header #nav-menu a {
   display: inline-flex;
@@ -52,6 +61,9 @@
   border-bottom: 2px solid var(--accent);
 }
 #header #nav-menu i {
+  flex: 0 0 1em;
+  width: 1em;
+  text-align: center;
   font-size: 0.8em;
 }
 
@@ -72,7 +84,7 @@
   }
   #header #nav-menu {
     flex-wrap: nowrap;
-    gap: 8px;
+    gap: 4px;
     width: 100%;
     min-width: 0;
     padding-block: 4px;
@@ -80,13 +92,11 @@
   }
   #header #nav-menu a {
     flex: 0 0 auto;
+    gap: 4px;
     font-size: 0.875rem;
     white-space: nowrap;
   }
   #header #nav-menu a:focus-visible {
     outline-offset: -2px;
-  }
-  #header #nav-menu i {
-    display: none;
   }
 }
