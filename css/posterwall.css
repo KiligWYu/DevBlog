@@ -1,8 +1,6 @@
-.posterwall-layout .body_container {
-  max-width: 1120px;
-}
-
 .poster-wall {
+  max-width: 960px;
+  margin: auto;
   padding: 40px 0 24px;
 }
 
@@ -13,7 +11,7 @@
 
 .poster-wall__title {
   margin: 0;
-  font: 700 clamp(2rem, 4vw, 2.625rem)/1.4 var(--font-reading);
+  font: 700 clamp(1.75rem, 3.5vw, 2.25rem)/1.4 var(--font-reading);
 }
 
 .poster-wall__intro {
@@ -55,9 +53,11 @@
   flex-wrap: wrap;
   gap: 12px 32px;
   justify-content: space-between;
-  padding: 16px 0;
+  padding: 16px 20px;
   margin-bottom: 28px;
-  border-block: 1px solid var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--card);
 }
 
 .poster-wall__filter-group {
@@ -81,7 +81,7 @@
   color: var(--muted);
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: var(--radius-small);
   cursor: pointer;
   font: 0.875rem/1.5 var(--font-ui);
 }
@@ -93,7 +93,7 @@
 
 .poster-wall__filter.is-active {
   color: var(--accent);
-  background: var(--surface);
+  background: var(--accent-soft);
   border-color: var(--border);
   font-weight: 600;
 }
@@ -106,15 +106,22 @@
 .poster-wall__grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 32px 24px;
+  gap: 24px 20px;
 }
 
 .poster-card {
   min-width: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  background: var(--card);
+  box-shadow: var(--shadow-card);
 }
 
 .poster-card__link {
   display: block;
+  height: 100%;
+  padding: 10px;
+  border-radius: inherit;
   color: var(--text);
 }
 
@@ -129,7 +136,7 @@
   aspect-ratio: 2/3;
   background: var(--surface);
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: var(--radius-small);
 }
 
 .poster-card__image {
@@ -171,7 +178,7 @@
 }
 
 .poster-card__body {
-  padding-top: 12px;
+  padding: 12px 2px 4px;
 }
 
 .poster-card__title {

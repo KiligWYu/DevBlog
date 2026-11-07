@@ -1,11 +1,11 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta id="theme-color" name="theme-color" content="#ffffff"><script>(function () {
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta id="theme-color" name="theme-color" content="#f8f6f2"><script>(function () {
   var enabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
   try {
     var stored = localStorage.getItem('dark');
     if (stored !== null) enabled = stored === 'true';
   } catch (error) {}
   document.documentElement.dataset.dark = String(enabled);
-  document.getElementById('theme-color').setAttribute('content', enabled ? '#121212' : '#ffffff');
+  document.getElementById('theme-color').setAttribute('content', enabled ? '#181a1b' : '#f8f6f2');
 }());</script><title>Kilig 的碎周报 - #28（2022.08.29） | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="/css/navigation.css?v=1.0.0"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -306,7 +306,7 @@ window.addEventListener('load', function () {
 
   function updateTheme(enabled, persist) {
     html.dataset.dark = String(enabled);
-    themeColor.setAttribute('content', enabled ? '#121212' : '#ffffff');
+    themeColor.setAttribute('content', enabled ? '#181a1b' : '#f8f6f2');
     toggle.setAttribute('aria-label', enabled ? '切换到浅色模式' : '切换到深色模式');
     toggle.setAttribute('title', enabled ? '切换到浅色模式' : '切换到深色模式');
 

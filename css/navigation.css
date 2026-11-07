@@ -45,20 +45,20 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 2px;
+  padding: 8px 12px;
   min-height: 44px;
   min-width: 44px;
   justify-self: start;
-  border: 0;
-  border-bottom: 2px solid transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-small);
   color: var(--muted);
   font-size: 0.875rem;
   line-height: 1.5;
 }
 #header #nav-menu a.current, #header #nav-menu a:hover {
   color: var(--accent);
-  border: 0;
-  border-bottom: 2px solid var(--accent);
+  border: 1px solid var(--border);
+  background: var(--card);
 }
 #header #nav-menu i {
   flex: 0 0 1em;
@@ -93,6 +93,7 @@
   #header #nav-menu a {
     flex: 0 0 auto;
     gap: 4px;
+    padding-inline: 10px;
     font-size: 0.875rem;
     white-space: nowrap;
   }

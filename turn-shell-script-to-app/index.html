@@ -1,11 +1,11 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta id="theme-color" name="theme-color" content="#ffffff"><script>(function () {
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Kilig 的博客 | 代码之外"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta id="theme-color" name="theme-color" content="#f8f6f2"><script>(function () {
   var enabled = window.matchMedia('(prefers-color-scheme: dark)').matches;
   try {
     var stored = localStorage.getItem('dark');
     if (stored !== null) enabled = stored === 'true';
   } catch (error) {}
   document.documentElement.dataset.dark = String(enabled);
-  document.getElementById('theme-color').setAttribute('content', enabled ? '#121212' : '#ffffff');
+  document.getElementById('theme-color').setAttribute('content', enabled ? '#181a1b' : '#f8f6f2');
 }());</script><title>把 Shell Script 封装成 App | 𝕶𝖎𝖑𝖎𝖌'𝖘 𝕭𝖑𝖔𝖌</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/latest/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/latest/grids-responsive-min.min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="/css/navigation.css?v=1.0.0"><script type="text/javascript" src="//lib.baomitu.com/jquery/latest/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script src="https://www.googletagmanager.com/gtag/js?id=G-YLMXL0J5N0" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -27,7 +27,7 @@ gtag('config', 'G-YLMXL0J5N0');
 <li><a target="_blank" rel="noopener" href="https://help.apple.com/applescript/mac/10.9/">AppleScript 帮助</a></li>
 <li><a href="chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://files.cnblogs.com/files/eileenleung/AppleScript.pdf">苹果脚本跟我学</a></li>
 </ul>
-</div><div class="tags"><a href="/tags/macOS"><i class="fa fa-tag">macOS</i></a><a href="/tags/App"><i class="fa fa-tag">App</i></a><a href="/tags/shell"><i class="fa fa-tag">shell</i></a></div><div class="post-nav"><a class="pre" href="/disable-terminal-login-messages/">禁止终端的登录消息</a><a class="next" href="/FlowerPassword-for-Mac-V1-0/">花密 for Mac V1.0</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
+</div><div class="tags"><a href="/tags/App"><i class="fa fa-tag">App</i></a><a href="/tags/macOS"><i class="fa fa-tag">macOS</i></a><a href="/tags/shell"><i class="fa fa-tag">shell</i></a></div><div class="post-nav"><a class="pre" href="/disable-terminal-login-messages/">禁止终端的登录消息</a><a class="next" href="/FlowerPassword-for-Mac-V1-0/">花密 for Mac V1.0</a></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/disqusjs@1.3/dist/disqusjs.css"><script type="text/javascript" src="https://unpkg.com/disqusjs@1.3/dist/disqus.js"></script><script type="text/javascript" id="disqus-count-script">$(function() {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', '//disqus.com/next/config.json', true);
   xhr.timeout = 2500;
@@ -101,7 +101,7 @@ window.addEventListener('load', function () {
 
   function updateTheme(enabled, persist) {
     html.dataset.dark = String(enabled);
-    themeColor.setAttribute('content', enabled ? '#121212' : '#ffffff');
+    themeColor.setAttribute('content', enabled ? '#181a1b' : '#f8f6f2');
     toggle.setAttribute('aria-label', enabled ? '切换到浅色模式' : '切换到深色模式');
     toggle.setAttribute('title', enabled ? '切换到浅色模式' : '切换到深色模式');
 
