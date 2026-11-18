@@ -2131,23 +2131,9 @@ em.search-keyword {
   display: inline;
 }
 
-@font-face {
-  font-family: "Noto Serif SC";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/noto-serif-sc@latest/chinese-simplified-400-normal.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Noto Serif SC";
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/noto-serif-sc@latest/chinese-simplified-500-normal.woff2") format("woff2");
-}
 :root {
   --font-reading: "Noto Serif SC", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", SimSun, serif;
-  --font-ui: var(--font-reading);
+  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --page: #f8f6f2;
   --surface: #f2eee7;
@@ -2183,6 +2169,7 @@ html[data-dark=true] {
 html {
   background: var(--page);
   scroll-padding-top: 1.5rem;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -2213,11 +2200,6 @@ body {
 #layout {
   display: block;
   letter-spacing: normal;
-}
-
-#layout > div {
-  display: block;
-  width: 100%;
 }
 
 a {
@@ -2318,8 +2300,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-nav {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: visible;
   justify-content: space-between;
   gap: 12px 24px;
   padding: 20px 0;
@@ -2328,12 +2311,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-nav a {
+  display: grid;
   float: none;
   max-width: 100%;
   min-height: 44px;
   padding: 8px 0;
   color: var(--accent);
   overflow-wrap: anywhere;
+}
+
+.post-nav a.next {
+  grid-column: 2;
+  text-align: right;
+}
+
+.post-nav a.pre::before, .post-nav a.next::after {
+  content: none;
+}
+
+.post-nav small {
+  color: var(--muted);
+  font-size: 0.75rem;
 }
 
 .post-nav a:hover {
@@ -2347,11 +2345,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post .post-meta {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
   float: none;
   margin: 16px 0 0;
   color: var(--muted);
   font-size: 0.875rem;
+}
+
+.post .post-meta::before, .post .post-meta .category::before {
+  content: none;
+}
+
+.post .post-meta time {
+  font-variant-numeric: tabular-nums;
 }
 
 .post .post-content {

@@ -83,19 +83,22 @@
     padding: 28px 0 16px;
   }
   #header #nav-menu {
-    flex-wrap: nowrap;
-    gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px 4px;
     width: 100%;
-    min-width: 0;
-    padding-block: 4px;
-    overflow-x: auto;
+    padding: 4px;
+    border-radius: var(--radius-small);
+    background: var(--surface);
   }
   #header #nav-menu a {
-    flex: 0 0 auto;
-    gap: 4px;
-    padding-inline: 10px;
+    justify-self: stretch;
+    justify-content: center;
+    padding-inline: 4px;
     font-size: 0.875rem;
-    white-space: nowrap;
+  }
+  #header #nav-menu i {
+    display: none;
   }
   #header #nav-menu a:focus-visible {
     outline-offset: -2px;
