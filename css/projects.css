@@ -32,10 +32,6 @@
   gap: 20px;
 }
 
-.project-grid--mac {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .project-card {
   display: flex;
   flex-direction: column;
@@ -115,11 +111,12 @@
 
 .project-card__links a {
   display: inline-flex;
+  flex: 1 1 auto;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   min-height: 44px;
-  width: 100%;
+  padding-inline-end: 4px;
   font-size: 0.875rem;
 }
 
@@ -141,18 +138,13 @@
     transform: translateY(-2px);
   }
 }
-@media (max-width: 60em) {
-  .project-grid--mac {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
 @media (max-width: 48em) {
   .projects-page {
     padding-top: 32px;
   }
 }
 @media (max-width: 35.5em) {
-  .project-grid, .project-grid--mac {
+  .project-grid {
     grid-template-columns: 1fr;
     gap: 16px;
   }
