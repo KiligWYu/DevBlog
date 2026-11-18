@@ -11,7 +11,7 @@
 
 .poster-wall__title {
   margin: 0;
-  font: 700 clamp(1.75rem, 3.5vw, 2.25rem)/1.4 var(--font-reading);
+  font: 700 clamp(1.75rem, 3.5vw, 2.25rem)/1.4 var(--font-family);
 }
 
 .poster-wall__intro {
@@ -83,7 +83,7 @@
   border: 1px solid transparent;
   border-radius: var(--radius-small);
   cursor: pointer;
-  font: 0.875rem/1.5 var(--font-ui);
+  font: 0.875rem/1.5 var(--font-family);
 }
 
 .poster-wall__filter:hover:not(:disabled) {

@@ -18,7 +18,7 @@
 
 .about-hero__copy h1 {
   margin: 0;
-  font: 700 clamp(1.75rem, 3.5vw, 2.375rem)/1.45 var(--font-reading);
+  font: 700 clamp(1.75rem, 3.5vw, 2.375rem)/1.45 var(--font-family);
 }
 
 .about-hero__copy h1 span {
@@ -35,7 +35,7 @@
 .about-hero__bio {
   margin-top: 20px;
   color: var(--muted);
-  font: 1rem/1.9 var(--font-reading);
+  font: 1rem/var(--prose-leading) var(--font-family);
 }
 
 .about-hero__bio p {

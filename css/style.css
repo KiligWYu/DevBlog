@@ -24,13 +24,24 @@ textarea,
 .MJXc-TeX-unknown-R,
 .pure-g [class*=pure-u] {
   /* Pure loads after this stylesheet, so keep its grid font in sync. */
-  font-family: var(--font-ui) !important;
+  font-family: var(--font-family) !important;
+}
+
+code, kbd, pre, samp {
+  font-family: var(--font-mono);
+}
+
+.widget-title .fa, .tag-name.fa {
+  font-family: var(--font-family);
+}
+.widget-title .fa::before, .tag-name.fa::before {
+  font-family: "FontAwesome";
 }
 
 body {
   background-color: #FFF;
   color: #444;
-  font-family: var(--font-ui);
+  font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 15px;
@@ -94,7 +105,7 @@ div {
   overflow: hidden;
 }
 #header .site-name #logo {
-  font: bold 38px/1.12 var(--font-reading);
+  font: bold 38px/1.12 var(--font-family);
   color: #555;
 }
 #header .site-name #logo span, #header .site-name #logo:hover {
@@ -246,7 +257,7 @@ div {
   margin: 0;
   color: #555;
   text-align: left;
-  font: bold 25px/1.1 var(--font-reading);
+  font: bold 25px/1.1 var(--font-family);
 }
 .post .post-title a {
   color: #555;
@@ -323,7 +334,6 @@ div {
   clear: left;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.77;
   color: #444;
   padding-top: 15px;
   text-align: justify;
@@ -351,7 +361,6 @@ div {
   margin: 0 5px;
   padding: 0 5px;
   background: #f7f8f8;
-  font-family: "JetBrains Mono", Menlo, Consolas, monospace !important;
 }
 .post .post-content p a {
   color: #b35c34;
@@ -397,7 +406,6 @@ div {
   margin: 0 5px;
   padding: 0px 5px;
   background: #f7f8f8;
-  font-family: "JetBrains Mono", Menlo, Consolas, monospace !important;
 }
 .post .post-content ul a,
 .post .post-content ol a {
@@ -515,7 +523,7 @@ div {
 }
 .post-archive h2 {
   margin: 0;
-  font: bold 25px/1.1 var(--font-reading);
+  font: bold 25px/1.1 var(--font-family);
 }
 .post-archive .date {
   padding-right: 0.7em;
@@ -574,7 +582,7 @@ blockquote::before,
 .stressed-quote::before {
   content: "“";
   display: block;
-  font-family: var(--font-ui);
+  font-family: var(--font-family);
   font-style: normal;
   font-size: 48px;
   color: #444;
@@ -588,10 +596,6 @@ strong,
 b,
 em {
   font-weight: bold;
-}
-
-pre {
-  margin: 2em 0;
 }
 
 .hidden1 {
@@ -740,7 +744,7 @@ pre {
 }
 
 #process span.number {
-  font-family: var(--font-ui);
+  font-family: var(--font-family);
   font-style: italic;
   font-size: 20px;
   line-height: 0;
@@ -771,7 +775,7 @@ pre {
 }
 
 .timeline-label p {
-  font-family: var(--font-ui);
+  font-family: var(--font-family);
   margin-bottom: 3px;
 }
 
@@ -882,7 +886,7 @@ pre {
 #process .present,
 #process .born {
   font-size: 14px;
-  font-family: var(--font-ui);
+  font-family: var(--font-family);
   font-style: italic;
   color: #333;
   padding: 10px;
@@ -996,7 +1000,6 @@ pre {
 figure.highlight,
 .codeblock {
   background: #f7f8f8;
-  margin: 10px 0;
   line-height: 1.1em;
   color: #333;
   padding-top: 15px;
@@ -1005,6 +1008,7 @@ figure.highlight,
 figure.highlight table,
 .codeblock table {
   display: block;
+  margin: 0;
   width: 100%;
 }
 figure.highlight pre,
@@ -1016,7 +1020,7 @@ figure.highlight .tag,
 .codeblock .code,
 .codeblock .tag {
   background-color: inherit;
-  font-family: "JetBrains Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   border: none;
   padding: 0;
   margin: 0;
@@ -1075,7 +1079,7 @@ figure.highlight .line,
 
 .gist .line,
 .gist .line-number {
-  font-family: "JetBrains Mono", Menlo, Consolas, monospace;
+  font-family: var(--font-mono);
   font-size: 1em;
   margin: 0 0 5px 0;
   user-select: none;
@@ -1657,7 +1661,7 @@ table tr:nth-child(2n) {
   width: 100%;
   background: none;
   box-sizing: border-box;
-  font: 14px var(--font-reading);
+  font: 14px var(--font-family);
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1762,7 +1766,7 @@ em.search-keyword {
   min-width: 50px;
   padding: 0 14px;
   display: inline-block;
-  font-family: var(--font-ui);
+  font-family: var(--font-family);
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0;
@@ -2132,9 +2136,10 @@ em.search-keyword {
 }
 
 :root {
-  --font-reading: "Noto Serif SC", "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", SimSun, serif;
-  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-family: "Noto Serif SC", "Noto Serif SC Variable", serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --prose-leading: 1.7;
+  --code-leading: 1.55;
   --page: #f8f6f2;
   --surface: #f2eee7;
   --card: #fffefa;
@@ -2176,7 +2181,7 @@ body {
   margin: 0;
   background: var(--page);
   color: var(--text);
-  font: 1rem/1.7 var(--font-ui);
+  font: 1rem/1.6 var(--font-family);
 }
 
 *, *::before, *::after {
@@ -2250,13 +2255,13 @@ h1, h2, h3, h4, h5, h6 {
 .section-eyebrow {
   margin: 0 0 10px;
   color: var(--accent);
-  font: 0.75rem/1.5 var(--font-ui);
+  font: 0.75rem/1.5 var(--font-family);
   letter-spacing: 0.14em;
 }
 
 .section-heading h1, .section-heading h2 {
   margin: 0;
-  font: 700 clamp(1.75rem, 3.5vw, 2.25rem)/1.4 var(--font-reading);
+  font: 700 clamp(1.75rem, 3.5vw, 2.25rem)/1.4 var(--font-family);
 }
 
 .section-heading > p {
@@ -2341,7 +2346,7 @@ h1, h2, h3, h4, h5, h6 {
 .post .post-title {
   margin: 0;
   color: var(--text);
-  font: 700 clamp(1.8rem, 3.5vw, 2.4rem)/1.4 var(--font-reading);
+  font: 700 clamp(1.8rem, 3.5vw, 2.4rem)/1.4 var(--font-family);
 }
 
 .post .post-meta {
@@ -2366,13 +2371,13 @@ h1, h2, h3, h4, h5, h6 {
 .post .post-content {
   padding-top: 32px;
   color: var(--text);
-  font: 400 1.125rem/1.9 var(--font-reading);
+  font: 400 1.125rem/var(--prose-leading) var(--font-family);
   text-align: left;
   overflow-wrap: anywhere;
 }
 
 .post .post-content h2 {
-  margin: 2.2em 0 0.8em;
+  margin: 1.6em 0 0.55em;
   padding-bottom: 0.35em;
   border-color: var(--border);
   font-size: 1.6em;
@@ -2380,18 +2385,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post .post-content h3 {
-  margin: 1.8em 0 0.7em;
+  margin: 1.45em 0 0.5em;
   font-size: 1.3em;
   line-height: 1.5;
 }
 
 .post .post-content h4, .post .post-content h5, .post .post-content h6 {
-  margin: 1.6em 0 0.6em;
+  margin: 1.3em 0 0.45em;
   font-size: 1.1em;
+  line-height: 1.45;
 }
 
 .post .post-content p {
-  margin: 0 0 1.4em;
+  margin: 0 0 1em;
 }
 
 .post .post-content ul, .post .post-content ol {
@@ -2399,7 +2405,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post .post-content li {
-  margin: 0.35em 0;
+  margin: 0.25em 0;
 }
 
 .post .post-content li > ul, .post .post-content li > ol {
@@ -2432,11 +2438,11 @@ h1, h2, h3, h4, h5, h6 {
 .post .post-content .caption {
   margin: 0.5em auto 1.8em;
   color: var(--muted);
-  font: 0.875rem/1.6 var(--font-ui);
+  font: 0.875rem/1.6 var(--font-family);
 }
 
 .post .post-content blockquote {
-  margin: 1.8em 0;
+  margin: 1.25em 0;
   padding: 0.2em 0 0.2em 1.2em;
   border-left: 3px solid var(--border);
   color: var(--muted);
@@ -2454,6 +2460,14 @@ h1, h2, h3, h4, h5, h6 {
   border-color: var(--border);
 }
 
+.post .post-content :has(+ :is(pre, figure.highlight, .codeblock, .plain-code)) {
+  margin-bottom: 0;
+}
+
+.post .post-content :is(pre, figure.highlight, .codeblock, .plain-code) + :not(pre, figure.highlight, .codeblock, .plain-code) {
+  margin-top: 0;
+}
+
 .post .post-content code, .post .post-content p code, .post .post-content ul code, .post .post-content ol code {
   display: inline;
   margin: 0;
@@ -2467,9 +2481,9 @@ h1, h2, h3, h4, h5, h6 {
 .post .post-content pre {
   max-width: 100%;
   overflow-x: auto;
-  padding: 1em;
+  padding: 0.5rem 1em;
   background: var(--surface);
-  font: 0.875rem/1.7 var(--font-mono);
+  font: 0.875rem/var(--code-leading) var(--font-mono);
   text-align: left;
 }
 
@@ -2484,7 +2498,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   overflow-x: auto;
   border-collapse: collapse;
-  font: 1rem/1.6 var(--font-ui);
+  font: 1rem/1.6 var(--font-family);
 }
 
 .post .post-content > table th, .post .post-content > table td {
@@ -2492,27 +2506,31 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid var(--border);
 }
 
+pre, figure.highlight, .codeblock {
+  margin: 0.75rem 0;
+}
+
 figure.highlight, .codeblock {
   position: relative;
-  margin: 1.7em 0;
   padding: 0;
   background: var(--surface);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 4px;
-  line-height: 1.7;
+  line-height: var(--code-leading);
 }
 
 figure.highlight table, .codeblock table {
   display: table;
-  table-layout: fixed;
+  table-layout: auto;
   width: 100%;
   border-collapse: collapse;
 }
 
 figure.highlight .gutter, .codeblock .gutter {
-  width: 3.5em;
-  padding: 1em 0.7em;
+  width: 1%;
+  padding: 0.5rem 0.375rem;
+  text-align: right;
   border-color: var(--border);
   color: var(--muted);
   background: var(--surface);
@@ -2520,7 +2538,8 @@ figure.highlight .gutter, .codeblock .gutter {
 
 figure.highlight .code, .codeblock .code {
   width: auto;
-  padding: 1em;
+  max-width: 0;
+  padding: 0.5rem 1em;
 }
 
 figure.highlight .code pre, figure.highlight .gutter pre, .codeblock .code pre, .codeblock .gutter pre {
@@ -2529,7 +2548,7 @@ figure.highlight .code pre, figure.highlight .gutter pre, .codeblock .code pre, 
   margin: 0;
   padding: 0;
   overflow-x: auto;
-  font: 0.875rem/1.7 var(--font-mono);
+  font: 0.875rem/var(--code-leading) var(--font-mono);
 }
 
 figure.highlight .gutter pre, .codeblock .gutter pre {
@@ -2563,7 +2582,7 @@ figure.highlight.has-copy .gutter, .codeblock.has-copy .gutter {
 .post-archive h2 {
   margin: 0 0 18px;
   color: var(--muted);
-  font: 1.3rem/1.4 var(--font-ui);
+  font: 1.3rem/1.4 var(--font-family);
 }
 
 .post-archive .listing {
@@ -2583,7 +2602,7 @@ figure.highlight.has-copy .gutter, .codeblock.has-copy .gutter {
 .post-archive .date {
   padding: 0;
   color: var(--muted);
-  font: 0.875rem/1.9 var(--font-ui);
+  font: 0.875rem/1.6 var(--font-family);
 }
 
 .post-archive a {
@@ -2628,7 +2647,7 @@ figure.highlight.has-copy .gutter, .codeblock.has-copy .gutter {
   border-top: 1px solid var(--border);
   color: var(--muted);
   font-size: 0.875rem;
-  line-height: 1.9;
+  line-height: 1.6;
 }
 
 #footer a {
@@ -2666,7 +2685,7 @@ figure.highlight.has-copy .gutter, .codeblock.has-copy .gutter {
   background: var(--surface);
   border-color: var(--border);
   border-radius: var(--radius-small);
-  font: 0.875rem/1.8 var(--font-ui);
+  font: 0.875rem/1.8 var(--font-family);
   max-width: 100%;
 }
 

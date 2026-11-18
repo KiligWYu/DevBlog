@@ -52,7 +52,7 @@
 
 .home-card__title {
   margin: 0;
-  font: 700 clamp(1.25rem, 2.5vw, 1.55rem)/1.45 var(--font-reading);
+  font: 700 clamp(1.25rem, 2.5vw, 1.55rem)/1.45 var(--font-family);
   overflow-wrap: anywhere;
 }
 
@@ -77,7 +77,7 @@
   overflow: hidden;
   margin: 10px 0 0;
   color: var(--text);
-  font: 1rem/1.8 var(--font-reading);
+  font: 1rem/var(--prose-leading) var(--font-family);
 }
 
 .home-card--lead .home-card__summary {
@@ -133,7 +133,7 @@
 
 .archive-year__header h2 {
   margin: 0;
-  font: 500 1.75rem/1.4 var(--font-reading);
+  font: 500 1.75rem/1.4 var(--font-family);
 }
 
 .archive-year__header a {

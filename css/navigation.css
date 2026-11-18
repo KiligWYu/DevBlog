@@ -12,7 +12,7 @@
 #header .site-name #logo {
   display: inline-block;
   color: var(--text);
-  font: 700 clamp(1.8rem, 3.8vw, 2.375rem)/1.2 var(--font-reading);
+  font: 700 clamp(1.8rem, 3.8vw, 2.375rem)/1.2 var(--font-family);
   letter-spacing: -0.025em;
 }
 #header .site-name #logo:hover {

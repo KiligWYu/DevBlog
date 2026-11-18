@@ -21,8 +21,6 @@
   document.querySelectorAll('figure.highlight, .post-content > pre').forEach(function (block) {
     var code = block.querySelector('.code pre') || (block.tagName === 'PRE' ? block : null);
     if (!code) return;
-    code.tabIndex = 0;
-    code.setAttribute('aria-label', 'Code block');
     // A wrapper keeps controls outside the text copied from plain code blocks.
     var container = block;
     if (block.tagName === 'PRE') {
