@@ -81,6 +81,7 @@
   color: var(--muted);
   font-size: 0.9375rem;
   line-height: var(--prose-leading);
+  white-space: pre-line;
 }
 
 .project-card__features {
